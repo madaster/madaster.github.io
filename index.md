@@ -1,4 +1,3 @@
-@import "{{ site.theme }}";
 <h3>General Information</h3>
 <p>Welcome to the Madaster-platform!</p>
 
