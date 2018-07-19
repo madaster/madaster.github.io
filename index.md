@@ -15,15 +15,11 @@
 
 <p>Do you still have questions after reading the information? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.</p>
 
-<h3 style="margin: 0cm 0cm 8pt;">&nbsp;</h3>
-
-<h3 style="margin: 0cm 0cm 8pt;">Release Notes</h3>
+<h3>Release Notes</h3>
 
 <p>Click <a href="https://www.madaster.com/download_file/view/715" target="_blank">here</a> for more information about the latest release (16-07-2018).&nbsp;</p>
 
-<p>&nbsp;</p>
-
-<h3 style="margin: 0cm 0cm 8pt;">History</h3>
+<h3>History</h3>
 
 <p><a href="https://www.madaster.com/download_file/view/672">Release notes Juni 25th 2018</a></p>
 
