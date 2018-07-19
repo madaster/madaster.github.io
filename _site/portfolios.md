@@ -1,3 +1,7 @@
+---
+title: Portfolios
+---
+
 Welke informatie wordt hier getoond?
 U vindt hier alle portfolio’s die in dit account zijn aangemaakt. Een portfolio kan gezien worden als een specifieke verzameling van gebouwen. U kunt de weergave van de portfolio’s wijzigen door aan de linkerkant op ‘Bekijk’ te klikken. Hierbij kunt u kiezen tussen een lijst van de portfolio’s waarbij de naam en de eigenaar wordt weergegeven of tegels met de afbeelding van het portfolio. Dit kunt u ieder moment naar wens wijzigen.
 
