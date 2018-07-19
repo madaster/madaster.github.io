@@ -1,1 +1,8 @@
 @import "{{ site.theme }}";
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #003a60;
+    background-image: linear-gradient(to right, #003b60, #63A8C1);
+}
