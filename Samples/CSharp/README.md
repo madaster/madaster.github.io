@@ -1,3 +1,7 @@
+---
+title: Readme
+---
+
 # IO.Swagger - the C# library for the Madaster Private API
 
 The Madaster Private API endpoint.
