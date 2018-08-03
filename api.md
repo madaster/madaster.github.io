@@ -19,26 +19,25 @@ This will give you access to these resources and their attached entities.
 ### Add a token to a portfolio
 - Go to the building page and click on the *Users* tab
 
-![Step 1](images/api/addbuildingotoken1.png)
+![Step 1](assets/images/api/addbuildingotoken1.png)
 
 - Click on the *Add API Token* button
 
-![Step 2](images/api/addbuildingtoken2.png)
+![Step 2](assets/images/api/addbuildingtoken2.png)
 
 - Enter a name for this token, click on the gear icon (2), choose a permission level and expiration time, and finish by clicking on the Add button
 
 ![Step 3](assets/images/api/addtoken3.png)
-<img src="assets/images/api/addtoken3.png">
 
 ### Add a token to a building
 - Go to the portfolio page and click on the *Users* tab
 
-![Step 1](images/api/addportfoliotoken1.png)
+![Step 1](assets/images/api/addportfoliotoken1.png)
 
 - Click on the *Add API Token* button
 
-![Step 2](images/api/addportfoliotoken2.png)
+![Step 2](assets/images/api/addportfoliotoken2.png)
 
 - Enter a name for this token, click on the gear icon (2), choose a permission level and expiration time, and finish by clicking on the Add button
 
-![Step 3](images/api/addtoken3.png)
+![Step 3](assets/images/api/addtoken3.png)
