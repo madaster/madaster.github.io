@@ -8,7 +8,7 @@ This token should be sent as a header with the name 'X-API-Key', which will auth
 To find out which requests are available and which responses they might produce, see the [*docs*](https://api.madaster.com/docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 This API can be reached at the endpoint: **[https://api.madaster.com/](https://api.madaster.com/)**<br/>
-The interactive Swagger/OpenAPI documentation can be found at: **[https://api.madaster.com/swagger](https://api.madaster.com/swagger)**<br/>
+The interactive Swagger/OpenAPI documentation: **[https://api.madaster.com/swagger](https://api.madaster.com/swagger)**<br/>
 If you prefer a static documentation: **[https://api.madaster.com/docs](https://api.madaster.com/docs)**
 
 ## Authorization
