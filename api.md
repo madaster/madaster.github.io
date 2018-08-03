@@ -16,7 +16,7 @@ To access the resources of this API, you need an API key. This key needs to be a
 To acquire an API key, you need to add a token to either a Portfolio or a Building in the Madaster Platform, or ask your account manager to do this for you.
 This will give you access to these resources and their attached entities.
 
-### Add a token to a portfolio
+### Add a token to a building
 - Go to the building page and click on the *Users* tab
 
 ![Step 1](assets/images/api/addbuildingotoken1.png)
@@ -29,7 +29,7 @@ This will give you access to these resources and their attached entities.
 
 ![Step 3](assets/images/api/addtoken3.png)
 
-### Add a token to a building
+### Add a token to a portfolio
 - Go to the portfolio page and click on the *Users* tab
 
 ![Step 1](assets/images/api/addportfoliotoken1.png)
