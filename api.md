@@ -54,7 +54,7 @@ The API is continually being improved, so as time progresses, more *versions* ar
 
 ![Postman](assets/images/api/postman.png)
 
-### C#
+### C\#
 Using any programming language, look for a HTTP client or Web Request client to access the REST resources. The HttpClient in C# for example can be used:
 
 ```csharp
