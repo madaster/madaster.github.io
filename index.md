@@ -17,7 +17,7 @@
 
 <h3>Release Notes</h3>
 
-<p>Click <a href="https://www.madaster.com/download_file/view/715" target="_blank">here</a> for more information about the latest release (16-07-2018).&nbsp;</p>
+<p>Click <a href="https://www.madaster.com/download_file/view/715" target="_blank">here</a> for more information about the latest release: Release 2018.6 "Gaudi" on 16-07-2018.</p>
 
 <h3>History</h3>
 
