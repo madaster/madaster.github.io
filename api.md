@@ -28,6 +28,8 @@ This will give you access to these resources and their attached entities.
 - Enter a name for this token, click on the gear icon (2), choose a permission level and expiration time, and finish by clicking on the Add button
 
 ![Step 3](images/api/addtoken3.png)
+<img src="{{ site.baseurl }}/assets/images/api.addtoken3.png">
+<img src="assets/images/api.addtoken3.png">
 
 ### Add a token to a building
 - Go to the portfolio page and click on the *Users* tab
