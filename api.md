@@ -19,7 +19,7 @@ This will give you access to these resources and their attached entities.
 ### Add a token to a building
 - Go to the building page and click on the *Users* tab
 
-![Step 1](assets/images/api/addbuildingotoken1.png)
+![Step 1](assets/images/api/addbuildingtoken1.png)
 
 - Click on the *Add API Token* button
 
