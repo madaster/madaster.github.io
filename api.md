@@ -1,11 +1,11 @@
 # Madaster Private API
 The **Madaster Private API** endpoint can be used to interact with the Madaster Platform and its resources.
-This API does not fully cover all functionality of the platform yet, please refer to the [*docs*](https://api.madaster.com/docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 To access the API resources, you need an authorization token.
 If you do not have one yet, see the chapter about Authorization below.
 This token should be sent as a header with the name 'X-API-Key', which will authenticate the request with the token.
-To find out which requests are available and which responses they might produce, see the [*docs*](https://api.madaster.com/docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+To find out which requests are available and which responses they might produce, see the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 This API can be reached at the endpoint: **[https://api.madaster.com/](https://api.madaster.com/)**<br/>
 The interactive Swagger/OpenAPI documentation: **[https://api.madaster.com/swagger](https://api.madaster.com/swagger)**<br/>
