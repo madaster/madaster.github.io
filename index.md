@@ -14,11 +14,11 @@
 
 <p>Do you still have any questions after reading this information? Contact Madaster by telephone on 085-0657436 or by e-mail at <a href="mailto:service@madaster.com">service@madaster.com</a>.</p>
 
-<h3>Release Notes</h3>
+## Release Notes
 
 <p>Click <a href="https://www.madaster.com/download_file/view/763" target="_blank">here</a> for more information about the latest release (07-08-2018).</p>
 
-<h3>History</h3>
+## History
 
 <p><a href="https://www.madaster.com/download_file/view/715">Release notes July 16th 2018</a></p>
 
