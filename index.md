@@ -1,4 +1,4 @@
-<h3>General Information</h3>
+# General Information
 
 <p>Are you looking for <strong>general information</strong> about this platform? Click<a href="http://www-t.madaster.com/download_file/view/283"> </a><b><a href="http://www.madaster.com/download_file/view/283">here</a></b>. A new page will open, where you will find all the information about the platform, different types of source files, uploading files and how to use the platform.</p>
 
