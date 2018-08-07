@@ -45,7 +45,7 @@
                 <a href="#operation--api-v1.1-buildings--id--images-post"> Adds an image to a building. </a>
               </li>
               <li>
-                <a href="#operation--api-v1.1-buildings--id--validate-get"> Gets building validation parameters. </a>
+                <a href="#operation--api-v1.1-buildings--id--validation-get"> Gets building validation parameters. </a>
               </li>
               <li>
                 <a href="#operation--api-v1.1-buildings--id--users-get"> Gets all users for a building. </a>
@@ -276,9 +276,12 @@
           <a href="#definition-v1_1BuildingRequest"> v1_1BuildingRequest </a>
           <a href="#definition-BuildingRequest"> BuildingRequest </a>
           <a href="#definition-IFormFile"> IFormFile </a>
-          <a href="#definition-v1_1ValidationGraph"> v1_1ValidationGraph </a>
+          <a href="#definition-v1_1BuildingValidation"> v1_1BuildingValidation </a>
           <a href="#definition-v1_1UserRightResponse"> v1_1UserRightResponse </a>
           <a href="#definition-v1_1UserRightRequest"> v1_1UserRightRequest </a>
+          <a href="#definition-v1_1BuildingCircularInformation"> v1_1BuildingCircularInformation </a>
+          <a href="#definition-v1_1BuildingFinancialInformation"> v1_1BuildingFinancialInformation </a>
+          <a href="#definition-v1_1BuildingFinancialInformationPerBuildingLevel"> v1_1BuildingFinancialInformationPerBuildingLevel </a>
           <a href="#definition-BuildingFileResponse"> BuildingFileResponse </a>
           <a href="#definition-BuildingFileValidation"> BuildingFileValidation </a>
           <a href="#definition-v1_1BuildingFileRequest"> v1_1BuildingFileRequest </a>
@@ -1935,7 +1938,7 @@
               </div>
             </div>
           </div>
-          <div id="operation--api-v1.1-buildings--id--validate-get" class="operation panel" data-traverse-target="operation--api-v1.1-buildings--id--validate-get">
+          <div id="operation--api-v1.1-buildings--id--validation-get" class="operation panel" data-traverse-target="operation--api-v1.1-buildings--id--validation-get">
             <!-- <section class="operation-tags row"> -->
             <!-- <div class="doc-copy"> -->
             <div class="operation-tags">
@@ -1951,14 +1954,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">GET</span>
-                  <span class="operation-path">/api/v1.1/buildings/{id}/validate</span>
+                  <span class="operation-path">/api/v1.1/buildings/{id}/validation</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request: </p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/buildings/</span>[id]<span class="hljs-string">/validate</span>
+                  <p>Sample request:</p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/buildings/</span>[id]<span class="hljs-string">/validation</span>
 </code></pre> </section>
               </div>
             </div>
@@ -1992,25 +1995,14 @@
                     <div class="prop-name">
                       <div class="prop-title">200 OK</div>
                       <div class="prop-ref">
-                        <span class="json-schema-ref-array">
-                          <a class="json-schema-ref" href="#/definitions/v1_1ValidationGraph">v1_1ValidationGraph</a>
+                        <span class="">
+                          <a class="json-schema-ref" href="#/definitions/v1_1BuildingValidation">v1_1BuildingValidation</a>
                         </span>
                       </div>
                       <!-- <span class="swagger-global"></span> <span class="json-schema-reference"><a href=""></a></span> -->
                     </div>
                     <div class="prop-value">
-                      <p>A list of building validation paramaters for the active source files.</p>
-                    </div>
-                  </div>
-                  <div class="prop-row prop-inner">
-                    <div class="prop-name">type</div>
-                    <div class="prop-value">
-                      <span class="json-property-type">
-                        <span class="json-schema-ref-array">
-                          <a class="json-schema-ref" href="#/definitions/v1_1ValidationGraph">v1_1ValidationGraph</a>
-                        </span>
-                      </span>
-                      <span class="json-property-range" title="Value limits"></span>
+                      <p>The building validation paramaters for the active source files.</p>
                     </div>
                   </div>
                   <div class="prop-row prop-group">
@@ -2101,13 +2093,19 @@
                   <h5>Response Example
                     <span>(200 OK)</span>
                   </h5>
-                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
-  {
-    <span class="hljs-attr">&quot;graphId&quot;</span>: <span class="hljs-string">&quot;string&quot;</span>,
-    <span class="hljs-attr">&quot;percentage&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;description&quot;</span>: <span class="hljs-string">&quot;string&quot;</span>
-  }
-]
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
+}
 </code></pre>
                   <!-- </div> -->
                 </section>
@@ -3312,18 +3310,15 @@
                   <div class="prop-row prop-group">
                     <div class="prop-name">
                       <div class="prop-title">200 OK</div>
-                      <div class="prop-ref"> </div>
+                      <div class="prop-ref">
+                        <span class="">
+                          <a class="json-schema-ref" href="#/definitions/v1_1BuildingCircularInformation">v1_1BuildingCircularInformation</a>
+                        </span>
+                      </div>
                       <!-- <span class="swagger-global"></span> <span class="json-schema-reference"><a href=""></a></span> -->
                     </div>
                     <div class="prop-value">
                       <p>The request was successful and will return the building&#39;s circular information.</p>
-                    </div>
-                  </div>
-                  <div class="prop-row prop-inner">
-                    <div class="prop-name">type</div>
-                    <div class="prop-value">
-                      <span class="json-property-type">string</span>
-                      <span class="json-property-range" title="Value limits"></span>
                     </div>
                   </div>
                   <div class="prop-row prop-group">
@@ -3414,7 +3409,15 @@
                   <h5>Response Example
                     <span>(200 OK)</span>
                   </h5>
-                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json"><span class="hljs-string">&quot;string&quot;</span>
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;circularityConstructionPhase&quot;</span>: <span class="hljs-number">0.09</span>,
+  <span class="hljs-attr">&quot;circularityUsagePhase&quot;</span>: <span class="hljs-number">0.63</span>,
+  <span class="hljs-attr">&quot;circularityEndOfLifePhase&quot;</span>: <span class="hljs-number">0.04</span>,
+  <span class="hljs-attr">&quot;ciScoreBuilding&quot;</span>: <span class="hljs-number">0.05</span>,
+  <span class="hljs-attr">&quot;correctionUnknownMaterials&quot;</span>: <span class="hljs-number">0.8</span>,
+  <span class="hljs-attr">&quot;correctionUnknownBrandLayer&quot;</span>: <span class="hljs-number">0.87</span>,
+  <span class="hljs-attr">&quot;madasterCiScore&quot;</span>: <span class="hljs-number">0.05</span>
+}
 </code></pre>
                   <!-- </div> -->
                 </section>
@@ -3565,18 +3568,15 @@
                   <div class="prop-row prop-group">
                     <div class="prop-name">
                       <div class="prop-title">200 OK</div>
-                      <div class="prop-ref"> </div>
+                      <div class="prop-ref">
+                        <span class="">
+                          <a class="json-schema-ref" href="#/definitions/v1_1BuildingFinancialInformation">v1_1BuildingFinancialInformation</a>
+                        </span>
+                      </div>
                       <!-- <span class="swagger-global"></span> <span class="json-schema-reference"><a href=""></a></span> -->
                     </div>
                     <div class="prop-value">
                       <p>The request was successful and will return the building&#39;s financial information.</p>
-                    </div>
-                  </div>
-                  <div class="prop-row prop-inner">
-                    <div class="prop-name">type</div>
-                    <div class="prop-value">
-                      <span class="json-property-type">string</span>
-                      <span class="json-property-range" title="Value limits"></span>
                     </div>
                   </div>
                   <div class="prop-row prop-group">
@@ -3667,7 +3667,55 @@
                   <h5>Response Example
                     <span>(200 OK)</span>
                   </h5>
-                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json"><span class="hljs-string">&quot;string&quot;</span>
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;currentValue&quot;</span>: <span class="hljs-number">3774692</span>,
+  <span class="hljs-attr">&quot;currentValuePerMaterialFamily&quot;</span>: {
+    <span class="hljs-attr">&quot;stone&quot;</span>: <span class="hljs-number">-484427</span>,
+    <span class="hljs-attr">&quot;glass&quot;</span>: <span class="hljs-number">-67714</span>,
+    <span class="hljs-attr">&quot;wood&quot;</span>: <span class="hljs-number">-9731</span>,
+    <span class="hljs-attr">&quot;plastic&quot;</span>: <span class="hljs-number">-38027</span>,
+    <span class="hljs-attr">&quot;organic&quot;</span>: <span class="hljs-number">-10133</span>,
+    <span class="hljs-attr">&quot;metal&quot;</span>: <span class="hljs-number">4384724</span>
+  },
+  <span class="hljs-attr">&quot;ncwValue&quot;</span>: <span class="hljs-number">-4931739</span>,
+  <span class="hljs-attr">&quot;ncwValuePerBuildingLevel&quot;</span>: [
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;26a9ccae-ca9d-4cf0-9683-503321791978&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Site&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-1102967</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;9804b68f-25b5-4224-a408-1eca54aaa5bc&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Structure&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-2638551</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;b3f780d4-3a36-4dce-a8d0-e98557f73713&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Skin&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-794324</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;e8cf6e3d-35e4-4c61-8d72-fa417b0e9328&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Services&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-173276</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;f70048be-590e-4e5a-8a1f-09763d26ec87&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Space plan&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-222791</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;82c1967b-1f20-4c1f-8fe2-685a23ab01be&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Stuff&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">157</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;e2f286ba-6c71-425e-8d99-b9a00895be95&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Unknown&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">13</span>
+    }
+  ]
+}
 </code></pre>
                   <!-- </div> -->
                 </section>
@@ -3910,17 +3958,17 @@
       <span class="hljs-string">&quot;string&quot;</span>
     ],
     <span class="hljs-attr">&quot;validation&quot;</span>: {
-      <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-      <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+      <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+      <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
     },
     <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>
   }
@@ -4181,17 +4229,17 @@
     <span class="hljs-string">&quot;string&quot;</span>
   ],
   <span class="hljs-attr">&quot;validation&quot;</span>: {
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
   },
   <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>
 }
@@ -4435,17 +4483,17 @@
     <span class="hljs-string">&quot;string&quot;</span>
   ],
   <span class="hljs-attr">&quot;validation&quot;</span>: {
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
   },
   <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>
 }
@@ -5147,17 +5195,17 @@
     <span class="hljs-string">&quot;string&quot;</span>
   ],
   <span class="hljs-attr">&quot;validation&quot;</span>: {
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
   },
   <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>
 }
@@ -7340,7 +7388,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -7470,7 +7518,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -7599,7 +7647,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -7732,7 +7780,7 @@
                   <h5>Request Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
@@ -7848,7 +7896,7 @@
                   </h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
@@ -12327,7 +12375,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -12457,7 +12505,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -12586,7 +12634,7 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">[
   {
     <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+    <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
     <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
     <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
   }
@@ -12719,7 +12767,7 @@
                   <h5>Request Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
@@ -12835,7 +12883,7 @@
                   </h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
@@ -18433,9 +18481,9 @@
               </div>
             </div>
           </div>
-          <div id="definition-v1_1ValidationGraph" class="definition panel" data-traverse-target="definition-v1_1ValidationGraph">
+          <div id="definition-v1_1BuildingValidation" class="definition panel" data-traverse-target="definition-v1_1BuildingValidation">
             <h2 class="panel-title">
-              <a name="/definitions/v1_1ValidationGraph"></a>v1_1ValidationGraph: object
+              <a name="/definitions/v1_1BuildingValidation"></a>v1_1BuildingValidation: object
               <!-- <span class="json-property-type">
               <span class="json-property-type">object</span>
               <span class="json-property-range" title="Value limits"></span>
@@ -18445,24 +18493,110 @@
             </h2>
             <div class="doc-row">
               <div class="doc-copy">
+                <section class="json-schema-description">
+                  <p>Validation data about a building</p>
+                </section>
                 <section class="json-schema-properties">
                   <dl>
-                    <dt data-property-name="graphId">
-                      <span class="json-property-name">graphId:</span>
-                      <span class="json-property-type">string</span>
-                      <span class="json-property-range" title="Value limits"></span>
-                    </dt>
-                    <dt data-property-name="percentage">
-                      <span class="json-property-name">percentage:</span>
+                    <dt data-property-name="percentageClassificationAssignedByNumber" class="has-description">
+                      <span class="json-property-name">percentageClassificationAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="description">
-                      <span class="json-property-name">description:</span>
-                      <span class="json-property-type">string</span>
+                    <dd>
+                      <p>The percentage of elements that have an assigned classifications, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageClassificationAssignedByVolume" class="has-description">
+                      <span class="json-property-name">percentageClassificationAssignedByVolume:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
+                    <dd>
+                      <p>The percentage of elements that have an assigned classifications, counted by volume of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageVolumeBaseQuantityAssignedByNumber" class="has-description">
+                      <span class="json-property-name">percentageVolumeBaseQuantityAssignedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have a volume base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageAreaBaseQuantityAssignedByNumber" class="has-description">
+                      <span class="json-property-name">percentageAreaBaseQuantityAssignedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have an area base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageLengthBaseQuantityAssignedByNumber" class="has-description">
+                      <span class="json-property-name">percentageLengthBaseQuantityAssignedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have a length base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageBaseQuantitiesAssignedByNumber" class="has-description">
+                      <span class="json-property-name">percentageBaseQuantitiesAssignedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have base quantity information, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageMaterialSpecifiedByNumber" class="has-description">
+                      <span class="json-property-name">percentageMaterialSpecifiedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have a material specified, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageMaterialSpecifiedByVolume" class="has-description">
+                      <span class="json-property-name">percentageMaterialSpecifiedByVolume:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have a material specified, counted by volume of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsWithKnownMassByNumber" class="has-description">
+                      <span class="json-property-name">percentageElementsWithKnownMassByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have a known mass, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsMappedByNumber" class="has-description">
+                      <span class="json-property-name">percentageElementsMappedByNumber:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have been mapped to an element, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsMappedByVolume" class="has-description">
+                      <span class="json-property-name">percentageElementsMappedByVolume:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of elements that have been mapped to an element, counted by volume of elements</p>
+                    </dd>
                   </dl>
                 </section>
               </div>
@@ -18470,9 +18604,17 @@
                 <section>
                   <h5>Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
-  <span class="hljs-attr">&quot;graphId&quot;</span>: <span class="hljs-string">&quot;string&quot;</span>,
-  <span class="hljs-attr">&quot;percentage&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;description&quot;</span>: <span class="hljs-string">&quot;string&quot;</span>
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
 }
 </code></pre>
                   <!-- </div> -->
@@ -18592,6 +18734,282 @@
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;userId&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>,
   <span class="hljs-attr">&quot;level&quot;</span>: <span class="hljs-string">&quot;integer (int32)&quot;</span>
+}
+</code></pre>
+                  <!-- </div> -->
+                </section>
+              </div>
+            </div>
+          </div>
+          <div id="definition-v1_1BuildingCircularInformation" class="definition panel" data-traverse-target="definition-v1_1BuildingCircularInformation">
+            <h2 class="panel-title">
+              <a name="/definitions/v1_1BuildingCircularInformation"></a>v1_1BuildingCircularInformation: object
+              <!-- <span class="json-property-type">
+              <span class="json-property-type">object</span>
+              <span class="json-property-range" title="Value limits"></span>
+              
+              
+              </span> -->
+            </h2>
+            <div class="doc-row">
+              <div class="doc-copy">
+                <section class="json-schema-description">
+                  <p>Circular information about a building</p>
+                </section>
+                <section class="json-schema-properties">
+                  <dl>
+                    <dt data-property-name="circularityConstructionPhase" class="has-description">
+                      <span class="json-property-name">circularityConstructionPhase:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The use of non-virgin materials during the construction phase.</p>
+                    </dd>
+                    <dt data-property-name="circularityUsagePhase" class="has-description">
+                      <span class="json-property-name">circularityUsagePhase:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The utility of the building.</p>
+                    </dd>
+                    <dt data-property-name="circularityEndOfLifePhase" class="has-description">
+                      <span class="json-property-name">circularityEndOfLifePhase:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The percentage of the content that is recoverable during the end-of-life phase.</p>
+                    </dd>
+                    <dt data-property-name="ciScoreBuilding" class="has-description">
+                      <span class="json-property-name">ciScoreBuilding:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The combined CI score of the building using the circularity of the phases.</p>
+                    </dd>
+                    <dt data-property-name="correctionUnknownMaterials" class="has-description">
+                      <span class="json-property-name">correctionUnknownMaterials:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The applicable correction for the amount of elements that have a known material.</p>
+                    </dd>
+                    <dt data-property-name="correctionUnknownBrandLayer" class="has-description">
+                      <span class="json-property-name">correctionUnknownBrandLayer:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The applicable correction for the amount of elements that have a known brand layer.</p>
+                    </dd>
+                    <dt data-property-name="madasterCiScore" class="has-description">
+                      <span class="json-property-name">madasterCiScore:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The final Madaster CI score, taking into account the corrections on the CI score.</p>
+                    </dd>
+                  </dl>
+                </section>
+              </div>
+              <div class="doc-examples">
+                <section>
+                  <h5>Example</h5>
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;circularityConstructionPhase&quot;</span>: <span class="hljs-number">0.09</span>,
+  <span class="hljs-attr">&quot;circularityUsagePhase&quot;</span>: <span class="hljs-number">0.63</span>,
+  <span class="hljs-attr">&quot;circularityEndOfLifePhase&quot;</span>: <span class="hljs-number">0.04</span>,
+  <span class="hljs-attr">&quot;ciScoreBuilding&quot;</span>: <span class="hljs-number">0.05</span>,
+  <span class="hljs-attr">&quot;correctionUnknownMaterials&quot;</span>: <span class="hljs-number">0.8</span>,
+  <span class="hljs-attr">&quot;correctionUnknownBrandLayer&quot;</span>: <span class="hljs-number">0.87</span>,
+  <span class="hljs-attr">&quot;madasterCiScore&quot;</span>: <span class="hljs-number">0.05</span>
+}
+</code></pre>
+                  <!-- </div> -->
+                </section>
+              </div>
+            </div>
+          </div>
+          <div id="definition-v1_1BuildingFinancialInformation" class="definition panel" data-traverse-target="definition-v1_1BuildingFinancialInformation">
+            <h2 class="panel-title">
+              <a name="/definitions/v1_1BuildingFinancialInformation"></a>v1_1BuildingFinancialInformation: object
+              <!-- <span class="json-property-type">
+              <span class="json-property-type">object</span>
+              <span class="json-property-range" title="Value limits"></span>
+              
+              
+              </span> -->
+            </h2>
+            <div class="doc-row">
+              <div class="doc-copy">
+                <section class="json-schema-description">
+                  <p>Financial information about a building</p>
+                </section>
+                <section class="json-schema-properties">
+                  <dl>
+                    <dt data-property-name="currentValue" class="has-description">
+                      <span class="json-property-name">currentValue:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The current value of the building, combining the value of all material families at the current time.</p>
+                    </dd>
+                    <dt data-property-name="currentValuePerMaterialFamily" class="has-description">
+                      <span class="json-property-name">currentValuePerMaterialFamily:</span>
+                      <span class="json-property-type">object</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The current value of the building per material family.</p>
+                    </dd>
+                    <dt data-property-name="ncwValue" class="has-description">
+                      <span class="json-property-name">ncwValue:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The netto value (NCW) of the building, taking into account rates and indexes, combining the value of all building levels.</p>
+                    </dd>
+                    <dt data-property-name="ncwValuePerBuildingLevel" class="has-description">
+                      <span class="json-property-name">ncwValuePerBuildingLevel:</span>
+                      <span class="json-property-type">
+                        <span class="json-schema-ref-array">
+                          <a class="json-schema-ref" href="#/definitions/v1_1BuildingFinancialInformationPerBuildingLevel">v1_1BuildingFinancialInformationPerBuildingLevel</a>
+                        </span>
+                      </span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dd>
+                      <p>The netto value (NCW) of the building, taking into account rates and indexes, per building level.</p>
+                    </dd>
+                    <dt class="json-inner-schema">
+                      <section class="json-schema-array-items">
+                        <span class="json-property-type">
+                          <span class="">
+                            <a class="json-schema-ref" href="#/definitions/v1_1BuildingFinancialInformationPerBuildingLevel">v1_1BuildingFinancialInformationPerBuildingLevel</a>
+                          </span>
+                        </span>
+                        <span class="json-property-range" title="Value limits"></span>
+                        <div class="json-inner-schema"> </div>
+                      </section>
+                    </dt>
+                  </dl>
+                </section>
+              </div>
+              <div class="doc-examples">
+                <section>
+                  <h5>Example</h5>
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;currentValue&quot;</span>: <span class="hljs-number">3774692</span>,
+  <span class="hljs-attr">&quot;currentValuePerMaterialFamily&quot;</span>: {
+    <span class="hljs-attr">&quot;stone&quot;</span>: <span class="hljs-number">-484427</span>,
+    <span class="hljs-attr">&quot;glass&quot;</span>: <span class="hljs-number">-67714</span>,
+    <span class="hljs-attr">&quot;wood&quot;</span>: <span class="hljs-number">-9731</span>,
+    <span class="hljs-attr">&quot;plastic&quot;</span>: <span class="hljs-number">-38027</span>,
+    <span class="hljs-attr">&quot;organic&quot;</span>: <span class="hljs-number">-10133</span>,
+    <span class="hljs-attr">&quot;metal&quot;</span>: <span class="hljs-number">4384724</span>
+  },
+  <span class="hljs-attr">&quot;ncwValue&quot;</span>: <span class="hljs-number">-4931739</span>,
+  <span class="hljs-attr">&quot;ncwValuePerBuildingLevel&quot;</span>: [
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;26a9ccae-ca9d-4cf0-9683-503321791978&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Site&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-1102967</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;9804b68f-25b5-4224-a408-1eca54aaa5bc&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Structure&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-2638551</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;b3f780d4-3a36-4dce-a8d0-e98557f73713&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Skin&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-794324</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;e8cf6e3d-35e4-4c61-8d72-fa417b0e9328&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Services&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-173276</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;f70048be-590e-4e5a-8a1f-09763d26ec87&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Space plan&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">-222791</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;82c1967b-1f20-4c1f-8fe2-685a23ab01be&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Stuff&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">157</span>
+    },
+    {
+      <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;e2f286ba-6c71-425e-8d99-b9a00895be95&quot;</span>,
+      <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;Unknown&quot;</span>,
+      <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">13</span>
+    }
+  ]
+}
+</code></pre>
+                  <!-- </div> -->
+                </section>
+              </div>
+            </div>
+          </div>
+          <div id="definition-v1_1BuildingFinancialInformationPerBuildingLevel" class="definition panel" data-traverse-target="definition-v1_1BuildingFinancialInformationPerBuildingLevel">
+            <h2 class="panel-title">
+              <a name="/definitions/v1_1BuildingFinancialInformationPerBuildingLevel"></a>v1_1BuildingFinancialInformationPerBuildingLevel: object
+              <!-- <span class="json-property-type">
+              <span class="json-property-type">object</span>
+              <span class="json-property-range" title="Value limits"></span>
+              
+              
+              </span> -->
+            </h2>
+            <div class="doc-row">
+              <div class="doc-copy">
+                <section class="json-schema-properties">
+                  <dl>
+                    <dt data-property-name="id">
+                      <span class="json-property-name">id:</span>
+                      <span class="json-property-type">string</span>
+                      <span class="json-property-format">(uuid)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dt data-property-name="label">
+                      <span class="json-property-name">label:</span>
+                      <span class="json-property-type">string</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                    <dt data-property-name="value">
+                      <span class="json-property-name">value:</span>
+                      <span class="json-property-type">number</span>
+                      <span class="json-property-format">(double)</span>
+                      <span class="json-property-range" title="Value limits"></span>
+                    </dt>
+                  </dl>
+                </section>
+              </div>
+              <div class="doc-examples">
+                <section>
+                  <h5>Example</h5>
+                  <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
+  <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>,
+  <span class="hljs-attr">&quot;label&quot;</span>: <span class="hljs-string">&quot;string&quot;</span>,
+  <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
 }
 </code></pre>
                   <!-- </div> -->
@@ -18722,17 +19140,17 @@
     <span class="hljs-string">&quot;string&quot;</span>
   ],
   <span class="hljs-attr">&quot;validation&quot;</span>: {
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+    <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
   },
   <span class="hljs-attr">&quot;id&quot;</span>: <span class="hljs-string">&quot;string (uuid)&quot;</span>
 }
@@ -18754,74 +19172,110 @@
             </h2>
             <div class="doc-row">
               <div class="doc-copy">
+                <section class="json-schema-description">
+                  <p>Validation data about a building file</p>
+                </section>
                 <section class="json-schema-properties">
                   <dl>
-                    <dt data-property-name="percentageClassificationAssignedByNumber">
+                    <dt data-property-name="percentageClassificationAssignedByNumber" class="has-description">
                       <span class="json-property-name">percentageClassificationAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageClassificationAssignedByVolume">
+                    <dd>
+                      <p>The percentage of elements that have an assigned classifications, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageClassificationAssignedByVolume" class="has-description">
                       <span class="json-property-name">percentageClassificationAssignedByVolume:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageVolumeBaseQuantityAssignedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have an assigned classifications, counted by volume of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageVolumeBaseQuantityAssignedByNumber" class="has-description">
                       <span class="json-property-name">percentageVolumeBaseQuantityAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageAreaBaseQuantityAssignedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have a volume base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageAreaBaseQuantityAssignedByNumber" class="has-description">
                       <span class="json-property-name">percentageAreaBaseQuantityAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageLengthBaseQuantityAssignedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have an area base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageLengthBaseQuantityAssignedByNumber" class="has-description">
                       <span class="json-property-name">percentageLengthBaseQuantityAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageBaseQuantitiesAssignedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have a length base quantity, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageBaseQuantitiesAssignedByNumber" class="has-description">
                       <span class="json-property-name">percentageBaseQuantitiesAssignedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageMaterialSpecifiedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have base quantity information, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageMaterialSpecifiedByNumber" class="has-description">
                       <span class="json-property-name">percentageMaterialSpecifiedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageMaterialSpecifiedByVolume">
+                    <dd>
+                      <p>The percentage of elements that have a material specified, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageMaterialSpecifiedByVolume" class="has-description">
                       <span class="json-property-name">percentageMaterialSpecifiedByVolume:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageElementsWithKnownMassByNumber">
+                    <dd>
+                      <p>The percentage of elements that have a material specified, counted by volume of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsWithKnownMassByNumber" class="has-description">
                       <span class="json-property-name">percentageElementsWithKnownMassByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageElementsMappedByNumber">
+                    <dd>
+                      <p>The percentage of elements that have a known mass, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsMappedByNumber" class="has-description">
                       <span class="json-property-name">percentageElementsMappedByNumber:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
-                    <dt data-property-name="percentageElementsMappedByVolume">
+                    <dd>
+                      <p>The percentage of elements that have been mapped to an element, counted by number of elements</p>
+                    </dd>
+                    <dt data-property-name="percentageElementsMappedByVolume" class="has-description">
                       <span class="json-property-name">percentageElementsMappedByVolume:</span>
                       <span class="json-property-type">number</span>
                       <span class="json-property-format">(double)</span>
                       <span class="json-property-range" title="Value limits"></span>
                     </dt>
+                    <dd>
+                      <p>The percentage of elements that have been mapped to an element, counted by volume of elements</p>
+                    </dd>
                   </dl>
                 </section>
               </div>
@@ -18829,17 +19283,17 @@
                 <section>
                   <h5>Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
-  <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>,
-  <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-string">&quot;number (double)&quot;</span>
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageClassificationAssignedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageVolumeBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageAreaBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageLengthBaseQuantityAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageBaseQuantitiesAssignedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageMaterialSpecifiedByVolume&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsWithKnownMassByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByNumber&quot;</span>: <span class="hljs-number">0.3</span>,
+  <span class="hljs-attr">&quot;percentageElementsMappedByVolume&quot;</span>: <span class="hljs-number">0.3</span>
 }
 </code></pre>
                   <!-- </div> -->
@@ -19955,7 +20409,7 @@
                   <h5>Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.4453833Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:08.7271463Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
@@ -20934,7 +21388,7 @@
                   <h5>Example</h5>
                   <!-- <div class="hljs"> --><pre><code class="hljs lang-json">{
   <span class="hljs-attr">&quot;value&quot;</span>: <span class="hljs-number">50.5</span>,
-  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-06T11:21:26.6553098Z&quot;</span>,
+  <span class="hljs-attr">&quot;valueDate&quot;</span>: <span class="hljs-string">&quot;2018-08-07T13:00:09.2250711Z&quot;</span>,
   <span class="hljs-attr">&quot;currency&quot;</span>: <span class="hljs-string">&quot;EUR&quot;</span>,
   <span class="hljs-attr">&quot;unit&quot;</span>: <span class="hljs-number">2</span>
 }
