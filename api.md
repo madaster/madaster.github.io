@@ -1,5 +1,5 @@
-# Madaster Private API
-The **Madaster Private API** endpoint can be used to interact with the Madaster Platform and its resources.
+# Madaster API
+The **Madaster API** endpoint can be used to interact with the Madaster Platform and its resources.
 This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 To access the API resources, you need an authorization token.
@@ -43,7 +43,7 @@ This will give you access to these resources and their attached entities.
 ![Step 3](assets/images/api/addtoken3.png)
 
 ## Connection
-To connect to the API, multiple tools and languages can be used. Because the Madaster Private API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.
+To connect to the API, multiple tools and languages can be used. Because the Madaster API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.
 
 
 ### Versions
