@@ -45,7 +45,6 @@ This will give you access to these resources and their attached entities.
 ## Connection
 To connect to the API, multiple tools and languages can be used. Because the Madaster API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.
 
-
 ### Versions
 The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 1.1 for example, use https://api.madaster.com/api/v1.1
 
@@ -68,3 +67,6 @@ if (response.IsSuccessStatusCode)
     buildings = await response.Content.ReadAsAsync<IEnumerable<Building>>();
 }
 ```
+
+## Enumerations
+The **Madaster API** uses enumerations throughout the entire range of functions. To find out what they mean, check [**enums**](https://docs.madaster.com/enums).
