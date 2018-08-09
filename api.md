@@ -70,3 +70,128 @@ if (response.IsSuccessStatusCode)
 
 ## Enumerations
 The **Madaster API** uses enumerations throughout the entire range of functions. To find out what they mean, check [**enums**](https://docs.madaster.com/enums).
+
+## Structure
+The **Madaster Platform** uses a hierarchical structure to store enitities and also displays them in this same tree-like way. Simply put, some entities act as containers for other entities, which may seem logical on the website but can be cumbersome to follow through the API. Below you can find this structure and some examples to show you how to navigate through this structure and to upload a single IFC file or create a file manually. For the examples the API version 1.1 is used; if you want to use a different version of the API, replace the `/v1.1/` part with your preferred version number.
+
+### Account
+The top level of the structure is an *account*. An account is the level that is attained when subscribing to Madaster and it holds the information about the subscription model. An account can have users attached to it and holds one or more *portfolios*.
+
+#### API calls
+Accounts have no representation in the API yet. When accessing the API, the token you use already matches you to the account you belong to.
+
+### Portfolio
+A *portfolio* can be seen as a folder of *buildings*, it does not add much data beyond its function as a collection. You can add documentation files to a portfolio and look at combined cumulative data about all the buildings in a portfolio.
+
+#### API calls
+When you receive an API token, it is usually scoped to a single portfolio. If you received a token for an entire account, you can use the functions at `https://api.madaster.com/api/v1.1/portfolios`.
+
+### Building
+A *buiding* is the main entity of the Madaster platform, it contains all data related to a real-world building and most figures and numbers relate to a building as a whole. A building gets its data from one ore more *building files*.
+
+#### API calls
+If your API token is scoped to a single building, the functions for the building entity will only work on that building. You can use the functions at `https://api.madaster.com/api/v1.1/buildings` to manage that building. If you have a token at the portfolio level, you can also add buildings at this level:
+
+**Create a building**
+URL: `POST api/v1.1/buildings`
+Body:
+```json
+{
+  "classificationType": "string",
+  "phaseType": "string",
+  "portfolioId": "string",
+  "name": "string",
+  "cadastralDesignation": "string",
+  "cadastralArea": 0,
+  "parcelnumber": "string",
+  "publicLawRestriction": "string",
+  "completionDate": "2018-08-09T15:01:11.873Z",
+  "lastRenovationDate": "2018-08-09T15:01:11.873Z",
+  "addressStreet": "string",
+  "addressHousenumber": "string",
+  "addressHousenumberAddition": "string",
+  "addressZipcode": "string",
+  "addressCity": "string",
+  "addressCountry": "string",
+  "buildingUsage": "string",
+  "grossSurfaceArea": 0,
+  "energyLabel": "string",
+  "energyPerformanceCoefficient": 0,
+  "energyIndex": 0,
+  "expectedLifespan": 0,
+  "expectedLifespanStructure": 0,
+  "expectedLifespanSkin": 0,
+  "expectedLifespanServices": 0,
+  "expectedLifespanSpacePlan": 0,
+  "expectedLifespanStuff": 0,
+  "breeamLabel": 0,
+  "gprLabel": 0,
+  "mpgLabel": 0,
+  "leedLabel": "string"
+}
+```
+
+This will return a **201 Created** response containing the created building in the body and the *location* response header will contain the URL to the `GET` request for the created building. You can use either to find the ID of the created building.
+
+### Building file
+A building file can be either a source file (IFC/BIM or Excel) or a documentation file. The source files are used to supply the building containing these files with information about the contents of the building. A building file is a collection of *building file elements* and some metadata to inform the user what the file contains.
+
+#### API calls
+To upload an IFC file, you first need to create a building file and when the file is created, you can start the upload process and wait for it to finish. If you want to create a building file yourself, you need to take a few more steps instead of uploading to manually start the process.
+
+IFC File: Create a building file > Upload > Activate *(optional)*
+Manual File: Create a building file > Start importing > *Create building file elements (see below)* > Start Refining > Activate *(optional)*
+
+**Create a building file**
+URL: `POST api/v1.1/buildings/{buildingId}/files`
+Body:
+```json
+{
+  "name": "string",
+  "type": 0,
+  "tags": [
+    "string"
+  ]
+}
+```
+
+The type property can be either source (0) or information (1), see [BuildingFileType](https://docs.madaster.com/enums#buildingfiletype).
+
+**Upload**
+URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/upload`
+
+**Start importing**
+URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/setimporting`
+
+**Start refining**
+URL `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/startrefinement`
+
+**Activate**
+URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/active`
+
+### Building file element
+The bottom level of the structure is a *building file element*, which should be relatable to one real world element. It contains quantity information about the element and some metadata that describes its use, location and circularity.
+
+#### API calls
+If you create a building file without uploading an actual file to it, you can create building file elements manually. To start this process, you should call the [*Start importing*](#start-importing) action of the building. When the status is set to 'importing' you can create building file elements. When you are done creating elements, you should call the [*Start refining*](#start-refining) action of the building.
+
+**Create building file element**
+URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/elements`
+Body:
+```json
+{
+  "id": "string",
+  "materialName": "string",
+  "typeName": "string",
+  "elementClass": "string",
+  "volume": 0,
+  "area": 0,
+  "height": 0,
+  "width": 0,
+  "length": 0,
+  "weight": 0,
+  "phase": "string",
+  "classification": "string",
+  "floor": "string"
+}
+```
