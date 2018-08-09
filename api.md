@@ -92,8 +92,8 @@ A *buiding* is the main entity of the Madaster platform, it contains all data re
 #### API calls
 If your API token is scoped to a single building, the functions for the building entity will only work on that building. You can use the functions at `https://api.madaster.com/api/v1.1/buildings` to manage that building. If you have a token at the portfolio level, you can also add buildings at this level:
 
-**Create a building**
-URL: `POST api/v1.1/buildings`
+**Create a building**<br/>
+URL: `POST api/v1.1/buildings`<br/>
 Body:
 ```json
 {
@@ -142,8 +142,8 @@ To upload an IFC file, you first need to create a building file and when the fil
 IFC File: Create a building file > Upload > Activate *(optional)*
 Manual File: Create a building file > Start importing > *Create building file elements (see below)* > Start Refining > Activate *(optional)*
 
-**Create a building file**
-URL: `POST api/v1.1/buildings/{buildingId}/files`
+**Create a building file**<br/>
+URL: `POST api/v1.1/buildings/{buildingId}/files`<br/>
 Body:
 ```json
 {
@@ -157,16 +157,16 @@ Body:
 
 The type property can be either source (0) or information (1), see [BuildingFileType](https://docs.madaster.com/enums#buildingfiletype).
 
-**Upload**
+**Upload**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/upload`
 
-**Start importing**
+**Start importing**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/setimporting`
 
-**Start refining**
+**Start refining**<br/>
 URL `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/startrefinement`
 
-**Activate**
+**Activate**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/active`
 
 ### Building file element
@@ -175,8 +175,8 @@ The bottom level of the structure is a *building file element*, which should be 
 #### API calls
 If you create a building file without uploading an actual file to it, you can create building file elements manually. To start this process, you should call the [*Start importing*](#start-importing) action of the building. When the status is set to 'importing' you can create building file elements. When you are done creating elements, you should call the [*Start refining*](#start-refining) action of the building.
 
-**Create building file element**
-URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/elements`
+**Create building file element**<br/>
+URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/elements`<br/>
 Body:
 ```json
 {
