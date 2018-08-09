@@ -22,6 +22,7 @@ Imported | 8
 UnknownImportFile | 99
 
 ### BuildingFileType
+
 Label | Value
 --- | ---
 Source | 0,
@@ -30,20 +31,24 @@ PassportPdf | 1000,
 PassportExcel | 1001
 
 ### BuildingRequestFileType
+
 Label | Value
 --- | ---
 Source | 0,
 Information | 1
 
 ### PortfolioFileStatuses
+
 Uploaded | 1,
 Creating | 6
 
 ### PortfolioFileType
+
 Information | 1,
 PassportPdf | 1000
 
 ### SubscriptionType
+
 Label | Value
 --- | ---
 Small | 1,
@@ -54,12 +59,14 @@ Custom | 5,
 Private | 6
 
 ### SalutationType
+
 Label | Value
 --- | ---
 Sir | 1,
 Madam | 2
 
 ### PriceUnit
+
 Label | Value
 --- | ---
 mt | 0
@@ -70,6 +77,7 @@ toz | 4
 index | 5
 
 ### PartnerType
+
 Label | Value
 --- | ---
 Solution | 1,
@@ -77,12 +85,14 @@ Data | 2,
 Service | 3
 
 ### InflationType
+
 Label | Value
 --- | ---
 Yearly | 0,
 Monthly | 1
 
 ### FinanialDataSetType
+
 Label | Value
 --- | ---
 Price | 0,
@@ -90,6 +100,7 @@ ExchangeRate | 1,
 Inflation | 2
 
 ### FinancialImportType
+
 Label | Value
 --- | ---
 None | 0,
@@ -98,6 +109,7 @@ Automatic | 20,
 AutomaticIndex | 30
 
 ### FileType
+
 Label | Value
 --- | ---
 Source | 0,
@@ -106,6 +118,7 @@ PassportPdf | 1000,
 PassportExcel | 1001
 
 ### FileStatuses
+
 Label | Value
 --- | ---
 Error | 0,
@@ -120,6 +133,7 @@ Imported | 8,
 UnknownImportFile | 99
 
 ### PriceItemCurrency
+
 Label | Value
 --- | ---
 EUR | 0
@@ -129,6 +143,7 @@ GBP | 3
 CN | 4
 
 ### ClassificationType
+
 Label | Value
 --- | ---
 SourceFile | 1,
@@ -137,6 +152,7 @@ Passport | 3,
 Personal | 4
 
 ### BuildingLocationTypes
+
 Label | Value
 --- | ---
 BuildingTotals | 0,
@@ -149,12 +165,14 @@ Stuff | 6,
 Unknown | 7
 
 ### UserType
+
 Label | Value
 --- | ---
 User | 0,
 Token | 1
 
 ### RegistrationType
+
 Label | Value
 --- | ---
 Unknown | 0,
@@ -164,6 +182,7 @@ Invited | 3,
 InviteRequested | 4
 
 ### PermissionLevelDefinedAt
+
 Label | Value
 --- | ---
 Account | 1,
@@ -171,6 +190,7 @@ Portfolio | 2,
 Building | 3
 
 ### PermissionLevel
+
 Label | Value
 --- | ---
 Administrator | 90,
@@ -179,6 +199,7 @@ Read | 50,
 None | 0
 
 ### ExpirationTime
+
 Label | Value
 --- | ---
 OneYear | 1,
@@ -186,6 +207,7 @@ TwoYears | 2,
 Infinite | 100
 
 ### ElementType
+
 Label | Value
 --- | ---
 Material | 10,
@@ -195,6 +217,7 @@ AreaProduct | 40,
 LengthProduct | 50
 
 ### ElementPropertyType
+
 Label | Value
 --- | ---
 Other | 0,
@@ -212,6 +235,7 @@ Boolean | 90,
 Size | 100
 
 ### ElementMatchType
+
 Label | Value
 --- | ---
 None | 0,
@@ -219,6 +243,7 @@ Name | 10,
 Ean | 20
 
 ### ElementExtensionType
+
 Label | Value
 --- | ---
 Other | 0,
@@ -228,6 +253,7 @@ ExternalDatabase | 20,
 Supplier | 30
 
 ### ElementDimensionType
+
 Label | Value
 --- | ---
 Length | 0,
@@ -241,6 +267,7 @@ Area | 7,
 Volume | 8
 
 ### ChildRelationType
+
 Label | Value
 --- | ---
 Fixed | 10,
