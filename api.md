@@ -160,10 +160,10 @@ The type property can be either source (0) or information (1), see [BuildingFile
 **Upload**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/upload`
 
-<a name="start-importing"></a>**Start importing**<br/>
+**Start importing**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/setimporting`
 
-<a name="start-refining"></a>**Start refining**<br/>
+**Start refining**<br/>
 URL `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/startrefinement`
 
 **Activate**<br/>
@@ -173,7 +173,7 @@ URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/active`
 The bottom level of the structure is a *building file element*, which should be relatable to one real world element. It contains quantity information about the element and some metadata that describes its use, location and circularity.
 
 #### API calls
-If you create a building file without uploading an actual file to it, you can create building file elements manually. To start this process, you should call the [*Start importing*](#start-importing) action of the building. When the status is set to 'importing' you can create building file elements. When you are done creating elements, you should call the [*Start refining*](#start-refining) action of the building.
+If you create a building file without uploading an actual file to it, you can create building file elements manually. To start this process, you should call the *Start importing* action of the building. When the status is set to 'importing' you can create building file elements. When you are done creating elements, you should call the *Start refining* action of the building.
 
 **Create building file element**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/elements`<br/>
