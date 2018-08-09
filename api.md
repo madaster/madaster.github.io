@@ -160,10 +160,10 @@ The type property can be either source (0) or information (1), see [BuildingFile
 **Upload**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/upload`
 
-**Start importing**<br/>
+<a name="start-importing"></a>**Start importing**<br/>
 URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/setimporting`
 
-**Start refining**<br/>
+<a name="start-refining"></a>**Start refining**<br/>
 URL `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/startrefinement`
 
 **Activate**<br/>
