@@ -1,3 +1,8 @@
+---
+title: "General"
+toc: true
+---
+
 # General Information
 
 <p>Are you looking for <strong>general information</strong> about this platform? Click<a href="http://www-t.madaster.com/download_file/view/283"> </a><b><a href="http://www.madaster.com/download_file/view/283">here</a></b>. A new page will open, where you will find all the information about the platform, different types of source files, uploading files and how to use the platform.</p>
@@ -14,11 +19,11 @@
 
 <p>Do you still have any questions after reading this information? Contact Madaster by telephone on 085-0657436 or by e-mail at <a href="mailto:service@madaster.com">service@madaster.com</a>.</p>
 
-## Release Notes
+# Release Notes
 
 <p>Click <a href="https://www.madaster.com/download_file/view/763" target="_blank">here</a> for more information about the latest release (07-08-2018).</p>
 
-## History
+# History
 
 <p><a href="https://www.madaster.com/download_file/view/715">Release notes July 16th 2018</a></p>
 
