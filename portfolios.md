@@ -1,5 +1,6 @@
 ---
 title: Portfolios
+toc: true
 ---
 
 Welke informatie wordt hier getoond?
