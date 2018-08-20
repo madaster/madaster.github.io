@@ -27,7 +27,7 @@ toc: true
 
 Do you have questions? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.
 
-## <img alt="Documentsingle" height="38" src="/assets/images/770.svg" width="38">Release Notes</h3>
+## <img alt="Documentsingle" height="38" src="/assets/images/770.svg" width="38">&nbsp;Release Notes
 
 More information about the releases can be found here:
 
