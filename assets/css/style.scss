@@ -58,6 +58,20 @@
 @modal-title-padding: 45px;
 @modal-inner-padding: 45px;
 
+/*
+Result:
+
+@font-size-large = 20px
+@font-size-small = 14px
+@font-size-h1 = 41px
+@font-size-h2 = 34px
+@font-size-h3 = 28px
+@font-size-h4 = 20px
+@font-size-h5 = 16px
+@font-size-h6 = 14px
+@line-height-computed = 21px
+*/
+
 @font-family-sans-serif: "Source Sans Pro", sans-serif;
 @font-size-h1: 28px;
 @font-size-h2: 21px;
@@ -83,6 +97,70 @@
 @navbar-logo-margin: (@navbar-height - @navbar-logo-size) / 2;
 @navbar-logo-marginright: 75px;
 @subnavbar-height: 63px;
+
+// Tables
+@table-cell-padding: 11px 0 11px 17px;
+@table-border-color: #eee;
+
+// Profile menu
+@profile-menu-spacing: 20px;
+@profile-menu-fontsize: 10px;
+@profile-menu-fontweight: bold;
+@profile-menu-letterspacing: 1px;
+@profile-menu-height: 1.4 * @profile-menu-fontsize;
+@profile-menu-paddingtop: (@navbar-height - @profile-menu-height) / 2;
+
+// Breadcrumb
+@breadcrumb-link-hovercolor: #607B96;
+@breadcrumb-fontsize: 10px;
+@breadcrumb-fontweight: bold;
+@breadcrumb-spacing: 15px;
+@breadcrumb-glyphicon-color: @separator-line-color;
+@breadcrumb-padding: 25px;
+
+// Body
+@body-padding: 20px;
+
+// Tabs
+@nav-link-hover-bg: transparent;
+@nav-tabs-border-color: transparent;
+@nav-tabs-link-hover-border-color: transparent;
+@nav-tabs-active-link-hover-bg: transparent;
+@nav-tabs-active-link-hover-border-color: transparent;
+
+// Footer
+@footer-height: 100px;
+@footer-heading-fontsize: 16px;
+@footer-heading-letterspacing: 1.1px;
+@footer-heading-marginbottom: 11px;
+@footer-link-fontweight: normal;
+@footer-text-fontsize: 10px;
+@footer-text-letterspacing: 0.4px;
+@footer-fontsize: 14px;
+
+// Menu items
+@menu-item-spacing: 30px;
+@menu-item-border-spacing: 3px;
+@menu-item-fontsize: 18px;
+@menu-item-fontweight: normal;
+@menu-item-fontweight-active: bold;
+@menu-item-lineheight: 23px; //normal
+@menu-item-borderwidth: 2px;
+@menu-item-borderbottom: solid @menu-item-borderwidth transparent;
+@menu-item-borderbottom-hover: solid @menu-item-borderwidth @menu-item-borderbottom-hover-color;
+@menu-item-borderbottom-active: solid @menu-item-borderwidth @white;
+@menu-item-borderbottom-spacing: 10px;
+@menu-item-letterspacing: 1px;
+@menu-item-paddingtop: (@navbar-height - @menu-item-lineheight) / 2;
+@menu-item-height: @menu-item-paddingtop + @menu-item-lineheight + @menu-item-borderwidth + @menu-item-border-spacing;
+@menu-item-borderbottom-hover-color: @link-hover-color;
+
+// Buttons
+@button-fontsize: 10px;
+@button-padding: 12.5px;
+
+// Progress bars
+@progress-border-radius: 2px;
 
 .navbar-fixed-top {
     border: @body-padding solid white;
@@ -206,52 +284,6 @@
 .navbar-right .open > a:focus {
     border-bottom: none;
 }
-
-.profile-menu {
-    height: @navbar-height;
-    padding-top: @profile-menu-paddingtop;
-
-    .ma-chevron-down {
-        margin-left: @profile-menu-spacing;
-    }
-
-    .ma-settings {
-        margin-left: @profile-menu-spacing;
-        color: #000;
-        position: relative;
-        top: 7px;
-        border-radius: 50%;
-        background-color: white;
-        font-size: 30px;
-        height: 28px;
-        width: 30px;
-    }
-}
-
-.sub-navigation-bar {
-    height: @subnavbar-height;
-    background-color: @white;
-}
-
-body {
-    .body-container {
-        margin-top: -20px;
-        position: relative;
-        z-index: 0;
-        background-color: white;
-
-        > div:first-of-type {
-            background-color: white;
-            margin-top: 0px;
-        }
-    }
-}
-
-body.home {
-    @media (min-width: @grid-float-breakpoint) {
-        padding-top: 20px;
-    }
-
     @media (max-width: @grid-float-breakpoint) {
         padding-top: 0;
     }
