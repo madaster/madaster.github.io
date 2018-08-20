@@ -3,8 +3,7 @@ title: "Test"
 toc: true
 ---
 
-## General Information
-<br/>
+# General Information
 
 ## <img alt="Help" height="54" src="/assets/images/767.svg" width="58">&nbsp;Manuals
 
