@@ -13,39 +13,45 @@
     color: #003b60;
 }
 
-.bd-toc {
-  @supports (position: sticky) {
-    position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
-  }
-  order: 2;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  font-size: .875rem;
+.navbar-madaster {
+    height: 120px;
+    background: #003b60;
+    background: -webkit-linear-gradient(left, #003b60, #63A8C1);
+    background: -o-linear-gradient(right, #003b60, #63A8C1);
+    background: -moz-linear-gradient(right, #003b60, #63A8C1);
+    background: linear-gradient(to right, #003b60, #63A8C1);
 }
 
-.bd-toc {
-  ul {
-    padding-left: 1rem;
-
-    ul {
-      display: none;
-    }
-  }
+.navbar {
+    border: 20px solid white;
+    border-bottom-width: 0;
 }
 
-.toc-entry {
-  display: block;
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
 
-  a {
-    display: block;
-    padding: .125rem 1.5rem;
-    color: #99979c;
+@media (min-width: 768px)
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
 
-    &:hover {      
-      text-decoration: none;
-    }
-  }
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
 }
