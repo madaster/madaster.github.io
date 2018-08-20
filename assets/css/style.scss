@@ -13,303 +13,43 @@
     color: #003b60;
 }
 
-// Colours
-@white: #ffffff;
-@navy: #001b36;
-@marine-blue: #003b60;
-@light-blue: #c5dde6;
-
-// Bootstrap overrides
-@icon-font-path: "/fonts/";
-@fa-font-path: "/fonts";
-
-@brand-primary: darken(#438bca, 6.5%); // #337ab7, @navy?
-@brand-success: #5cb85c;
-@brand-info: #5bc0de;
-@brand-warning: #ff4259;
-@brand-danger: #FF4444;
-@brand-danger-light: #ff475c;
-@custom-warning: #f6a623;
-
-
-@btn-font-weight: bold;
-@btn-default-bg: @white;
-@btn-default-border: @light-blue;
-@btn-default-color: @navy;
-@btn-primary-bg: @marine-blue;
-@btn-primary-border: @marine-blue;
-@btn-primary-color: white;
-@btn-border-radius-base: 2px;
-
-@link-color: #001B36;
-@link-hover-color: #BBD1D9;
-
-@body-bg: @white;
-@text-color: @navy;
-@font-size-base: 16px;
-@line-height-base: 1.3125;
-
-//** Border color for inputs on focus
-@input-border: @light-blue;
-@input-border-focus: @input-border;
-
-// Modal
-@modal-backdrop-opacity: .7;
-@modal-title-padding: 45px;
-@modal-inner-padding: 45px;
-
-/*
-Result:
-
-@font-size-large = 20px
-@font-size-small = 14px
-@font-size-h1 = 41px
-@font-size-h2 = 34px
-@font-size-h3 = 28px
-@font-size-h4 = 20px
-@font-size-h5 = 16px
-@font-size-h6 = 14px
-@line-height-computed = 21px
-*/
-
-@font-family-sans-serif: "Source Sans Pro", sans-serif;
-@font-size-h1: 28px;
-@font-size-h2: 21px;
-@font-size-h3: 14px;
-@headings-font-weight: bold;
-@headings-line-height: 1.285714285;
-
-@navbar-height: 100px;
-
-// Base variables
-@base-letterspacing: 0.6px;
-@heading-letterspacing: 1px;
-@heading-marginbottom: 8px;
-@separator-line-color: @light-blue;
-@gradient-darkblue: @marine-blue;
-@gradient-lightblue: #63A8C1;
-
-// Header
-@header-height: @navbar-height + @body-padding;
-
-// Navbar
-@navbar-logo-size: 50px;
-@navbar-logo-margin: (@navbar-height - @navbar-logo-size) / 2;
-@navbar-logo-marginright: 75px;
-@subnavbar-height: 63px;
-
-// Tables
-@table-cell-padding: 11px 0 11px 17px;
-@table-border-color: #eee;
-
-// Profile menu
-@profile-menu-spacing: 20px;
-@profile-menu-fontsize: 10px;
-@profile-menu-fontweight: bold;
-@profile-menu-letterspacing: 1px;
-@profile-menu-height: 1.4 * @profile-menu-fontsize;
-@profile-menu-paddingtop: (@navbar-height - @profile-menu-height) / 2;
-
-// Breadcrumb
-@breadcrumb-link-hovercolor: #607B96;
-@breadcrumb-fontsize: 10px;
-@breadcrumb-fontweight: bold;
-@breadcrumb-spacing: 15px;
-@breadcrumb-glyphicon-color: @separator-line-color;
-@breadcrumb-padding: 25px;
-
-// Body
-@body-padding: 20px;
-
-// Tabs
-@nav-link-hover-bg: transparent;
-@nav-tabs-border-color: transparent;
-@nav-tabs-link-hover-border-color: transparent;
-@nav-tabs-active-link-hover-bg: transparent;
-@nav-tabs-active-link-hover-border-color: transparent;
-
-// Footer
-@footer-height: 100px;
-@footer-heading-fontsize: 16px;
-@footer-heading-letterspacing: 1.1px;
-@footer-heading-marginbottom: 11px;
-@footer-link-fontweight: normal;
-@footer-text-fontsize: 10px;
-@footer-text-letterspacing: 0.4px;
-@footer-fontsize: 14px;
-
-// Menu items
-@menu-item-spacing: 30px;
-@menu-item-border-spacing: 3px;
-@menu-item-fontsize: 18px;
-@menu-item-fontweight: normal;
-@menu-item-fontweight-active: bold;
-@menu-item-lineheight: 23px; //normal
-@menu-item-borderwidth: 2px;
-@menu-item-borderbottom: solid @menu-item-borderwidth transparent;
-@menu-item-borderbottom-hover: solid @menu-item-borderwidth @menu-item-borderbottom-hover-color;
-@menu-item-borderbottom-active: solid @menu-item-borderwidth @white;
-@menu-item-borderbottom-spacing: 10px;
-@menu-item-letterspacing: 1px;
-@menu-item-paddingtop: (@navbar-height - @menu-item-lineheight) / 2;
-@menu-item-height: @menu-item-paddingtop + @menu-item-lineheight + @menu-item-borderwidth + @menu-item-border-spacing;
-@menu-item-borderbottom-hover-color: @link-hover-color;
-
-// Buttons
-@button-fontsize: 10px;
-@button-padding: 12.5px;
-
-// Progress bars
-@progress-border-radius: 2px;
-
-.navbar-fixed-top {
-    border: @body-padding solid white;
-    border-bottom-width: 0;
-
-    @media (max-width: @grid-float-breakpoint) {
-        border-width: 0;
-    }
+.navbar-madaster {
+    height: 120px;
+    background: #003b60;
+    background: -webkit-linear-gradient(left, #003b60, #63A8C1);
+    background: -o-linear-gradient(right, #003b60, #63A8C1);
+    background: -moz-linear-gradient(right, #003b60, #63A8C1);
+    background: linear-gradient(to right, #003b60, #63A8C1);
 }
-
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
 }
-
-.navbar-madaster {
-    height: @navbar-height + @body-padding;
-    .background-gradient-to-right(@gradient-darkblue, @gradient-lightblue);
-
-    @media (max-width: @grid-float-breakpoint) {
-        height: @navbar-height;
-    }
-
-    .navbar-header {
-        margin-left: -@navbar-padding-horizontal;
-        padding-right: 75px;
-
-        @media (max-width: @grid-float-breakpoint) {
-            padding-right: 0px;
-        }
-    }
-
-    .navbar-collapse {
-        background-color: #003a60;
-
-        @media (min-width: @grid-float-breakpoint) {
-            background-color: transparent;
-        }
-    }
-
-    .navbar-logo {
-        height: @navbar-height;
-        width: @navbar-height;
-        padding: @navbar-logo-margin;
-        display: block;
-
-        img {
-            height: @navbar-logo-size;
-            width: @navbar-logo-size;
-        }
-    }
-
-    .navbar-toggle {
-        border-color: white;
-
-        &:hover,
-        &:focus {
-            background-color: transparent;
-        }
-
-        .icon-bar {
-            background-color: white;
-        }
-    }
-
-    @media (max-width: @grid-float-breakpoint) {
-        .navbar-nav {
-            margin: 0px;
-        }
-    }
+.navbar-fixed-top {
+    border: 20px solid white;
+    border-bottom-width: 0;
 }
-
-.nav > li > a,
-.nav > li > .wizard-container > a {
-    text-decoration: none;
-    display: inline-block;
-    color: @white;
-    height: @menu-item-height;
-    padding: 0;
-    padding-top: @menu-item-paddingtop;
-    margin-right: @menu-item-spacing;
-    text-transform: uppercase;
-    font-size: @menu-item-fontsize;
-    font-weight: @menu-item-fontweight;
-    line-height: @menu-item-lineheight;
-    transition: border-bottom 1s;
-    border-bottom: @menu-item-borderbottom;
-    letter-spacing: @menu-item-letterspacing;
-
-    &:hover {
-        border-bottom: solid 2px #ffffff;
-    }
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
 }
-
-.nav .open > a {
-    &,
-    &:hover,
-    &:focus {
-        border-color: white;
-    }
+@media (min-width: 768px)
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
 }
-
-.nav > li.active > a,
-.nav > li.active > .wizard-container > a {
-    border-bottom: @menu-item-borderbottom-active;
-    font-weight: @menu-item-fontweight-active;
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
-
-.navbar-right > li > a {
-    font-size: @profile-menu-fontsize;
-    font-weight: @profile-menu-fontweight;
-    text-transform: uppercase;
-    letter-spacing: @profile-menu-letterspacing;
-
-    &:hover {
-        border-bottom: none;
-    }
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
 }
-
-.navbar-right .open > a,
-.navbar-right .open > a:focus {
-    border-bottom: none;
-}
-    @media (max-width: @grid-float-breakpoint) {
-        padding-top: 0;
-    }
-
-    .navbar-logo {
-        background-color: #003a60;
-    }
-
-    .navbar-madaster {
-        background-image: url('/images/header.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        transition: height 0.2s;
-
-        @media (min-width: @grid-float-breakpoint) {
-            height: 300px;
-        }
-    }
-
-    .bodycontainer {
-        margin-top: -40px;
-        z-index: 1032;
-        position: relative;
-        background-color: white;
-        padding-top: 40px;
-        transition: 0.15s margin ease-out;
-    }
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
 }
