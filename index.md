@@ -1,46 +1,46 @@
 ---
-title: "General"
+title: "Home"
 toc: true
 ---
 
-## General Information
+Welcome to the Madaster platform! On this page you will find additional information about the use and development of the Madaster platform.
 
-Are you looking for <strong>general information</strong> about this platform? <br/>
-Click<a href="http://www-t.madaster.com/download_file/view/283"> </a><b><a href="http://www.madaster.com/download_file/view/283">here</a></b>. A new page will open, where you will find all the information about the platform, different types of source files, uploading files and how to use the platform.
+<hr/>
 
-Are you looking for a <strong>quick guide</strong> so you can start using the platform straight away?<br/>
-Click <b><a href="http://www.madaster.com/download_file/view/282">here</a></b>. A new page will open, which will inform you step by step on how to use the platform.
+## <img alt="Help" height="38" src="/assets/images/767.svg" width="38">&nbsp;Manuals
 
-Would you like to assess <strong>the quality and completeness of your IFC-files </strong> (e.g. assigned materials, NL-SFB-coding and base quantities) before you upload these files in Madaster?<br/>
-Download the latest <a href="http://www.bimcollab.com/en/betazoom/betazoom/download" target="_blank">Madaster Smart Views</a>.
+### General manuals
 
-Click <a href="http://www.bimcollab.com/en/betazoom/betazoom/downloads/BIMcollab-ZOOM-Quick-Start-Guide" target="_blank">here</a> to find the BimCollab Quick Start Guide.
+ * Open the&nbsp;<a href="https://www.madaster.com/download_file/view/774">Madaster Quick Start Guide</a> – this briefly describes the necessary steps from registration to the creation of a materials passport in Madaster.&nbsp;
+ * Open the&nbsp;<a href="http://www.madaster.com/download_file/479/0">Madaster User manual</a>&nbsp;– this describes in detail the functionalities of the Madaster platform and how to apply them.&nbsp;
 
-Are you looking for information about a specific page on the platform? <br/>
-Every page shows a HELP button at the right corner. When you click on this button, a new page will open with information about the steps to take. You&rsquo;ll find here everything you need to know to use this platform.
+### BIM-specific manuals &amp; templates
 
-Do you want to find out more about the Madaster API?<br/>
-You can find the documentation <a href="https://docs.madaster.com/api" target="_blank">here</a>.
+ * Open the&nbsp;<a href="https://www.madaster.com/download_file/view/765">Madaster Manual IFC-export (Archicad &amp; Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
+ * Read the&nbsp;<a href="https://www.madaster.com/download_file/view/773">Madaster BIM-guidelines</a>&nbsp;– this briefly describes the most important instructions for the preparation of a BIM model.
+ * Download the&nbsp;<a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
+ * Download the&nbsp;<a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> solution(free&nbsp;IFC-viewer) and corresponding Quick Start Guide.&nbsp;
 
-Do you still have any questions after reading this information?<br/>
-Contact Madaster by telephone on 085-0657436 or by e-mail at <a href="mailto:service@madaster.com">service@madaster.com</a>.
+### Reference works
 
-## Release Notes
+ * Read the&nbsp;<a href="https://www.madaster.com/download_file/view/772">Madaster Circulariteit Indicator explaned</a>&nbsp;document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ 
+<hr/>
 
-Click <a href="https://www.madaster.com/download_file/view/763" target="_blank">here</a> for more information about the latest release (07-08-2018).
+## <img alt="Servicedesk" height="38" src="/assets/images/771.svg" width="38">&nbsp;Madaster Servicedesk
+Do you have questions? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.
 
-## History
+<hr/>
 
-<p><a href="https://www.madaster.com/download_file/view/715">Release notes July 16th 2018</a></p>
+## <img alt="Documentsingle" height="38" src="/assets/images/770.svg" width="38">&nbsp;Release Notes
 
-<p><a href="https://www.madaster.com/download_file/view/672">Release notes Juni 25th 2018</a></p>
+More information about the releases can be found here:
 
-<p><a href="https://www.madaster.com/download_file/view/612">Release notes June 4th 2018</a></p>
-
-<p><a href="https://www.madaster.com/download_file/view/552">Release notes April 26st 2018</a></p>
-
-<p><a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29th 2018</a></p>
-
-<p><a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes March 8th 2018</a></p>
-
-<p><a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes December 15th 2017</a></p>
+* <a href="https://www.madaster.com/download_file/view/763" target="_blank">Release notes August 7th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/715" target="_blank">Release notes July 16th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/672" target="_blank">Release notes June 25th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/612" target="_blank">Release notes June 4th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/552" target="_blank">Release notes April 26th&nbsp;2018</a>
+* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes 8 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes 15 december 2017</a>
