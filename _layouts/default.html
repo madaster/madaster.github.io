@@ -25,7 +25,8 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{ content | toc }}
+      {{ content }}
+      {% include toc.html html=content %}
 
       <footer class="site-footer">        
       </footer>
