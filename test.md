@@ -22,23 +22,20 @@ toc: true
 ### Reference works
 
  * Read the&nbsp;<a href="https://www.madaster.com/download_file/view/772">Madaster Circulariteit Indicator explaned</a>&nbsp;document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
-<br/>
 
 ## <img alt="Servicedesk" height="38" src="/assets/images/771.svg" width="38">&nbsp;Madaster Servicedesk
 
 Do you have questions? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.
 
-<br/>
-
 ## <img alt="Documentsingle" height="38" src="/assets/images/770.svg" width="38">Release Notes</h3>
 
 More information about the releases can be found here:
 
-	* <a href="https://www.madaster.com/download_file/view/763" target="_blank">Release notes August 7th 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/715" target="_blank">Release notes July 16th 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/672" target="_blank">Release notes June 25th 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/612" target="_blank">Release notes June 4th 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/552" target="_blank">Release notes April 26th&nbsp;2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29 maart 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes 8 maart 2018</a></li>
-	* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes 15 december 2017</a></li>
+* <a href="https://www.madaster.com/download_file/view/763" target="_blank">Release notes August 7th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/715" target="_blank">Release notes July 16th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/672" target="_blank">Release notes June 25th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/612" target="_blank">Release notes June 4th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/552" target="_blank">Release notes April 26th&nbsp;2018</a>
+* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes 8 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes 15 december 2017</a>
