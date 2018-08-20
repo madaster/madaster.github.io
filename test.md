@@ -5,7 +5,7 @@ toc: true
 
 # General Information
 Welcome to the Madaster platform! On this page you will find additional information about the use and development of the Madaster platform.
-<hr>
+<hr/>
 ## <img alt="Help" height="38" src="/assets/images/767.svg" width="38">&nbsp;Manuals
 
 ### General manuals
@@ -23,10 +23,10 @@ Welcome to the Madaster platform! On this page you will find additional informat
 ### Reference works
 
  * Read the&nbsp;<a href="https://www.madaster.com/download_file/view/772">Madaster Circulariteit Indicator explaned</a>&nbsp;document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
-<hr>
+<hr/>
 ## <img alt="Servicedesk" height="38" src="/assets/images/771.svg" width="38">&nbsp;Madaster Servicedesk
 Do you have questions? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.
-<hr>
+<hr/>
 ## <img alt="Documentsingle" height="38" src="/assets/images/770.svg" width="38">&nbsp;Release Notes
 
 More information about the releases can be found here:
