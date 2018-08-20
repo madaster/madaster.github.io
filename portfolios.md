@@ -6,7 +6,7 @@ toc: true
 Welke informatie wordt hier getoond?
 U vindt hier alle portfolio’s die in dit account zijn aangemaakt. Een portfolio kan gezien worden als een specifieke verzameling van gebouwen. U kunt de weergave van de portfolio’s wijzigen door aan de linkerkant op ‘Bekijk’ te klikken. Hierbij kunt u kiezen tussen een lijst van de portfolio’s waarbij de naam en de eigenaar wordt weergegeven of tegels met de afbeelding van het portfolio. Dit kunt u ieder moment naar wens wijzigen.
 
-Hoe voeg ik een nieuw portfolio toe?
+#Hoe voeg ik een nieuw portfolio toe?
 • Klik op ‘Portfolio toevoegen’.
 • Voer de naam van het portfolio in.
 • Kies een geschikte afbeelding. Als u zelf geen geschikte afbeelding heeft, dan kunt u ervoor kiezen om geen afbeelding te selecteren. Het systeem zal dan zelf een standaard afbeelding aan dit portfolio koppelen.
@@ -14,7 +14,7 @@ Hoe voeg ik een nieuw portfolio toe?
 Hoe bekijk ik een portfolio?
 Klik op de naam of afbeelding van het portfolio dat u wilt openen. U ziet nu een overzicht van de gebouwen die aan dit portfolio zijn toegevoegd en een overzicht van de gebruikers die dit portfolio kunnen bekijken en kunnen bewerken.
 
-Hoe verwijder ik een portfolio?
+#Hoe verwijder ik een portfolio?
 Een portfolio kan alleen verwijderd worden als deze geen gebouw(en) meer bevat. Staan er wel nog gebouwen in het portfolio? Dan dient u eerst ieder gebouw te verwijderen, waarna u het portfolio kunt verwijderen. Hoe u een gebouw kunt verwijderen leest u bij ‘Hoe verwijder ik een gebouw uit een portfolio’. Als er geen gebouwen meer in het portfolio staan, volgt u deze stappen:
 
 • Klik op de naam of afbeelding van het portfolio om het portfolio te openen.
@@ -28,7 +28,7 @@ Hoe pas ik de naam of afbeelding van een portfolio aan?
 Hoeveel portfolio’s kan ik aanmaken?
 Iedere zakelijke gebruiker, die rechten heeft om een portfolio aan te maken, kan zoveel portfolio’s aanmaken als gewenst. Er is geen limiet ingesteld. Een particuliere gebruiker mag een portfolio aanmaken, dit portfolio wordt direct aangemaakt tijdens de registratie op het platform.
 
-Wie heeft er toegang tot een portfolio?
+#Wie heeft er toegang tot een portfolio?
 De gebruiker die het portfolio aanmaakt, heeft standaard toegang tot het portfolio. Deze gebruiker is de administrator. Daarnaast kan deze gebruiker ook andere gebruikers toegang geven tot zijn of haar portfolio’s. Zie hiervoor onderstaande uitleg.
 
 Hoe voeg ik gebruikers toe aan een portfolio?
