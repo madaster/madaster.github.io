@@ -7,10 +7,10 @@ Welke informatie wordt hier getoond?
 U vindt hier alle portfolio’s die in dit account zijn aangemaakt. Een portfolio kan gezien worden als een specifieke verzameling van gebouwen. U kunt de weergave van de portfolio’s wijzigen door aan de linkerkant op ‘Bekijk’ te klikken. Hierbij kunt u kiezen tussen een lijst van de portfolio’s waarbij de naam en de eigenaar wordt weergegeven of tegels met de afbeelding van het portfolio. Dit kunt u ieder moment naar wens wijzigen.
 
 ## Hoe voeg ik een nieuw portfolio toe?
-..* Klik op ‘Portfolio toevoegen’.
-..* Voer de naam van het portfolio in.
-..* Kies een geschikte afbeelding. Als u zelf geen geschikte afbeelding heeft, dan kunt u ervoor kiezen om geen afbeelding te selecteren. Het systeem zal dan zelf een standaard afbeelding aan dit portfolio koppelen.
-..* Klik op ‘Opslaan’. Hierna opent het zojuist aangemaakte portfolio en kunt u daar direct mee aan de slag.
+* Klik op ‘Portfolio toevoegen’.
+* Voer de naam van het portfolio in.
+* Kies een geschikte afbeelding. Als u zelf geen geschikte afbeelding heeft, dan kunt u ervoor kiezen om geen afbeelding te selecteren. Het systeem zal dan zelf een standaard afbeelding aan dit portfolio koppelen.
+* Klik op ‘Opslaan’. Hierna opent het zojuist aangemaakte portfolio en kunt u daar direct mee aan de slag.
 
 ## Hoe bekijk ik een portfolio?
 Klik op de naam of afbeelding van het portfolio dat u wilt openen. U ziet nu een overzicht van de gebouwen die aan dit portfolio zijn toegevoegd en een overzicht van de gebruikers die dit portfolio kunnen bekijken en kunnen bewerken.
