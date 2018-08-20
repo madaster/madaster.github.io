@@ -26,7 +26,7 @@ toc: true
  * Read the&nbsp;<a href="https://www.madaster.com/download_file/view/772">Madaster Circulariteit Indicator explaned</a>&nbsp;document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
 <br/>
 
-## <img alt="Servicedesk.svg" height="54" src="https://www.madaster.com/download_file/view_inline/771" width="58">&nbsp;Madaster Servicedesk</h3>
+## <img alt="Servicedesk.svg" height="54" src="https://www.madaster.com/download_file/view_inline/771" width="58">&nbsp;Madaster Servicedesk
 
 Do you have questions? Contact Madaster by telephone 085-0657436&nbsp;or e-mailadress <a href="mailto:service@madaster.com">service@madaster.com</a>.
 
