@@ -7,7 +7,7 @@ toc: true
 <br/>
 
 <hr>
-## <h3><img alt="Help.svg" height="45" src="https://www.madaster.com/download_file/view_inline/767" width="45">&nbsp;Manuals</h3>
+## <h3><img alt="Help" height="45" src="/assets/images/767.svg" width="45">&nbsp;Manuals</h3>
 
 ### General manuals
 
