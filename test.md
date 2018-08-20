@@ -7,7 +7,7 @@ toc: true
 <br/>
 
 <hr>
-## <img alt="Help" height="45" src="/assets/images/767.svg" width="45">Manuals
+<img alt="Help" height="45" src="/assets/images/767.svg" width="45">Manuals
 
 ### General manuals
 
