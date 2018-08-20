@@ -24,8 +24,9 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-      {% include toc.html html=content %}
-
+      <nav class="site-toc">
+        {% include toc.html html=content %}
+      <nav>
       <footer class="site-footer">        
       </footer>
     </main>
