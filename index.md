@@ -3,7 +3,8 @@ title: "Home"
 toc: true
 ---
 
-Welcome to the Madaster platform! On this page you will find additional information about the use and development of the Madaster platform.
+## Welcome to the Madaster platform!
+On this page you will find additional information about the use and development of the Madaster platform.
 
 <hr/>
 
