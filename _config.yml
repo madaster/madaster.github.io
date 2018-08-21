@@ -3,3 +3,5 @@ title: Madaster Documentation
 description: Welcome to Madaster Documentation. You can find comprehensive guides and documentation to help get you started with Madaster as quickly as possible, and support if you get stuck.
 plugins:
   - jekyll-toc
+  - jekyll-multiple-languages-plugin
+languages: ["en", "nl"]
