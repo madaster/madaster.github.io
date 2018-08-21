@@ -4,4 +4,4 @@ permalink: /portfolio/
 toc: true
 ---
  
-{% translate_file portfolio/portfolio.md %}
+{% tf portfolio.md %}
