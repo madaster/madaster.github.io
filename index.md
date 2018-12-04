@@ -47,6 +47,6 @@ More information about the releases can be found here:
 * <a href="https://www.madaster.com/download_file/view/672" target="_blank">Release notes June 25th 2018</a>
 * <a href="https://www.madaster.com/download_file/view/612" target="_blank">Release notes June 4th 2018</a>
 * <a href="https://www.madaster.com/download_file/view/552" target="_blank">Release notes April 26th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes 8 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes 15 december 2017</a>
+* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29th maart 2018</a>
+* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes March 8th 2018</a>
+* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes December 15th 2017</a>
