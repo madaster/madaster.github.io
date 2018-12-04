@@ -65,6 +65,7 @@ Additionally, users can be granted reader access. As a reader, you can view the 
 | Export materials passport                    | Yes           | Yes     | No     |
 | Download materials passport as a PDF-file    | Yes           | Yes     | Yes    |
 
+
 | Account level    | Administrator | Manager | Reader |
 |------------------|---------------|---------|--------|
 | Create portfolio | Yes           | No      | No     |
