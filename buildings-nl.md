@@ -50,7 +50,8 @@ Beschikbare rollen en rechten op gebouwniveau:
 Scrol naar beneden in het tabblad ‘Algemeen’
 Klik op de knop ‘Toegang aanpassen’. Er opent een nieuwe pagina. Per gebruiker ziet u aan de rechterkant een prullenbak-icoontje.
 Klik op het prullenbak-icoontje van de gebruiker die verwijderd mag worden. Deze gebruiker heeft vanaf dat moment geen toegang meer tot het gebouw.
-Hoe kan ik de ingevoerde gegevens exporteren naar een PDF-bestand en zo een Materiaalpaspoort aanmaken?
+
+## Hoe kan ik de ingevoerde gegevens exporteren naar een PDF-bestand en zo een Materiaalpaspoort aanmaken?
 Na het uploaden van bronbestanden bij het gebouw kunt u een materiaalpaspoort aanmaken. Bestanden met ‘actief’ als status worden in het Materiaalpaspoort opgenomen. Hiermee exporteert u alle actieve data naar een PDF-bestand, wat u kunt downloaden naar uw computer en kunt afdrukken.
 
 Scrol naar beneden in het tabblad ‘Algemeen’
