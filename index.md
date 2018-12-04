@@ -1,6 +1,6 @@
 ---
 title: "Home"
-toc: true
+toc: false
 ---
 
 ## Welcome to the Madaster platform!
