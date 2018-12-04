@@ -21,31 +21,35 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
 ### BIM-specific manuals & templates
 
- * Open the <a href="https://www.madaster.com/download_file/view/765">Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
- * Read the <a href="https://www.madaster.com/download_file/view/773">Madaster BIM-guidelines</a> – this briefly describes the most important instructions for the preparation of a BIM model.
- * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
- * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> solution(free IFC-viewer) and corresponding Quick Start Guide.
+ * Open de <a href="https://www.madaster.com/download_file/view/765" target="_blank">Madaster Handleiding IFC-export (Archicad & Revit)</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
+ * <a href="https://platform.madaster.com/files/Archicad%20ExportTemplate.tpl" target="_blank">Download</a> de Madaster IFC export template voor Archicad - deze bevat de optimale exportsettings voor een IFC-bestand naar het Madaster platform.
+	* Lees de <a href="https://www.madaster.com/download_file/view/764" target="_blank">Madaster BIM-richtlijnen</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
+	* Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
+	* Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
 
-### Reference works
 
- * Read the [Madaster Circulariteit Indicator explaned](https://www.madaster.com/download_file/view/772) document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+### Naslagwerken
+
+* Lees de [Toelichting Madaster Circulariteit Indicator](https://www.madaster.com/download_file/view/702) - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
  
 ---
 
 ## <img alt="" height="38" src="/assets/images/771.svg" width="38"> Madaster Servicedesk
-Do you have questions? Contact Madaster by telephone [085-0657436](tel:+31850657436) or e-mailadress <service@madaster.com>.
+Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-0657436](tel:+31850657436) of het emailadres: <service@madaster.com>.
 
 ---
 
 ## <img alt="" height="38" src="/assets/images/770.svg" width="38"> Release Notes
 
-More information about the releases can be found here:
+Meer informatie over de releases vindt u hier:
 
-* <a href="https://www.madaster.com/download_file/view/763" target="_blank">Release notes August 7th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/715" target="_blank">Release notes July 16th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/672" target="_blank">Release notes June 25th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/612" target="_blank">Release notes June 4th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/552" target="_blank">Release notes April 26th 2018</a>
-* <a href="https://www.madaster.com/download_file/view/505" target="_blank">Release notes March 29 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/view/508" target="_blank">Release notes 8 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/view/506" target="_blank">Release notes 15 december 2017</a>
+* <a href="https://www.madaster.com/download_file/view/874" target="_blank">Release notes 29 oktober 2018</a>
+* <a href="https://www.madaster.com/download_file/view/777" target="_blank">Release notes 27 augustus 2018</a>
+* <a href="https://www.madaster.com/download_file/view/762" target="_blank">Release notes 7 augustus 2018</a>
+* <a href="https://www.madaster.com/download_file/view/716" target="_blank">Release notes 16 juli 2018</a>
+* <a href="https://www.madaster.com/download_file/view/651" target="_blank">Release notes 25 juni 2018</a>
+* <a href="https://www.madaster.com/download_file/view/613" target="_blank">Release notes 4 juni 2018</a>
+* <a href="https://www.madaster.com/download_file/view/551" target="_blank">Release notes 26 april 2018</a>
+* <a href="https://www.madaster.com/download_file/view/504" target="_blank">Release notes 29 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/507/0" target="_blank">Release notes 8 maart 2018</a>
+* <a href="https://www.madaster.com/download_file/509/0" target="_blank">Release notes 15 december 2017</a>
