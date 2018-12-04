@@ -1,6 +1,6 @@
 ---
 layout: default
-ref: portfolio
+ref: portfolios
 lang: nl
 ---
 
