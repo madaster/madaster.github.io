@@ -7,8 +7,6 @@ description:
   nl: Welkom bij de documentatie website van Madaster.
 plugins:
   - jekyll-toc
-gems:
-  - jekyll-multiple-languages-plugin
 index:
-  en: index.md
+  en: 
   nl: index-nl.md
