@@ -3,7 +3,7 @@ title: Portfolios
 layout: default
 ref: portfolio
 toc: true
-lang: nl
+lang: en
 ---
 
 ## What information is shown here?
