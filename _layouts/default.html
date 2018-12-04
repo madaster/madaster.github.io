@@ -27,9 +27,7 @@
             <ul class="nav navbar-nav">
                         <li><a href="/">Home</a></li>
                         <li><a href="/api">API</a></li>
-            </ul>            
-            <ul>
-            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+              {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
             {% for post in posts %}
               <li>
                 <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
@@ -42,7 +40,7 @@
                 <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
               </li>
             {% endfor %}
-            </ul>
+            </ul>                        
         </div>
       </div>
     </nav>
