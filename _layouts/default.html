@@ -27,21 +27,8 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/api">API</a></li>
-              {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-            {% for post in posts %}
-              <li>
-                <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-              </li>
-            {% endfor %}
-
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %}
-              <li>
-                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-              </li>
-            {% endfor %}
-            </ul>                        
+                        <li><a href="/api">API</a></li>            
+            </ul>
         </div>
       </div>
     </nav>
@@ -50,7 +37,7 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-      <nav class="site-toc bd-toc">
+      <nav class="site-toc bd-toc" style="display:none">
         {% include toc.html html=content %}
       </nav>
       <footer class="site-footer">        
