@@ -65,15 +65,15 @@ Additionally, users can be granted reader access. As a reader, you can view the 
 | Export materials passport                    | Yes           | Yes     | No     |
 | Download materials passport as a PDF-file    | Yes           | Yes     | Yes    |
 
-| Account level    | Administrator |     | Manager | Reader |
-|------------------|---------------|-----|---------|--------|
-| Create portfolio |               | Yes | No      | No     |
+| Account level    | Administrator | Manager | Reader |
+|------------------|---------------|---------|--------|
+| Create portfolio | Yes           | No      | No     |
 
 ## How can I change the roles of users who have access to a portfolio?
-• Click the name or picture of the portfolio you would like to open
-• Go to the tab ‘Users’ and click ‘Edit permissions’.
-• Change the role of the user in question.
-• Click ‘Save’.
+* Click the name or picture of the portfolio you would like to open
+* Go to the tab ‘Users’ and click ‘Edit permissions’.
+* Change the role of the user in question.
+* Click ‘Save’.
 
 ## How many users can I add to my portfolio?
 This depends on your Madaster subscription. Users with an individual subscription, cannot add users to their account. For users from organisations, this depends on the subscription type.
