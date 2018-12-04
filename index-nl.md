@@ -23,9 +23,9 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
  * Open de <a href="https://www.madaster.com/download_file/view/765" target="_blank">Madaster Handleiding IFC-export (Archicad & Revit)</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
  * <a href="https://platform.madaster.com/files/Archicad%20ExportTemplate.tpl" target="_blank">Download</a> de Madaster IFC export template voor Archicad - deze bevat de optimale exportsettings voor een IFC-bestand naar het Madaster platform.
-	* Lees de <a href="https://www.madaster.com/download_file/view/764" target="_blank">Madaster BIM-richtlijnen</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
-	* Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
-	* Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
+ * Lees de <a href="https://www.madaster.com/download_file/view/764" target="_blank">Madaster BIM-richtlijnen</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
+ * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
+ * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
 
 
 ### Naslagwerken
