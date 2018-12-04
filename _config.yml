@@ -10,5 +10,5 @@ plugins:
 gems:
   - jekyll-multiple-languages-plugin
 index:
-  en:
-  nl: thuis.html
+  en: index.md
+  nl: index-nl.md
