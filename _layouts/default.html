@@ -27,14 +27,14 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
-                <li><a href="/api">API</a></li>            
-                {% include languageswitch.html html=content %}
+                <li><a href="/api">API</a></li>                
             </ul>
         </div>
       </div>
     </nav>       
 
     <main id="content" class="main-content" role="main">
+      {% include languageswitch.html html=content %}
       {{ content }}
       <nav class="site-toc bd-toc" style="display:none">
         {% include toc.html html=content %}
