@@ -1,5 +1,7 @@
 ---
-title: "Home"
+title: Home
+layout: default
+ref: home
 toc: false
 lang: nl
 ---
