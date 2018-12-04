@@ -30,6 +30,7 @@ Click ‘Edit permissions’. A new page is opened, where you can change the pri
 Click ‘Save’.
  
 Roles on building-level:
+
 | Building level                            | Administrator | Manager | Reader |
 |-------------------------------------------|---------------|---------|--------|
 | View building                             | Yes           | Yes     | Yes    |
