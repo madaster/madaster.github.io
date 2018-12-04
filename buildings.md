@@ -1,3 +1,11 @@
+---
+title: Buildings
+layout: default
+ref: buildings
+toc: false
+lang: en
+---
+
 ## What information is shown here?
 After opening a building, you will go to the details page for the building. This page contains general information. There, you will see a summary of the data entered. Below that, there is a table that shows the degree of completion of the materials entered, as well as an overview of the active source files that have been uploaded to this building. At the bottom of this page, you see the users who can access the building, and the privileges that have been assigned to them. 
 
