@@ -1,7 +1,7 @@
 ---
 title: Portfolios
 layout: default
-ref: portfolio
+ref: portfolios
 toc: true
 lang: en
 ---
