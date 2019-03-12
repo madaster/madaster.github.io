@@ -46,7 +46,7 @@ This will give you access to these resources and their attached entities.
 To connect to the API, multiple tools and languages can be used. Because the Madaster API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.
 
 ### Versions
-The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 1.1 for example, use https://api.madaster.com/api/v1.1
+The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 2.1 for example, use https://api.madaster.com/api/v2.1
 
 ### Postman
 [Postman](https://www.getpostman.com/) is an easy to use tool that can connect to all sorts of endpoint because it revolves around web requests.
@@ -61,7 +61,7 @@ HttpClient client = new HttpClient();
 client.BaseAddress = new Uri("https://api.madaster.com/");
 client.DefaultRequestHeaders.Accept.Clear();
 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-HttpResponseMessage response = await client.GetAsync("api/v1.1/buildings");
+HttpResponseMessage response = await client.GetAsync("api/v2.1/buildings");
 if (response.IsSuccessStatusCode)
 {
     buildings = await response.Content.ReadAsAsync<IEnumerable<Building>>();
@@ -71,8 +71,11 @@ if (response.IsSuccessStatusCode)
 ## Enumerations
 The **Madaster API** uses enumerations throughout the entire range of functions. To find out what they mean, check [**enums**](https://docs.madaster.com/enums).
 
+## System data
+Some calls to the API require data that is not bound to any entity. These calls are made to the **System** level: `https://api.madaster.com/api/v2.1/system`.
+
 ## Structure
-The **Madaster Platform** uses a hierarchical structure to store enitities and also displays them in this same tree-like way. Simply put, some entities act as containers for other entities, which may seem logical on the website but can be cumbersome to follow through the API. Below you can find this structure and some examples to show you how to navigate through this structure and to upload a single IFC file or create a file manually. For the examples the API version 1.1 is used; if you want to use a different version of the API, replace the `/v1.1/` part with your preferred version number.
+The **Madaster Platform** uses a hierarchical structure to store enitities and also displays them in this same tree-like way. Simply put, some entities act as containers for other entities, which may seem logical on the website but can be cumbersome to follow through the API. Below you can find this structure and some examples to show you how to navigate through this structure and to upload a single IFC file or create a file manually. For the examples the API version 2.1 is used; if you want to use a different version of the API, replace the `/v2.1/` part with your preferred version number.
 
 ### Account
 The top level of the structure is an *account*. An account is the level that is attained when subscribing to Madaster and it holds the information about the subscription model. An account can have users attached to it and holds one or more *portfolios*.
@@ -84,22 +87,21 @@ Accounts have no representation in the API yet. When accessing the API, the toke
 A *portfolio* can be seen as a folder of *buildings*, it does not add much data beyond its function as a collection. You can add documentation files to a portfolio and look at combined cumulative data about all the buildings in a portfolio.
 
 #### API calls
-When you receive an API token, it is usually scoped to a single portfolio. If you received a token for an entire account, you can use the functions at `https://api.madaster.com/api/v1.1/portfolios`.
+When you receive an API token, it is usually scoped to a single portfolio. If you received a token for an entire account, you can use the functions at `https://api.madaster.com/api/v2.1/portfolios`.
 
 ### Building
 A *buiding* is the main entity of the Madaster platform, it contains all data related to a real-world building and most figures and numbers relate to a building as a whole. A building gets its data from one ore more *building files*.
 
 #### API calls
-If your API token is scoped to a single building, the functions for the building entity will only work on that building. You can use the functions at `https://api.madaster.com/api/v1.1/buildings` to manage that building. If you have a token at the portfolio level, you can also add buildings at this level:
+If your API token is scoped to a single building, the functions for the building entity will only work on that building. You can use the functions at `https://api.madaster.com/api/v2.1/buildings` to manage that building. If you have a token at the portfolio level, you can also add buildings at this level:
 
 **Create a building**<br/>
-URL: `POST api/v1.1/buildings`<br/>
+URL: `POST api/v2.1/buildings`<br/>
 Body:
 ```json
 {
-  "classificationType": "string",
-  "phaseType": "string",
-  "portfolioId": "string",
+  "classificationType": "GUID",
+  "portfolioId": "GUID",
   "name": "string",
   "cadastralDesignation": "string",
   "cadastralArea": 0,
@@ -131,7 +133,9 @@ Body:
 }
 ```
 
-This will return a **201 Created** response containing the created building in the body and the *location* response header will contain the URL to the `GET` request for the created building. You can use either to find the ID of the created building.
+This will return a **201 Created** response containing the created building in the body and the *location* response header will contain the URL to the `GET` request for the created building. You can use either value to find the ID of the created building.
+
+To find the right **classification method** for the *classificationType* field, you can use the result from `https://api.madaster.com/api/v2.1/system/classificationmethods` to determine which *id* you need.
 
 ### Building file
 A building file can be either a source file (IFC/BIM or Excel) or a documentation file. The source files are used to supply the building containing these files with information about the contents of the building. A building file is a collection of *building file elements* and some metadata to inform the user what the file contains.
@@ -143,7 +147,7 @@ IFC File: Create a building file > Upload > Activate *(optional)*
 Manual File: Create a building file > Start importing > *Create building file elements (see below)* > Start Refining > Activate *(optional)*
 
 **Create a building file**<br/>
-URL: `POST api/v1.1/buildings/{buildingId}/files`<br/>
+URL: `POST api/v2.1/buildings/{buildingId}/files`<br/>
 Body:
 ```json
 {
@@ -158,16 +162,16 @@ Body:
 The type property can be either source (0) or information (1), see [BuildingFileType](https://docs.madaster.com/enums#buildingfiletype).
 
 **Upload**<br/>
-URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/upload`
+URL: `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/upload`
 
 **Start importing**<br/>
-URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/setimporting`
+URL: `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/setimporting`
 
 **Start refining**<br/>
-URL `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/startrefinement`
+URL `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/startrefinement`
 
 **Activate**<br/>
-URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/active`
+URL: `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/active`
 
 ### Building file element
 The bottom level of the structure is a *building file element*, which should be relatable to one real world element. It contains quantity information about the element and some metadata that describes its use, location and circularity.
@@ -176,11 +180,11 @@ The bottom level of the structure is a *building file element*, which should be 
 If you create a building file without uploading an actual file to it, you can create building file elements manually. To start this process, you should call the *Start importing* action of the building. When the status is set to 'importing' you can create building file elements. When you are done creating elements, you should call the *Start refining* action of the building.
 
 **Create building file element**<br/>
-URL: `POST /api/v1.1/buildings/{buildingId}/files/{fileId}/elements`<br/>
+URL: `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/elements`<br/>
 Body:
 ```json
 {
-  "id": "string",
+  "id": "GUID",
   "materialName": "string",
   "typeName": "string",
   "elementClass": "string",
