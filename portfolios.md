@@ -1,6 +1,8 @@
 ---
 title: Portfolios
 layout: page
+show_sidebar: false
+menubar: faq-nav
 ref: portfolios
 toc: true
 lang: en
