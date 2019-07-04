@@ -1,11 +1,11 @@
 ---
 title: Gebouwen
-layout: default
+layout: page
+show_sidebar: false
+menubar: faq-nav
 ref: buildings
-toc: false
 lang: nl
 ---
-
 
 ## Welke informatie wordt hier getoond?
 Als u een gebouw heeft geopend, komt u terecht bij de algemene informatie over het gebouw. U ziet een korte samenvatting van de ingevoerde gegevens. Daaronder wordt een tabel getoond met een overzicht van de volledigheid van het ingevoerde materiaal en een overzicht van de actieve bronbestanden. Helemaal onderaan deze pagina ziet u de gebruikers die toegang hebben tot dit gebouw en welke rechten aan hen zijn toegekend.
