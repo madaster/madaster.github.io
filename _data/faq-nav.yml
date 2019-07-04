@@ -1,7 +1,33 @@
-- label: Example Menu
+- label: FAQ
   items:
-    - name: Home
-      link: /
+        - name: Portfolio
+      link: /portfolios/
+    - name: Buildings
+      link: /buildings/
+    - name: Building
+      link: /building/
+    - name: Building Process
+      link: /building-process/
+    - name: Circularity
+      link: /circularity/
+      items:
+        - name: Circularity - Detail level
+          link: /circularity-learn-more/          
+    - name: Financial
+      link: /financial/
+      items:
+        - name: Financial - Material
+          link: /financialmaterial/ 
+        - name: Financial - Building layers
+          link: /financialbuildinglayers/         
+    - name: Dossier
+      link: /dossier/ 
+    - name: Administration
+      link: /administration/ 
+    - name: Products
+      link: /products/  
+    - name: Profile
+      link: /profile/
     - name: Pages
       link: #
       items:
