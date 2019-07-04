@@ -2,7 +2,7 @@
 title: Home
 layout: page
 show_sidebar: false
-menubar: example_menu
+menubar: faq-nav
 ref: home
 toc: false
 lang: en
