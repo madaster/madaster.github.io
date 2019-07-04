@@ -1,3 +1,10 @@
+---
+title: FAQ
+layout: default
+ref: faq
+lang: en
+---
+
 ## What information is shown here?
 When you log on to the platform, you will automatically go to the home screen. After registering as a user, you will be presented with an empty portfolio that you can set up. All portfolios and buildings that have been added to the account, either by you or another user, are displayed here. See the Portfolios section for more information. From this overview, you can go to one of the buildings you added or you can open a portfolio, choose a building from that portfolio by clicking on it, or add a building if you have the proper authorization.
 
