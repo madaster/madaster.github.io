@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: chrisrhymes/bulma-clean-theme
 title: 
   en: Madaster Documentation
   nl: Madaster Documentatie
