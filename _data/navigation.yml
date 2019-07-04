@@ -1,33 +1,33 @@
 - name: Home
   link: /
 - name: FAQ
-  link: /faq/
+  link: /faq
   dropdown: 
     - name: Portfolio
-      link: /portfolios/
+      link: /portfolios
     - name: Buildings
-      link: /buildings/
+      link: /buildings
     - name: Building
-      link: /building/
+      link: /building
     - name: Building Process
-      link: /building-process/
+      link: /building-process
     - name: Circularity
-      link: /circularity/
+      link: /circularity
     - name: Circularity - Detail level
-      link: /circularity-learn-more/      
+      link: /circularity-learn-more      
     - name: Financial
-      link: /financial/
+      link: /financial
     - name: Financial - Material
-      link: /financialmaterial/ 
+      link: /financialmaterial 
     - name: Financial - Building layers
-      link: /financialbuildinglayers/ 
+      link: /financialbuildinglayers 
     - name: Dossier
-      link: /dossier/ 
+      link: /dossier
     - name: Administration
-      link: /administration/ 
+      link: /administration
     - name: Products
-      link: /products/  
+      link: /products
     - name: Profile
-      link: /profile/
+      link: /profile
 - name: API
-  link: /api/      
+  link: /api
