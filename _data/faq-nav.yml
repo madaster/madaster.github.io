@@ -1,6 +1,6 @@
 - label: FAQ
   items:
-        - name: Portfolio
+    - name: Portfolio
       link: /portfolios/
     - name: Buildings
       link: /buildings/
@@ -28,14 +28,3 @@
       link: /products/  
     - name: Profile
       link: /profile/
-    - name: Pages
-      link: #
-      items:
-        - name: Page With Sidebar 
-          link: /page-1/
-        - name: Page Without Sidebar
-          link: /page-2/
-        - name: Page With Menubar
-          link: /page-3/
-    - name: Blog
-      link: /blog/
