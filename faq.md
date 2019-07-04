@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: default
+layout: page
 ref: faq
 lang: en
 ---
