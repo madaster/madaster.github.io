@@ -1,6 +1,6 @@
 ---
 title: Portfolios
-layout: default
+layout: page
 ref: portfolios
 toc: true
 lang: en
