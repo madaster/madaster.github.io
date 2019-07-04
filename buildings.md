@@ -1,6 +1,6 @@
 ---
 title: Buildings
-layout: default
+layout: page
 ref: buildings
 toc: false
 lang: en
