@@ -1,6 +1,8 @@
 ---
 title: Home
-layout: default
+layout: page
+show_sidebar: false
+menubar: faq-nav
 ref: home
 toc: false
 lang: nl
