@@ -1,6 +1,8 @@
 ---
 title: Buildings
 layout: page
+show_sidebar: false
+menubar: faq-nav
 ref: buildings
 toc: false
 lang: en
