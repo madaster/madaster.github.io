@@ -1,6 +1,8 @@
 ---
 title: FAQ
 layout: page
+show_sidebar: false
+menubar: faq-nav
 ref: faq
 lang: en
 ---
