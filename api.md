@@ -1,3 +1,10 @@
+---
+title: API
+layout: page
+ref: api
+lang: en
+---
+
 # Madaster API
 The **Madaster API** endpoint can be used to interact with the Madaster Platform and its resources.
 This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
