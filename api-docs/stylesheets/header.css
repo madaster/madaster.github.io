@@ -1,0 +1,8 @@
+.navbar-brand{
+    height: 100px;
+    background: #003B60;
+    background: -webkit-linear-gradient(left, #003B60, #C5DDE6);
+    background: -o-linear-gradient(right, #003B60, #C5DDE6);
+    background: -moz-linear-gradient(right, #003B60, #C5DDE6);
+    background: linear-gradient(to right, #003B60, #C5DDE6);
+}
