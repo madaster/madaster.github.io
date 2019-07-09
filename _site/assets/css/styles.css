@@ -76,6 +76,15 @@ body {
     border-top-width: 0;
 }
 
+.madaster-footer-text > p {
+    color: white;
+}
+
+.madaster-footer-text > p > a {
+    color: white;
+    text-decoration: underline;
+}
+
 .flag img {
     width: 20px;
 }
