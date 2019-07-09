@@ -3,15 +3,28 @@ remote_theme: chrisrhymes/bulma-clean-theme
 title: 
   en: Madaster Documentation
   nl: Madaster Documentatie
+  de: Madaster Dokumentation
 description: 
   en: Welcome to Madaster Documentation. You can find comprehensive guides and documentation to help get you started with Madaster as quickly as possible, and support if you get stuck.
   nl: Welkom bij de documentatie website van Madaster.
+  de: Wilkommen bei dem Dokumentation Seite von Madaster.
 index:
-  en: 
+  en: index.md
   nl: index-nl.md
+  de: index-de.md
 portfolios:
-  en: 
+  en: portfolios.md
   nl: portfolios-nl.md
+  de: portfolios-de.md
 buildings:
-  en: 
+  en: buildings.md
   nl: buildings-nl.md  
+  de: buildings-de.md 
+building:
+  en: building.md
+  nl: building-nl.md  
+  de: building-de.md 
+building-process:
+  en: building-process.md
+  nl: building-process-nl.md  
+  de: building-process-de.md 

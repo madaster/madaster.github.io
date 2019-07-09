@@ -17,7 +17,7 @@
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
                     <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
-                        <a href="{{ item.link | prepend: site.baseurl }}" class="madaster-navbar-item navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                        <a href="{{ item.link | prepend: site.baseurl }}" class="madaster-navbar-item dropdown navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
                             <a href="{{ subitem.link | prepend: site.baseurl }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
@@ -29,8 +29,8 @@
                     {% endif %}
                 {% endfor %}
                 {% endif %}
-                {% include languageswitch.html html=content %}
             </div>
+            {% include languageswitch.html html=content %}
         </div>
     </div>
 </nav>
