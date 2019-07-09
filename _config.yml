@@ -27,4 +27,41 @@ building:
 building-process:
   en: building-process.md
   nl: building-process-nl.md  
-  de: building-process-de.md 
+  de: building-process-de.md
+circularity:
+  en: circularity.md
+  nl: circularity-nl.md  
+  de: circularity-de.md 
+circularity-learn-more:
+  en: circularity-learn-more.md
+  nl: circularity-learn-more-nl.md
+  de: circularity-learn-more-de.md
+financial:
+  en: financial.md
+  nl: financial-nl.md
+  de: financial-de.md
+financial-material:
+  en: financial-material.md
+  nl: financial-material-nl.md
+  de: financial-material-de.md
+financial-buildinglayers:
+  en: financial-buildinglayers.md
+  nl: financial-buildinglayers-nl.md  
+  de: financial-buildinglayers-de.md
+dossier:
+  en: dossier.md
+  nl: dossier-nl.md
+  de: dossier-de.md
+administration:
+  en: administration.md
+  nl: administration-nl.md
+  de: administration-de.md
+products:
+  en: products.md
+  nl: products-nl.md
+  de: products-de.md
+profile:
+  en: profile.md
+  nl: profile-nl.md
+  de: profile-de.md
+  

@@ -14,12 +14,12 @@
         - name: Circularity - Detail level
           link: /circularity-learn-more          
     - name: Financial
-      link: /financial/
+      link: /financial
       items:
         - name: Financial - Material
-          link: /financialmaterial
+          link: /financial-material
         - name: Financial - Building layers
-          link: /financialbuildinglayers         
+          link: /financial-buildinglayers         
     - name: Dossier
       link: /dossier
     - name: Administration
