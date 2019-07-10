@@ -44,6 +44,10 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-065
 
 Meer informatie over de releases vindt u hier:
 
+* <a href="https://www.madaster.com/download_file/view/1172" target="_blank">Release notes 1 april 2019</a>
+* <a href="https://www.madaster.com/download_file/view/1017" target="_blank">Release notes 12 februari 2019</a>
+* <a href="https://www.madaster.com/download_file/view/966" target="_blank">Release notes 21 januari 2019</a>
+* <a href="https://www.madaster.com/download_file/view/923" target="_blank">Release notes 10 december 2018</a>
 * <a href="https://www.madaster.com/download_file/view/874" target="_blank">Release notes 29 oktober 2018</a>
 * <a href="https://www.madaster.com/download_file/view/777" target="_blank">Release notes 27 augustus 2018</a>
 * <a href="https://www.madaster.com/download_file/view/762" target="_blank">Release notes 7 augustus 2018</a>
