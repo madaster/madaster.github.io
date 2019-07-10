@@ -1,33 +1,68 @@
-- name: Home
-  link: /
-- name: FAQ
-  link: /faq
-  dropdown: 
-    - name: Portfolio
-      link: /portfolios
-    - name: Buildings
-      link: /buildings
-    - name: Building
-      link: /building
-    - name: Building Process
-      link: /building-process
-    - name: Circularity
-      link: /circularity
-    - name: Circularity - Detail level
-      link: /circularity-learn-more      
-    - name: Financial
-      link: /financial
-    - name: Financial - Material
-      link: /financialmaterial 
-    - name: Financial - Building layers
-      link: /financialbuildinglayers 
-    - name: Dossier
-      link: /dossier
-    - name: Administration
-      link: /administration
-    - name: Products
-      link: /products
-    - name: Profile
-      link: /profile
-- name: API
-  link: /api
+en:
+  - name: Home
+    link: /
+  - name: FAQ
+    link: /faq
+    dropdown: 
+      - name: Portfolio
+        link: /portfolios
+      - name: Buildings
+        link: /buildings
+      - name: Building
+        link: /building
+      - name: Building Process
+        link: /building-process
+      - name: Circularity
+        link: /circularity
+      - name: Circularity - Detail level
+        link: /circularity-learn-more      
+      - name: Financial
+        link: /financial
+      - name: Financial - Material
+        link: /financialmaterial 
+      - name: Financial - Building layers
+        link: /financialbuildinglayers 
+      - name: Dossier
+        link: /dossier
+      - name: Administration
+        link: /administration
+      - name: Products
+        link: /products
+      - name: Profile
+        link: /profile
+  - name: API
+    link: /api
+nl:
+  - name: Home
+    link: /index-nl
+  - name: FAQ
+    link: /faq
+    dropdown: 
+      - name: Portfolio
+        link: /portfolios-nl
+      - name: Gebouwen
+        link: /buildings-nl
+      - name: Gebouw
+        link: /building-nl
+      - name: Building Process
+        link: /building-process
+      - name: Circularity
+        link: /circularity
+      - name: Circularity - Detail level
+        link: /circularity-learn-more      
+      - name: Financial
+        link: /financial
+      - name: Financial - Material
+        link: /financialmaterial 
+      - name: Financial - Building layers
+        link: /financialbuildinglayers 
+      - name: Dossier
+        link: /dossier
+      - name: Administration
+        link: /administration
+      - name: Products
+        link: /products
+      - name: Profile
+        link: /profile
+  - name: API
+    link: /api
