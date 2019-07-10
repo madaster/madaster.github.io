@@ -7,13 +7,13 @@ body {
     width: 34%;
 }
 
-.madaster-nav{
+.madaster-nav {
     height: 120px;
     background: #003B60;
-    background: -webkit-linear-gradient(left, #003B60, #C5DDE6);
-    background: -o-linear-gradient(right, #003B60, #C5DDE6);
-    background: -moz-linear-gradient(right, #003B60, #C5DDE6);
-    background: linear-gradient(to right, #003B60, #C5DDE6);
+    background: -webkit-linear-gradient(left, #003B60, #63A8C1);
+    background: -o-linear-gradient(right, #003B60, #63A8C1);
+    background: -moz-linear-gradient(right, #003B60, #63A8C1);
+    background: linear-gradient(to right, #003B60, #63A8C1);
     border: 20px solid white;
     border-bottom-width: 0;
 }
@@ -35,6 +35,28 @@ body {
     padding: 0;
 }
 
+@media (max-width: 1023px) {
+
+    .madaster-navbar-item.is-active,
+    .madaster-navbar-item:hover,
+    a.navbar-item:hover {
+        color: #4A4A4A !important;
+        border-bottom: none !important;
+    }
+
+    .navbar-link:not(.is-arrowless)::after {
+        border-color: #4A4A4A !important;
+    }
+
+    .madaster-navbar-item.navbar-item.header-title:hover {
+        color: #ffffff !important;
+    }
+
+    .madaster-language-toggle {
+        margin-top: -30px !important;
+    }
+}
+
 .madaster-navbar-item.dropdown {
     padding-right: 2.5em;
     margin-right: 10px;
@@ -47,8 +69,17 @@ body {
     margin-top: 36px;
 }
 
-.madaster-navbar-item:hover, .madaster-navbar-item:focus, .madaster-dropdown:hover,
-.madaster-dropdown:focus, .madaster-dropdown.has-dropdown {
+.navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
+    color: #4A4A4A;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.madaster-navbar-item:hover,
+.madaster-navbar-item:focus,
+.madaster-dropdown:hover,
+.madaster-dropdown:focus,
+.madaster-dropdown.has-dropdown {
     background-color: transparent !important;
 }
 
@@ -62,7 +93,7 @@ body {
     margin-top: 37px;
 }
 
-.madaster-language-toggle > a {
+.madaster-language-toggle>a {
     color: white;
 }
 
@@ -72,19 +103,19 @@ body {
 
 .footer {
     background: #003B60;
-    background: -webkit-linear-gradient(left, #003B60, #C5DDE6);
-    background: -o-linear-gradient(right, #003B60, #C5DDE6);
-    background: -moz-linear-gradient(right, #003B60, #C5DDE6);
-    background: linear-gradient(to right, #003B60, #C5DDE6);
+    background: -webkit-linear-gradient(left, #003B60, #63A8C1);
+    background: -o-linear-gradient(right, #003B60, #63A8C1);
+    background: -moz-linear-gradient(right, #003B60, #63A8C1);
+    background: linear-gradient(to right, #003B60, #63A8C1);
     border: 20px solid white;
     border-top-width: 0;
 }
 
-.madaster-footer-text > p {
+.madaster-footer-text>p {
     color: white;
 }
 
-.madaster-footer-text > p > a {
+.madaster-footer-text>p>a {
     color: white;
     text-decoration: underline;
 }
@@ -93,7 +124,12 @@ body {
     width: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #003B60 !important;
     text-transform: uppercase;
     font-weight: bold;
@@ -110,9 +146,14 @@ h3 {
 .header-img {
     height: 25px;
     width: 25px;
+    padding-top: 6px;
 }
 
-p, li, table, .menu, .navbar-dropdown > a {
+p,
+li,
+table,
+.menu,
+.navbar-dropdown>a {
     color: #4A4A4A;
     font-size: 14px;
     letter-spacing: 0.6px;
@@ -122,7 +163,8 @@ strong {
     color: #4A4A4A;
 }
 
-p a, ul:not(.menu-list) li a {
+p a,
+ul:not(.menu-list) li a {
     text-decoration: underline;
     color: #4A4A4A;
 }
@@ -137,4 +179,10 @@ p a, ul:not(.menu-list) li a {
 
 .menu-label:not(:last-child) {
     margin-bottom: 0 !important;
+}
+
+.menu-list a.is-active {
+    color: #4A4A4A;
+    background-color: transparent;
+    font-weight: bold;
 }

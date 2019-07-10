@@ -2,6 +2,7 @@
 title: Home
 layout: page
 ref: home
+permalink: /index-de
 lang: de
 ---
 

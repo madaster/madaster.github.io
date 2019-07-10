@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: faq-nav
 ref: building-process
+permalink: /building-process-de
 lang: de
 ---
 

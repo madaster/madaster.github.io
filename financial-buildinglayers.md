@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: faq-nav
 ref: financial-buildinglayers
+permalink: /financial-buildinglayers
 lang: en
 ---
 

@@ -3,6 +3,7 @@ title: Portfolios
 layout: page
 show_sidebar: false
 menubar: faq-nav
+permalink: /portfolios-de
 ref: portfolios
 lang: de
 ---

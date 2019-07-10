@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: faq-nav
 ref: profile
+permalink: /profile-nl
 lang: nl
 ---
 

@@ -2,6 +2,7 @@
 title: API
 layout: page
 ref: api
+permalink: /api-de
 lang: de
 ---
 
