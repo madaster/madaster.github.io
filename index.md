@@ -41,6 +41,10 @@ Do you have questions? Contact Madaster by telephone [085-0657436](tel:+31850657
 
 More information about the releases can be found here:
 
+* <a href="https://www.madaster.com/download_file/view/1173" target="_blank">Release notes April 1st 2019</a></li>
+* <a href="https://www.madaster.com/download_file/view/1016" target="_blank">Release notes February 12th 2019</a></li>
+* <a href="https://www.madaster.com/download_file/view/965" target="_blank">Release notes January 21st 2019</a></li>
+* <a href="https://www.madaster.com/download_file/view/922" target="_blank">Release notes December 10th 2018</a></li>
 * <a href="https://www.madaster.com/download_file/view/873" target="_blank">Release notes October 29th 2018</a>
 * <a href="https://www.madaster.com/download_file/view/763" target="_blank">Release notes August 7th 2018</a>
 * <a href="https://www.madaster.com/download_file/view/715" target="_blank">Release notes July 16th 2018</a>
