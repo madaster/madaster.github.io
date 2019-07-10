@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: faq-nav
 ref: faq
+permalink: /faq-nl
 lang: nl
 ---
 
