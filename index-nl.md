@@ -10,7 +10,7 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
 ---
 
-## <img alt="" height="38" src="/assets/images/767.svg" width="38"> Handleidingen
+## <img class="header-img" src="/assets/images/767.svg"> Handleidingen
 
 ### Algemene handleidingen
 
