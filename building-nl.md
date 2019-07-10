@@ -2,7 +2,7 @@
 title: Gebouw
 layout: page
 show_sidebar: false
-menubar: faq-nav-nl
+menubar: faq-nav
 ref: building
 lang: nl
 ---
