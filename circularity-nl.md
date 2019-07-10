@@ -13,11 +13,11 @@ De Madaster Circularity Indicator geeft ieder gebouw een score van 0-100% en wor
 
 De CI beoordeelt zowel op product als gebouwniveau op circulaire waarden in 3 verschillende levensfasen van het gebouw:
 
-*Constructiefase:* wat is de verhouding tussen “nieuwe” en “gerecyclede, hergebruikte of hernieuwbare” grondstoffen?
+__*Constructiefase:*__ wat is de verhouding tussen “nieuwe” en “gerecyclede, hergebruikte of hernieuwbare” grondstoffen?
 
-*Gebruiksfase:* wat is de verwachte levensduur van de producten die worden gebruikt ten opzichte van de gemiddelde levensduur van vergelijkbare producten?
+__*Gebruiksfase:*__ wat is de verwachte levensduur van de producten die worden gebruikt ten opzichte van de gemiddelde levensduur van vergelijkbare producten?
 
-*Einde-levensduur:* wat is de verhouding tussen “afval” en “hergebruik of recycling” van materialen en producten die vrijkomen bij een verbouwing of sloop van een gebouw?
+__*Einde-levensduur:*__ wat is de verhouding tussen “afval” en “hergebruik of recycling” van materialen en producten die vrijkomen bij een verbouwing of sloop van een gebouw?
 
 De CI beoordeling kent 2 verschillende bepalingsmethodes:
 
@@ -32,4 +32,4 @@ De Gebouw CI wordt gecorrigeerd met twee factoren die de compleetheid van de in 
 
 Wilt u meer informatie over het detailscherm? Klik dan <a href="https://docs.madaster.com/circularity-learn-more-nl">hier</a>.
 
-Ook is er een <a href="https://www.madaster.com/download_file/view/772">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
+Ook is er een <a href="https://docs.madaster.com/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
