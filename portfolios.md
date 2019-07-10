@@ -26,7 +26,8 @@ You can only delete a portfolio when it no longer contains any buildings. What i
 * Click the name or picture of the portfolio you would like to open’.
 * Scroll down and click 'Customize portfolio'.
 * Scroll down again and click 'Remove portfolio'. Caution: once you have removed a portfolio, you cannot undo the action!
-How can I change the name or image of a portfolio?
+
+## How can I change the name or image of a portfolio?
 * Click the name or picture of the portfolio you would like to open
 * Scroll down and click 'Customize portfolio'.
 * Enter a new name and/or select a new image.
