@@ -37,6 +37,18 @@ body {
 
 @media (max-width: 1023px) {
 
+    .navbar-logo {
+        display: none !important;
+    }
+
+    .header-title {
+        padding-left:25px;
+    }
+
+    .navbar-start {
+        padding-left:25px;
+    }
+
     .madaster-navbar-item.is-active,
     .madaster-navbar-item:hover,
     a.navbar-item:hover {
@@ -67,6 +79,11 @@ body {
     border-bottom: solid 2px #ffffff;
     font-weight: bold;
     margin-top: 36px;
+}
+
+.dropdown.madaster-navbar-item.is-active {
+    border-bottom: none;
+    margin-top: 35px;
 }
 
 .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
