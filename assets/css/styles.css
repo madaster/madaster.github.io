@@ -107,6 +107,11 @@ h3 {
     font-size: 18px !important;
 }
 
+.header-img {
+    height: 25px;
+    width: 25px;
+}
+
 p, li, table, .menu, .navbar-dropdown > a {
     color: #4A4A4A;
     font-size: 14px;
@@ -117,7 +122,19 @@ strong {
     color: #4A4A4A;
 }
 
-p a, li a {
+p a, ul:not(.menu-list) li a {
     text-decoration: underline;
     color: #4A4A4A;
+}
+
+.menu-list li ul a {
+    text-decoration: none;
+}
+
+.menu-list li ul {
+    border-left: none;
+}
+
+.menu-label:not(:last-child) {
+    margin-bottom: 0 !important;
 }

@@ -10,7 +10,7 @@ On this page you will find additional information about the use and development 
 
 ---
 
-## <img alt="" height="38" src="/assets/images/767.svg" width="38"> Manuals
+## <img class="header-img" src="/assets/images/767.svg"> Manuals
 
 ### General manuals
 
