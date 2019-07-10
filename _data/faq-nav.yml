@@ -1,30 +1,108 @@
 - label: FAQ
   items:
-    - name: Portfolios
-      link: /portfolios      
-    - name: Buildings
-      link: /buildings
-    - name: Building
-      link: /building
-    - name: Building Process
-      link: /building-process
-    - name: Circularity
-      link: /circularity
+    - name:
+        en: Portfolios
+        nl: Portfolios
+        de: Portfolios
+      link:
+        en: /portfolios
+        nl: /portfolios-nl
+        de: /portfolios-de
+    - name:
+        en: Buildings
+        nl: Gebouwen
+        de: Gebäuden
+      link:
+        en: /buildings
+        nl: /buildings-nl
+        de: /buildings-de
+    - name:
+        en: Building
+        nl: Gebouw
+        de: Gebäude
+      link:
+        en: /building
+        nl: /building-nl
+        de: /building-de
+    - name:
+        en: Building Process
+        nl: Bouwproces
+        de: Bauprozess
+      link:
+        en: /building-process
+        nl: /building-process-nl
+        de: /building-process-de
+    - name:
+        en: Circularity
+        nl: Circulariteit
+        de: Zirkularität
+      link:
+        en: /circularity
+        nl: /circularity-nl
+        de: /circularity-de
+      items:        
+        - name:
+            en: Circularity - Detail level
+            nl: Circulariteit - Detail niveau
+            de: Zirkularität - Detail
+          link:
+            en: /circularity-learn-more
+            nl: /circularity-learn-more-nl
+            de: /circularity-learn-more-de
+    - name:
+        en: Financial
+        nl: Financieel
+        de: Finanziell
+      link:
+        en: /financial
+        nl: /financial-nl
+        de: /financial-de
       items:
-        - name: Circularity - Detail level
-          link: /circularity-learn-more          
-    - name: Financial
-      link: /financial
-      items:
-        - name: Financial - Material
-          link: /financial-material
-        - name: Financial - Building layers
-          link: /financial-buildinglayers         
-    - name: Dossier
-      link: /dossier
-    - name: Administration
-      link: /administration
-    - name: Products
-      link: /products
-    - name: Profile
-      link: /profile
+        - name:
+            en: Financial - Material
+            nl: Financieel - Materiaal
+            de: Finanzen - Material
+          link:
+            en: /financial-material
+            nl: /financial-material-nl
+            de: /financial-material-de        
+        - name:
+            en: Financial - Building layers
+            nl: Financieel - Gebouwlagen
+            de: Finanzen - Gebäudeschicht
+          link:
+            en: /financial-buildinglayers
+            nl: /financial-buildinglayers-nl
+            de: /financial-buildinglayers-de      
+    - name:
+        en: Dossier
+        nl: Dossier
+        de: Datei
+      link:
+        en: /dossier
+        nl: /dossier-nl
+        de: /dossier-de
+    - name:
+        en: Administration
+        nl: Administratie
+        de: Verwaltung
+      link:
+        en: /administration
+        nl: /administration-nl
+        de: /administration-de
+    - name:
+        en: Products
+        nl: Producten
+        de: Produkte
+      link:
+        en: /products
+        nl: /products-nl
+        de: /products-de        
+    - name:
+        en: Profile
+        nl: Profiel
+        de: Mein Profil
+      link:
+        en: /profile
+        nl: /profile-nl
+        de: /profile-de
