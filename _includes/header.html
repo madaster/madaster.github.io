@@ -14,7 +14,7 @@
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">                
                 {% if site.data.navigation %}
-                {% for item in site.data.navigation %}
+                {% for item in site.data.navigation[page.lang] %}
                     {% if item.dropdown %}
                     <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
                         <a href="{{ item.link | prepend: site.baseurl }}" class="madaster-navbar-item dropdown navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
