@@ -17,7 +17,7 @@
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
                     <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
-                        <a href="{{ item.link[page.lang] | prepend: site.baseurl }}" class="madaster-navbar-item dropdown navbar-link {% if item.link[page.lang] == page.url %}is-active{% endif %}">{{ item.name[page.lang] }}{{item.link[page.lang]}}{{page.url}}</a>
+                        <a href="{{ item.link[page.lang] | prepend: site.baseurl }}" class="madaster-navbar-item dropdown navbar-link {% if item.link[page.lang] == page.url %}is-active{% endif %}">{{ item.name[page.lang] }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
                             <a href="{{ subitem.link[page.lang] | prepend: site.baseurl }}" class="navbar-item {% if subitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subitem.name[page.lang] }}</a>
