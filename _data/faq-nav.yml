@@ -2,6 +2,9 @@
   items:
     - name: Portfolios
       link: /portfolios
+      en: Portfolios EN
+      nl: Portfolio NL
+      de: Portfolios DE
     - name: Buildings
       link: /buildings
     - name: Building
