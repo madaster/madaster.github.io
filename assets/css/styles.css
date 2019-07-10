@@ -107,7 +107,7 @@ h3 {
     font-size: 18px !important;
 }
 
-p, table, .menu, .navbar-dropdown > a {
+p, li, table, .menu, .navbar-dropdown > a {
     color: #4A4A4A;
     font-size: 14px;
     letter-spacing: 0.6px;
@@ -117,7 +117,7 @@ strong {
     color: #4A4A4A;
 }
 
-p a {
+p a, li a {
     text-decoration: underline;
     color: #4A4A4A;
 }
