@@ -1,68 +1,57 @@
-en:
-  - name: Home
-    link: /
-  - name: FAQ
-    link: /faq
-    dropdown: 
-      - name: Portfolio
-        link: /portfolios
-      - name: Buildings
-        link: /buildings
-      - name: Building
-        link: /building
-      - name: Building Process
-        link: /building-process
-      - name: Circularity
-        link: /circularity
-      - name: Circularity - Detail level
-        link: /circularity-learn-more      
-      - name: Financial
-        link: /financial
-      - name: Financial - Material
-        link: /financialmaterial 
-      - name: Financial - Building layers
-        link: /financialbuildinglayers 
-      - name: Dossier
-        link: /dossier
-      - name: Administration
-        link: /administration
-      - name: Products
-        link: /products
-      - name: Profile
-        link: /profile
-  - name: API
-    link: /api
-nl:
-  - name: Home
-    link: /index-nl
-  - name: FAQ
-    link: /faq
-    dropdown: 
-      - name: Portfolio
-        link: /portfolios-nl
-      - name: Gebouwen
-        link: /buildings-nl
-      - name: Gebouw
-        link: /building-nl
-      - name: Building Process
-        link: /building-process
-      - name: Circularity
-        link: /circularity
-      - name: Circularity - Detail level
-        link: /circularity-learn-more      
-      - name: Financial
-        link: /financial
-      - name: Financial - Material
-        link: /financialmaterial 
-      - name: Financial - Building layers
-        link: /financialbuildinglayers 
-      - name: Dossier
-        link: /dossier
-      - name: Administration
-        link: /administration
-      - name: Products
-        link: /products
-      - name: Profile
-        link: /profile
-  - name: API
-    link: /api
+- name:
+    en: Home
+    nl: Home
+    de: Home
+  link:
+    en: /
+    nl: /index-nl
+    de: /index-de
+- name:
+    en: FAQ
+    nl: FAQ
+    de: FAQ
+  link:
+    en: /faq
+    nl: /faq
+    de: /faq
+  dropdown: 
+    - name:
+        en: Portfolios
+        nl: Portfolios
+        de: Portfolios
+      link:
+        en: /portfolios
+        nl: /portfolios-nl
+        de: /portfolios-de
+    - name:
+        en: Buildings
+        nl: Gebouwen
+        de: Gebäude
+      link:
+        en: /buildings
+        nl: /buildings-nl
+        de: /buildings-de
+    - name: Building
+      link: /building
+    - name: Building Process
+      link: /building-process
+    - name: Circularity
+      link: /circularity
+    - name: Circularity - Detail level
+      link: /circularity-learn-more      
+    - name: Financial
+      link: /financial
+    - name: Financial - Material
+      link: /financialmaterial 
+    - name: Financial - Building layers
+      link: /financialbuildinglayers 
+    - name: Dossier
+      link: /dossier
+    - name: Administration
+      link: /administration
+    - name: Products
+      link: /products
+    - name: Profile
+      link: /profile
+- name: API
+  link: /api
