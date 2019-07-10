@@ -1,7 +1,7 @@
 - label: FAQ
   items:
     - name: Portfolios
-      link: /portfolios
+      link: /portfolios      
     - name: Buildings
       link: /buildings
     - name: Building

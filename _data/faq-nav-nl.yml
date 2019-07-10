@@ -1,0 +1,30 @@
+- label: FAQ
+  items:
+    - name: Portfolios
+      link: /portfolios-nl      
+    - name: Gebouwen
+      link: /buildings-nl
+    - name: Gebouw
+      link: /building-nl
+    - name: Bouwproces
+      link: /building-process-nl
+    - name: Circulariteit
+      link: /circularity-nl
+      items:
+        - name: Circulariteit - Detail niveau
+          link: /circularity-learn-more-nl
+    - name: Financieel
+      link: /financial-nl
+      items:
+        - name: Financieel - Materiaal
+          link: /financial-material-nl
+        - name: Financieel - Gebouwlagen
+          link: /financial-buildinglayers-nl
+    - name: Dossier
+      link: /dossier-nl
+    - name: Administratie
+      link: /administration-nl
+    - name: Producten
+      link: /products-nl
+    - name: Profiel
+      link: /profile-nl
