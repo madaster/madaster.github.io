@@ -1,6 +1,14 @@
 - label: FAQ
   items:
     - name:
+        en: Home
+        nl: Home
+        de: Home
+      link:
+        en: /faq
+        nl: /faq-nl
+        de: /faq-de
+    - name:
         en: Portfolios
         nl: Portfolios
         de: Portfolios
