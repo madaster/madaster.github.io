@@ -118,6 +118,13 @@ body {
 
 .navbar-burger.burger {
     margin-top: 24px;
+    z-index: 100;
+    position: absolute;
+    right: 10px;
+}
+
+.navbar-burger.burger:hover {
+    background: transparent;
 }
 
 .footer {
