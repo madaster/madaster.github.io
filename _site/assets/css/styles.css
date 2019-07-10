@@ -37,10 +37,6 @@ body {
 
 @media (max-width: 1023px) {
 
-    .navbar-logo {
-        display: none !important;
-    }
-
     .header-title {
         padding-left:25px;
     }
@@ -66,6 +62,12 @@ body {
 
     .madaster-language-toggle {
         margin-top: -30px !important;
+    }
+}
+
+@media (max-width: 1216px) {
+    .navbar-logo {
+        display: none !important;
     }
 }
 
