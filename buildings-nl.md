@@ -2,7 +2,7 @@
 title: Gebouwen
 layout: page
 show_sidebar: false
-menubar: faq-nav-nl
+menubar: faq-nav
 ref: buildings
 lang: nl
 ---
