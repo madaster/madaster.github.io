@@ -30,6 +30,6 @@ The Building Circularity Indicator is adjusted by 2 factors that judge the compl
 
 **Note:** the circularity assessment is still being developed within the Madaster Platform. At the moment, the results shown here have a low reliability. If the Circularity Indicator has made the next step that increases reliability, it will be communicated (here).
 
-Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more-de">here.</a>
+Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more-de">here</a>.
 
 A <a href="https://www.madaster.com/download_file/view/772">detailed explanation</a> of the Madaster Circularity Indicator is also available.

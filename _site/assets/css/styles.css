@@ -52,6 +52,10 @@ body {
     background-color: transparent !important;
 }
 
+.navbar-link:not(.is-arrowless)::after {
+    margin-top: -0.475em !important;
+}
+
 .madaster-language-toggle {
     float: right;
     margin-right: 10px;
@@ -87,4 +91,33 @@ body {
 
 .flag img {
     width: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #003B60 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 21px !important;
+}
+
+h3 {
+    font-size: 18px !important;
+}
+
+p, table, .menu, .navbar-dropdown > a {
+    color: #4A4A4A;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+strong {
+    color: #4A4A4A;
+}
+
+p a {
+    text-decoration: underline;
+    color: #4A4A4A;
 }

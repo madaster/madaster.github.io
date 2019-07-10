@@ -29,6 +29,6 @@ De Gebouw CI wordt gecorrigeerd met twee factoren die de compleetheid van de in 
 
 **Let op:** de circulariteitsbeoordeling is nog in ontwikkeling binnen het Madaster Platform. Op dit moment hebben de resultaten die hier getoond worden een lage betrouwbaarheid. Als de Circularity Indicator een volgende stap heeft gemaakt die de betrouwbaarheid vergroot, wordt dat (hier) gecommuniceerd.
 
-Wilt u meer informatie over het detailscherm? Klik dan <a href="https://docs.madaster.com/circularity-learn-more-nl">hier.</a>
+Wilt u meer informatie over het detailscherm? Klik dan <a href="https://docs.madaster.com/circularity-learn-more-nl">hier</a>.
 
 Ook is er een <a href="https://www.madaster.com/download_file/view/772">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.

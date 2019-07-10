@@ -12,15 +12,15 @@ The Madaster Circularity Indicator assesses the level of circularity of each bui
 
 The Madaster CI assesses a buildings and products on three phases within the building’s lifetime:
 
-*Construction:* what is the proportion of ‘virgin materials’ compared to ‘recycled, reused or rapidly renewable materials’?
+__*Construction:*__ what is the proportion of ‘virgin materials’ compared to ‘recycled, reused or rapidly renewable materials’?
 
-*Usage:* how long are products and materials used compared to average lifetimes of similar products?
+__*Usage:*__ how long are products and materials used compared to average lifetimes of similar products?
 
-*End-of-life:* what is the destination of the materials or products of a building at the end of the lifetime? Will they be reused, recycled or wasted?
+__*End-of-life:*__ what is the destination of the materials or products of a building at the end of the lifetime? Will they be reused, recycled or wasted?
 
 The Madaster CI uses 2 different types of assessing:
 
-Building Circularity Indicator; the CI score for the building based on the available information uploaded by the users
+Building Circularity Indicator: the CI score for the building based on the available information uploaded by the users
 
 Madaster Circularity Indicator: Building Circularity Indicator adjusted for missing information.
 
@@ -30,6 +30,6 @@ The Building Circularity Indicator is adjusted by 2 factors that judge the compl
 
 **Note:** the circularity assessment is still being developed within the Madaster Platform. At the moment, the results shown here have a low reliability. If the Circularity Indicator has made the next step that increases reliability, it will be communicated (here).
 
-Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more">here.</a>
+Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more">here</a>.
 
 A <a href="https://www.madaster.com/download_file/view/772">detailed explanation</a> of the Madaster Circularity Indicator is also available.
