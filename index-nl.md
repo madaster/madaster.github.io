@@ -45,7 +45,6 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-065
 
 Meer informatie over de releases vindt u hier:
 
-<<<<<<< HEAD
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.3_nl.pdf" target="_blank">Release notes 1 april 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.2_nl.pdf" target="_blank">Release notes 12 februari 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.1_nl.pdf" target="_blank">Release notes 21 januari 2019</a>
@@ -60,19 +59,3 @@ Meer informatie over de releases vindt u hier:
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2018.2_nl.pdf" target="_blank">Release notes 29 maart 2018</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2018.1_nl.pdf" target="_blank">Release notes 8 maart 2018</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2017.1_nl.pdf" target="_blank">Release notes 15 december 2017</a>
-=======
-* <a href="https://www.madaster.com/download_file/view/1172" target="_blank">Release notes 1 april 2019</a>
-* <a href="https://www.madaster.com/download_file/view/1017" target="_blank">Release notes 12 februari 2019</a>
-* <a href="https://www.madaster.com/download_file/view/966" target="_blank">Release notes 21 januari 2019</a>
-* <a href="https://www.madaster.com/download_file/view/923" target="_blank">Release notes 10 december 2018</a>
-* <a href="https://www.madaster.com/download_file/view/874" target="_blank">Release notes 29 oktober 2018</a>
-* <a href="https://www.madaster.com/download_file/view/777" target="_blank">Release notes 27 augustus 2018</a>
-* <a href="https://www.madaster.com/download_file/view/762" target="_blank">Release notes 7 augustus 2018</a>
-* <a href="https://www.madaster.com/download_file/view/716" target="_blank">Release notes 16 juli 2018</a>
-* <a href="https://www.madaster.com/download_file/view/651" target="_blank">Release notes 25 juni 2018</a>
-* <a href="https://www.madaster.com/download_file/view/613" target="_blank">Release notes 4 juni 2018</a>
-* <a href="https://www.madaster.com/download_file/view/551" target="_blank">Release notes 26 april 2018</a>
-* <a href="https://www.madaster.com/download_file/view/504" target="_blank">Release notes 29 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/507/0" target="_blank">Release notes 8 maart 2018</a>
-* <a href="https://www.madaster.com/download_file/509/0" target="_blank">Release notes 15 december 2017</a>
->>>>>>> fb5bb9d27ac42452ceadcca3065d41f72414f88d
