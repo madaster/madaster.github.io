@@ -99,13 +99,13 @@
         nl: /administration-nl
         de: /administration-de
     - name:
-        en: Products
-        nl: Producten
-        de: Produkte
+        en: Materials and Products
+        nl: Materialen en Producten
+        de: Materialien und Produkte
       link:
-        en: /products
-        nl: /products-nl
-        de: /products-de        
+        en: /materials-products
+        nl: /materials-products-nl
+        de: /materials-products-de    
     - name:
         en: Profile
         nl: Profiel

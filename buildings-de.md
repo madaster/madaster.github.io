@@ -54,5 +54,3 @@ After uploading the source files for the building, you can create a materials pa
 Scroll down on the ‘General’ tab.
 Click ‘Publish materials passport’. The file that you are making is saved on the ‘Dossier’ tab for this building. From this tab, you can always download the created file again, or you can view or delete the file. After publishing the material passport this page will automatically open.
 Click on the dots next to the file to view/download/remove/change or move the file.
-What information is shown here?
-After opening a building, you will go to the details page for the building. This page contains general information. There, you will see a summary of the data entered. Below that, there is a table that shows the degree of completion of the materials entered, as well as an overview of the active source files that have been uploaded to this building. At the bottom of this page, you see the users who can access the building, and the privileges that have been assigned to them. 

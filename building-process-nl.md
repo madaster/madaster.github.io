@@ -17,7 +17,7 @@ Als er geen match heeft plaatsgevonden tussen het element en de database van mat
 
 Door op een cirkel te klikken krijgt u meer informatie over het materiaal. Er opent een nieuw scherm, waarin toegelicht wordt welke materialen en producten gebruikt zijn. De materiaalsoort ‘steen' kan bijvoorbeeld gespecificeerd worden tot de materialen ‘beton’ en ‘baksteen’ en tot de producten ‘gewapende pijler’ wat weer bestaat uit ‘baksteen’. Te zien is in welk volume elk materiaal voorkomt.
 
-Daarnaast is het mogelijk om op een fase, bijvoorbeeld ‘Huidig’ of ‘Sloop’ door te klikken. U gaat vervolgens naar een nieuw scherm waar u inzicht krijgt in de toegepaste producten van deze specifieke fase. U kunt op deze pagina onder andere filteren op trefwoord en NL-SfB codering (linker kolom).
+Daarnaast is het mogelijk om op een fase, bijvoorbeeld ‘Huidig’ of ‘Sloop’ door te klikken. U gaat vervolgens naar een nieuw scherm waar u inzicht krijgt in de toegepaste producten van deze specifieke fase. U kunt op deze pagina onder andere filteren op trefwoord en classificatiemethode (linker kolom).
 
 Als een product is geselecteerd, kunt u voor het desbetreffende product aan de rechterkant op de tabbladen ‘Materiaal’, ‘Product’, ‘IFC’ en ‘Circulariteit’ nog meer productinformatie bekijken.
 

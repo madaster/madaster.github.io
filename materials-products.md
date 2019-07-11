@@ -1,10 +1,10 @@
 ---
-title: Products
+title: Materials and Products
 layout: page
 show_sidebar: false
 menubar: faq-nav
-ref: products
-permalink: /products
+ref: materials-products
+permalink: /materials-products
 lang: en
 ---
 

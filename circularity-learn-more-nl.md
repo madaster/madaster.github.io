@@ -17,12 +17,12 @@ De Madaster Circularity Indicator is gebaseerd op de internationale open source 
 
 De Circularity Indicator bevindt zich in een ontwikkelfase en heeft een lage tot matige betrouwbaarheid die wordt veroorzaakt door de beperkte beschikbaarheid van de informatie die momenteel beschikbaar is in de bronbestanden die worden geüpload.
 
-## Externe databases
-Diverse externe databases bevatten detail informatie over de producten en materialen die in gebouwen worden toegepast. Deze informatie is zeer waardevol voor toekomstig hergebruik.
+## Externe bronnen
+Diverse externe bronnen bevatten detail informatie over de producten en materialen die in gebouwen worden toegepast. Deze informatie is zeer waardevol voor toekomstig hergebruik.
 
 Steeds meer databases zullen worden gekoppeld aan Madaster waardoor deze informatie (ook met terugwerkende kracht) beschikbaar zal worden via één centrale plaats: het Madaster-platform.
 
-Door op een logo van een externe database te klikken opent in een nieuw scherm de website van de betreffende database. Wilt u zelf uw database koppelen aan die van Madaster? Neem dan contact op met Madaster.
+Door op een logo van een externe bron te klikken opent in een nieuw scherm de website van de betreffende database. Wilt u zelf uw database koppelen aan die van Madaster? Neem dan contact op met Madaster.
 
 ## Wat is er nu?
 De informatie die bij de Circularity Indicator wordt getoond is gebaseerd op de actieve bronbestanden die bij dit gebouw zijn geüpload. De tabel geeft weer hoe hoog er gescoord wordt op circulariteit en is verticaal onderverdeeld in de drie fasen van circulariteit, met bovenin de Circulariteit score. Naast deze onderverdeling wordt er horizontaal een onderverdeling gemaakt in de zes verschillende schillen van het gebouw.
@@ -38,7 +38,7 @@ Circulariteit is nog in ontwikkeling binnen het Madaster-platform. Onderstaand i
 * **Huidige berekening:** dynamische waardes voor recycle/reuse percentages op product- en materiaalniveau. Naast de Madaster Database (vastgelegde data op materiaalcategorieën en doorberekend op producten) bestaat de mogelijkheid om handmatig waardes te verrijken op basis van praktijkkennis.
 
 **Ontwikkeling**
-* Stap 1: koppelen van externe databases met recycling- en hergebruikpercentages
+* Stap 1: koppelen van externe bronnen met recycling- en hergebruikpercentages
 * Stap 2: ontwikkelen van een circulair BIM Information Delivery Manual, met daarin vastgelegd hoe de informatie in het bronbestand wordt opgenomen
 * Stap 3: toevoegen van afval afkomstig uit de productie van materialen, producten en gebouwen.
 
@@ -57,9 +57,9 @@ Circulariteit is nog in ontwikkeling binnen het Madaster-platform. Onderstaand i
 * **Huidige berekening:** dynamische waardes voor recycle/reuse percentages op product- en materiaalniveau. Naast de Madaster Database (vastgelegde data op materiaalcategorieën en doorberekend in producten) bestaat de mogelijkheid om handmatig waardes te verrijken op basis van praktijkkennis. Ook wordt het afval dat ontstaat bij het recycling proces meegenomen in de berekening.
 
 **Ontwikkeling**
-* Stap 1: koppelen van externe databases met recycling- en hergebruikpercentages en waardes over recyclingefficiëntie.
+* Stap 1: koppelen van externe bronnen met recycling- en hergebruikpercentages en waardes over recyclingefficiëntie.
 * Stap 2: ontwikkelen van een circulair BIM Information Delivery Manual, met daarin vastgelegd hoe de informatie in het bronbestand wordt opgenomen.
 * Stap 3: ontwikkeling van een methode die het mogelijk maakt om op basis van het geüploade bronbestand een inschatting te maken voor de Design for Disassembly (stimuleren van hoogwaardig hergebruik) en Design for Recycling (stimuleren van laagwaardig hergebruik).
-Naar verwachting worden de Stappen 1 in de eerste helft van 2018 opgeleverd, en wordt in de rest van 2018 gewerkt aan het realiseren van de Stappen 2.
+Naar verwachting wordt er in de rest van 2019/2020 gewerkt aan het realiseren van de Stappen 2 en 3.
 
 De kwaliteit van de broninformatie zal ook in de toekomst de betrouwbaarheid van de Circularity Indicator bepalen. Het aanleveren van een bronbestand met een hoog detailniveau heeft daarbij een grote invloed op de kwaliteit van de indicator.

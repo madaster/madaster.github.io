@@ -76,7 +76,7 @@
                             
                             <a href="/administration-nl" class="navbar-item ">Administratie</a>
                             
-                            <a href="/products-nl" class="navbar-item ">Producten</a>
+                            <a href="/materials-products-nl" class="navbar-item ">Materialen en Producten</a>
                             
                             <a href="/profile-nl" class="navbar-item ">Profiel</a>
                             
@@ -175,7 +175,7 @@
         </li>
         
         <li>
-            <a href="/products-nl" class="">Producten</a>
+            <a href="/materials-products-nl" class="">Materialen en Producten</a>
             
         </li>
         
@@ -197,22 +197,23 @@
 <p>Dit tabblad geeft informatie over de bestanden die zijn geüpload bij het specifieke gebouw of portfolio. Hier kunt u nieuwe bestanden toevoegen en u kunt de status van een bestand wijzigen. Er wordt onderscheid gemaakt tussen drie verschillende bestandssoorten. De bronbestanden zijn de IFC-/Excel bestanden (alleen beschikbaar op gebouwniveau), waarvan de inhoud wordt gebruikt voor de resultaten van het gebouw. De algemene bestanden zijn alle overige bestanden zoals beheer- en werk documenten en certificaten. Tot slot worden de materiaalpaspoorten weergegeven die voor dit gebouw zijn aangemaakt.</p>
 
 <h2 id="hoe-upload-ik-een-nieuw-bestand">Hoe upload ik een nieuw bestand?</h2>
-<p>Klik op de knop ‘Bestand toevoegen’. Er opent een nieuw scherm.
+<p>Klik op de knop ‘Upload bestand’. Er opent een nieuw scherm.
+Indien u dit nog niet heeft aangegeven, selecteer dan de classificatiemethode waaraan de elementen uit het bestand aan gekoppeld zullen worden. Per gebouw kunt u maar één classificatiemethode kiezen.
 Selecteer het bestandstype dat u wilt uploaden. (voor meerdere bestanden tegelijk uploaden houdt u control ingedrukt en selecteert u de gewenste bestanden) U kunt kiezen tussen een bronbestand (IFC- of Excel) (alleen beschikbaar  op gebouwniveau) of een algemeen bestand.
 Selecteer de gewenste map als daar een keuze voor is
 Voeg eventueel Tags toe om uw bestanden makkelijk terug te vinden/te sorteren.
-<strong>Een bronbestand uploaden:</strong> Dit kan een IFC- of Excel-bestand zijn. Nadat u op ‘upload’ heeft geklikt, wordt het bestand geüpload naar het Madaster Platform. Zodra de gegevens verwerkt zijn klikt u op ‘Sluiten’. U ziet nu de resultaten verschijnen: vier cirkels weergeven de volledigheid van de data. Zo ziet u hoeveel procent van de elementen uit het bronbestand een NL-SfB codering heeft. Daarnaast ziet u de volledigheid van materiaaltoewijzing in het bronbestand. Ook is er inzicht in de volledigheid van gekoppelde materialen en de aanwezigheid van volume-eenheden (base quantities). Bovenaan deze pagina kunt u op het tabblad ‘Verrijken’ klikken. Daar ziet u een lijst met ontbrekende elementen, die nog gekoppeld moeten worden aan materiaal uit de database. Hoe dit precies moet leest u in ‘hoe koppel ik ontbrekende elementen’.</p>
+Als laatste kunt u selecteren welke databases met producten en materialen gebruikt worden met de automatische koppeling. Standaard staan hier uw eigen database en die van Madaster geselecteerd. Waarbij er eerst naar uw eigen materialen en producten wordt gekeken. U kunt databases aan de geselecteerde bronnen toevoegen door bij de bronnen in de linkerkolom op het plusje te klikken en databases verwijderen door bij de bronnen in de rechterkolom op het kruisje te klikken. In de rechterkolom kunt u daarnaast de bronnen omhoog en omlaag slepen, waarbij de volgorde van boven naar beneden bepaalt in welke volgorde de bronnen gebruikt worden om te koppelen.</p>
+
+<p><strong>Een bronbestand uploaden:</strong> Dit kan een IFC- of Excel-bestand zijn. Nadat u op ‘upload’ heeft geklikt, wordt het bestand geüpload naar het Madaster Platform. Zodra de gegevens verwerkt zijn klikt u op ‘Sluiten’. U komt nu op de bestandspagina. Het bestand moet eerst geïmporteerd en verwerkt worden, dit kan enkele minuten duren. Wanneer deze processen afgerond zijn ziet u de resultaten verschijnen: elf cirkels weergeven de volledigheid van de data. Zo ziet u onder andere hoeveel procent van de elementen uit het bronbestand een classificatiemethode gekoppeld heeft. Daarnaast ziet u de volledigheid van materiaaltoewijzing in het bronbestand. Ook is er inzicht in de volledigheid van gekoppelde materialen en de aanwezigheid van geometrische dimensies Bovenaan deze pagina kunt u op het tabblad ‘Verrijken’ klikken. Daar ziet u een lijst met alle elementen uit het bestand. De elementen die nog niet automatisch gekoppeld zijn aan een product of materiaal kunt u nu handmatig koppelen. Hoe dit precies moet leest u in ‘hoe koppel ik ontbrekende elementen’.</p>
 
 <p><strong>Algemene bestanden:</strong> Behalve bronbestanden kunt u ook andere informatie uploaden naar het Madaster Platform, zoals PDF-bestanden, foto’s van het gebouw of werkzaamheden of relevante documenten die u op portfolioniveau wilt bewaren. Nadat u op ‘upload’ heeft geklikt komt het bestand in de juiste sectie van de pagina te staan.</p>
 
 <h2 id="hoe-koppel-ik-ontbrekende-elementen">Hoe koppel ik ontbrekende elementen?</h2>
-<p>Nadat u een bestand heeft geüpload, krijgt u de resultaten te zien van de ingevoerde gegevens. Hier ziet u onder andere de volledigheid van het toegewezen en gekoppelde materiaal. Dit is het tabblad ‘Resultaten’. Om ontbrekende elementen te koppelen volgt u deze stappen:</p>
+<p>Nadat u een bestand heeft geüpload, krijgt u de resultaten te zien van de ingevoerde gegevens. Hier ziet u onder andere de volledigheid van het toegewezen en gekoppelde materiaal. Dit is het tabblad ‘Kwaliteit bronbestand’. Om ontbrekende elementen te koppelen volgt u deze stappen:</p>
 
-<p>Klik op het tabblad ‘Verrijken’. Op dit tabblad worden alle elementen getoond die nog gekoppeld moeten worden bij de sectie ‘Onbekende elementen’.</p>
+<p>Klik op het tabblad ‘Verrijken’. U kunt filteren op ongekoppelde elementen door het filter ‘Status element’ open te klappen en vervolgens op ‘Ongekoppeld’ te klikken.</p>
 
-<p>In het verrijkingsoverzicht wordt een zogenaamde boomstructuur getoond, waarin op hoofdniveau de gebouwschillen (categorisering van Stewart Brand) worden weergegeven met daarachter het aantal gekoppelde elementen en het totaal aantal elementen. Indien het aantal gekoppelde elementen afwijkt van het totaal aantal elementen, geeft dit aan dat er niet-gekoppelde elementen aanwezig zijn die handmatige actie van de gebruiker vereisen. De boomstructuur heeft verschillende sub-niveaus (NL-SfB hoofdniveau, NL-SfB subniveau, Buildingfile element) met als laagste niveau het element.</p>
-
-<p>Klik op de knop ‘Koppel’ van het element dat u wilt koppelen. Een nieuw scherm opent, waar u twee mogelijkheden heeft.</p>
+<p>In de table worden nu alle elementen die nog niet gekoppeld zijn weergegeven. Om deze te koppelen klinkt u rechts van het element op het ronde ‘koppel’-icoon. Een nieuw scherm opent, waar u twee mogelijkheden heeft.</p>
 
 <ol>
   <li>U kunt een ontbrekend element koppelen aan een bestaand element.</li>
@@ -221,31 +222,32 @@ Voeg eventueel Tags toe om uw bestanden makkelijk terug te vinden/te sorteren.
 <p>Typ de naam van het element in waar u naar op zoek bent.
 Selecteer het juiste element door erop te klikken.
 Klik op ‘Koppelen’. Het ontbrekende element is nu gekoppeld aan een bestaand element.
-Met de knop ‘Koppel alles’ kunt u alle onderliggende elementen in één keer koppelen aan een materiaal of product.</p>
+U kunt ook meerdere elementen uit het bestand tegelijk koppelen aan hetzelfde materiaal of product. Dit kunt u doen door meerdere elementen in de tabel te selecteren (Het bolletje voor het element kleurt blauw als deze is geselecteerd). Als u de elementen hebt geselecteerd kunt u bovenin de balk op de knop ‘Selectie (her)koppelen’ klikken en in het scherm dat hierna verschijnt een materiaal of product selecteren.</p>
 <ol>
   <li>Indien het ontbrekende element nog niet voorkomt in de (Madaster-) database, kunt u een nieuw product of nieuw materiaal aanmaken.</li>
 </ol>
 
-<p>Klik op ‘Maak nieuw materiaal aan’ of ‘Maak nieuw product aan’, afhankelijk van hetgeen u wilt toevoegen.
+<p>Klik op Creëer nieuw ‘Materiaal’ of ‘Product’, afhankelijk van hetgeen u wilt toevoegen.
 Voer de gevraagde gegevens in.
-Klik op ‘Aanmaken’.
-Hierna is het ontbrekende element gekoppeld aan het nieuwe materiaal en dit element is beschikbaar bij ‘Materialen’ dan wel ‘Producten’ op deze pagina waar u aanvullende gegevens kunt invullen. Deze informatie is nu toegevoegd aan uw database binnen het Madaster Platform.</p>
+Klik op ‘Opslaan’. Vul daarna indien gewenst aanvullende gegevens in en klik opnieuw op ‘Opslaan’.
+U komt terug in de tabel met alle materialen en producten, waarbij het door u net aangemaakte materiaal/product geselecteerd is. Klik nu op ‘Koppelen’ en het nieuwe materiaal/product is aan het element uit het bestand gekoppeld.
+Dit element is nu ook beschikbaar bij de tab ‘Materialen &amp; Producten’ onder administratie. Op deze pagina kunt u ook nog aanvullende gegevens invullen. Deze informatie is nu toegevoegd aan uw database binnen het Madaster Platform.</p>
 
 <p>Doorloop deze stappen voor ieder ontbrekend element, zodat alle elementen gekoppeld zijn aan een materiaal of product en de resultaten zo volledig mogelijk zijn.</p>
 
 <h2 id="kan-ik-gekoppelde-materialen-herkoppelenwijzigen">Kan ik gekoppelde materialen herkoppelen/wijzigen?</h2>
-<p>Ja, dat kan. Volg deze stappen nadat u de resultaten heeft geopend (via de knop ‘Bekijk status’ bij het bestand):</p>
+<p>Ja, dat kan. Volg deze stappen nadat u de resultaten heeft geopend (via de knop ‘Bekijk details’ bij het bestand):</p>
 
 <p>Klik op het tabblad ‘Verrijken’.
 Navigeer naar het gekoppelde element.
-Klik op de drie puntjes achter het element dat u wilt wijzigen. U heeft hier de mogelijkheid om het element te ontkoppelen of om opnieuw te koppelen.</p>
+Klik op de drie puntjes achter het element dat u wilt wijzigen. U heeft hier de mogelijkheid om het element te opnieuw te koppelen. Indien u het element wilt ontkoppelen, klik dan op het ronde ‘ontkoppel’-icoon rechts van het element.</p>
 
 <h2 id="hoe-verrijk-en-activeer-ik-een-bronbestand-dat-al-is-geüpload">Hoe verrijk en activeer ik een bronbestand dat al is geüpload?</h2>
-<p>Klik op de knop ‘Bekijk status’ bij het bestand dat u wilt bewerken.
+<p>Klik op de knop ‘Bekijk details’ bij het bestand dat u wilt bewerken.
 Klik op het tabblad ‘Verrijken’. Hier kunt u bestaande materialen bewerken of ontbrekende elementen koppelen. Zie voor uitleg over het koppelen van elementen ‘Hoe koppel ik ontbrekende elementen?’
-Klik op het tabblad ‘Verwerken’ om de status van het bestand te wijzigen.
-Klik op de knop ‘Bestand verwerken’ om de wijzigen op te slaan. U komt weer op de dossier-pagina terecht.
-Als de stappen zijn doorlopen kunt u daarna gebruik maken van de kolom ‘actief’. Hier kunt u het vinkje selecteren of deselecteren om het bestand snel te activeren of deactiveren.</p>
+Klik op het tabblad ‘Bevestigen’ om de status van het bestand te wijzigen.
+Klik op ‘Ja’ en vervolgens op de knop ‘Bevestigen’ om het bestand op actief te zetten en mee te nemen in de berekening van de gebouwstatistieken. U komt weer op de dossier-pagina terecht.
+Als de stappen zijn doorlopen kunt u daarna gebruik maken van de kolom ‘actief’ binnen de dossiertab. Hier kunt u het vinkje selecteren of deselecteren om het bestand snel te activeren of deactiveren.</p>
 
 <h2 id="hoe-wijzigverplaatsdownload-of-verwijder-ik-bestanden-die-al-geüpload-zijn">Hoe wijzig/verplaats/download of verwijder ik bestanden die al geüpload zijn?</h2>
 <p>Klik op de drie puntjes achter het bestand om het bestand te wijzigen/verplaatsen/downloaden of verwijderen.
@@ -254,20 +256,20 @@ Als de stappen zijn doorlopen kunt u daarna gebruik maken van de kolom ‘actief
 <p>Voor het aanpassen van de ‘Tagging’ of het verplaatsen van het bestand kiest u voor ‘bestand aanpassen’.</p>
 
 <h2 id="wat-betekent-de-status-actief">Wat betekent de status ‘Actief’?</h2>
-<p>Per bronbestand dat u heeft geüpload, kunt u kiezen of dit bestand actief of inactief is. Een inactief bestand wordt niet meegenomen in de resultaten van het gebouw en portfolio en het materiaalpaspoort; een actief bestand wel. Standaard krijgt een geüpload bestand de status inactief (weergegeven zonder vinkje in de kolom ‘actief’), omdat eerst de ontbrekende elementen gekoppeld dienen te worden. Nadat u de ingevoerde gegevens heeft gevalideerd en gekoppeld, kunt u deze status wijzigen naar actief. Vanaf dat moment wordt het bestand meegenomen in de resultaten behorend bij het gebouw.</p>
+<p>Per bronbestand dat u heeft geüpload, kunt u kiezen of dit bestand actief of inactief is. Een inactief bestand wordt niet meegenomen in de resultaten van het gebouw en portfolio en het materiaalpaspoort; een actief bestand wel. Standaard krijgt een geüpload bestand de status inactief (weergegeven met een schuifje met een grijze achtergrond in de kolom ‘Actief’), omdat eerst de ontbrekende elementen gekoppeld dienen te worden. Nadat u de ingevoerde gegevens heeft gevalideerd en gekoppeld, kunt u deze status wijzigen naar actief. Vanaf dat moment wordt het bestand meegenomen in de resultaten behorend bij het gebouw.</p>
 
 <h2 id="hoe-wijzig-ik-de-status-van-een-bestand-van-inactief-naar-actief">Hoe wijzig ik de status van een bestand van ‘inactief’ naar ‘actief’?</h2>
-<p>Klik op de knop ‘Bekijk status’ van het bestand waarvan u de status wilt wijzigen.
-Klik op het tabblad ‘Verwerken’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
+<p>Klik op de knop ‘Bekijk details’ van het bestand waarvan u de status wilt wijzigen.
+Klik op het tabblad ‘Bevestigen’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
 Klik op ‘Ja’.
-Klik op ‘Bestand verwerken’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
+Klik op ‘Bevestigen’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
 Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het dossieroverzicht.</p>
 
 <h2 id="hoe-wijzig-ik-de-status-van-een-bestand-van-actief-naar-inactief">Hoe wijzig ik de status van een bestand van ‘actief’ naar ‘inactief’?</h2>
-<p>Klik op de knop ‘Bekijk status’ van het bestand waarvan u de status wilt wijzigen.
-Klik op het tabblad ‘Verwerken’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
+<p>Klik op de knop ‘Bekijk details’ van het bestand waarvan u de status wilt wijzigen.
+Klik op het tabblad ‘Bevestigen’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
 Klik op ‘Nee’.
-Klik op ‘Bestand verwerken’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
+Klik op ‘Bevestigen’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
 Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het dossieroverzicht.</p>
 
 <h2 id="waar-vind-ik-de-materiaalpaspoorten-pdf-bestanden-die-ik-eerder-heb-gecreëerd">Waar vind ik de materiaalpaspoorten (pdf-bestanden) die ik eerder heb gecreëerd?</h2>
