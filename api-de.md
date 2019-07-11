@@ -27,28 +27,28 @@ This will give you access to these resources and their attached entities.
 ### Add a token to a building
 - Go to the building page and click on the *Users* tab
 
-![Step 1](assets/images/api/addbuildingtoken1.png)
+<img src="/assets/images/api/addbuildingtoken1.png" class="api-img"/>
 
 - Click on the *Add API Token* button
 
-![Step 2](assets/images/api/addbuildingtoken2.png)
+<img src="/assets/images/api/addbuildingtoken2.png" class="api-img"/>
 
 - Enter a name for this token, click on the gear icon (1), copy the generated key (2), choose a permission level and expiration time, and finish by clicking on the Add button (3)
 
-![Step 3](assets/images/api/addtoken3.png)
+<img src="/assets/images/api/addtoken3.png" class="api-img form-img"/>
 
 ### Add a token to a portfolio
 - Go to the portfolio page and click on the *Users* tab
 
-![Step 1](assets/images/api/addportfoliotoken1.png)
+<img src="/assets/images/api/addportfoliotoken1.png" class="api-img portfolio-img" style="margin-left: -40px;"/>
 
 - Click on the *Add API Token* button
 
-![Step 2](assets/images/api/addportfoliotoken2.png)
+<img src="/assets/images/api/addportfoliotoken2.png" class="api-img portfolio-img"/>
 
 - Enter a name for this token, click on the gear icon (1), copy the generated key (2), choose a permission level and expiration time, and finish by clicking on the Add button (3)
 
-![Step 3](assets/images/api/addtoken3.png)
+<img src="/assets/images/api/addtoken3.png" class="api-img form-img"/>
 
 ## Connection
 To connect to the API, multiple tools and languages can be used. Because the Madaster API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.

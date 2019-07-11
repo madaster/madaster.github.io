@@ -213,3 +213,15 @@ ul:not(.menu-list) li a {
     background-color: transparent;
     font-weight: bold;
 }
+
+.api-img {
+    max-width: 60%;
+}
+
+img.api-img.form-img {
+    height: 400px;
+}
+
+img.api-img.portfolio-img {
+    height: 100px;
+}
