@@ -20,7 +20,7 @@ On this page you will find additional information about the use and development 
 
 ### BIM-specific manuals & templates
 
- * Open the <a href="https://docs.madaster.com/files/Handleiding_-_IFC_export_Archicad_en_Revit.pdf">Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
+ * Open the <a href="https://docs.madaster.com/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf">Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
  * <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl">Download</a> the Madaster IFC export template for Archicad - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Read the <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf">Madaster BIM-guidelines</a> – this briefly describes the most important instructions for the preparation of a BIM model.
  * Read the <a href="https://docs.madaster.com/files/Madaster - IFC import proces - ENG.pdf">Madaster IFC Import process</a> - this describes the processing of IFC files within the Madaster platform concerning geometric properties, classification coding, construction phasing and material use.
