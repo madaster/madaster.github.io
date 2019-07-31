@@ -18,6 +18,7 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
  * Open de <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide_nl.pdf" target="_blank">Madaster Quick Start Guide</a> – deze beschrijft kort de noodzakelijke stappen van registratie tot het creëren van een materialenpaspoort in Madaster.
  * Open de <a href="https://docs.madaster.com/files/Madaster_Gebruikershandleiding_V4.4_november_2018_nl.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
  * Open het <a href="https://docs.madaster.com/files/Madaster_Platform_Algemeen_november_2018_nl.pdf" target="_blank">Madaster Platform Algemeen</a> document – dit document beschrijft het waarom van Madaster en de werking van het Madaster platform op algemeen niveau.
+ * Download de <a href="https://docs.madaster.com/files/Madaster Materiaal Lijst 2019 NL UK.xlsx">Madaster Materiaal Lijst 2019 NL UK</a> – deze geeft de materialen weer in het Nederlands en Engels die in de Madaster database standaard aanwezig zijn.
 
 ### BIM-specific manuals & templates
 
