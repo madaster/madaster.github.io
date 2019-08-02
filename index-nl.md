@@ -31,7 +31,6 @@ te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
  * Lees de <a href="https://docs.madaster.com/files/Madaster_-_IFC_import_proces_v2_nl.pdf" target="_blank">Toelichting Madaster IFC import proces</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
- * Download het <a href="https://docs.madaster.com/files/Madaster Stappenplan Project import.pdf" target="_blank">Madaster Stappenplan Project import</a> - deze beschrijft de stappen om een IFC bestand te importeren.
 
 ### Naslagwerken
 
