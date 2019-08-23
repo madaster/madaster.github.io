@@ -8,29 +8,29 @@ permalink: /circularity-de
 lang: de
 ---
 
-## Madaster Circularity Indicator (CI)
-The Madaster Circularity Indicator assesses the level of circularity of each building between 0 and 100% based on the users uploaded information to Madaster. A building that has been constructed from virgin materials and ends up as waste after a shorter than average lifespan is a fully “linear” building with a Madaster CI of 0%. On the other end of the spectrum, a building constructed from reused and/or rapidly renewable materials that can be disassembled and easily reused elsewhere at the end of the lifetime is a “fully circular” building with a score of 100%. In practice most buildings will have a score anywhere between 0-100%.
+## MADASTER-ZIRKULARITÄTSINDIKATOR (ZI)
+Der Madaster-Zirkularitätsindikator bewertet den Grad der Zirkularität jedes Gebäudes zwischen 0 und 100 % basierend auf den von den Nutzern auf Madaster hochgeladenen Informationen. Ein Gebäude, das aus Rohstoffen gebaut wurde und nach einer kürzeren als durchschnittlichen Lebensdauer als Abfall endet, ist ein vollständig "lineares" Gebäude mit einem Madaster-ZI von 0 %. Am anderen Ende des Spektrums stehen Gebäude aus wiederverwendeten und/oder schnell erneuerbaren Materialien, die am Ende der Lebensdauer demontiert und an anderer Stelle leicht wiederverwendet werden können. Es handelt sich um ein "vollständig zirkuläres" Gebäude mit einem Score von 100 %. In der Praxis haben die meisten Gebäude einen Score zwischen 0–100%.
 
-The Madaster CI assesses a buildings and products on three phases within the building’s lifetime:
+Der Madaster-ZI bewertet Gebäude und Produkte in drei Phasen innerhalb der Lebensdauer des Gebäudes:
 
-__*Construction:*__ what is the proportion of ‘virgin materials’ compared to ‘recycled, reused or rapidly renewable materials’?
+__*Bau:*__ wie hoch ist der Anteil an "Rohstoffen" im Vergleich zu "recycelten, wiederverwendeten oder schnell erneuerbaren Materialien"?
 
-__*Usage:*__ how long are products and materials used compared to average lifetimes of similar products?
+__*Verwendung:*__ wie lange werden Produkte und Materialien im Vergleich zur durchschnittlichen Lebensdauer ähnlicher Produkte verwendet?
 
-__*End-of-life:*__ what is the destination of the materials or products of a building at the end of the lifetime? Will they be reused, recycled or wasted?
+__*Ende der Lebensphase:*__ was ist der Bestimmungsort der Materialien oder Produkte eines Gebäudes am Ende der Lebensdauer? Werden sie wiederverwendet, recycelt oder deponiert?
 
-The Madaster CI uses 2 different types of assessing:
+Der Madaster-ZI setzt zwei unterschiedliche Bewertungsmethoden ein:
 
-Building Circularity Indicator; the CI score for the building based on the available information uploaded by the users
+Gebäudezirkularitätsindikator: Der ZI-Score für das Gebäude basierend auf den verfügbaren Informationen, die von den Nutzern hochgeladen wurden.
 
-Madaster Circularity Indicator: Building Circularity Indicator adjusted for missing information.
+Madaster-Zirkularitätsindikator: Der Gebäudezirkularitätsindikator, entsprechend der fehlenden Informationen angepasst.
 
-##### ADJUSTMENT FACTORS
+##### ANPASSUNGSFAKTOREN
 
-The Building Circularity Indicator is adjusted by 2 factors that judge the completeness of the dataset that was uploaded by the user to Madaster. A circular building and its Materials Passport only works if all the materials and products are properly documented. The adjustment is based on the completeness of the model based on the percentage of the mass for which the material is unknown, and the completeness of the model based on the percentage of the mass for which the NL-SfB coding is available.
+Der Gebäudezirkularitätsindikator wird um zwei Faktoren angepasst, die die Vollständigkeit des Datensatzes beurteilen, der vom Benutzer auf Madaster hochgeladen wurde. Ein zirkuläres Gebäude und sein Materialpass funktionieren nur, wenn alle Materialien und Produkte ordnungsgemäß dokumentiert sind. Die Anpassung basiert auf der Vollständigkeit des Modells basierend auf dem Prozentsatz der Masse, deren Material unbekannt ist, und der Vollständigkeit des Modells basierend auf dem Prozentsatz der Masse, für welche die NL-SfB-Codierung verfügbar ist.
 
-**Note:** the circularity assessment is still being developed within the Madaster Platform. At the moment, the results shown here have a low reliability. If the Circularity Indicator has made the next step that increases reliability, it will be communicated (here).
+**Hinweis:** die Zirkularitätsbewertung befindet sich innerhalb der Madaster-Plattform noch in der Entwicklung. Die hier gezeigten Ergebnisse sind im Moment wenig zuverlässig. Wenn der Zirkularitätsindikator den nächsten Schritt zur Erhöhung der Zuverlässigkeit gemacht hat, wird dies (hier) kommuniziert.
 
-Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more-de">here</a>.
+Wünschen Sie weitere Informationen zum Detailbildschirm? Klicken Sie <a href="https://docs.madaster.com/circularity-learn-more-de">hier</a>.
 
-A <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1">detailed explanation</a> of the Madaster Circularity Indicator is also available.
+Eine <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1">detaillierte Erklärung</a> des Madaster-Zirkularitätsindikator ist ebenfalls verfügbar.

@@ -8,18 +8,18 @@ permalink: /financial-material-de
 lang: de
 ---
 
-## Calculation method
-The value of materials is preferably imported from commonly used commodity prices. The historical price development of materials is firstly corrected with the inflation of the year that the price development took place at the inflation rate of the country of the currency of the commodity price value. Besides the currency exchange is also took into consideration per year in the past. The historical data that is generated this way is real value data. With this real time historical data, a linear trendline is generated using a regression analysis with the least-squares method.
+## BERECHNUNGSMETHODE
+Der Wert der Materialien wird vorzugsweise aus den gängigen Rohstoffpreisen importiert. Die historische Preisentwicklung von Materialien wird zunächst mit der Inflation des Jahres korrigiert, in dem die Preisentwicklung mit der Inflationsrate des Landes der Währung des Rohstoffpreiswertes stattgefunden hat. Außerdem wird in der Vergangenheit auch die Wechselrate pro Jahr berücksichtigt. Die so erzeugten historischen Daten sind Realwertdaten. Mit diesen historischen Echtzeitdaten wird mittels einer Regressionsanalyse nach der Methode der kleinsten Quadrate eine lineare Trendlinie erzeugt.
 
-## Correction factors
-After this, the material values are corrected with demolition costs, recycling costs, logistic costs and a correction for the size of the material batch. The demolition costs are corrected each year with the BDB-index which represent the inflation in building costs. The average of price development of the last 18 years represents the default value which can be adapted. The recycling costs are independent for each material and calculated based on desk research and interviews. For transportation costs, a 150 km transport is taken as assumption for logistic costs. Two material groups have a different rate for this costs, namely Stone (20km) and Wood (40km).
+## KORREKTURFAKTOREN
+Danach werden die Materialwerte mit Abbruchkosten, Recyclingkosten, Logistikkosten und einer Korrektur für die Größe der Materialcharge korrigiert. Die Abbruchkosten werden jährlich mit dem BDB-Index korrigiert, der die Inflation der Baukosten darstellt. Der Durchschnitt der Preisentwicklung der letzten 18 Jahre stellt den anpassbaren Standardwert dar. Die Recyclingkosten sind für jedes Material unabhängig und werden auf der Grundlage von Recherchen und Interviews berechnet. Für die Transportkosten wird ein 150 km langer Transport für die Logistikkosten angenommen. Für zwei Materialgruppen liegt ein unterschiedlicher Wert für diese Kosten vor, nämlich Stein (20 km) und Holz (40 km).
 
-## References
+## Referenzen
 * LME (London Metal Exchange)
 * Quandl
 * www.vraagenaanbod.nl
 * RVO
 * BLS Beta Labs
 
-## What is the influence of inflation, the BDB index and the discount rate on the calculation?
-The influence is easily checkable in the sensitivity analysis on the detail pages. Values can be adapted. As a default value, the average inflation and average BDB index of the past 18 years is given. The Discount rate is built up consisting 0,7% of the euribor, 2% is representing the risk and 0,3% represents the premium for the financer. 
+## WIE WIRKT SICH DIE INFLATION, DER BDB-INDEX UND DER DISKONTSATZ AUF DIE BERECHNUNG AUS?
+Der Einfluss ist in der Sensitivitätsanalyse auf den Detailseiten leicht nachprüfbar. Die Werte können angepasst werden. Als Standardwert wird die durchschnittliche Inflation und der durchschnittliche BDB-Index der letzten 18 Jahre angegeben. Der Diskontsatz setzt sich zu 0,7% aus dem Euribor, zu 2% aus dem Risiko und zu 0,3% aus der Prämie für den Finanzierer zusammen.

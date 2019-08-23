@@ -9,21 +9,10 @@ lang: en
 ---
 
 ## What information is shown here?
-Here, you find the database of materials and products that were added to the Madaster Platform. You can see the new materials and products you entered yourself, as well as the other materials and products in the Madaster database. Additionally, you can view the materials and products from the Madaster database, but you cannot make any changes. You can change the materials and products you have added yourself. See the following section for more information.
+Here you will find the database of materials and products known within the Madaster Platform. Detailed information about this can be found <a href="https://docs.madaster.com/materials-products-en">here</a>. In addition, you can manage your own folders via the 'File folders' tab, which can be found in the file tab underneath the building. Under the tab classification methods you can find the available classifications to which elements from a source file can be linked.
 
-## Which materials are shown here?
-This page gives an overview of the materials available in the Madaster database, as well as the materials you have entered on the platform yourself (in the process ‘enrich’ in a source file). The first column ('Source') indicates whether or not the material is available in the general Madaster database. In that case, the text ‘Madaster’ is displayed in the 'Customer' column. If the name of the account administrator is displayed here, the material has been added either by you, or by another user from your account. Users not included in your account will not be able to see the materials you have added to the database. They do see the materials they added themselves. If you would like to display an overview of the materials added from within your account, you can make a selection of the required data by clicking the filter icon.
+## Dossier folders
+On this tab you can find your own folders under which you can save files in the 'file'-tab underneath a building. Initially only the folder 'Personal files' is available here. You can select this folder, after which a number of options become available to execute. You can rename the folder or add a subfolder. You can add up to 3 layers of deep folders and thus create your own desired folder structure. You can also rename, delete and move the folders you have created yourself. Only the main level cannot be deleted or moved.
 
-The Madaster database can be viewed by every user. You cannot modify this data. It depends on a user's privileges, whether or not they can edit the materials and products in the database.
-
-## How can I change materials data?
-Click the ‘Edit button for the material you would like to modify.
-Modify the data you would like to change. You can change the name of the material, as well as the specific weight and the material group code.
-Click the ‘Save material' button. You return to the materials overview.
-
-## How can I add new materials?
-Adding a new material is possible in the ‘Enrich’ process in a source file. (you can find this tab by clicking on ‘View details’ next to a source file).  When you are an Account Manager please use the 'Administration' menu. When you have added and saved a new material, use this menu to go to the specific material to fill in the remaining fields that became available.
-
-If you click on the 'Add material' button, the product is created in the Madaster database and can be found in the 'Materials' tab under ‘Administration’. Here you can further specify the newly added material.
-
-By clicking Edit' (next to the newly created material) and going through the various tabs, you can enter additional information, for example: material information, circularity and search criteria.
+## Classification methods
+On this page you will find a detailed overview of the classification structures (e.g. NL-SfB, eBKP and Omniclass) that are known within Madaster for your country. For this method, all codes that are known and to which 'Layer of Brand' it is linked are listed.

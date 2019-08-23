@@ -8,8 +8,8 @@ permalink: /profile-de
 lang: de
 ---
 
-## Which data can I change?
-At this page you can change your first name, last name and telephone-number. Right now, it is not possible to change other data, like your password or e-mailadress. If this becomes possible, it will be communicated on this page. 
+## WELCHE DATEN KANN ICH ÄNDERN?
+Auf dieser Seite können Sie Ihren Vornamen, Nachnamen und Ihre Telefonnummer ändern. Andere Daten, z. B. Ihr Passwort oder Ihre E-Mail-Adresse, können Sie derzeit nicht ändern. Wenn dies möglich ist, wird dies auf dieser Seite mitgeteilt.
 
-## Can I change the language of the platform?
-Yes, you can. Click on ‘System settings’. Here you can choose for ‘Dutch’ or ‘English’, which will change the language of the whole platform. At any time, you can change this setting again.
+## KANN ICH DIE SPRACHE DER PLATTFORM ÄNDERN?
+Ja, das können Sie. Klicken Sie auf "Systemeinstellungen". Hier können Sie zwischen "Niederländisch", "Englisch" und "Deutsch" wählen, was die Sprache der gesamten Plattform ändert. Diese Einstellung können Sie jederzeit wieder ändern.

@@ -8,22 +8,22 @@ permalink: /building-process-de
 lang: de
 ---
 
-## What information is shown here?
-The information shown in this table is based on the active source files that have been uploaded for this building. The table is horizontally organized into seven materials families. In addition to the organization into materials families, there is a vertically subdivision into the different stages of the building process.
+## Welche Informationen werden hier angezeigt?
+Die in dieser Tabelle dargestellten Informationen basieren auf den aktiven Quelldateien, die für dieses Gebäude hochgeladen wurden. Der Tisch ist horizontal in sieben Materialfamilien gegliedert. Neben der Organisation in Materialfamilien gibt es eine vertikale Unterteilung in die verschiedenen Phasen des Bauprozesses.
 
-For each building stage, the materials are shown in percentages. E.g. in the ‘Demolition’ column, you can see how much stony material will be demolished. This is expressed as a percentage, and by the weight and volume. To do this, the ‘Demolition’ stage must be linked to the materials in the source file to enable the Madaster platform to read this data. This also applies to the ‘New’ stage of the building process.
+Für jede Bauphase werden die Materialien in Prozent angegeben. Zum Beispiel in der Spalte "Abbruch" sehen Sie, wie viel steinernes Material abgerissen wird. Dies wird in Prozent, Gewicht und Volumen ausgedrückt. Dazu muss die Phase "Abbruch" mit den Materialien in der Quelldatei verknüpft werden, damit die Madaster-Plattform diese Daten lesen kann. Dies gilt auch für die Phase "Neu" des Bauprozesses.
 
-If there is no match between the element and the building process stage, the stage is unknown. Therefore the element will be visible in the column ‘Unknown’ under the 5 stages.
+Wenn es keine Übereinstimmung zwischen dem Element und der Bauprozessphase gibt, ist die Phase unbekannt. Daher wird das Element in der Spalte "Unbekannt" unter den fünf Phasen angezeigt.
 
-By clicking on a circle, you can retrieve more information on the material. A new small screen is opened explaining which materials and products were used. The material type ‘Stone ' can be further specified by the materials ‘Concrete’ and ‘Brick’, and the product ‘Reinforced column’ which, in turn, consists of ‘Brick’. You can also see what the volume is of each material used. 
+Durch Anklicken eines Kreises erhalten Sie weitere Informationen zum Material. Ein neuer kleiner Bildschirm wird geöffnet, auf dem erläutert wird, welche Materialien und Produkte verwendet wurden. Die Materialart "Stein" kann durch die Materialien "Beton" und "Ziegel" sowie das Produkt "Verstärkte Stütze", das wiederum aus "Ziegel" besteht, näher bestimmt werden. Sie können auch sehen, wie groß das Volumen jedes verwendeten Materials ist.
 
-In addition, it is possible to click on stage of the building process, for example ’Current’ and ‘Demolition’. Subsequently, a new screen opens where you gain insight into the applied products per building process stage. Here you can filter on keyword(s) and classification method (left column).
+Darüber hinaus ist es möglich, auf den Bauabschnitt zu klicken, z. B. "Aktuell" und "Abbruch". Anschließend öffnet sich ein neuer Bildschirm, in dem Sie pro Bauprozessphase Einblick in die eingesetzten Produkte erhalten. Hier können Sie nach Stichwörtern und Klassifikationsmethode (linke Spalte) filtern.
 
-## What stages does the building process consist of?
-The building process consists of five stages. It starts with the current stage. This is the present state of the materials in the building. In the demolition stage, it is specified what materials will be demolished, exactly. This results in the ‘casco’ column: this is what remains of the materials after demolition. The new materials that are added during the building process, are displayed in the ‘virgin materials’ column. The ‘casco’ status, merged with the new materials, results in the ‘Final’ column. 
+## Aus welchen Phasen besteht der Bauprozess?
+Der Bauprozess besteht aus fünf Phasen. Er beginnt mit der aktuellen Phase. Diese ist der aktuelle Zustand der Materialien im Gebäude. In der Abbruchphase wird genau festgelegt,welche Materialien abgerissen werden sollen. Daraus ergibt sich die Spalte "Casco": Das ist , was von den Materialien nach dem Abriss übrig bleibt. Die neuen Materialien, die während des Bauprozesses hinzugefügt werden, werden in der Spalte "Rohstoffe" angezeigt. Der Status "Casco", zusammengeführt mit den neuen Materialien, ergibt die Spalte "Final".
 
 **Filter**
 
-In this view you can use the filter. You can filter on materials or products by entering keywords in the filter section. The keywords will affect the results in the circles. To delete the filters you can click on the cross next to them.
+In dieser Ansicht können Sie den Filter verwenden. Sie können nach Materialien oder Produkten filtern, indem Sie Stichwörter in den Filterbereich eingeben. Die Stichwörter beeinflussen die Ergebnisse in den Kreisen. Um die Filter zu löschen, können Sie auf das Kreuz neben ihnen klicken.
 
-When a specific product is selected (in the middle of this screen), you can see more product information on the ‘Material’, ‘Product’, ‘IFC’ and ‘Circular’ tabs (at the right-hand side of the screen).
+Wenn ein bestimmtes Produkt ausgewählt ist (in der Mitte dieses Bildschirms), sehen Sie weitere Produktinformationen auf den Registerkarten "Material", "Produkt", "IFC" und "Zirkulär" (auf der rechten Seite des Bildschirms).

@@ -8,49 +8,49 @@ permalink: /buildings-de
 lang: de
 ---
 
-## What information is shown here?
-After opening a building, you will go to the details page for the building. This page contains general information. There, you will see a summary of the data entered. Below that, there is a table that shows the degree of completion of the materials entered, as well as an overview of the active source files that have been uploaded to this building. At the bottom of this page, you see the users who can access the building, and the privileges that have been assigned to them. 
+## Welche Informationen werden hier angezeigt?
+Nach dem Öffnen eines Gebäudes gelangen Sie auf die Detailseite des Gebäudes. Diese Seite enthält allgemeine Informationen. Dort sehen Sie eine Zusammenfassung der eingegebenen Daten. Darunter befindet sich eine Tabelle, die den Fertigstellungsgrad der eingegebenen Materialien sowie eine Übersicht über die aktiven Quelldateien zeigt, die in dieses Gebäude hochgeladen wurden. Am Ende dieser Seite sehen Sie die Benutzer, die auf das Gebäude zugreifen können, und die ihnen zugewiesenen Berechtigungen.
 
-## How are the tabs organized?
-Information about the building is organized in a number of tabs: ‘General’, ‘Building’, ‘Building Process’, ‘Circularity’, and ‘Dossier’. The ‘Building’ tab gives an overview of all materials and products used per building layer. The ‘Building process’ tab, displays information about the materials and products used in the various stages of the building process. The ‘Dossier’ tab contains all relevant building files that are uploaded, as well as the materials passports created for this building. For each tab, you can retrieve additional information by clicking the ‘HELP’ info symbol at the top right of the tab. In this manner, you can quickly access relevant information about this tab.
+## Wie sind die Registerkarten organisiert?
+Informationen über das Gebäude sind in mehreren Registerkarten organisiert: "Allgemeines", "Gebäude", "Bauprozess", "Zirkularität" und "Dossier". Die Registerkarte "Gebäude" gibt einen Überblick über alle verwendeten Materialien und Produkte pro Bauschicht. Die Registerkarte "Bauprozess" zeigt Informationen über die Materialien und Produkte, die in den verschiedenen Phasen des Bauprozesses verwendet werden. Die Registerkarte "Dossier" enthält alle relevanten Gebäudedateien, die hochgeladen werden, sowie die für dieses Gebäude erstellten Materialpässe. Für jede Registerkarte können Sie zusätzliche Informationen abrufen, indem Sie auf das Symbol "Informationen" auf der rechten Seite der Leiste klicken. Auf diese Weise können Sie schnell auf relevante Informationen zu dieser Registerkarte zugreifen.
 
-## How can I customize the data of a building?
-Scroll down on the ‘General’-tab and click 'Customize building'. After this, you will go to a page where you can change data, such as the name, address, and the cadastral information of the building.
-Click ‘Save’. Now, the data is changed.
-How can I move a building to another portfolio?
-You can move a building to another portfolio by clicking on ‘Move building’ under the general tab. You will see a dropdown with available portfolios where to the building can be moved. Be aware: this can have influence on the permissions of the users who can access the building.
+## WIE KANN ICH DIE DATEN EINES GEBÄUDES ANPASSEN?
+Scrollen Sie nach unten auf die Registerkarte "Allgemeines" und klicken Sie auf "Gebäude anpassen". Danach gelangen Sie auf eine Seite, auf der Sie Daten wie Name, Adresse und Katasterinformationen des Gebäudes ändern können.
+Klicken Sie auf "Speichern". Nun sind die Daten geändert.
 
-## How can I add users to a building?
-Go to the ‘General’ tab and click ‘Add user’.
-Enter the e-mail address of the user you would like to add. If the person you are adding is already registered by Madaster, they will have immediate access to the portfolio. If the person is not a registered user, they will receive an e-mail explaining how to register.
-Select the role you would like to assign to the user and click ‘Save’. See the following section for more information on the different user roles.
-The users that you add to a building, will only be able to access that particular building. They cannot view the other buildings within the portfolio. Would you rather grant a user access to all buildings in one portfolio? Then, you add the user to the portfolio, instead of to the building.
+## Wie kann ich ein Gebäude in ein anderes Portfolio verschieben? 
+Sie können ein Gebäude in ein anderes Portfolio verschieben, indem Sie auf "Gebäude verschieben" auf der Registerkarte "Allgemeines" klicken. Sie sehen ein Drop-Down-Menü mit verfügbaren Portfolios, in das Sie das Gebäude verschieben können. Beachten Sie: Dies kann Einfluss auf die Berechtigungen der Benutzer haben, die auf das Gebäude zugreifen können.
 
-## How can I change the roles of users who have access to a building?
-Go to the ‘General’ tab.
-Click ‘Edit permissions’. A new page is opened, where you can change the privileges for each user. This is only possible for users who got permission to the building. For users whom have permission to the whole portfolio, you can change the permissions on the ‘portfolio’-tab and not on the ‘building’-tab.
-Click ‘Save’.
+## Wie kann ich benutzer zu einem Gebäude hinzufügen?
+Gehen Sie auf die Registerkarte "Allgemeines" und klicken Sie auf "Benutzer hinzufügen".
+Geben Sie die E-Mail-Adresse des Benutzers ein, den Sie hinzufügen möchten. Wenn die Person, die Sie hinzufügen, bereits bei Madaster registriert ist, hat sie sofortigen Zugriff auf das Portfolio. Wenn die Person kein registrierter Benutzer ist, erhält sie eine E-Mail mit einer Anleitung zur Registrierung.
+Wählen Sie die Rolle, die Sie dem Benutzer zuweisen möchten, und klicken Sie auf "Speichern". Im folgenden Abschnitt finden Sie weitere Informationen zu den verschiedenen Benutzerrollen. 
+Die Benutzer, die Sie zu einem Gebäude hinzufügen, können nur auf dieses Gebäude zugreifen. Sie können die anderen Gebäude innerhalb des Portfolios nicht sehen. Möchten Sie einem Nutzer lieber Zugriff auf alle Gebäude in einem Portfolio gewähren? Dann fügen Sie den Benutzer zum Portfolio und nicht zum Gebäude hinzu.
+
+## WIE KANN ICH DIE ROLLEN VON BENUTZERN ÄNDERN, DIE ZUGRIFF AUF EIN GEBÄUDE HABEN?
+Gehen Sie auf die Registerkarte "Allgemeines".
+Klicken Sie auf "Berechtigungen bearbeiten". Es wird eine neue Seite geöffnet, auf der Sie die Berechtigungen für jeden Benutzer ändern können. Dies ist nur für Benutzer möglich, die eine Berechtigung für das Gebäude haben. Für Benutzer, die Zugriff auf das gesamte Portfolio haben, können Sie die Berechtigungen auf der Registerkarte "Portfolio" und nicht auf der Registerkarte "Gebäude" ändern.
+Klicken Sie auf "Speichern".
  
-Roles on building-level:
+Rollen auf Gebäudeebene:
 
-| Building level                            | Administrator | Manager | Reader |
-|-------------------------------------------|---------------|---------|--------|
-| View building                             | Yes           | Yes     | Yes    |
-| Customize building                        | Yes           | Yes     | No     |
-| Delete building                           | Yes           | No      | No     |
-| Add and delete users                      | Yes           | No      | No     |
-| Add and change materials and products     | Yes           | Yes     | No     |
-| Export materials passport                 | Yes           | Yes     | No     |
-| Download materials passport as a PDF-file | Yes           | Yes     | Yes    |
+| Gebäudeebene                                       | Administrator | Manager | Leser  |
+|----------------------------------------------------|---------------|---------|--------|
+| Gebäude ansehen                                    | Ja            | Ja      | Ja     |
+| Gebäude anpassen                                   | Ja            | Ja      | Nein   |
+| Gebäude löschen                                    | Ja            | Nein    | Nein   |
+| Benutzer hinzufügen und löschen                    | Ja            | Nein    | Nein   |
+| Materialien und Produkte hinzufügen und ändern     | Ja            | Ja      | Nein   |
+| Materialpass exportieren                           | Ja            | Ja      | Nein   |
+| Materialpass als PDF-Datei herunterladen           | Ja            | Ja      | Ja     |
 
-## How can I delete users?
-Scroll down on the ‘General’ tab.
-Click ‘Edit permissions’. A new page is opened. On the right of each user, a wastepaper basket icon is displayed.
-Click on the wastepaper basket icon behind the user you would like to delete. Now, this user can no longer access the building's data.
+## WIE KANN ICH BENUTZER LÖSCHEN?
+Scrollen Sie nach unten auf der Registerkarte "Allgemeines".
+Klicken Sie auf "Berechtigungen bearbeiten". Eine neue Seite wird geöffnet. Auf der rechten Seite jedes Benutzers wird ein Papierkorbsymbol angezeigt.
+Klicken Sie auf das Papierkorbsymbol hinter dem Benutzer, den Sie löschen möchten. Dieser Benutzer hat nun keinen Zugriff mehr auf die Daten des Gebäudes.
 
-## How can I export the entered data to a PDF file in order to create a materials passport?
-After uploading the source files for the building, you can create a materials passport. Files with an ‘Active’ status will be included in the materials passport. You can use this functionality, to export all active data to a PDF file, which you can download to your computer, and can print. 
+## WIE KANN ICH DIE EINGEGEBENEN DATEN IN EINE PDF-DATEI EXPORTIEREN, UM EINEN MATERIALPASS ZU ERSTELLEN?
+Nachdem Sie die Quelldateien für das Gebäude hochgeladen haben, können Sie einen Materialpass erstellen. Dateien mit dem Status "Aktiv" werden in den Materialpass aufgenommen. Mit dieser Funktion können Sie alle aktiven Daten in eine PDF-Datei exportieren, die Sie auf Ihren Computer herunterladen und drucken können.
 
-Scroll down on the ‘General’ tab.
-Click ‘Publish materials passport’. The file that you are making is saved on the ‘Dossier’ tab for this building. From this tab, you can always download the created file again, or you can view or delete the file. After publishing the material passport this page will automatically open.
-Click on the dots next to the file to view/download/remove/change or move the file.
+Scrollen Sie nach unten auf der Registerkarte "Allgemeines". 
+Klicken Sie auf "Materialpass veröffentlichen". Die Datei, die Sie erstellen, wird auf der Registerkarte "Dossier" für dieses Gebäude gespeichert. Auf dieser Registerkarte können Sie die erstellte Datei jederzeit wieder herunterladen oder die Datei ansehen oder löschen. Nach der Veröffentlichung des Materialpasses öffnet sich diese Seite automatisch. Klicken Sie auf die Punkte neben der Datei, um die Datei anzuzeigen, herunterzuladen, zu entfernen, zu ändern oder zu verschieben.

@@ -1,5 +1,5 @@
 ---
-title: Zirkularität - Detail
+title: Zirkularität - Detailebene
 layout: page
 show_sidebar: false
 menubar: faq-nav
@@ -8,55 +8,55 @@ permalink: /circularity-learn-more-de
 lang: de
 ---
 
-## Circularity score
-The higher the durability of the products and materials used in a building, the higher the value of the data that is stored on the Madaster Platform. The Circularity Indicator has been developed to assign circularity scores to buildings. The Madaster Circularity Indicator is a measure for the degree of circularity of a building. A fully circular building gets a score of 100%.
+## ZIRKULARITÄTSSCORE
+Je höher die Haltbarkeit der in einem Gebäude verwendeten Produkte und Materialien, desto höher ist der Wert der Daten, die auf der Madaster-Plattform gespeichert sind. Der Zirkularitätsindikator wurde entwickelt, um Gebäuden Zirkularitätsscores zuzuordnen. Der Madaster-Zirkularitätsindikator ist ein Maß für den Grad der Zirkularität eines Gebäudes. Ein vollständig zirkuläres Gebäude erhält einen Score von 100%.
 
-The Circularity Indicator assesses the building during 3 stages: the materials to realize the building (proportion of new versus reused materials), the lifespan of the building (compared to the average lifespan) and the way products and materials are processed at the end of its lifespan (proportion of reuse/ recycling versus disposal to a landfill or incinerator).
+Der Zirkularitätsindikator bewertet das Gebäude in drei Phasen: Die Materialien zur Realisierung des Gebäudes (Anteil der neuen im Vergleich zu wiederverwendeten Materialien), die Lebensdauer des Gebäudes (im Vergleich zur durchschnittlichen Lebensdauer) und die Art und Weise, wie Produkte und Materialien am Ende ihrer Lebensdauer verarbeitet werden (Anteil der Wiederverwendung/Recycling im Vergleich zu Entsorgung auf einer Deponie oder in einer Verbrennungsanlage).
 
-The Madaster Circularity Indicator is based on the international open source Material Circularity Indicator (MCI) of the Ellen MacArthur Foundation. Click here for more information.
+Der Madaster-Zirkularitätsindikator basiert auf dem internationalen Open-Source-Materialzirkularitätsindikator (Material Circularity Index, MCI) der Ellen MacArthur Foundation. Klicken Sie hier für weitere Informationen.
 
-The Circularity Indicator is still in its development phase, and has low to medium reliability due to the limited amount of information currently available from the uploaded source files.
+Der Zirkularitätsindikator befindet sich noch in der Entwicklungsphase und ist aufgrund der begrenzten Menge an Informationen, die derzeit aus den hochgeladenen Quelldateien verfügbar sind, wenig bis mittel zuverlässig.
 
-## External sources
-There are numerous external sources with detailed information on products and materials used in buildings. This information is of great value for the reuse of materials and products in the future.
+## EXTERNE QUELLEN
+Es gibt zahlreiche externe Quellen mit detaillierten Informationen zu Produkten und Materialien, die in Gebäuden verwendet werden. Diese Informationen sind von großem Wert für die zukünftige Wiederverwendung von Materialien und Produkten.
 
-In the future, more and more databases will be linked to Madaster making all recorded data (new, as well as older data) available in one central location: the Madaster Platform.
+In Zukunft werden immer mehr Datenbanken an Madaster angebunden, so dass alle erfassten Daten (sowohl neue als auch ältere Daten) an einem zentralen Ort verfügbar sind: der Madaster-Plattform.
 
-If you click on the logo of an external source, the website of the database in question is opened in a new window. Are you interested in linking your database to Madaster? Then, contact Madaster.
+Wenn Sie auf das Logo einer externen Quelle klicken, wird die Webseite der betreffenden Datenbank in einem neuen Fenster geöffnet. Sind Sie daran interessiert, Ihre Datenbank mit Madaster zu verbinden? Dann kontaktieren Sie Madaster.
 
-## Current status
-The information shown by the Circularity Indicator is based on the active source files that have been uploaded for this building. The table indicates the value of the circularity score, and is vertically subdivided into three circularity phases, with the circularity score at the top. In addition to the vertical subdivision, there is a horizontal subdivision into the six different building layers.
+## AKTUELLER STATUS
+Die vom Zirkularitätsindikator angezeigten Informationen basieren auf den aktiven Quelldateien, die für dieses Gebäude hochgeladen wurden. Die Tabelle zeigt den Wert des Zirkularitätsscores an und ist vertikal in drei Zirkularitätsphasen unterteilt, wobei der Zirkularitätsscore an erster Stelle steht. Neben der vertikalen Unterteilung gibt es eine horizontale Unterteilung in die sechs verschiedenen Gebäudeschichten.
 
-The circularity assessment on the Madaster Platform is still under development. The current results, which are shown here, have a low level of reliability. As soon as the circularity results are reliable, it will be communicated (here).
+Die Zirkularitätsbewertung auf der Madaster-Plattform befindet sich noch in der Entwicklung. Die aktuellen Ergebnisse, die hier gezeigt werden, sind von geringer Zuverlässigkeit. Sobald die Zirkularitätsergebnisse zuverlässig sind, wird dies (hier) kommuniziert.
 
-## Developments to watch
-The circularity process on the Madaster Platform is still under development. Below is a summary of the aim of the various phases within the circularity process, and of the steps to be taken to make the results more reliable. In the coming period, we will be working very hard to achieve this. As soon as we have more news, it will be communicated here.
+## WICHTIGE ENTWICKLUNGEN
+Der Zirkularitätsprozess auf der Madaster-Plattform befindet sich noch in der Entwicklung. Nachfolgend finden Sie eine Zusammenfassung des Ziels der verschiedenen Phasen innerhalb des Zirkularitätsprozesses und der Schritte, die zu unternehmen sind, um die Ergebnisse zuverlässiger zu machen. In Zukunft werden wir sehr hart daran arbeiten, dies zu erreichen. Sobald wir weitere Neuigkeiten haben, werden wir sie hier mitteilen.
 
-**Phase 1: The construction phase**
+**Phase 1: Die Bauphase**
 
-* **Aim:** 100% of materials from reuse
-* **Current calculation:** dynamic values ​​for recycling / reuse percentages at product and material level. Besides the Madaster Database (data on material categories and there with calculated on products) there is the possibility to manually manage and evaluate the inserted data based on practical knowledge.
-**Development**
-* Step 1: linking external sources for recycling and reuse percentages
-* Step 2: develop a circular BIM Information Delivery Manual, which specifies how the information is included in the source file
-* Step 3: adding waste from the production of materials, products and buildings.
+* **Ziel:** 100% der Materialien werden wiederverwendet
+* **Aktuelle Berechnung:** Dynamische Werte für Recycling/Wiederverwendungsanteile auf Produkt- und Materialebene. Neben der Madaster-Datenbank (Daten zu Materialkategorien und dort mit Berechnungen zu Produkten) besteht die Möglichkeit, die eingegebenen Daten manuell zu verwalten und anhand von Praxiswissen auszuwerten.
+**Entwicklung**
+* Schritt 1: Verknüpfung externer Quellen für Recycling- und Wiederverwendungsprozentsätze.
+* Schritt 2: Entwicklung eines zirkulären BIM-Informationsbereitstellungshandbuch, das angibt, wie die Informationen in die Quelldatei aufgenommen werden.
+* Schritt 3: Hinzufügen von Abfällen aus der Produktion von Materialien, Produkten und Gebäuden.
 
-**Phase 2: The use phase**
+**Phase 2: Die Nutzungsphase**
 
-* **Aim:** maximizing the functional lifespan and use period for circular products
-* **Current calculation:** the starting point for the current industry average lifetime are the Layers of Brand (site (500 yrs), structure (100 yrs), skin (20 yrs), services (15 yrs), space plan (10 yrs)) and stuff (5 yrs.)). For the current average life span, the starting point is the lifetime that has been filled in by the user at building level. This can be adjusted at product level (possibility).
-**Development**
-* Step 1: in-depth information on functional, technical, economic and architectural lifespan in relation to the use and consumption of materials, products and buildings.
-* Step 2: monitoring the lifespans of products and materials for individual buildings through time.
+* **Ziel:** Maximierung der Funktionsdauer und Nutzungsdauer für zirkuläre Produkte.
+* **Aktuelle Berechnung:** Der Ausgangspunkt für die aktuelle branchendurchschnittliche Lebensdauer sind die Schichten der Marke (Standort (500 Jahre), Struktur (100 Jahre), Hülle (20 Jahre), Installationen (15 Jahre), Raumplan (10 Jahre) und Material (5 Jahre)). Für die aktuelle durchschnittliche Lebensdauer ist der Ausgangspunkt die Lebensdauer, die vom Benutzer auf Gebäudeebene eingetragen wurde. Diese kann auf Produktebene angepasst werden (Möglichkeit).
+**Entwicklung**
+* Schritt 1: Detaillierte Informationen über die funktionale, technische, wirtschaftliche und architektonische Lebensdauer in Bezug auf die Verwendung und den Verbrauch von Materialien, Produkten und Gebäuden.
+* Schritt 2: Überwachung der Lebensdauer von Produkten und Materialien für einzelne Gebäude im Zeitverlauf.
 
 **Phase 3: The end-of-life phase**
 
-* **Aim:** 100% (high- or low-quality) reuse of released materials and products
-* **Current calculation:** dynamic values for recycle / reuse percentages at product and material level. In addition to the Madaster Database (recorded data on material categories and passed on in products), it is possible to enrich values manually on the basis of practical knowledge. The waste generated by the recycling process is also included in the calculation.
-**Development**
-* Step 1: linking external sources for recycling and reuse percentages and recycling efficiency values.
-* Step 2: develop a circular BIM Information Delivery Manual, which specifies how the information is included in the source file.
-* Step 3: development of a method that makes it possible to make an estimate for the Design for Disassembly (stimulation of high-quality reuse) and Design for Recycling (stimulation of low-value reuse) on the basis of the uploaded source file.
-Work on the realization of Steps 2 and 3 is expected in the remainder of 2019/2020.
+* **Ziel:** 100% (hoch- oder minderwertige) Wiederverwendung der herausgenommenen Materialien und Produkte.
+* **Aktuelle Berechnung:** Dynamische Werte für Recycling-/Wiederverwendungsprozentsätze auf Produkt- und Materialebene. Neben der Madaster-Datenbank (erfasste Daten zu Materialkategorien und Weitergabe in Produkten) ist es möglich, Werte auf Basis von Praxiswissen manuell anzureichern. Auch die durch den Recyclingprozess anfallenden Abfälle werden in die Berechnung einbezogen.
+**Entwicklung**
+* Schritt 1: Verknüpfung externer Quellen für Recycling- und Wiederverwendungsprozentsätze und Werte für die Recyclingeffizienz.
+* Schritt 2: Entwicklung eines zirkulären BIM-Informationsbereitstellungshandbuchs, das angibt, wie die Informationen in die Quelldatei aufgenommen werden.
+* Schritt 3: Entwicklung einer Methode, die es ermöglicht, auf Basis der hochgeladenen Quelldatei eine Schätzung für den Abrissplan (Stimulation einer hochwertigen Wiederverwendung) und Recyclingplan (Stimulation einer minderwertigen Wiederverwendung) vorzunehmen. 
+Die Arbeiten zur Realisierung der Schritte 2 und 3 werden für das verbleibende Jahr 2019/2020 erwartet.
 
-In the future, the reliability of the Circularity Indicator will still depend on quality of the source information that is uploaded. A source file with a high level of detail influences the quality of the indicator to a great extent.
+Die Zuverlässigkeit des Zirkularitätsindikators wird auch in Zukunft von der Qualität der hochgeladenen Quellinformationen abhängen. Eine Quelldatei mit hohem Detaillierungsgrad beeinflusst die Qualität des Indikators in hohem Maße.

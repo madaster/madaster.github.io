@@ -33,6 +33,7 @@ Click the ‘Link’ button of the element you would like to link. A new screen 
 Type the name of the element you are looking for. By clicking the magnification glass icon, you can search an existing element in the (Madaster) database.
 Select the required element by clicking on it.
 Click ‘Link’. Now, the missing element is linked to the existing element.
+
 2. If the existing element is not available in the (Madaster) database, you can create a new product or material.
 
 Click ‘Create new material’ or ‘Create new product’, depending on the element you would like to add.

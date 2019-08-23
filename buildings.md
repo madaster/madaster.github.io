@@ -17,7 +17,8 @@ Information about the building is organized in a number of tabs: ‘General’, 
 ## How can I customize the data of a building?
 Scroll down on the ‘General’-tab and click 'Customize building'. After this, you will go to a page where you can change data, such as the name, address, and the cadastral information of the building.
 Click ‘Save’. Now, the data is changed.
-How can I move a building to another portfolio?
+
+## How can I move a building to another portfolio?
 You can move a building to another portfolio by clicking on ‘Move building’ under the general tab. You will see a dropdown with available portfolios where to the building can be moved. Be aware: this can have influence on the permissions of the users who can access the building.
 
 ## How can I add users to a building?

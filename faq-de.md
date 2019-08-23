@@ -8,13 +8,13 @@ permalink: /faq-de
 lang: de
 ---
 
-## What information is shown here?
-When you log on to the platform, you will automatically go to the home screen. After registering as a user, you will be presented with an empty portfolio that you can set up. All portfolios and buildings that have been added to the account, either by you or another user, are displayed here. See the Portfolios section for more information. From this overview, you can go to one of the buildings you added or you can open a portfolio, choose a building from that portfolio by clicking on it, or add a building if you have the proper authorization.
+## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
+Wenn Sie sich auf der Plattform anmelden, gelangen Sie automatisch zum Startbildschirm. Nach der Registrierung als Benutzer erhalten Sie ein leeres Portfolio, das Sie einrichten können. Hier werden alle Portfolios und Gebäude angezeigt, die dem Konto entweder von Ihnen oder einem anderen Benutzer hinzugefügt wurden. Weitere Informationen finden Sie im Abschnitt Portfolios. Von dieser Übersicht aus können Sie zu einem der von Ihnen hinzugefügten Gebäude gehen oder ein Portfolio öffnen, ein Gebäude aus diesem Portfolio durch Anklicken auswählen oder ein Gebäude hinzufügen, wenn Sie die entsprechende Berechtigung haben.
 
-## How can I return to the home page when I am on another page?
-You can always return to the home page by clicking the Madaster logo in the upper left corner of the page you are on.
+## WIE KANN ICH ZUR STARTSEITE ZURÜCKKEHREN, WENN ICH AUF EINER ANDEREN SEITE BIN?
+Sie können jederzeit zur Startseite zurückkehren, indem Sie auf das Madaster-Logo in der linken oberen Ecke der Seite klicken, auf der Sie sich befinden.
 
-## How do I navigate easily and quickly through the platform?
-Every page shows you the so-called crumble-path. You can always return to a page you have visited before by using this breadcrumb-navigation. The example down here shows that the building ‘Empire 2’ is opened. From this building, you can return to the portfolio by clicking on the portfolio-name ‘Erik zijn portfolio’, or you can return to the portfolio-page or home-page. From every page, you can go back one or more steps by clicking on one of the items in the breadcrumb-navigation
+## WIE NAVIGIERE ICH EINFACH UND SCHNELL DURCH DIE PLATTFORM?
+Jede Seite zeigt Ihnen den sogenannten Nachverfolgungspfad. Sie können jederzeit zu einer Seite zurückkehren, die Sie zuvor besucht haben, indem Sie diese Spurennavigation verwenden. Das Beispiel unten zeigt, dass das Gebäude "Empire 2" geöffnet ist. Von diesem Gebäude aus können Sie zum Portfolio zurückkehren, indem Sie auf den Portfolionamen "Erik zijn portfolio" klicken oder Sie können zur Portfolioseite oder zur Startseite zurückkehren. Von jeder Seite aus können Sie einen oder mehrere Schritte zurückgehen, indem Sie auf einen der Punkte in der Spurennavigation klicken.
 
-Home  >  Portfolio's  >  Erik zijn portfolio  >  Empire 
+Startseite  >  Portfolios  >  Erik zijn portfolio  >  Empire 

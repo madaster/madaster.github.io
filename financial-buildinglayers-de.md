@@ -1,5 +1,5 @@
 ---
-title: Finanzen - Gebäudeschicht
+title: Finanzen - Gebäudeschichten
 layout: page
 show_sidebar: false
 menubar: faq-nav
@@ -8,16 +8,16 @@ permalink: /financial-buildinglayers-de
 lang: de
 ---
 
-## Calculation method
-The different layers have a functional lifecycle which ends in the expiration year cash flow. This value is default given by Madaster but can manually be adjusted in the general tab. In the Layers of Brand tab, the value of materials will be determined based on the end of life date. The value of a material at that date is calculated back to today with the net present value (NPV) calculation using the discount rate. The sum of the NPV’s represents the building value expressed in material value. 
+## BERECHNUNGSMETHODE
+Die verschiedenen Schichten haben einen funktionalen Lebenszyklus, der mit dem Cashflow des Ablaufjahres endet. Dieser Wert ist von Madaster vorgegeben, kann aber in der Registerkarte "Allgemeines" manuell angepasst werden. Auf der Registerkarte "Schichten der Marke" wird der Wert der Materialien basierend auf dem Lebensphaseende-Datum bestimmt. Der Wert eines Materials zu diesem Zeitpunkt wird bis heute mit der Nettowertberechnung unter Verwendung des Diskontierungssatzes zurückgerechnet. Die Summe der Nettowerte stellt den Gebäudewert dar, ausgedrückt als Materialwert.
 
-## Trend line determination
-According the trendline of material value, the expected value in different years in the future is determined. The material value is imported preferably from common commodity prices. The price mutation is firstly corrected with inflation in the year of mutation. After that, prices are translated into euro’s according to the currency exchange rate of the specific year. The points in the trendline are analyzed using a regression analysis, namely: the least-squares method. 
+## TRENDLINIENBESTIMMUNG
+Gemäß der Trendlinie des Materialwertes wird der erwartete Wert in verschiedenen Jahren in der Zukunft ermittelt. Der Materialwert wird vorzugsweise aus den gängigen Rohstoffpreisen importiert. Die Preismutation wird zunächst mit der Inflation im Jahr der Mutation korrigiert. Danach werden die Preise entsprechend dem Wechselkurs des jeweiligen Jahres in Euro umgerechnet. Die Punkte in der Trendlinie werden mit Hilfe einer Regressionsanalyse analysiert, nämlich: der Methode der kleinsten Quadrate.
 
-## Correction factors
-After this, the material values are corrected with demolition costs, recycling costs, logistic costs and a correction for the size of the material batch. The demolition costs are corrected each year with the BDB-index which represent the inflation in building costs. The average of price development of the last 18 years represents the default value which can be adapted. The recycling costs are independent for each material and calculated based on desk research and interviews. For transportation costs, a 150 km transport is taken as assumption for logistic costs. Two material groups have a different rate for this costs, namely Stone (20km) and Wood (40km).
+## KORREKTURFAKTOREN
+Danach werden die Materialwerte mit Abbruchkosten, Recyclingkosten, Logistikkosten und einer Korrektur für die Größe der Materialcharge korrigiert. Die Abbruchkosten werden jährlich mit dem BDB-Index korrigiert, der die Inflation der Baukosten darstellt. Der Durchschnitt der Preisentwicklung der letzten 18 Jahre stellt den anpassbaren Standardwert dar. Die Recyclingkosten sind für jedes Material unabhängig und werden auf der Grundlage von Recherchen und Interviews berechnet. Für die Transportkosten wird ein 150 km langer Transport für die Logistikkosten angenommen. Für zwei Materialgruppen liegt ein unterschiedlicher Wert für diese Kosten vor, nämlich Stein (20 km) und Holz (40 km).
 
-## References
+## REFERENZEN
 * Brand, S. (1994). How Buildings Learn
 * LME (London Metal Exchange)
 * Quandl
@@ -25,5 +25,5 @@ After this, the material values are corrected with demolition costs, recycling c
 * RVO
 * BLS Beta Labs
 
-## What is the influence of inflation, the BDB index and the discount rate on the calculation?
-The influence is easily checkable in the sensitivity analysis on the detail pages. Values can be adapted. As a default value, the average inflation and average BDB index of the past 18 years is given. The Discount rate is built up consisting 0,7% of the euribor, 2% is representing the risk and 0,3% represents the premium for the financer. 
+## WIE WIRKT SICH DIE INFLATION, DER BDB-INDEX UND DER DISKONTSATZ AUF DIE BERECHNUNG AUS?
+Der Einfluss ist in der Sensitivitätsanalyse auf den Detailseiten leicht nachprüfbar. Die Werte können angepasst werden. Als Standardwert wird die durchschnittliche Inflation und der durchschnittliche BDB-Index der letzten 18 Jahre angegeben. Der Diskontsatz setzt sich zu 0,7% aus dem Euribor, zu 2% aus dem Risiko und zu 0,3% aus der Prämie für den Finanzierer zusammen.

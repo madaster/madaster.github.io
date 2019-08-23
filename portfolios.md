@@ -24,12 +24,12 @@ Click the name or picture of the portfolio you would like to open. You will now 
 You can only delete a portfolio when it no longer contains any buildings. What if the portfolio still contains buildings? Then, you must first delete all buildings from the portfolio, before you can delete the portfolio itself. See ‘How can I delete a building from a portfolio’ for more information on deleting buildings. Once you have deleted all buildings from the portfolio, you take the following steps:
 
 * Click the name or picture of the portfolio you would like to open’.
-* Scroll down and click 'Customize portfolio'.
-* Scroll down again and click 'Remove portfolio'. Caution: once you have removed a portfolio, you cannot undo the action!
+* Scroll down and click 'Edit portfolio'.
+* Scroll down again and click 'Delete portfolio'. Caution: once you have removed a portfolio, you cannot undo the action!
 
 ## How can I change the name or image of a portfolio?
-* Click the name or picture of the portfolio you would like to open
-* Scroll down and click 'Customize portfolio'.
+* Click the name or picture of the portfolio you would like to open.
+* Scroll down and click 'Edit portfolio'.
 * Enter a new name and/or select a new image.
 * Click ‘Save’.
 
@@ -103,8 +103,8 @@ Every user can add as many buildings to a portfolio as they like. There is no li
 ## How can I delete a building from a portfolio?
 * Click the name or picture of the portfolio you would like to open
 * Click the name of the building you would like to delete. The building details page is opened.
-* Scroll down and click 'Customize building'.
-* Scroll down again, and click ‘Remove building’. Now, a warning appears to make you aware of the fact that, with this action, you will also delete all files and data relating to this building from the Madaster Platform.
+* Scroll down and click 'Edit building'.
+* Scroll down again, and click ‘Delete building’. Now, a warning appears to make you aware of the fact that, with this action, you will also delete all files and data relating to this building from the Madaster Platform.
 Click ‘Save’ if you are sure about this. The building is now removed.
 Caution: you cannot undo this action.
 

@@ -8,82 +8,62 @@ permalink: /dossier-de
 lang: de
 ---
 
-## What information is shown here?
-This tab contains the files uploaded for the specific building or portfolio. Here, you can add new files and change the status of files. There are three different file types. Source files are IFC/Excel files (only available on Building level) that are used for the calculating results for the building. General documents contain all other files such as management and working documents,product documentation and certificates. Materials passports, representing a snapshot of the applied materials and products in the building at any given moment, are also stored in the ‘Dossier’.
+## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
+Diese Registerkarte enthält die Dateien, die für das jeweilige Gebäude oder Portfolio hochgeladen wurden. Hier können Sie neue Dateien hinzufügen und den Status von Dateien ändern. Es gibt drei verschiedene Dateitypen. Quelldateien sind IFC/Excel-Dateien (nur auf Gebäudeebene verfügbar), die für die Berechnung der Ergebnisse für das Gebäude verwendet werden. Allgemeine Dokumente enthalten alle anderen Dateien wie Verwaltungs- und Arbeitsunterlagen, Produktdokumentationen und Zertifikate. Materialpässe, die eine Momentaufnahme der verwendeten Materialien und Produkte im Gebäude zu einem bestimmten Zeitpunkt darstellen, werden ebenfalls im "Dossier" gespeichert.
 
-## How can I upload a new file?
-Click the ‘Add file’ button. A new screen is opened.
-Select the file type you would like to upload. (for multiple upload you can hold Control and select more files) You can choose a source file (IFC or Excel) (only available on Building level), building information, or a management or working document. See the corresponding manual for more information.
+## WIE KANN ICH EINE NEUE DATEI HOCHLADEN?
+Klicken Sie auf die Schaltfläche "Datei hinzufügen". Ein neuer Bildschirm wird geöffnet. Wählen Sie den Dateityp aus, den Sie hochladen möchten. Sie können eine Quelldatei (IFC oder Excel) (nur auf Gebäudeebene verfügbar), Gebäudeinformationen oder ein Verwaltungs- oder Arbeitsdokument auswählen. Weitere Informationen finden Sie im entsprechenden Handbuch.
 
-**Uploading a source file:** This can be either an IFC or Excel file. When you click ‘Upload’, the file is uploaded to the Madaster Platform. As soon as the data has been processed, click ‘Close’.  You should now see the results: the four circles indicate the degree of completion of the data. You can see the percentage of elements that has a NL-Sfb coding, also the percentage of elements that has a material attached. Next to that you can see the amount of matched materials and the percentage of base quantities. At the top of this page you can click on the 'Enrich' tab. There, you will find a list of missing elements that must still be linked to materials from the database. See the 'How can I link missing elements?' section for more information.
+**Hochladen einer Quelldatei:** Dies kann entweder eine IFC- oder eine Excel-Datei sein. Wenn Sie auf "Hochladen" klicken, wird die Datei auf die Madaster-Plattform hochgeladen. Sobald die Daten verarbeitet sind, klicken Sie auf "Schließen". Sie sollten nun die Ergebnisse sehen: Die vier Kreise zeigen den Grad der Fertigstellung der Daten an. Sie können den Prozentsatz der Elemente sehen, die eine NL-Sfb-Codierung haben, sowie den Prozentsatz der Elemente, die ein Material angehängt haben. Außerdem sehen Sie die Menge der übereinstimmenden Materialien und den Prozentsatz der Basismengen. Oben auf dieser Seite können Sie auf die Registerkarte "Anreichern" klicken. Dort finden Sie eine Liste der fehlenden Elemente, die noch mit Materialien aus der Datenbank verknüpft sein müssen. Weitere Informationen finden Sie im Abschnitt "Wie kann ich fehlende Elemente verknüpfen".
 
-**General documents:** In addition to source files, you can also upload other relevant files to the Madaster Platform (on building and portfolio level), such as PDF files or images certificates, etc. When you click ‘Upload’, the file is placed in the correct section of the page.
+**Allgemeine Dokumente:** Zusätzlich zu den Quelldateien können Sie auch andere relevante Dateien auf die Madaster-Plattform hochladen (auf Gebäude- und Portfolioebene), z. B. PDF-Dateien oder Bildzertifikate etc. Wenn Sie auf "Hochladen" klicken, wird die Datei im richtigen Abschnitt der Seite platziert.
 
-## How can I link missing elements?
-When you upload a source file (IFC or Excel), the results of the data will be displayed in the 'Results' tab. On this tab you see the completeness of the materials assigned and linked. To link missing elements you take the following steps:
+## WIE KANN ICH FEHLENDE ELEMENTE VERKNÜPFEN?
+Wenn Sie eine Quelldatei (IFC oder Excel) hochladen, werden die Ergebnisse der Daten auf der Registerkarte "Ergebnisse" angezeigt. Auf dieser Registerkarte sehen Sie die Vollständigkeit der zugeordneten und verknüpften Materialien. Um fehlende Elemente zu verknüpfen, gehen Sie wie folgt vor:
 
-Click the ‘Enrich’ tab. This tab contains all elements that are still to be linked.
+Klicken Sie auf die Registerkarte "Anreichern". Diese Registerkarte enthält alle Elemente, die noch nicht verknüpft sind.
 
-In the enrichment overview (accessible via the ‘Dossier’ tab) a tree structure is shown, in which the building layers (categorization of Stewart Brand) are displayed at the main level followed by the number of linked elements and the total number of elements. If the number of linked elements is lower than the total number of elements, this indicates that there are non-linked elements that require manual action from the user. The tree structure has several sub-levels with the element as the lowest level.
+In der Anreicherungsübersicht (zugänglich über die Registerkarte "Dossier") wird eine Baumstruktur dargestellt, in der die Gebäudeschichten (Kategorisierung der Marke Stewart) auf der Hauptebene angezeigt werden, gefolgt von der Anzahl der verknüpften Elemente und der Gesamtzahl der Elemente. Wenn die Anzahl der verknüpften Elemente niedriger ist als die Gesamtzahl der Elemente, bedeutet dies, dass es nicht verknüpfte Elemente gibt, die eine manuelle Aktion des Benutzers erfordern. Die Baumstruktur hat mehrere Unterebenen mit dem Element als unterster Ebene.
 
-Click the ‘Link’ button of the element you would like to link. A new screen appears. In this screen, you are presented with two options:
+Klicken Sie auf die Schaltfläche "Verknüpfungen" des Elements, das Sie verlinken möchten. Ein neuer Bildschirm erscheint. Auf diesem Bildschirm werden Ihnen zwei Optionen angeboten:
 
-1. You can link a missing element to an existing element.
+1. Sie können ein fehlendes Element mit einem bestehenden Element verknüpfen.
 
-Type the name of the element you are looking for. By clicking the magnification glass icon, you can search an existing element in the (Madaster) database.
-Select the required element by clicking on it.
-Click ‘Link’. Now, the missing element is linked to the existing element.
-2. If the existing element is not available in the (Madaster) database, you can create a new product or material.
+Geben Sie den Namen des gesuchten Elements ein. Durch Anklicken des Vergrößerungsglassymbols können Sie ein vorhandenes Element in der (Madaster-)Datenbank suchen. Wählen Sie das gewünschte Element durch Anklicken aus. Klicken Sie auf "Verknüpfen". Nun wird das fehlende Element mit dem bestehenden Element verknüpft.
 
-Click ‘Create new material’ or ‘Create new product’, depending on the element you would like to add.
-Enter the requested data.
-Click 'Create'. 
-Now, the missing element is linked to the new material and the element is displayed in the 'Materials' or 'Products list on this page. This information is now included in your database on the Madaster Platform.  
+2. Wenn das vorhandene Element in der (Madaster-)Datenbank nicht vorhanden ist, können Sie ein neues Produkt oder Material erstellen.
 
-Repeat these steps for each missing element, until all elements are linked to a material or product, and you have reached a maximum degree of completion.
+Klicken Sie auf "Neues Material erstellen" oder "Neues Produkt erstellen", je nachdem, welches Element Sie hinzufügen möchten. Geben Sie die erforderlichen Daten ein. Klicken Sie auf "Erstellen". Nun wird das fehlende Element mit dem neuen Material verknüpft und das Element in der Liste "Materialien" oder "Produkte" auf dieser Seite angezeigt. Diese Informationen sind nun in Ihrer Datenbank auf der Madaster-Plattform enthalten.
 
-## How can I edit an element that has already been mapped?
-Follow these steps after you have opened the page with the results (by using the ‘view status’ button of the source file):
+Wiederholen Sie diese Schritte für jedes fehlende Element, bis alle Elemente mit einem Material oder Produkt verknüpft sind und Sie einen maximalen Fertigstellungsgrad erreicht haben.
 
-Click on the ‘Enrich’ tab.
-Navigate to the mapped element.
-Click the ‘Edit’ button behind the element you want to edit.
-Click on the three dots at the end of the element you wish to edit. Here you have the options to unlink or relink the element.
+## WIE KANN ICH EIN BEREITS ZUGEORDNETES ELEMENT BEARBEITEN?
+Führen Sie diese Schritte aus, nachdem Sie die Seite mit den Ergebnissen geöffnet haben (über die Schaltfläche "Status anzeigen" der Quelldatei):
 
-## How can I edit or activate a source file that has already been uploaded?
-Click the ‘View status’ button for the source file you would like to edit. The results are displayed on the new page that is opened.
-Click the ‘Enrich’ tab. Here, you can edit existing materials or link missing elements. See the ‘How can I link missing elements?’ section for more information.
-Click the ‘Process’ tab to change the status of the file. Click ‘Yes’ or ‘No’. 
-Once these steps are completed you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+Klicken Sie auf die Registerkarte "Anreichern". Navigieren Sie zum zugeordneten Element. Klicken Sie auf die Schaltfläche "Bearbeiten" hinter dem Element, das Sie bearbeiten möchten. Klicken Sie auf die drei Punkte am Ende des Elements, das Sie bearbeiten möchten. Hier haben Sie die Möglichkeit, die Verknüpfung des Elements aufzuheben oder es neu zu verknüpfen.
 
-## How can I change/move/download or delete files that have already been uploaded?
-Click on the three dots next to the file to change/move/download or delete the file.
-**Caution when removing:** you cannot undo this action. If you do not want to use the file for the results of the building, you can change the status to ‘Inactive’, without having to delete the file. See the 'How can change the status from active to inactive?' section for more information.
+## WIE KANN ICH EINE BEREITS HOCHGELADENE QUELLDATEI BEARBEITEN ODER AKTIVIEREN?
+Klicken Sie auf die Schaltfläche "Status anzeigen" für die Quelldatei, die Sie bearbeiten möchten. Die Ergebnisse werden auf der neuen Seite angezeigt, die geöffnet wird. Klicken Sie auf die Registerkarte "Anreichern". Hier können Sie bestehende Materialien bearbeiten oder fehlende Elemente verknüpfen. Weitere Informationen finden Sie im Abschnitt "Wie kann ich fehlende Elemente verknüpfen". Klicken Sie auf die Registerkarte "Prozess", um den Status der Datei zu ändern. Klicken Sie auf "Ja" oder "Nein". Nach Abschluss dieser Schritte können Sie eine Quelldatei auf der Registerkarte Dossier schnell aktivieren oder deaktivieren, indem Sie das Kontrollkästchen "Aktiv" aktivieren oder deaktivieren.
 
-## What does the status ‘Active: Yes / No' mean?
-For each uploaded file you can choose if this file should be active or inactive. An inactive file is not included in the results of the building and the materials passport, an active file is. By default, every file is assigned the Inactive status (shown as unchecked in the column ‘Active’) after the file has been uploaded, since all missing elements must be linked first. After you have validated and linked the data entered, you can change this status to active. From that moment, the file is included in the results for the building in question.  
+## WIE KANN ICH DATEIEN ÄNDERN, VERSCHIEBEN, HERUNTERLADEN ODER LÖSCHEN, DIE BEREITS HOCHGELADEN WURDEN?
+Klicken Sie auf die drei Punkte neben der Datei, um die Datei zu ändern/verschieben/herunterzuladen oder zu löschen. **Achtung beim Entfernen:** Sie können diese Aktion nicht rückgängig machen. Wenn Sie die Datei nicht für die Ergebnisse des Gebäudes verwenden möchten, können Sie den Status auf "Inaktiv" ändern, ohne die Datei löschen zu müssen. Weitere Informationen finden Sie im Abschnitt "Wie kann ich den Status von aktiv auf inaktiv ändern".
 
-## How can I change the status of a file from ‘Inactive’ to ‘Active’?
-Click on the ‘View status’ button of the file you would like to change the status of.
-Click on the ‘Process’ tab. Here, you can indicate if the file must be included in the building data.
-Click ‘Yes’.
-Click ‘Process file’. The file is now active, and the data is included in the results and the materials passport.
-Once these steps are completed, you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+## WAS BEDEUTET DER STATUS "AKTIV: JA / NEIN"?
+Für jede hochgeladene Datei können Sie wählen, ob diese aktiv oder inaktiv sein soll. Eine inaktive Datei ist nicht in den Ergebnissen des Gebäudes und des Materialpasses enthalten, eine aktive Datei ist es. Standardmäßig erhält jede Datei nach dem Hochladen der Datei den Status "Inaktiv" (in der Spalte "Aktiv" als nicht markiert dargestellt), da alle fehlenden Elemente zuerst verknüpft werden müssen. Nachdem Sie die erfassten Daten validiert und verknüpft haben, können Sie diesen Status auf "Aktiv" setzen. Von diesem Zeitpunkt an ist die Datei in den Ergebnissen des betreffenden Gebäudes enthalten. 
 
-## How can I change the status of a file from ‘Active’ to ‘Inactive’?
-Click on the ‘View status’ button for the file you would like to change the status of.
-Click on the ‘Process’ tab. Here, you can indicate if the file is to be included in the building data.
-Click ‘No’.
-Click ‘Process file’. The file is now active, and the data is included in the results and the materials passport.
-Once these steps are completed you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+## WIE KANN ICH DEN STATUS EINER DATEI VON "INAKTIV" AUF "AKTIV" ÄNDERN?
+Klicken Sie auf die Schaltfläche "Status anzeigen"für der Datei, deren Status Sie ändern möchten. Klicken Sie auf die Registerkarte "Prozess". Hier können Sie angeben, ob die Datei in die Gebäudedaten aufgenommen werden muss. Klicken Sie auf "Ja". Klicken Sie auf "Datei verarbeiten". Die Datei ist nun aktiv und die Daten werden in die Ergebnisse und den Materialpass aufgenommen. Nach Abschluss dieser Schritte können Sie eine Quelldatei auf der Registerkarte "Dossier" schnell aktivieren oder deaktivieren, indem Sie das Kontrollkästchen"Aktiv" aktivieren oder deaktivieren.
 
-## Where can I find the Materials Passport (PDF files) I created at an earlier stage?
-The materials passport that you created on the 'General' tab is saved on the 'Dossier' tab. At the bottom of this tab, you find the materials passports that were created at an earlier stage below the heading ‘Passports’. There, you can download the created material passports to your computer by clicking the three dots next to the file. The download will start immediately. When the download is finished, you can open the PDF file. If you do not want to download a materials passport to your computer, but just want to view the passport, click the three dots for more options.
+## WIE KANN ICH DEN STATUS EINER DATEI VON "AKTIV" AUF "INAKTIV" ÄNDERN?
+Klicken Sie auf die Schaltfläche "Status anzeigen" für die Datei, deren Status Sie ändern möchten. Klicken Sie auf die Registerkarte "Prozess". Hier können Sie angeben, ob die Datei in die Gebäudedaten aufgenommen werden soll. Klicken Sie auf "Nein". Klicken Sie auf "Datei verarbeiten". Die Datei ist nun aktiv und die Daten werden in die Ergebnisse und den Materialpass aufgenommen. Nach Abschluss dieser Schritte können Sie eine Quelldatei auf der Registerkarte "Dossier" schnell aktivieren oder deaktivieren, indem Sie das Kontrollkästchen Aktiv' aktivieren oder deaktivieren.
 
-When creating a material passport, an Excel file is also generated and placed in the dossier. This excel file shows the general building data, the totals of all elements and the specific elements in the different layers per tab. In this way, it is possible to analyzes the details of a building by means of filtering etc. by yourself.
+## WO FINDE ICH DEN MATERIALPASS (PDF-DATEIEN), DEN ICH ZU EINEM FRÜHEREN ZEITPUNKT ERSTELLT HABE?
+Der Materialpass, den Sie auf der Registerkarte "Allgemein" erstellt haben, wird auf der Registerkarte "Dossier" gespeichert. Am unteren Rand dieser Registerkarte finden Sie die Materialpässe, die zu einem früheren Zeitpunkt erstellt wurden, unter der Überschrift "Pässe". Dort können Sie die erstellten Materialpässe auf Ihren Computer herunterladen,indem Sie auf die drei Punkte neben der Datei klicken. Der Download wird sofort gestartet. Wenn der Download abgeschlossen ist, können Sie die PDF-Datei öffnen. Wenn Sie keinen Materialpass auf Ihren Computer herunterladen möchten, sondern nur den Pass ansehen möchten, klicken Sie auf die drei Punkte für weitere Optionen.
 
-## How can I search using a filter or tags?
-By entering a keyword in the search bar at the left top you can filter the results. You can also filter by clicking on one or more tags at the left bottom on the page.
+Bei der Erstellung eines Materialpasses wird auch eine Excel-Datei erzeugt und im Dossier abgelegt. Diese Excel-Datei zeigt die allgemeinen Gebäudedaten, die Summen aller Elemente und die spezifischen Elemente in den verschiedenen Ebenen pro Registerkarte. Auf diese Weise ist es möglich, die Details eines Gebäudes durch Filterung etc. selbst zu analysieren.
 
-## How do I change the folder Personal files and add subfolders?
-You can change the structure of the Personal Files folder by clicking on the three dots next to the folder. You will be directed to the Administration tab. Here you can add/rename/move or delete folders. Files in a folder that you want to delete will be placed one level higher of the folder that will be removed.
+## WIE KANN ICH MIT EINEM FILTER ODER TAGS SUCHEN?
+Durch die Eingabe eines Stichworts in der Suchleiste links oben können Sie die Ergebnisse filtern. Sie können auch filtern, indem Sie auf ein oder mehrere Tags links unten auf der Seite klicken.
+
+## WIE KANN ICH DEN ORDNER "PERSÖNLICHE DATEIEN" ÄNDERN UND UNTERORDNER HINZUFÜGEN?
+Sie können die Struktur des Ordners "Persönliche Dateien" ändern, indem Sie auf die drei Punkte neben dem Ordner klicken. Sie werden auf die Registerkarte "Administration" weitergeleitet. Hier können Sie Ordner hinzufügen/umbenennen/verschieben oder löschen. Dateien in einem Ordner, den Sie löschen möchten, werden eine Ebene höher platziert als der Ordner, der entfernt wird.

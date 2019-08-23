@@ -36,6 +36,7 @@ Typ de naam van het element in waar u naar op zoek bent.
 Selecteer het juiste element door erop te klikken.
 Klik op ‘Koppelen’. Het ontbrekende element is nu gekoppeld aan een bestaand element.
 U kunt ook meerdere elementen uit het bestand tegelijk koppelen aan hetzelfde materiaal of product. Dit kunt u doen door meerdere elementen in de tabel te selecteren (Het bolletje voor het element kleurt blauw als deze is geselecteerd). Als u de elementen hebt geselecteerd kunt u bovenin de balk op de knop 'Selectie (her)koppelen' klikken en in het scherm dat hierna verschijnt een materiaal of product selecteren.
+
 2. Indien het ontbrekende element nog niet voorkomt in de (Madaster-) database, kunt u een nieuw product of nieuw materiaal aanmaken.
 
 Klik op Creëer nieuw ‘Materiaal’ of ‘Product’, afhankelijk van hetgeen u wilt toevoegen.

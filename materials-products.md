@@ -9,26 +9,29 @@ lang: en
 ---
 
 ## What information is shown here?
-On this page, you find all products available in the Madaster database, as well as the products you have entered yourself on the platform (in the process ‘Enrich’ in a source file). In the first column ('Customer') you can see which database the product is registered in. If the product is in the Madaster database, the text 'Madaster' is displayed in the 'Customer' column. If the name of the account administrator is displayed in this column, the product has been added either by you, or by another user operating within your account. All users from your account can view this data. Users outside your account cannot. If you would like to display an overview of the products added from within your account, you can use the filter icon.
+On this page you will find all materials and products that are known in the Madaster database, other publicly available databases and all products that you have entered yourself on the platform (through the process; enrichment of a source file). Under the filter 'Source' on the left side you will find a list of the available databases with materials and products to which you have access. All materials and products from the Madaster database can be found by selecting 'Madaster' in the filter. Your own materials and products can be found by filtering on the name of your own account. Other users outside your account cannot see the materials you have added, they can only see what they have added themselves. If you want an overview of materials and products that have been added within your account, you can use the filter icon to make a selection of the desired data. The Madaster database is visible to every user. This data can not be changed. Materials and products that have been added can be edited, but this depends on the rights of the user.
 
-The Madaster database can be viewed by every user. You cannot modify this data. Depending on user rights, materials and products that have been added by the users themselves, can be modified.
+If you only want to see materials in the overview, you can open the filter 'product type'. When you then select 'Material' below, you will only see the materials that are known within the Madaster platform. Within Madaster, we have four types of products in addition to materials: Volume, Area, Length and Pieces of products. If you do not know exactly what type of product you are looking for, you can select all 4 types, in which case all products will be shown.
 
-## How can I change product data?
-Click the ‘Edit product’ button for the product you would like to change.
-Modify the data you would like to change. Caution: there are four tabs with data you can modify. On the ‘Materials’ tab, you can also add materials to the product directly if the product is not yet complete. The new materials you enter on this tab, will be displayed in the materials overview.
-Click the ‘Save product’ button on the tab. Once you finished modifying the product you return to the products overview.
+## HOW DO I ADD A NEW MATERIAL?
+There are two ways to add a new material:
+1. Under the tab 'Materials & Products' on the administration page, in the bar under the name of the tab, there is the button 'Add material'.
 
-## How can I add a new product?
-Adding a new product is possible as an Account owner. You can do this via the 'Administration' tab. In addition, it is possible to add a new product from the 'Enrich' tab of a source file (this can be found under the 'view details' button behind a source file).
+2. It is also possible to add a new material from the enrichment point of view. You can access this screen by clicking on the 'View details' button behind a source file. Then you can go to the second tab 'Enrich'. Here you can see an overview of all elements from your source file. If the element is not yet linked, you can click on the 'link' icon. A screen will appear with a heading 'Create new' and click on the button 'Material' below it. If the element is already connected, you can click on the three dots at the end of the line and then on 'Re-connect'. The same screen as described above will appear.
 
-When adding a new product, in the ’Account’ field you select for which account you want to add the new material or product. (If you are invited as an Admin to another account, new products can also be added).
+Both options will bring you to the screen to add a new material. Fill in all information about the material where fields marked with a * are mandatory fields. It is possible to enter the name and description in six languages. It is only mandatory to enter the name in the language selected within the platform. If no name and/or description has been entered in the other languages, the name and/or description will be copied to the other languages. Once you have entered all the information at the bottom of the page, press the 'Save' button. The material is currently being created in the database and can now be found in the materials and products overview.
 
-In the 'Product type' field, select whether the product is a volume or a quantity product.
+This will take you to the screen to further specify the data of the material you have just added. By going through the various tabs, you can enter additional data, for example in the field of search criteria and financial information.
 
-In the 'Product Name' field, enter the name of the product (multi-lingual: Dutch/English).
+## HOW DO I ADD A NEW PRODUCT?
+There are two ways to add a new product:
+1.  Under the tab 'Materials & Products' on the administration page, in the bar under the name of the tab, there is the button 'Add product'.
 
-In the description you can enter more information about the product (multi-lingual: Dutch/English).
+2.  It is also possible to add a new product from the enrichment point of view. You can access this screen by clicking on the 'View details' button behind a source file. Then you can go to the second tab 'Enrich'. Here you can see an overview of all elements from your source file. If the element is not yet linked, you can click on the 'link' icon. A screen will appear with a heading 'Create new' and click on the button 'Product' below it. If the element is already linked, you can click on the three dots at the end of the line and then on 'Reconnect'. The same screen as described above will appear.
 
-When you click on the 'Add product' button, the product is created in the database and can be found in the 'products' tab under 'Administration'. Here you can further specify the newly added product.
+Both options will take you to the screen to add a new product. Then fill in all information about the product where fields marked with a * are mandatory fields. It is possible to enter the name and description in six languages. It is only mandatory to enter the name in the language selected within the platform. If no name and/or description has been entered in the other languages, the name and/or description will be copied to the other languages. In the field 'Product type' you indicate whether it is a volume, surface, length or a piece of product (where a volume product can for example be a concrete beam and a piece of product an air conditioner). **Please note** that the product type field cannot be changed once the product has been stored. Once you have entered all the information at the bottom of the page, press the 'Save' button. The product is currently being created in the database and can now be found in the materials and products overview.
 
-By clicking Edit product' next to the newly created product and cycling thru the different tabs you can enter additional information, for example for product information, circularity, product composition and search criteria.
+This will take you to the screen to further specify the details of the product you have just added. By going through the various tabs, you can enter additional data, for example in the field of search criteria, product composition and financial information.
+
+## HOW DO I CHANGE MATERIAL AND/OR PRODUCT DATA?
+If you have rights to edit materials and products, you can see a 'nut' icon at the end of the line. Clicking this icon will take you to the screen to edit the data. Change the data you want to change. For example, you can change the name of the material/product or the supplier. What cannot be changed with a product is the type of product. Click on the 'Save' button to edit the data and return to the overview.

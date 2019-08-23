@@ -66,7 +66,7 @@
     - name:
         en: Circularity - Detail level
         nl: Circulariteit - Detail niveau
-        de: Zirkularität - Detail
+        de: Zirkularität - Detailebene
       link:
         en: /circularity-learn-more
         nl: /circularity-learn-more-nl
@@ -90,7 +90,7 @@
     - name:
         en: Financial - Building layers
         nl: Financieel - Gebouwlagen
-        de: Finanzen - Gebäudeschicht
+        de: Finanzen - Gebäudeschichten
       link:
         en: /financial-buildinglayers
         nl: /financial-buildinglayers-nl

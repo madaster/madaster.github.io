@@ -22,7 +22,7 @@ There are numerous external sources with detailed information on products and ma
 
 In the future, more and more databases will be linked to Madaster making all recorded data (new, as well as older data) available in one central location: the Madaster Platform.
 
-If you click on the logo of an external source, the website of the database in question is opened in a new window. Are you interested in linking your database to Madaster? Then, contact Madaster.
+If you click on the logo of an external source, the website of the database in question is opened in a new window. Are you interested in linking your database to Madaster? Then,contact Madaster.
 
 ## Current status
 The information shown by the Circularity Indicator is based on the active source files that have been uploaded for this building. The table indicates the value of the circularity score, and is vertically subdivided into three circularity phases, with the circularity score at the top. In addition to the vertical subdivision, there is a horizontal subdivision into the six different building layers.
