@@ -36,6 +36,7 @@ Der Zirkularitätsprozess auf der Madaster-Plattform befindet sich noch in der E
 
 * **Ziel:** 100% der Materialien werden wiederverwendet
 * **Aktuelle Berechnung:** Dynamische Werte für Recycling/Wiederverwendungsanteile auf Produkt- und Materialebene. Neben der Madaster-Datenbank (Daten zu Materialkategorien und dort mit Berechnungen zu Produkten) besteht die Möglichkeit, die eingegebenen Daten manuell zu verwalten und anhand von Praxiswissen auszuwerten.
+
 **Entwicklung**
 * Schritt 1: Verknüpfung externer Quellen für Recycling- und Wiederverwendungsprozentsätze.
 * Schritt 2: Entwicklung eines zirkulären BIM-Informationsbereitstellungshandbuch, das angibt, wie die Informationen in die Quelldatei aufgenommen werden.
@@ -45,6 +46,7 @@ Der Zirkularitätsprozess auf der Madaster-Plattform befindet sich noch in der E
 
 * **Ziel:** Maximierung der Funktionsdauer und Nutzungsdauer für zirkuläre Produkte.
 * **Aktuelle Berechnung:** Der Ausgangspunkt für die aktuelle branchendurchschnittliche Lebensdauer sind die Schichten der Marke (Standort (500 Jahre), Struktur (100 Jahre), Hülle (20 Jahre), Installationen (15 Jahre), Raumplan (10 Jahre) und Material (5 Jahre)). Für die aktuelle durchschnittliche Lebensdauer ist der Ausgangspunkt die Lebensdauer, die vom Benutzer auf Gebäudeebene eingetragen wurde. Diese kann auf Produktebene angepasst werden (Möglichkeit).
+
 **Entwicklung**
 * Schritt 1: Detaillierte Informationen über die funktionale, technische, wirtschaftliche und architektonische Lebensdauer in Bezug auf die Verwendung und den Verbrauch von Materialien, Produkten und Gebäuden.
 * Schritt 2: Überwachung der Lebensdauer von Produkten und Materialien für einzelne Gebäude im Zeitverlauf.
@@ -53,6 +55,7 @@ Der Zirkularitätsprozess auf der Madaster-Plattform befindet sich noch in der E
 
 * **Ziel:** 100% (hoch- oder minderwertige) Wiederverwendung der herausgenommenen Materialien und Produkte.
 * **Aktuelle Berechnung:** Dynamische Werte für Recycling-/Wiederverwendungsprozentsätze auf Produkt- und Materialebene. Neben der Madaster-Datenbank (erfasste Daten zu Materialkategorien und Weitergabe in Produkten) ist es möglich, Werte auf Basis von Praxiswissen manuell anzureichern. Auch die durch den Recyclingprozess anfallenden Abfälle werden in die Berechnung einbezogen.
+
 **Entwicklung**
 * Schritt 1: Verknüpfung externer Quellen für Recycling- und Wiederverwendungsprozentsätze und Werte für die Recyclingeffizienz.
 * Schritt 2: Entwicklung eines zirkulären BIM-Informationsbereitstellungshandbuchs, das angibt, wie die Informationen in die Quelldatei aufgenommen werden.
