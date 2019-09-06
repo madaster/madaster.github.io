@@ -16,7 +16,6 @@ On this page you will find additional information about the use and development 
 ### General manuals
 
  * Open the <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide.pdf">Madaster Quick Start Guide</a> – this briefly describes the necessary steps from registration to the creation of a materials passport in Madaster.
- * Open the <a href="https://docs.madaster.com/files/Madaster_Platform_Algemeen_november_2018.pdf">Madaster User manual</a> – this describes in detail the functionalities of the Madaster platform and how to apply them.
  * Download the <a href="https://docs.madaster.com/files/Madaster%20Materiaal%20Lijst%202019%20NL%20UK.xlsx">Madaster Material List 2019 EN UK</a> - it displays the materials in Dutch and English that are standard in the Madaster database.
 
 ### BIM-specific manuals & templates
