@@ -24,7 +24,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * Lesen Sie die <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Laden Sie die <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
- * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a>.  
+ * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
 
 ### Nachschlagewerke
 
