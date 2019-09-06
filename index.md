@@ -26,7 +26,7 @@ On this page you will find additional information about the use and development 
  * Read the <a href="https://docs.madaster.com/files/Madaster - IFC import proces - ENG.pdf">Madaster IFC Import process</a> - this describes the processing of IFC files within the Madaster platform concerning geometric properties, classification coding, construction phasing and material use.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> solution(free IFC-viewer) and corresponding Quick Start Guide.
- * Interesting general information about BIM is available through the <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a>.  
+ * Interesting general information about BIM is available through the <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
 
 ### Reference works
 
