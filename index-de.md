@@ -16,11 +16,10 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ### Allgemeine Handbücher
 
  * Öffnen Sie den <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide.pdf">Madaster Quick Start Guide</a> - dieser beschreibt kurz die notwendigen Schritte von der Registrierung bis zur Erstellung eines Materialpasses in Madaster.
- * Öffnen Sie das <a href="https://docs.madaster.com/files/Madaster_Platform_Algemeen_november_2018.pdf">Madaster Benutzerhandbuch</a> - dieses beschreibt ausführlich die Funktionalitäten der Madaster-Plattform und deren Anwendung.
 
 ### BIM-spezifische Handbücher & Vorlagen
 
- * Öffnen Sie das <a href="https://docs.madaster.com/files/Handleiding_-_IFC_export_Archicad_en_Revit.pdf">Madaster Manual IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
+ * Öffnen Sie das <a href="https://docs.madaster.com/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf">Madaster Manual IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl">Download</a> die Madaster IFC-Exportvorlage für Archicad - dies beinhaltet die optimalen Exporteinstellungen für eine IFC-Datei auf die Madaster-Plattform.
  * Lesen Sie die <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
