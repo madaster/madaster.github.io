@@ -15,17 +15,17 @@ On this page you will find additional information about the use and development 
 
 ### General manuals
 
- * Open the <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide.pdf">Madaster Quick Start Guide</a> – this briefly describes the necessary steps from registration to the creation of a materials passport in Madaster.
+ * Open the <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide.pdf" target="_blank">Madaster Quick Start Guide</a> – this briefly describes the necessary steps from registration to the creation of a materials passport in Madaster.
  * Download the <a href="https://docs.madaster.com/files/Madaster%20Materiaal%20Lijst%202019%20NL%20UK.xlsx">Madaster Material List 2019 EN UK</a> - it displays the materials in Dutch and English that are standard in the Madaster database.
 
 ### BIM-specific manuals & templates
 
- * Open the <a href="https://docs.madaster.com/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf">Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
+ * Open the <a href="https://docs.madaster.com/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf" target="_blank">Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit
  * <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl">Download</a> the Madaster IFC export template for Archicad - this includes the most optimal export settings for a IFC file to the Madaster platform.
- * Read the <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf">Madaster BIM-guidelines</a> – this briefly describes the most important instructions for the preparation of a BIM model.
- * Read the <a href="https://docs.madaster.com/files/Madaster - IFC import proces - ENG.pdf">Madaster IFC Import process</a> - this describes the processing of IFC files within the Madaster platform concerning geometric properties, classification coding, construction phasing and material use.
- * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
- * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> solution(free IFC-viewer) and corresponding Quick Start Guide.
+ * Read the <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf" target="_blank">Madaster BIM-guidelines</a> – this briefly describes the most important instructions for the preparation of a BIM model.
+ * Read the <a href="https://docs.madaster.com/files/Madaster - IFC import proces - ENG.pdf" target="_blank">Madaster IFC Import process</a> - this describes the processing of IFC files within the Madaster platform concerning geometric properties, classification coding, construction phasing and material use.
+ * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
+ * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> solution(free IFC-viewer) and corresponding Quick Start Guide.
  * Interesting general information about BIM is available through the <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
 
 ### Reference works
