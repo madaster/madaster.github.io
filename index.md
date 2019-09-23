@@ -30,7 +30,7 @@ On this page you will find additional information about the use and development 
 
 ### Reference works
 
- * Read the <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1" target="_blank">Madaster Circulariteit Indicator</a> explaned document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ * Read the <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator</a> explaned document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
 ---
 

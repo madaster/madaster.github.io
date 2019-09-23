@@ -22,13 +22,14 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * Öffnen Sie das <a href="https://docs.madaster.com/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf">Madaster Manual IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl">Download</a> die Madaster IFC-Exportvorlage für Archicad - dies beinhaltet die optimalen Exporteinstellungen für eine IFC-Datei auf die Madaster-Plattform.
  * Lesen Sie die <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_guidelines.pdf">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
+ * Lesen Sie den <a href="https://docs.madaster.com/files/Madaster - IFC import proces - ENG.pdf">Madaster-IFC-Importprozess</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
  * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Laden Sie die <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
 
 ### Nachschlagewerke
 
- * Lesen Sie das <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1" target="_blank">Madaster Circulariteit Indicator</a> erläuterndes Dokument - dies beschreibt ausführlich die Funktionsweise des Madaster Circularity Indicator (MCI) sowie die zugrunde liegende Methodik.
+ * Lesen Sie das <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator</a> erläuterndes Dokument - dies beschreibt ausführlich die Funktionsweise des Madaster Circularity Indicator (MCI) sowie die zugrunde liegende Methodik.
  
 ---
 
@@ -41,6 +42,7 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [085-0657436](tel:+31850
 
 Weitere Informationen zu den Releases finden Sie hier:
 
+* <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.8_en.pdf" target="_blank">Release Notes 29. August 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.3_en.pdf" target="_blank">Release Notes 1. April 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.2_en.pdf" target="_blank">Release Notes 12. Februar 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.1_en.pdf" target="_blank">Release Notes 21. Januar 2019</a>

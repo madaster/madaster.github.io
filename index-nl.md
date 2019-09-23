@@ -35,8 +35,8 @@ te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
 
 ### Naslagwerken
 
-* Lees de <a href="https://docs.madaster.com/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
-* Lees de <a href="https://docs.madaster.com/files/20180802_Toelichting_financiele_tab_V1.0_nl" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
+* Lees de <a href="https://docs.madaster.com/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
+* Lees de <a href="https://docs.madaster.com/files/20180802_Toelichting_financiele_tab_V1.0_nl.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
  
 ---
 
