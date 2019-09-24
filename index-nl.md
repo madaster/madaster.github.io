@@ -17,7 +17,6 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
  * Open de <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide_nl.pdf" target="_blank">Madaster Quick Start Guide</a> – deze beschrijft kort de noodzakelijke stappen van registratie tot het creëren van een materialenpaspoort in Madaster.
  * Open het <a href="https://docs.madaster.com/files/Madaster_Platform_Algemeen_november_2018_nl.pdf" target="_blank">Madaster Platform Algemeen</a> document – dit document beschrijft het waarom van Madaster en de werking van het Madaster platform op algemeen niveau.
-
  * Open de <a href="https://docs.madaster.com/files/Madaster_Gebruikershandleiding_V4.4_november_2018_nl.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
  * Open het <a href="https://docs.madaster.com/files/Madaster - Stappenplan project import.pdf">Madaster - Stappenplan project import</a> document - Dit document geeft een korte toelichting welke stappen genomen moeten worden om succesvol IFC bestanden
 te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
@@ -26,12 +25,12 @@ te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
 
  * Lees de <a href="https://docs.madaster.com/files/Madaster_BIM-IFC_richtlijnen_nl.pdf" target="_blank">Madaster BIM-richtlijnen</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
  * Lees de <a href="https://docs.madaster.com/files/Madaster_-_IFC_import_proces_v2_nl.pdf" target="_blank">Toelichting Madaster IFC import proces</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
-* Open de <a href="https://docs.madaster.com/files/Handleiding_-_IFC_export_Archicad_en_Revit_nl.pdf" target="_blank">Madaster Handleiding IFC-export (Archicad & Revit)</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
+ * Open de <a href="https://docs.madaster.com/files/Handleiding_-_IFC_export_Archicad_en_Revit_nl.pdf" target="_blank">Madaster Handleiding IFC-export (Archicad & Revit)</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
  * Download de <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl" target="_blank">Download</a> de Madaster IFC export template voor Archicad - deze bevat de optimale exportsettings voor een IFC-bestand naar het Madaster platform.
- 
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
+ 
  
   * Download de <a href="https://docs.madaster.com/files/Madaster Materiaal Lijst 2019 NL UK.xlsx">Madaster Materiaal Lijst 2019 NL UK</a> – deze geeft de materialen weer in het Nederlands en Engels die in de Madaster database standaard aanwezig zijn.
 
