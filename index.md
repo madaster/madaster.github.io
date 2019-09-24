@@ -26,6 +26,7 @@ On this page you will find additional information about the use and development 
  * Download the <a href="https://docs.madaster.com/files/Archicad_ExportTemplate.tpl">Download</a> the Madaster IFC export template for Archicad - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> – import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> solution(free IFC-viewer) and corresponding Quick Start Guide.
+ 
  * Interesting general information about BIM in the Netherlands is available through the <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
 
 ### Reference works
