@@ -43,7 +43,7 @@ te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg" /> Madaster Servicedesk
-Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-0657436](tel:+31850657436) of het emailadres: <service@madaster.com>.
+Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-0601242](tel:+31850601242) of het emailadres: <service@madaster.com>.
 
 ---
 
