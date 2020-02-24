@@ -32,7 +32,7 @@ te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
  
  
-  * Download de <a href="https://docs.madaster.com/files/Madaster Materiaal Lijst 2019 NL UK.xlsx">Madaster Materiaal Lijst 2019 NL UK</a> – deze geeft de materialen weer in het Nederlands en Engels die in de Madaster database standaard aanwezig zijn.
+  * Download de <a href="https://docs.madaster.com/files/Madaster Materiaal Lijst 2020 NL UK DE.xlsx">Madaster Materiaal Lijst 2020 NL UK DE</a> – deze geeft de materialen weer in het Nederlands en Engels die in de Madaster database standaard aanwezig zijn.
 
 
 ### Naslagwerken
