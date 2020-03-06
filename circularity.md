@@ -33,4 +33,4 @@ The Building Circularity Indicator is adjusted by 2 factors that judge the compl
 
 Would you like more information about the detail screen? Click <a href="https://docs.madaster.com/circularity-learn-more">here</a>.
 
-A <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1">detailed explanation</a> of the Madaster Circularity Indicator is also available.
+A <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detailed explanation</a> of the Madaster Circularity Indicator is also available.
