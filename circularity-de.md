@@ -33,4 +33,4 @@ Der Gebäudezirkularitätsindikator wird um zwei Faktoren angepasst, die die Vol
 
 Wünschen Sie weitere Informationen zum Detailbildschirm? Klicken Sie <a href="https://docs.madaster.com/circularity-learn-more-de">hier</a>.
 
-Eine <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1">detaillierte Erklärung</a> des Madaster-Zirkularitätsindikator ist ebenfalls verfügbar.
+Eine <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detaillierte Erklärung</a> des Madaster-Zirkularitätsindikator ist ebenfalls verfügbar.
