@@ -32,4 +32,4 @@ De Gebouw CI wordt gecorrigeerd met twee factoren die de compleetheid van de in 
 
 Wilt u meer informatie over het detailscherm? Klik dan <a href="https://docs.madaster.com/circularity-learn-more-nl">hier</a>.
 
-Ook is er een <a href="https://docs.madaster.com/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
+Ook is er een <a href="https://docs.madaster.com/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
