@@ -18,8 +18,8 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
  * Open de <a href="https://docs.madaster.com/files/Madaster_Quick_Start_Guide_nl.pdf" target="_blank">Madaster Quick Start Guide</a> – deze beschrijft kort de noodzakelijke stappen van registratie tot het creëren van een materialenpaspoort in Madaster.
  * Open het <a href="https://docs.madaster.com/files/Madaster_Platform_Algemeen_november_2018_nl.pdf" target="_blank">Madaster Platform Algemeen</a> document – dit document beschrijft het waarom van Madaster en de werking van het Madaster platform op algemeen niveau.
  * Open de <a href="https://docs.madaster.com/files/Madaster_Gebruikershandleiding_V4.4_november_2018_nl.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
- * Open het <a href="https://docs.madaster.com/files/Madaster - Stappenplan project import.pdf">Madaster - Stappenplan project import</a> document - Dit document geeft een korte toelichting welke stappen genomen moeten worden om succesvol IFC bestanden
-te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
+ * Open het <a href="https://docs.madaster.com/files/Madaster - Stappenplan project import.pdf">Madaster - Stappenplan project import</a> document - Dit document geeft een korte toelichting welke stappen genomen moeten worden om succesvol IFC bestanden te kunnen gebruiken bij het samenstellen van een Materialenpaspoort in Madaster.
+ * Open de <a href="https://docs.madaster.com/files/Madaster_uitvragen_madaster_materialenpaspoort_maart_2020_nl.pdf">handleiding voor het uitvragen Madaster paspoort</a> document - Dit document geeft een handleiding over hoe een Madaster materialenpaspoort uitgevraagd kan worden in een aanbestedingstekst. Als aanvulling hierop biedt het concrete voorbeeldzinnen die gebruikt kunnen worden in de uitvraag.
 
 ### BIM-specifieke handleidingen & sjablonen
 
