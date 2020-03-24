@@ -51,7 +51,7 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-060
 
 Meer informatie over de releases vindt u hier:
 
-* <a href="https://docs.madaster.com/files/Releasenotes_Release_2020_0102_NL.pdf" target="_blank">Release notes maart 2020</a>
+* <a href="https://docs.madaster.com/files/Releasenotes_Release_2020_0102_NL.pdf" target="_blank">Release notes 19 maart 2020</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.8_nl.pdf" target="_blank">Release notes 29 augustus 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.3_nl.pdf" target="_blank">Release notes 1 april 2019</a>
 * <a href="https://docs.madaster.com/files/Releasenotes_Release_2019.2_nl.pdf" target="_blank">Release notes 12 februari 2019</a>
