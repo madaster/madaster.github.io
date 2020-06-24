@@ -1,10 +1,10 @@
 ---
-title: Dossier
+title: files
 layout: page
 show_sidebar: false
 menubar: faq-nav
-ref: dossier
-permalink: /dossier-nl
+ref: files
+permalink: /files-nl
 lang: nl
 ---
 
@@ -58,8 +58,8 @@ Klik op de drie puntjes achter het element dat u wilt wijzigen. U heeft hier de 
 Klik op de knop ‘Bekijk details’ bij het bestand dat u wilt bewerken.
 Klik op het tabblad ‘Verrijken’. Hier kunt u bestaande materialen bewerken of ontbrekende elementen koppelen. Zie voor uitleg over het koppelen van elementen ‘Hoe koppel ik ontbrekende elementen?’
 Klik op het tabblad ‘Bevestigen’ om de status van het bestand te wijzigen.
-Klik op 'Ja' en vervolgens op de knop ‘Bevestigen’ om het bestand op actief te zetten en mee te nemen in de berekening van de gebouwstatistieken. U komt weer op de dossier-pagina terecht.
-Als de stappen zijn doorlopen kunt u daarna gebruik maken van de kolom ‘actief’ binnen de dossiertab. Hier kunt u het vinkje selecteren of deselecteren om het bestand snel te activeren of deactiveren.
+Klik op 'Ja' en vervolgens op de knop ‘Bevestigen’ om het bestand op actief te zetten en mee te nemen in de berekening van de gebouwstatistieken. U komt weer op de files-pagina terecht.
+Als de stappen zijn doorlopen kunt u daarna gebruik maken van de kolom ‘actief’ binnen de filestab. Hier kunt u het vinkje selecteren of deselecteren om het bestand snel te activeren of deactiveren.
 
 ## Hoe wijzig/verplaats/download of verwijder ik bestanden die al geüpload zijn?
 Klik op de drie puntjes achter het bestand om het bestand te wijzigen/verplaatsen/downloaden of verwijderen.
@@ -75,19 +75,19 @@ Klik op de knop ‘Bekijk details’ van het bestand waarvan u de status wilt wi
 Klik op het tabblad ‘Bevestigen’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
 Klik op ‘Ja’.
 Klik op ‘Bevestigen’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
-Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het dossieroverzicht.
+Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het filesoverzicht.
 
 ## Hoe wijzig ik de status van een bestand van ‘actief’ naar ‘inactief’?
 Klik op de knop ‘Bekijk details’ van het bestand waarvan u de status wilt wijzigen.
 Klik op het tabblad ‘Bevestigen’. Hier kunt u aangeven of het bestand gebruikt moet worden voor de gebouwdata.
 Klik op ‘Nee’.
 Klik op ‘Bevestigen’. Het bestand is nu actief en de data wordt gebruikt voor de resultaten en het materiaalpaspoort.
-Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het dossieroverzicht.
+Als deze stappen eerder zijn doorlopen kunt u gebruik maken van het snel activeren of deactiveren vanuit het filesoverzicht.
 
 ## Waar vind ik de materiaalpaspoorten (pdf-bestanden) die ik eerder heb gecreëerd?
-Het materiaalpaspoort dat u kunt creëren in het tabblad 'Algemeen' wordt in het tabblad 'Dossier' opgeslagen. Onderaan deze pagina vindt u de materiaalpaspoorten die eerder al zijn gecreëerd in de map ‘Paspoorten’. Hier kunt u de gecreëerde materiaalpaspoorten naar uw computer downloaden door middel van de puntjes achter het bestand. De download start direct, waarna u het PDF-bestand kunt openen. U kunt tevens het bestand aanpassen/verplaatsen/bekijken of verwijderen.
+Het materiaalpaspoort dat u kunt creëren in het tabblad 'Algemeen' wordt in het tabblad 'files' opgeslagen. Onderaan deze pagina vindt u de materiaalpaspoorten die eerder al zijn gecreëerd in de map ‘Paspoorten’. Hier kunt u de gecreëerde materiaalpaspoorten naar uw computer downloaden door middel van de puntjes achter het bestand. De download start direct, waarna u het PDF-bestand kunt openen. U kunt tevens het bestand aanpassen/verplaatsen/bekijken of verwijderen.
 
-Bij het aanmaken van een materiaalpaspoort wordt tevens een Excel-bestand gegenereerd en in het dossier geplaatst. In dit excelbestand worden de algemene gebouwgegevens getoond, de totalen van alle elementen en de specifieke elementen in de verschillende layers per tabblad weergegeven. Op deze manier kan men zelf door middel van filtering in de details van een gebouw analyses toepassen.
+Bij het aanmaken van een materiaalpaspoort wordt tevens een Excel-bestand gegenereerd en in het files geplaatst. In dit excelbestand worden de algemene gebouwgegevens getoond, de totalen van alle elementen en de specifieke elementen in de verschillende layers per tabblad weergegeven. Op deze manier kan men zelf door middel van filtering in de details van een gebouw analyses toepassen.
 
 ## Hoe kan ik zoeken op filter of tags?
 U kunt gebruikmaken van de filteroptie door links boven een trefwoord in te vullen. Tevens kunt u links onder één of meerdere tags selecteren om daarop te filteren.

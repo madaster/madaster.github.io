@@ -1,5 +1,5 @@
 ---
-title: Building
+title: Buildings
 layout: page
 show_sidebar: false
 menubar: faq-nav
@@ -9,19 +9,28 @@ lang: en
 ---
 
 ## What information is shown here?
-The information shown in this table is based on the active source files that have been uploaded for this building. The table is horizontally organized into seven materials families and vertically divided into the different layers a building can consist of.
+If you have opened a building, you will be taken to the general information about the building. You will see a display of the building's general information. If you have entered an address, you will see a map with the location. If images of the building have been added, you will see these images.
 
-The first column (‘Totals’) indicates per material family the percentage of applied materials and products for the complete building. In addition, the weight and the volume of each material type is displayed.
+## THE TABS IN THE MAIN SCREEN
+The information about the building is divided into a number of tabs: 'General', 'Dossier', 'Users', 'Building', 'Building process', 'Circularity' 'Financial' and 'Apps'.
 
-The other columns indicate the same for each specific layer of the building.
+- **General**; general information about the building, such as address, cadastral data, function, gross-square-meters.
+- **Dossier**; all files uploaded with this building and the material passports created for this building can be found here. For each tab you can get more information by clicking on the 'information'-icon on the right side of the bar: this will take you directly to the correct explanation.
+- **Building; an overview of all materials and products used per building shell, and classified according to the chosen classification for materials.
+- **Building process**; information about the products and materials used, classified according to the building's construction process. This tab is only available if the building has been given the construction phase ""renovation"" in the General tab.
+- **Circularity**; this tab provides information about the Circularity Indication of the building.
+- **Financial**; this tab provides information regarding the Financial Indication of the building.
+- **Apps**; here information is provided about Madaster Solution partners.
 
-In case there is no classification attached to an element (material or product) in the IFC or Excel source file, the element will be displayed in the column ‘Unknown’. If there is no match between the element and the Madaster database, the material family is unknown. Therefore the element will be visible in the column ‘Unknown’ under the 6 material families.
+## THE BUTTON BAR
+**Modifying the building**: After this you will arrive at a screen where you can edit data such as name, address and cadastral information. Click on 'Save', after which the data will be adjusted.
 
-You can retrieve more detailed information about the materials and products by clicking on the separate circles.
+**Move the building**: You can move the building to another portfolio by clicking on 'move building' in the general tab. You will see a dropdown with available portfolios where the building can be moved to. Note: This may affect the rights of users who have access to this building.
 
-In addition, it is possible to click on each layer of a building, for example ’Structure’ and ‘Services’. Subsequently, a new screen opens where you gain insight into the applied products per building layer. Here you can filter on keyword(s), classification method (left column) or floor.
+**Delete building**: With this button you will see a dialog where you can immediately delete this building. Attention! This will delete the building, and all related data about the building, the source files and the general files, as well as the material passports! There is no ""recovery"" option for this.
 
-**Filter and switch**  
-In this view you can use the filter and ‘view-switch’. You can filter on materials by entering keywords in the filter section. The keywords will affect the results in the circles. To delete the filters you can click on the cross next to them. By clicking on the ‘view-switch’ the material families and the building layers will be switched, which gives you a different view of the same data.
+**Creating material passports**: After uploading source files to the building, you can create a material passport. Files with 'active' status will be included in the Material Passport. This allows you to export all active data to a PDF and Excel file, which you can download to your computer.
 
-When a specific product is selected (in the middle of this screen), you can see more product information on the ‘Material’, ‘Product’ and ‘IFC’ tabs (at the right-hand side of the screen).
+Click on the button **Create Material Passport**. The file you now create will be saved under the tab 'Dossier' at this building, in the folder 'Passports'. You will receive a notification when this process is finished. From that tab you can always download, view or delete the created file again. You will automatically arrive here after you have clicked on 'Create Materials Passport'. Click on the icons behind the file to view/download/delete/change or move the passport.
+
+**Upload file**: This button opens a dialog box where you can directly upload a source file or a general file.

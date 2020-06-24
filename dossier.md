@@ -1,15 +1,15 @@
 ---
-title: Dossier
+title: files
 layout: page
 show_sidebar: false
 menubar: faq-nav
-ref: dossier
-permalink: /dossier
+ref: files
+permalink: /files
 lang: en
 ---
 
 ## What information is shown here?
-This tab contains the files uploaded for the specific building or portfolio. Here, you can add new files and change the status of files. There are three different file types. Source files are IFC/Excel files (only available on Building level) that are used for the calculating results for the building. General documents contain all other files such as management and working documents,product documentation and certificates. Materials passports, representing a snapshot of the applied materials and products in the building at any given moment, are also stored in the ‘Dossier’.
+This tab contains the files uploaded for the specific building or portfolio. Here, you can add new files and change the status of files. There are three different file types. Source files are IFC/Excel files (only available on Building level) that are used for the calculating results for the building. General documents contain all other files such as management and working documents,product documentation and certificates. Materials passports, representing a snapshot of the applied materials and products in the building at any given moment, are also stored in the ‘files’.
 
 ## How can I upload a new file?
 Click the ‘Add file’ button. A new screen is opened.
@@ -24,7 +24,7 @@ When you upload a source file (IFC or Excel), the results of the data will be di
 
 Click the ‘Enrich’ tab. This tab contains all elements that are still to be linked.
 
-In the enrichment overview (accessible via the ‘Dossier’ tab) a tree structure is shown, in which the building layers (categorization of Stewart Brand) are displayed at the main level followed by the number of linked elements and the total number of elements. If the number of linked elements is lower than the total number of elements, this indicates that there are non-linked elements that require manual action from the user. The tree structure has several sub-levels with the element as the lowest level.
+In the enrichment overview (accessible via the ‘files’ tab) a tree structure is shown, in which the building layers (categorization of Stewart Brand) are displayed at the main level followed by the number of linked elements and the total number of elements. If the number of linked elements is lower than the total number of elements, this indicates that there are non-linked elements that require manual action from the user. The tree structure has several sub-levels with the element as the lowest level.
 
 Click the ‘Link’ button of the element you would like to link. A new screen appears. In this screen, you are presented with two options:
 
@@ -55,7 +55,7 @@ Click on the three dots at the end of the element you wish to edit. Here you hav
 Click the ‘View status’ button for the source file you would like to edit. The results are displayed on the new page that is opened.
 Click the ‘Enrich’ tab. Here, you can edit existing materials or link missing elements. See the ‘How can I link missing elements?’ section for more information.
 Click the ‘Process’ tab to change the status of the file. Click ‘Yes’ or ‘No’. 
-Once these steps are completed you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+Once these steps are completed you can quickly activate or deactivate a source file in the files tab by checking or unchecking the box ‘Active’.
 
 ## How can I change/move/download or delete files that have already been uploaded?
 Click on the three dots next to the file to change/move/download or delete the file.
@@ -69,19 +69,19 @@ Click on the ‘View status’ button of the file you would like to change the s
 Click on the ‘Process’ tab. Here, you can indicate if the file must be included in the building data.
 Click ‘Yes’.
 Click ‘Process file’. The file is now active, and the data is included in the results and the materials passport.
-Once these steps are completed, you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+Once these steps are completed, you can quickly activate or deactivate a source file in the files tab by checking or unchecking the box ‘Active’.
 
 ## How can I change the status of a file from ‘Active’ to ‘Inactive’?
 Click on the ‘View status’ button for the file you would like to change the status of.
 Click on the ‘Process’ tab. Here, you can indicate if the file is to be included in the building data.
 Click ‘No’.
 Click ‘Process file’. The file is now active, and the data is included in the results and the materials passport.
-Once these steps are completed you can quickly activate or deactivate a source file in the dossier tab by checking or unchecking the box ‘Active’.
+Once these steps are completed you can quickly activate or deactivate a source file in the files tab by checking or unchecking the box ‘Active’.
 
 ## Where can I find the Materials Passport (PDF files) I created at an earlier stage?
-The materials passport that you created on the 'General' tab is saved on the 'Dossier' tab. At the bottom of this tab, you find the materials passports that were created at an earlier stage below the heading ‘Passports’. There, you can download the created material passports to your computer by clicking the three dots next to the file. The download will start immediately. When the download is finished, you can open the PDF file. If you do not want to download a materials passport to your computer, but just want to view the passport, click the three dots for more options.
+The materials passport that you created on the 'General' tab is saved on the 'files' tab. At the bottom of this tab, you find the materials passports that were created at an earlier stage below the heading ‘Passports’. There, you can download the created material passports to your computer by clicking the three dots next to the file. The download will start immediately. When the download is finished, you can open the PDF file. If you do not want to download a materials passport to your computer, but just want to view the passport, click the three dots for more options.
 
-When creating a material passport, an Excel file is also generated and placed in the dossier. This excel file shows the general building data, the totals of all elements and the specific elements in the different layers per tab. In this way, it is possible to analyzes the details of a building by means of filtering etc. by yourself.
+When creating a material passport, an Excel file is also generated and placed in the files. This excel file shows the general building data, the totals of all elements and the specific elements in the different layers per tab. In this way, it is possible to analyzes the details of a building by means of filtering etc. by yourself.
 
 ## How can I search using a filter or tags?
 By entering a keyword in the search bar at the left top you can filter the results. You can also filter by clicking on one or more tags at the left bottom on the page.

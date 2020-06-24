@@ -8,8 +8,9 @@ permalink: /profile-de
 lang: de
 ---
 
-## WELCHE DATEN KANN ICH ÄNDERN?
-Auf dieser Seite können Sie Ihren Vornamen, Nachnamen und Ihre Telefonnummer ändern. Andere Daten, z. B. Ihr Passwort oder Ihre E-Mail-Adresse, können Sie derzeit nicht ändern. Wenn dies möglich ist, wird dies auf dieser Seite mitgeteilt.
+## EINSTELLUNGEN
+**ÄNDERN DER PROFILINFORMATIONEN**
+Hier können Sie Ihren Vornamen, Nachnamen und Ihre Telefonnummer ändern und Ihr Foto zu Ihrem Profil hinzufügen. Es ist derzeit nicht möglich, andere Daten, wie z.B. Ihr Passwort oder Ihre E-Mail-Adresse, zu ändern. Sobald diese Option verfügbar ist, wird sie auf diesem Bildschirm angezeigt.
 
-## KANN ICH DIE SPRACHE DER PLATTFORM ÄNDERN?
-Ja, das können Sie. Klicken Sie auf "Systemeinstellungen". Hier können Sie zwischen "Niederländisch", "Englisch" und "Deutsch" wählen, was die Sprache der gesamten Plattform ändert. Diese Einstellung können Sie jederzeit wieder ändern.
+**ÄNDERN DER SYSTEMEINSTELLUNGEN**
+Klicken Sie auf die Registerkarte 'Systemeinstellungen'. Dort können Sie die Sprache ändern. Wählen Sie 'Niederländisch', 'Englisch' oder 'Deutsch', woraufhin die Sprache auf der gesamten Plattform angepasst wird. Sie können dies jederzeit ändern, wenn Sie dies wünschen. Darüber hinaus können Sie hier die Anzeige von Datum und Uhrzeit einstellen, die ebenfalls auf der gesamten Plattform angepasst wird.

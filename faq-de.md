@@ -9,12 +9,18 @@ lang: de
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Wenn Sie sich auf der Plattform anmelden, gelangen Sie automatisch zum Startbildschirm. Nach der Registrierung als Benutzer erhalten Sie ein leeres Portfolio, das Sie einrichten können. Hier werden alle Portfolios und Gebäude angezeigt, die dem Konto entweder von Ihnen oder einem anderen Benutzer hinzugefügt wurden. Weitere Informationen finden Sie im Abschnitt Portfolios. Von dieser Übersicht aus können Sie zu einem der von Ihnen hinzugefügten Gebäude gehen oder ein Portfolio öffnen, ein Gebäude aus diesem Portfolio durch Anklicken auswählen oder ein Gebäude hinzufügen, wenn Sie die entsprechende Berechtigung haben.
+Wenn Sie sich auf der Plattform anmelden, gelangen Sie automatisch zum Startbildschirm. Hier zeigt der Hauptbildschirm die zuletzt von Ihnen bearbeiteten oder angesehenen Artikel an. Auf der linken Seite sehen Sie eine aufklappbare Navigationsmenü, die Favoriten, eine Übersicht der Ordner und Gebäude, zu denen Sie Zugang haben, sowie Plattformfunktionen enthält. Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst einen oder mehrere Ordnertypen erstellen, die Sie zur Organisation Ihres Kontos verwenden können. Klicken Sie dazu im Navigationsmenü auf den Namen Ihres Kontos.
 
-## WIE KANN ICH ZUR STARTSEITE ZURÜCKKEHREN, WENN ICH AUF EINER ANDEREN SEITE BIN?
-Sie können jederzeit zur Startseite zurückkehren, indem Sie auf das Madaster-Logo in der linken oberen Ecke der Seite klicken, auf der Sie sich befinden.
+## WAS KANN ICH MIT DER BLAUEN MENÜLEISTE MACHEN?
+Die blaue Menüleiste zeigt eine Reihe von Funktionalitäten:
+
+- Favoriten: ein "Stern"; damit kann jederzeit und überall ein "Favorit" erstellt werden. Diese werden oben im Navigationsmenü angezeigt;
+- Benachrichtigungen: eine "Glocke"; die Mitteilungen werden hier angezeigt;
+- Information: ein "I"; Beschreibung der verfügbaren Funktionen auf der entsprechenden Seite;
+- Einstellungen: "drei Punkte", die Ihnen Zugriff auf Ihr Profil, Ihre Systemeinstellungen und die Möglichkeit zur Abmeldung geben.
 
 ## WIE NAVIGIERE ICH EINFACH UND SCHNELL DURCH DIE PLATTFORM?
-Jede Seite zeigt Ihnen den sogenannten Nachverfolgungspfad. Sie können jederzeit zu einer Seite zurückkehren, die Sie zuvor besucht haben, indem Sie diese Spurennavigation verwenden. Das Beispiel unten zeigt, dass das Gebäude "Empire 2" geöffnet ist. Von diesem Gebäude aus können Sie zum Portfolio zurückkehren, indem Sie auf den Portfolionamen "Erik zijn portfolio" klicken oder Sie können zur Portfolioseite oder zur Startseite zurückkehren. Von jeder Seite aus können Sie einen oder mehrere Schritte zurückgehen, indem Sie auf einen der Punkte in der Spurennavigation klicken.
+Jede Seite zeigt Ihnen den sogenannten Nachverfolgungspfad. Sie können jederzeit zu einer Seite zurückkehren, die Sie zuvor besucht haben, indem Sie diese Spurennavigation verwenden. Sie können jederzeit zur Startseite zurückkehren, indem Sie auf den ersten Punkt "Home" in der Nachverfolgungspfad klicken. Auf jeder Seite gibt es die Möglichkeit, einen 'Favoriten' zu erstellen. Diese 'Favoriten' werden oben im Navigationsmenü angezeigt.
 
-Startseite  >  Portfolios  >  Erik zijn portfolio  >  Empire 
+## WIE NAVIGIERE ICH EINFACH UND SCHNELL DURCH MEINE BROSCHÜREN UND GEBÄUDE?
+Das Navigationsmenü auf der linken Seite des Bildschirms zeigt alle Konten, Ordner und Gebäude an, auf die Sie Zugriff haben. Mit Hilfe der Pfeile können Sie die Ordnerstruktur auf- und zuklappen.

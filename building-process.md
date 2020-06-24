@@ -9,20 +9,22 @@ lang: en
 ---
 
 ## What information is shown here?
-The information shown in this table is based on the active source files that have been uploaded for this building. The table is horizontally organized into seven materials families. In addition to the organization into materials families, there is a vertically subdivision into the different stages of the building process.
+The information shown here is based on the active source files uploaded with this building. The table is divided horizontally into a material classification (Madaster or Table3-NL_SfB). Vertically, a subdivision is made into the different phases of the building process.
 
-For each building stage, the materials are shown in percentages. E.g. in the ‘Demolition’ column, you can see how much stony material will be demolished. This is expressed as a percentage, and by the weight and volume. To do this, the ‘Demolition’ stage must be linked to the materials in the source file to enable the Madaster platform to read this data. This also applies to the ‘New’ stage of the building process.
+For each construction phase, the materials are shown in percentages. For example, you can see how much stony material will be demolished in the 'demolition' column. This is expressed as a percentage and in weight and volume. For this, an element in the source file must have been assigned the phase 'demolition'. This also applies to the phase 'new' in the building process.
 
-If there is no match between the element and the building process stage, the stage is unknown. Therefore the element will be visible in the column ‘Unknown’ under the 5 stages.
+By clicking on a circle, you will get more information. A new screen will open, in which you can see which materials and products have been used. For example, the material type 'brick' can be specified to the materials 'concrete' and 'brick' and to the products 'reinforced pillar' which in turn consists of 'brick'. The volume in which each material occurs can be seen.
 
-By clicking on a circle, you can retrieve more information on the material. A new small screen is opened explaining which materials and products were used. The material type ‘Stone ' can be further specified by the materials ‘Concrete’ and ‘Brick’, and the product ‘Reinforced column’ which, in turn, consists of ‘Brick’. You can also see what the volume is of each material used. 
+It is also possible to click on a phase, for example 'Current' or 'Demolition'. You will then go to a new screen where you will get insight into the applied products of this specific phase. On this page you can filter by keyword and classification method (left column).
 
-In addition, it is possible to click on stage of the building process, for example ’Current’ and ‘Demolition’. Subsequently, a new screen opens where you gain insight into the applied products per building process stage. Here you can filter on keyword(s) and classification method (left column).
 
-## What stages does the building process consist of?
-The building process consists of five stages. It starts with the current stage. This is the present state of the materials in the building. In the demolition stage, it is specified what materials will be demolished, exactly. This results in the ‘casco’ column: this is what remains of the materials after demolition. The new materials that are added during the building process, are displayed in the ‘virgin materials’ column. The ‘casco’ status, merged with the new materials, results in the ‘Final’ column. 
+### WHICH PHASES DOES THE BUILDING PROCESS CONSIST OF?
 
-**Filter**  
-In this view you can use the filter. You can filter on materials or products by entering keywords in the filter section. The keywords will affect the results in the circles. To delete the filters you can click on the cross next to them.
+- Current; the state of affairs at the start of the renovation;
+- Demolition; all materials and products leaving the building;
+- Casco; the state of affairs after demolition (calculation = Current minus Demolition);
+- New; all new (virgin) and reused materials and products added to the building during the renovation;
+- Final; the final result of the renovation (calculation = Casco plus New).
 
-When a specific product is selected (in the middle of this screen), you can see more product information on the ‘Material’, ‘Product’, ‘IFC’ and ‘Circular’ tabs (at the right-hand side of the screen).
+**Filter**
+In this overview a filter can be used. In the filter, materials or products can be entered, and only these materials or products are shown in the table. The search results in the filter can be turned off by clicking on the cross.

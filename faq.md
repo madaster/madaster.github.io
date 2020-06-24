@@ -9,12 +9,19 @@ lang: en
 ---
 
 ## What information is shown here?
-When you log on to the platform, you will automatically go to the home screen. After registering as a user, you will be presented with an empty portfolio that you can set up. All portfolios and buildings that have been added to the account, either by you or another user, are displayed here. See the Portfolios section for more information. From this overview, you can go to one of the buildings you added or you can open a portfolio, choose a building from that portfolio by clicking on it, or add a building if you have the proper authorization.
+When you log in to the platform, you start on the home screen by default. This is where the main screen shows the most recent items you have worked on, or viewed. On the left you will see a foldable 'navigation drawer', which contains favourites, an overview of folders and buildings you have access to, and platform functionalities. When you log in for the first time, you first need to create one or more folder types, which you can use to organize your account. To do so, click on the name of your account in the navigation drawer.
 
-## How can I return to the home page when I am on another page?
-You can always return to the home page by clicking the Madaster logo in the upper left corner of the page you are on.
+### WHAT CAN I DO WITH THE BLUE MENU BAR?
+The blue menu bar shows the number of functionalities:
+- **Favourites** : a "star"; this allows you to create a "favourite" anytime, anywhere. These are shown at the top of the 'navigation drawer';
+- **Notifications** : a "bell"; messages and notifications are shown here;
+- **Information** : an "i-tje"; description of available functions on that page;
+- **Settings** : "three dots"; that give access to your profile, system settings and a logout option.
 
-## How do I navigate easily and quickly through the platform?
-Every page shows you the so-called crumble-path. You can always return to a page you have visited before by using this breadcrumb-navigation. The example down here shows that the building ‘Empire 2’ is opened. From this building, you can return to the portfolio by clicking on the portfolio-name ‘Erik zijn portfolio’, or you can return to the portfolio-page or home-page. From every page, you can go back one or more steps by clicking on one of the items in the breadcrumb-navigation
 
-Home  >  Portfolio's  >  Erik zijn portfolio  >  Empire 2
+### HOW DO I NAVIGATE EASILY AND QUICKLY THROUGH THE PLATFORM?
+On every page in the platform, you will find the so called ""crumb path"" at the top. With this pad you can always go back to a page you have been to before. From every page you can take one or more steps back by clicking on one of the items in this breadcrumb trail. You can always go back to the home page by clicking on the first item ""Home"" in the breadcrumb trail. On every page there is the possibility to create a 'favourite'. These 'favourites' are shown at the top of the 'navigation drawer'.
+
+
+### HOW DO I NAVIGATE EASILY AND QUICKLY THROUGH MY FOLDERS AND BUILDINGS?
+In the 'navigation drawer' on the left side of the screen, all the accounts, folders and buildings you have access to will be visible. By means of the arrows you can unfold or collapse the folder structure.

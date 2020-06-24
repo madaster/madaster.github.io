@@ -8,16 +8,16 @@ lang: en
 
 # Madaster API
 The **Madaster API** endpoint can be used to interact with the Madaster Platform and its resources.
-This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 To access the API resources, you need an authorization token.
 If you do not have one yet, see the chapter about Authorization below.
 This token should be sent as a header with the name 'X-API-Key', which will authenticate the request with the token.
-To find out which requests are available and which responses they might produce, see the [*api-docs*](https://docs.madaster.com/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+To find out which requests are available and which responses they might produce, see the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
 
 This API can be reached at the endpoint: **[https://api.madaster.com/](https://api.madaster.com/)**<br/>
 The interactive Swagger/OpenAPI documentation: **[https://api.madaster.com/swagger](https://api.madaster.com/swagger)**<br/>
-If you prefer a static documentation: **[https://docs.madaster.com/api-docs](https://docs.madaster.com/api-docs)**
+If you prefer a static documentation: **[/api-docs](/api-docs)**
 
 ## Authorization
 To access the resources of this API, you need an API key. This key needs to be attached to the request in the *X-API-Key* header.
@@ -77,7 +77,7 @@ if (response.IsSuccessStatusCode)
 ```
 
 ## Enumerations
-The **Madaster API** uses enumerations throughout the entire range of functions. To find out what they mean, check [**enums**](https://docs.madaster.com/enums).
+The **Madaster API** uses enumerations throughout the entire range of functions. To find out what they mean, check [**enums**](/enums).
 
 ## System data
 Some calls to the API require data that is not bound to any entity. These calls are made to the **System** level: `https://api.madaster.com/api/v2.1/system`.
@@ -167,7 +167,7 @@ Body:
 }
 ```
 
-The type property can be either source (0) or information (1), see [BuildingFileType](https://docs.madaster.com/enums#buildingfiletype).
+The type property can be either source (0) or information (1), see [BuildingFileType](/enums#buildingfiletype).
 
 **Upload**<br/>
 URL: `POST /api/v2.1/buildings/{buildingId}/files/{fileId}/upload`

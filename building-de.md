@@ -8,20 +8,29 @@ permalink: /building-de
 lang: de
 ---
 
-## Welche Informationen werden hier angezeigt?
-Die in dieser Tabelle dargestellten Informationen basieren auf den aktiven Quelldateien, die für dieses Gebäude hochgeladen wurden. Die Tabelle ist horizontal in sieben Materialfamilien gegliedert und vertikal in die verschiedenen Schichten unterteilt, aus denen ein Gebäude bestehen kann.
+## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
+Nach dem Öffnen eines Gebäudes gelangen Sie auf die Detailseite des Gebäudes. Diese Seite enthält allgemeine Informationen. Dort sehen Sie eine Zusammenfassung der eingegebenen Daten. Wenn Sie eine Adresse eingegeben haben, sehen Sie eine Karte mit dem Standort. Wenn Bilder des Gebäudes hinzugefügt wurden, sehen Sie diese Bilder.
 
-Die erste Spalte ("Summen") gibt pro Materialfamilie den Prozentsatz der verwendeten Materialien und Produkte für das gesamte Gebäude an. Zusätzlich werden das Gewicht und das Volumen der einzelnen Materialarten angezeigt.
+## WIE SIND DIE REGISTERKARTEN ORGANISIERT??
+Informationen über das Gebäude sind in mehreren Registerkarten organisiert: "Allgemeines", "Dossier", "Benutzer", "Gebäude", "Bauprozess", "Zirkularität", "Finanziell" und "Apps". 
 
-Die anderen Spalten zeigen das Gleiche für jede einzelne Schicht des Gebäudes an.
+- Allgemeines; allgemeine Informationen über das Gebäude, wie Adresse, Katasterdaten, Funktion, Bruttoquadratmeter.
+- Dossier; alle mit diesem Gebäude hochgeladenen Dateien und die für dieses Gebäude erstellten Materialpässe finden Sie hier. Für jede Registerkarte können Sie weitere Informationen erhalten, indem Sie auf das "Information"-Symbol auf der rechten Seite der Leiste klicken: Dies führt Sie direkt zur richtigen Erklärung.
+- Gebäude; ein Überblick über alle pro Gebäudehülle verwendeten Materialien und Produkte, klassifiziert nach der gewählten Klassifizierung für Materialien.
+- Bauprozess; Informationen über die verwendeten Produkte und Materialien, klassifiziert nach dem Bauprozess des Gebäudes. Diese - - Registerkarte ist nur verfügbar, wenn das Gebäude in der Registerkarte Allgemein die Bauphase "Renovierung" erhalten hat.
+- Zirkularität; diese Registerkarte enthält Informationen über die Rundheitsangabe des Gebäudes.
+- Finanziell; diese Registerkarte enthält Informationen zu den finanziellen Angaben des Gebäudes.
+- Apps; hier finden Sie Informationen über die Partner von Madaster Solution.
 
-Wenn in der IFC- oder Excel-Quelldatei keine Klassifizierung an ein Element (Material oder Produkt) angehängt ist, wird das Element in der Spalte "Unbekannt" angezeigt. Wenn es keine Übereinstimmung zwischen dem Element und der Madaster-Datenbank gibt, ist die Materialfamilie unbekannt. Daher ist das Element in der Spalte "Unbekannt" unter den sechs Materialfamilien sichtbar.
+## DIE WERKZEUGLEISTE
+**Modifizierung des Gebäudes**: Danach gelangen Sie zu einem Bildschirm, auf dem Sie Daten wie Name, Adresse und Katasterinformationen bearbeiten können. Klicken Sie auf 'Speichern', woraufhin die Daten angepasst werden.
 
-Detailliertere Informationen zu den Materialien und Produkten erhalten Sie, indem Sie auf die einzelnen Kreise klicken.
+**Verschieben Sie das Gebäude**: Sie können das Gebäude in ein anderes Portfolio verschieben, indem Sie auf 'Gebäude verschieben' in der Registerkarte 'Allgemein' klicken. Sie sehen eine Dropdown-Liste mit den verfügbaren Portfolios, in die das Gebäude verlegt werden kann. Hinweis: Dies kann sich auf die Rechte der Benutzer auswirken, die Zugang zu diesem Gebäude haben.
 
-Darüber hinaus ist es möglich, auf jede Ebene eines Gebäudes zu klicken, z. B. "Struktur" und "Installationen". Anschließend öffnet sich ein neuer Bildschirm, in dem Sie Einblick in die eingesetzten Produkte pro Bauschicht erhalten. Hier können Sie nach Stichwörtern, Klassifikationsmethode (linke Spalte) oder Stockwerk filtern.
+**Gebäude löschen**: Mit dieser Schaltfläche gelangen Sie zu einem Dialog, in dem Sie dieses Gebäude sofort löschen können. Achtung! Dadurch werden das Gebäude und alle zugehörigen Daten über das Gebäude, die Quelldateien und die allgemeinen Dateien sowie die Materialpässe gelöscht! Dafür gibt es keine "Recovery"-Option.
 
-**Filtern und wechseln**  
-In dieser Ansicht können Sie den Filter und den "Ansichtswechsel" verwenden. Sie können nach Materialien filtern, indem Sie Stichwörter in den Filterbereich eingeben. Die Stichwörter beeinflussen die Ergebnisse in den Kreisen. Um die Filter zu löschen, können Sie auf das Kreuz neben ihnen klicken. Durch Anklicken des "Ansichtswechsels" werden die Materialfamilien und die Gebäudeebenen gewechselt, was eine andere Sicht auf die gleichen Daten ermöglicht.
+**Erstellen von Materialpässen**: Nachdem Sie die Quelldateien in das Gebäude hochgeladen haben, können Sie einen Materialpass erstellen. Dateien mit dem Status "aktiv" werden in den Materialpass aufgenommen. Damit können Sie alle aktiven Daten in eine PDF- und Excel-Datei exportieren, die Sie auf Ihren Computer herunterladen können.
 
-Wenn ein bestimmtes Produkt ausgewählt ist (in der Mitte dieses Bildschirms), sehen Sie weitere Produktinformationen auf den Registerkarten "Material", "Produkt" und "IFC" (auf der rechten Seite des Bildschirms).
+Klicken Sie auf die Schaltfläche **'Materialpass erstellen'**. Die Datei, die Sie jetzt erstellen, wird unter der Registerkarte "Dossier" in diesem Gebäude im Ordner "Pässe" gespeichert. Sie erhalten eine Benachrichtigung, wenn dieser Prozess abgeschlossen ist. Von dieser Registerkarte aus können Sie die erstellte Datei jederzeit wieder herunterladen, anzeigen oder löschen. Sie gelangen automatisch hierher, nachdem Sie auf 'Materialpass erstellen' geklickt haben. Klicken Sie auf die Symbole hinter der Datei, um den Reisepass anzuzeigen/herunterzuladen/zu löschen/ändern oder zu verschieben.
+
+**Datei hochladen**: Diese Knopf öffnet ein Dialogfeld, in dem Sie eine Quelldatei oder eine allgemeine Datei direkt hochladen können.

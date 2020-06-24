@@ -1,5 +1,5 @@
-- label: FAQ
-  items:
+  - label: FAQ
+    items:
     - name:
         en: Home
         nl: Home
@@ -8,88 +8,205 @@
         en: /faq
         nl: /faq-nl
         de: /faq-de
-    - name:
-        en: Portfolios
-        nl: Portfolios
-        de: Portfolios
+    - name: 
+        en: Account-General
+        nl: Account-Algemeen
+        de: Account-Algemein
       link:
-        en: /portfolios
-        nl: /portfolios-nl
-        de: /portfolios-de
+        en: /account
+        nl: /account-nl
+        de: /account-de
+      items:   
+      - name:
+          en: Material & Products
+          nl: Materialen & Producten
+          de: Materialien und Produkte
+        link:
+          en: /account-materials-products
+          nl: /account-materials-products-nl
+          de: /account-materials-products-de
+        items:   
+          - name:
+              en: Material
+              nl: Materiaal
+              de: Materialien
+            link:
+              en: /material
+              nl: /material-nl
+              de: /material-de
+          - name:
+              en: Product
+              nl: Product
+              de: Produkt
+            link:
+              en: /product
+              nl: /product-nl
+              de: /product-de
+      - name:
+          en: Dossier
+          nl: Dossier
+          de: Datei
+        link:
+          en: /account-files
+          nl: /account-files-nl
+          de: /account-files-de
+      - name:
+          en: Foldertypes
+          nl: Type folders
+          de: Ordnertyp
+        link:
+          en: /account-foldertypes
+          nl: /account-foldertypes-nl
+          de: /account-foldertypes-de
+      - name:
+          en: Users
+          nl: Gebruikers
+          de: Benutzer
+        link:
+          en: /account-users
+          nl: /account-users-nl
+          de: /account-users-de
     - name:
-        en: Buildings
-        nl: Gebouwen
-        de: Gebäuden
+        en: Folders - General
+        nl: Folders - Algemeen
+        de: Folders - Algemein
       link:
-        en: /buildings
-        nl: /buildings-nl
-        de: /buildings-de
+        en: /folder
+        nl: /folder-nl
+        de: /folder-de
+      items:   
+        - name:
+            en: Dossier
+            nl: Dossier
+            de: Datei
+          link:
+            en: /folder-files
+            nl: /folder-files-nl
+            de: /folder-files-de
+        - name:
+            en: Users
+            nl: Gebruikers
+            de: Benutzer
+          link:
+            en: /folder-users
+            nl: /folder-users-nl
+            de: /folder-users-de
     - name:
-        en: Building
-        nl: Gebouw
-        de: Gebäude
+        en: Buildings - General
+        nl: Gebouwen - Algemeen
+        de: Gebäuden - Algemein
       link:
         en: /building
         nl: /building-nl
         de: /building-de
-    - name:
-        en: Building Process
-        nl: Bouwproces
-        de: Bauprozess
-      link:
-        en: /building-process
-        nl: /building-process-nl
-        de: /building-process-de
-    - name:
-        en: Circularity
-        nl: Circulariteit
-        de: Zirkularität
-      link:
-        en: /circularity
-        nl: /circularity-nl
-        de: /circularity-de
-      items:        
+      items:   
         - name:
-            en: Circularity - Detail level
-            nl: Circulariteit - Detail niveau
-            de: Zirkularität - Detailebene
+            en: Dossier
+            nl: Dossier
+            de: Datei
           link:
-            en: /circularity-learn-more
-            nl: /circularity-learn-more-nl
-            de: /circularity-learn-more-de
-    - name:
-        en: Financial
-        nl: Financieel
-        de: Finanziell
-      link:
-        en: /financial
-        nl: /financial-nl
-        de: /financial-de
-      items:
+            en: /building-files
+            nl: /building-files-nl
+            de: /building-files-de
+          items:
+            - name:
+                en: Source File
+                nl: Kwaliteit bronbestand
+                de: Quell-Datei
+              link:
+                en: /building-file
+                nl: /building-file-nl
+                de: /building-file-de
+            - name:
+                en: Enrich
+                nl: Verrijken
+                de: Bereichern 
+              link:
+                en: /building-file-enrich
+                nl: /building-file-enrich-nl
+                de: /building-file-enrich-de
+            - name:
+                en: Results
+                nl: Resultaten
+                de: Resultate
+              link:
+                en: /building-file-result
+                nl: /building-file-result-nl
+                de: /building-file-result-de
         - name:
-            en: Financial - Material
-            nl: Financieel - Materiaal
-            de: Finanzen - Material
+            en: Users
+            nl: Gebruikers
+            de: Benutzer
           link:
-            en: /financial-material
-            nl: /financial-material-nl
-            de: /financial-material-de        
+            en: /building-users
+            nl: /building-users-nl
+            de: /building-users-de
         - name:
-            en: Financial - Building layers
-            nl: Financieel - Gebouwlagen
-            de: Finanzen - Gebäudeschichten
+            en: Building
+            nl: Gebouw
+            de: Gebäude
           link:
-            en: /financial-buildinglayers
-            nl: /financial-buildinglayers-nl
-            de: /financial-buildinglayers-de      
-    - name:
-        en: Dossier
-        nl: Dossier
-        de: Datei
-      link:
-        en: /dossier
-        nl: /dossier-nl
-        de: /dossier-de
+            en: /building-level
+            nl: /building-level-nl
+            de: /building-level-de
+        - name:
+            en: Building Process
+            nl: Bouwproces
+            de: Bauprozess
+          link:
+            en: /building-process
+            nl: /building-process-nl
+            de: /building-process-de
+        - name:
+            en: Circularity
+            nl: Circulariteit
+            de: Zirkularität
+          link:
+            en: /building-circularity
+            nl: /building-circularity-nl
+            de: /building-circularity-de
+          items:        
+            - name:
+                en: Circularity - Detail level
+                nl: Circulariteit - Detail niveau
+                de: Zirkularität - Detailebene
+              link:
+                en: /building-circularity-details
+                nl: /building-circularity-details-nl
+                de: /building-circularity-details-de
+        - name:
+            en: Financial
+            nl: Financieel
+            de: Finanziell
+          link:
+            en: /building-financial
+            nl: /building-financial-nl
+            de: /building-financial-de
+          items:
+            - name:
+                en: Financial - Material
+                nl: Financieel - Materiaal
+                de: Finanzen - Material
+              link:
+                en: /building-financial-material
+                nl: /building-financial-material-nl
+                de: /building-financial-material-de        
+            - name:
+                en: Financial - Building layers
+                nl: Financieel - Gebouwlagen
+                de: Finanzen - Gebäudeschichten
+              link:
+                en: /building-financial-buildinglayers
+                nl: /building-financial-buildinglayers-nl
+                de: /building-financial-buildinglayers-de  
+        - name:
+            en: Apps
+            nl: Apps
+            de: Apps
+          link:
+            en: /building-apps
+            nl: /building-apps-nl
+            de: /building-apps-de
     - name:
         en: Administration
         nl: Administratie
@@ -99,18 +216,18 @@
         nl: /administration-nl
         de: /administration-de
     - name:
-        en: Materials and Products
-        nl: Materialen en Producten
-        de: Materialien und Produkte
-      link:
-        en: /materials-products
-        nl: /materials-products-nl
-        de: /materials-products-de    
-    - name:
-        en: Profile
-        nl: Profiel
-        de: Mein Profil
+        en: Settings
+        nl: Instellingen
+        de: Einstellung
       link:
         en: /profile
         nl: /profile-nl
         de: /profile-de
+    - name:
+        en: Support
+        nl: Ondersteuning
+        de: Unterstützung
+      link:
+        en: /support
+        nl: /support-nl
+        de: /support-de

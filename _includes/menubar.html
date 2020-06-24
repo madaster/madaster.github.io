@@ -12,6 +12,13 @@
             <ul>
                 {% for subitem in item.items %}
                 <li><a href="{{ subitem.link[page.lang] | prepend: site.baseurl }}" class="{% if subitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subitem.name[page.lang] }}</a></li>
+                    {% if subitem.items %}
+                    <ul>
+                    {% for subsubitem in subitem.items %}
+                    <li><a href="{{ subsubitem.link[page.lang] | prepend: site.baseurl }}" class="{% if subsubitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subsubitem.name[page.lang] }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
                 {% endfor %}
             </ul>
             {% endif %}

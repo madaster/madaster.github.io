@@ -1,5 +1,5 @@
 ---
-title: Gebouw
+title: Gebouwen
 layout: page
 show_sidebar: false
 menubar: faq-nav
@@ -9,19 +9,33 @@ lang: nl
 ---
 
 ## Welke informatie wordt hier getoond?
-De informatie die in deze tabel wordt getoond is gebaseerd op de actieve bronbestanden die bij dit gebouw zijn geüpload. De tabel is horizontaal onderverdeeld in zeven materiaalfamilies. Naast de onderverdeling in materiaalfamilies, wordt er verticaal een onderverdeling gemaakt in de verschillenden schillen van het gebouw.
+Als u een gebouw heeft geopend, komt u terecht bij de algemene informatie over het gebouw. U ziet een weergave van de algmene gegevens van het gebouw. Als u een adres heeft ingevoerd, ziet u een kaart met de locatie. Indien afbeeldingen van het gebouw zijn toegevoegd, dan ziet u deze beelden.
 
-De eerste kolom ‘Totalen’ geeft per materiaalsoort het percentage weer dat voor dit gebouw gebruikt is. Naast dit percentage zijn ook het gewicht en het volume per materiaalsoort zichtbaar.
+## De tabs in het hoofdscherm
+De informatie over het gebouw is opgedeeld in een aantal tabbladen: 'Algemeen', 'Dossier', 'Gebruikers', 'Gebouw', Bouwproces', 'Circulariteit' 'Financieel' en 'Apps'. 
 
-De overige kolommen geven per schil van het gebouw weer welk materiaal er gebruikt is. Naast dit percentage zijn ook het gewicht en het volume per materiaalsoort zichtbaar.
+- **Algemeen**; algemene informatie weer over het gebouw, zoals adres, kadastrale gegevens, functie, bruto-vierkante-meters.
+- **Dossier**;  alle bestanden zijn hier te vinden die bij dit gebouw zijn geüpload en de materiaalpaspoorten die voor dit gebouw zijn gecreëerd. Per tabblad kunt u meer informatie verkrijgen door op het 'informatie'-icoon rechts in de balk te klikken: zo komt u direct bij de juiste uitleg terecht.
+- **Gebouw**; een overzicht weer van alle gebruikte materialen en producten per schil van het gebouw, en geclassificeerd naar de gekozen classificatie voor materialen.
+- **Bouwproces**;  informatie over de producten en materialen die gebruikt zijn, onderverdeeld in het bouwproces van het gebouw. Deze tab is alleen maar beschikbaar, als het gebouw de bouwfase "renovatie" heeft meegekregen in de Algemene tab.
+- **Circulariteit**; hier wordt informatie inzichtelijk gemaakt aangaande de Circulariteits Indicatie van het gebouw.
+- **Financieel**; hier wordt informatie inzichtelijk gemaakt aangaande de Financiele Indicatie van het gebouw.
+- **Apps**; hier wordt informatie verstrekt over Madaster Solution partners.
 
-Als er geen classificatie is gekoppeld aan een element (product of materiaal) in het bronbestand komt deze in de kolom ‘Onbekend’. Als er geen match heeft plaatsgevonden tussen het element en de database van materialen en producten is de materiaalfamilie onbekend. Deze elementen komen in de kolom ‘Onbekend’ onder de 6 materiaalfamilies.
 
-U kunt meer informatie verkrijgen over de materialen die gebruikt zijn door op één van de cirkels te klikken. Er opent een nieuw scherm, waarin toegelicht wordt welke materialen en producten gebruikt zijn. De materiaalsoort ‘steen' kan bijvoorbeeld gespecificeerd worden tot de materialen ‘beton’ en ‘baksteen’ en tot de producten ‘gewapende pijler’ wat weer bestaat uit ‘baksteen’. Te zien is in welk volume elk materiaal voorkomt.
+## De knoppen balk
+**Gebouw aanpassen**: Hierna komt u op een scherm terecht waar u gegevens zoals de naam, het adres en de kadastrale informatie kunt aanpassen. Klik op ‘Opslaan’, waarna de gegevens zijn aangepast.
 
-Daarnaast is het mogelijk om op een schil van een gebouw, bijvoorbeeld ‘Constructie’ of ‘Technische installaties’ door te klikken. U gaat vervolgens naar een nieuw scherm waar u inzicht krijgt in de toegepaste producten van deze specifieke gebouwschil. U kunt op deze pagina onder andere filteren op trefwoord, Classificatiemethode (linker kolom) of bouwlaag (verdieping).
+**Gebouw verplaatsen**: 
+U kunt het gebouw verplaatsen naar een ander portfolio door op ‘gebouw verplaatsen’ te klikken in de algemeen tab. U ziet een dropdown met beschikbare portfolio’s waar het gebouw naartoe kan worden verplaatst. Let op: Dit kan invloed hebben op de rechten van gebruikers die toegang hebben tot dit gebouw.
 
-Als een product is geselecteerd, kunt u voor het desbetreffende product aan de rechterkant op de tabbladen ‘Materiaal’, ‘Product’ en ‘IFC’ nog meer productinformatie bekijken.
+**Gebouw verwijderen**: 
+Met deze knop verschijnt een dialoogvenster waarin u direct dit gebouw kan verwijderen. Let op! Dit zorgt ervoor dat het gebouw, en alle daaraan verbonden data over het gebouw, de bronbestanden en de algemene bestanden, als ook de materialenpaspoorten gewist worden! Hier is geen "herstel" mogelijkheid voor.
 
-**Filter en switch**  
-In dit overzicht kan gebruik worden gemaakt van een filter en een ‘view-switch’. In het filter kunnen materialen worden opgevoerd, om vervolgens alleen deze materialen terug te zien in de tabel. De zoekresultaten in het filter kunnen uitgezet worden door op kruisje te klikken. Door de ‘view-switch’ worden de materiaalfamilies horizontaal gepositioneerd en de gebouwschillen verticaal. Hierdoor krijgt u dezelfde gegevens in een ander overzicht te zien.
+**Materialen paspoort aanmaken**: 
+Na het uploaden van bronbestanden bij het gebouw kunt u een materiaalpaspoort aanmaken. Bestanden met ‘actief’ als status worden in het Materiaalpaspoort opgenomen. Hiermee exporteert u alle actieve data naar een PDF- en Excel-bestand, welke u kunt downloaden naar uw computer.
+
+Klik op de knop **Materialenpaspoort aanmaken**. Het bestand dat u nu aanmaakt wordt opgeslagen onder het tabblad 'Dossier' bij dit gebouw, in de map 'Paspoorten'. U krijgt een notificatie als dit proces gereed is. Vanaf dat tabblad kunt u altijd het gecreëerde bestand opnieuw downloaden, bekijken of verwijderen. Hier komt u automatisch terecht nadat u op ‘Materialenpaspoort aanmaakt’ heeft geklikt. Klik op de iconen achter het bestand om het paspoort te bekijken/downloaden/verwijderen/wijzigen of verplaatsen.
+
+**Bestand uploaden**: 
+Met deze knop verschijnt een dialoogvenster waarin u direct een bronbestand of een algemeen bestand kan uploaden.

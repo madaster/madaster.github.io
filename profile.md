@@ -8,8 +8,10 @@ permalink: /profile
 lang: en
 ---
 
-## Which data can I change?
-At this page you can change your first name, last name and telephone-number. Right now, it is not possible to change other data, like your password or e-mailadress. If this becomes possible, it will be communicated on this page. 
+## SETTINGS
 
-## Can I change the language of the platform?
-Yes, you can. Click on ‘System settings’. Here you can choose for ‘Dutch’, ‘English’ or ‘German’, which will change the language of the whole platform. At any time, you can change this setting again.
+### CHANGING THE PROFILE INFORMATION
+Here you can change your first name, last name and phone number and add your photo to your profile. It is currently not possible to change any other data, such as your password or email address. As soon as this option is available, it will be shown on this screen.
+
+### CHANGING THE SYSTEM SETTINGS
+Click on the 'System Settings' tab. There you can change the language. Choose 'Dutch', 'English' or 'German', after which the language will be adjusted on the entire platform. You can change this at any time if you wish. In addition, you can adjust the date and time display here, which will also be adjusted on the entire platform.

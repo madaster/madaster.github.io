@@ -346,11 +346,11 @@
               <div class="doc-copy">
                 <p>Welcome to the
                   <strong>Madaster Private API</strong> endpoint. This endpoint can be used to interact with the Madaster Platform and its resources. This API does not fully cover all functionality of the platform yet, please see below for the available functions and what they can be used for. For detailed information about the platform and this API, please refer to the
-                  <a href="https://docs.madaster.com">Madaster Documentation</a> or the
-                  <a href="https://docs.madaster.com/api">Madaster API Documentation</a>.
+                  <a href="">Madaster Documentation</a> or the
+                  <a href="/api">Madaster API Documentation</a>.
                   <br/>
                   <br/>To access these resources, you need an authorization token. If you do not have one yet, see the chapter about Authorization in the
-                  <a href="https://docs.madaster.com/api">API documentation</a>. This token should be sent as a header with the name &#39;X-API-Key&#39;, which will authenticate the request with the token. The documentation below specifies which requests are available and which responses they might produce.
+                  <a href="/api">API documentation</a>. This token should be sent as a header with the name &#39;X-API-Key&#39;, which will authenticate the request with the token. The documentation below specifies which requests are available and which responses they might produce.
                   <br/>
                   <br/>This API can be reached at the endpoint:
                   <strong>
@@ -362,7 +362,7 @@
                   </strong>
                   <br/>If you prefer a static documentation:
                   <strong>
-                    <a href="https://docs.madaster.com/api-docs">https://docs.madaster.com/api-docs</a>
+                    <a href="/api-docs">/api-docs</a>
                   </strong>
                 </p>
               </div>
@@ -1660,7 +1660,7 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">GET</span>
-                  <span class="operation-path">/api/v2.1/buildings/{id}/financial</span>
+                  <span class="operation-path">/api/v2.1/buildings/{id}/building-financial</span>
                 </section>
               </div>
             </div>
@@ -4808,14 +4808,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">GET</span>
-                  <span class="operation-path">/api/v2.1/materials/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/materials/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>
@@ -4914,14 +4914,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">PUT</span>
-                  <span class="operation-path">/api/v2.1/materials/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/materials/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">PUT api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">PUT api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>
@@ -5053,14 +5053,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">POST</span>
-                  <span class="operation-path">/api/v2.1/materials/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/materials/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">POST api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">POST api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/materials/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>
@@ -8238,14 +8238,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">GET</span>
-                  <span class="operation-path">/api/v2.1/products/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/products/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">GET api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>
@@ -8344,14 +8344,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">PUT</span>
-                  <span class="operation-path">/api/v2.1/products/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/products/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">PUT api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">PUT api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>
@@ -8483,14 +8483,14 @@
               <div class="doc-copy">
                 <section class="swagger-operation-path">
                   <span class="operation-method">POST</span>
-                  <span class="operation-path">/api/v2.1/products/{id}/financialvalues</span>
+                  <span class="operation-path">/api/v2.1/products/{id}/building-financialvalues</span>
                 </section>
               </div>
             </div>
             <div class="doc-row">
               <div class="doc-copy">
                 <section class="swagger-operation-description">
-                  <p>Sample request:</p> <pre><code class="hljs">POST api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/financialvalues</span>
+                  <p>Sample request:</p> <pre><code class="hljs">POST api/[<span class="hljs-keyword">version</span>]<span class="hljs-string">/products/</span>[id]<span class="hljs-string">/building-financialvalues</span>
 </code></pre> </section>
               </div>
             </div>

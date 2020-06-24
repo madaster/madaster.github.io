@@ -12,18 +12,26 @@ index:
   en: index.md
   nl: index-nl.md
   de: index-de.md
-portfolios:
-  en: portfolios.md
-  nl: portfolios-nl.md
-  de: portfolios-de.md
+folder:
+  en: folder.md
+  nl: folder-nl.md
+  de: folder-de.md
+folder-users:
+  en: folder-users.md
+  nl: folder-users-nl.md
+  de: folder-users-de.md
+folders-files:
+  en: folder-files.md
+  nl: folder-files-nl.md
+  de: folder-files-de.md
 buildings:
   en: buildings.md
   nl: buildings-nl.md  
   de: buildings-de.md 
-building:
-  en: building.md
-  nl: building-nl.md  
-  de: building-de.md 
+building-level:
+  en: building-level.md
+  nl: building-level-nl.md  
+  de: building-level-de.md 
 building-process:
   en: building-process.md
   nl: building-process-nl.md  
@@ -32,10 +40,10 @@ circularity:
   en: circularity.md
   nl: circularity-nl.md  
   de: circularity-de.md 
-circularity-learn-more:
-  en: circularity-learn-more.md
-  nl: circularity-learn-more-nl.md
-  de: circularity-learn-more-de.md
+circularity-details:
+  en: circularity-details.md
+  nl: circularity-details-nl.md
+  de: circularity-details-de.md
 financial:
   en: financial.md
   nl: financial-nl.md
@@ -48,10 +56,26 @@ financial-buildinglayers:
   en: financial-buildinglayers.md
   nl: financial-buildinglayers-nl.md  
   de: financial-buildinglayers-de.md
-dossier:
-  en: dossier.md
-  nl: dossier-nl.md
-  de: dossier-de.md
+building-files:
+  en: building-files.md
+  nl: building-files-nl.md
+  de: building-files-de.md
+building-users:
+  en: building-users.md
+  nl: building-users-nl.md
+  de: building-users-de.md
+building-apps:
+  en: building-apps.md
+  nl: building-apps-nl.md
+  de: building-apps-de.md
+building-file:
+  en: building-file.md
+  nl: building-file-nl.md
+  de: building-file-de.md
+file-enrich:
+  en: file-enrich.md
+  nl: file-enrich-nl.md
+  de: file-enrich-de.md
 administration:
   en: administration.md
   nl: administration-nl.md
@@ -60,8 +84,37 @@ products:
   en: products.md
   nl: products-nl.md
   de: products-de.md
+account:
+  en: account.md
+  nl: account-nl.md
+  de: account-de.md
+account-files:
+  en: account-files.md
+  nl: account-files-nl.md
+  de: account-files-de.md
+account-foldertypes:
+  en: account-foldertypes.md
+  nl: account-foldertypes-nl.md
+  de: account-foldertypes-de.md
+account-materials-products:
+  en: account-materials-products.md
+  nl: account-materials-products-nl.md
+  de: account-materials-products-de.md
+material:
+  en: product.md
+  nl: product-nl.md
+  de: product-de.md
+product:
+  en: product.md
+  nl: product-nl.md
+  de: product-de.md  
 profile:
   en: profile.md
   nl: profile-nl.md
   de: profile-de.md
+support:
+  en: support.md
+  nl: support-nl.md
+  de: support-de.md
+
   

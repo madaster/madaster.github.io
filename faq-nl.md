@@ -9,12 +9,18 @@ lang: nl
 ---
 
 ## Welke informatie wordt hier getoond?
-Als u inlogt op het platform, start u standaard op het home-scherm. Nadat u zich heeft geregistreerd, ziet u hier een automatisch een leeg portfolio staan, wat u kunt gaan aanvullen. Alle portfolio’s en gebouwen die op dit account worden toegevoegd door u of een andere gebruiker (zie uitleg Portfolio’s) worden hier weergegeven. U kunt direct doorklikken naar een van de gebouwen die u heeft toegevoegd, of u kunt een portfolio openen en daar doorklikken naar een gebouw of een nieuw gebouw toevoegen als u daar de rechten toe heeft.
+Als u inlogt op het platform, start u standaard op het home-scherm. Hier staan in het hoofdscherm de meest recente items waar u aan heeft gewerkt, of welke u bekeken heeft. Aan de linkerkant ziet u een inklapbare 'navigatielade', waarin favorieten, het overzicht van folders en gebouwen waar u toegang tot heeft en platform functionaliteiten staan. Als u voor de eerste keer inlogt, dient u eerst een of meerdere foldertypes aan te maken, welke u kunt gebruiken om uw account te organiseren. Daarvoor klikt u op de naam van uw account in de navigatielade.
 
-## Hoe ga ik terug naar de home-pagina als ik op een andere pagina ben?
-U kunt altijd terug naar de home-pagina door linksboven op het Madaster-logo te klikken.
+### Wat kan ik met de blauwe menubalk?
+In de blauwe menubalk staan aan aantal functionaliteiten:
+- **Favorieten** : een "ster" ; hiermee kan altijd en overal een "favoriet" aangemaakt worden. Deze worden bovenaan in de 'navigatielade' getoond;
+- **Notificaties** : een "bel"; hier worden meldingen en notificaties getoond;
+- **Informatie** : een “I-tje”; beschrijving van beschikbare functies op de desbetreffende pagina;
+- **Instellingen** : "drie puntjes" die toegang geven tot uw profiel, uw systeeminstellingen en een uitlog mogelijkheid.
 
-## Hoe navigeer ik gemakkelijk en snel door het platform heen?
-Op iedere pagina in het platform vindt u bovenin het zogenaamde kruimelpad. Via dit kruimelpad kunt u altijd terug naar een pagina waar u eerder bent geweest. In onderstaand voorbeeld ziet u bijvoorbeeld dat op dit moment het gebouw ‘Empire 2’ is geopend. Vanuit dit gebouw kunt u terug naar het portfolio door op de portfolio-naam ‘Erik zijn portfolio’ te klikken of u kunt teruggaan naar de portfolio-pagina of home-pagina. Vanaf iedere pagina kunt u een of meerdere stappen terug doen door op een van de items in dit kruimelpad te klikken.
+### Hoe navigeer ik gemakkelijk en snel door het platform heen?
+Op iedere pagina in het platform vindt u bovenin het zogenaamde kruimelpad. Via dit kruimelpad kunt u altijd terug naar een pagina waar u eerder bent geweest.  Vanaf iedere pagina kunt u één of meerdere stappen terug doen door op een van de items in dit kruimelpad te klikken. U kunt altijd terug naar de home-pagina door in het kruimelpad op het eerste item “Home” te klikken.
+Op elke pagina is er de mogelijkheid om een 'favoriet' te maken. Deze 'favorieten' worden bovenaan in de 'navigatielade' getoond.
 
-Home > Portfolio's > Erik zijn portfolio > Empire 2
+### Hoe navigeer ik gemakkelijk en snel door mijn folders en gebouwen?
+In de 'navigatielade' aan de linkerkant van het scherm zullen alle accounts, folders en gebouwen zichtbaar zijn waar u toegang tot heeft. Door middel van de pijltjes kunt u de folderstructuur uitklappen of weer inklappen.
