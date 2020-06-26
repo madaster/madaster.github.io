@@ -13,9 +13,17 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ## <img class="header-img" src="/assets/images/767.svg"> Handbücher
 
+_Demnächst erhältlich (Dokumente vorerst nur auf Niederländisch) - Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Handbücher und Dokumentationen auf Deutsch verfügbar._
+
+
 ### Allgemeine Handbücher
 
- * Öffnen Sie den <a href="/files/Madaster_Quick_Start_Guide.pdf" target="_blank">Madaster Quick Start Guide</a> - dieser beschreibt kurz die notwendigen Schritte von der Registrierung bis zur Erstellung eines Materialpasses in Madaster.
+ * Lesen Sie die <a href="/files/Madaster ALG - Gebruikershandleiding_v20-1.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
+ * Lesen Sie diee <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-1.pdf">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
+ * Lesen Sie die  <a href="/files/Madaster ALG - Stappenplan v20-1.pdf">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Ausstellung eines Materialpasses auf der Madaster-Plattform führen.
+ * Lesen Sie die  <a href="/files/Madaster ALG - Aanbieden materialenpaspoort- v20-1.pdf">Handbuch zur Beantragung eines Madaster-Passes</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
+
+
 
 ### BIM-spezifische Handbücher & Vorlagen
 
@@ -26,6 +34,8 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Laden Sie die <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
+
+
 
 ### Nachschlagewerke
 
@@ -41,19 +51,7 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [0031 85-0601242](tel:+3
 ## <img class="header-img" src="/assets/images/770.svg"> Release Notes
 
 Weitere Informationen zu den Releases finden Sie hier:
+* <a href="/files/Madaster Releasenotes_2020_04_UK.pdf" target="_blank">Release notes June 24th 2020</a>
+* <a href="/files/Releasenotes_Release_2020_03_UK.pdf" target="_blank">Release notes March 25th 2020</a>
+* <a href="/files/Releasenotes_Release_2020_0102_UK.pdf" target="_blank">Release notes March 19th 2020</a>
 
-* <a href="/files/Releasenotes_Release_2019.8_en.pdf" target="_blank">Release Notes 29. August 2019</a>
-* <a href="/files/Releasenotes_Release_2019.3_en.pdf" target="_blank">Release Notes 1. April 2019</a>
-* <a href="/files/Releasenotes_Release_2019.2_en.pdf" target="_blank">Release Notes 12. Februar 2019</a>
-* <a href="/files/Releasenotes_Release_2019.1_en.pdf" target="_blank">Release Notes 21. Januar 2019</a>
-* <a href="/files/Releasenotes_Release_2018.12_en.pdf" target="_blank">Release Notes 10. Dezember 2018</a>
-* <a href="/files/Releasenotes_Release_2018.9_en.pdf" target="_blank">Release Notes 29. Oktober 2018</a>
-* <a href="/files/Releasenotes_Release_2018.8_en.pdf" target="_blank">Release Notes 27. August 2018</a>
-* <a href="/files/Releasenotes_Release_2018.7_en.pdf" target="_blank">Release Notes 7. August 2018</a>
-* <a href="/files/Releasenotes_Release_2018.6_en.pdf" target="_blank">Release Notes 16. Juli 2018</a>
-* <a href="/files/Releasenotes_Release_2018.5_en.pdf" target="_blank">Release Notes 25. Juni 2018</a>
-* <a href="/files/Releasenotes_Release_2018.4_en.pdf" target="_blank">Release Notes 4. Juni 2018</a>
-* <a href="/files/Releasenotes_Release_2018.3_en.pdf" target="_blank">Release Notes 26. April 2018</a>
-* <a href="/files/Releasenotes_Release_2018.2_en.pdf" target="_blank">Release Notes 29. März 2018</a>
-* <a href="/files/Releasenotes_Release_2018.1_en.pdf" target="_blank">Release Notes 8. März 2018</a>
-* <a href="/files/Releasenotes_Release_2017.1_en.pdf" target="_blank">Release Notes 15. Dezember 2017</a>
