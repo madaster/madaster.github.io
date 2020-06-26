@@ -21,7 +21,7 @@ _Coming soon (documents in Dutch-only for now) - Due to the latest release and o
  * Read the <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-1.pdf">Madaster manual for Products</a> – this document describes in detail how different product types are added in Madaster.
  * Read the <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-1.pdf">Madaster manual Step-by-step plan</a> – this document describes in detail how to add different product types in the Madaster platform.
  * Read the  <a href="/files/Madaster ALG - Stappenplan v20-1.pdf">Madaster manual Step-by-step plan</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
- * Read the  <a href="/files/Madaster ALG - Aanbieden materialenpaspoort- v20-1.pdf">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the tender text.
+
 
 ### BIM-specific manuals & templates
 
