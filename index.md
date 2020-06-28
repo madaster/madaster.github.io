@@ -28,9 +28,9 @@ _Coming soon (documents in Dutch-only for now) - Due to the latest release and o
   * Download the <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - it displays the materials in Dutch and English that are standard in the Madaster database, plus the UID's of the materials.
 
 _Coming soon (documents in Dutch-only for now)_
- * Read the <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-richtlijn</a> - it briefly describes the most important instructions for drawing up a BIM model.
+ * Read the <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
  * Read the <a href="/files/Madaster BIM - IFC import UK_v20-1.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
- * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC-export</a> - Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit.
+ * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> - Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit.
  * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank">Archicad_IFC ExportTemplate</a> - Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
