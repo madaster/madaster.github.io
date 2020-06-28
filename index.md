@@ -20,7 +20,7 @@ _Coming soon (documents in Dutch-only for now) - Due to the latest release and o
  * Read the <a href="/files/Madaster ALG - User manual UK_v20-1.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
  * Read the <a href="/files/Madaster ALG - Manual Add Products_UK_v20-1.pdf">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
  * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-1.pdf">Madaster Actionplan Materials passort</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
-  * Read the  <a href="/files/Madaster ALG_Projectroadmap Step-by-step_UK_ v19-1.pdf">Madaster Actionplan Materials passort</a> - this document describes step-by-step the an IFC import plan for the Madaster platform.
+  * Read the  <a href="/files/Madaster ALG_Projectroadmap Step-by-step_UK_ v19-1.pdf">Madaster Step-By-Step IFC import</a> - this document describes step-by-step the an IFC import plan for the Madaster platform.
 
 
 ### BIM-specific manuals & templates
