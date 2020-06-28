@@ -13,7 +13,6 @@ On this page you will find additional information about the use and development 
 
 ## <img class="header-img" src="/assets/images/767.svg"> Manuals
 
-_Coming soon (documents in Dutch-only for now) - Due to the latest release and overhaul of the Madaster platform, not all manuals and documentation are currently available in English._
 
 ### General manuals
 
@@ -27,7 +26,7 @@ _Coming soon (documents in Dutch-only for now) - Due to the latest release and o
 
   * Download the <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - it displays the materials in Dutch and English that are standard in the Madaster database, plus the UID's of the materials.
 
-_Coming soon (documents in Dutch-only for now)_
+
  * Read the <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
  * Read the <a href="/files/Madaster BIM - IFC import UK_v20-1.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
  * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> - Madaster Manual IFC-export (Archicad & Revit)</a> – this briefly describes the steps to export an IFC file from Archicad and Revit.
@@ -42,6 +41,7 @@ _Coming soon (documents in Dutch-only for now)_
 
  * Read the <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator</a> explaned document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
+_Coming soon (document in Dutch-only for now)_ :
 * Read the <a href="/files/20180802_Toelichting_financiele_tab_V1.0_nl.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
 ---
