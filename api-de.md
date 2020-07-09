@@ -8,15 +8,15 @@ lang: de
 
 # Madaster API
 The **Madaster API** endpoint can be used to interact with the Madaster Platform and its resources.
-This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+This API does not fully cover all functionality of the platform yet, please refer to the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/).
 
 To access the API resources, you need an authorization token.
 If you do not have one yet, see the chapter about Authorization below.
 This token should be sent as a header with the name 'X-API-Key', which will authenticate the request with the token.
-To find out which requests are available and which responses they might produce, see the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger).
+To find out which requests are available and which responses they might produce, see the [*api-docs*](/api-docs) files or the [Swagger/OpenAPI documentation](https://api.madaster.com/).
 
 This API can be reached at the endpoint: **[https://api.madaster.com/](https://api.madaster.com/)**<br/>
-The interactive Swagger/OpenAPI documentation: **[https://api.madaster.com/swagger](https://api.madaster.com/swagger)**<br/>
+The interactive Swagger/OpenAPI documentation: **[https://api.madaster.com/](https://api.madaster.com/)**<br/>
 If you prefer a static documentation: **[/api-docs](/api-docs)**
 
 ## Authorization
@@ -54,7 +54,7 @@ This will give you access to these resources and their attached entities.
 To connect to the API, multiple tools and languages can be used. Because the Madaster API implements the REST interface, all applications that connect to a REST service can communicate with this API. A few examples can be found below.
 
 ### Versions
-The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [Swagger/OpenAPI documentation](https://api.madaster.com/swagger) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 2.1 for example, use https://api.madaster.com/api/v2.1
+The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [Swagger/OpenAPI documentation](https://api.madaster.com/) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 2.1 for example, use https://api.madaster.com/api/v2.1
 
 ### Postman
 [Postman](https://www.getpostman.com/) is an easy to use tool that can connect to all sorts of endpoint because it revolves around web requests.
