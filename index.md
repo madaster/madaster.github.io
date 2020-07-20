@@ -18,28 +18,28 @@ On this page you will find additional information about the use and development 
 
  * Read the <a href="/files/Madaster ALG - User manual UK_v20-1.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
  * Read the <a href="/files/Madaster ALG - Manual Add Products_UK_v20-1.pdf">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
- * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-1.pdf">Madaster Actionplan Materials passort</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
+ * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-1.pdf">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
   * Read the  <a href="/files/Madaster ALG_Projectroadmap Step-by-step_UK_ v19-1.pdf">Madaster Step-By-Step IFC import</a> - this document describes step-by-step the an IFC import plan for the Madaster platform.
 
 
 ### BIM-specific manuals & templates
 
-  * Download the <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - it displays the materials in Dutch and English that are standard in the Madaster database, plus the UID's of the materials.
+  * Download the <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - it displays the materials in Dutch, English, French and German that are standard in the Madaster database, plus the UID's of the materials.
 
 
  * Read the <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
  * Read the <a href="/files/Madaster BIM - IFC import UK_v20-1.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
  * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
- * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank">Archicad_IFC ExportTemplate</a> - Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.
+ * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank">Archicad_IFC ExportTemplate</a>- Madaster IFC export template for Archicad - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
- * Interesting general information about BIM can be obtained via <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
+ * Interesting general information about BIM can be obtained via <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a>.
 
 
 
 ### Reference works
 
- * Read the <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator</a> explaned document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ * Read the <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
 _Coming soon (document in Dutch-only for now)_ :
 * Read the <a href="/files/20180802_Toelichting_financiele_tab_V1.0_nl.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
