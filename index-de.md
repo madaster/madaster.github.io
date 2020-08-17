@@ -13,19 +13,21 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ## <img class="header-img" src="/assets/images/767.svg"> Handbücher
 
-_Demnächst erhältlich (Dokumente vorerst nur auf Niederländisch) - Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Handbücher und Dokumentationen auf Deutsch verfügbar._
+_Demnächst erhältlich (Dokumente vorerst nur auf Englisch) - Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Handbücher und Dokumentationen auf Deutsch verfügbar._
 
 
 ### Allgemeine Handbücher
 
- * Lesen Sie die <a href="/files/Madaster ALG - Gebruikershandleiding_v20-1.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
- * Lesen Sie diee <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-1.pdf">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
- * Lesen Sie die  <a href="/files/Madaster ALG - Stappenplan v20-1.pdf">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Ausstellung eines Materialpasses auf der Madaster-Plattform führen.
- * Lesen Sie die  <a href="/files/Madaster ALG - Aanbieden materialenpaspoort- v20-1.pdf">Handbuch zur Beantragung eines Madaster-Passes</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
+ * Lesen Sie die <a href="/files/Madaster ALG - User manual UK_v20-1.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
+ * Lesen Sie die <a href="/files/Madaster ALG - Manual Add Products_UK_v20-1.pdf">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
+ * Lesen Sie die  <a href="/files/Madaster ALG - Action plan_UK_v20-1.pdf">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Ausstellung eines Materialpasses auf der Madaster-Plattform führen.
+ * Lesen Sie die  <a href="/files/Madaster ALG_Projectroadmap Step-by-step_UK_ v19-1.pdf">Handbuch zur Beantragung eines Madaster-Passes</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
 
 
 
 ### BIM-spezifische Handbücher & Vorlagen
+
+  * Laden Sie das <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - sie zeigt die Materialien in Niederländisch, Englisch, Französisch und Deutsch an, die in der Madaster-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
 
  * Öffnen Sie das <a href="/files/Manual - IFC export Archicad 21 and Revit (UK) v1.0.pdf" target="_blank">Madaster Manual IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="/files/Archicad_ExportTemplate.tpl">Download</a> die Madaster IFC-Exportvorlage für Archicad - dies beinhaltet die optimalen Exporteinstellungen für eine IFC-Datei auf die Madaster-Plattform.
