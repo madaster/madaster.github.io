@@ -55,6 +55,7 @@ Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+3185
 
 More information about the releases can be found here:
 
+* <a href="/files/Madaster Releasenotes_2020_05_UK.pdf" target="_blank">Release notes September 10th 2020</a>
 * <a href="/files/Madaster Releasenotes_2020_04_UK.pdf" target="_blank">Release notes June 24th 2020</a>
 * <a href="/files/Releasenotes_Release_2020_03_UK.pdf" target="_blank">Release notes March 25th 2020</a>
 * <a href="/files/Releasenotes_Release_2020_0102_UK.pdf" target="_blank">Release notes March 19th 2020</a>
