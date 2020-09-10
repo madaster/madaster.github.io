@@ -257,6 +257,47 @@
             nl: /building-apps-nl
             de: /building-apps-de
             fr: /building-apps-fr
+        - name:
+            en: Archive
+            nl: Archief
+            de: Archiev
+            fr: Archive
+          link:
+            en: /buildingarchive
+            nl: /buildingarchive-nl
+            de: /buildingarchive-de
+            fr: /buildingarchive-fr
+    - name:
+        en: Database
+        nl: Database
+        de: Database
+        fr: Database
+      link:
+        en: /database
+        nl: /database-nl
+        de: /database-de
+        fr: /database-fr
+      items:
+        - name:
+            en: Database Users
+            nl: Database Gebruikers
+            de: Database
+            fr: Database Utilisateurs
+          link:
+            en: /database-users
+            nl: /database-users-nl
+            de: /database-users-de
+            fr: /database-users-fr
+        - name:
+            en: Database Shared With
+            nl: Database gedeeld met
+            de: Database
+            fr: Database partagee 
+          link:
+            en: /database-availabilities
+            nl: /database-availabilities-nl
+            de: /database-availabilities-de
+            fr: /database-availabilities-fr
     - name:
         en: Administration
         nl: Administratie

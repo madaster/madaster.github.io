@@ -19,14 +19,15 @@ A user can be deleted by clicking on the trash icon on the right. A user's role 
 
 ### AVAILABLE ROLES AND PERMISSIONS ON FOLDER LEVEL:
 
-|Building level                              | Administrator| Manager |Reader|
-|--------------------------------------------|--------------|---------|------|
-|Create leaflets and subfolders              | Yes          | No      | No   |
-|View brochure and underlying buildings      | Yes          | Yes     | Yes  |
-|Modify leaflet and underlying buildings     | Yes          | Yes     | No   |
-|Delete folder and underlying buildings      | Yes          | No      | No   |
-|Add building to a folder                    | Yes          | Yes     | No   |
-|Add and remove users                        | Yes          | No      | No   |
-|Add and modify materials and products       | Yes          | Yes     | No   |
-|Export Material Passport                    | Yes          | Yes     | No   |
-|Download Material Passport to PDF           | Yes          | Yes     | Yes  |
+|Folder level                                | Administrator| Manager & Contributer to database | Manager |Reader|
+|--------------------------------------------|--------------|-----------------------------------|---------|------|
+|Create folders and subfolders               | Yes          | No                                | No      | No   |
+|View brochure and underlying buildings      | Yes          | Yes                               | Yes     | Yes  |
+|Modify folder and underlying buildings      | Yes          | Yes                               | Yes     | No   |
+|Delete folder and underlying buildings      | Yes          | No                                | No      | No   |
+|Add building to a folder                    | Yes          | Yes                               | Yes     | No   |
+|Add and remove users                        | Yes          | No                                | No      | No   |
+|Add database (folder level)                 | Yes          | No                                | No      | No   |
+|Contribute to database (folder level)       | Yes          | Yes                               | No      | No   |
+|Export Material Passport                    | Yes          | Yes                               | Yes     | No   |
+|Download Material Passport to PDF           | Yes          | Yes                               | Yes     | No   |

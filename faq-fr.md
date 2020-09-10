@@ -8,7 +8,7 @@ permalink: /faq-fr
 lang: fr
 ---
 
-## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ? »
+## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?
 Lorsque vous vous connectez à la plateforme, vous commencez par défaut sur l'écran d'accueil. Ici, l'écran principal montre les derniers articles que vous avez édités ou consultés. Sur le côté gauche, vous trouverez un « tiroir de navigation » qui peut être ouvert et qui contient les favoris, un aperçu des dossiers et des bâtiments auxquels vous avez accès ainsi que les fonctions de la plateforme. Lorsque vous vous connectez pour la première fois, vous devez d'abord créer un ou plusieurs types de dossiers que vous pouvez utiliser pour organiser votre compte. Pour ce faire, cliquez sur le nom de votre compte dans le tiroir de navigation.
 
 ## QUE PUIS-JE FAIRE AVEC LA BARRE DE MENU BLEUE ?

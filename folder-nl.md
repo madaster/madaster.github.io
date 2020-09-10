@@ -18,17 +18,18 @@ Per type folder kan de aanwezigheid van tabs verschillen. In elk geval zijn er d
 - **Dossier**; bestanden, documenten die bij deze folder opgeslagen zijn;
 - **Gebruikers**; gebruikers die toegang hebben tot deze folder, de subfolders en/of gebouwen die zich in deze folder bevinden;
 Als de mogelijkheid er is om ook gebouwen toe te voegen aan een folder, dan verschijnt nog de tab:
-- **Gebouwen**; hier zijn alle gebouwen te selecteren die zich in deze folder of subfolders bevinden.
+- **Gebouwen**; hier zijn alle gebouwen te selecteren die zich in deze folder of subfolders bevinden. Deze tab is alleen zichtbaar indien er in de folder zelf gebouwen mogen staan.
 
 
-## KNOPPENBALK ALGEMEEN
+### KNOPPENBALK tussen de blauwe lijnen
 **ALGEMEEN**
-- Weergave; kies tussen 'kaarten-weergave' of 'lijst-weergave';
-- Aanpassen; pas de naam, beschrijving en logo aan van deze folder;
-- Verplaatsen; verplaats de folder naar een andere folder;
-- Nieuwe folder (indien van toepassing); kies via het dropdown menu voor het maken van een subfolder in deze folder;
-- Nieuw gebouw (indien van toepassing); kies voor het aanmaken van een gebouw in deze folder;
-- Materialen paspoort aanmaken; maak een materialenpaspoort aan voor alle -te selecteren- gebouwen die zich in deze folder of subfolders bevinden.
+- **Weergave**; kies tussen 'kaarten-weergave' of 'lijst-weergave';
+- **Aanpassen**; pas de naam, beschrijving en logo aan van deze folder;
+- **Verplaatsen**; verplaats de folder naar een andere folder;
+- **Nieuwe folder** (indien van toepassing); kies via het dropdown menu voor het maken van een subfolder in deze folder;
+- **Nieuw gebouw** (indien van toepassing); kies voor het aanmaken van een gebouw in deze folder;
+- **Nieuwe database**; maak een nieuwe database aan voor deze folder en onderliggende subfolders en gebouwen. Er kunnen meerdere databases per folder worden gemaakt.;
+- **Materialen paspoort aanmaken** (indien van toepassing); maak een materialenpaspoort aan voor alle -te selecteren- gebouwen die zich in deze folder of subfolders bevinden.
 
 Door de 'lijst-weergave' te kiezen, is er een totaaloverzicht van alle onderliggende folders en gebouw. Hierin kan ook gezocht worden middels het zoekvenster(klik op het woord 'zoeken'). De 'kaartenweergave' geeft alleen de kaarten met afbeelding weer van de folders die direct in deze folder aanwezig zijn.
 
@@ -48,7 +49,7 @@ Indien er gebouwen in de folder aanwezig zijn, dan biedt het scherm van de **Geb
 
 
 
-### EEN NIEUWE FOLDER TOEVOEGEN
+### EEN NIEUWE FOLDER TOEVOEGEN (indien beschikbaar)
 -	Klik op ‘nieuwe folder’.
 -	Voer de naam van het folder in.
 -	Kies een geschikte afbeelding. Als u zelf geen geschikte afbeelding heeft, dan kunt u ervoor kiezen om geen afbeelding te selecteren. Het systeem zal dan zelf een standaard afbeelding aan dit folder koppelen.
@@ -74,7 +75,7 @@ Een folder kan alleen verwijderd worden als deze geen gebouw(en) bevat. Staan er
 
 
 
-### HOE VOEG IK EEN NIEUW GEBOUW TOE AAN EEN folder?
+### HOE VOEG IK EEN NIEUW GEBOUW TOE AAN EEN FOLDER?
 Indien het type folder het toestaat, kunt u meerdere gebouwen toevoegen in een folder.
 -	Klik op de knop ‘Gebouw toevoegen’.
 -	Vul de gevraagde gegevens in. De velden die verplicht zijn om in te vullen worden weergegeven met een *.

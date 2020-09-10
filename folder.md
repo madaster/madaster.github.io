@@ -18,32 +18,35 @@ The presence of tabs may vary depending on the type of folder. In any case, thre
 - **Users**; users who have access to this folder, the subfolders and/or buildings that are located in this folder; If it is possible to add buildings to a folder, the tab will still appear:
 - **Buildings**; here you can select all buildings that are located in this folder or subfolders.
 
-## BUTTON BAR GENERAL
-**GENERAL**
-- View; choose between 'map view' or 'list view';
-- Modify; modify the name, description and logo of this folder;
-- Move; move the folder to another folder;
-- New folder (if applicable); use the dropdown menu to create a subfolder in this folder;
-- New building (if applicable); choose to create a building in this folder;
-- Create materials passport; create a materials passport for all -to be selected- buildings in this folder or subfolders.
 
-By selecting the 'list view', there is a total overview of all underlying folders and building. It is also possible to search through the search window (click on the word 'search'). The 'map view' only shows the maps with image of the folders that are directly present in this folder.
+
+### BUTTON BAR between the blue lines
+**GENERAL**
+- **View**; choose between 'map view' or 'list view';* 
+- **Edit**; modify the name, description and logo of this folder;
+- **Move**; move the folder to another folder;
+- **New folder** (if applicable); use the dropdown menu to create a subfolder in this folder;
+- **New building** (if applicable); choose to create a building in this folder;
+- **Nieuwe database**; Create a new database for this folder and underlying subfolders and buildings. Multiple databases can be created per folder;
+- **Create materials passport** (if applicable); create a materials passport for all -to be selected- buildings in this folder or subfolders.
+
+* By selecting the 'list view', there is a total overview of all underlying folders and building. It is also possible to search through the search window (click on the word 'search'). The 'map view' only shows the maps with image of the folders that are directly present in this folder.
 
 **DOSSIER**
-
-- Upload; upload files to the file of this folder.
+- **Upload**; upload files to the file of this folder.
 
 **USERS**
-- Give users access to this folder, and/or the subfolder(s) and buildings.
+- **Add user**; add a user or invite a new user.
+- **Add API token**; Generate an API token to invite a system as a user.
 
-**BUILDING**
-- Filter;
-- View;
+**BUILDINGS** (if applicable)
+- Filter; filter to search for specific materials or products;
+- View; change the column/row view;
 - Buildings; the possibility to select one or more buildings that are located in this folder or in subfolders.
 If there are buildings in the folder, the Buildings tab screen offers an overview (aggregation) of all materials and products, which are located in the selected buildings.
 
 
-### ADD A NEW FOLDER
+### ADD A NEW FOLDER (if applicable)
 - Click on 'new folder'.
 - Enter the name of the folder.
 - Choose a suitable image. If you don't have a suitable image yourself, you can choose not to select one. The system will then link a standard image to this folder.

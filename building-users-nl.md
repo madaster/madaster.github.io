@@ -9,7 +9,7 @@ lang: nl
 ---
 
 ## Welke informatie wordt hier getoond?
-Op elk gebouw niveau kunnen verschillende gebruikers worden uitgenodigd, met drie verschillede rollen-, en rechtenniveaus. Hier kunt u gebruikers uitnodigen, of u kunt een zogenaamde ‘API-key’ genereren om een ander systeem als gebruiker toegang te geven tot het gebouw. De tabel geeft inzicht in wie rechten heeft op dit gebouw. Er kan geselecteerd worden naar gebruikers, rol, en toestemming.
+Op elk gebouw niveau kunnen verschillende gebruikers worden uitgenodigd, met vier verschillede rollen-, en rechtenniveaus. Hier kunt u gebruikers uitnodigen, of u kunt een zogenaamde ‘API-key’ genereren om een ander systeem als gebruiker toegang te geven tot het gebouw. De tabel geeft inzicht in wie rechten heeft op dit gebouw. Er kan geselecteerd worden naar gebruikers, rol, en toestemming.
 
 
 ### Hoe voeg ik gebruikers toe aan een gebouw?
@@ -27,14 +27,15 @@ De rol en het recht van een gebruiker kan aangepast worden door op het pen-icoon
 
 ### Beschikbare rollen en rechten op gebouwniveau:
 
-| Gebouwniveau                                   | Beheerder | Manager | Lezer |
-|------------------------------------------------|-----------|---------|-------|
-| Gebouw bekijken                                | Ja        | Ja      | Ja    |
-| Gebouw aanpassen                               | Ja        | Ja      | Nee   |
-| Gebouw verwijderen                             | Ja        | Nee     | Nee   |
-| Gebruikers toevoegen  en verwijderen           | Ja        | Nee     | Nee   |
-| Materialen en producten toevoegen en aanpassen | Ja        | Ja      | Nee   |
-| Materialenpaspoort exporteren                  | Ja        | Ja      | Nee   |
-| Materialenpaspoort downloaden naar PDF-bestand | Ja        | Ja      | Ja    |
+| Gebouwniveau                                   | Beheerder | Manager & bijdrager aan database | Manager |Lezer |
+|------------------------------------------------|-----------|----------------------------------|---------|------|
+| Gebouw bekijken                                | Ja        | Ja                               | Ja      | Ja   |
+| Gebouw aanpassen                               | Ja        | Ja                               | Ja      | Nee  |
+| Gebouw verwijderen                             | Ja        | Nee                              | Nee     | Nee  |
+| Gebruikers toevoegen  en verwijderen           | Ja        | Nee                              | Nee     | Nee  |
+| Aanmaken gebouw database                       | Ja        | Nee                              | Nee     | Nee  |
+| Bijdragen aan database angemaakt in het gebouw of gedeeld met het gebouw met minimaal bijdragen rechten | Ja        | Ja                               | Nee     | Nee  |
+| Materialenpaspoort exporteren                  | Ja        | Ja                               | Ja      | Nee  |
+| Materialenpaspoort downloaden naar PDF-bestand | Ja        | Ja                               | Ja      | Ja   |
 
 

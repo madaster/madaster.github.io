@@ -9,7 +9,7 @@ lang: nl
 ---
 
 ## Welke informatie wordt hier getoond?
-Op elk folderniveau kunnen verschillende gebruikers worden uitgenodigd, met drie verschillende rollen-, en rechtenniveaus.
+Op elk folderniveau kunnen verschillende gebruikers worden uitgenodigd, met vier verschillende rollen-, en rechtenniveaus.
 Hier kunt u gebruikers uitnodigen, of u kunt een zogenaamde 'API-key' genereren om een ander systeem als gebruiker toegang te geven tot de folder(s).
 
 De tabel geeft inzicht in wie rechten heeft of deze folder, de subfolders en/of gebouwen.
@@ -23,14 +23,15 @@ De rol en het recht van een gebruiker kan aangepast worden door op het pen-icoon
 
 ### Beschikbare rollen en rechten op folder niveau:
 
-| Gebouwniveau                                   | Beheerder | Manager | Lezer |
-|------------------------------------------------|-----------|---------|-------|
-| Folders en subfolders aanmaken                 | Ja        | Nee     | Nee   |
-| Folder en onderliggende gebouwen bekijken      | Ja        | Ja      | Ja    |
-| Folder en onderliggende gebouwen aanpassen     | Ja        | Ja      | Nee   |
-| Folder en onderliggende gebouwen verwijderen   | Ja        | Nee     | Nee   |
-| Gebouw toevoegen aan een folder                | Ja        | Ja      | Nee   |
-| Gebruikers toevoegen en verwijderen            | Ja        | Nee     | Nee   |
-| Materialen en producten toevoegen en aanpassen | Ja        | Ja      | Nee   |
-| Materialenpaspoort exporteren                  | Ja        | Ja      | Nee   |
-| Materialenpaspoort downloaden naar PDF-bestand | Ja        | Ja      | Ja    |
+| Folderniveau                                   | Beheerder | Manager & bijdrager aan database    | Manager | Lezer |
+|------------------------------------------------|-----------|-------------------------------------|---------|-------|
+| Folders en subfolders aanmaken                 | Ja        | Nee                                 | Nee     | Nee   |
+| Folder en onderliggende gebouwen bekijken      | Ja        | Ja                                  | Ja      | Ja    |
+| Folder en onderliggende gebouwen aanpassen     | Ja        | Ja                                  | Ja      | Nee   |
+| Folder en onderliggende gebouwen verwijderen   | Ja        | Nee                                 | Nee     | Nee   |
+| Gebouw toevoegen aan een folder                | Ja        | Ja                                  | Ja      | Nee   |
+| Gebruikers toevoegen en verwijderen            | Ja        | Nee                                 | Nee     | Nee   |
+| Aanmaken database (folder niveau)              | Ja        | Nee                                 | Nee     | Nee   |
+| Bijdragen aan database gedeeld met- of aangemaakt in deze folder | Ja        | Ja                                  | Nee     | Nee   |
+| Materialenpaspoort exporteren                  | Ja        | Ja                                  | Ja      | Nee   |
+| Materialenpaspoort downloaden naar PDF-bestand | Ja        | Ja                                  | Ja      | Nee   |
