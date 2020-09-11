@@ -270,8 +270,8 @@
     - name:
         en: Database
         nl: Database
-        de: Database
-        fr: Database
+        de: Datenbank
+        fr: Base de données
       link:
         en: /database
         nl: /database-nl
@@ -281,8 +281,8 @@
         - name:
             en: Database Users
             nl: Database Gebruikers
-            de: Database
-            fr: Database Utilisateurs
+            de: Datenbank Benutzers
+            fr: Base de données - Utilisateurs
           link:
             en: /database-users
             nl: /database-users-nl
@@ -290,9 +290,9 @@
             fr: /database-users-fr
         - name:
             en: Database Shared With
-            nl: Database gedeeld met
-            de: Database
-            fr: Database partagee 
+            nl: Database Gedeeld met
+            de: Datenbank Geteilt mit
+            fr: Base de données - Partage 
           link:
             en: /database-availabilities
             nl: /database-availabilities-nl
