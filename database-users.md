@@ -3,8 +3,8 @@ title: Database Users
 layout: page
 show_sidebar: false
 menubar: faq-nav
-ref: databaseusers
-permalink: /databaseusers
+ref: database-users
+permalink: /database-users
 lang: en
 ---
 
