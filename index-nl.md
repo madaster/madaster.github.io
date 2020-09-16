@@ -15,9 +15,9 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
 ### Algemene handleidingen
 
- * Open de <a href="/files/Madaster ALG - Gebruikershandleiding_v20-1.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze handleiding beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
-  * Open de <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-1.pdf">Madaster handleiding Producten toevoegen</a> – dit document beschrijft gedetailleerd hoe verschillende producttypen in Madaster worden toegevoegd.
- * Open de <a href="/files/Madaster ALG - Stappenplan v20-1.pdf">Madaster handleiding Stappenplan</a> - dit document beschrijft de noodzakelijke processtappen die leiden tot de oplevering van een materialenpaspoort in het Madaster platform.
+ * Open de <a href="/files/Madaster ALG - Gebruikershandleiding v20-2.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze handleiding beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
+  * Open de <a href="/files/Madaster ALG - Handleiding Producten toevoegen v20-2.pdf">Madaster handleiding Producten toevoegen</a> – dit document beschrijft gedetailleerd hoe verschillende producttypen in Madaster worden toegevoegd.
+ * Open de <a href="/files/Madaster ALG - Stappenplan v20-2.pdf">Madaster handleiding Stappenplan</a> - dit document beschrijft de noodzakelijke processtappen die leiden tot de oplevering van een materialenpaspoort in het Madaster platform.
  * Open de <a href="/files/Madaster_uitvragen_madaster_materialenpaspoort_maart_2020_nl.pdf">handleiding voor het uitvragen Madaster paspoort</a> document - Dit document geeft een handleiding over hoe een Madaster materialenpaspoort uitgevraagd kan worden in een aanbestedingstekst. Als aanvulling hierop biedt het concrete voorbeeldzinnen die gebruikt kunnen worden in de uitvraag.
 
 
@@ -25,7 +25,7 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 
  * Lees de <a href="/files/Madaster BIM - IFC richtlijn v20-1.pdf" target="_blank">Madaster IFC-richtlijn</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
  * Lees de <a href="/files/Madaster BIM - IFC import v20-1.pdf" target="_blank">Madaster BIM IFC import</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
- * Lees de <a href="/files/Madaster BIM - IFC export v20-1.pdf" target="_blank">Madaster BIM IFC-export</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
+ * Lees de <a href="files/Madaster BIM - IFC Export_v20-2.pdf" target="_blank">Madaster BIM IFC-export</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
  * Download de <a href="/files/Archicad_ExportTemplate.tpl" target="_blank">Archicad_IFC ExportTemplate</a> - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
