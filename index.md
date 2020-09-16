@@ -17,9 +17,9 @@ On this page you will find additional information about the use and development 
 ### General manuals
 
  * Read the <a href="/files/Madaster ALG - User Manual_UK_v20-2.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
- * Read the <a href="/files/Madaster ALG - Manual Add Products_UK_v20-2.pdf">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
- * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-2.pdf">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
-  * Read the  <a href="/files/MdS - EN - Text for requesting a Madaster material passport - March 2020.pdf">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
+ * Read the <a href="/files/Madaster ALG - Manual Add Products_UK_v20-2.pdf" target="_blank">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
+ * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-2.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
+  * Read the  <a href="/files/MdS - EN - Text for requesting a Madaster material passport - March 2020.pdf" target="_blank">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
 
 
 ### BIM-specific manuals & templates
