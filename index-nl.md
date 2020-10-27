@@ -50,7 +50,7 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-060
 ## <img class="header-img" src="/assets/images/770.svg" /> Release Notes
 
 Meer informatie over de releases vindt u hier:
-
+* <a href="/files/Madaster Releasenotes_2020_06_NL.pdf" target="_blank">Release notes 14 oktober 2020</a>
 * <a href="/files/Madaster Releasenotes_2020_05_NL.pdf" target="_blank">Release notes 10 september 2020</a>
 * <a href="/files/Madaster Releasenotes_2020_04_NE.pdf" target="_blank">Release notes 24 juni 2020</a>
 * <a href="/files/Releasenotes_Release_2020_03_NL.pdf" target="_blank">Release notes 25 maart 2020</a>
