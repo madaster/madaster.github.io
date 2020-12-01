@@ -1,149 +1,70 @@
 /*theme: jekyll-theme-cayman*/
 remote_theme: chrisrhymes/bulma-clean-theme
+countries:
+  - country: "Nederland"
+    code: "nl"
+    defaultlanguage: "nl"
+    languages: "nl,en"
+  - country: "Swiss"
+    code: "ch"
+    defaultlanguage: "de"
+    languages: "de,fr"
+  
 title: 
   en: Madaster Documentation
   nl: Madaster Documentatie
   de: Madaster Dokumentation
-  ch-fr: Documentation Madaster 
-description: 
-  en: Welcome to Madaster Documentation. You can find comprehensive guides and documentation to help get you started with Madaster as quickly as possible, and support if you get stuck.
-  nl: Welkom bij de documentatie website van Madaster.
-  de: Wilkommen bei dem Dokumentation Seite von Madaster.
-  ch-fr: Welcome sur la documentation du site Madaster
-index:
-  en: index.md
-  nl: index-nl.md
-  de: index-de.md
-  fr: index-fr.md
-folder:
-  en: folder.md
-  nl: folder-nl.md
-  de: folder-de.md
-  fr: folder-fr.md
-folder-users:
-  en: folder-users.md
-  nl: folder-users-nl.md
-  de: folder-users-de.md
-  fr: folder-users-fr.md
-folders-files:
-  en: folder-files.md
-  nl: folder-files-nl.md
-  de: folder-files-de.md
-  fr: folder-files-fr.md
-buildings:
-  en: buildings.md
-  nl: buildings-nl.md  
-  de: buildings-de.md
-  fr: buildings-fr.md 
-building-level:
-  en: building-level.md
-  nl: building-level-nl.md  
-  de: building-level-de.md 
-  fr: building-level-fr.md
-building-process:
-  en: building-process.md
-  nl: building-process-nl.md  
-  de: building-process-de.md
-  fr: building-process-fr.md
-circularity:
-  en: circularity.md
-  nl: circularity-nl.md  
-  de: circularity-de.md 
-  fr: circularity-fr.md
-circularity-details:
-  en: circularity-details.md
-  nl: circularity-details-nl.md
-  de: circularity-details-de.md
-  fr: circularity-fr.md
-financial:
-  en: financial.md
-  nl: financial-nl.md
-  de: financial-de.md
-  fr: financial-fr.md
-financial-material:
-  en: financial-material.md
-  nl: financial-material-nl.md
-  de: financial-material-de.md
-  fr: financial-material-fr.md
-financial-buildinglayers:
-  en: financial-buildinglayers.md
-  nl: financial-buildinglayers-nl.md  
-  de: financial-buildinglayers-de.md
-  fr: financial-buildinglayers-fr.md
-building-files:
-  en: building-files.md
-  nl: building-files-nl.md
-  de: building-files-de.md
-  fr: building-files-fr.md
-building-users:
-  en: building-users.md
-  nl: building-users-nl.md
-  de: building-users-de.md
-  fr: building-users-fr.md
-building-apps:
-  en: building-apps.md
-  nl: building-apps-nl.md
-  de: building-apps-de.md
-  fr: building-apps-fr.md
-building-file:
-  en: building-file.md
-  nl: building-file-nl.md
-  de: building-file-de.md
-  fr: building-file-fr.md
-file-enrich:
-  en: file-enrich.md
-  nl: file-enrich-nl.md
-  de: file-enrich-de.md
-  fr: file-enrich-fr.md
-administration:
-  en: administration.md
-  nl: administration-nl.md
-  de: administration-de.md
-  fr: administration-fr.md
-products:
-  en: products.md
-  nl: products-nl.md
-  de: products-de.md
-  fr: products-fr.md
-account:
-  en: account.md
-  nl: account-nl.md
-  de: account-de.md
-  fr: account-fr.md
-account-files:
-  en: account-files.md
-  nl: account-files-nl.md
-  de: account-files-de.md
-  fr: account-files-fr.md
-account-foldertypes:
-  en: account-foldertypes.md
-  nl: account-foldertypes-nl.md
-  de: account-foldertypes-de.md
-  fr: account-foldertypes-fr.md
-account-materials-products:
-  en: account-materials-products.md
-  nl: account-materials-products-nl.md
-  de: account-materials-products-de.md
-  fr: account-materials-products-fr.md
-material:
-  en: material.md
-  nl: material-nl.md
-  de: material-de.md
-  fr: material-fr.md
-product:
-  en: product.md
-  nl: product-nl.md
-  de: product-de.md  
-  fr: product-fr.md
-profile:
-  en: profile.md
-  nl: profile-nl.md
-  de: profile-de.md
-  fr: profile-fr.md
-support:
-  en: support.md
-  nl: support-nl.md
-  de: support-de.md
-  fr: support-fr.md
+  fr: Documentation Madaster 
+
+defaults:
+  -
+    scope :
+      path: ""
+    values:
+      layout: "page"
+      show_sidebar: false
+      menubar: faq-nav
+  -
+    scope :
+      path: "ch/de"
+    values:
+        lang: "de"
+        country: "ch"
+  -
+    scope :
+      path: "ch/fr"
+    values:
+        lang: "fr"
+        country: "ch"        
+  -
+    scope :
+      path: "nl/nl"
+    values:
+        country: "nl"
+        lang: "nl"
+  -
+    scope :
+      path: "nl/en"
+    values:
+        country: "nl"
+        lang: "en"
+  -
+    scope :
+      path: "de"
+    values:
+        country: "de"
+        lang: "de" 
+  -
+    scope :
+      path: "no/en"
+    values:
+        country: "no"
+        lang: "en" 
+  - 
+    scope :
+      path: "no/no"
+    values:
+        country: "no"
+        lang: "no"     
 
   

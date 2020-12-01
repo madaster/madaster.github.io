@@ -1,7 +1,18 @@
-<div class="wrapper madaster-language-toggle" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }} flag"><img src="/assets/images/{{ post.lang }}.png"/></a> {% endfor %}
-
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }} flag"><img src="/assets/images/{{ page.lang }}.png"/></a> {% endfor %}
+<!-- <div class="wrapper madaster-language-toggle" style="text-align: right; line-height: 2em">
+  {% assign pages=site.pages | where:"country", page.country | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url }}">{{ page.lang |  upcase }}</a> {% endfor %}
 </div>
+<div class="wrapper madaster-language-toggle" style="text-align: right; line-height: 2em">
+  {% for country in site.countries %}{% if country.code!=page.country%} <a href="/{{ country.code }}/{{country.defaultlanguage}}" class="flag"><img src="/assets/images/{{ country.code }}.png"/></a></a>{% endif %} {% endfor %}
+</div> -->
+  {% for country in site.countries %}
+  <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
+    <a href="/{{ country.code }}/{{country.defaultlanguage}}" class="madaster-navbar-item dropdown navbar-link flag"><img src="/assets/flags/{{ country.code }}.svg"/></a></a>
+    {% assign pages=site.pages | where:"country", country.code | where:"ref", page.ref | sort: 'lang' %}
+    {% if pages %}
+    <div class="navbar-dropdown">
+    {% for pagefound in pages %} <a href="{{ pagefound.url }}" class="navbar-item  {% if  pagefound.url == page.url %}is-active{% endif %}"">{{ pagefound.lang |  upcase }}</a> {% endfor %}
+    </div>
+    {% endif %} 
+  </div>
+  {% endfor %}

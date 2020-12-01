@@ -1,29 +1,38 @@
     
 {% assign menus = site.data.[page.menubar] %}
-
+{% assign pages = site.pages | where:"country", page.country| where:"lang", page.lang %}
 <aside class="menu">
-{% for menu in menus %}
+{% assign menu = menus | first %}
     <h2 class="menu-label">{{ menu.label }}</h2>
     <ul class="menu-list">
         {% for item in menu.items %}
-        <li>
-            <a href="{{ item.link[page.lang] | prepend: site.baseurl }}" class="{% if item.link[page.lang] == page.url %}is-active{% endif %}">{{ item.name[page.lang] }}</a>
-            {% if item.items %}
-            <ul>
-                {% for subitem in item.items %}
-                <li><a href="{{ subitem.link[page.lang] | prepend: site.baseurl }}" class="{% if subitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subitem.name[page.lang] }}</a></li>
-                    {% if subitem.items %}
+    
+            {% assign menupage = pages| where:"ref", item.ref | first%}
+            {% if menupage!=nil %}
+                <li>
+                    <a href="{{ menupage.url }}" class="{% if menupage.url == page.url %}is-active{% endif %}">{{ menupage.title }}</a>
+                    {% if item.items %}
                     <ul>
-                    {% for subsubitem in subitem.items %}
-                    <li><a href="{{ subsubitem.link[page.lang] | prepend: site.baseurl }}" class="{% if subsubitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subsubitem.name[page.lang] }}</a></li>
-                    {% endfor %}
+                        {% for subitem in item.items %}
+                            {% assign submenupage = pages| where:"ref", subitem.ref | first %}
+                            {% if submenupage!=nul %}
+                            <li><a href="{{ submenupage.url }}" class="{% if submenupage.url == page.url %}is-active{% endif %}">{{ submenupage.title }}</a></li>
+                                {% if subitem.items %}
+                                    <ul>
+                                    {% for subsubitem in subitem.items %}
+                                        {% assign subsubmenupage = pages| where:"ref", subsubitem.ref | first %}
+                                        {% if subsubmenupage!=nil %}
+                                            <li><a href="{{ subsubmenupage.url }}" class="{% if subsubmenupage.url == page.url %}is-active{% endif %}">{{ subsubmenupage.title }}</a></li>
+                                        {% endif %}
+                                    {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                     </ul>
                     {% endif %}
-                {% endfor %}
-            </ul>
+                </li>
             {% endif %}
-        </li>
         {% endfor %}    
     </ul>
-{% endfor %}
 </aside>

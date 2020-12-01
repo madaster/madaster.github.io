@@ -1,9 +1,14 @@
 <nav class="navbar is-primary madaster-nav" >
     <div class="container">
         <div class="navbar-brand">
-            <a href="/" class="navbar-logo active"><img src="/assets/images/logo-nobackground.svg"></a>
-            <a href="{{ site.baseurl }}/" class="madaster-navbar-item navbar-item header-title">
-                {{ site.title[page.lang] }}
+            {% if page.country == page.lang %}
+            {% assign countrylanguage = page.country %}
+            {% else %}
+            {% assign countrylanguage = page.country | append: "-" | append: page.lang %}
+            {% endif %}
+            <a href="/{{ page.country}}/{{page.lang}}" class="navbar-logo active"><img src="/assets/images/logo-nobackground.svg"></a>
+            <a href="/{{ page.country}}/{{page.lang}}" class="madaster-navbar-item navbar-item header-title">
+                {{ site.title[page.lang]}}
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
@@ -15,22 +20,12 @@
             <div class="navbar-start">                
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
-                    {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
-                        <a href="{{ item.link[page.lang] | prepend: site.baseurl }}" class="madaster-navbar-item dropdown navbar-link {% if item.link[page.lang] == page.url %}is-active{% endif %}">{{ item.name[page.lang] }}</a>
-                        <div class="navbar-dropdown">
-                            {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link[page.lang] | prepend: site.baseurl }}" class="navbar-item {% if subitem.link[page.lang] == page.url %}is-active{% endif %}">{{ subitem.name[page.lang] }}</a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% else %}
-                    <a href="{{ item.link[page.lang] | prepend: site.baseurl }}" class="madaster-navbar-item navbar-item {% if item.link[page.lang] == page.url %}is-active{% endif %}">{{ item.name[page.lang] }}</a>
-                    {% endif %}
+                    {% assign foundlink =  site.pages | where:"country", page.country | where:"lang",page.lang | where:"ref", item.ref | first"   %}
+                    <a href="{{ foundlink.url }}" class="madaster-navbar-item navbar-item {% if item.ref == page.ref %}is-active{% endif %}">{{ foundlink.title }}</a>
                 {% endfor %}
                 {% endif %}
             </div>
-            {% include languageswitch.html html=content %}
+            {% include languageswitch.html %}
         </div>
     </div>
 </nav>
