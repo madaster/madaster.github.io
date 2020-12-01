@@ -1,5 +1,5 @@
 ---
-title: Accueil
+title: FAQ
 ref: faq
 ---
 
