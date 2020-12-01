@@ -1,330 +1,42 @@
   - label: FAQ
     items:
-    - name:
-        en: Home
-        nl: Home
-        de: Home
-        fr: Accueil
-      link:
-        en: /faq
-        nl: /faq-nl
-        de: /faq-de
-        fr: /faq-fr
-    - name: 
-        en: Account-General
-        nl: Account-Algemeen
-        de: Account-Algemein
-        fr: Compte-General
-      link:
-        en: /account
-        nl: /account-nl
-        de: /account-de
-        fr: /account-fr
+    - ref: faq
+    - ref: account
       items:   
-      - name:
-          en: Material & Products
-          nl: Materialen & Producten
-          de: Materialien und Produkte
-          fr: Produits & Matériaux
-        link:
-          en: /account-materials-products
-          nl: /account-materials-products-nl
-          de: /account-materials-products-de
-          fr: /account-materials-products-fr
+      - ref: account-files
+      - ref: account-users
+      - ref: account-foldertypes
+      - ref: account-materials-products
         items:   
-          - name:
-              en: Material
-              nl: Materiaal
-              de: Materialien
-              fr: Matériel
-            link:
-              en: /material
-              nl: /material-nl
-              de: /material-de
-              fr: /material-fr
-          - name:
-              en: Product
-              nl: Product
-              de: Produkt
-              fr: Produit
-            link:
-              en: /product
-              nl: /product-nl
-              de: /product-de
-              fr: /product-fr
-      - name:
-          en: Dossier
-          nl: Dossier
-          de: Datei
-          fr: Documents
-        link:
-          en: /account-files
-          nl: /account-files-nl
-          de: /account-files-de
-          fr: /account-files-fr
-      - name:
-          en: Foldertypes
-          nl: Type folders
-          de: Ordnertyp
-          fr: Type de dossier
-        link:
-          en: /account-foldertypes
-          nl: /account-foldertypes-nl
-          de: /account-foldertypes-de
-          fr: /account-foldertypes-fr
-      - name:
-          en: Users
-          nl: Gebruikers
-          de: Benutzer
-          fr: Utilisateurs
-        link:
-          en: /account-users
-          nl: /account-users-nl
-          de: /account-users-de
-          fr: /account-users-fr
-    - name:
-        en: Folders - General
-        nl: Folders - Algemeen
-        de: Folders - Algemein
-        fr: Dossiers - Général
-      link:
-        en: /folder
-        nl: /folder-nl
-        de: /folder-de
-        fr: /folder-fr
+          - ref: material
+          - ref: product
+    - ref: folder
       items:   
-        - name:
-            en: Dossier
-            nl: Dossier
-            de: Datei
-            fr: Documents
-          link:
-            en: /folder-files
-            nl: /folder-files-nl
-            de: /folder-files-de
-            fr: /folder-files-fr
-        - name:
-            en: Users
-            nl: Gebruikers
-            de: Benutzer
-            fr: Utilisateurs
-          link:
-            en: /folder-users
-            nl: /folder-users-nl
-            de: /folder-users-de
-            fr: /folder-users-fr
-    - name:
-        en: Buildings - General
-        nl: Gebouwen - Algemeen
-        de: Gebäuden - Algemein
-        fr: Bâtiment - Général
-      link:
-        en: /building
-        nl: /building-nl
-        de: /building-de
-        fr: /building-fr
+        - ref: folder-files
+        - ref: folder-users
+    - ref: building
       items:   
-        - name:
-            en: Dossier
-            nl: Dossier
-            de: Datei
-            fr: Documents
-          link:
-            en: /building-files
-            nl: /building-files-nl
-            de: /building-files-de
-            fr: /building-files-fr
+        - ref: building-files
           items:
-            - name:
-                en: Source File
-                nl: Kwaliteit bronbestand
-                de: Quell-Datei
-                fr: Qualité du fichier source
-              link:
-                en: /building-file
-                nl: /building-file-nl
-                de: /building-file-de
-                fr: /building-file-fr
-            - name:
-                en: Enrich
-                nl: Verrijken
-                de: Bereichern
-                fr: Enrichir 
-              link:
-                en: /building-file-enrich
-                nl: /building-file-enrich-nl
-                de: /building-file-enrich-de
-                fr: /building-file-enrich-fr
-            - name:
-                en: Results
-                nl: Resultaten
-                de: Resultate
-                fr: Résultats
-              link:
-                en: /building-file-result
-                nl: /building-file-result-nl
-                de: /building-file-result-de
-                fr: /building-file-result-fr
-        - name:
-            en: Users
-            nl: Gebruikers
-            de: Benutzer
-            fr: Utilisateurs
-          link:
-            en: /building-users
-            nl: /building-users-nl
-            de: /building-users-de
-            fr: /building-users-fr
-        - name:
-            en: Building
-            nl: Gebouw
-            de: Gebäude
-            fr: Bâtiment
-          link:
-            en: /building-level
-            nl: /building-level-nl
-            de: /building-level-de
-            fr: /building-level-fr
-        - name:
-            en: Building Process
-            nl: Bouwproces
-            de: Bauprozess
-            fr: Processus de construction
-          link:
-            en: /building-process
-            nl: /building-process-nl
-            de: /building-process-de
-            fr: /building-process-fr
-        - name:
-            en: Circularity
-            nl: Circulariteit
-            de: Zirkularität
-            fr: Circulatité
-          link:
-            en: /building-circularity
-            nl: /building-circularity-nl
-            de: /building-circularity-de
-            fr: /building-circularity-fr
+            - ref: building-file
+            - ref: building-file-enrich
+            - ref: building-file-result
+        - ref: building-users
+        - ref: building-level
+        - ref: building-process
+        - ref: building-circularity
           items:        
-            - name:
-                en: Circularity - Detail level
-                nl: Circulariteit - Detail niveau
-                de: Zirkularität - Detailebene
-                fr: Circulatité - Détail
-              link:
-                en: /building-circularity-details
-                nl: /building-circularity-details-nl
-                de: /building-circularity-details-de
-                fr: /building-circularity-details-fr
-        - name:
-            en: Financial
-            nl: Financieel
-            de: Finanziell
-            fr: Financier
-          link:
-            en: /building-financial
-            nl: /building-financial-nl
-            de: /building-financial-de
-            fr: /building-financial-fr
+            - ref: building-circularity-details
+        - ref: building-financial
           items:
-            - name:
-                en: Financial - Material
-                nl: Financieel - Materiaal
-                de: Finanzen - Material
-                fr: Financier - Matériel
-              link:
-                en: /building-financial-material
-                nl: /building-financial-material-nl
-                de: /building-financial-material-de     
-                fr: /building-financial-material-fr   
-            - name:
-                en: Financial - Building layers
-                nl: Financieel - Gebouwlagen
-                de: Finanzen - Gebäudeschichten
-                fr: Financier - Couche du Bâtiment
-              link:
-                en: /building-financial-buildinglayers
-                nl: /building-financial-buildinglayers-nl
-                de: /building-financial-buildinglayers-de
-                fr: /building-financial-buildinglayers-fr  
-        - name:
-            en: Apps
-            nl: Apps
-            de: Apps
-            fr: Applications
-          link:
-            en: /building-apps
-            nl: /building-apps-nl
-            de: /building-apps-de
-            fr: /building-apps-fr
-        - name:
-            en: Archive
-            nl: Archief
-            de: Archiev
-            fr: Archive
-          link:
-            en: /buildingarchive
-            nl: /buildingarchive-nl
-            de: /buildingarchive-de
-            fr: /buildingarchive-fr
-    - name:
-        en: Database
-        nl: Database
-        de: Datenbank
-        fr: Base de données
-      link:
-        en: /database
-        nl: /database-nl
-        de: /database-de
-        fr: /database-fr
+            - ref: building-financial-material
+            - ref: building-financial-buildinglayers
+        - ref: building-apps
+        - ref: buildingarchive
+    - ref: database
       items:
-        - name:
-            en: Database Users
-            nl: Database Gebruikers
-            de: Datenbank Benutzers
-            fr: Base de données - Utilisateurs
-          link:
-            en: /database-users
-            nl: /database-users-nl
-            de: /database-users-de
-            fr: /database-users-fr
-        - name:
-            en: Database Shared With
-            nl: Database Gedeeld met
-            de: Datenbank Geteilt mit
-            fr: Base de données - Partage 
-          link:
-            en: /database-availabilities
-            nl: /database-availabilities-nl
-            de: /database-availabilities-de
-            fr: /database-availabilities-fr
-    - name:
-        en: Administration
-        nl: Administratie
-        de: Verwaltung
-        fr: Administration
-      link:
-        en: /administration
-        nl: /administration-nl
-        de: /administration-de
-        fr: /administration-fr
-    - name:
-        en: Settings
-        nl: Instellingen
-        de: Einstellung
-        fr: Paramètres
-      link:
-        en: /profile
-        nl: /profile-nl
-        de: /profile-de
-        fr: /profile-fr
-    - name:
-        en: Support
-        nl: Ondersteuning
-        de: Unterstützung
-        fr: Support
-      link:
-        en: /support
-        nl: /support-nl
-        de: /support-de
-        fr: /support-fr
+        - ref: database-users
+        - ref: database-availabilities
+    - ref: Administration
+    - ref: profile
+    - ref: support
