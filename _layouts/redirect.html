@@ -5,14 +5,13 @@
       fetch('https://extreme-ip-lookup.com/json/')
       .then( res => res.json())
       .then(response => {
-        var country="de";
-        var language="nl";
+        var country="nl";
+        var language="en";
         var countries= JSON.parse('{{ site.countries | jsonify }}');
         console.log("Country: ", response.countryCode);
         if (countries.some(t=> t.code==response.countryCode.toLowerCase())) {
               country= response.countryCode.toLowerCase();
         }
-     
         var lang = navigator.language || navigator.userLanguage;
         if (lang)
         {
@@ -20,10 +19,15 @@
           if (countries.some(t=> t.code==country && t.languages.split(',').some(x=> x==langs[0]))) {
             language=langs[0];
           } else {
-            language = countries.some(t=> t.code==country).defaultlanguage;
+            language = countries.filter(t=> t.code==country)[0].defaultlanguage;
           }
         }
-        window.location = "/"+country+"/"+language;
+        if (country && language){
+          window.location = "/"+country+"/"+language;
+        }
+      else {
+        window.location = "/nl/en";
+      }
       })
       .catch((data, status) => {
         window.location = "/nl/en";

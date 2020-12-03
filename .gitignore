@@ -1,3 +1,4 @@
 swagger.json
-_site/*
+/_site/
 gemfile.lock
+_site/*

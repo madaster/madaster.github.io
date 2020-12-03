@@ -10,11 +10,7 @@ countries:
     defaultlanguage: "de"
     languages: "de,fr"
   
-title: 
-  en: Madaster Documentation
-  nl: Madaster Documentatie
-  de: Madaster Dokumentation
-  fr: Documentation Madaster 
+title: Madaster Documentation
 
 defaults:
   -

@@ -8,6 +8,6 @@ Invoke-WebRequest https://api.madaster.com/swagger/v2.0/swagger.json -OutFile sw
 spectacle -t api-docs -l assets/images/madaster-logo.svg swagger.json
 ```
 ## Run locally
-  
+  Install: https://jekyllrb.com/docs/installation/windows/
   bundle install
   bundle exec jekyll serve
