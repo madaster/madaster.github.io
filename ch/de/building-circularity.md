@@ -23,6 +23,6 @@ Die Gebäude-CI wird um zwei Faktoren korrigiert, die die Vollständigkeit des i
 
 **Hinweis**: Die Beurteilung der Zirkularität befindet sich innerhalb der Madaster-Plattform noch in der Entwicklung. Im Moment haben die hier gezeigten Ergebnisse eine geringe Zuverlässigkeit. Wenn der Zirkularitätsindikator einen nächsten Schritt gemacht hat, der die Zuverlässigkeit erhöht, wird dies (hier) mitgeteilt.
 
-Wünschen Sie weitere Informationen über das Detailbild? Dann klicken Sie <a href="https://docs.madaster.com/building-circularity-details-de">hier</a>.
+Wünschen Sie weitere Informationen über das Detailbild? Dann klicken Sie <a href="./building-circularity-details">hier</a>.
 
-Eine <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detaillierte Erklärung</a> des Madaster Circularity Indicator ist ebenfalls verfügbar.
+Eine <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">detaillierte Erklärung</a> des Madaster Circularity Indicator ist ebenfalls verfügbar.
