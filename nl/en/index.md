@@ -14,20 +14,18 @@ On this page you will find additional information about the use and development 
 
 ### General manuals
 
- * Read the <a href="/files/Madaster ALG - User Manual_UK_v20-2.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
- * Read the <a href="/files/Madaster ALG - Manual Add Products_UK_v20-8.pdf" target="_blank">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
- * Read the  <a href="/files/Madaster ALG - Action plan_UK_v20-2.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
-  * Read the  <a href="/files/MdS - EN - Text for requesting a Madaster material passport - March 2020.pdf" target="_blank">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
+ * Read the <a href="/files/en/Madaster - User Manual.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
+ * Read the <a href="/files/en/Madaster - Manual Add Products.pdf" target="_blank">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
+ * Read the  <a href="/files/en/Madaster - Action Plan.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
+ * Read the  <a href="/files/en/Madaster - Tender text Madaster material passport.pdf" target="_blank">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
 
 
 ### BIM-specific manuals & templates
 
-  * Download the <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">Madaster Material List 2020-1</a> - it displays the materials in Dutch, English, French and German that are standard in the Madaster database, plus the UID's of the materials.
-
-
- * Read the <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
- * Read the <a href="/files/Madaster BIM - IFC import UK_v20-2.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
- * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
+ * Download the <a href="/files/en/Madaster Materials.xlsx" target="_blank">Madaster Material List</a> - it displays the materials in Dutch, English, French and German that are standard in the Madaster database, plus the UID's of the materials.
+ * Read the <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
+ * Read the <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
+ * Read the <a href="/files/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
  * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
@@ -35,13 +33,12 @@ On this page you will find additional information about the use and development 
 
 
 
-
 ### Reference works
 
- * Read the <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
 _Coming soon (document in Dutch-only for now)_ :
-* Read the <a href="/files/20180802_Toelichting_financiele_tab_V1.0_nl.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
+* Read the <a href="/files/en/Madaster - Financial.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
 ---
 
@@ -54,6 +51,7 @@ Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+3185
 
 More information about the releases can be found here:
 
+* <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Release notes 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_09_UK.pdf" target="_blank">Release notes January 7th 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_08_UK.pdf" target="_blank">Release notes December 1st 2020</a>
 * <a href="/files/Madaster Releasenotes_2020_06_UK.pdf" target="_blank">Release notes October 14th 2020</a>
