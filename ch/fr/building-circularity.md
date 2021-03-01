@@ -24,6 +24,6 @@ L'IC du bâtiment est corrigé par deux facteurs qui incluent l'exhaustivité de
 
 **Remarque** : L'évaluation de la circularité est toujours en cours de développement sur la plateforme Madaster. Pour l'instant, les résultats présentés ici sont peu fiables. Si l'indicateur de circularité a franchi une étape supplémentaire qui augmente la fiabilité, cela est signalé (ici).
 
-Vous souhaitez plus d'informations sur l'écran de détail ? Cliquez <a href="https://docs.madaster.com/building-circularity-details-fr">ici</a>.
+Vous souhaitez plus d'informations sur l'écran de détail ? Cliquez <a href="./building-circularity-details">ici</a>.
 
-Une <a href="https://docs.madaster.com/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">explication détaillée de l'indicateur de circularité</a> de Madaster est également disponible.
+Une <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">explication détaillée de l'indicateur de circularité</a> de Madaster est également disponible.

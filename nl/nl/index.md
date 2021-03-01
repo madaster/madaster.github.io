@@ -30,7 +30,7 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
 
  
-  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands en Engels die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
 
 
 ### Naslagwerken

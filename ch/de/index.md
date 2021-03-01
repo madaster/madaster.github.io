@@ -25,7 +25,7 @@ _Demnächst erhältlich (Dokumente vorerst nur auf Englisch) - Aufgrund der neue
 
 ### BIM-spezifische Handbücher & Vorlagen
 
-  * Laden Sie das <a href="/files/de/Madaster MaterialS.xlsx">Madaster Materialen</a> - sie zeigt die Materialien in Niederländisch, Englisch, Französisch und Deutsch an, die in der Madaster-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
+  * Laden Sie das <a href="/files/de/Madaster Materialien.xlsx">Madaster Materialen</a> - sie zeigt die Materialien in Deutsch an, die in der Madaster-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
 
  * Öffnen Sie das <a href="/files/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster Manual IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="/files/Archicad_ExportTemplate.tpl">Download</a> die Madaster IFC-Exportvorlage für Archicad - dies beinhaltet die optimalen Exporteinstellungen für eine IFC-Datei auf die Madaster-Plattform.

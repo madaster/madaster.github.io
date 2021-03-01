@@ -18,17 +18,17 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Manuels généraux
 
- * Liser le <a href="/files/Madaster ALG - User manual UK_v20-1.pdf" target="_blank">manuel utilisateur Madaster</a> – Ce manuel decrit en detail les fonctionalités de la plateforme Madaster.
- * Liser le <a href="/files/Madaster ALG - Manual Add Products_UK_v20-8.pdf">manuel utilisateur gestion des produits</a> – Ce manuel décrit en detail comment gérer les produits de différents sortes dans vos base de données sur la plateforme Madaster.
- * Liser le  <a href="/files/Madaster ALG - Action plan_UK_v20-1.pdf">plan d'action pour passeport matériel Madaster</a> - this document décrit en détail les étapes necessaires pour aboutir à un passeport matériel.
+ * Liser le <a href="/files/en/Madaster - User manual.pdf" target="_blank">manuel utilisateur Madaster</a> – Ce manuel decrit en detail les fonctionalités de la plateforme Madaster.
+ * Liser le <a href="/files/en/Madaster - Manual Add Products.pdf" target="_blank">manuel utilisateur gestion des produits</a> – Ce manuel décrit en detail comment gérer les produits de différents sortes dans vos base de données sur la plateforme Madaster.
+ * Liser le  <a href="/files/en/Madaster - Action plan.pdf" target="_blank">plan d'action pour passeport matériel Madaster</a> - this document décrit en détail les étapes necessaires pour aboutir à un passeport matériel.
 
 ### Manuels et autres informations spécifiques BIM.
 
-  * Télécharger la <a href="/files/Madaster BIM - Materialen Lijst 2020-1.xlsx">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
+  * Télécharger la <a href="/files/fr/matériel Madaster.xlsx" target="_blank">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
 
- * Liser ke <a href="/files/Madaster BIM-IFC guidelines UK_v20-1 UK.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
- * Read the <a href="/files/Madaster BIM - IFC import proces_v20-2.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
- * Read the <a href="/files/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
+ * Liser le <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
+ * Read the <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
+ * Read the <a href="/files/en/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
  * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
@@ -38,10 +38,9 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Reference works
 
- * Read the <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circularity Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
-_Coming soon (document in Dutch-only for now)_ :
-* Read the <a href="/files/20180802_Toelichting_financiele_tab_V1.0_nl.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
+* Read the <a href="/files/en/Madaster - Financial.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
 ---
 
