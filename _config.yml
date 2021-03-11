@@ -9,6 +9,10 @@ countries:
     code: "ch"
     defaultlanguage: "de"
     languages: "de,fr"
+  - country: "Norway"
+    code: "no"
+    defaultlanguage: "en"
+    languages: "en"
   
 title: Madaster Documentation
 
@@ -55,12 +59,6 @@ defaults:
       path: "no/en"
     values:
         country: "no"
-        lang: "en" 
-  - 
-    scope :
-      path: "no/no"
-    values:
-        country: "no"
-        lang: "no"     
+        lang: "en"  
 
   
