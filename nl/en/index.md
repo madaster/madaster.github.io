@@ -37,7 +37,6 @@ On this page you will find additional information about the use and development 
 
  * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
-_Coming soon (document in Dutch-only for now)_ :
 * Read the <a href="/files/en/Madaster - Financial.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
 ---
