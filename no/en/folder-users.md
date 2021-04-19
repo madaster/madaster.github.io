@@ -23,6 +23,6 @@ A user can be deleted by clicking on the trash icon on the right. A user's role 
 |Add building to a folder                    | Yes          | Yes                               | Yes     | No   |
 |Add and remove users                        | Yes          | No                                | No      | No   |
 |Add database (folder level)                 | Yes          | No                                | No      | No   |
-|Contribute to database (folder level)       | Yes          | Yes                               | No      | No   |
+|Contribute to database created at folder level or shared with folder with at least contributions rights     | Yes          | Yes                               | No      | No   |
 |Export Material Passport                    | Yes          | Yes                               | Yes     | No   |
 |Download Material Passport to PDF           | Yes          | Yes                               | Yes     | No   |

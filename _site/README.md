@@ -7,3 +7,7 @@ Run `update-api-docs.ps1`, which runs the following commands:
 Invoke-WebRequest https://api.madaster.com/swagger/v2.0/swagger.json -OutFile swagger.json
 spectacle -t api-docs -l assets/images/madaster-logo.svg swagger.json
 ```
+## Run locally
+  Install: https://jekyllrb.com/docs/installation/windows/
+  bundle install
+  bundle exec jekyll serve

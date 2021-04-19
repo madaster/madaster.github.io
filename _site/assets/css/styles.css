@@ -202,7 +202,6 @@ ul:not(.menu-list) li a {
 
 .menu-list li ul {
     border-left: none;
-    margin:0px;
 }
 
 .menu-label:not(:last-child) {

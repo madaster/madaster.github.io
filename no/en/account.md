@@ -1,8 +1,6 @@
 ---
 title: Account - General
 ref: account
-country: nl
-lang: en
 ---
 
 ## What information is shown here?

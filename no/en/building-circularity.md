@@ -29,6 +29,6 @@ Would you like more information about the detail screen? Then click here.
 
 A detailed explanation of the Madaster Circularity Indicator is also available"". Translated with www.DeepL.com/Translator (free version)"
 
-Would you like more information about the detail screen? Click <a href="./building-circularity-detail">here</a>.
+Would you like more information about the detail screen? Click <a href="/building-circularity-details">here</a>.
 
-A <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">detailed explanation</a> of the Madaster Circularity Indicator is also available.
+A <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detailed explanation</a> of the Madaster Circularity Indicator is also available.

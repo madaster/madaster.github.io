@@ -9,7 +9,7 @@ The overview below shows the result of linking elements from the imported file t
 
 ### PERCENTAGE OF LINKED ELEMENTS
 - Based on number of elements; the percentage of the total number of elements linked to a product or material. Here you can see the improvements compared to the first automatic matching.
-- Based on volume; ; the percentage of the total volume that is linked to a product or material. Here it becomes visible what the improvements are compared to the first automatic matching.
+- Based on volume; the percentage of the total volume that is linked to a product or material. Here it becomes visible what the improvements are compared to the first automatic matching.
 
 
 ### ACTIVATE THE FILE FOR THE BUILD DATA : CONFIRM

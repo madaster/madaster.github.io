@@ -1,8 +1,6 @@
 ---
 title: Circularity - Detail level
 ref: building-circularity-details
-lang: en
-country: nl
 ---
 
 ## Circularity score _concept_
@@ -25,8 +23,8 @@ Circularity is still under development within the Madaster platform. Below is a 
 
 
 ### PHASE 1: THE CONSTRUCTION PHASE
-- **Purpose**: 100% material from used sources.
-- **Current calculation**: dynamic values for recycling/reuse percentages at product and material level. In addition to the Madaster Database (captured data on material categories and passed on to products), there is the possibility of manually enriching values based on practical knowledge.
+**Purpose**: 100% material from used sources.
+**Current calculation**: dynamic values for recycling/reuse percentages at product and material level. In addition to the Madaster Database (captured data on material categories and passed on to products), there is the possibility of manually enriching values based on practical knowledge.
 
 **Development**
 - Step 1: Linking external sources with recycling and reuse rates
@@ -35,8 +33,8 @@ Circularity is still under development within the Madaster platform. Below is a 
 
 
 ### PHASE 2: THE USE PHASE
-- **Purpose**: To maximise the functional life and useful life for circular products
-- **Current calculation**: starting point for the current industry average lifespan are the Layers of Fire (location (500 yr.), construction (100 yr.), enclosure (20 yr.), installations (15 yr.), finishing (10 yr.) and interior (5 yr.)). For the current average lifespan, the starting point is the lifespan filled in by the user at building level. This is (possibly) adaptable at product level.
+**Purpose**: To maximise the functional life and useful life for circular products.
+**Current calculation**: starting point for the current industry average lifespan are the Layers of Brand (location (500 yr.), construction (100 yr.), enclosure (20 yr.), installations (15 yr.), finishing (10 yr.) and interior (5 yr.)). For the current average lifespan, the starting point is the lifespan filled in by the user at building level. This is (possibly) adaptable at product level.
 
 **Development**
 - Step 1: in-depth information on functional, technical, economic and architectural lifespan in relation to the use and consumption of materials, products and buildings.

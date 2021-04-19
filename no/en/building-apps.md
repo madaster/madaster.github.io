@@ -1,7 +1,6 @@
 ---
 title: Apps
 ref: building-apps
-lang: en
 ---
 
 ## What information is shown here?
