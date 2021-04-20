@@ -19,6 +19,11 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
  * Open de <a href="/files/nl/Madaster - Tekst voor uitvragen Madaster materialenpaspoort.pdf" target="_blank">handleiding voor het uitvragen Madaster paspoort</a> document - Dit document geeft een handleiding over hoe een Madaster materialenpaspoort uitgevraagd kan worden in een aanbestedingstekst. Als aanvulling hierop biedt het concrete voorbeeldzinnen die gebruikt kunnen worden in de uitvraag.
 
 
+### Online Instructievideo's
+
+Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hWTtwLRQjWdwc1G_x9wTcH1hFdUeB" target="_blank">Madaster Instructievideo's</a> - deze instructievideo’s geven stap voor stap uitleg hoe bepaalde functies in Madaster werken en hoe hier optimaal gebruik van gemaakt kan worden.
+
+
 ### BIM-specifieke handleidingen & sjablonen
 
  * Lees de <a href="/files/nl/Madaster BIM - IFC Richtlijnen.pdf" target="_blank">Madaster IFC-richtlijn</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
