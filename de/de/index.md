@@ -6,6 +6,7 @@ menubar: none
 
 ## Willkommen auf der Madaster-Plattform!
 
+
 ---
 
 ## <img class="header-img" src="/assets/images/767.svg"> Handbücher
