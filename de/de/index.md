@@ -27,13 +27,13 @@ _Demnächst erhältlich (Dokumente vorerst nur auf Englisch) - Aufgrund der neue
 
   * <a href="/files/de/Madaster Materialen.xlsx" target="_blank">Madaster Materialen</a> - sie zeigt die Materialien in Deutsch an, die in der Madaster-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
 
- * <a href="/files/de/Madaster BIM - IFC Export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
+ * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="/files/Archicad_ExportTemplate.tpl" target="_blank">Download</a> die Madaster IFC-Exportvorlage für Archicad - dies beinhaltet die optimalen Exporteinstellungen für eine IFC-Datei auf die Madaster-Plattform.
  * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * <a href="/files/de/Madaster – IFC Import.pdf" target="_blank">Madaster-IFC-Importprozess</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
- * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/BIMbasicIDM" target="_blank">BIM loket</a>.  
+ * Interessante allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/documents/BIM_basis_ILS_v1_0_DEU.pdf" target="_blank">BIM loket</a>.  
 
 
 
