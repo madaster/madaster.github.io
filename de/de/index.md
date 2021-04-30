@@ -5,7 +5,6 @@ menubar: none
 ---
 
 ## Willkommen auf der Madaster-Plattform!
-Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwicklung der Madaster-Plattform.
 
 ---
 
