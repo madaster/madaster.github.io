@@ -27,7 +27,7 @@ The main screen shows the list of all elements contained in the source file. The
 - Element; element name from the source file;
 - Materials; material name from the source file;
 - Product/material; the product/material to which the element is linked;
-- Number; the number of elements of this type/name;
+- Quantity; the number of elements from the source file linked to a material/product in Madaster;
 - Icon: link.
 
 By selecting one or more elements, a dialog block appears, with which the elements can be headed / disconnected, or embedded / excluded. Including or excluding an element will result in this element being included/not included in the calculations. This can be used, for example, for the mass of the surrounding terrain if it is included in the source file. Or if there are duplications.
