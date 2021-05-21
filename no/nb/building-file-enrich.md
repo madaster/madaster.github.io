@@ -27,7 +27,7 @@ Hovedskjermen viser listen over alle elementer som finnes i kildefilen. Kolonnen
 - Element; elementnavnet fra kildefilen.
 - Materialer; materialnavnet fra kildefilen.
 - Produkt/materiale; produktet/materialet som elementet er koblet til.
-- Mengde; antallet elementer av denne typen / med dette navnet.
+- Antall; antallet elementer av denne typen / med dette navnet.
 - Ikon; kobling.
 
 Når ett eller flere elementer velges, vises et dialogfelt der elementene kan få overskrift eller bli koblet fra, eller bli inkludert/utelatt. Å inkludere eller utelate et element vil føre til at dette elementet blir inkludert / ikke inkludert i beregningene. Dette kan for eksempel brukes for massen av det omliggende terrenget hvis den er inkludert i kildefilen. Eller hvis det forekommer duplikater.
