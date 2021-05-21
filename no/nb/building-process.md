@@ -17,9 +17,9 @@ Det er også mulig å klikke på en fase, for eksempel «Eksisterende» eller «
 
 - Eksisterende; tilstanden ved begynnelsen av renoveringen;
 - Riving; alle materialer og produkter som forlater bygningen;
-- Casco; tilstanden etter riving (beregning = Eksisterende minus Riving);
-- Ny; alle nye (jomfruelige) og ombrukte materialer og produkter lagt til bygningen under rehabiliteringen,
-- Endelig; det endelige resultatet av rehabiliteringen (beregning = Casco pluss ny).
+- Mellomstatus; (Casco) tilstanden etter riving (beregning = Eksisterende minus Riving);
+- Nye materialer; alle nye jomfruelige, gjenvunnede og ombrukte materialer og produkter lagt til bygningen under rehabiliteringen,
+- Endelig; det endelige resultatet av rehabiliteringen (beregning = Mellomstatus pluss Nye materialer).
 
 **Filter**
 I denne oversikten kan du bruke et filter. I filteret kan du legge inn materialer eller produkter, og bare disse materialene eller produktene blir vist i tabellen. Søkeresultatene i filteret kan slås av ved å klikke på krysset.
