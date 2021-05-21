@@ -15,7 +15,7 @@ På venstre siden finner du en søke- og filtreringsfunksjon. Filtrenes «temaer
 - Elementstatus; filtrer på koblede / ikke koblede elementer. Spesielt for beriking av elementer uten kobling er dette det viktigste filteret;
 - Elementberegning; filtrer på inkluderte/utelatte elementer;
 - IFC-type; filtrer på tilgjengelige IFC-typer;
-- Byggefase; filtrer på eksisterende byggefase (Gjeldende/Riving/Råbygg/Jomfruelige materialer/Endelig;
+- Byggefase; filtrer på eksisterende byggefase (Gjeldende/Riving/Mellomstatus/Nye materialer/Endelig;
 - Bygningslag; filtrer på eksisterende bygningslag (Brands lagdeling);
 - Etasje; filtrer på eksisterende etasje/bygningslag;
 - Klassifiseringsmetoder; filtrer på tilgjengelig klassifiseringskode;
