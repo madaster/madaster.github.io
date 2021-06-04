@@ -18,7 +18,7 @@ It is also possible to click on a phase, for example 'Current' or 'Demolition'. 
 - Current; the state of affairs at the start of the renovation;
 - Demolition; all materials and products leaving the building;
 - Casco; the state of affairs after demolition (calculation = Current minus Demolition);
-- New; all new (virgin) and reused materials and products added to the building during the renovation;
+- New; all new materials and products added to the building during the renovation;
 - Final; the final result of the renovation (calculation = Casco plus New).
 
 **Filter**
