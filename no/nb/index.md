@@ -15,7 +15,7 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 ### Generelle håndbøker
 
  * Les <a href="/files/no/Madaster - User Manual.pdf" target="_blank">Madaster brukerhåndbok</a>- Denne håndboken beskriver i detalj funksjonene i Madaster-plattformen og hvordan de kan brukes.
- * Les <a href="/files/no/Madaster - Manual Add products.pdf" target="_blank">Madaster håndbok for å legge til produkter</a>- dette dokumentet beskriver i detalj hvordan forskjellige produkttyper legges til i Madaster.
+ * Les <a href="/files/no/Madaster - Manual Add Products.pdf" target="_blank">Madaster håndbok for å legge til produkter</a>- dette dokumentet beskriver i detalj hvordan forskjellige produkttyper legges til i Madaster.
  * Les  <a href="/files/no/Madaster - Action Plan.pdf" target="_blank">Madaster handlingsplan materialpass</a>- Dette dokumentet beskriver prosesstrinnene som kreves frem til det leveres et materialpass i Madaster-plattformen.
   * Les  <a href="/files/no/Madaster - Tender text Madaster material passport.pdf" target="_blank">Håndbok for å be om et Madaster-pass</a>- Dette dokumentet er en håndbok i hvordan du ber om et Madaster-materialpass i en utlysningstekst. Dessuten gir den konkrete eksempelsetninger som kan brukes i anvendelsen.
 
