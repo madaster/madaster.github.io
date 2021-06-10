@@ -7,6 +7,8 @@ ref: faq
 Wenn Sie sich auf der Plattform anmelden, gelangen Sie automatisch zum Startbildschirm. Hier zeigt der Hauptbildschirm den zuletzt von Ihnen bearbeiteten oder angesehenen Artikel an. Auf der linken Seite sehen Sie ein aufklappbares Navigationsmenü, die Favoriten, eine Übersicht der Ordner und Gebäude, zu denen Sie Zugang haben, sowie weitere Plattformfunktionen. 
 Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst einen oder mehrere Ordnertypen erstellen, die Sie zur Organisation Ihres Kontos verwenden können. Klicken Sie dazu im Navigationsmenü auf den Namen Ihres Kontos.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cTiGd0j7JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## WAS KANN ICH MIT DER BLAUEN MENÜLEISTE MACHEN?
 Die blaue Menüleiste zeigt eine Reihe von Funktionalitäten:
 
