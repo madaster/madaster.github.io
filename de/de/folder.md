@@ -6,6 +6,8 @@ ref: folder
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT? ##
 Hier finden Sie alle in diesem Konto erstellten Ordner. Ein Ordner kann als eine bestimmte Sammlung von Unterordnern und/oder Gebäuden angesehen werden. In der Schublade Navigation ist die Ordnerstruktur sichtbar und kann ein-  und ausgeklappt werden, um den Überblick über alle Ordner, Unterordner und Gebäude zu behalten, auf die Sie Zugriff haben.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ePXIawEfcuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## REGISTERKARTE ##
 Das Vorhandensein von Registerkarten kann je nach Art des Ordners variieren. In jedem Fall sind drei Registerkarten vorhanden:
 

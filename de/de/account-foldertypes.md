@@ -6,6 +6,8 @@ ref: account-foldertypes
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
 Sie können hier einen neuen Ordnertyp erstellen, der auf das gesamte Konto angewendet werden kann, um eine geeignete Organisationsstruktur für Ihr Madaster-Konto zu schaffen. Sie sehen eine Schaltflächenleiste mit einem Button zum Erstellen eines neuen Ordnertyps. Darunter sehen Sie die Liste der bereits erstellten Ordnertypen.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ePXIawEfcuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## WIE FÜGE ICH EINEN NEUEN ORDNERTYP HINZU?
 Klicken Sie auf „Ordnertyp hinzufügen“. Es öffnet sich ein neues Fenster:
 - Geben Sie den Namen des Ordnertyps ein.
