@@ -1,5 +1,5 @@
 ---
-title: Benutzers
+title: Benutzer
 ref: folder-users
 ---
 

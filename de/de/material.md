@@ -1,5 +1,5 @@
 ---
-title: Materialien
+title: Material
 ref: material
 ---
 

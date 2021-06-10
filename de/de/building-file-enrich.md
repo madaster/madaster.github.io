@@ -1,5 +1,5 @@
 ---
-title: Bereichern
+title: Anreichern
 ref: building-file-enrich
 ---
 
