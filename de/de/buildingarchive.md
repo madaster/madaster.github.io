@@ -1,5 +1,5 @@
 ---
-title: Gebäudearchiev
+title: Gebäudearchiv
 ref: buildingarchive
 ---
 
