@@ -21,7 +21,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### Online Tutorials
 
-* Schauen Sie sich hier die <a href="https://www.youtube.com/watch?v=-cTiGd0j7JE&list=PLS17hWTtwLRQiJQt82xjYFHxbEZB6djAh&index=22" target="_blank">Madaster-Tutorials</a> an - diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
+* Schauen Sie sich hier die <a href="https://youtube.com/playlist?list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" target="_blank">Madaster-Tutorials</a> an - diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
 
 ### BIM-spezifische Handbücher & Vorlagen
 
