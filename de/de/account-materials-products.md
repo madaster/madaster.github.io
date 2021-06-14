@@ -6,6 +6,8 @@ ref: account-materials-products
 ## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?
 Auf dieser Seite finden Sie alle Materialien und Produkte, die in der Madaster-Datenbank und anderen öffentlich zugänglichen Datenbanken enthalten sind und alle Produkte, die Sie selbst auf der Plattform eingegeben haben (durch den Prozess; Anreicherung einer Quelldatei). 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KylieVoDaZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Unter dem geschlossenen Filter “Quelle” auf der linken Seite finden Sie eine Liste der verfügbaren Datenbanken mit Materialien und Produkten, auf die Sie Zugriff haben:
 
 - Alle Materialien und Produkte aus der Madaster-Datenbank können durch Auswahl von “Madaster” im Filter gefunden werden. Ihre eigenen Materialien und Produkte können durch Filtern nach dem Namen Ihres eigenen Kontos gefunden werden. Andere Benutzer außerhalb Ihres Kontos können die von Ihnen hinzugefügten Materialien nicht sehen, sie können nur sehen, was sie selbst hinzugefügt haben. 
