@@ -21,7 +21,9 @@
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% assign foundlink =  site.pages | where:"country", page.country | where:"lang",page.lang | where:"ref", item.ref | first"   %}
+                    {% if foundlink%}
                     <a href="{{ foundlink.url }}" class="madaster-navbar-item navbar-item {% if item.ref == page.ref %}is-active{% endif %}">{{ foundlink.title }}</a>
+                    {% endif %}
                 {% endfor %}
                 {% endif %}
             </div>
