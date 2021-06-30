@@ -18,11 +18,11 @@ Um einen API-Schlüssel zu erhalten, müssen Sie ein Token in der Madaster-Platt
 Dadurch erhalten Sie Zugriff auf die Ressourcen und die damit verbundenen Entitäten.
 
 ### HINZUFÜGEN EINES TOKENS ZU EINEM KONTO, ORDNER, GEBÄUDE ODER EINER DATENBANK
-- Gehen Sie zur Registerkarte "Ressourcen" und klicken Sie auf die Registerkarte *Benutzer*.
+- Klicken Sie auf die Registerkarte *Benutzer*.
 
 <img src="/assets/images/api/addtoken1.png" class="api-img"/>
 
-- Klicken Sie auf die Schaltfläche *Add API Token*.
+- Klicken Sie auf die Schaltfläche *API-TOKEN HINZUFÜGEN*.
 
 <img src="/assets/images/api/addtoken2.png" class="api-img"/>
 
