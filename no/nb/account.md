@@ -24,7 +24,7 @@ Hvis du, som en kontoeier/bruker med tilgang til kontonivået, har klikket på "
 - **Ny mappe +** ; Denne lar deg opprette en ny mappe med den spesifikke mappetypen.
 - **Ny database +** ; Denne lar deg opprette en ny database for denne kontoen og de underliggende mappene og bygningene. Det kan opprettes flere databaser per konto.
 
-'*' Ved å velge «listevisning» får du en samlet oversikt over alle underliggende mapper og bygninger. Det er også mulig å søke via søkevinduet (klikk på ordet «Søk»).
+'* Ved å velge «listevisning» får du en samlet oversikt over alle underliggende mapper og bygninger. Det er også mulig å søke via søkevinduet (klikk på ordet «Søk»).
 
 **SAKSMAPPE**
 - **Last opp**; via dialogboksen kan filer lastes opp til kontoen.
