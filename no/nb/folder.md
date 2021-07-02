@@ -36,7 +36,7 @@ Hvilke faner som finnes, kan variere med mappetypen. Uansett finnes bestandig di
 
 **BYGNINGER** (om aktuelt)
 - Filter; filtrer for å søke etter spesifikke materialer eller produkter.
-- Visning; endre kolonne-/radvisningen;
+- Visning; endre kolonne-/radvisningen.
 - Visning; endre visningen fra volum (kuben) til masse (loddet). Standardvisningen viser % av volum, den andre viser % av masse.
 - Bygninger; muligheten til å velge en eller flere bygninger som ligger i denne mappen eller i undermapper.
 Hvis det er bygninger i mappen, gir faneskjermbildet Bygninger en oversikt (samling) av alle materialer og produkter som finnes i de valgte bygningene.
