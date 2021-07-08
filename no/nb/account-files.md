@@ -11,7 +11,7 @@ Last opp; last opp en fil og merk den med et søkebegrep.
 
 ### MAPPER; FASTE MAPPER FOR DOKUMENTASJON OM:
 Saksmappe:
-- kontrakter og garantier
-- leverandører og sertifikater
-- produktspesifikasjoner og håndbøker
-- tegninger og beregninger
+- Kontrakter og garantier.
+- Leverandører og sertifikater.
+- Produktspesifikasjoner og håndbøker.
+- Tegninger og beregninger.

@@ -8,14 +8,15 @@ Når du logger på plattformen, begynner du med startskjermen som standard. Dett
 
 ### HVA KAN JEG GJØRE MED DEN BLÅ MENYLINJEN?
 Den blå menylinjen viser antallet funksjoner:
-- **Favoritter** : en «stjerne», denne lar deg opprette en «favoritt» når som helst, hvor som helst. Disse vises øverst i «navigasjonsskuffen»;
-- **Meldinger** : en «klokke»; meldinger og varsler vises her;
-- **Informasjon** : en «i», beskriver de tilgjengelige funksjonene på den siden;
-- **Innstillinger** : «tre prikker»; som gir tilgang til profilen din, systeminnstillinger og et avloggingsalternativ.
+- **Feedback**: en "ropert" som gir deg mulighet til å gi tilbakemeldinger til Madaster om feilmeldinger, ønsker om funksjonalitet og andre forslag.
+- **Favoritter**: en «stjerne», denne lar deg opprette en «favoritt» når som helst, hvor som helst. Disse vises øverst i «navigasjonsskuffen».
+- **Meldinger**: en «klokke»; meldinger og varsler vises her.
+- **Informasjon**: en «i», beskriver de tilgjengelige funksjonene på den siden.
+- **Innstillinger**: «tre prikker»; som gir tilgang til profilen din, systeminnstillinger og et avloggingsalternativ.
 
 
 ### HVORDAN KAN JEG NAVIGERE ENKELT OG RASKT GJENNOM PLATTFORMEN?
-På hver side i plattformen finner du såkalte «brødsmulesti» øverst. Med dette sporet kan du bestandig gå tilbake til en side der du har vært før. Fra hver side kan du ta ett eller flere trinn tilbake ved å klikke på ett av punktene i denne brødsmulestien. Du kan bestandig gå tilbake til startsiden ved å klikke på det første punktet, «Hjem», i stien. På hver side er det mulig å opprette en «favoritt». Disse «favorittene» vises øverst i «navigasjonsskuffen».
+På hver side i plattformen finner du en såkalt «brødsmulesti» øverst. Med dette sporet kan du bestandig gå tilbake til en side der du har vært før. Fra hver side kan du ta ett eller flere trinn tilbake ved å klikke på ett av punktene i denne brødsmulestien. Du kan bestandig gå tilbake til startsiden ved å klikke på det første punktet, «Hjem», i stien. På hver side er det mulig å opprette en «favoritt». Disse «favorittene» vises øverst i «navigasjonsskuffen».
 
 
 ### HVORDAN KAN JEG NAVIGERE ENKELT OG RASKT GJENNOM MAPPENE OG BYGNINGENE MINE?

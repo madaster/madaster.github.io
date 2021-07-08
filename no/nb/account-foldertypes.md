@@ -27,3 +27,4 @@ Klikk på «Mappetype +». Et nytt vindu åpnes.
 - Logo: Gi mappen din en logo som blir synlig som flis-bilde for mappen.
 
 Klikk på «Lagre» eller «Avbryt».
+

@@ -12,7 +12,6 @@ Tabellen gir innsikt i hvem som har rettigheter til denne mappen, undermappene o
 ### HVORDAN KAN JEG SLETTE BRUKERE ELLER ENDRE ROLLENE OG TILLATELSENE DERES?
 En bruker kan slettes ved å klikke på søppelikonet til høyre. En brukers rolle og tillatelser kan endres ved å klikke på penneikonet til høyre.
 
-
 ### TILGJENGELIGE ROLLER OG TILLATELSER PÅ KONTONIVÅ:
 
 | Kontonivå | Administrator | Manager & bidragsyter til database | Manager | Leser |
