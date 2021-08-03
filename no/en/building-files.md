@@ -31,16 +31,16 @@ After going through the above steps once, you can activate and deactivate a sour
 
 
 ### HOW DO I CHANGE THE STATUS OF A FILE FROM 'ACTIVE' TO 'INACTIVE'?
-A source file can be made inactive using the slider in the 'Active' column in the 'File'-tab.
+A source file can be made inactive using the slider in the 'Active' column in the 'Dossier'-tab.
 
 
 ### WHERE CAN I FIND THE MATERIAL PASSPORTS (PDF-FILES) I CREATED EARLIER?
 A material passport that you have created in the past is automatically saved in the 'Dossier' tab in the 'Passports' folder. Clicking on the folder 'Passports' will make them visible under the section 'General file' (at the bottom of the page). Here you can download the created material passports to your computer by means of the download icon behind the relevant material passport. In addition, you can provide passports with additional search terms ('tags') and remove material passports (trash can icon).
 
-When creating a material passport (PDF), an Excel file is also generated and placed in the file. This Excel file shows the general building data, the totals of all elements and the specific elements in the various building envelope per tab. In this way one can apply analyses in the details of a building by means of filtering.
+When creating a material passport (PDF), an Excel file is also generated and placed in the dossier. This Excel file shows the general building data, the totals of all elements and the specific elements in the various building envelope per tab. In this way one can apply analyses in the details of a building by means of filtering.
 
 
-### HOW CAN I SEARCH FOR FILES IN THE FILE?
+### HOW CAN I SEARCH FOR FILES IN THE DOSSIER?
 In the 'Dossier'-tab there are two ways to find general and source files, namely via 
 - the search function;
 - 'tags'.
