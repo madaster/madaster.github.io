@@ -25,6 +25,6 @@ Bygningens CI-verdi korrigeres med to faktorer som i totalverdien inkluderer gra
 
 **Merk**: sirkularitetsvurderingen er fremdeles under utvikling i Madasterplattformen. I øyeblikket har resultatene som vises her, lav pålitelighet. Hvis Sirkularitetsindikatoren utvikles til et nytt trinn som øker påliteligheten, vil dette bli kommunisert (her).
 
-Vil du ha mer informasjon om detaljskjermbildet? Klikk <a href="/building-circularity-details">her</a>.
+Vil du ha mer informasjon om detaljskjermbildet? Klikk <a href="/building-circularity-detail">her</a>.
 
 A <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detaljert forklaring</a> om Madaster Circularity Indicator er også tilgjengelig.
