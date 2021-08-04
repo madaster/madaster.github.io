@@ -27,7 +27,7 @@ Circularity is still under development within the Madaster platform. Below is a 
 **Current calculation**: dynamic values for recycling/reuse percentages at product and material level. In addition to the Madaster Database (captured data on material categories and passed on to products), there is the possibility of manually enriching values based on practical knowledge.
 
 **Development**
-- Step 1: Linking external sources with recycling and reuse rates
+- Step 1: Linking external sources with recycling and reuse rates.
 - Step 2: development of a circular BIM Information Delivery Manual, laying down how the information is included in the source file.
 - Step 3: Addition of waste from the production of materials, products and buildings.
 
