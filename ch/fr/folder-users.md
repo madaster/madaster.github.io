@@ -15,9 +15,9 @@ Un utilisateur peut être supprimé en cliquant sur l'icône de la corbeille sur
 
 |Niveau du bâtiment                                   | Administrateur | Gestionnaire | Lecteur |
 |-----------------------------------------------------|----------------|--------------|---------|
-|Créer des brochures et des sous-dossiers             | Oui            | Non          | Non     |
-|Afficher la brochure et les bâtiments qui y figurent | Oui            | Oui          | Oui     |
-|Modifier la brochure et les bâtiments qui y figurent | Oui            | Oui          | Non     |
+|Créer des dossiers et des sous-dossiers             | Oui            | Non          | Non     |
+|Afficher le dossier et les bâtiments qui y figurent | Oui            | Oui          | Oui     |
+|Modifier le dossier et les bâtiments qui y figurent | Oui            | Oui          | Non     |
 |Supprimer le dossier et les bâtiments qui y figurent | Oui            | Non          | Non     |
 |Ajouter des bâtiments à un dossier                   | Oui            | Oui          | Non     |
 |Ajouter et supprimer des utilisateurs                | Oui            | Non          | Non     |

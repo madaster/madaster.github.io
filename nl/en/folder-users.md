@@ -17,10 +17,10 @@ A user can be deleted by clicking on the trash icon on the right. A user's role 
 |Folder level                                | Administrator| Manager & Contributer to database | Manager |Reader|
 |--------------------------------------------|--------------|-----------------------------------|---------|------|
 |Create folders and subfolders               | Yes          | No                                | No      | No   |
-|View brochure and underlying buildings      | Yes          | Yes                               | Yes     | Yes  |
-|Modify folder and underlying buildings      | Yes          | Yes                               | Yes     | No   |
-|Delete folder and underlying buildings      | Yes          | No                                | No      | No   |
-|Add building to a folder                    | Yes          | Yes                               | Yes     | No   |
+|View folder and underlying buildings/folders   | Yes          | Yes                               | Yes     | Yes  |
+|Modify folder and underlying buildings/folders      | Yes          | Yes                               | Yes     | No   |
+|Delete folder and underlying buildings/folders      | Yes          | No                                | No      | No   |
+|Add building to a folder (if foldertype allows building)                    | Yes          | Yes                               | Yes     | No   |
 |Add and remove users                        | Yes          | No                                | No      | No   |
 |Add database (folder level)                 | Yes          | No                                | No      | No   |
 |Contribute to database (folder level)       | Yes          | Yes                               | No      | No   |

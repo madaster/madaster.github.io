@@ -21,10 +21,10 @@ De rol en het recht van een gebruiker kan aangepast worden door op het pen-icoon
 | Folderniveau                                   | Beheerder | Manager & bijdrager aan database    | Manager | Lezer |
 |------------------------------------------------|-----------|-------------------------------------|---------|-------|
 | Folders en subfolders aanmaken                 | Ja        | Nee                                 | Nee     | Nee   |
-| Folder en onderliggende gebouwen bekijken      | Ja        | Ja                                  | Ja      | Ja    |
-| Folder en onderliggende gebouwen aanpassen     | Ja        | Ja                                  | Ja      | Nee   |
-| Folder en onderliggende gebouwen verwijderen   | Ja        | Nee                                 | Nee     | Nee   |
-| Gebouw toevoegen aan een folder                | Ja        | Ja                                  | Ja      | Nee   |
+| Folder en onderliggende gebouwen/folders bekijken      | Ja        | Ja                                  | Ja      | Ja    |
+| Folder en onderliggende gebouwen/folders aanpassen     | Ja        | Ja                                  | Ja      | Nee   |
+| Folder en onderliggende gebouwen/folders verwijderen   | Ja        | Nee                                 | Nee     | Nee   |
+| Gebouw toevoegen aan een folder (wanneer foldertype gebouwen toestaat)               | Ja        | Ja                                  | Ja      | Nee   |
 | Gebruikers toevoegen en verwijderen            | Ja        | Nee                                 | Nee     | Nee   |
 | Aanmaken database (folder niveau)              | Ja        | Nee                                 | Nee     | Nee   |
 | Bijdragen aan database gedeeld met- of aangemaakt in deze folder | Ja        | Ja                                  | Nee     | Nee   |
