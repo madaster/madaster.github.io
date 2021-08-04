@@ -21,8 +21,8 @@ Informasjonen om bygningen er fordelt på et antall faner: «Generelt», «Saksm
 
 - **Generelt**; generell informasjon om bygningen, slik som adressen, matrikkeldata, funksjon, bruttoareal.
 - **Saksmappe**; alle filene som er lastet opp med denne bygningen, og materialpassene som er opprettet for denne bygningen, kan finnes her. For hver fane kan du få mer informasjon ved å klikke på ikonet for «informasjon» på høyre side av linjen: Dette vil bringe deg direkte til den riktige forklaringen.
-- **Bygning; en oversikt over alle materialer og produkter som er brukt per bygningsskall, og klassifisert i henhold til den valgte klassifiseringen av materialer.
-- **Byggeprosess**; informasjon om produktene og materialene som er brukt, klassifisert i henhold til bygningens byggeprosess. Denne fanen er bare tilgjengelig hvis bygningen har fått byggefasen ««Renovering»» under fanen Generelt.
+- **Bygning**; en oversikt over alle materialer og produkter som er brukt per bygningslag, og klassifisert i henhold til den valgte klassifiseringen av materialer.
+- **Byggeprosess**; informasjon om produktene og materialene som er brukt, klassifisert i henhold til bygningens byggeprosess. Denne fanen er bare tilgjengelig hvis bygningen har fått byggefasen «Renovering» under fanen Generelt.
 - **Sirkularitet**; Denne fanen gir informasjon om bygningens sirkularitetsindikasjon.
-- ** Økonomi**; Denne fanen gir informasjon om bygningens økonomiindikasjon.
+- **Økonomi**; Denne fanen gir informasjon om bygningens økonomiindikasjon.
 
