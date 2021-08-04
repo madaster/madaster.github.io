@@ -1,6 +1,6 @@
 ---
 title: Databasebrukere
-ref: database-availabilities
+ref: database-users
 ---
 
 ## Hvilken informasjon vises her?
