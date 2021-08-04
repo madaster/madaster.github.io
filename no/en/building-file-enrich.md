@@ -30,7 +30,7 @@ The main screen shows the list of all elements contained in the source file. The
 - Quantity; the number of elements from the source file linked to a material/product in Madaster;
 - Icon: link.
 
-By selecting one or more elements, a dialog block appears, with which the elements can be headed / disconnected, or embedded / excluded. Including or excluding an element will result in this element being included/not included in the calculations. This can be used, for example, for the mass of the surrounding terrain if it is included in the source file. Or if there are duplications.
+By selecting one or more elements, a dialog block appears, with which the elements can be linked / unlinked, or included / excluded. Including or excluding an element will result in this element being included/not included in the calculations. This can be used, for example, for the mass of the surrounding terrain if it is included in the source file. Or if there are duplications.
 
 
 ### 3D VIEWER
@@ -38,4 +38,4 @@ At the top of the window, in the blue bar, there is a button to activate a 3D vi
 - Show 3D model; the 3D viewer opens and shows the total model;
 - Show selection in 3D model; the 3D viewer opens and shows the selected element(s).
 
-If an element is selected in the 3D view, a dialog block appears, with which the elements can be headed/disconnected, or embedded/excluded. At this time, the element in question is not yet selected in the list.
+If an element is selected in the 3D view, a dialog block appears, with which the elements can be linked / unlinked, or included / excluded. At this time, the element in question is not yet selected in the list.
