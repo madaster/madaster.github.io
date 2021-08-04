@@ -9,7 +9,7 @@ In the case of the database of an archive: you will find all materials and produ
 
 
 ### Tabs
-**DATABASE**: This is where the materials, products and database properties can be processed..
+**DATABASE**: This is where the materials, products and database properties can be processed.
 
 **USERS**: users or API tokens can be added here.
 
@@ -18,8 +18,8 @@ In the case of the database of an archive: you will find all materials and produ
 
 ### BUTTONS - between the blue lines
 **DATABASE**
-- Edit database properties; change the name of the database and set whether this database should be set as default in the upload process;
-- Add material; add a new material to this database;
+- Edit database properties; change the name of the database and set whether this database should be set as default in the upload process.
+- Add material; add a new material to this database.
 - Add product; add a new product to this database.
 
 **USERS**
