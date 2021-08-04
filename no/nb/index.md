@@ -22,7 +22,7 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 
 ### BIM-spesifikke håndbøker og maler
 
-  * Last ned <a href="/files/no/Madaster Materials.xlsx">Madaster materialliste</a>- Denne viser materialene på engelsk og tysk som er standard i Madaster-databasen, pluss materialenes UID.
+  * Last ned <a href="/files/no/Madaster Materials.xlsx">Madaster materialliste</a>- Denne viser materialene på norsk og engelsk som er standard i Madaster-databasen, pluss materialenes UID.
  * Les <a href="/files/no/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-retningslinjer</a>- Denne beskriver kort de viktigste instruksjonene for å skissere en BIM-modell.
  * Les <a href="/files/no/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC-import</a>- Denne beskriver import av IFC-filer i Madaster.
  * Les <a href="/files/no/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC-eksport</a>- Denne beskriver kort trinnene for å eksportere en IFC-fil.
