@@ -6,7 +6,7 @@ menubar: none
 
 # Madaster API
 Endepunktet **Madaster API** kan brukes for å samhandle med Madaster-plattformen og ressursene på den.
-Dette API-et dekker ennå ikke all funksjonaliteten til plattformen, se [OpenAPI documentation](https://api.madaster.com/).
+Dette API-et dekker ennå ikke all funksjonalitet til plattformen, se [OpenAPI documentation](https://api.madaster.com/).
 
 For å få tilgang til API-ressursene, trenger du et godkjenningstoken.
 Hvis du ikke har ett ennå, se kapittelet om godkjenning nedenfor.
