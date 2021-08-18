@@ -8,7 +8,7 @@ Materialverdien importeres helst fra råvareprisene på offentlige råvarebørse
 
 
 ### Korreksjonsfaktorer
-Deretter ble materialverdiene korrigert for rivekostnader, behandlingskostnader, en korreksjon for størrelsen av råmaterialflyten og transportkostnader per kg. Rivekostnadene er indeksert med den gjennomsnittlige BDB-indeksen for de siste 18 årene. Behandling og behandlingskostnader er materialavhengige og bestemmes på grunnlag av intervjuer og skrivebordsanalyser. For transportkostnader er det antatt en avstand til behandler på 150 km per frakttransport for alle materialer unntatt steinmaterialer (20 km) og tre (40 km).
+Deretter blir materialverdiene korrigert for rivekostnader, behandlingskostnader, en korreksjon for størrelsen av råmaterialflyten og transportkostnader per kg. Rivekostnadene er indeksert med den gjennomsnittlige BDB-indeksen for de siste 18 årene. Behandling og behandlingskostnader er materialavhengige og bestemmes på grunnlag av intervjuer og skrivebordsanalyser. For transportkostnader er det antatt en avstand til behandler på 150 km per frakttransport for alle materialer unntatt steinmaterialer (20 km) og tre (40 km).
 
 
 ### Kilder

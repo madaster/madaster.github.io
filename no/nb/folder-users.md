@@ -17,7 +17,7 @@ En bruker kan slettes ved å klikke på søppelikonet til høyre. En brukers rol
 |Mappenivå                                | Administrator| Leder og bidragsyter til database | Leder |Leser|
 |--------------------------------------------|--------------|-----------------------------------|---------|------|
 |Opprett mapper og undermapper               | Ja          | Nei                                | Nei      | Nei   |
-|Vis brosjyre og underliggende bygninger      | Ja          | Ja                               | Ja     | Ja  |
+|Vis mappe og underliggende bygninger      | Ja          | Ja                               | Ja     | Ja  |
 |Endre mappe og underliggende bygninger      | Ja          | Ja                               | Ja     | Nei   |
 |Slett mappe og underliggende bygninger      | Ja          | Nei                                | Nei      | Nei   |
 |Legg til en bygning i en mappe                    | Ja          | Ja                               | Ja     | Nei   |

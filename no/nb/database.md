@@ -18,8 +18,8 @@ I tilfelle det er en arkivdatabase: Du finner alle materialer og produkter som e
 
 ### KNAPPER – mellom de blå linjene
 **DATABASE**
-- Rediger databaseegenskaper; endre navnet på databasen og stille inn om denne databasen skal settes som standard i opplastingsprosessen;
-- Legg til materiale; legg til et nytt materiale i denne databasen;
+- Rediger databaseegenskaper; endre navnet på databasen og stille inn om denne databasen skal settes som standard i opplastingsprosessen.
+- Legg til materiale; legg til et nytt materiale i denne databasen.
 - Legg til produkt; legg til et nytt produkt i denne databasen.
 
 **BRUKERE**
@@ -28,7 +28,6 @@ I tilfelle det er en arkivdatabase: Du finner alle materialer og produkter som e
 
 **DELT MED** 
 - Dele; her kan denne databasen deles med andre kontoer, mapper og/eller bygninger.
-
 
 
 ## Hovedskjerm

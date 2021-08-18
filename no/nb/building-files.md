@@ -8,7 +8,7 @@ Denne fanen inneholder filer som er lastet opp til den spesifikke bygningen. Her
 
 **Kildefiler** er IFC- og/eller Excel-filer (tilgjengelige på bygningsnivå), som inneholder materialene og produktene som er brukt i bygningen (inkl. mengder), og der innholdet brukes for å vise resultatene i de forskjellige Madaster-fanene (f.eks. fanen «Bygning» osv.).
 
-**Generelle filer** er alle andre relevante filer som kan legges til bygningsfilen, slik som administrative dokumenter og arbeidsdokumenter, sertifikater, garantier osv. Til slutt viser saksmappen også alle materialpass som er opprettet for denne bygningen.
+**Generelle filer** er alle andre relevante filer som kan legges til bygningsmappen, slik som administrative dokumenter og arbeidsdokumenter, sertifikater, garantier osv. Til slutt viser saksmappen også alle materialpass som er opprettet for denne bygningen.
 
 ### HVORDAN LASTER JEG OPP EN NY FIL?
 Klikk på knappen «Last opp» øverst til venstre i skjermbildet. Et nytt skjermbilde, «Legg til fil», åpnes. Velg først filtypen som du ønsker å laste opp, der du kan velge mellom en kildefil (IFC eller Excel) eller en generell fil.
@@ -31,16 +31,16 @@ Etter at du har gått gjennom trinnene over én gang, kan du aktivere og deaktiv
 
 
 ### HVORDAN ENDRER JEG STATUS PÅ EN FIL FRA «AKTIV» TIL «INAKTIV»?
-En kildefil kan gjøres inaktiv med skyvebryteren i kolonnen «Aktiv» under fanen «Fil».
+En kildefil kan gjøres inaktiv med skyvebryteren i kolonnen «Aktiv» under fanen «Saksmappe».
 
 
 ### HVOR FINNER JEG MATERIALPASSENE (PDF-FILER) SOM JEG OPPRETTET TIDLIGERE?
-Et materialpass som du har opprettet tidligere, blir automatisk lagret under fanen «Saksmappe» i mappen «Pass». Når du klikker på mappen «Pass», blir de synlige under seksjonen «Generell fil» (nederst på siden). Her kan du laste ned de opprettede materialpassene til datamaskinen din ved hjelp av nedlastingsikonet bak det aktuelle materialpasset. Dessuten kan du levere pass med ytterligere søkebegreper («tagger») og fjerne materialpass (søppeldunkikonet).
+Et materialpass som du har opprettet tidligere, blir automatisk lagret under fanen «Saksmappe» i mappen «Pass». Når du klikker på mappen «Pass», blir de synlige under seksjonen «Generell fil» (nederst på siden). Her kan du laste ned de opprettede materialpassene til datamaskinen din ved hjelp av nedlastingsikonet bak det aktuelle materialpasset. Dessuten kan du gi passene ytterligere søkebegreper («tagger») og fjerne materialpass (søppeldunkikonet).
 
-Når du oppretter et materialpass (PDF), blir en Excel-fil også opprettet og plassert i filen. Denne Excel-filen viser de generelle bygningsdataene, summene for alle elementer og de spesifikke elementene i de forskjellige bygningslagene per fane. På denne måten kan man gjøre analyser av detaljene til en bygning gjennom filtrering.
+Når du oppretter et materialpass (PDF), blir en Excel-fil også opprettet og plassert i saksmappen. Denne Excel-filen viser de generelle bygningsdataene, summene for alle elementer og de spesifikke elementene i de forskjellige bygningslagene per fane. På denne måten kan man gjøre analyser av detaljene til en bygning gjennom filtrering.
 
 
-### HVORDAN KAN JEG SØKE ETTER FILER I FILEN?
+### HVORDAN KAN JEG SØKE ETTER FILER I SAKSMAPPEN?
 I fanen «Saksmappe» er det to måter å finne generelle filer og kildefiler på, nemlig via 
 - søkefunksjonen.
 - «Merker» (Tags).

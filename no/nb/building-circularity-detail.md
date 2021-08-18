@@ -36,7 +36,7 @@ Sirkularitet er fremdeles under utvikling i Madaster-plattformen. Nedenfor følg
 ### FASE 2: BRUKSFASEN
 **Mål**: Å maksimere den funksjonelle og økonomiske levetiden for sirkulære produkter.
 
-**Gjeldende beregning**: Utgangspunktet for gjeldende gjennomsnittlig levetid i næringen er Brand-lagene (tomt (500 år), bærekonstruksjon (100 år), hud (20 år), installasjoner (15 år), planløsning (10 år) og innredning (5 år). For gjeldende gjennomsnittlig levetid er utgangspunktet levetiden som angis av brukeren på bygningsnivå. Denne kan (muligens) tilpasses på produktnivå.
+**Gjeldende beregning**: Utgangspunktet for gjeldende gjennomsnittlig levetid i næringen er Brand-lagene (tomt (500 år), bærekonstruksjon (100 år), klimaskall (20 år), installasjoner (15 år), planløsning (10 år) og innredning (5 år). For gjeldende gjennomsnittlig levetid er utgangspunktet levetiden som angis av brukeren på bygningsnivå. Denne kan (muligens) tilpasses på produktnivå.
 
 **Utvikling**
 - Trinn 1: Dybdeinformasjon om funksjonell, teknisk, økonomisk og arkitektonisk levetid i tilknytning til bruk og forbruk av materialer, produkter og bygninger.

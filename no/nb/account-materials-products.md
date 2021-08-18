@@ -16,7 +16,7 @@ Under det lukkede filteret «Kilde» på venstre side finner du en liste over de
 - Materialer og produkter fra andre kilder kan du finne ved å velge den aktuelle kilden eller leverandøren i filteret.
 
 ### Typen produkter/materiale
-Hos Madaster har vi fire typer produkter i tillegg til materialer: Volum-, Overflate-, Lengde- og Mengdeprodukter. Hvis du ikke vet akkurat hvilken produkttype du ser etter, kan du velge alle fire typene. I så tilfelle blir alle produkter vist. Hvis du bare vil se materialer i oversikten, kan du åpne filteret «produkttype». Når du så velger «Materialer» under, vil du bare se materialene som er kjent i Madaster-plattformen.
+Hos Madaster har vi fire typer produkter i tillegg til materialer: Volum-, Areal-, Lengde- og Mengdeprodukter. Hvis du ikke vet akkurat hvilken produkttype du ser etter, kan du velge alle fire typene. I så tilfelle blir alle produkter vist. Hvis du bare vil se materialer i oversikten, kan du åpne filteret «produkttype». Når du så velger «Materialer» under, vil du bare se materialene som er kjent i Madaster-plattformen.
 
 ### Hovedskjerm 
 Denne delen av skjermen viser alle materialer og produkter som oppfyller søke- eller filterkriteriene. Kolonnene viser henholdsvis navnet, produktkoden, produkttypen og leverandøren. Til slutt er det to ikoner: et «penn»-ikon for å endre materialet eller produktet, et pilikon for å vise informasjon om materialet eller produktet.

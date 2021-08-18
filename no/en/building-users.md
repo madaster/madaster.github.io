@@ -8,7 +8,7 @@ On each building level different users can be invited, with three different role
 
 
 ### HOW DO I ADD USERS TO A BUILDING?
-Press the 'add user' button
+Press the 'add user' button.
 Enter the e-mail address of the relevant user. If the user has already registered with Madaster, access will be granted immediately. If the user has not yet registered, an e-mail will be sent to the user explaining how to register.
 Indicate which role the user should be given and click on 'Save'. For an explanation of the different roles see the explanation below.
 The users you add to a building will only have access to this building. Any other buildings within the same portfolio will not be visible to them. Do you want to give a user access to all buildings within one portfolio? Then you can add this user as a user within the portfolio instead of the building.

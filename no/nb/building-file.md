@@ -23,7 +23,6 @@ I den viste oversikten kan du se kvaliteten på kildefilen som er lastet opp, de
 - Elementer med lengdeinformasjon; prosentandel av antallet elementer i kildefilen som inneholder lengdeinformasjon (for produkter av typen «lengde»).
 - Elementer uten geometriske dimensjoner, prosentandel av antallet elementer i kildefilen som ikke inneholder geometrisk informasjon. Det er viktig at denne prosentandelen er svært lav. Volumet er den primære enheten som vises under fanen «Bygning».
 
-
 ### KVALITETEN PÅ SAMMENSTILLINGSPROSESSEN
 Madaster-plattformen kobler automatisk elementene i den importerte kildefilen til materialene og produktene i de valgte databasene/ressursene i størst mulig grad. Den viste oversikten angir resultatet av dette, underinndelt i koblede materialer basert på antall elementer og basert på volum. Antallet elementer der massen er kjent blir, også indikert.
 

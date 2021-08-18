@@ -4,7 +4,7 @@ ref: building-process
 ---
 
 ## Hvilken informasjon vises her?
-Informasjonen som vises her, er basert på de aktive kildefilene som lastes opp med denne bygningen. Tabellen er delt horisontalt i en materialklassifisering. Vertikalt er det foretatt en underinndeling i de forskjellige fasene av byggeprosessen.
+Informasjonen som vises her, er basert på de aktive kildefilene som lastes opp med denne bygningen. Tabellen er delt horisontalt i en materialklassifisering (Madaster eller Table3-NL_SfB). Vertikalt er det foretatt en underinndeling i de forskjellige fasene av byggeprosessen.
 
 For hver byggefase blir materialene vist i prosentandeler. Du kan for eksempel se hvor mye steinmateriale som vil bli revet, i kolonnen «Riving». Dette uttrykkes som en prosentandel og med vekt og volum. For dette må et element i kildefilen være tilordnet fasen «riving». Dette gjelder også fasen «ny» i byggeprosessen.
 
@@ -15,10 +15,10 @@ Det er også mulig å klikke på en fase, for eksempel «Eksisterende» eller «
 
 ### HVILKE FASER BESTÅR BYGGEPROSESSEN AV?
 
-- Eksisterende; tilstanden ved begynnelsen av renoveringen;
-- Riving; alle materialer og produkter som forlater bygningen;
-- Mellomstatus; (Casco) tilstanden etter riving (beregning = Eksisterende minus Riving);
-- Ny; alle materialer og produkter lagt til bygningen under rehabiliteringen,
+- Eksisterende; tilstanden ved begynnelsen av renoveringen.
+- Riving; alle materialer og produkter som forlater bygningen.
+- Mellomstatus; (Casco) tilstanden etter riving (beregning = Eksisterende minus Riving).
+- Ny; alle materialer og produkter lagt til bygningen under rehabiliteringen.
 - Endelig; det endelige resultatet av rehabiliteringen (beregning = Mellomstatus pluss Ny).
 
 **Filter**

@@ -14,12 +14,12 @@ Denne fanen gir informasjon om filene som er lastet opp i denne mappen. Her kan 
 Faste mapper for dokumentasjon om:
 
 Saksmappe:
-- kontrakter og garantier
-- leverandører og sertifikater
-- produktspesifikasjoner og håndbøker
-- tegninger og beregninger
+- Kontrakter og garantier.
+- Leverandører og sertifikater.
+- Produktspesifikasjoner og håndbøker.
+- Tegninger og beregninger.
 
-Pass
+Pass.
 
 ### MERKER
 Merker eller "tags" du har opprettet for å merke filene dine.
