@@ -52,7 +52,7 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [0031 85-0601242](tel:+3
 
 Weitere Informationen zu den Releases finden Sie hier:
 
-* <a href="/files/en/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
+* <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Release 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_09_UK.pdf" target="_blank">Release notes January 7th 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_08_DE.pdf" target="_blank">Release notes December 1st 2020</a>
 * <a href="/files/Madaster Releasenotes_2020_06_UK.pdf" target="_blank">Release notes October 14th 2020</a>
