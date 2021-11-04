@@ -36,9 +36,9 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 
 ### Referanseverker
 
- * Les <a href="/files/no/Madaster - Circularity Indicator explained_NO.pdf" target="_blank">Forklaring av Madaster Circularity Indicator</a>  dokument- Denne beskriver i detalj bruken av Madaster Circularity Indicator (MCI)r samt den underliggende metodikken.
+ * Les <a href="/files/no/Madaster - Circularity Indicator explained_NO.pdf" target="_blank">Forklaring av Madaster Circularity Indicator</a>  dokument - Denne beskriver i detalj bruken av Madaster Circularity Indicator (MCI), samt den underliggende metodikken.
 
-* Les <a href="/files/no/Madaster- Financial tab explained_NO.pdf" target="_blank">Forklaring Madaster økonomimodul</a> - Denne beskriver i detalj bruken av økonomifanen i Madaster samt den underliggende metodikken.
+* Les <a href="/files/no/Madaster- Financial tab explained_NO.pdf" target="_blank">Forklaring Madaster økonomimodul</a> - Denne beskriver i detalj bruken av økonomifanen i Madaster, samt den underliggende metodikken.
 
 ---
 
