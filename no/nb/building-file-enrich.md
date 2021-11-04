@@ -19,7 +19,7 @@ På venstre siden finner du en søke- og filtreringsfunksjon. Filtrenes «temaer
 - Bygningslag; filtrer på eksisterende bygningslag (Brands lagdeling).
 - Etasje; filtrer på eksisterende etasje/bygningslag.
 - Klassifiseringsmetoder; filtrer på tilgjengelig klassifiseringskode.
-- Enhetsdimensjon; filtrer på dimensjonsenhet: volum/areal/lengde.
+- Enhetsdimensjon; filtrer på enhetens dimensjon: volum/areal/lengde.
 
 
 ### HOVEDSKJERM
