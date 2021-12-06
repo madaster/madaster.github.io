@@ -5,7 +5,7 @@ menubar: none
 ref: home
 ---
 
-## Bienvenue sur la plateform Madaster
+## Bienvenue sur la plateform Madaster!
 Sur cette page, vous trouverez des informations supplémentaires sur l'utilisation et le développement de la plateforme Madaster.
 
 ---
@@ -42,7 +42,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Vous avez des questions ? Contactez Madaster par téléphone [0041 500 44 46](tel:+41 500 44 46) ou par e-mail <service@madaster.ch>.
+Vous avez des questions ? Contactez Madaster par téléphone [+41 500 44 46](tel:+41 500 44 46) ou par e-mail <service@madaster.ch>.
 
 ---
 

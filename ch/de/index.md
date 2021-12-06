@@ -28,7 +28,7 @@ _Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Ha
 
   * <a href="/files/ch/de/Madaster Materialien.xlsx">Madaster Materialen</a> - zeigt die Materialien in Deutsch und Englisch an, die in der Madaster-Datenbank standardmässig enthalten sind, sowie die UID’s der Materialien.
  * <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster BIM-Richtlinien</a> - beschreibt kompakt die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
- * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Importprozess</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
+ * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Importprozess</a> - Beschrieb der IFC-Datenverarbeitung innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung.
  * <a href="/files/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster Manual IFC-Export (Archicad & Revit)</a> - beschreibt die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab) und BIMCollab Zoom</a> (kostenloser IFC-Viewer) herunter – Importieren Sie das Smart View Set in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Wichtige allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl/documents/BIM_basis_ILS_v1_0_DEU.pdf" target="_blank">BIM loket</a>.  
