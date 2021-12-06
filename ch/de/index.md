@@ -16,7 +16,7 @@ _Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Ha
 
 ### Allgemeine Handbücher
 
- * <a href="/files/en/Madaster - User Manual.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
+ * <a href="/files/ch/en/Madaster User Manual_EN.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
  * <a href="/files/en/Madaster - Action Plan.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Ausstellung eines Materialpasses auf der Madaster-Plattform führen.
  * <a href="/files/ch/de/Tender Text Material Passport_CH-DE.pdf" target="_blank">Leitfaden zur Erstellung eines Material Passport</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
 
