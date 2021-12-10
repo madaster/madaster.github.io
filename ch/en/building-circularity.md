@@ -8,7 +8,7 @@ The Madaster Circularity Indicator gives each building a score of 0-100% and is 
 
 The CI assesses both on product and building level on circular values in 3 different phases of the building's life:
 
-__*Construction phase*__ : what is the ratio between ""new"" and ""recycled, reused or renewable"" raw materials?
+__*Construction phase*__ : what is the ratio between "new" and "recycled, reused or renewable" raw materials?
 
 __*Use phase*__: what is the expected life span of the products used compared to the average life span of comparable products?
 

@@ -17,7 +17,7 @@ The presence of tabs may vary depending on the type of folder. In any case, thre
 
 ### BUTTON BAR between the blue lines
 **GENERAL**
-- **View**; choose between 'map view' or 'list view';* 
+- **View**; choose between 'map view' or 'list view'; 
 - **Edit**; modify the name, description and logo of this folder;
 - **Move**; move the folder to another folder;
 - **New folder** (if applicable); use the dropdown menu to create a subfolder in this folder;

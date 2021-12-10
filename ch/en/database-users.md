@@ -28,5 +28,5 @@ Admin                                            | Mange  | Above + Manage datab
 ### Buttons - between the blue lines ###
 
 **USERS**
-- Add user; add a user or invite a new user.
-- Add API token; generate an API token to invite a system as a user.
+- Add user: add a user or invite a new user.
+- Add API token: generate an API token to invite a system as a user.

@@ -18,16 +18,16 @@ In the case of the database of an archive: you will find all materials and produ
 
 ### BUTTONS - between the blue lines
 **DATABASE**
-- Edit database properties; change the name of the database and set whether this database should be set as default in the upload process.
-- Add material; add a new material to this database.
-- Add product; add a new product to this database.
+- Edit database properties: change the name of the database and set whether this database should be set as default in the upload process.
+- Add material: add a new material to this database.
+- Add product: add a new product to this database.
 
 **USERS**
-- Add user; add a user or invite a new user.
-- Add API token; Generate an API token to invite a system as a user.
+- Add user: add a user or invite a new user.
+- Add API token: Generate an API token to invite a system as a user.
 
 **SHARED WITH** 
-- Share; here this database can be shared with other accounts, folders and/or buildings.
+- Share: here this database can be shared with other accounts, folders and/or buildings.
 
 
 
