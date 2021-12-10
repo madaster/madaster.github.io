@@ -1,5 +1,5 @@
 ---
-title: Ordner - Allegmein
+title: Ordner - Allgemein
 ref: folder
 ---
 
