@@ -1,12 +1,9 @@
 ---
-title: Bereichern
-ref: building-file-enrich
+title: Dateidetails
+ref: building-file-details
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Der Prozess des Abgleichs eines (IFC)-Elements mit einem Produkt oder einem Material wird von Madaster automatisch nach dem Import und dem Auslesen der Quelldatei durchgeführt. Es ist möglich, dass Elemente nicht abgeglichen wurden oder dass auf der Grundlage der Suchkriterien ein falscher Abgleich stattgefunden hat. In der ANREICHERN-Maske kann der Matching-Prozess überprüft und abgeschlossen werden, das sogenannte “Anreichern” des Prozesses.
-
-**HINWEIS**: Madaster rät dringend, vor dem Import einer Quelldatei sicherzustellen, dass die Informationen in der Quelldatei gut mit den Informationen in den ausgewählten Datenbanken/Quellen übereinstimmen. Dies kann durch die Verwendung des Materialnamens in der Madaster-Datenbank (siehe [https://docs.madaster.com/files/ch/de/Madaster%20Materialien.xlsx]) erfolgen oder indem sichergestellt wird, dass der Name in den Quelldateien mit der (eigenen) ausgewählten Datenbank/Quelle übereinstimmt.
 
 ## LINKER SEITENRAND
 Auf der linken Seite steht eine Such- und Filterfunktion zur Verfügung. Der Filter "Themen" kann aufgeklappt werden, um eine Auswahl zu treffen:
@@ -28,8 +25,6 @@ Der Hauptbildschirm zeigt die Liste aller in der Quelldatei enthaltenen Elemente
 - Produkt/Material: das Produkt/Material, mit dem das Element verbunden ist.
 - Anzahl: die Anzahl der Elemente dieses Typs/Namens.
 - Symbol: Link.
-
-Durch Auswahl eines oder mehrerer Elemente erscheint ein Dialogblock, mit dem die Elemente überschrieben/getrennt oder eingebettet/ausgeschlossen werden können. Das Einschliessen oder Ausschliessen eines Elements führt dazu, dass dieses Element in die Berechnungen einbezogen/nicht einbezogen wird. Dies kann z.B. für die Masse des umgebenden Geländes verwendet werden, wenn es in der Quelldatei enthalten ist. Oder wenn es Überschneidungen gibt.
 
 ## 3D-MODELL
 Am oberen Rand des Fensters, in der blauen Leiste, befindet sich eine Schaltfläche zum Aktivieren eines 3D-Viewers. Dies ist nur möglich, wenn die Quelldatei ein IFC-Modell ist:

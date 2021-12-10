@@ -1,21 +1,20 @@
 ---
-title: Datenbank Geteilt mit
+title: Datenbank - Teilen
 ref: database-availabilities
 ---
 
-## What information is shown here?
-The possibily to share this database, with other accounts / folders / buildings.
-Sharing goes hand in hand with the granting of a certain right to use the materials and products:
+## Welche Informationen werden hier angezeigt??
+Die Möglichkeit, diese Datenbank gemeinsam mit anderen Konten / Ordnern / Gebäuden zu nutzen. Die Freigabe geht mit der Einräumung eines bestimmten Nutzungsrechts an den Materialien und Produkten einher:
 
+### Buttons - Zwischenbereich ###
 
-### Buttons - between the blue lines ###
+**Geteilt mit** 
+- Freigabe: Hier kann diese Datenbank mit anderen Konten / Ordnern / Gebäuden geteilt werden. 
 
-**SHARED WITH** 
-Sharing; here this database can be shared with other accounts / folders / buildings.
+Die gemeinsame Nutzung beinhaltet die Einräumung eines bestimmten Rechts zur Verwendung der Materialien und Produkte:
 
-- **Map**; the user of the account/folder/building with which this database is shared can link (enrich) IFC elements to materials or products from this database;
-- **Copy**; the user of the account/ folder/building with which this database is shared can copy materials or products from this database to another database;
-- **Collaborate**; the user of the account/ folder/building with which this database is shared can add materials or products to this database;
-- **Administrate**: the user of the account/ folder/building with which this database has been shared can also manage this database.
-
-A user with Admin rights on this database is able to share the database with other Accounts / Folders / Buildings in one of the possible roles.
+- Zuordnen: Der Benutzer des Kontos/Ordners/Gebäudes, mit dem diese Datenbank gemeinsam genutzt wird, kann IFC-Elemente mit Materialien oder Produkten aus dieser Datenbank verknüpfen (anreichern).
+- Kopieren: Der Benutzer des Kontos/Ordners/Gebäudes, mit dem diese Datenbank gemeinsam genutzt wird, kann Materialien oder Produkte aus dieser Datenbank in eine andere Datenbank kopieren.
+- Kollaborieren: Der Benutzer des Kontos/Ordners/Gebäudes, mit dem diese Datenbank gemeinsam genutzt wird, kann Materialien oder Produkte zu dieser Datenbank hinzufügen.
+- Verwalten: Der Benutzer des Kontos/Ordners/Gebäudes, mit dem diese Datenbank geteilt wurde, kann diese Datenbank auch verwalten.
+Ein Benutzer mit Admin-Rechten auf dieser Datenbank kann die Datenbank mit anderen Konten/Ordnern/Gebäuden in einer der möglichen Rollen teilen.

@@ -4,34 +4,34 @@ ref: api
 menubar: none
 ---
 
-# Madaster API
-The **Madaster API** endpoint can be used to interact with the Madaster Platform and its resources.
-This API does not fully cover all functionality of the platform yet, please refer to the [OpenAPI documentation](https://api.madaster.com/).
+# MADASTER API
+Die **Madaster API**-Endpunkte können verwendet werden, um mit der Madaster-Plattform und ihren Funktionen zu interagieren.
+Diese API deckt noch nicht alle Funktionen der Plattform vollständig ab, bitte beachten Sie die [OpenAPI-Dokumentation](https://api.madaster.com/).
 
-To access the API resources, you need an authorization token.
-If you do not have one yet, see the chapter about Authorization below.
-This token should be sent as a header with the name 'X-API-Key', which will authenticate the request with the token.
+Um auf die API's zuzugreifen, benötigen Sie ein Autorisierungs-Token.
+Wenn Sie noch keins haben, lesen Sie das Kapitel über die Autorisierung weiter unten.
+Dieser Token sollte als Header mit dem Namen 'X-API-Key' gesendet werden, wodurch die Anfrage mit dem Token authentifiziert wird.
 
-## Authorization
-To access the resources of this API, you need an API key. This key needs to be attached to the request in the *X-API-Key* header.
-To acquire an API key, you need to add a token in the Madaster Platform, or ask your account manager to do this for you.
-This will give you access to the resources and their attached entities.
+## AUTORISIERUNG
+Um auf die Dienste dieser API zugreifen zu können, benötigen Sie einen API-Schlüssel. Dieser Schlüssel muss im *X-API-Key*-Header an die Anfrage angehängt werden.
+Um einen API-Schlüssel zu erhalten, müssen Sie ein Token in der Madaster-Plattform hinzufügen oder Ihren Account Manager bitten, dies für Sie zu tun.
+Dadurch erhalten Sie Zugriff auf die Ressourcen und die damit verbundenen Entitäten.
 
-### Add a token to a account, folder, building or database
-- Go to the resource page and click on the *Users* tab
+### HINZUFÜGEN EINES TOKENS ZU EINEM KONTO, ORDNER, GEBÄUDE ODER EINER DATENBANK
+- Klicken Sie auf die Registerkarte *Benutzer*.
 
 <img src="/assets/images/api/addtoken1.png" class="api-img"/>
 
-- Click on the *Add API Token* button
+- Klicken Sie auf die Schaltfläche *API-TOKEN HINZUFÜGEN*.
 
 <img src="/assets/images/api/addtoken2.png" class="api-img"/>
 
-- Enter a name for this token, copy the generated key (1), choose a permission level and expiration time, and finish by clicking on the Add button (2)
+- Geben Sie einen Namen für den Token ein, kopieren Sie den generierten Schlüssel (1), wählen Sie eine Berechtigungsstufe und eine Ablaufzeit und klicken Sie abschliessend auf die Schaltfläche Hinzufügen (2)
 
 <img src="/assets/images/api/addtoken3.png" class="api-img"/>
 
-## Versions
-The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [OpenAPI documentation](https://api.madaster.com/) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for some time for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 3.0 for example, use https://api.madaster.com/api/v3.0
+## VERSIONEN
+Die API wird ständig verbessert, so dass im Laufe der Zeit weitere *Versionen* der Schnittstelle hinzugefügt werden. Welche Versionen welche API-Aufrufe unterstützen, finden Sie in der [OpenAPI-Dokumentation](https://api.madaster.com/). Es wird empfohlen, immer die neueste verfügbare Version für eine API-Anfrage zu verwenden: Die alten Versionen bleiben jedoch noch eine Zeit lang für Legacy-Zwecke verfügbar. Um eine API-Version auszuwählen, hängen Sie das Versions-Tag an den API-Endpunkt an. Für Version 3.0 verwenden Sie zum Beispiel https://api.madaster.com/api/v3.0
 
-## Examples
-In the [Github repository](https://github.com/Madaster/examples) you can find some examples on how to interact with the API in different programming languages.
+## BEISPIELE
+Im [Github-Repository](https://github.com/Madaster/examples) finden Sie einige Beispiele, wie Sie mit der API in verschiedenen Programmiersprachen interagieren können.

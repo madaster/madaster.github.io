@@ -1,13 +1,13 @@
 ---
-title: Datei
+title: Dossier
 ref: folder-files
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Diese Registerkarte enthält Informationen über die in diesen Ordner hochgeladenen Dateien. Hier können Sie neue Dateien hinzufügen und Sie können den Status einer Datei ändern. Bei den Akten kann es sich um jede Art von Akte handeln, wie z.B. Management- und Arbeitsunterlagen, Zertifikate, Verträge usw.
+Diese Registerkarte enthält Informationen über die Dateien, die auf dieser höchsten Ebene dieses Kontos hochgeladen wurden. Hier können Sie neue Dateien hinzufügen und den Status einer Datei ändern. Bei den Dateien kann es sich um jede Art von Datei handeln, wie z.B. Management- und Arbeitsunterlagen, Zertifikate, Verträge usw.
 
-## SYMBOLLEISTE (ZWISCHEN DEN ZEILEN):
-- Hochladen; laden Sie eine Datei hoch und markieren Sie sie.
+## BUTTONS (ZWISCHENBEREICH):
+- Hochladen: Laden Sie eine Datei hoch und versehen Sie sie mit einem Suchbegriff.
 
 ## DATEI - FESTE ORDNER FÜR DIE DOKUMENTATION ÜBER:
 - Verträge & Garantien

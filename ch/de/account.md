@@ -1,5 +1,5 @@
 ---
-title: Account - Algemein
+title: Account - Allgemein
 ref: account
 ---
 
