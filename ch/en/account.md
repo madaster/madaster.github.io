@@ -1,8 +1,6 @@
 ---
 title: Account - General
 ref: account
-country: nl
-lang: en
 ---
 
 ## What information is shown here?
@@ -45,4 +43,4 @@ If, as an account owner/user with access to the account level, you have clicked 
 - **Copy selected**; copy a selected material or product and change the name and properties.
 
 
-**Main window**: the 'maps' of folders directly below this level. An account can be organised by means of 'folders'. The available folders can be found here in the main window. By clicking on the map of a folder, you open this folder""."
+**Main window**: the 'maps' of folders directly below this level. An account can be organised by means of 'folders'. The available folders can be found here in the main window. By clicking on the map of a folder, you open this folder.

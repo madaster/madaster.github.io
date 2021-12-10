@@ -21,7 +21,7 @@ The information about the building is divided into a number of tabs: 'General', 
 
 - **General**; general information about the building, such as address, cadastral data, function, gross-square-meters.
 - **Dossier**; all files uploaded with this building and the material passports created for this building can be found here. For each tab you can get more information by clicking on the 'information'-icon on the right side of the bar: this will take you directly to the correct explanation.
-- **Building; an overview of all materials and products used per building shell, and classified according to the chosen classification for materials.
+- **Building**; an overview of all materials and products used per building shell, and classified according to the chosen classification for materials.
 - **Building process**; information about the products and materials used, classified according to the building's construction process. This tab is only available if the building has been given the construction phase ""renovation"" in the General tab.
 - **Circularity**; this tab provides information about the Circularity Indication of the building.
 - **Financial**; this tab provides information regarding the Financial Indication of the building.

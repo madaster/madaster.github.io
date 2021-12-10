@@ -10,8 +10,8 @@ The accuracy and reliability of data in the Madaster platform starts with the so
 In the overview shown you can see the quality of the uploaded source file, broken down into the categories on the basis of which the Madaster platform will further process the file.
 
 **PERCENTAGE OF CLASSIFICATION METHODS**
-- Based on number of elements; percentage of the number of elements in the source file containing a classification code (such as EBKp).
-- Based on volume; percentage of the volume for which a classification (such as EBKp) assignment is known.
+- Based on number of elements; percentage of the number of elements in the source file containing a classification code (such as eBKP-H).
+- Based on volume; percentage of the volume for which a classification (such as eBKP-H) assignment is known.
 
 **PERCENTAGE OF MATERIAL ALLOCATION**
 - Based on number of elements; percentage of the number of elements in the source file containing a material allocation.

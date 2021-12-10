@@ -25,10 +25,6 @@ The Building CI is corrected by two factors that include the completeness of the
 
 **Note**: the circularity assessment is still under development within the Madaster Platform. At this moment the results shown here have a low reliability. If the Circularity Indicator has made a next step that increases the reliability, this will be communicated (here).
 
-Would you like more information about the detail screen? Then click here.
+Would you like more information about the detail screen? Click <a href="./building-circularity-details">here</a>.
 
-A detailed explanation of the Madaster Circularity Indicator is also available"". Translated with www.DeepL.com/Translator (free version)"
-
-Would you like more information about the detail screen? Click <a href="./building-circularity-detail">here</a>.
-
-A <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">detailed explanation</a> of the Madaster Circularity Indicator is also available.
+A <a href="/files/Madaster_Circularity_Indicator_explained_v1.1.pdf">detailed explanation</a> of the Madaster Circularity Indicator is also available.

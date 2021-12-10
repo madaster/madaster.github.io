@@ -8,7 +8,7 @@ The material value is preferably imported from commodity prices of common commod
 
 
 ### Correction factors
-Subsequently, the material values were corrected for demolition costs, processing costs, a correction for the size of the raw material flow and transport costs per kg. Demolition costs are indexed with the average BDB index of the last 18 years. Processing and processing costs are material-dependent and determined on the basis of interviews and desk research. For transport costs, a distance to the processor of 150 km per freight transport has been assumed for all materials except stony materials (20 km) and wood (40 km).
+Subsequently, the material values are corrected for demolition costs, processing costs, a correction for the size of the raw material flow and transport costs per kg. Demolition costs are indexed with the average BDB index of the last 18 years. Processing and processing costs are material-dependent and determined on the basis of interviews and desk research. For transport costs, a distance to the processor of 150 km per freight transport has been assumed for all materials except stony materials (20 km) and wood (40 km).
 
 
 ### Sources

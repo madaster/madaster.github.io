@@ -8,7 +8,7 @@ On each building level different users can be invited, with three different role
 
 
 ### HOW DO I ADD USERS TO A BUILDING?
-Press the 'add user' button
+Press the 'add user' button.
 Enter the e-mail address of the relevant user. If the user has already registered with Madaster, access will be granted immediately. If the user has not yet registered, an e-mail will be sent to the user explaining how to register.
 Indicate which role the user should be given and click on 'Save'. For an explanation of the different roles see the explanation below.
 The users you add to a building will only have access to this building. Any other buildings within the same portfolio will not be visible to them. Do you want to give a user access to all buildings within one portfolio? Then you can add this user as a user within the portfolio instead of the building.
@@ -20,13 +20,15 @@ A user can be deleted by clicking on the trash icon on the right. The role and r
 
 ### AVAILABLE ROLES AND RIGHTS ON BUILDING LEVEL:
 
-| Building level                          | Administrator | Manager | Reader |
-|-----------------------------------------|---------------|---------|--------|
-| View building                           | Yes           | Yes     | Yes    |
-| Modify building                         | Yes           | Yes     | No     |
-| Delete building                         | Yes           | No      | No     |
-| Add and remove users                    | Yes           | Nee     | No     |
-| Add and modify materials and products   | Yes           | Yes     | No     |
-| Export Material Passport                | Yes           | Yes     | No     |
-| Download Material Passport to PDF       | Yes           | Yes     | Yes    |
+
+| Building level                          | Administrator | Manager & Contributer to database| Manager | Reader |
+|-|-|-|-|-|
+| View building                           | Yes | Yes | Yes | Yes|
+| Modify building                         | Yes | Yes | Yes | No |
+| Delete building                         | Yes | No  | No  | No |
+| Add and remove users                    | Yes | No  | No  | No |
+| Add database (building level)           | Yes | No | No  | No |
+| Contribute to database created at building level or shared with the building with at least contribution rights(folder level)| Yes| Yes | No | No   
+| Export Material Passport                | Yes | Yes | Yes | No |
+| Download Material Passport to PDF       | Yes | Yes | Yes | Yes |
 
