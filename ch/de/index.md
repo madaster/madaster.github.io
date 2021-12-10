@@ -37,9 +37,9 @@ _Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Ha
 
 ### Nachschlagewerke
 
-  * Hier finden sie das Dokument zum <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik.
+  * Hier finden sie das Dokument zum <a href="/files/ch/de/Madaster Zirkularitätsindikator Erklärung-DACH.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik.
 
- * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>  - dies beschreibt ausführlich die Funktionsweise der finanziellen Registerkarte in Madaster sowie die zugrunde liegende Methodik.
+ * Hier finden sie das Dokument zum <a href="/files/ch/de/Madaster Finanzielles Modul-DACH.pdf" target="_blank">Finanziellen Modul von Madaster</a>  - dies beschreibt ausführlich die Funktionsweise der finanziellen Registerkarte in Madaster sowie die zugrunde liegende Methodik.
  
 ---
 
