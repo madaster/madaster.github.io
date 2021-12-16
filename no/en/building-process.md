@@ -4,7 +4,7 @@ ref: building-process
 ---
 
 ## What information is shown here?
-The information shown here is based on the active source files uploaded with this building. The table is divided horizontally into a material classification (Madaster or Table3-NL_SfB). Vertically, a subdivision is made into the different phases of the building process.
+The information shown here is based on the active source files uploaded with this building. The table is divided horizontally into a material classification. Vertically, a subdivision is made into the different phases of the building process.
 
 For each construction phase, the materials are shown in percentages. For example, you can see how much stony material will be demolished in the 'demolition' column. This is expressed as a percentage and in weight and volume. For this, an element in the source file must have been assigned the phase 'demolition'. This also applies to the phase 'new' in the building process.
 
