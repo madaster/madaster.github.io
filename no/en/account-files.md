@@ -9,7 +9,7 @@ This tab provides information about the files uploaded at this highest level of 
 ### TOOLBAR (BETWEEN LINES):
 Upload; upload a file and tag it with a search term.
 
-### FILE; FIXED FOLDERS FOR DOCUMENTATION ABOUT:
+### FOLDERS; FIXED FOLDERS FOR DOCUMENTATION ABOUT:
 - Contracts & Warranties
 - Suppliers & certificates
 - Product specifications & manuals
