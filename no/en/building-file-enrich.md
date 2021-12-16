@@ -4,7 +4,7 @@ ref: building-file-enrich
 ---
 
 ## What information is shown here?
-The process of matching, of (IFC) element with a product or a material, is carried out automatically by Madaster after importing and dissecting the source file. It is possible that elements have not been matched, or that a wrong matching has taken place on the basis of the search criteria. In the ENRICH screen the matching process can be checked and completed, the so-called ""enriching"" of the process.
+The process of matching, of (IFC) element with a product or a material, is carried out automatically by Madaster after importing and dissecting the source file. It is possible that elements have not been matched, or that a wrong matching has taken place on the basis of the search criteria. In the ENRICH screen the matching process can be checked and completed, the so-called "enriching" of the process.
 
 **Take notice** : Madaster strongly advises to make sure, before importing a source file, that the information in the source file matches well with the information in the selected databases/sources. This can be done by using the material name in the Madaster database (see [link to Madaster List of Materials] ) or by ensuring that the name in the source files matches the (own) selected database/source.
 

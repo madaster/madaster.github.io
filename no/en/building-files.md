@@ -6,7 +6,7 @@ ref: building-files
 ## What information is shown here?
 This tab contains files uploaded to the specific building. Here you can view, modify and download available files and add new files. Two types of files can be uploaded into the system: source files and general files.
 
-**Source files** are the IFC and/or Excel files (available at building level), which contain the materials and products used in the building (incl. quantities) and whose content is used to display the results in the various Madaster tabs (e.g. ""Building"" tab, etc.).
+**Source files** are the IFC and/or Excel files (available at building level), which contain the materials and products used in the building (incl. quantities) and whose content is used to display the results in the various Madaster tabs (e.g. "Building" tab, etc.).
 
 **General files** are all other relevant files, which can be added to the building file, such as management and working documents, certificates, guarantees, etc. Finally, the Dossier also shows all material passports created for this building.
 
