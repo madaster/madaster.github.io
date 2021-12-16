@@ -11,8 +11,6 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ## <img class="header-img" src="/assets/images/767.svg"> Handbücher
 
-_Aufgrund der neuesten Version der Madaster-Plattform sind derzeit nicht alle Handbücher und Dokumentationen auf Deutsch verfügbar._
-
 
 ### Allgemeine Handbücher
 
