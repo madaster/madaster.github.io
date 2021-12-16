@@ -11,7 +11,7 @@ Den blå menylinjen viser antallet funksjoner:
 - **Feedback**: en "ropert" som gir deg mulighet til å gi tilbakemeldinger til Madaster om feilmeldinger, ønsker om funksjonalitet og andre forslag.
 - **Favoritter**: en «stjerne», denne lar deg opprette en «favoritt» når som helst, hvor som helst. Disse vises øverst i «navigasjonsskuffen».
 - **Meldinger**: en «klokke»; meldinger og varsler vises her.
-- **Informasjon**: en «i», beskriver de tilgjengelige funksjonene på den siden.
+- **Informasjon**: en «🛈», beskriver de tilgjengelige funksjonene på den siden.
 - **Innstillinger**: «tre prikker»; som gir tilgang til profilen din, systeminnstillinger og et avloggingsalternativ.
 
 
