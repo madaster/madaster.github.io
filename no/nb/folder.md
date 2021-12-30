@@ -17,7 +17,7 @@ Hvilke faner som finnes, kan variere med mappetypen. Uansett finnes bestandig di
 
 ### KNAPPEFELT mellom de blå linjene
 **GENERELT**
-- **Visning**; velg mellom flis- og listevisning.** 
+- **Visning**; velg mellom flis- og listevisning.
 - **Rediger**; endre navnet, beskrivelsen og logoen for denne mappen.
 - **Flytt**; flytt mappen til en annen mappe.
 - **Ny mappe** (om aktuelt); bruk nedtrekksmenyen for å opprette en undermappe i denne mappen.
