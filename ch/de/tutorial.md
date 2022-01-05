@@ -88,3 +88,92 @@ Dieses Video zeigt Ihnen, wie Sie mit dem Einrichten Ihrer Kontostruktur beginne
 </td>
 </tr>
 </table>
+<p></p>
+<p></p>
+
+### TUTORIAL ERSTELLEN EINES GEBÄUDES
+
+<table>
+<tr>
+<td>
+<p>Nachdem wir nun unser Konto strukturiert und die Material- und Produktdatenbank erstellt haben, können wir mit der Erstellung von Gebäuden in Madaster beginnen.</p>
+<p>In diesem Video wird erklärt, wie ein Gebäude aufgesetzt wird und welche zusätzlichen Informationen hinterlegt werden. </p>
+</td>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/qWdhpJVGbYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</td>
+</tr>
+</table>
+<p></p>
+<p></p>
+
+### TUTORIAL UPLOAD & MATCHING PROZESS
+
+<table>
+<tr>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/vPUKsfKFk_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</td>
+<td><p>Ein Gebäude wurde erstellt, jetzt ist es an der Zeit, eine Quelldatei Für dieses Gebäudes hochzuladen. In diesem Video zeigen wir Ihnen, wie der Upload-Prozess abläuft.</p>
+<p></p>
+
+<p> Behandelt werden folgende Funktionen:</p>
+<ul>
+  <li>Upload einer Quelldatei</li>
+  <li>Erläuterung Qualität der Quelldatei</li>
+  <li>Manuelles Verbinden von Materialien/Pordukte</li>
+  <li>Verwenden der Quelldatei in der Berechnung</li>
+</ul>
+</td>
+</tr>
+</table>
+<p></p>
+<p></p>
+
+### TUTORIAL REGISTERKARTEN
+
+<table>
+<tr>
+<td>
+<p>Sobald ein Gebäude erstellt und Quellinformationen hochgeladen wurden, werden Informationen auf verschiedenen Registerkarten angezeigt. </p>
+<p>Ein Gebäude enthält die folgenden Registerkarten: </p>
+<ul>
+  <li>Allgemein</li>
+<li> Dossier</li>
+<li>Benutzer</li>
+<li>Gebäude </li>
+<li>Bauprozess</li>
+<li>Zirkularität</li>
+<li>Finanzielle</li>
+<li>Apps</li>
+</ul>
+</td>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/3APPhg6oFfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</td>
+</tr>
+</table>
+<p></p>
+<p></p>
+
+### TUTORIAL ARCHIVIEREN EINES GEBÄUDES
+
+<table>
+<tr>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/SiU77DzWE28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</td>
+<td><p>Der letzte Schritt für die Übertragung des Baupasses an den Endkunden besteht darin, das Gebäude zu archivieren. Durch die Archivierung kann der Ersteller des Material Passports eine Kopie des Gebäudes erstellen, um den Zugriff auf die Daten zum Zeitpunkt des Zugriffs zu behalten. In diesem Video zeigen wir Ihnen, wie Sie das tun.</p>
+<p></p>
+
+<p> Behandelt werden folgende Funktionen:</p>
+<ul>
+  <li>Archivieren des Gebäude</li>
+  <li>Übertragung auf ein anderes Konto</li>
+</ul>
+</td>
+</tr>
+</table>
+<p></p>
+<p></p>
+
+Musik:
+Ikson 
+Dear Autumn
+https://www.iksonmusic.com
