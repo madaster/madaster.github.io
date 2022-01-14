@@ -13,7 +13,9 @@ Ein Benutzer kann durch Klicken auf das Papierkorb-Symbol rechts gelöscht werde
 
 ## VERFÜGBARE ROLLEN UND BERECHTIGUNGEN AUF KONTOEBENE:
 
-Kontoebene| Administrator | Manager | Leser |
+Kontoebene| Administrator | Manager | Manager & Mitarbeiter an der Datenbank| Leser |
 -|-|-|-|
-Ordnertypen erstellen                                    | Ja            | Nein    | Nein  |
-Ordner erstellen                                         | Ja            | Ja      | Nein  |
+Ordnertypen erstellen | Ja | Nein | Nein | Nein |
+Ordner erstellen | Ja | Ja | Ja | Nein |
+Erstellen einer Datenbank | Ja | Nein | Nein | Nein |
+Beiträge zur Datenbank, die auf einem Konto erstellt oder mit einem Konto mit mindestens Beitragsrechten geteilt wurden | Ja | Ja | Nein | Nein |
