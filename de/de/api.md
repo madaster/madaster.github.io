@@ -20,15 +20,15 @@ Dadurch erhalten Sie Zugriff auf die Ressourcen und die damit verbundenen Entit�
 ### HINZUFÜGEN EINES TOKENS ZU EINEM KONTO, ORDNER, GEBÄUDE ODER EINER DATENBANK
 - Klicken Sie auf die Registerkarte *Benutzer*.
 
-<img src="/assets/images/api/addtoken1.png" class="api-img"/>
+<img src="/assets/images/api/addtoken1DE.png" class="api-img"/>
 
 - Klicken Sie auf die Schaltfläche *API-TOKEN HINZUFÜGEN*.
 
-<img src="/assets/images/api/addtoken2.png" class="api-img"/>
+<img src="/assets/images/api/addtoken2DE.png" class="api-img"/>
 
 - Geben Sie einen Namen für den Token ein, kopieren Sie den generierten Schlüssel (1), wählen Sie eine Berechtigungsstufe und eine Ablaufzeit und klicken Sie abschließend auf die Schaltfläche Hinzufügen (2)
 
-<img src="/assets/images/api/addtoken3.png" class="api-img"/>
+<img src="/assets/images/api/addtoken3DE.png" class="api-img"/>
 
 ## VERSIONEN
 Die API wird ständig verbessert, so dass im Laufe der Zeit weitere *Versionen* der Schnittstelle hinzugefügt werden. Welche Versionen welche API-Aufrufe unterstützen, finden Sie in der [OpenAPI-Dokumentation](https://api.madaster.com/). Es wird empfohlen, immer die neueste verfügbare Version für eine API-Anfrage zu verwenden: Die alten Versionen bleiben jedoch noch eine Zeit lang für Legacy-Zwecke verfügbar. Um eine API-Version auszuwählen, hängen Sie das Versions-Tag an den API-Endpunkt an. Für Version 3.0 verwenden Sie zum Beispiel https://api.madaster.com/api/v3.0
