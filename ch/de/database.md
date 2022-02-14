@@ -4,50 +4,49 @@ ref: database
 ---
 
 ## What information is shown here?
-On this page you will find all materials and products that are known in these databases, other publicly available databases and all products that you have entered yourself on the platform in your own 'account' database(s).
-In the case of the database of an archive: you will find all materials and products that are linked to the elements in the archived building.
+Auf dieser Seite finden Sie alle Materialien und Produkte, die in diesen Datenbanken, anderen öffentlich zugänglichen Datenbanken und allen Produkten, die Sie selbst auf der Plattform in Ihre eigene(n) „Account"-Datenbank(en) eingegeben haben, bekannt sind. Im Falle der Datenbank eines Archivs: 
+Sie finden alle Materialien und Produkte, die mit den Elementen im archivierten Gebäude verknüpft sind.
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-cTiGd0j7JE&list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Tabs
-**DATABASE**: This is where the materials, products and database properties can be processed..
+### REGISTERKARTEN ###
+**Datenbank**
+Hier können die Materialien, Produkte und Datenbankeigenschaften bearbeitet werden.
 
-**USERS**: users or API tokens can be added here.
+**Benutzer** 
+Hier können Benutzer oder API-Tokens hinzugefügt werden.
 
-**SHARED WITH**: here this database can be shared with other accounts, folders and/or buildings.
+**Geteilt mit**
+Hier kann diese Datenbank mit anderen Konten, Ordnern und/oder Gebäuden geteilt werden.
 
+### BUTTONS - ZWISCHENBEREICH ###
+**Datenbank**
+- Datenbankeigenschaften bearbeiten: Ändern Sie den Namen der Datenbank und legen Sie fest, ob diese Datenbank beim Hochladen als Standard eingestellt werden soll.
+- Material hinzufügen: Fügt ein neues Material zu dieser Datenbank hinzu.
+- Produkt hinzufügen: Fügt ein neues Produkt zu dieser Datenbank hinzu.
 
-### BUTTONS - between the blue lines
-**DATABASE**
-- Edit database properties; change the name of the database and set whether this database should be set as default in the upload process;
-- Add material; add a new material to this database;
-- Add product; add a new product to this database.
+**Benutzer**
+- Produkt hinzufügen: Fügt ein neues Produkt zu dieser Datenbank hinzu.
+- Benutzer hinzufügen: Einen Benutzer hinzufügen oder einen neuen Benutzer einladen.
+- API-Token hinzufügen: Erzeugen Sie ein API-Token, um ein System als Benutzer einzuladen.
 
-**USERS**
-- Add user; add a user or invite a new user.
-- Add API token; Generate an API token to invite a system as a user.
-
-**SHARED WITH** 
-- Share; here this database can be shared with other accounts, folders and/or buildings.
-
-
+**Geteilt mit**
+- Freigeben: Hier kann diese Datenbank mit anderen Konten, Ordnern und/oder Gebäuden geteilt werden.
 
 ## Main screen
 
+**Linke Seite**
+Auf der linken Seite finden Sie oben einen „Such“-Filter. Damit können Sie nach einem Namen oder einer Nummer in allen oder den ausgewählten Quellen und Lieferantendaten suchen.
+Unter dem geschlossenen Filter „Quelle“ am linken Rand finden Sie eine Liste der verfügbaren Datenbanken mit Materialien und Produkten, auf die Sie Zugriff haben:
+- Ihre eigenen Materialien und Produkte finden Sie, indem Sie auf den Namen Ihres eigenen Kontos filtern. Andere Benutzer ausserhalb Ihres Kontos können die von Ihnen hinzugefügten Materialien nicht sehen, sie sehen nur, was sie selbst hinzugefügt haben. Wenn Sie eine Übersicht mit Materialien und Produkten wünschen, die innerhalb Ihres Kontos hinzugefügt wurden, können Sie über das Filtersymbol eine Auswahl der gewünschten Daten treffen.
+- Alle Materialien und Produkte aus der Madaster-Datenbank finden Sie, wenn Sie im Filter "Madaster" auswählen. Die Madaster-Datenbank ist für jeden Benutzer sichtbar. Diese Daten können nicht geändert werden. Selbst hinzugefügte Materialien und Produkte können bearbeitet werden, dies ist jedoch abhängig von den Rechten des Benutzers.
+- Materialien und Produkte aus anderen Quellen finden Sie, indem Sie im Filter die entsprechende Quelle oder den Lieferanten auswählen.
 
-### Left margin
-On the left hand side you will find a 'search' filter at the top. This allows you to search for a name or number in all or the selected sources and supplier data.
+### Art des Materials/Produkts ###
+Bei Madaster gibt es neben den Materialien vier Produkttypen: Volumen-, Oberflächen-, Längen- und Stückprodukte. Wenn Sie nicht genau wissen, nach welchem Produkttyp Sie suchen, können Sie alle vier Typen auswählen. In diesem Fall werden alle Produkte angezeigt. Wenn Sie nur Materialien in der Übersicht sehen wollen, können Sie den Filter „Produkttyp“ öffnen. Wenn Sie dann unten „Materialien“ auswählen, sehen Sie nur die Materialien, die innerhalb der Madaster Plattform bekannt sind.
 
-Under the closed filter 'Source' on the left hand side you will find a list of the available databases with materials and products to which you have access:
+### Hauptbildschirm ###
+Dieser Teil des Bildschirms zeigt alle Materialien und Produkte an, die den Such- oder Filterkriterien entsprechen. Die Spalten zeigen den Namen, den Produktcode, den Produkttyp bzw. den Lieferanten an. Schliesslich gibt es zwei Icons: ein „Stift“-Symbol, um das Material oder Produkt zu ändern, ein Pfeil-Symbol, um Informationen über das Material oder Produkt anzuzeigen.
 
-- Your own materials and products can be found by filtering on the name of your own account. Other users outside your account will not be able to see the materials you have added, they will only see what they have added themselves. If you want an overview with materials and products that have been added within your account, you can use the filter icon to make a selection of the desired data.
-- All materials and products from the Madaster database can be found by selecting 'Madaster' in the filter. The Madaster database is visible to every user. This data cannot be changed. Materials and products that have been added themselves can be edited, but this depends on the rights of the user.
-- Materials and products from other sources can be found by selecting the relevant source or supplier in the filter.
-
-### Type of material/product
-At Madaster we have four types of products in addition to materials: Volume, Surface, Length and Piece products. If you do not know exactly what type of product you are looking for, you can select all four types. In that case all products will be shown. If you only want to see materials in the overview you can open the filter 'product type'. When you then select 'Materials' below, you will only see the materials that are known within the Madaster platform.
-
-### Main screen
-This part of the screen shows all materials and products that meet the search or filter criteria. The columns display the name, the product code, the product type and the supplier respectively. Finally there are two icons: a 'pen' icon to modify the material or product, an arrow icon to display information about the material or product.
-
-### How do I change material/product data?
-If you have rights to edit materials and products, you can see a 'pen' icon at the end of the line, behind the material in the main screen. Clicking on this icon will take you to the screen of the material or product in question, in order to edit the data. Change the data you want to change. What cannot be changed with a product is the type of the product. Click on the 'Save' button to edit the data and return to the overview.
+### Wie kann ich Material-/Produktdaten ändern? ###
+Wenn Sie Rechte zum Bearbeiten von Materialien und Produkten haben, sehen Sie am Ende der Zeile hinter dem Material im Hauptbildschirm ein „Stift“-Symbol. Wenn Sie auf dieses Symbol klicken, gelangen Sie auf den Bildschirm des betreffenden Materials oder Produkts, um die Daten zu bearbeiten. Ändern Sie die Daten, die Sie ändern möchten. Was bei einem Produkt nicht geändert werden kann, ist der Typ des Produkts. Klicken Sie auf die Schaltfläche „Speichern", um die Daten zu bearbeiten und zur Übersicht zurückzukehren.

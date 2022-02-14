@@ -8,7 +8,7 @@ countries:
   - country: "Swiss"
     code: "ch"
     defaultlanguage: "de"
-    languages: "de,fr"
+    languages: "de,fr,en"
   - country: "Norway"
     code: "no"
     defaultlanguage: "nb"
@@ -40,6 +40,12 @@ defaults:
     values:
         lang: "fr"
         country: "ch"        
+  -
+    scope :
+      path: "ch/en"
+    values:
+        lang: "en"
+        country: "ch"      
   -
     scope :
       path: "nl/nl"

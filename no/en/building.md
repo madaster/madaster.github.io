@@ -21,8 +21,8 @@ The information about the building is divided into a number of tabs: 'General', 
 
 ### THE BUTTON BAR - between the blue lines
 - **Modifying the building**: After this you will arrive at a screen where you can edit data such as name, address and cadastral information. Click on 'Save', after which the data will be adjusted.
-- **Move the building**: You can move the building to another portfolio by clicking on 'move building' in the general tab. You will see a dropdown with available portfolios where the building can be moved to. Note: This may affect the rights of users who have access to this building.
-- **Delete building**: With this button you will see a dialog where you can immediately delete this building. Attention! This will delete the building, and all related data about the building, the source files and the general files, as well as the material passports! There is no ""recovery"" option for this.
+- **Move the building**: You can move the building to another portfolio by clicking on "move building" in the general tab. You will see a dropdown with available portfolios where the building can be moved to. Note: This may affect the rights of users who have access to this building.
+- **Delete building**: With this button you will see a dialog where you can immediately delete this building. Attention! This will delete the building, and all related data about the building, the source files and the general files, as well as the material passports! There is no "recovery" option for this.
 - **New database**; Create a new database for this building. Multiple databases can be created per building;
 - **Creating material passports**: After uploading source files to the building, you can create a material passport. Files with 'active' status will be included in the Material Passport. This allows you to export all active data to a PDF and Excel file, which you can download to your computer.
 

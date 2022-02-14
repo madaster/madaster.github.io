@@ -20,15 +20,15 @@ This will give you access to the resources and their attached entities.
 ### Add a token to a account, folder, building or database
 - Go to the resource page and click on the *Users* tab
 
-<img src="/assets/images/api/addtoken1.png" class="api-img"/>
+<img src="/assets/images/api/addtoken1EN.png" class="api-img"/>
 
 - Click on the *Add API Token* button
 
-<img src="/assets/images/api/addtoken2.png" class="api-img"/>
+<img src="/assets/images/api/addtoken2EN.png" class="api-img"/>
 
 - Enter a name for this token, copy the generated key (1), choose a permission level and expiration time, and finish by clicking on the Add button (2)
 
-<img src="/assets/images/api/addtoken3.png" class="api-img"/>
+<img src="/assets/images/api/addtoken3EN.png" class="api-img"/>
 
 ## Versions
 The API is continually being improved, so as time progresses, more *versions* are added to the interface. Please refer to the [OpenAPI documentation](https://api.madaster.com/) to find which versions support which API calls. It is suggested to always use the latest version available for an API request; but the old versions will remain available for some time for legacy purposes. To select an API version, append the version tag to the API endpoint. For version 3.0 for example, use https://api.madaster.com/api/v3.0

@@ -50,4 +50,4 @@ Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+3185
 
 More information about the releases can be found here:
 
-* <a href="/files/no/Madaster Release notes 2021.pdf" target="_blank">Release notes 2021</a>
+* <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Release notes 2021</a>

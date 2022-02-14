@@ -17,7 +17,7 @@ Hvilke faner som finnes, kan variere med mappetypen. Uansett finnes bestandig di
 
 ### KNAPPEFELT mellom de blå linjene
 **GENERELT**
-- **Visning**; velg mellom flis- og listevisning.** 
+- **Visning**; velg mellom flis- og listevisning.
 - **Rediger**; endre navnet, beskrivelsen og logoen for denne mappen.
 - **Flytt**; flytt mappen til en annen mappe.
 - **Ny mappe** (om aktuelt); bruk nedtrekksmenyen for å opprette en undermappe i denne mappen.
@@ -57,7 +57,7 @@ Klikk på navnet eller bildet til mappen du vil åpne. Du vil nå se en oversikt
 
 
 ### SLETTE EN MAPPE
-En mappe kan bare slettes hvis den ikke inneholder noen bygning(er). Er det fremdeles bygninger i mappen? I så fall må du først fjerne eller flytte hver bygning. Deretter kan du slette mappen. Hvis det ikke finnes flere bygninger i mappen, blir en «Slett»-knapp synlig, og du kan bruke dialogen for å slette mappen. Merk: Eksisterende filer og pass som er i mappens fil, vil også bli slettet. Merk: Du kan ikke angre sletting av en mappe!
+En mappe kan bare slettes hvis den ikke inneholder noen bygning(er). Er det fremdeles bygninger i mappen? I så fall må du først fjerne eller flytte hver bygning. Deretter kan du slette mappen. Hvis det ikke finnes flere bygninger i mappen, blir en «Slett»-knapp synlig, og du kan bruke dialogen for å slette mappen. Merk: Eksisterende filer og pass som er i mappen, vil også bli slettet. Merk: Du kan ikke angre sletting av en mappe!
 
 
 ### ENDRE EN MAPPE

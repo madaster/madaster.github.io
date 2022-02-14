@@ -23,7 +23,7 @@ CI-vurderingen gjøres med to forskjellige fremgangsmåter:
 #### KORREKSJONSFAKTORER
 Bygningens CI-verdi korrigeres med to faktorer som i totalverdien inkluderer graden av kompletthet for datasettet som er registrert i Madaster. En sirkulær bygning og det tilhørende materialpasset fungerer bare for produkter og materialer som er riktig registrert. Korrigeringen er basert på hvor fullstendig modellen er ut fra prosentandelen av massen der materialet er ukjent, og hvor fullstendig modellen er ut fra prosentandelen av massen der det ikke finnes en klassifisering av bygningsdeler.
 
-**Merk**: sirkularitetsvurderingen er fremdeles under utvikling i Madasterplattformen. I øyeblikket har resultatene som vises her, lav pålitelighet. Hvis Sirkularitetsindikatoren utvikles til et nytt trinn som øker påliteligheten, vil dette bli kommunisert (her).
+**Merk**: sirkularitetsvurderingen er fremdeles under utvikling i Madasterplattformen. I øyeblikket har resultatene som vises her, lav pålitelighet. Hvis Sirkularitetsindikatoren utvikles til et nytt trinn som øker påliteligheten, vil dette bli kommunisert.
 
 Vil du ha mer informasjon om detaljskjermbildet? Klikk <a href="./building-circularity-detail">her</a>.
 
