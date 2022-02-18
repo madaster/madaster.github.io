@@ -15,7 +15,7 @@ On this page you will find additional information about the use and development 
 ### General manuals
 
  * Read the <a href="/files/ch/en/Madaster User Manual_EN.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
- * Read the  <a href="/files/en/Madaster - Action Plan.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
+ * Read the  <a href="/files/ch/en/Madaster Action Plan_EN.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
  * Read the  <a href="/files/ch/en/Tender Text Material Passport_EN.pdf" target="_blank">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
 
 
