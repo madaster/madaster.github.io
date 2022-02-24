@@ -14,10 +14,10 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 ### Algemene handleidingen
 
  * Open de <a href="/files/nl/Madaster - Gebruikershandleiding.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze handleiding beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
-  * Open de <a href="/files/nl/Madaster - Handleiding Product toevoegen.pdf" target="_blank">Madaster handleiding Producten toevoegen</a> – dit document beschrijft gedetailleerd hoe verschillende producttypen in Madaster worden toegevoegd.
+ * Open de <a href="/files/nl/Madaster - Handleiding Product toevoegen.pdf" target="_blank">Madaster handleiding Producten toevoegen</a> – dit document beschrijft gedetailleerd hoe verschillende producttypen in Madaster worden toegevoegd.
  * Open de <a href="/files/nl/Madaster - Stappenplan.pdf" target="_blank">Madaster handleiding Stappenplan</a> - dit document beschrijft de noodzakelijke processtappen die leiden tot de oplevering van een materialenpaspoort in het Madaster platform.
  * Open de <a href="/files/nl/Madaster - Tekst voor uitvragen Madaster materialenpaspoort.pdf" target="_blank">handleiding voor het uitvragen Madaster paspoort</a> document - Dit document geeft een handleiding over hoe een Madaster materialenpaspoort uitgevraagd kan worden in een aanbestedingstekst. Als aanvulling hierop biedt het concrete voorbeeldzinnen die gebruikt kunnen worden in de uitvraag.
-
+ * Open het <a href="/files/nl/Data requirements Madaster schematisch overzicht.xlsx" target="_blank">Schematisch Overzicht Data Richtlijnen Madaster</a> - Dit document geeft een schematische weergave van de data richtlijnen voor een registratie in Madaster op basis van de gewenste output.
 
 ### Online Instructievideo's
 
