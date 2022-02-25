@@ -1,9 +1,9 @@
 ---
-title: Type de dossier
+title: Paramètres
 layout: page
 show_sidebar: false
 menubar: faq-nav
-ref: account-foldertypes
+ref: account-settings
 lang: fr
 ---
 

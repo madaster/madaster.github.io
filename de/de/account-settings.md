@@ -1,6 +1,6 @@
 ---
-title: Ordnertyp
-ref: account-foldertypes
+title: Einstellungen
+ref: account-settings
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
