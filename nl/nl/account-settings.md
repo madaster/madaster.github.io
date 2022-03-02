@@ -1,6 +1,6 @@
 ---
-title: Type folders
-ref: account-foldertypes
+title: Instellingen
+ref: account-settings
 ---
 
 ## WELKE INFORMATIE WORDT HIER GETOOND?

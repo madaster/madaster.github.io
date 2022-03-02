@@ -1,6 +1,6 @@
 ---
-title: Mappetyper
-ref: account-foldertypes
+title: Innstillinger
+ref: account-settings
 ---
 
 ## Hvilken informasjon vises her?

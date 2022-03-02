@@ -5,7 +5,7 @@
       items:   
       - ref: account-files
       - ref: account-users
-      - ref: account-foldertypes
+      - ref: account-settings
       - ref: account-materials-products
         items:   
           - ref: material

@@ -1,6 +1,6 @@
 ---
-title: Foldertypes
-ref: account-foldertypes
+title: Settings
+ref: account-settings
 ---
 
 ## What information is shown here?
