@@ -51,4 +51,5 @@ Har du spørsmål? Kontakt Madaster på telefon [004799224973](tlf:+47 992 24 97
 
 Mer informasjon om utgivelsene finner du her:
 
+* <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Versjonsnotater 2022</a>
 * <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Versjonsnotater 2021</a>
