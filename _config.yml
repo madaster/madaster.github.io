@@ -17,6 +17,10 @@ countries:
     code: "de"
     defaultlanguage: "de"
     languages: "de"
+  - country: "Belgium"
+    code: "be"
+    defaultlanguage: "nl"
+    languages: "nl,fr,en"
   
 title: Madaster Documentation
 
@@ -76,4 +80,21 @@ defaults:
     values:
       country: "no"
       lang: "nb" 
-  
+  -
+    scope :
+      path: "be/nl"
+    values:
+        lang: "nl"
+        country: "be"
+  -
+    scope :
+      path: "be/fr"
+    values:
+        lang: "fr"
+        country: "be"        
+  -
+    scope :
+      path: "be/en"
+    values:
+        lang: "en"
+        country: "be"  
