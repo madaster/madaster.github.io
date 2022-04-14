@@ -1,4 +1,5 @@
-swagger.json
+.vs/
 /_site/
+_site/
+swagger.json
 gemfile.lock
-_site/*

@@ -32,7 +32,7 @@ On this page you will find additional information about the use and development 
 
 ### Reference works
 
- * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
+ * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circularity Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
  
 * Read the <a href="/files/ch/en/Madaster Financial Module EN-DACH.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
