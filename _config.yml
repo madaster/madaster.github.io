@@ -24,6 +24,11 @@ countries:
   
 title: Madaster Documentation
 
+exclude:
+  - README.md
+  - swagger.json
+  - update-api-docs.ps1
+
 defaults:
   -
     scope :
@@ -36,44 +41,44 @@ defaults:
     scope :
       path: "ch/de"
     values:
-        lang: "de"
-        country: "ch"
+      lang: "de"
+      country: "ch"
   -
     scope :
       path: "ch/fr"
     values:
-        lang: "fr"
-        country: "ch"        
+      lang: "fr"
+      country: "ch"        
   -
     scope :
       path: "ch/en"
     values:
-        lang: "en"
-        country: "ch"      
+      lang: "en"
+      country: "ch"      
   -
     scope :
       path: "nl/nl"
     values:
-        country: "nl"
-        lang: "nl"
+      country: "nl"
+      lang: "nl"
   -
     scope :
       path: "nl/en"
     values:
-        country: "nl"
-        lang: "en"
+      country: "nl"
+      lang: "en"
   -
     scope :
       path: "de"
     values:
-        country: "de"
-        lang: "de" 
+      country: "de"
+      lang: "de" 
   -
     scope :
       path: "no/en"
     values:
-        country: "no"
-        lang: "en"  
+      country: "no"
+      lang: "en"  
   - 
     scope :
       path: "no/nb"
@@ -84,17 +89,17 @@ defaults:
     scope :
       path: "be/nl"
     values:
-        lang: "nl"
-        country: "be"
+      lang: "nl"
+      country: "be"
   -
     scope :
       path: "be/fr"
     values:
-        lang: "fr"
-        country: "be"        
+      lang: "fr"
+      country: "be"        
   -
     scope :
       path: "be/en"
     values:
-        lang: "en"
-        country: "be"  
+      lang: "en"
+      country: "be"  

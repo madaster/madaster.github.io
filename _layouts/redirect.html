@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-      fetch('https://extreme-ip-lookup.com/json/')
+      fetch('https://api.db-ip.com/v2/free/self')
       .then( res => res.json())
       .then(response => {
         var country="nl";
         var language="en";
         var countries= JSON.parse('{{ site.countries | jsonify }}');
-        console.log("Country: ", response.countryCode);
-        if (countries.some(t=> t.code==response.countryCode.toLowerCase())) {
-              country= response.countryCode.toLowerCase();
+        console.log("Country: ", response.countryCode );
+        var countryCode = response.countryCode.toLowerCase();
+
+        if (countries.some(t=> t.code === countryCode)) {
+              country = countryCode;
         }
+        
         var lang = navigator.language || navigator.userLanguage;
         if (lang)
         {
@@ -23,7 +28,7 @@
           }
         }
         if (country && language){
-          window.location = "/"+country+"/"+language;
+          window.location = "/" + country + "/" + language;
         }
       else {
         window.location = "/nl/en";
@@ -33,6 +38,9 @@
         window.location = "/nl/en";
     });
     </script>
-  </body>
+    <title>Madaster documentation</title>
+  </head>
+  <body>
+    <noscript>This page uses javascript to redirect you to the correct <a href="/nl/en" aria-label="Madaster documentation for The Netherlands">country specific</a> documentation.</noscript>
   </body>
 </html>
