@@ -56,6 +56,7 @@ Meer informatie over de releases vindt u hier:
 
 More information about the releases can be found here:
 
+* <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release 2022</a>
 * <a href="/files/nl/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_09_NL.pdf" target="_blank">Release notes 7 januari 2021</a>
 * <a href="/files/Madaster Releasenotes_2020_08_NL.pdf" target="_blank">Release notes 1 december 2020</a>
