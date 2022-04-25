@@ -41,7 +41,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 ### Naslagwerken
 
 * Lees de <a href="/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
-* Lees de <a href="/files/be/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
+* Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
  
 ---
 
@@ -56,4 +56,5 @@ Meer informatie over de releases vindt u hier:
 
 More information about the releases can be found here:
 
-* <a href="/files/be/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
+* <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release 2022</a>
+* <a href="/files/nl/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
