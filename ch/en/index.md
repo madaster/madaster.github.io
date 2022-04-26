@@ -26,7 +26,7 @@ On this page you will find additional information about the use and development 
  * Read the <a href="/files/ch/en/Madaster BIM - IFC import process_EN.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
  * Read the <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
  * Download the <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab) and BIMCollab Zoom</a> Solution (free IFC viewer) - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
- * Important general information about BIM can be obtained via <a href="https://www.bimloket.nl//documents/BIM_basis_ILS_v1_0_ENG.pdf" target="_blank">BIM loket</a>.
+ * Important general information about BIM can be obtained via <a href="https://www.bimloket.nl//documents/BIM-ILS_infographicA4_2020_UK_021.pdf" target="_blank">BIM loket</a>.
 
 
 

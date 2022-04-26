@@ -32,7 +32,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Download de laatste Archicad IFC ExportTranslator - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform (beschikbaar voor KeyMembers). Lees <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >hier</a> de instructies en tips.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
- * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/BIMbasisILS" target="_blank">BIM loket</a> vinden.
+ * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
  
   * Download de <a href="/files/be/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.

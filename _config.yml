@@ -20,7 +20,7 @@ countries:
   - country: "Belgium"
     code: "be"
     defaultlanguage: "nl"
-    languages: "nl,fr,en"
+    languages: "nl,en"
   
 title: Madaster Documentation
 
