@@ -90,13 +90,7 @@ defaults:
       path: "be/nl"
     values:
       lang: "nl"
-      country: "be"
-  -
-    scope :
-      path: "be/fr"
-    values:
-      lang: "fr"
-      country: "be"        
+      country: "be"   
   -
     scope :
       path: "be/en"
