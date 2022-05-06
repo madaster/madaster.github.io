@@ -21,6 +21,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
  * Liser le <a href="/files/ch/en/Madaster User Manual_EN.pdf" target="_blank">manuel utilisateur Madaster</a> – ce manuel decrit en detail les fonctionalités de la plateforme Madaster.
  * Liser le <a href="/files/en/Madaster - Action plan.pdf" target="_blank">plan d'action pour passeport matériel Madaster</a> - ce document décrit en détail les étapes necessaires pour aboutir à un passeport matériel.
  * Liser le <a href="/files/ch/en/Tender Text Material Passport_EN.pdf" target="_blank">manuel pour la demande d'un passeport Madaster</a> - Ce document fournit un manuel sur la manière de demander un passeport de matériaux Madaster dans un texte d'appel d'offres. En outre, il offre des exemples concrets de phrases qui peuvent être utilisées dans la demande.
+ * Liser le <a href="/files/ch/en/Schematic overview Madaster data requirements per output.xlsx" target="_blank"> Aperçu schématique des demandes de données Madaster par évaluation</a> - Ce document fournit un aperçu schématique des directives relatives aux données pour un enregistrement dans Madaster en fonction de la sortie souhaitée.
 
 ### Manuels et autres informations spécifiques BIM.
 
