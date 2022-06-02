@@ -8,19 +8,19 @@ Die Genauigkeit und Zuverlässigkeit der Daten in der Madaster-Plattform beginnt
 
 In der gezeigten Übersicht sehen Sie die Qualität der hochgeladenen Quelldatei, aufgeschlüsselt in die Kategorien, auf deren Grundlage die Madaster-Plattform die Datei weiterverarbeitet.
 
-**PROZENTSATZ DER KLASSIFIKATIONSMETHODEN**
+**PROZENTSATZ DER KLASSIFIZIERUNG**
 - Basierend auf der Anzahl der Elemente: Prozentsatz der Anzahl der Elemente in der Quelldatei, die einen Klassifizierungscode enthalten (EBKP-H).
 - Basierend auf dem Volumen: Prozentsatz des Volumens, das eine Klassifikation (EBKP-H) enthält.
 
 **PROZENTSATZ DER MATERIALZUWEISUNG**
-- Basierend auf der Anzahl der Elemente: Prozentsatz der Anzahl der Elemente in der Quelldatei, denen ein Material zugeordnet werden konnte.
-- Basierend auf dem Volumen: Prozentsatz des Volumens, dem ein Material zugeordnet werden konnte. 
+- Basierend auf der Anzahl der Elemente: Prozentsatz der Anzahl der Elemente, denen in der Quelldatei ein Material zugeordnet wurde.
+- Basierend auf dem Volumen: Prozentsatz des Volumens, dem in der Quelldatei ein Material zugeordnet wurde. 
 
-**PROZENTSATZ DER GEOMETRISCHEN ABMESSUNGEN**
+**PROZENTSATZ DER GEOMETRISCHEN ANGABEN**
 - Elemente mit Volumeninformationen: Prozentsatz der Anzahl der Elemente in der Quelldatei, die Volumeninformationen enthalten (für Produkte vom Typ "Volumen").
 - Elemente mit Flächeninformationen: Prozentsatz der Anzahl der Elemente in der Quelldatei, die Flächeninformationen enthalten (bei Produkten vom Typ "Fläche").
 - Elemente mit Längenangaben: Prozentsatz der Anzahl der Elemente in der Quelldatei, die Längenangaben enthalten (bei Produkten vom Typ "Länge").
-- Elemente ohne geometrische Abmessungen: Prozentsatz der Elemente in der Quelldatei, die keine geometrischen Informationen enthalten. 
+- Elemente ohne geometrische Angaben: Prozentsatz der Elemente in der Quelldatei, die keine geometrischen Informationen enthalten. 
 
 **Hinweis** 
 Es ist wichtig, dass dieser Prozentsatz sehr niedrig ist. Das Volumen ist die primäre Einheit, die auf der Registerkarte "Gebäude" angezeigt wird.

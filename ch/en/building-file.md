@@ -15,7 +15,7 @@ In the overview shown you can see the quality of the uploaded source file, broke
 
 **PERCENTAGE OF MATERIAL ALLOCATION**
 - Based on number of elements: percentage of the number of elements in the source file containing a material allocation.
-- Based on volume: percentage of the volume for which a material attribution is known.
+- Based on volume: percentage of the volume for which a material attribution in the source file is known.
 
 **PERCENTAGE OF GEOMETRIC DIMENSIONS**
 - Elements with volume information: percentage of the number of elements in the source file containing volume information (for products of type "volume").
