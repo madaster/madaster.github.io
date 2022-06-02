@@ -42,7 +42,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+31850601242) or e-mailadress <service@madaster.com>.
+Do you have questions? Contact Madaster by telephone [0473-532059](tel:0473532059) or e-mailadress <service@madaster.be>.
 
 ---
 

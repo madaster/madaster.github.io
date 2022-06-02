@@ -35,7 +35,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
  
-  * Download de <a href="/files/be/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+  * Download de <a href="/files/be/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialenlijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
 
 
 ### Naslagwerken
@@ -46,7 +46,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg" /> Madaster Servicedesk
-Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-0601242](tel:+31850601242) of het emailadres: <service@madaster.com>.
+Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [0743-532059](tel:0473532059) of het e-mailadres: <service@madaster.be>.
 
 ---
 
