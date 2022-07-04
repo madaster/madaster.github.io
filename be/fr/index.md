@@ -15,7 +15,7 @@ _Les documents sont uniquement disponibles en Anglais._
 
 ### Manuels généraux
 
- * Liser le <a href="/files/be/en/Madaster - User manual.pdf" target="_blank">manuel d'utilisateur Madaster</a> – Ce manuel décrit en detail les fonctionalités de la plateforme Madaster.
+ * Liser le <a href="/files/be/en/Madaster - User Manual.pdf" target="_blank">manuel d'utilisateur Madaster</a> – Ce manuel décrit en detail les fonctionalités de la plateforme Madaster.
  * Liser le <a href="/files/be/en/Madaster - Manual Add Products.pdf" target="_blank">manuel utilisateur pour la gestion des produits</a> – Ce manuel décrit en detail comment gérer les produits de différents sortes dans vos base de données sur la plateforme Madaster.
  * Liser le  <a href="/files/be/en/Madaster - Action plan.pdf" target="_blank">plan d'action pour passeport matériel Madaster</a> - Ce document décrit en détail les étapes necessaires pour aboutir à un passeport Madaster.
 
