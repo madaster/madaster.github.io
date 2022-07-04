@@ -51,7 +51,7 @@ S'il y a des bâtiments dans le dossier, l'onglet Bâtiments fournit une vue d'e
 ## OUVRIR/AFFICHER UN DOSSIER
 Cliquez sur le nom ou l'image du dossier que vous souhaitez ouvrir. Vous voyez maintenant un aperçu des bâtiments ajoutés à ce dossier et un aperçu des utilisateurs qui peuvent consulter et modifier ce dossier.
 
-## SUPPRIMER UN DOSSIERR
+## SUPPRIMER UN DOSSIER
 Un dossier ne peut être supprimé que s'il ne contient aucun bâtiment. Reste-t-il des bâtiments dans le dossier ? Si oui, vous devez d'abord supprimer ou déplacer chaque bâtiment, puis supprimer le dossier. S'il n'y a plus de bâtiments dans le dossier, un bouton « Supprimer » est affiché et vous pouvez supprimer le dossier via la boîte de dialogue. Remarque : Les fichiers et passeports existants qui se trouvent dans le fichier du dossier seront également supprimés. Remarque : La suppression d'un dossier ne peut pas être annulée !
 
 ## MODIFIER UN DOSSIER
