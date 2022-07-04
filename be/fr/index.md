@@ -9,7 +9,7 @@ ref: home
 
 ## <img class="header-img" src="/assets/images/767.svg"> Manuel d'utilisateur
 
-_Certains documents ne sont pas encore traduits en uniquement disponibles en Anglais ou Hollandais._
+_Les documents sont uniquement disponibles en Anglais._
 
 
 
@@ -26,7 +26,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
  * Liser le <a href="/files/be/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
  * Read the <a href="/files/be/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
  * Read the <a href="/files/be/en/Madaster BIM - IFC export UK_v20-1.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
- * Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.
+ <!---* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.--->
  * Download the <a href="http://www.bimcollab.com/be/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
  * Download the <a href="http://www.bimcollab.com/be/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
  * Interesting general information about BIM can be obtained via <a href="https://www.bimloket.nl//documents/BIM_basis_ILS_v1_0_FRA.pdf" target="_blank">BIM loket</a>.
