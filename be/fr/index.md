@@ -5,7 +5,7 @@ menubar: none
 ref: home
 ---
 
-## Bienvenue sur la plateform Madaster
+## Bienvenue sur la plateforme Madaster
 
 ## <img class="header-img" src="/assets/images/767.svg"> Manuel d'utilisateur
 
