@@ -42,7 +42,7 @@ On this page you will find additional information about the use and development 
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+31850601242) or e-mailadress <service@madaster.com>.
+Do you have questions? Contact Madaster by telephone [0032 473 53 20 59](tel:+32473532059) or email adress <service@madaster.be>.
 
 ---
 
