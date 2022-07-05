@@ -53,4 +53,4 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+491727995567](tel:+491
 
 Weitere Informationen zu den Releases finden Sie hier:
 
-* <a href="/files/de/Release Notes.pdf" target="_blank">Release 2021</a>
+* <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Release 2022</a>
