@@ -24,7 +24,7 @@ _Les documents sont uniquement disponibles en Anglais._
   * Télécharger la <a href="/files/ch/fr/matériel Madaster.xlsx" target="_blank">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
 
  * Liser le <a href="/files/be/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l’élaboration d’un modèle BIM.
- * Lisez le <a href="/files/be/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
+ * Lisez le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
  * Lisez le <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l’exportation d’un fichier IFC.
  <!---* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.--->
  * Télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
