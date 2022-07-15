@@ -54,7 +54,5 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [0743-53
 
 Meer informatie over de releases vindt u hier:
 
-More information about the releases can be found here:
-
 * <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release 2022</a>
 * <a href="/files/nl/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
