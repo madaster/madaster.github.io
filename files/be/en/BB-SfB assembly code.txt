@@ -1,0 +1,370 @@
+# bestand               : YUGENING_BB-SfB assembly code.txt
+# omschrijving          : BB-Sfb aangepast aan assembly code Revit
+# datum                 : juli 2022
+# by                    : LD / YUGENING BVBA
+# copyright             : YUGENING BVBA
+1-	BODEM, ONDERBOUW	1	-2000151
+10	- voorbehouden -	2	-2001340
+11	BODEM	3	-2001340
+11.1	Bodemreliëf, bodemhelling	3	-2001340
+11.3	Grondsamenstelling	3	-2001340
+11.4	Grondwater, water in grond	3	-2001340
+11.5	Bestaande ondergrondse voorzieningen	3	-2001340
+11.8	Hoger niet genoemde elementen van (11)	3	-2001340
+11.9	Hulpstukken en onderdelen voor elementen van (11)	3	-2001340
+12	- voorbehouden -	2	-2001340
+13	LAGEN OP VOLLE GROND, VLOEREN OP VOLLE GROND	2	-2000032
+13.1	Vloeren op volle grond	3	-2000032
+13.4	Beplante en onbeplante zachte lagen op volle grond	3	-2000032
+13.6	Lagen onder water	3	-2000032
+13.8	Hoger niet genoemde elementen van (13)	3	-2000032
+13.9	Hulpstukken en onderdelen voor elementen van (13)	3	-2000032
+14	- voorbehouden -	2	-2000151
+15	- voorbehouden -	2	-2000151
+16	FUNDERINGEN, KEERMUREN	2	-2001300
+16.2	Keermuren, keldermuren in contact met grond	3	-2001300
+16.3	Waterkerende elementen	3	-2001300
+16.4	Funderingen, funderingen op zolen, funderingen op putten	3	-2001300
+16.8	Hoger niet genoemde elementen van (16)	3	-2001300
+16.9	Hulpstukken en onderdelen voor elementen van (16)	3	-2001300
+17	PAALFUNDERINGEN, DAMPLANKEN	2	-2001300
+17.1	Damplanken	3	-2001300
+17.2	Paalfunderingen gerealiseerd met gronduitgravingen en in situ gestort	3	-2001300
+17.3	Paalfunderingen gerealiseerd met grondverdringing en geprefabriceerd	3	-2001300
+17.4	Paalfunderingen gerealiseerd met grondverdringing en in situ gevormd	3	-2001300
+17.8	Hoger niet genoemde elementen van (17)	3	-2001300
+17.9	Hulpstukken en onderdelen voor elementen van (17)	3	-2001300
+18	HOGER NIET GENOEMDE ELEMENTEN VAN (1-)	2	-2000151
+19	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (1-)	2	-2000151
+2-	PRIMAlRE ELEMENTEN VAN BOVENBOUW	1	-2000151
+20	- voorbehouden -	2	-2000151
+21	BUITENWANDEN	2	-2000011
+21.1	Dragende buitenwanden	3	-2000011
+21.2	niet-dragende buitenwand (uitgezonderd gordijngevels)	3	-2000011
+21.4	Gordijngevels	3	-2000011
+21.6	Buitenwanden opgebouwd uit draagstructuur en bekleding of invulling	3	-2000011
+21.8	Hoger niet genoemde elementen van (21)	3	-2000011
+21.9	Hulpstukken en onderdelen voor elementen van (21)	3	-2000011
+22	BINNENWANDEN	2	-2000011
+22.1	Dragende binnenwanden	3	-2000011
+22.3	Niet-dragende binnenwanden	3	-2000011
+22.6	Binnenwanden opgebouwd uit draagstructuur met bekleding of invulling	3	-2000011
+22.8	Hoger niet genoemde elementen van (22)	3	-2000011
+22.9	Hulpstukken en onderdelen voor elementen van (22)	3	-2000011
+23	VLOEREN, GALERIJEN, BALKONS, LOOPBRUGGEN	2	-2000032
+23.2	Monolithische vloeren en plaatvloeren	3	-2000032
+23.4	Samengestelde vloeren	3	-2000032
+23.7	Galerijen, balkons, loopbruggen	3	-2000032
+23.8	Hoger niet genoemde elementen van (23)	3	-2000032
+23.9	Hulpstukken en onderdelen voor elementen van (23)	3	-2000032
+24	ELEMENTEN VOOR VERTICALE CIRCULATIE, TRAPPEN	2	-2000120
+24.1	Rechte trap zonder richtingsverandering (met of zonder tussenbordes)	3	-2000120
+24.3	Rechte trap met richtingsverandering (via bordes of verdreven treden)	3	-2000120
+24.4	Wenteltrappen, spiraaltrappen	3	-2000120
+24.5	Trappen volgens ander indelingscriterium	3	-2000120
+24.6	Vaste ladders, klimijzers, glijpalen	3	-2000120
+24.7	Hellingen	3	-2000180
+24.8	Hoger niet genoemde elementen van (24)	3	-2000120
+24.9	Hulpstukken en onderdelen voor elementen van (24)	3	-2000120
+25	- voorbehouden -	2	-2000151
+26	- voorbehouden -	2	-2000151
+27	Daken	2	-2000035
+27.1	Platte daken, dakterrassen	3	-2000035
+27.2	Hellende daken	3	-2000035
+27.21	Met één dakschild	3	-2000035
+27.22	Met twee dakschilden	3	-2000035
+27.23	Met vier dakschilden	3	-2000035
+27.28	Hellende daken niet genoemd in (27.2-)	3	-2000035
+27.4	Daken met geplooide plaatstructuur	3	-2000035
+27.5	Daken met een vorm niet genoemd in (27.1)/(27.4)	3	-2000035
+27.6	Dakstructuren zonder uitkraging	3	-2000035
+27.7	Dakstructuren met uitkraging	3	-2000035
+27.8	Hoger niet genoemde elementen van (27)	3	-2000035
+27.9	Hulpstukken en onderdelen voor elementen van (27)	3	-2000035
+28	DRAAGSTRUCTUREN VAN GEBOUWEN, HOGER NIET GENOEMDE ELEMENTEN VAN (2-)	2	-2001320
+28.2	Kolom-balkstructuur, portiekstructuur	3	-2001320
+28.3	Kolom-vloerstructuur	3	-2001320
+28.5	Kolom-kabelstructuur	3	-2001320
+28.6	Ruimtelijke draagstructuur	3	-2001320
+28.7	Draagstructuren hoger niet genoemd in (28.21/(28.6)	3	-2001320
+28.8	Hoger niet genoemde elementen van (2-)	3	-2001320
+28.9	Hulpstukken en onderdelen voor elementen van (28)	3	-2001320
+29	Hulpstukken en onderdelen voor elementen van (2-)	2	-2000151
+3-	SECUNDAIRE ELEMENTEN, AFSLUITENDE ELEMENTEN VAN DE BOVENBOUW	1	-2000151
+30	- voorbehouden -	2	-2000151
+31	SECUNDAIRE ELEMENTEN VOOR BUITENWANDEN	2	-2000151
+31.3	Raam-deuren, openingen voor raam-deuren	3	-2000014
+31.4	Ramen, openingen voor ramen, raamopeningen	3	-2000014
+31.5	Deuren, openingen voor deuren, doorgangen	3	-2000023
+31.7	Luiken, openingen met of zonder luiken	3	-2000023
+31.8	Hoger niet genoemde elementen van (31)	3	-2000023
+31.9	Hulpstukken en onderdelen voor elementen van (31)	3	-2000023
+32	SECUNDAIRE ELEMENTEN VOOR BINNENWANDEN	2	-2000151
+32.3	Raam-deuren, openingen voor raam-deuren in binnenwanden	3	-2000014
+32.4	Ramen voor binnenwanden, openingen voor ramen in binnenwanden, raamopeningen in binnenwanden	3	-2000014
+32.5	Deuren voor binnenwanden, deuropeningen voor binnenwanden, doorgangen in binnenwanden	3	-2000023
+32.7	Luiken voor binnenwanden, openingen in binnenwanden met of zonder luiken	3	-2000151
+32.8	Hoger niet genoemd in elementen van (32)	3	-2000151
+32.9	Hulpstukken en onderdelen voor elementen van (32)	3	-2000151
+33	SECUNDAIRE ELEMENTEN VOOR VLOEREN	2	-2000032
+33.1	Verhoogde vloeren	3	-2000032
+33.2	Secundaire vloerlagen	3	-2000032
+33.5	Openingen in vloeren met of zonder afsluitende elementen	3	-2000032
+33.8	Hoger niet genoemde elementen van (33)	3	-2000032
+33.9	Hulpstukken en onderdelen voor elementen van (33)	3	-2000032
+34	SECUNDAIRE ELEMENTEN VOOR VERTICALE CIRCULATIE, VOOR TRAPPEN	2	-2000038
+35	OPGEHANGENPLAFONDS	2	-2000038
+35.1	Opgehangen plafonds uit één stuk of met platen of tegels, dit wil zeggen niet-lijnvormige elementen	3	-2000038
+35.2	Opgehangen plafonds uit lijnvormige elementen	3	-2000038
+35.3	Openingen in opgehangen plafonds met of zonder invulelementen	3	-2000038
+35.8	Hoger niet genoemde elementen van (35)	3	-2000038
+35.9	Hulpstukken en onderdelen voor elementen van (35)	3	-2000038
+36	- voorbehouden -	2	-2000151
+37	SECUNDAIRE ELEMENTEN VOOR DAKEN	2	-2000014
+37.3	Raam-deuren, openingen voor raam-deuren in daken	3	-2000014
+37.4	Ramen voor daken, raamopeningen in daken	3	-2000014
+37.41	Daklichten bij platte daken (inbegrepen lichtdoorlatende koepels)	3	-2000014
+37.42	Daklantaarnen, noorderlichten tot aan daknok	3	-2000014
+37.44	Dakramen uitspringend of inspringend ten opzichte van een hellend dakvlak	3	-2000014
+37.45	Dakramen in dakvlak van hellend dak	3	-2000014
+37,47	Lichtdoorlatendebegaanbaredakdelen	3	-2000014
+37.48	Hoger niet genoemde elementen van (37.4-)	3	-2000014
+37.5	Deuren toegangen tot daken, met of zonder afsluitende elementen	3	-2000023
+37.6	Dakranden	3	-2000011
+37.8	Hoger niet genoemde elementen van (37)	3	-2000151
+37.9	Hulpstukken en onderdelen voor elementen van (37)	3	-2000151
+38	HOGER NIET GENOEMDE ELEMENTEN VAN (3-)	2	-2000151
+39	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (3-)	2	-2000151
+4-	AFWERKING	1	-2000151
+40	-voorbehouden -	2	-2000151
+41	BUITENAFWERKING VOOR WANDEN	2	-2000011
+42	BlNNENAFWERKING VOOR WANDEN	2	-2000011
+43	AFWERKING VOOR VLOEREN	2	-2000032
+44	AFWERKING VOOR ELEMENTEN VOOR VERTICALE CIRCULATIE	2	-2000120
+45	AFWERKING VOOR PLAFONDS	2	-2000038
+46	-voorbehouden -	2	-2000151
+47	BUITENAFWERKING VOOR DAKEN	2	-2000035
+47.1	Luifelelementen	3	-2000151
+48	HOGER NIETGENOEMDE ELEMENTEN VAN (4-)	2	-2000151
+49	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (4-)	2	-2000151
+5-	TECHNISCHE UITRUSTING, HOOFDZAKELIJK FLUIDA	1	-2000151
+50	-voorbehouden -	2	-2000151
+51	- voorbehouden -	2	-2000151
+52	AFVALAFVOER, (UITRUSTING VOOR-)	2	-2000151
+52.1	Afvoer voor vast afval	3	-2001160
+52.13	Droog vervoer	3	-2001160
+52.14	Manueel vervoer	3	-2001160
+52.18	Afvoer voor vaste afval hoger niet genoemd in (52.1-), inbegrepen afvalvernietiging	3	-2001160
+52.2	Afvoer voor gasvormige afval via kanaal	3	-2001160
+52.3	Afvalwaterafvoer	3	-2001160
+52.4	Afvoer voor specíale afval vloeistoffen	3	-2001160
+52.5	Afvoer voor hemelwater	3	-2001160
+52.6	Afvoer boven het maaiveld en gelegen ofwel in het gebouw ofwel tegen de buitenkant ervan	3	-2001160
+52.7	Afvoer in de grond en gelegen ofwel onder het gebouw ofwel tegen de buitenkant ervan	3	-2001160
+52.8	Hoger niet genoemde elementen van (52)	3	-2001160
+52.9	Hulpstukken en onderdelen voor elementen van (52)	3	-2001160
+53	VLOEISTOFFENTOEVOER (UITRUSTING VOOR -)	2	-2000151
+53.1	Toevoer van koud water	3	-2008044
+53.3	Toevoer van warm water	3	-2008044
+53.5	Toevoer van warm water uit verwarmingsinstallatie bij verbruikspunt	3	-2008044
+53.6	Toevoer van behandeld water	3	-2008044
+53.7	Toevoer van vloeibare brandstoffen	3	-2008044
+53.8	Vloeistoffentoevoer hoger niet genoemd in (53)	3	-2008044
+53.9	Hulpstukken en onderdelen voor elementen van (53)	3	-2008044
+54	GASTOEVOER (UITRUSTING VOOR -)	2	-2000151
+54.1	Toevoer van brandbaar gas	3	-2008044
+54.2	Toevoer van stoom	3	-2008044
+54.3	Toevoer van lucht	3	-2008044
+54.4	Toevoer van gassen, hoger niet genoemd in (54.1)/( 54.3)	3	-2008044
+54.5	Toevoer van vacuüm	3	-2008044
+54.8	Hoger niet genoemde elementen van (54)	3	-2008044
+54.9	Hulpstukken en onderdelen voor elementen van (54)	3	-2008044
+55	KOELING (UITRUSTING VOOR -)	2	-2001140
+55.1	Centrale koelinstallatie	3	-2001140
+55.5	Lokale koelinstallatie	3	-2001140
+55.8	Hoger niet genoemde elementen van (55)	3	-2001140
+55.9	Hulpstukken en onderdelen voor elementen van (55)	3	-2001140
+56	VERWARMING (UITRUSTING VOOR -)	2	-2001140
+56.1	Verwarming volgens energievorm	3	-2001140
+56.2	Wijkverwarming	3	-2001140
+56.3	Centrale verwarming	3	-2001140
+56.4	Centrale verwarming, warmtedistributie met warm water of stoom	3	-2001140
+56.5	Centrale verwarming warmtedistributie met warme lucht	3	-2001140
+56.6	Warmtedistributie via elektrische leidingen	3	-2001140
+56.7	Centrale verwarming hoger niet genoemd in (56.4)/(56.6)	3	-2001140
+56.8	Lokale warmteproductie, hoger niet genoemde elementen van (56)	3	-2001140
+56.9	Hulpstukken en onderdelen voor elementen van (56)	3	-2001140
+57	LUCHTBEHANDELING EN VENTILATIE (INSTALLATTES VOOR -)	2	-2001140
+57.1	Centrale installatie voor luchtverwarming en koeling inclusief behandeling	3	-2001140
+57.2	Centrale installatie voor luchtverwarming zonder koeling inclusief behandeling	3	-2001140
+57.3	Lokale installatie voor luchtverwarming en koeling inclusief behandeling	3	-2001140
+57.4	Lokale installatie voor luchtverwarming zonder koeling inclusief behandeling	3	-2001140
+57.5	Installatie voor luchtbehandeling zonder koelen of verwarmen en installaties die koelen en verwarmen combineren zonder luchtbehandeling	3	-2001140
+57.6	Gedwongen centrale ventilatie zonder behandeling	3	-2001140
+57.7	Gedwongen lokale ventilatie	3	-2001140
+57.8	Hoger niet genoemde elementen van (57)	3	-2001140
+57.9	Hulpstukken en onderdelen voor elementen van (57) afzonderlijk beschouwd of gemeenschappelijk aan meerdere elementen van (57)	3	-2001140
+58	HOGER NIET GENOEMDE ELEMENTEN VAN (5-)	2	-2001140
+59	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (5-)	2	-2001140
+6-	TECHNISCHE UITRUSTING, HOOFDZAKELIJK ELEKTRISCH	1	-2001140
+60	-voorbehouden -	2	-2001140
+61	PRIMAIRE ELEKTRICITEITSNET	2	-2001040
+61.1	Radiaalverdeling	3	-2001040
+61.2	Ringverdeling	3	-2001040
+61.3	Stijgleidingen	3	-2001040
+61.6	Openbare stroomvoorzieningen	3	-2001040
+61.7	Privé-elektriciteitsproductie	3	-2001040
+61.8	Hoger niet genoemde elementen van (61)	3	-2001040
+61.9	Hulpstukken en onderdelen voor elementen van (61) afzonderlijk beschouwd of gemeenschappelijk aan meerdere elementen van (61)	3	-2001040
+62	SECUNDATRE ELEKTRICITEITSNET	2	-2001040
+63	VERLICHTING (INSTALLATIE VOOR -)	2	-2001120
+63.1	Algemene verlichting van ruimte	3	-2001120
+63.2	Plaatselijke verlichting (deel van een ruimte)	3	-2001120
+63.6	verlichting door middel van projectoren	3	-2001120
+63.8	Hoger niet genoemde elementen van (63)	3	-2001120
+63.9	Hulpstukken en onderdelen voor elementen van (63)	3	-2001120
+64	COMMUNICATIE (INSTALLATIE VOOR -)	2	-2001040
+64.1	Visuele en audiovisuele communicatie (installaties voor -)	3	-2001040
+64.11	Televisie	3	-2001040
+64.12	Filmprojectie	3	-2001040
+64.13	Lichtsignalen	3	-2001040
+64.18	Hoger niet genoemde elementen van (64.1-)	3	-2001040
+64.3	Auditieve communicatie (installaties voor -)	3	-2001040
+64.31	Radio	3	-2001040
+64.32	Telefoon en interfoon inclusief openbare telefooncellen in een gebouw	3	-2001040
+64.33	Geluidsverdeling	3	-2001040
+64.34	Centrale afluisterinstallaties	3	-2001040
+64.35	Installaties voor auditieve codes	3	-2001040
+64.38	Hoger niet genoemde elementen van (64.3-)	3	-2001040
+64.4	Andere dan visuele of auditieve communicatie (installaties voor -)	3	-2001040
+64.41	Telegraaf	3	-2001040
+64.42	Telex, teleprint	3	-2001040
+64.43	Telekopie	3	-2001040
+64.44	Datatransmissie	3	-2001040
+64.48	Hoger niet genoemde elementen van (64.4-)	3	-2001040
+64.5	Synchrone klokken	3	-2001040
+64.8	Hoger niet genoemde elementen van (64)	3	-2001040
+64.9	Hulpstukken en onderdelen voor elementen van (64)	3	-2001040
+65	-voorbehouden-	2	-2001040
+66	TRANSPORTINSTALLATIES	2	-2000151
+66.1	Liften	3	-2000151
+66.2	Installaties voor verticaal transport enkel voor goederen	3	-2000151
+66.3	Mobiele hangsteigers	3	-2000151
+66.4	Roltrappen	3	-2000151
+66.5	Transportbanden, transportplateaus	3	-2000151
+66.7	Transportkranen	3	-2000151
+66.8	Hoger niet genoemde elementen van (66)	3	-2000151
+66.9	Hulpstukken en onderdelen voor elementen van (66)	3	-2000151
+67	- voorbehouden -	2	-2000151
+68	BEVEILIGINGSINSTALLATIES, CONTROLEINSTALLATIES, HOGER NIET GENOEMDE ELEMENTEN VAN (6-)	2	-2001040
+68.1	Geïntegreerde inbraak- en brandbeveiliging	3	-2001040
+68.2	Inbraakbeveiliging	3	-2001040
+68.5	Brandbeveiligingsinstallaties	3	-2001040
+68.52	Brandmeldingsinstallatie	3	-2001040
+68.53	Brandbeveiligings- en brandbestrijdingsinstallatie	3	-2001040
+68.54	Automatische brandbestrijdingsinstallatie	3	-2001040
+68.55	Niet-draagbare niet-automatische brandbestrijdingsinstallatie	3	-2001040
+68.56	Draagbare brandbestrijdingstoestellen	3	-2001040
+68.58	Hoger niet genoemde elementen van (68.5-)	3	-2001040
+68.6	Beveiligingsinstallaties niet genoemd in (68.1)/(68.5)	3	-2001040
+68.7	Controle-uitrusting (inbegrepen sturing en controle van processen)	3	-2001040
+68.8	Hoger niet genoemde elementen van (68)	3	-2001040
+68.9	Hulpstukken en onderdelen voor elementen van (68)	3	-2001040
+69	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (6-)	3	-2001040
+7-	VASTE INRICHTING	1	-2001000
+70	- voorbehouden -	2	-2001000
+71	VASTE INRICHTING VOOR CIRCULATIE	2	-2001000
+71.1	Vaste aanduidingen, wegwijzers	3	-2001000
+71.2	Vaste elementen die circulatie afbakenen	3	-2001000
+71.3	Vaste inrichting in verband met de toegang tot gebouwen	3	-2001000
+71.8	Hoger niet genoemde elementen van (71)	3	-2001000
+71.9	Hulpstukken en onderdelen voor elementen van (71)	3	-2001000
+72	VASTE INRICHTING VOOR RUSTEN EN WERKEN	2	-2001000
+72.1	Vaste inrichting voor slapen	3	-2001000
+72.2	Vaste inrichting voor rusten	3	-2001000
+72.3	Vaste inrichting voor werken	3	-2001000
+72.6	Vaste banken, stoelen, zetels en tafels voor rusten en werken	3	-2001000
+72.8	Hoger niet genoemde elementen van (72)	3	-2001000
+72.9	Hulpstukken en onderdelen voor elementen van (72)	3	-2001000
+73	VASTE INRICHTING VOOR HET BEREIDEN EN GEBRUIKEN VAN MAALTIJDEN	2	-2001000
+73.1	Vaste werkbladen en inrichting voor het bereiden van maaltijden	3	-2001000
+73.2	Vaste inrichting voor wassen en spoelen	3	-2001000
+73.4	Vaste toestellen voor voedselbereiding en koken	3	-2001000
+73.5	Vaste keukentoestellen voor berging en bewaring	3	-2001000
+73.7	Vaste inrichting voor verbruikers van maaltijden 	3	-2001000
+73.8	Hoger niet genoemde elementen van (73)	3	-2001000
+73.9	Hulpstukken en onderdelen voor elementen van (73)	3	-2001000
+74	SANITAIRE UITRUSTING	2	-2001160
+74.1	Geheel van sanitaire toestellen	3	-2001160
+74.2	Toestellen voor lichaamshygiëne	3	-2001160
+74.22	Baden	3	-2001160
+74.23	Lavabo's, handwasbekkens	3	-2001160
+74,24	Bidets,voetwasbekkens	3	-2001160
+74.26	Douchetoestellen	3	-2001160
+74.27	Saunatoestellen	3	-2001160
+74.28	Hoger niet genoemde elementen van 74.2-	3	-2001160
+74.3	Vaste sanitaire toestellen voor het drogen	3	-2001160
+74.4	Toestellen voor afvoer van uitwerpselen	3	-2001160
+74.44	WC's	3	-2001160
+74.45	Urinoirs	3	-2001160
+74.48	Hoger niet genoemde elementen van (74.4-)	3	-2001160
+74.7	Toestellen voor verdeling van zeep, van handdoeken, van papier voor lichaamshygiëne	3	-2001160
+74.8	Hoger niet genoemd elementen van (74)	3	-2001160
+74.9	Hulpstukken en onderdelen voor elementen van (74)	3	-2001160
+75	VASTE INRICHTING VOOR ONDERHOUD EN SCHOONMAAK	2	-2001350
+75.1	Vaste wasinrichting, vaste wastobben	3	-2001350
+75.3	Droogtoestellen	3	-2001350
+75.4	Vaste strijkinrichting	3	-2001350
+75.8	Hoger niet genoemde elementen van (75)	3	-2001350
+75.9	Hulpstukken en onderdelen voor elementen van (75)	3	-2001350
+76	VASTE INRICHTING VOOR BERGING EN AFSCHERMING	2	-2001000
+76.1	Vaste kasten samengesteld uit meerdere elementen die bestaan uit lades, rekken, afsluitbare kastdelen, ...	3	-2001000
+76.2	Vaste afsluitbare kasten	3	-2001000
+76.3	Vaste ladenkasten	3	-2001000
+76.4	Vaste rekken	3	-2001000
+76.5	Vaste hangsystemen voor berging	3	-2001000
+76.6	Kasten met speciale eigenschappen, vaste inrichting voor berging hoger niet genoemd in (76.1)/(76.5)	3	-2001000
+76.7	Schermen	3	-2001000
+76.8	Hoger niet genoemde elementen van (76)	3	-2001000
+76.9	Hulpstukken en onderdelen voor elementen van (76)	3	-2001000
+77	VASTE INRICHTING VOOR SPECIALE ACTIVITEITEN	2	-2001000
+78	HOGER NIET GENOEMDE ELEMENTEN VAN (7-)	2	-2001000
+78.3	Stofferingen, inclusief behangwerken	3	-2001350
+78.6	Kunstwerken	3	-2001350
+79	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (7-)	2	-2001350
+8-	LOSSE INRICHTING	1	-2000151
+80	-voorbehouden -	2	-2001350
+81	LOSSE INRICHTING VOOR CIRCULATIE	2	-2000080
+82	LOSSE INRICHTING VOOR RUSTEN EN WERKEN	2	-2001100
+83	LOSSE INRICHTING VOOR BEREIDEN EN VERBRUIKEN VAN MAALTIJDEN	2	-2001000
+84	LOSSE INRICHTING VOOR SANITAIRE TOEPASSINGEN, VOOR HYGIENE	2	-2001160
+85	LOSSE INRICHTING VOOR ONDERHOUD EN SCHOONMAAK	2	-2001350
+86	LOSSE INRICHTING VOOR BERGING EN AFSCHERMING	2	-2001100
+87	LOSSE INRICHTING VOOR SPECIALE ACTIVITEITEN	2	-2001000
+88	HOGER NIET GENOEMDE ELEMENTEN VAN (8-)	2	-2001350
+89	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN (8-)	2	-2001350
+9-	ELEMENTEN BUTTEN HET GEBOUW, HOGER NIET GENOEMDE ELEMENTEN VAN TABEL 1	1	-2000151
+90	ELEMENTEN BUITEN HET GEBOUW	2	-2001260
+90.1	Bodem voorbereid buiten het gebouw, indien niet vermeld onder (1-)	3	-2001260
+90.2	Minder belangrijke constructies buiten het gebouw, indien niet vermeld bij (1-)/(8-)	3	-2003400
+90.3	Afsluitingen buiten het gebouw indien niet vermeld onder (1-)/(3-)	3	-2001260
+90.4	Afwerking van bodemoppervlak buiten het gebouw	3	-2001220
+90.41	Harde bodemafwerking buiten het gebouw	3	-2001220
+90.42	Zachte bodemafwerking buiten het gebouw	3	-2001220
+90.43	Oppervlakken onder water buiten het gebouw	3	-2001260
+90.48	Hoger niet genoemde elementen van (90.4-)	3	-2001350
+90.5	Uitrusting hoofdzakelijk fluida buiten het gebouw	3	-2001370
+90.51	Drainage, afvalwaterafvoer buiten het gebouw	3	-2001260
+90.52	Uitrusting hoofdzakelijk fluida builen het gebouw exclusief drainage en afvalwaterafvoer	3	-2001260
+90.6	Uitrusting hoofdzakelijk elektrisch buiten het gebouw	3	-2001350
+90.7	Vaste en losse inrichting buiten het gebouw, indien niet vermeld onder (7-)/(8-)	3	-2001370
+90.8	Hoger niet genoemde elementen van (90)	3	-2001350
+91	- voorbehouden -	2	-2001350
+92	- voorbehouden -	2	-2001350
+93	- voorbehouden -	2	-2001350
+94	- voorbehouden -	2	-2001350
+95	- voorbehouden -	2	-2001350
+96	- voorbehouden -	2	-2001350
+97	- voorbehouden -	2	-2001350
+98	ELEMENTEN VAN TABEL 1 HOGER NIET GENOEMD IN (0-)/(97)	2	-2001350
+99	HULPSTUKKEN EN ONDERDELEN VOOR ELEMENTEN VAN TABEL 1	2	-2001350

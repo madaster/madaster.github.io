@@ -24,7 +24,7 @@ On this page you will find additional information about the use and development 
 
  * Download the <a href="/files/be/en/Madaster Materials.xlsx" target="_blank">Madaster Material List</a> - it displays the materials in English that are standard in the Madaster database, plus the UID's of the materials.
  * Read the <a href="/files/be/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
- * Read the <a href="/files/be/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
+ * Read the <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
  * Read the <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
  * Download the latest <a href="https://info.kubusinfo.nl/login?ReturnUrl=%2fsupport%2fmadaster" target="_blank">Archicad IFC ExportTranslator</a> - this contains the optimal export settings for an IFC file from Archicad to the Madaster platform (available for Dutch KeyMembers). Click <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >here</a> for instructions and tips.
  * Download the <a href="http://www.bimcollab.com/be/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
@@ -42,7 +42,7 @@ On this page you will find additional information about the use and development 
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Do you have questions? Contact Madaster by telephone [0031 85-0601242](tel:+31850601242) or e-mailadress <service@madaster.com>.
+Do you have questions? Contact Madaster by telephone [0032 473 53 20 59](tel:+32473532059) or email adress <service@madaster.be>.
 
 ---
 

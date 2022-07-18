@@ -27,10 +27,11 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 ### BIM-specifieke handleidingen & sjablonen
 
  * Lees de <a href="/files/be/nl/Madaster BIM - IFC Richtlijnen.pdf" target="_blank">Madaster IFC-richtlijn</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
- * Lees de <a href="/files/be/nl/Madaster BIM - IFC import proces.pdf" target="_blank">Madaster BIM IFC import</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
+ * Lees de <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import (Eng.)</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
+ * Voor die classificatiecodering heb je een Assembly code nodig in Revit. Voor de BB-SfB kan je deze gebruiken: <a href="/files/be/en/Yugening - BB-SfB assembly code.txt" target="_blank">Assembly Code File</a>. Dit tekstbestand is opgemaakt door architectenbureau Yugening. Voor de NL-SfB kan je dit tekstbestand gebruiken: <a href="/files/be/en/NL-SfB 2019 assembly code.txt" target="_blank">Assembly Code File</a>. Download de file en sluit het tekstbestand vervolgens aan onder [Manage] [Additional Settings] [Assemby Code]. Klik op [Browse] om het bestand te selecteren.
  * Lees de <a href="/files/be/nl/Madaster BIM - IFC Export.pdf" target="_blank">Madaster BIM IFC export</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
  * Download de laatste Archicad IFC ExportTranslator - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform (beschikbaar voor KeyMembers). Lees <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >hier</a> de instructies en tips.
- * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
+ * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab, alleen voor NL/SfB)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
@@ -53,8 +54,6 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [0743-53
 ## <img class="header-img" src="/assets/images/770.svg" /> Release Notes
 
 Meer informatie over de releases vindt u hier:
-
-More information about the releases can be found here:
 
 * <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release 2022</a>
 * <a href="/files/nl/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
