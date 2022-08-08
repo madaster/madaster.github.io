@@ -22,7 +22,7 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 
 ### BIM-spesifikke håndbøker og maler
 
-  * Last ned <a href="/files/en/EPEA Generic.xlsx">EPEA Generic material-liste </a>- Denne viser de generiske materialer og produkter som er tilgjengelig i Madaster, med gjennomsnittsverdier for materialsammensetning, sirkularitet og innebygd karbon. Listen viser beskrivelse, samt navn og søkekriterier som vil gi treff i databasen.
+  * Last ned <a href="/files/en/EPEA Generic.xlsx" target="_blank"> EPEA Generic material-liste </a>- Denne viser de generiske materialer og produkter som er tilgjengelig i Madaster, med gjennomsnittsverdier for materialsammensetning, sirkularitet og innebygd karbon. Listen viser beskrivelse, samt navn og søkekriterier som vil gi treff i databasen.
   * Les <a href="/files/no/Madaster BIM - IFC guidelines_NO.pdf" target="_blank">Madaster IFC-retningslinjer</a>- Denne beskriver kort de viktigste instruksjonene for å skissere en BIM-modell.
  * Les <a href="/files/no/Madaster BIM - IFC import_NO.pdf" target="_blank">Madaster BIM IFC-import</a>- Denne beskriver import av IFC-filer i Madaster.
  * Les <a href="/files/no/Madaster BIM - IFC export_NO.pdf" target="_blank">Madaster BIM IFC-eksport</a>- Denne beskriver kort trinnene for å eksportere en IFC-fil.
