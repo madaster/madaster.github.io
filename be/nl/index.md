@@ -36,7 +36,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimportal.be" target="_blank">BIMportal</a> vinden.
 
  
-  * Download de <a href="/files/be/nl/EPEA Generic material list.xlsx" target="_blank">De EPEA Generieke database Materialenlijst</a> – deze geeft de materialen weer die in de EPEA database standaard aanwezig zijn op het Madaster-platform, inclusief de External id's van de materialen, de materiaalnaam en de zoekcriteria.
+  * Download de <a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">De EPEA Generieke database Materialenlijst</a> – deze geeft de materialen weer die in de EPEA database standaard aanwezig zijn op het Madaster-platform, inclusief de External id's van de materialen, de materiaalnaam en de zoekcriteria.
 
 
 ### Naslagwerken
