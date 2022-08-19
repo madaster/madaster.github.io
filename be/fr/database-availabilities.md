@@ -3,19 +3,19 @@ title: Partage de base de données
 ref: database-availabilities
 ---
 
-## What information is shown here?
-The possibily to share this database, with other accounts / folders / buildings.
-Sharing goes hand in hand with the granting of a certain right to use the materials and products:
+## Quelles informations sont présentées ici ?
+La possibilité de partager cette base de données, avec d'autres comptes / dossiers / bâtiments.
+Le partage va de pair avec l'octroi d'un certain droit d'utilisation des matériaux et produits:
 
 
-### Buttons - between the blue lines ###
+### Boutons - entre les lignes bleues ###
 
-**SHARED WITH** 
-Sharing; here this database can be shared with other accounts / folders / buildings.
+**PARTAGÉ AVEC** 
+Partage ; ici cette base de données peut être partagée avec d'autres comptes / dossiers / bâtiments.
 
-- **Map**; the user of the account/folder/building with which this database is shared can link (enrich) IFC elements to materials or products from this database;
-- **Copy**; the user of the account/ folder/building with which this database is shared can copy materials or products from this database to another database;
-- **Collaborate**; the user of the account/ folder/building with which this database is shared can add materials or products to this database;
-- **Administrate**: the user of the account/ folder/building with which this database has been shared can also manage this database.
+- **Map**: l'utilisateur du compte/dossier/bâtiment avec lequel cette base de données est partagée peut lier (enrichir) les éléments IFC aux matériaux ou produits de cette base de données ;
+- **Copier**: l'utilisateur du compte/dossier/bâtiment avec lequel cette base de données est partagée peut copier des matériaux ou des produits de cette base de données vers une autre base de données ;
+- **Collaborer**: l'utilisateur du compte/dossier/bâtiment avec lequel cette base de données est partagée peut ajouter des matériaux ou des produits à cette base de données ;
+- **Administrer**: l'utilisateur du compte/du dossier/du bâtiment avec lequel cette base de données a été partagée peut également gérer cette base de données.
 
-A user with Admin rights on this database is able to share the database with other Accounts / Folders / Buildings in one of the possible roles.
+Un utilisateur ayant des droits d'administrateur sur cette base de données est en mesure de partager la base de données avec d'autres comptes/dossiers/bâtiments dans l'un des rôles possibles.

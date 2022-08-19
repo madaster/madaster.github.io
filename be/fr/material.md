@@ -12,7 +12,7 @@ Il est également possible d'ajouter un nouveau matériau pendant le processus d
 
 Les deux options vous permettent d'ajouter un nouveau matériau à l'écran. Remplissez ensuite toutes les informations concernant le matériau. Les champs marqués d'un * sont obligatoires. Il est possible de saisir le nom et la description en six langues. Seule la saisie du nom dans la langue sélectionnée sur la plateforme est obligatoire. Si aucun nom et/ou description n'est inscrit dans les autres langues, le nom et/ou la description sont copiés dans les autres langues. Lorsque vous avez rempli toutes les données en bas de la page, cliquez sur le bouton « Enregistrer ». Le matériau est ensuite créé dans votre propre base de données et peut maintenant être trouvé dans l'aperçu du matériau et des produits.
 
-## CRITÈRES DE RECHERCHE
+### CRITÈRES DE RECHERCHE ###
 Vous arrivez ensuite sur un écran pour préciser les données du matériau que vous venez d'ajouter. En passant par les différents onglets, vous pouvez ajouter des données supplémentaires. Il est absolument nécessaire que les (bons) critères de recherche soient saisis ! Ce sont les termes de recherche sur lesquels Madaster base le processus de correspondance automatique après le chargement d'un fichier source. Saisissez toujours le nom complet et identique du matériau comme critère de recherche. Toutefois, il est préférable d'entrer plusieurs critères de recherche. Un critère de recherche possède un type correspondant :
 
 - Contient
