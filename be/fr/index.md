@@ -25,12 +25,23 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Manuels et autres informations spécifiques BIM.
 
+<<<<<<< HEAD
   * Télécharger la <a href="/files/ch/en/EPEA Generic.xlsx" target="_blank">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l'élaboration d'un modèle BIM.
  * Liser le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l'importation de fichiers IFC dans Madaster.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l'exportation d'un fichier IFC.
  * Télécharger le <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab) et BIMCollab Zoom</a> Solution (free IFC viewer) - Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
  * Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimloket.nl//documents/BIM_basis_ILS_v1_0_FRA.pdf" target="_blank">BIM loket</a>.
+=======
+  * Télécharger la <a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">liste matériel EPEA</a> - Ce document contient la liste des matériaux de la base de données EPEA utilisé dans la platforme Madaster ainsi que leurs uniques identifiants et critères de recherche.
+
+ * Liser le <a href="/files/be/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l’élaboration d’un modèle BIM.
+ * Lisez le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
+ * Lisez le <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l’exportation d’un fichier IFC.
+ <!---* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.--->
+ * Télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
+ * Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimportal.be" target="_blank">BIMportal</a>.
+>>>>>>> 46c838991b3385176f97302532ac7eaffefe9fc9
 
 
 
