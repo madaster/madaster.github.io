@@ -25,7 +25,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Manuels et autres informations spécifiques BIM.
 
-  * Télécharger la <a href="/files/ch/fr/matériel Madaster.xlsx" target="_blank">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
+  * Télécharger la <a href="/files/ch/en/EPEA Generic.xlsx" target="_blank">liste matériel Madaster 2020-1</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l'élaboration d'un modèle BIM.
  * Liser le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l'importation de fichiers IFC dans Madaster.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l'exportation d'un fichier IFC.

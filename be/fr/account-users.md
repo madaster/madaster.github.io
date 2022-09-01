@@ -3,24 +3,24 @@ title: Utilisateurs
 ref: account-users
 ---
 
-## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Auf jeder Ordnerebene können verschiedene Benutzer mit drei verschiedenen Rollen- und Berechtigungsebenen eingeladen werden. Hier können Sie Benutzer einladen, oder Sie können einen sogenannten 'API-Schlüssel' generieren, um einem anderen System den Zugriff auf den/die Ordner als Benutzer zu ermöglichen.
+## QUELLES INFORMATIONS SONT AFFICHÉES ICI ?
+A chaque niveau de dossier, il est possible d'inviter différents utilisateurs avec trois niveaux de rôles et d'autorisations différents. Ici, vous pouvez inviter des utilisateurs ou générer ce que l'on appelle une 'clé API' pour permettre à un autre système d'accéder au(x) dossier(s) en tant qu'utilisateur.
 
-Die Tabelle gibt Aufschluss darüber, wer Rechte an diesem Ordner, den Unterordnern und/oder Gebäuden hat. Sie können Benutzer, Rollen und Berechtigungen auswählen.
+Le tableau indique qui a des droits sur ce dossier, les sous-dossiers et/ou les bâtiments. Vous pouvez sélectionner des utilisateurs, des rôles et des autorisations.
 
-## WIE KANN ICH BENUTZER LÖSCHEN ODER IHRE ROLLE UND BERECHTIGUNGEN ÄNDERN?
-Ein Benutzer kann durch Klicken auf das Papierkorb-Symbol rechts gelöscht werden. Die Rolle und die Berechtigungen eines Benutzers können durch Klicken auf das Stiftsymbol auf der rechten Seite geändert werden.
+## COMMENT PUIS-JE SUPPRIMER DES UTILISATEURS OU MODIFIER LEUR RÔLE ET LEURS AUTORISATIONS ?
+Un utilisateur peut être supprimé en cliquant sur l'icône de la corbeille à droite. Le rôle et les autorisations d'un utilisateur peuvent être modifiés en cliquant sur l'icône de crayon à droite.
 
-## VERFÜGBARE ROLLEN UND BERECHTIGUNGEN AUF ORDNEREBENE:
+## RÔLES ET AUTORISATIONS DISPONIBLES AU NIVEAU DU DOSSIER:
 
-|Gebäudeebene                                            | Administrator | Manager | Leser |
+|Niveau du bâtiment                                      | Administrateur| Manager | Lecteur |
 |--------------------------------------------------------|---------------|---------|-------|
-|Broschüren und Unterordner erstellen                    | Ja            | Nein    | Nein  |
-|Broschüre und darunter liegende Gebäude ansehen         | Ja            | Ja      | Ja    |
-|Ändern der Broschüre und der darunter liegenden Gebäude | Ja            | Ja      | Nein  |
-|Ordner und darunter liegende Gebäude löschen            | Ja            | Nein    | Nein  |
-|Gebäude zu einem Ordner hinzufügen                      | Ja            | Ja      | Nein  |
-|Hinzufügen und Entfernen von Benutzern                  | Ja            | Nein    | Nein  |
-|Hinzufügen und Ändern von Materialien und Produkten     | Ja            | Ja      | Nein  |
-|Materialpass exportieren                                | Ja            | Ja      | Nein  |
-|Materialpass als PDF herunterladen                      | Ja            | Ja      | Ja    |
+|Créer des brochures et des sous-dossiers                | Oui           | Non     | Non   |
+|Consulter la brochure et les bâtiments sous-jacents     | Oui           | Oui     | Oui   |
+|Modifier la brochure et les bâtiments sous-jacents      | Oui           | Oui     | Non   |
+|Supprimer des brochures et des bâtiments sous-jacents   | Oui           | Non     | Non   |
+|Ajouter des bâtiments à un dossier                      | Oui           | Oui     | Non   |
+|Ajouter et supprimer des utilisateurs                   | Oui           | Non     | Non   |
+|Ajouter et modifier des matériaux et des produits       | Oui           | Oui     | Non   |
+|Exporter le passeport de matériaux                      | Oui           | Oui     | Non   |
+|Télécharger le passeport de matériaux au format PDF     | Oui           | Oui     | Oui   |

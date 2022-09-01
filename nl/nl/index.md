@@ -34,8 +34,8 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
- 
-  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+ * Download de <a href="/files/nl/Epea_Generic.xlsx" target="_blank">EPEA Generic lijst</a> – deze geeft de producten weer in het Nederlands die in de EPEA Generic database standaard aanwezig zijn, inclusief de UID's en zoekcriteria.
+ * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
 
 
 ### Naslagwerken

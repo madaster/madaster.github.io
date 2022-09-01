@@ -14,7 +14,7 @@ Les deux options vous permettent d'ajouter un nouveau produit à l'écran. Rempl
 
 Vous arrivez ensuite sur un écran pour préciser les données du produit que vous venez d'ajouter. En parcourant les différents onglets, vous pouvez saisir des données supplémentaires, par exemple dans la zone des critères de recherche, de la composition des produits et des informations financières.
 
-## CRITÈRES DE RECHERCHE
+### CRITÈRES DE RECHERCHE ###
 Vous arrivez ensuite sur un écran pour préciser les données du produit que vous venez d'ajouter. Vous pouvez saisir des données supplémentaires en passant par les différents onglets. Il est absolument nécessaire que les (bons) critères de recherche soient saisis ! Ce sont les termes de recherche sur lesquels Madaster base le processus de correspondance automatique après le chargement d'un fichier source. Saisissez toujours le nom complet et identique du produit comme critère de recherche, mais de préférence pour plusieurs critères de recherche. Un critère de recherche possède un type correspondant :
 
 - Contient

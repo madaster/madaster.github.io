@@ -25,7 +25,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### BIM-spezifische Handbücher & Vorlagen
 
-  * <a href="/files/ch/de/Madaster Materialien.xlsx">Madaster Materialen</a> - zeigt die Materialien in Deutsch und Englisch an, die in der Madaster-Datenbank standardmässig enthalten sind, sowie die UID’s der Materialien.
+  * <a href="/files/ch/en/EPEA Generic.xlsx">Madaster Materialen</a> - zeigt die Materialien in Deutsch und Englisch an, die in der Madaster-Datenbank standardmässig enthalten sind, sowie die UID’s der Materialien.
  * <a href="/files/ch/de/IFC - Richtlinien_CH DE.pdf" target="_blank">Madaster BIM-Richtlinien</a> - beschreibt kompakt die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Importprozess</a> - Beschrieb der IFC-Datenverarbeitung innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung.
  * <a href="/files/ch/de/Madaster BIM - IFC Export_CH DE.pdf" target="_blank">Madaster Manual IFC-Export (Archicad & Revit)</a> - beschreibt die Schritte zum Export einer IFC-Datei aus Archicad und Revit.

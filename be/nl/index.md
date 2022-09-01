@@ -31,12 +31,12 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Voor die classificatiecodering heb je een Assembly code nodig in Revit. Voor de BB-SfB kan je deze gebruiken: <a href="/files/be/en/Yugening - BB-SfB assembly code.txt" target="_blank">Assembly Code File</a>. Dit tekstbestand is opgemaakt door architectenbureau Yugening. Voor de NL-SfB kan je dit tekstbestand gebruiken: <a href="/files/be/en/NL-SfB 2019 assembly code.txt" target="_blank">Assembly Code File</a>. Download de file en sluit het tekstbestand vervolgens aan onder [Manage] [Additional Settings] [Assemby Code]. Klik op [Browse] om het bestand te selecteren.
  * Lees de <a href="/files/be/nl/Madaster BIM - IFC Export.pdf" target="_blank">Madaster BIM IFC export</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
  * Download de laatste Archicad IFC ExportTranslator - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform (beschikbaar voor KeyMembers). Lees <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >hier</a> de instructies en tips.
- * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab, alleen voor NL/SfB)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
+ * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab, classificatiecheck is alleen voor NL/SfB)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
- * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
+ * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimportal.be" target="_blank">BIMportal</a> vinden.
 
  
-  * Download de <a href="/files/be/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialenlijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+  * Download de <a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">De EPEA Generieke database Materialenlijst</a> – deze geeft de materialen weer die in de EPEA database standaard aanwezig zijn op het Madaster-platform, inclusief de External id's van de materialen, de materiaalnaam en de zoekcriteria.
 
 
 ### Naslagwerken
