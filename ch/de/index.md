@@ -29,7 +29,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/ch/de/IFC - Richtlinien_CH DE.pdf" target="_blank">Madaster BIM-Richtlinien</a> - beschreibt kompakt die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Importprozess</a> - Beschrieb der IFC-Datenverarbeitung innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung.
  * <a href="/files/ch/de/Madaster BIM - IFC Export_CH DE.pdf" target="_blank">Madaster Manual IFC-Export (Archicad & Revit)</a> - beschreibt die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
- * Laden Sie das <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab) und BIMCollab Zoom</a> (kostenloser IFC-Viewer) herunter – Importieren Sie das Smart View Set in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
+ * Laden Sie das <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster Smart View Set (BIMCollab) und BIMCollab Zoom</a> (kostenloser IFC-Viewer) herunter – Importieren Sie das Smart View Set in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Wichtige allgemeine Informationen über BIM finden Sie unter <a href="https://www.bimloket.nl//documents/BIM_basis_ILS_v2_A4_infographic_DE.pdf" target="_blank">BIM loket</a>.  
 
 
