@@ -39,7 +39,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
  * Lisez le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
  * Lisez le <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l’exportation d’un fichier IFC.
  <!---* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.--->
- * Télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
+ * Télécharger le <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="http://www.bimcollab.com/fr/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
  * Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimportal.be" target="_blank">BIMportal</a>.
 >>>>>>> 46c838991b3385176f97302532ac7eaffefe9fc9
 
