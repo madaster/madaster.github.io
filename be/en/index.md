@@ -28,7 +28,7 @@ On this page you will find additional information about the use and development 
  * Read the <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
  * Download the latest Archicad IFC ExportTranslator - this contains the optimal export settings for an IFC file from Archicad to the Madaster platform (available for Dutch KeyMembers). Click <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >here</a> for instructions and tips.
  * Download the <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster Smart View set (BIMCollab, the classification check is only available for SfB)</a> - Import this file into the BIMCollab Zoom solution to validate the quality of your IFC file.
- * Download the <a href="https://www.bimcollab.com/en/support/downloads" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
+ * Download the <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/downloads" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer) and associated Quick Start Guide.
  * Interesting general information about BIM can be obtained via <a href="https://www.bimportal.be" target="_blank">BIMportal</a>.
 
 
