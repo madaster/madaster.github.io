@@ -37,49 +37,49 @@
      stroke="none"
      id="MADASTER-OPLOSSING">
     <path
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        id="Stroke-1"
        d="M 6.1045556,7.2222222 H 11.104556" />
     <path
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        id="Stroke-2"
        d="M 6.1045556,10.555556 H 14.993444" />
     <path
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        id="Stroke-3"
        d="M 6.1045556,13.888889 H 15.016505" />
     <path
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        id="Stroke-4"
        d="m 6.1045556,17.222222 8.8244234,0" />
     <polyline
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        points="14.4444444 23.8888889 2.77777778 23.8888889 2.77777778 0.555555556 15 0.555555556 20.5555556 6.11111111 20.5555556 11.6666667"
        id="Stroke-5" />
     <polyline
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        points="15 0.555555556 15 6.11111111 20.5555556 6.11111111"
        id="Stroke-7" />
     <polyline
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        points="0.555555556 3.88888889 12.93023 3.88888889 12.93023 9.44444444 12.93023 26.1111111 11.0720486 26.1111111"
        transform="rotate(180,6.742893,15)"
        id="polyline51" />
     <path
-       style="stroke:#003b60;stroke-linecap:round"
+       style="stroke:#398684;stroke-linecap:round"
        id="path57"
        d="m 20.565514,24.020964 0,-5.101153 -0.01,-7.253144" />
     <path
        d="m 14.444444,23.888889 6.12107,0.132075"
        id="path3836"
-       style="stroke:#003b60;stroke-linecap:round" />
+       style="stroke:#398684;stroke-linecap:round" />
     <path
        d="m 12.93023,26.111111 5.432711,0.125262"
        id="path3838"
-       style="stroke:#003b60;stroke-linecap:round" />
+       style="stroke:#398684;stroke-linecap:round" />
     <path
        d="m 18.321537,24.420335 0.0414,1.816038"
        id="path3840"
-       style="stroke:#003b60;stroke-linecap:round" />
+       style="stroke:#398684;stroke-linecap:round" />
   </g>
 </svg>

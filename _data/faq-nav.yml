@@ -3,19 +3,29 @@
     - ref: faq
     - ref: account
       items:   
+      - ref: account-performance
       - ref: account-files
       - ref: account-users
+      - ref: account-subscriptions
       - ref: account-settings
+      - ref: account-features
       - ref: account-materials-products
         items:   
           - ref: material
           - ref: product
     - ref: folder
-      items:   
+      items:
+        - ref: folder-performance
         - ref: folder-files
         - ref: folder-users
     - ref: building
       items:   
+        - ref: building-performance-overview
+          items:
+            - ref: building-performance-mass
+            - ref: building-performance-circularity
+            - ref: building-performance-embodiedcarbon
+        - ref: building-3D
         - ref: building-files
           items:
             - ref: building-file
@@ -27,6 +37,7 @@
         - ref: building-circularity
           items:        
             - ref: building-circularity-details
+        - ref: building-environmental
         - ref: building-financial
           items:
             - ref: building-financial-material

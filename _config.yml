@@ -28,7 +28,7 @@ exclude:
   - README.md
   - swagger.json
   - update-api-docs.ps1
-
+  
 defaults:
   -
     scope :
@@ -42,64 +42,75 @@ defaults:
       path: "ch/de"
     values:
       lang: "de"
+      lang_name: "Deutsch"
       country: "ch"
   -
     scope :
       path: "ch/fr"
     values:
       lang: "fr"
-      country: "ch"        
+      lang_name: "Français"
+      country: "ch"
   -
     scope :
       path: "ch/en"
     values:
       lang: "en"
-      country: "ch"      
+      lang_name: "English"
+      country: "ch"
   -
     scope :
       path: "nl/nl"
     values:
       country: "nl"
+      lang_name: "Nederlands"
       lang: "nl"
   -
     scope :
       path: "nl/en"
     values:
       country: "nl"
+      lang_name: "English"
       lang: "en"
   -
     scope :
-      path: "de"
+      path: "de/de"
     values:
       country: "de"
-      lang: "de" 
+      lang_name: "Deutsch"
+      lang: "de"
   -
     scope :
       path: "no/en"
     values:
       country: "no"
-      lang: "en"  
+      lang_name: "English"
+      lang: "en" 
   - 
     scope :
       path: "no/nb"
     values:
       country: "no"
-      lang: "nb" 
-  -
+      lang_name: "Norsk bokmål"
+      lang: "nb"     
+  - 
     scope :
-      path: "be/nl"
+      path : "be/nl"
     values:
+      country: "be"
+      lang_name: "Nederlands"
       lang: "nl"
-      country: "be"   
-  -
+  - 
     scope :
-      path: "be/en"
+      path : "be/fr"
     values:
-      lang: "en"
-      country: "be"  
-  -
-    scope :
-      path: "be/fr"
-    values:
+      country: "be"
+      lang_name: "Français"
       lang: "fr"
-      country: "be"  
+  - 
+    scope :
+      path : "be/en"
+    values:
+      country: "be"
+      lang_name: "English"
+      lang: "en"
