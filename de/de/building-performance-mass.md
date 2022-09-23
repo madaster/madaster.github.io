@@ -1,5 +1,5 @@
 ---
-title: Performance Mass
+title: Masse
 ref: building-performance-mass
 ---
 

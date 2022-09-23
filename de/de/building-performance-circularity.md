@@ -1,5 +1,5 @@
 ---
-title: Performance Circularity
+title: Zirkularität
 ref: building-performance-circularity
 ---
 
