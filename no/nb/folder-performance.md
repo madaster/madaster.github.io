@@ -1,5 +1,5 @@
 ---
-title: Performance
+title: Ytelse
 ref: folder-performance
 lang: nb
 ---
