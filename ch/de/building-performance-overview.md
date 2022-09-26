@@ -16,6 +16,7 @@ Das Gebäude und seine Schichten werden anhand der folgenden KPIs gemessen:
 - **Verfügbarer Rohstoff-Restwert**; misst den zukünftigen Geldwert von Materialien am Ende ihrer Lebensdauer unter Berücksichtigung der Kosten für Demontage, Transport und Verarbeitung für den Wiederverkauf. Der Materialwert wird pro m2 angegeben. 
 
 ### BENCHMARKING
+<<<<<<< HEAD
 Das Gebäude und seine Gebäudeschichten kann mit allen Gebäuden in des Accounts oder des Ordners verglichen und nach bestimmten Gebäudetypen gefiltert werden. Die Benchmark bezieht sich auf alle Gebäude gemäß der Benchmark-Einstellungen, einschließlich der Gebäude, für die ein Benutzer keine Leserechte hat. Die Benchmarks werden im Folgenden beschrieben:
 
 - **Masse/m<sup>2</sup>**: 
@@ -32,6 +33,9 @@ Die Benchmark "Schichten" wird wie folgt ermittelt: 1) für jede Schicht jedes G
 - **Verfügbarer Rohstoff-Restwert/m<sup>2</sup>**:
 Die Benchmark "Gebäude" wird wie folgt ermittelt: 1) für jedes Gebäude der Benchmark wird dessen Kapitalwert am Ende der Lebensdauer (€) durch dessen Bruttogesamtfläche (m<sup>2</sup>) geteilt, 2) die Ergebnisse addiert und 3) durch die Anzahl der Gebäude dividiert.
 Die Benchmark "Schichten" wird wie folgt ermittelt: 1) für jede Schicht jedes Gebäudes der Benchmark wird der Kapitalwert am Ende der Lebensdauer (€) durch die Bruttogesamtfläche (m<sup>2</sup>) des Gebäudes geteilt, 2) die Ergebnisse addiert und 3) durch die Anzahl der Schichten dividiert.
+=======
+Das Gebäude und seine Schichten können mit allen Gebäuden im Konto oder Ordner verglichen und nach bestimmten Gebäudetypen gefiltert werden. 
+>>>>>>> feac89ebccea457814b75c5059741df157d96b2f
 
 ### DATENQUELLEN
 Die Geometrie des Gebäudes wurde mit verschiedenen Datenbanken abgeglichen, um über die oben genannten KPIs zu berichten. Einige Datenquellen wurden verifiziert, d. h. sie verfügen über vertrauenswürdige und verlässliche Verifizierungssysteme von Drittanbietern.
