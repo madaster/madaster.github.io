@@ -5,7 +5,7 @@ menubar: none
 ref: home
 ---
 
-## Bienvenue sur la plateform Madaster!
+## Bienvenue sur la plateforme Madaster!
 Sur cette page, vous trouverez des informations supplémentaires sur l'utilisation et le développement de la plateforme Madaster.
 
 ---
