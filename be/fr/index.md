@@ -20,9 +20,9 @@ _Certains documents sont uniquement disponibles en Anglais._
 
  * Liser le <a href="/files/en/Madaster - User Manual.pdf" target="_blank">manuel utilisateur Madaster</a> – ce manuel decrit en detail les fonctionalités de la plateforme Madaster.
  * Liser le <a href="/files/en/Madaster - Action Plan.pdf" target="_blank">plan d'action pour passeport matériel Madaster</a> - ce document décrit en détail les étapes necessaires pour aboutir à un passeport matériel.
- 
- <!--- * Liser le <a href="/files/en/Tender Text Material Passport_EN.pdf" target="_blank">manuel pour la demande d'un passeport Madaster</a> - Ce document fournit un manuel sur la manière de demander un passeport de matériaux Madaster dans un texte d'appel d'offres. En outre, il offre des exemples concrets de phrases qui peuvent être utilisées dans la demande.
- * Liser le <a href="/files/en/Schematic overview Madaster data requirements per output.xlsx" target="_blank"> Aperçu schématique des demandes de données Madaster par évaluation</a> - Ce document fournit un aperçu schématique des directives relatives aux données pour un enregistrement dans Madaster en fonction de la sortie souhaitée.--->
+
+ <!-- * Liser le <a href="/files/en/Tender Text Material Passport_EN.pdf" target="_blank">manuel pour la demande d'un passeport Madaster</a> - Ce document fournit un manuel sur la manière de demander un passeport de matériaux Madaster dans un texte d'appel d'offres. En outre, il offre des exemples concrets de phrases qui peuvent être utilisées dans la demande.
+ * Liser le <a href="/files/en/Schematic overview Madaster data requirements per output.xlsx" target="_blank"> Aperçu schématique des demandes de données Madaster par évaluation</a> - Ce document fournit un aperçu schématique des directives relatives aux données pour un enregistrement dans Madaster en fonction de la sortie souhaitée.-->
 
 ### Manuels et autres informations spécifiques BIM.
 
@@ -31,11 +31,11 @@ _Certains documents sont uniquement disponibles en Anglais._
  * Liser le <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l’élaboration d’un modèle BIM.
  * Lisez le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
  * Lisez le <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l’exportation d’un fichier IFC.
- <!---* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.--->
  * Télécharger le <a href="https://helpcenter.bimcollab.com/portal/fr/kb/articles/smart-view-sets-downloads-fr" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="https://helpcenter.bimcollab.com/portal/fr/kb/articles/downloads-fr" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
  * Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimportal.be/fr/" target="_blank">BIMportal</a>.
 
-
+<!--* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.-->
+ 
 
 ### Ouvrages de Référence
 
