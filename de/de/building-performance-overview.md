@@ -12,7 +12,7 @@ Das Gebäude und seine Gebäudeschichten werden anhand der folgenden KPIs gemess
 - **Masse**: misst die Gesamtmasse der Materialien sowie die Intensität der verwendeten Materialien pro m2.
 - **Zirkularität**: misst den Madaster Zirkularitätsindikator (MZI), der auf dem Anteil der beim Bau verwendeten Sekundärrohstoffe sowie ihrem Nutzen und ihrem Potenzial für die Wiederverwendung oder das Recycling am Ende ihrer Nutzungsdauer basiert. Unbekannte Materialien wirken sich bei der Berechnung des MZI negativ aus. 
 - **Demontierbarkeit**: misst den Grad, in dem Materialien und Produkte demontiert werden können, ohne beschädigt zu werden.
-- **Embodied Carbon**: misst die äquivalenten CO2-Emissionen, die bei der Herstellung (A1-A3), Installation (A4-A5), Nutzung (B1-B5) und Demontage (C1-C4) eines Gebäudes freigesetzt werden. Da die Produktionsdaten (A1-A3) am leichtesten zugänglich sind, werden sie verwendet, um Vergleiche zwischen verschiedenen Gebäuden und Gebäudeschichten anzustellen. Der Embodied Carbon wird ebenfalls pro m2 angegeben. 
+- **Embodied Carbon**: misst die äquivalenten CO~2~-Emissionen, die bei der Herstellung (A1-A3), Installation (A4-A5), Nutzung (B1-B5) und Demontage (C1-C4) eines Gebäudes freigesetzt werden. Da die Produktionsdaten (A1-A3) am leichtesten zugänglich sind, werden sie verwendet, um Vergleiche zwischen verschiedenen Gebäuden und Gebäudeschichten anzustellen. Der Embodied Carbon wird ebenfalls pro m^2^ angegeben. 
 - **Verfügbarer Rohstoff-Restwert**: misst den zukünftigen Geldwert von Materialien am Ende ihrer Lebensdauer unter Berücksichtigung der Kosten für Demontage, Transport und Verarbeitung für den Wiederverkauf. Der Materialwert wird auch pro m2 angegeben.
 
 ### BENCHMARKING
