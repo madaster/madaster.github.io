@@ -10,13 +10,13 @@ Miljøpåvirkningsindikatoren vises langs en bygnings levetid, som består av st
 
 Bygningenes livssyklus er delt inn i følgende stadier:
 
-_*A1-A3 Produkt-stadiet*__ : inkluderer råvareforsyning, transport og produksjon av byggematerialer og produkter.
+_*A1-A3 Produkt-stadiet*_ : inkluderer råvareforsyning, transport og produksjon av byggematerialer og produkter.
 
-_*A4-A5 Gjennomførings-stadiet*__: inkluderer transport til byggeplassen, og montering av materialer og produkter til en ferdig bygning.
+_*A4-A5 Gjennomførings-stadiet*_: inkluderer transport til byggeplassen, og montering av materialer og produkter til en ferdig bygning.
 
-_*B1-B5 Bruks-stadiet*__: inkluderer bruk, vedlikehold, reparasjon, utskifting og oppussing av materialer og produkter i bygningen.
+_*B1-B5 Bruks-stadiet*_: inkluderer bruk, vedlikehold, reparasjon, utskifting og oppussing av materialer og produkter i bygningen.
 
-_*C1-C4 Livsløpets slutt-stadiet*__: inkluderer dekonstruksjon av en bygning, og transport, avfallsbehandling og avhending av materialer og produkter.
+_*C1-C4 Livsløpets slutt-stadiet*_: inkluderer dekonstruksjon av en bygning, og transport, avfallsbehandling og avhending av materialer og produkter.
 
 __*D Konsekvenser utover systemgrensen*__: inkluderer ombruks- og resirkuleringspotensialet til bygningens materialer og produkter. Det er ikke garantert at ombruk eller resirkulering vil skje i fremtiden, og trinn D er derfor en antagelse og ikke inkludert i fullbyggberegninger.
 
