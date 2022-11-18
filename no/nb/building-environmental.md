@@ -10,7 +10,7 @@ Miljøpåvirkningsindikatoren vises langs en bygnings levetid, som består av st
 
 Bygningenes livssyklus er delt inn i følgende stadier:
 
-__**A1-A3 Produkt-stadiet**__ : inkluderer råvareforsyning, transport og produksjon av byggematerialer og produkter.
+_**A1-A3 Produkt-stadiet**_ : inkluderer råvareforsyning, transport og produksjon av byggematerialer og produkter.
 
 _*A4-A5 Gjennomførings-stadiet*_: inkluderer transport til byggeplassen, og montering av materialer og produkter til en ferdig bygning.
 
