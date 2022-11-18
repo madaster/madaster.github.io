@@ -37,7 +37,7 @@ Ved å bruke rullegardinmenyen kan materialflyter vises etter total, bygningslag
 ### Ukjente elementer
 Ukjente elementer er de som ikke ble tatt med i beregningen. Disse kan oppstå av 3 forskjellige årsaker:
 
-_*Elementer uten koblinger*__ : disse elementene er ikke knyttet til material-/produktdatabase, og kan derfor ikke rapporteres på.
+_**Elementer uten koblinger**_ : disse elementene er ikke knyttet til material-/produktdatabase, og kan derfor ikke rapporteres på.
 
 __*Elementer med ukjent lag*__: disse elementene mangler konstruksjonsklassifiseringsinformasjon, og kan derfor ikke tilordnes et bygningslag.
 
