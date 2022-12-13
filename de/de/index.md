@@ -14,30 +14,34 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### Allgemeine Handbücher
 
- * Das <a href="/files/de/Madaster - Benutzerhandbuch.pdf" target="_blank">Madaster Benutzerhandbuch</a> beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
- * Das <a href="/files/de/Madaster - Produkte hinzufügen.pdf" target="_blank">Madaster Handbuch für Produkte</a> beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
- * Der <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
- * Der <a href="/files/de/Madaster - Leitfaden Material Passport.pdf" target="_blank">Leitfaden zur Erstellung eines Material Passport</a> enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
+ * <a href="/files/de/Madaster - Benutzerhandbuch.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
+ * <a href="/files/de/Madaster - Produkte hinzufügen.pdf" target="_blank">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
+ * <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
+ * <a href="/files/de/Madaster - Leitfaden Material Passport.pdf" target="_blank">Leitfaden zur Erstellung eines Material Passport</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
 
 ### Online Tutorials
 
-* Schauen Sie sich hier die <a href="https://youtube.com/playlist?list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" target="_blank">Madaster-Tutorials</a> an. Diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
+* Schauen Sie sich hier die <a href="https://youtube.com/playlist?list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" target="_blank">Madaster-Tutorials</a> an - diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
 
 ### BIM-spezifische Handbücher & Vorlagen
 
- * In der Übersicht <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> finden Sie die Materialien in deutscher Sprache, die in der generischen EPEA-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
- * Die <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> beschreiben kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
- * In den <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parametern</a> wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
- * Einen kostenlosen IFC-Viewer und die entsprechende Kurzanleitung können Sie bei <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> herunterladen.
- * Das <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads#Example_Smart_views" target="_blank">Madaster Smart View Set (BIMCollab)</a> können Sie herunterladen und in die BIMCollab Zoom-Lösung importieren, um die Qualität Ihrer IFC-Datei bezüglich der Madaster-Anforderungen zu überprüfen.
+  * <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> - sie zeigt die Materialien in Deutsch an, die in der generischen EPEA-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
+
+ * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
+ * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
+ * <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
+ * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
+ * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
- * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen. 
+  * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen.  
+
+
 
 ### Nachschlagewerke
 
- * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>, welches ausführlich die Funktionsweise des "Madaster Zirkularitätsindikator" (MZI) sowie die zugrunde liegende Methodik beschreibt.
+ * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik.
 
- * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>, welches ausführlich die Funktionsweise des Tabs "Finanziell" in Madaster sowie die zugrunde liegende Methodik beschreibt.
+ * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>  - dies beschreibt ausführlich die Funktionsweise der finanziellen Registerkarte in Madaster sowie die zugrunde liegende Methodik.
 
 ---
 

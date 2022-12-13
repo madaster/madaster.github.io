@@ -21,6 +21,10 @@ countries:
     code: "be"
     defaultlanguage: "nl"
     languages: "nl,fr,en"
+  - country: "Austria"
+    code: "at"
+    defaultlanguage: "de"
+    languages: de"
   
 title: Madaster Documentation
 
@@ -114,3 +118,10 @@ defaults:
       country: "be"
       lang_name: "English"
       lang: "en"
+  -
+    scope :
+      path: "at/de"
+    values:
+      country: "at"
+      lang_name: "Deutsch"
+      lang: "de"

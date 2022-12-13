@@ -1,4 +1,4 @@
 ---
-title: Subscription
+title: Abonnement
 ref: account-subscriptions
 ---

@@ -15,7 +15,7 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 ### Generelle håndbøker
 
  * Les <a href="/files/no/Madaster - User Manual_NO.pdf" target="_blank">Madaster brukerhåndbok</a>- Denne håndboken beskriver i detalj funksjonene i Madaster-plattformen og hvordan de kan brukes.
- * Les <a href="/files/en/Madaster - Manual Add Products.pdf" target="_blank">Madaster håndbok for å legge til produkter</a>- dette dokumentet beskriver i detalj hvordan forskjellige produkttyper legges til i Madaster.
+ * Les <a href="/files/en/Madaster - Manual Add Products.pdf" target="_blank">Madaster håndbok for å legge til produkter</a> - dette dokumentet beskriver i detalj hvordan forskjellige produkttyper legges til i Madaster.
  * Les  <a href="/files/no/Madaster - Action plan_NO.pdf" target="_blank">Madaster handlingsplan materialpass</a>- Dette dokumentet beskriver prosesstrinnene som kreves frem til det leveres et materialpass i Madaster-plattformen.
   * Les  <a href="/files/no/Madaster- Text for requesting a Madaster material passport_NO.pdf" target="_blank">Håndbok for å be om et Madaster-pass</a>- Dette dokumentet er en håndbok i hvordan du ber om et Madaster-materialpass i en utlysningstekst. Dessuten gir den konkrete eksempelsetninger som kan brukes i anvendelsen.
 
@@ -24,7 +24,7 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
 
   * Last ned <a href="/files/en/EPEA Generic.xlsx" target="_blank"> EPEA Generic material-liste </a>- Denne viser de generiske materialer og produkter som er tilgjengelig i Madaster, med gjennomsnittsverdier for materialsammensetning, sirkularitet og bundet karbon. Listen viser beskrivelse, samt navn og søkekriterier som vil gi treff i databasen.
   * Les <a href="/files/no/Madaster BIM - IFC guidelines_NO.pdf" target="_blank">Madaster IFC-retningslinjer</a>- Denne beskriver kort de viktigste instruksjonene for å skissere en BIM-modell.
- * Les <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC-import</a>- Denne beskriver import av IFC-filer i Madaster.
+ * Les <a href="/files/no/Madaster BIM - IFC import_NO.pdf" target="_blank">Madaster BIM IFC-import</a>- Denne beskriver import av IFC-filer i Madaster.
  * Les <a href="/files/no/Madaster BIM - IFC export_NO.pdf" target="_blank">Madaster BIM IFC-eksport</a>- Denne beskriver kort trinnene for å eksportere en IFC-fil.
  * Last ned <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC eksportmal for Archicad</a>- Denne inkluderer de mest optimale eksportinnstillingene for en IFC-fil til Madaster-plattformen.
  * Last ned <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View-sett (BIMCollab)</a> - Importer denne filen til BIMCollab Zoom-løsningen for å validere kvaliteten på IFC-filen din.
