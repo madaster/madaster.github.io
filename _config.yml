@@ -24,7 +24,7 @@ countries:
   - country: "Austria"
     code: "at"
     defaultlanguage: "de"
-    languages: de"
+    languages: "de"
   
 title: Madaster Documentation
 
