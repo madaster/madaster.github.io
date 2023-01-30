@@ -39,6 +39,7 @@ On this page you will find additional information about the use and development 
  
 * Read the <a href="/files/en/Madaster - Financial.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
 
+* Read the report <a href="/files/en/DGBC Disassembly Potential Measurement Methodology _ 2022" target="_blank">‘Circular Buildings - a measurement methodology for disassembly potential 2.0</a> – this describes in detail a uniform measurement method for disassembly potential in construction as well as the underlying methodology.
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
