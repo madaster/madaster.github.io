@@ -1,5 +1,5 @@
 ---
-title: Ytelse
+title: Performance
 ref: account-performance
 lang: nb
 ---

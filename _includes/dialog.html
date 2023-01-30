@@ -9,7 +9,8 @@
       </div>
       <div class="content-block">
         <div class="countries-languages-items">
-          {% for country in site.countries %}
+          {% assign sorted_countries = site.countries | sort: 'country' %}
+          {% for country in sorted_countries %}
             <h5>
               <a href="/{{ country.code }}/{{country.defaultlanguage}}">
                 <img height="16" width="24" src="/assets/flags/{{ country.code }}.svg"/><span>{{ country.country }}</span>

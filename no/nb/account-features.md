@@ -1,5 +1,5 @@
 ---
-title: Features
+title: Funksjoner
 ref: account-features
 ---
 

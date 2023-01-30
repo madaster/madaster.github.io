@@ -21,10 +21,6 @@
     - ref: building
       items:   
         - ref: building-performance-overview
-          items:
-            - ref: building-performance-mass
-            - ref: building-performance-circularity
-            - ref: building-performance-embodiedcarbon
         - ref: building-3D
         - ref: building-files
           items:
@@ -35,8 +31,6 @@
         - ref: building-level
         - ref: building-process
         - ref: building-circularity
-          items:        
-            - ref: building-circularity-details
         - ref: building-environmental
         - ref: building-financial
           items:

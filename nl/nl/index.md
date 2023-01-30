@@ -34,15 +34,16 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
- * Download de <a href="/files/en/EPEA Generic.xlsx" target="_blank">EPEA Generic lijst</a> – deze geeft de producten weer in het Nederlands die in de EPEA Generic database standaard aanwezig zijn, inclusief de UID's en zoekcriteria.
- * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+ 
+  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
 
 
 ### Naslagwerken
 
 * Lees de <a href="/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
 * Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
- 
+* Lees het rapport<a href="/files/nl/Circular Buildings - een meetmethodiek voor losmaakbaarheid versie 2.pdf" target="_blank"> ‘Circular Buildings – een meetmethodiek voor losmaakbaarheid v2.0’</a> – deze beschrijft gedetailleerd de werking van de uniforme meetmethode voor losmaakbaarheid in de bouw.
+
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg" /> Madaster Servicedesk

@@ -25,16 +25,14 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### BIM-spezifische Handbücher & Vorlagen
 
-  * <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> - sie zeigt die Materialien in Deutsch an, die in der generischen EPEA-Datenbank standardmäßig enthalten sind, sowie die UID's der Materialien.
-
+  * <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> - sie zeigt die Materialien in Deutsch an, die in der generischen EPEA-Datenbank standardmäßig enthalten sind.
  * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
  * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
- * <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
- * <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads#Example_Smart_views" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
+ * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben (ENG mit Bezug zur NL-SfB).
+ * <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster DE Smart view set (BIMcollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
- * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen. 
-
+  * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen.  
 
 
 
