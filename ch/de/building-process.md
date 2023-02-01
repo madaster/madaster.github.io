@@ -4,7 +4,7 @@ ref: building-process
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Die hier gezeigten Informationen basieren auf den aktiven Quelldateien, die mit diesem Gebäude hochgeladen wurden. Die Tabelle ist horizontal in eine Materialklassifikation (EBKP-H) unterteilt. Vertikal wird eine Unterteilung in die verschiedenen Phasen des Bauprozesses vorgenommen.
+Die hier gezeigten Informationen basieren auf den aktiven Quelldateien, die mit diesem Gebäude hochgeladen wurden. Die Tabelle ist horizontal in eine Materialklassifikation (eBKP) unterteilt. Vertikal wird eine Unterteilung in die verschiedenen Phasen des Bauprozesses vorgenommen.
 
 Für jede Bauphase werden die Materialien in Prozent angegeben. Zum Beispiel können Sie in der Spalte „Abriss” sehen, wie viel steiniges Material abgerissen wird. Diese wird in Prozent sowie in Gewicht und Volumen ausgedrückt. Dazu muss einem Element in der Quelldatei die Phase „Abbruch” zugewiesen worden sein. Dies gilt auch für die Phase „Neu” im Bauprozess.
 

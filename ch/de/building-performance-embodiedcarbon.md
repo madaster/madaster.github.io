@@ -1,5 +1,5 @@
 ---
-title: Performance Embodied Carbon
+title: Embodied Carbon
 ref: building-performance-embodiedcarbon
 ---
 

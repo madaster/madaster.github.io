@@ -1,5 +1,5 @@
 ---
-title: Performance Mass
+title: Masse
 ref: building-performance-mass
 ---
 
@@ -7,14 +7,14 @@ ref: building-performance-mass
 Die Masse des Gebäudes, seiner Gebäudeschichten und seiner Materialfamilien werden angezeigt. Wird eine Benchmark ausgewählt und sind entsprechende Informationen verfügbar, wird das Gebäude mit ausgewählten verglichen. Unbekannte Elemente werden angezeigt, damit sie angepasst und in die Berechnungen einbezogen werden können. 
 
 ### MASSE NACH GEBÄUDESCHICHTEN
-Ein Tortendiagramm zeigt die Masse nach Gebäudeschicht auf der linken Seite an. Auf der rechten Seite zeigt ein Balkendiagramm die Zusammensetzung der Materialfamilie jeder Gebäudeschicht. Die Benutzer können auf einen Balken im gestapelten Balkendiagramm klicken, um zu sehen, welche Materialien und Produkte darin enthalten sind. Hierbei kann nach Material, Stockwerk und Quelldatei gefiltert werden.
+Auf der linken Seite zeigt ein Tortendiagramm die Masse nach Gebäudeschichten. Auf der rechten Seite zeigt ein Balkendiagramm die Zusammensetzung der Gebäudeschichten nach Materialfamilien. Benutzer können auf die Balken klicken, um zu sehen, welche Materialien und Produkte darin enthalten sind. Außerdem können Benutzer nach Material, Etage und Quelldatei filtern.
 
-Die Benutzer können auch auf eine Gebäudeschicht im Tortendiagramm klicken. In diesem Fall werden alle Metriken spezifisch für die ausgewählte Gebäudeschicht angezeigt. Gleichzeitig wird das Balkendiagramm auf der rechten Seite aktualisiert, um die Materialunterfamilien der Gebäudeschicht anzuzeigen. Auch hier können die Benutzer auf einen Balken im gestapelten Balkendiagramm klicken, um zu sehen, welche Materialien darin enthalten sind. 
+Benutzer können auch auf eine Gebäudeschicht im Tortendiagramm klicken. In diesem Fall werden alle Metriken speziell für die ausgewählte Gebäudeschicht angezeigt und das Balkendiagramm auf der rechten Seite entsprechend der Materialunterfamilien dieser Gebäudeschicht aktualisiert. Auch hier können die Benutzer auf einen Balken klicken, um Details zu den darin enthalten Materialien zu sehen. 
 
 ### MASSE NACH MATERIALFAMILIEN
-Ein Tortendiagramm zeigt die Masse nach Materialfamilien auf der linken Seite an. Auf der rechten Seite zeigt ein Balkendiagramm die Verteilung der Materialfamilien über die Geböudeschichten. Benutzer können auf einen Balken im gestapelten Balkendiagramm klicken, um zu sehen, welche Materialien darin enthalten sind. Hierbei kann nach Material, Stockwerk und Quelldatei gefiltert werden.
+Auf der linken Seite zeigt ein Tortendiagramm die Masse nach Materialfamilien. Auf der rechten Seite zeigt ein Balkendiagramm die Verteilung der Materialfamilien über die Gebäudeschichten. Benutzer können auf die Balken im klicken, um zu sehen, welche Materialien darin enthalten sind. Außerdem können Benutzer nach Material, Etage und Quelldatei filtern.
 
-Die Benutzer können auch auf eine Materialfamilie im Tortendiagramm klicken. In diesem Fall wird die Kennzahl für die Gesamtmasse so aktualisiert, dass sie spezifisch der ausgewählten Materialfamilie entspricht, während die Kennzahlen für Materialintensität und Benchmarking entfernt werden. Ausserdem wird das Balkendiagramm auf der rechten Seite aktualisiert, um die Verteilung der Materialunterfamilien auf die Gebäudeschichten anzuzeigen. Auch hier kann der Benutzer auf einen Balken im gestapelten Balkendiagramm klicken, um zu sehen, welche Materialien darin enthalten sind. 
+Benutzer können auch auf eine Materialfamilie im Tortendiagramm klicken. In diesem Fall wird die Metrik für die Gesamtmasse aktualisiert, so dass sie spezifisch für die ausgewählte Materialfamilie ist, und die Metriken für Materialintensität und Benchmarking werden entfernt. Außerdem wird das Balkendiagramm auf der rechten Seite entsprechend der Verteilung der Materialunterfamilien auf die Gebäudeschichten aktualisiert. Auch hier können Benutzer auf einen Balken klicken, um Details zu den darin enthalten Materialien zu sehen.
 
 ### UNBEKANNTE ELEMENTE
 Unbekannte Elemente sind solche, die bei den Berechnungen nicht berücksichtigt wurden. Diese können aus 3 verschiedenen Gründen auftreten:
