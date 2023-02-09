@@ -6,7 +6,7 @@ ref: building-file-enrich
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
 Der Prozess des Abgleichs eines (IFC)-Elements mit einem Produkt oder einem Material wird von Madaster automatisch nach dem Import und dem Auslesen der Quelldatei durchgeführt. Es ist möglich, dass Elemente nicht abgeglichen wurden oder dass auf der Grundlage der Suchkriterien ein falscher Abgleich stattgefunden hat. In der ANREICHERN-Maske kann der Matching-Prozess überprüft und abgeschlossen werden, das sogenannte “Anreichern” des Prozesses.
 
-**HINWEIS**: Madaster rät dringend, vor dem Import einer Quelldatei sicherzustellen, dass die Informationen in der Quelldatei gut mit den Informationen in den ausgewählten Datenbanken/Quellen übereinstimmen. Dies kann durch die Verwendung des Materialnamens in der Madaster-Datenbank (siehe [https://docs.madaster.com/files/ch/de/Madaster%20Materialien.xlsx]) erfolgen oder indem sichergestellt wird, dass der Name in den Quelldateien mit der (eigenen) ausgewählten Datenbank/Quelle übereinstimmt.
+**HINWEIS**: Madaster rät dringend, vor dem Import einer Quelldatei sicherzustellen, dass die Informationen in der Quelldatei gut mit den Informationen in den ausgewählten Datenbanken/Quellen übereinstimmen. Dies kann durch die Verwendung des Materialnamens in der EPEA-Datenbank (siehe [https://docs-t.madaster.com/files/de/Epea_Generic.xlsx]) erfolgen oder indem sichergestellt wird, dass der Name in den Quelldateien mit der (eigenen) ausgewählten Datenbank/Quelle übereinstimmt.
 
 ## LINKER SEITENRAND
 Auf der linken Seite steht eine Such- und Filterfunktion zur Verfügung. Der Filter "Themen" kann aufgeklappt werden, um eine Auswahl zu treffen:
