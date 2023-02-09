@@ -6,7 +6,7 @@ ref: building-file-enrich
 ## Hvilken informasjon vises her?
 Prosessen der (IFC-)elementer sammenstilles med et produkt eller materiale, utføres automatisk av Madaster etter at kildefilen er importert og analysert. Det er mulig at elementer ikke er blitt sammenstilt med noe, eller at en feilaktig sammenstilling har skjedd på grunnlag av søkekriteriene. I skjermbildet BERIK kan du kontrollere og fullføre sammenstillingsprosessen, den såkalte «berikingen» av prosessen.
 
-**Merk**: Før du importerer en kildefil anbefaler Madaster på det sterkeste å kontrollere at informasjonen i kildefilen har en høy grad av samsvar med informasjonen i de valgte databasene/kildene. Dette kan gjøres ved å bruke materialenavnet i EPEA Generic-databasen (se <a href="/files/en/EPEA%20Generic.xlsx)">EPEA Generic</a>) eller ved å sikre at navnet i kildefilen stemmer overens med din (egen) valgte database/kilde.
+**Merk**: Før du importerer en kildefil anbefaler Madaster på det sterkeste å kontrollere at informasjonen i kildefilen har en høy grad av samsvar med informasjonen i de valgte databasene/kildene. Dette kan gjøres ved å bruke materialenavnet i EPEA Generic-databasen (se <a href="/files/en/EPEA%20Generic.xlsx"> EPEA Generic </a>) eller ved å sikre at navnet i kildefilen stemmer overens med din (egen) valgte database/kilde.
 
 
 ### VENSTRE MARG
