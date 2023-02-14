@@ -25,9 +25,9 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - In dieser Anleitung werden die Schritte zum Export einer IFC-Datei aus Archicad und Revit beschrieben.
  * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
  * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Parameter</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung (ENG mit Bezug zur NL-SfB).
+ * <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM. 
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
  * <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster DE Smart view set (BIMcollab)</a> - Importieren Sie diese Datei in die BIMCollab Zoom-App, um die Qualität Ihrer IFC-Datei zu überprüfen.
- * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
  * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen.  
 
 ### Nachschlagewerke
