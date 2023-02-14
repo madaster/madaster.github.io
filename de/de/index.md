@@ -19,28 +19,22 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
  * <a href="/files/de/Madaster - Leitfaden Material Passport.pdf" target="_blank">Leitfaden zur Erstellung eines Material Passport</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
 
-### Online Tutorials
-
-* Schauen Sie sich hier die <a href="https://youtube.com/playlist?list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" target="_blank">Madaster-Tutorials</a> an - diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
-
 ### BIM-spezifische Handbücher & Vorlagen
 
-  * <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> - sie zeigt die Materialien in Deutsch an, die in der generischen EPEA-Datenbank standardmäßig enthalten sind.
- * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
- * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
- * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben (ENG mit Bezug zur NL-SfB).
- * <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster DE Smart view set (BIMcollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
- * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
+  * <a href="/files/de/Epea_Generic.xlsx" target="_blank">Materialien</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind.
+ * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - In dieser Anleitung werden die Schritte zum Export einer IFC-Datei aus Archicad und Revit beschrieben.
+ * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
+ * <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster-IFC-Parameter</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung (ENG mit Bezug zur NL-SfB).
+ * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
+ * <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster DE Smart view set (BIMcollab)</a> - Importieren Sie diese Datei in die BIMCollab Zoom-App, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
-  * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen.  
-
-
+ * Das aktuelle Excel-Template gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">hier</a> herunterladen.  
 
 ### Nachschlagewerke
 
- * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik.
+ * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>. Es beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (MZI) sowie die zugrunde liegende Methodik.
 
- * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>  - dies beschreibt ausführlich die Funktionsweise der finanziellen Registerkarte in Madaster sowie die zugrunde liegende Methodik.
+ * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>, welches ausführlich die Funktionsweise der Tab "Finanziell" in Madaster sowie die zugrunde liegende Methodik beschreibt.
 
 ---
 
