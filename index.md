@@ -2,7 +2,7 @@
 title: Home
 ref: home
 menubar: none
-layout: redirect
+layout: homepage
 ---
 
 ## Welcome to the Madaster platform!

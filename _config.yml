@@ -28,6 +28,13 @@ countries:
   
 title: Madaster Documentation
 
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - README.md
   - swagger.json
