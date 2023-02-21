@@ -51,5 +51,5 @@ Vous avez des questions ? Contactez Madaster par téléphone [+41 500 44 46](tel
 
 De plus amples informations sur la dernière version sont disponibles ici:
 
+* <a href="/files/en/Madaster Release notes 2023.pdf" target="_blank">Releases 2023</a>
 * <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Releases 2022</a>
-* <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Releases 2021</a>
