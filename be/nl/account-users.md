@@ -1,6 +1,9 @@
 ---
 title: Gebruikers
 ref: account-users
+redirect_from:
+- /be/nl/supplier-users
+- /be/nl/verifieddatabase-users
 ---
 
 ## Welke informatie wordt hier getoond?

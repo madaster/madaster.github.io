@@ -1,6 +1,8 @@
 ---
 title: Buildings - General
 ref: building
+redirect_from:
+  - /no/en/building-edit
 ---
 
 ## What information is shown here?

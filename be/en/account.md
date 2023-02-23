@@ -1,8 +1,10 @@
 ---
 title: Account - General
 ref: account
-country: nl
-lang: en
+redirect_from:
+  - /be/en/verifieddatabase
+  - /be/en/supplier
+  - /be/en/account-edit
 ---
 
 ## What information is shown here?

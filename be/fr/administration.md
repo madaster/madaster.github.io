@@ -1,10 +1,9 @@
 ---
 title: Administration
-layout: page
-show_sidebar: false
-menubar: faq-nav
 ref: administration
-lang: fr
+redirect_from:
+  - /be/fr/admin-classifications
+  - /be/fr/admin-classification-view
 ---
 
 ## QUELLES INFORMATIONS PUIS-JE TROUVER ICI ?

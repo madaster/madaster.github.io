@@ -1,6 +1,8 @@
 ---
 title: Building
 ref: building-level
+redirect_from:
+  - /ch/en/building-level-product
 ---
 
 ## WHAT INFORMATION IS SHOWN HERE?

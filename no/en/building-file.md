@@ -1,6 +1,8 @@
 ---
 title: Source file
 ref: building-file
+redirect_from:
+  - /no/en/building-file-detail
 ---
 
 

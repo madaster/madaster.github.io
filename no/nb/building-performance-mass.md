@@ -1,7 +1,6 @@
 ---
 title: Ytelse Masse
 ref: building-performance-mass
-lang: nb
 ---
 
 ## Hvilken informasjon vises her?

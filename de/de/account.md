@@ -1,6 +1,10 @@
 ---
 title: Account - Allgemein
 ref: account
+redirect_from:
+  - /de/de/verifieddatabase
+  - /de/de/supplier
+  - /de/de/account-edit
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

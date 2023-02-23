@@ -1,6 +1,8 @@
 ---
 title: Materials & Products
 ref: account-materials-products
+redirect_from:
+  - /no/en/account-materials
 ---
 
 ## What information is shown here?

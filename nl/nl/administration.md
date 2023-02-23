@@ -1,6 +1,9 @@
 ---
 title: Administratie
 ref: administration
+redirect_from:
+  - /nl/nl/admin-classifications
+  - /nl/nl/admin-classification-view
 ---
 
 ## Welke informatie kan ik hier terugvinden?
@@ -12,6 +15,3 @@ U vindt hier de databases van materialen en producten, die platform-breed beschi
 
 ### Classificatiemethodes
 Op dit scherm is een gedetailleerd overzicht te vinden van de classificatiestructuren (Bijv. NL-SfB, eBKP en Omniclass) die voor uw land binnen Madaster bekend zijn. Voor deze methode staan alle codes van de classificatie en aan welke 'Layer of Brand' deze gekoppeld is.
-
-### Partners
-Op deze schermen is een overzicht te vinden van de partnes van Madaster: wat zij doen, wat zij voor u kunnen betekenen en de link naar hun eigen website.

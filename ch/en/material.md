@@ -1,6 +1,16 @@
 ---
 title: Material
 ref: material
+redirect_from:
+  - /ch/en/view-material
+  - /ch/en/view-material-searchcriteria
+  - /ch/en/view-material-files
+  - /ch/en/view-material-finance
+  - /ch/en/edit-material
+  - /ch/en/edit-material-searchcriteria
+  - /ch/en/edit-material-files
+  - /ch/en/edit-material-finance
+  - /ch/en/new-material
 ---
 
 ## HOW TO ADD A NEW MATERIAL?

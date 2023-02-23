@@ -1,7 +1,6 @@
 ---
 title: Ytelse
 ref: building-performance-overview
-lang: nb
 ---
 
 ## Hvilken informasjon vises her?

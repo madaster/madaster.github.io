@@ -1,6 +1,8 @@
 ---
 title: Bygning
 ref: building-level
+redirect_from:
+  - /no/nb/building-level-product
 ---
 
 ## Hvilken informasjon vises her?

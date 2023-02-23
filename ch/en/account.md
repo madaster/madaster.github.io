@@ -1,6 +1,10 @@
 ---
 title: Account - General
 ref: account
+redirect_from:
+  - /ch/en/verifieddatabase
+  - /ch/en/supplier
+  - /ch/en/account-edit
 ---
 
 ## What information is shown here?

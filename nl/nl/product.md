@@ -1,6 +1,16 @@
 ---
 title: Product
 ref: product
+redirect_from:
+  - /nl/nl/view-product
+  - /nl/nl/view-product-searchcriteria
+  - /nl/nl/view-product-files
+  - /nl/nl/view-product-finance
+  - /nl/nl/edit-product
+  - /nl/nl/edit-product-searchcriteria
+  - /nl/nl/edit-product-files
+  - /nl/nl/edit-product-finance
+  - /nl/nl/new-product
 ---
 
 ## Hoe voeg ik een nieuw product toe?

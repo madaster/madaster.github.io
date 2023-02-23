@@ -1,6 +1,8 @@
 ---
 title: Kildefil
 ref: building-file
+redirect_from:
+  - /no/nb/building-file-detail
 ---
 
 

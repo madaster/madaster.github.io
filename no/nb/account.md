@@ -1,6 +1,10 @@
 ---
 title: Konto generell
 ref: account 
+redirect_from:
+  - /no/nb/verifieddatabase
+  - /no/nb/supplier
+  - /no/nb/account-edit
 ---
 
 ## Hvilken informasjon vises her?

@@ -1,6 +1,8 @@
 ---
 title: FAQ
 ref: faq
+redirect_from:
+  - /at/de/home
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

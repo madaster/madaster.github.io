@@ -1,6 +1,8 @@
 ---
 title: FAQ
 ref: faq
+redirect_from:
+  - /no/en/home
 ---
 
 ## What information is shown here?

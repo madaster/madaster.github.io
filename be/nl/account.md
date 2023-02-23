@@ -1,6 +1,10 @@
 ---
 title: Account - Algemeen
 ref: account
+redirect_from:
+  - /be/nl/verifieddatabase
+  - /be/nl/supplier
+  - /be/nl/account-edit
 ---
 
 ## WELKE INFORMATIE WORDT HIER GETOOND?

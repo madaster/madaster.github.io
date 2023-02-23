@@ -1,6 +1,8 @@
 ---
 title: Innstillinger
 ref: account-settings
+redirect_from:
+  - /no/nb/supplier-settings
 ---
 
 ## Hvilken informasjon vises her?

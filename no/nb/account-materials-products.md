@@ -1,6 +1,8 @@
 ---
 title: Materialer og produkter
-ref: konto-materialer-produkter
+ref: account-materials-products
+redirect_from:
+  - /no/nb/account-materials
 ---
 
 ## Hvilken informasjon vises her?

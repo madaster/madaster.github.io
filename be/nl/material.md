@@ -1,6 +1,16 @@
 ---
 title: Materiaal
 ref: material
+redirect_from:
+  - /be/nl/view-material
+  - /be/nl/view-material-searchcriteria
+  - /be/nl/view-material-files
+  - /be/nl/view-material-finance
+  - /be/nl/edit-material
+  - /be/nl/edit-material-searchcriteria
+  - /be/nl/edit-material-files
+  - /be/nl/edit-material-finance
+  - /be/nl/new-material
 ---
 
 ## Hoe voeg ik een nieuw materiaal toe?

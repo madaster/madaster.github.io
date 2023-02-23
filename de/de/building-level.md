@@ -1,6 +1,8 @@
 ---
 title: Masse
 ref: building-level
+redirect_from:
+  - /de/de/building-level-product
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

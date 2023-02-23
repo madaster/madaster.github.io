@@ -1,6 +1,9 @@
 ---
 title: Administrasjon
-ref: administrasjon
+ref: administration
+redirect_from:
+  - /no/nb/admin-classifications
+  - /no/nb/admin-classification-view
 ---
 
 ## HVILKEN INFORMASJON FINNER JEG HER?

@@ -1,6 +1,8 @@
 ---
 title: Gebouw
 ref: building-level
+redirect_from:
+  - /nl/nl/building-level-product
 ---
 
 ## Welke informatie wordt hier getoond?

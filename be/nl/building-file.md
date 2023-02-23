@@ -1,6 +1,8 @@
 ---
 title: Kwaliteit bronbestand
 ref: building-file
+redirect_from:
+  - /be/nl/building-file-detail
 ---
 
 ## KWALITEIT VAN BRONBESTAND

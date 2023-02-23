@@ -1,7 +1,10 @@
 --- 
 title: Mass 
-ref: building-level 
+ref: building-level
+redirect_from:
+  - /be/nl/building-level-product
 --- 
+
 ## What Information Is Shown Here? 
 The total mass and material intensity (mass/m2) are displayed. When a benchmark is selected, and information is available, the object is compared to others. Unknown elements are shown to so they can be modified, and in turn included in calculations. Using the dropdown, the mass is displayed by matrix, shearing layer, and material family. 
  
