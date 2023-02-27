@@ -6,7 +6,7 @@ ref: building-file-enrich
 ## Welke informatie wordt hier getoond?
 Het proces van matching, van (IFC) element met een product of een materiaal, wordt door Madaster automatisch uitgevoerd na het importeren en ontleden van het bronbestand. Het kan zijn dat er elementen niet gematched zijn, of dat er een verkeerde matching heeft plaatsgevonden op basis van de zoekcriteria. In het scherm VERRIJKEN kan het matchingsproces gecontroleerd en aangevuld worden, het zogenaamde "verrijken" van het proces.
 
-**NB** : Madaster adviseert sterk om voorafgaand aan het importeren van een bronbestand, er voor te zorgen dat de informatie in het bronbestand goed matcht met de informatie in de geselecteerde databases/bronnen. Dit kan door in de bronbestanden gebruik te maken van de materiaalbenaming in de Madaster database (zie [link naar Madaster List of Materials] ) Of door er voor de zorgen dat de benaming in de bronbestanden overeenkomt met de (eigen) geselecteerde database/bron.
+**NB** : Madaster adviseert sterk om voorafgaand aan het importeren van een bronbestand, er voor te zorgen dat de informatie in het bronbestand goed matcht met de informatie in de geselecteerde databases/bronnen. Dit kan door in de bronbestanden gebruik te maken van de materiaalbenaming in de Madaster database (<a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">EPEA Generic database material list</a>) of door ervoor te zorgen dat de benaming in de bronbestanden overeenkomt met de (eigen) geselecteerde database/bron.
 
 ### Linker kantlijn
 Aan de linkerkant is  een zoek en filter functie beschikbaar. De filter "thema's" kunnen uitgeklapt worden om daar een selectie in te maken:
