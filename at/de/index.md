@@ -50,6 +50,7 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+4366460037655](tel:+43
 
 ## <img class="header-img" src="/assets/images/770.svg"> Release Notes
 
-Weitere Informationen zu den Releases finden Sie hier:
+Weitere Informationen zu den Releases finden Sie hier:#
 
+* <a href="/files/en/Madaster Release notes 2023.pdf" target="_blank">Release notes 2023</a>
 * <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Release 2022</a>
