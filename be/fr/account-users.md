@@ -1,6 +1,9 @@
 ---
 title: Utilisateurs
 ref: account-users
+redirect_from:
+- /be/fr/supplier-users
+- /be/fr/verifieddatabase-users
 ---
 
 ## QUELLES INFORMATIONS SONT AFFICHÉES ICI ?

@@ -1,6 +1,8 @@
 ---
 title: Einstellungen
 ref: account-settings
+redirect_from:
+  - /ch/de/supplier-settings
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

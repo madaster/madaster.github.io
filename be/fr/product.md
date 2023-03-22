@@ -1,6 +1,16 @@
 ---
 title: Produit
 ref: product
+redirect_from:
+  - /be/fr/view-product
+  - /be/fr/view-product-searchcriteria
+  - /be/fr/view-product-files
+  - /be/fr/view-product-finance
+  - /be/fr/edit-product
+  - /be/fr/edit-product-searchcriteria
+  - /be/fr/edit-product-files
+  - /be/fr/edit-product-finance
+  - /be/fr/new-product
 ---
 
 ## COMMENT AJOUTER UN NOUVEAU PRODUIT ?

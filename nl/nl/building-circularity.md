@@ -1,6 +1,8 @@
 ---
 title: Circulariteit
 ref: building-circularity
+redirect_from:
+  - /nl/nl/building-circularity-ci
 ---
 
 ## Welke informatie wordt hier getoond?

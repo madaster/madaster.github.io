@@ -1,6 +1,8 @@
 ---
 title: Materialien und Produkte
 ref: account-materials-products
+redirect_from:
+  - /at/de/account-materials
 ---
 
 ## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?

@@ -1,6 +1,10 @@
 ---
 title: Compte - Général
 ref: account
+redirect_from:
+  - /ch/fr/verifieddatabase
+  - /ch/fr/supplier
+  - /ch/fr/account-edit
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

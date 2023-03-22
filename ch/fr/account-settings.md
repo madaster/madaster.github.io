@@ -1,10 +1,8 @@
 ---
 title: Paramètres
-layout: page
-show_sidebar: false
-menubar: faq-nav
 ref: account-settings
-lang: fr
+redirect_from:
+  - /ch/fr/supplier-settings
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

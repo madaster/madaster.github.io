@@ -1,6 +1,8 @@
 ---
 title: Gebäude
 ref: building-level
+redirect_from:
+  - /ch/de/building-level-product
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

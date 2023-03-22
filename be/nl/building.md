@@ -1,6 +1,8 @@
 ---
 title: Gebouwen - Algemeen
 ref: building
+redirect_from:
+  - /be/nl/building-edit
 ---
 
 ## Welke informatie wordt hier getoond?

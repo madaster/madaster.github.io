@@ -1,6 +1,9 @@
 ---
 title: Administration
 ref: administration
+redirect_from:
+  - /no/en/admin-classifications
+  - /no/en/admin-classification-view
 ---
 
 ## WHAT INFORMATION CAN I FIND HERE?

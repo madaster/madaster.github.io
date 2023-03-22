@@ -1,6 +1,12 @@
 ---
 title: Account - Algemeen
 ref: account
+redirect_from:
+  - /nl/nl/verifieddatabase
+  - /nl/nl/supplier
+  - /nl/nl/account-edit
+  - /nl/nl/account-foldertypes
+  - /nl/nl/account-map
 ---
 
 ## WELKE INFORMATIE WORDT HIER GETOOND?

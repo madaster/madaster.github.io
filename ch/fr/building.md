@@ -1,6 +1,8 @@
 ---
 title: Bâtiment - Général
 ref: building
+redirect_from:
+  - /ch/fr/building-edit
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

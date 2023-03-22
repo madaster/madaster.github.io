@@ -1,6 +1,8 @@
 ---
 title: Gebäude - Allgemein
 ref: building
+redirect_from:
+  - /ch/de/building-edit
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

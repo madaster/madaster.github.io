@@ -1,6 +1,9 @@
 ---
 title: Brukere
 ref: account-users
+redirect_from:
+- /no/nb/supplier-users
+- /no/nb/verifieddatabase-users
 ---
 
 ## HVILKEN INFORMASJON VISES HER?

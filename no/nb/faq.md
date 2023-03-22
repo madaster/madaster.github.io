@@ -1,6 +1,8 @@
 ---
 title: Vanlige spørsmål
 ref: faq
+redirect_from:
+  - /no/nb/home
 ---
 
 ## Hvilken informasjon vises her?

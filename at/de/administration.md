@@ -1,6 +1,9 @@
 ---
 title: Verwaltung
 ref: administration
+redirect_from:
+  - /at/de/admin-classifications
+  - /at/de/admin-classification-view
 ---
 
 ## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?

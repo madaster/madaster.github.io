@@ -1,6 +1,9 @@
 ---
 title: Administratie
 ref: administration
+redirect_from:
+  - /be/nl/admin-classifications
+  - /be/nl/admin-classification-view
 ---
 
 ## Welke informatie kan ik hier terugvinden?

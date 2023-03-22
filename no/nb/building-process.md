@@ -1,6 +1,8 @@
 ---
 title: Byggeprosess
 ref: building-process
+redirect_from:
+  - /no/nb/building-process-product
 ---
 
 ## Hvilken informasjon vises her?

@@ -1,6 +1,8 @@
 ---
 title: Quell-Datei
 ref: building-file
+redirect_from:
+  - /ch/de/building-file-detail
 ---
 
 ## QUALITÄT DER QUELLDATEI

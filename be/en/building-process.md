@@ -1,6 +1,8 @@
 ---
 title: Building Process
 ref: building-process
+redirect_from:
+  - /be/en/building-process-product
 ---
 
 ## What information is shown here?

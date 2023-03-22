@@ -1,6 +1,8 @@
 ---
 title: Bouwproces
 ref: building-process
+redirect_from:
+  - /be/nl/building-process-product
 ---
 
 ## Welke informatie wordt hier getoond?

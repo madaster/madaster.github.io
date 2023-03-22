@@ -1,6 +1,8 @@
 ---
 title: Materialen & Producten
 ref: account-materials-products
+redirect_from:
+  - /nl/nl/account-materials
 ---
 
 ## Welke informatie wordt hier getoond?

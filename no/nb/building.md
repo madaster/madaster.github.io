@@ -1,6 +1,8 @@
 ---
 title: Bygninger – generelt
 ref: building
+redirect_from:
+  - /no/nb/building-edit
 ---
 
 ## Hvilken informasjon vises her?

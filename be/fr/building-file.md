@@ -1,6 +1,8 @@
 ---
 title: Qualité du fichier source
 ref: building-file
+redirect_from:
+  - /be/fr/building-file-detail
 ---
 
 ## QUALITÉ DU FICHIER SOURCE

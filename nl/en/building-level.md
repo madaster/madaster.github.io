@@ -1,6 +1,8 @@
 ---
 title: Mass
 ref: building-level
+redirect_from:
+  - /nl/en/building-level-product
 ---
 
 ## What Information Is Shown Here?

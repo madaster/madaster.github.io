@@ -1,6 +1,9 @@
 ---
 title: Benutzer
 ref: account-users
+redirect_from:
+- /ch/de/supplier-users
+- /ch/de/verifieddatabase-users
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

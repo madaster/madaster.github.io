@@ -1,6 +1,9 @@
 ---
 title: Users
 ref: account-users
+redirect_from:
+- /be/en/supplier-users
+- /be/en/verifieddatabase-users
 ---
 
 ## WHAT INFORMATION IS SHOWN HERE?

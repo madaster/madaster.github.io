@@ -1,8 +1,9 @@
 ---
 title: Source file
 ref: building-file
+redirect_from:
+  - /be/en/building-file-detail
 ---
-
 
 ## QUALITY OF SOURCE FILE
 The accuracy and reliability of data in the Madaster platform starts with the source file. If the quality of the source file is lower and/or data is incomplete, this will cause the Madaster platform to be less accurate and complete. That is why it is important to maximize the quality of the source file, i.e. the completeness of the information, before it is read into the platform.

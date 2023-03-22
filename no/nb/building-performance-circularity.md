@@ -1,7 +1,6 @@
 ---
 title: Ytelse Sirkularitet
 ref: building-performance-circularity
-lang: nb
 ---
 
 ## Hvilken informasjon vises her?

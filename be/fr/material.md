@@ -1,6 +1,16 @@
 ---
 title: Matériel
 ref: material
+redirect_from:
+  - /be/fr/view-material
+  - /be/fr/view-material-searchcriteria
+  - /be/fr/view-material-files
+  - /be/fr/view-material-finance
+  - /be/fr/edit-material
+  - /be/fr/edit-material-searchcriteria
+  - /be/fr/edit-material-files
+  - /be/fr/edit-material-finance
+  - /be/fr/new-material
 ---
 
 ## COMMENT PUIS-JE AJOUTER UN NOUVEAU MATÉRIAU ?

@@ -1,6 +1,8 @@
 ---
 title: Instellingen
 ref: account-settings
+redirect_from:
+  - /nl/nl/supplier-settings
 ---
 
 ## WELKE INFORMATIE WORDT HIER GETOOND?

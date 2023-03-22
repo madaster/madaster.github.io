@@ -1,10 +1,8 @@
 ---
 title: Produits & Matériaux
-layout: page
-show_sidebar: false
-menubar: faq-nav
 ref: account-materials-products
-lang: fr
+redirect_from:
+  - /ch/fr/account-materials
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

@@ -1,6 +1,8 @@
 ---
 title: FAQ
 ref: faq
+redirect_from:
+  - /be/nl/home
 ---
 
 ## Welke informatie wordt hier getoond?

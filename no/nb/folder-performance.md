@@ -1,7 +1,6 @@
 ---
 title: Performance
 ref: folder-performance
-lang: nb
 ---
 
 ## Hvilken informasjon vises her?

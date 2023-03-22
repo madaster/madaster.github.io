@@ -1,6 +1,16 @@
 ---
 title: Produkt
 ref: product
+redirect_from:
+  - /at/de/view-product
+  - /at/de/view-product-searchcriteria
+  - /at/de/view-product-files
+  - /at/de/view-product-finance
+  - /at/de/edit-product
+  - /at/de/edit-product-searchcriteria
+  - /at/de/edit-product-files
+  - /at/de/edit-product-finance
+  - /at/de/new-product
 ---
 
 ## WIE KANN ICH EIN NEUES PRODUKT HINZUFUGEN?

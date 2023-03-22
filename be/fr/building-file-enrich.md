@@ -6,7 +6,7 @@ ref: building-file-enrich
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?
 Le processus de mise en correspondance d'un élément (IFC) avec un produit ou un matériau est automatiquement effectué par Madaster après l'importation et la décomposition du fichier source. Il est possible que des éléments n'aient pas été trouvés ou qu'une mise en correspondance incorrecte ait été effectuée sur la base des critères de recherche. Dans le masque LITTING, le processus de mise en correspondance peut être vérifié et complété, ce que l'on appelle « l'ajout » d'informations au processus.
 
-**NB** : Madaster conseille vivement, avant d'importer un fichier source, de s'assurer que les informations contenues dans le fichier source correspondent bien à celles des bases de données/sources sélectionnées. Cela peut se faire en utilisant le nom du matériau dans la base de données Madaster (voir [Lien vers la liste de matériaux Madaster] ) ou en s'assurant que le nom dans les fichiers source correspond à la base de données/source sélectionnée.
+**NB** : Madaster conseille vivement, avant d'importer un fichier source, de s'assurer que les informations contenues dans le fichier source correspondent bien à celles des bases de données/sources sélectionnées. Cela peut se faire en utilisant le nom du matériau dans la base de données Madaster (<a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">EPEA Generic database material list</a>) ou en s'assurant que le nom dans les fichiers source correspond à la base de données/source sélectionnée.
 
 ## MARQUE DE GAUCHE
 Une fonction de recherche et de filtrage est disponible sur le côté gauche. Le filtre « Sujets » peut être étendu pour effectuer une sélection :

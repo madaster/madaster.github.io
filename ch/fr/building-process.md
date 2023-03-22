@@ -1,6 +1,8 @@
 ---
 title: Processus de construction
 ref: building-process
+redirect_from:
+  - /ch/fr/building-process-product
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

@@ -1,7 +1,6 @@
 ---
 title: Ytelse Bundet karbon
 ref: building-performance-embodiedcarbon
-lang: nb
 ---
 
 ## Hvilken informasjon vises her?
