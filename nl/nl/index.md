@@ -37,8 +37,8 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
 
  
-  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – deze geeft de materialen weer in het Nederlands die in de Madaster database standaard aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
-
+  * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – bevat het overzicht van materialen die standaard in de Madaster database aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
+  * Download de <a href="/files/nl/Epea_Generic.xlsx" target="_blank">EPEA Generieke database</a> – bevat het overzicht van materialen en producten die standaard in de EPEA Generic database aanwezig zijn, inclusief de UID's en de classificaties mapping.
 
 ### Naslagwerken
 
