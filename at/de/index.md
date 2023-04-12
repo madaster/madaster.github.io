@@ -44,7 +44,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+4366460037655](tel:+4366460037655) oder E-Mail-Adresse <service@madaster.at>.
+Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+436706545662](tel:+436706545662) oder E-Mail-Adresse <service@madaster.at>.
 
 ---
 
