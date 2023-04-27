@@ -33,7 +33,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
-  * Das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2009" für den Upload eines Gebäudes auf der Madaster Plattform können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">hier</a> herunterladen. 
+  * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2009" <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">hier</a> und das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2022" können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">hier</a> herunterladen.
 
 ### Nachschlagewerke
 
@@ -44,7 +44,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+4366460037655](tel:+4366460037655) oder E-Mail-Adresse <service@madaster.at>.
+Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+436706545662](tel:+436706545662) oder E-Mail-Adresse <service@madaster.at>.
 
 ---
 
