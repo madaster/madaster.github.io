@@ -25,10 +25,10 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Manuels et autres informations spécifiques BIM.
 
-  * Télécharger la <a href="/files/en/EPEA Generic.xlsx" target="_blank">Liste matériel Madaster</a> - Ce document contient la liste des matériaux contenus dans la base de donnée Madaster ainsi que leurs uniques identifiants.
- * Liser le <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l'élaboration d'un modèle BIM.
- * Liser le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l'importation de fichiers IFC dans Madaster.
- * Liser le <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l'exportation d'un fichier IFC.
+  * Télécharger la <a href="/files/en/EPEA Generic.xlsx" target="_blank">Liste matériel Madaster</a> - affiche les matériaux en français et en anglais qui sont inclus par défaut dans la base de données Madaster, ainsi que les UID des matériaux.
+ * Liser le <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - décrit de manière compacte les principales indications pour la création d'un modèle BIM.
+ * Liser le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC paramètres</a> - décrit l'importation de fichiers IFC dans Madaster.
+ * Liser le <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – décrit brièvement les étapes de l'exportation d'un fichier IFC.
  * Télécharger le <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster Smart View set (BIMCollab) et BIMCollab Zoom</a> Solution (free IFC viewer) - Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
  * Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimloket.nl//documents/BIM_basis_ILS_v1_0_FRA.pdf" target="_blank">BIM loket</a>.
 
