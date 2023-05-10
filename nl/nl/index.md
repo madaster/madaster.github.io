@@ -38,7 +38,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
  
   * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – bevat het overzicht van materialen die standaard in de Madaster database aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
-  * Download de <a href="/files/nl/Epea_Generic.xlsx" target="_blank">EPEA Generieke database</a> – bevat het overzicht van materialen en producten die standaard in de EPEA Generic database aanwezig zijn, inclusief de UID's en de classificaties mapping.
+  * Download de <a href="/files/nl/EPEA_Generic.xlsx" target="_blank">EPEA Generieke database</a> – bevat het overzicht van materialen en producten die standaard in de EPEA Generic database aanwezig zijn, inclusief de UID's en de classificaties mapping.
 
 ### Naslagwerken
 

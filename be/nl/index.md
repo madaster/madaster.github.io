@@ -33,10 +33,10 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
  * Download de laatste Archicad IFC ExportTranslator - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform (beschikbaar voor KeyMembers). Lees <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen" target="_blank" >hier</a> de instructies en tips.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View set (BIMCollab, classificatiecheck is alleen voor NL/SfB)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
  * Download de <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
- * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimportal.be" target="_blank">BIMportal</a> vinden.
+* Interesting general information about BIM can be obtained via <a href="https://www.bimportal.be" target="_blank">BIMportal</a>, <a href="https://digitalconstruction.be" target="_blank">Digital Construction</a>, <a href="https://www.bimids.eu" target="_blank">BIMids platform for Belgium</a>, <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">Buildingsmart BIM base IDS</a>, <a href="https://bimbuildwise.notion.site/Belgian-ISO-19650-wiki-e463f716154743ccb2d0c67c1b857525" target="_blank">Belgian ISO 19650 wiki-page</a>, <a href="https://www.bimloket.nl/p/321/Downloads" target="_blank">BIM base IDS guidelines</a>
 
  
-  * Download de <a href="/files/be/en/EPEA Generic material list.xlsx" target="_blank">De EPEA Generieke database Materialenlijst</a> – deze geeft de materialen weer die in de EPEA database standaard aanwezig zijn op het Madaster-platform, inclusief de External id's van de materialen, de materiaalnaam en de zoekcriteria.
+  * Download de <a href="/files/en/EPEA_Generic.xlsx" target="_blank">De EPEA Generieke database Materialenlijst</a> – deze geeft de materialen weer die in de EPEA database standaard aanwezig zijn op het Madaster-platform, inclusief de External id's van de materialen, de materiaalnaam en de zoekcriteria.
 
 
 ### Naslagwerken

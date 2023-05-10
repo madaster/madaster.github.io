@@ -24,12 +24,12 @@ _Certains documents sont uniquement disponibles en Anglais._
 
 ### Manuels et autres informations spécifiques BIM.
 
-* Télécharger la <a href="/files/en/EPEA Generic.xlsx" target="_blank">liste matériel EPEA</a> - Ce document contient la liste des matériaux de la base de données EPEA utilisé dans la platforme Madaster ainsi que leurs uniques identifiants et critères de recherche.
+* Télécharger la <a href="/files/en/EPEA_Generic.xlsx" target="_blank">liste matériel EPEA</a> - Ce document contient la liste des matériaux de la base de données EPEA utilisé dans la platforme Madaster ainsi que leurs uniques identifiants et critères de recherche.
 * Liser le <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - ça décrit brièvement les instructions les plus importantes pour l’élaboration d’un modèle BIM.
 * Lisez le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - ça décrit l’importation de fichiers IFC dans Madaster.
 * Lisez le <a href="/files/be/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – ça décrit brièvement les étapes de l’exportation d’un fichier IFC.
 * Télécharger le <a href="https://helpcenter.bimcollab.com/portal/fr/kb/articles/smart-view-sets-downloads-fr" target="_blank">Madaster Smart View set (BIMCollab)</a>  et télécharger le <a href="https://helpcenter.bimcollab.com/portal/fr/kb/articles/downloads-fr" target="_blank">BIMCollab Zoom</a> Solution (free IFC viewer). Importez ce fichier dans la solution BIMCollab Zoom pour valider la qualité de votre fichier IFC.
-* Des informations générales importantes sur le BIM peuvent être obtenues via <a href="https://www.bimportal.be/fr/" target="_blank">BIMportal</a> ou <a href="https://www.bimloket.nl/p/321/Downloads" target="_blank">Bimloket</a>.
+ * Interesting general information about BIM can be obtained via <a href="https://www.bimportal.be" target="_blank">BIMportal</a>, <a href="https://digitalconstruction.be" target="_blank">Digital Construction</a>, <a href="https://www.bimids.eu" target="_blank">BIMids platform for Belgium</a>, <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">Buildingsmart BIM base IDS</a>, <a href="https://bimbuildwise.notion.site/Belgian-ISO-19650-wiki-e463f716154743ccb2d0c67c1b857525" target="_blank">Belgian ISO 19650 wiki-page</a>, <a href="https://www.bimloket.nl/p/321/Downloads" target="_blank">BIM base IDS guidelines</a>
 
 <!--* Download the <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC export template for Archicad</a> - this includes the most optimal export settings for a IFC file to the Madaster platform.-->
 
