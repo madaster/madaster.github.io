@@ -22,7 +22,7 @@ On this page you will find additional information about the use and development 
 
 ### BIM-specific manuals & templates
 
- * Download the <a href="/files/en/EPEA Generic.xlsx" target="_blank">Material List</a> - it displays the materials in English that are standard in the Madaster database, plus the UID's of the materials.
+ * Download the <a href="/files/de/Epea_Generic.xlsx" target="_blank">Material List</a> - it displays the materials in English that are standard in the Madaster database, plus the UID's of the materials.
  * Read the <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - compactly describes the most important instructions for drawing up a BIM model.
  * Read the <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC Parameters</a> - describes the import of IFC files within Madaster.
  * Read the <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC Export</a> – briefly describes the steps to export an IFC file.
