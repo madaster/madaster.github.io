@@ -19,9 +19,6 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
  * <a href="/files/de/Madaster - Leitfaden Material Passport.pdf" target="_blank">Leitfaden zur Erstellung eines Material Passport</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
 
-### Online Tutorials
-
-* Schauen Sie sich hier die <a href="https://youtube.com/playlist?list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" target="_blank">Madaster-Tutorials</a> an - diese Anleitungsvideos erklären Schritt für Schritt, wie bestimmte Funktionen in Madaster funktionieren und wie Sie diese am besten nutzen können.
 
 ### BIM-spezifische Handbücher & Vorlagen
 
