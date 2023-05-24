@@ -9,6 +9,8 @@ redirect_from:
   - /nl/en/account-map
   - /nl/en/account-circularity
   - /nl/en/account-environmental
+  - /nl/en/account-mass
+  - /nl/en/account-financial
 ---
 
 ## What information is shown here?
