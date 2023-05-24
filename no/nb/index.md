@@ -27,8 +27,8 @@ På denne siden finner du ytterligere informasjon om bruken og utviklingen av Ma
  * Les <a href="/files/no/Madaster BIM - IFC import_NO.pdf" target="_blank">Madaster BIM IFC-import</a>- Denne beskriver import av IFC-filer i Madaster.
  * Les <a href="/files/no/Madaster BIM - IFC export_NO.pdf" target="_blank">Madaster BIM IFC-eksport</a>- Denne beskriver kort trinnene for å eksportere en IFC-fil.
  * Last ned <a href="/files/Archicad_ExportTemplate.tpl" target="_blank"> Madaster IFC eksportmal for Archicad</a>- Denne inkluderer de mest optimale eksportinnstillingene for en IFC-fil til Madaster-plattformen.
- * Last ned <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">Madaster Smart View-sett (BIMCollab)</a> - Importer denne filen til BIMCollab Zoom-løsningen for å validere kvaliteten på IFC-filen din.
- * Last ned <a href="http://www.bimcollab.com/en/Support/Support/Downloads/BIMcollab-ZOOM" target="_blank">BIMCollab Zoom</a>Løsning (kostnadsfritt IFC-visningsprogram) og tilhørende hurtigstartveiledning.
+ * Last ned <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">Madaster Smart View-sett (BIMCollab)</a> - Importer denne filen til BIMCollab Zoom-løsningen for å validere kvaliteten på IFC-filen din.
+ * Last ned <a href="https://www.bimcollab.com/en/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a>Løsning (kostnadsfritt IFC-visningsprogram) og tilhørende hurtigstartveiledning.
 
 
 
