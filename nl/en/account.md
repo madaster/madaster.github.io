@@ -7,6 +7,8 @@ redirect_from:
   - /nl/en/account-edit
   - /nl/en/account-foldertypes
   - /nl/en/account-map
+  - /nl/en/account-circularity
+  - /nl/en/account-environmental
 ---
 
 ## What information is shown here?
