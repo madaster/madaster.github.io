@@ -28,15 +28,17 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
  * <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
  * <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
- * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> Lösung (kostenloser IFC-Viewer) und die entsprechende Kurzanleitung herunter.
+ * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
   * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2009" <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">hier</a> und das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2022" können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">hier</a> herunterladen.
 
 ### Nachschlagewerke
 
- * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik.
+ * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>  - dies beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (ZI) sowie die zugrunde liegende Methodik. 
 
  * Hier finden sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>  - dies beschreibt ausführlich die Funktionsweise der finanziellen Registerkarte in Madaster sowie die zugrunde liegende Methodik.
+
+ * Hier finden sie die Datenbankbeschreibung zur <a href="https://docs.madaster.com/files/en/EPEA_Generic_Dataset_Description.pdf" target="_blank">EPEA Datenbank</a> - die von Experten geprüfte und von der EPEA verifizierte Datenbank basierend auf einer Kombination aus EPDs und anderer wissenschaftlicher und öffentlicher Literatur. Diese Datenbank wird auf Madaster zu Verfügung gestellt.
 
 ---
 
