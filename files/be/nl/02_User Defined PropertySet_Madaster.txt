@@ -1,0 +1,73 @@
+# 	*** VOORBEELD AUTODESK ***
+#
+#	User Defined PropertySet Definition File
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#	Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
+#	NormalisedRatio, MassDensity, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, 
+#	Power, Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#	VolumetricFlowRate
+#
+#	standaard file locatie: C:\Program Files (x86)\Revit IFC 2018
+#	De regels waar een # voorstaat worden door de software genegeerd. Deze kunnen ook gebruikt worden om medegebruikers te informeren.
+#
+# 	*** EINDE VOORBEELD AUTODESK ***
+#
+#
+#
+#
+#	*** Begin PSET MADASTER ***
+#
+# 	Dit is de propertyset Madaster (Pset) vervaardigd door Madaster 
+#
+#	Versie 1.0 - d.d. 21-09-2022
+#
+#	Auteur: Ceylan Yazici
+#
+#	Logboek:
+#	21-09-2022	Aanmaak datum van het bestand
+#
+#	
+#
+#
+PropertySet:	Pset_Madaster	I/T	IfcElement
+#
+	DetachabilityConnectionType		Text		DetachabilityConnectionType	
+	Classification				Text		Assembly Code	
+	Length					Length		Length
+	Phase					Text		Phase Created
+	DetachabilityIntersection		Text		DetachabilityIntersection
+	MaterialOrProductName			Text		MaterialOrProductName
+	ArticleNumberGLN			Text		ArticleNumberGLN
+	DetachabilityConnectionTypeDetail	Text		DetachabilityConnectionTypeDetail
+	Weight					MassDensity	Weight
+	Depth					Length		Depth
+	MaterialOrProductId			Text		MaterialOrProductId
+	Height					Length		Height	
+	GTIN					Text		GTIN
+	DetachabilityProductEdge		Text		DetachabilityProductEdge
+	Width					Length		Width
+	DetachabilityAccessibility		Text		DetachabilityAccessibility
+	ExternaldatabaseId			Text		ExternaldatabaseId
+	Area					Area		Area
+	Volume					Volume		Volume
+#
+#
+#
+#
+#
+#	EINDE DOCUMENT
+#
+
+
+
+
+
+
