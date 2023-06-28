@@ -26,7 +26,22 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
 ### BIM-specifieke handleidingen & sjablonen
 
- * Lees de <a href="/files/be/nl/Madaster BIM - IFC Richtlijnen.pdf" target="_blank">Madaster IFC-richtlijn</a> - deze beschrijft kort de belangrijkste aanwijzingen voor het opmaken van een BIM-model.
+
+ * Lees de <a href="/files/nl/Madaster - BIM handleiding.pdf" target="_blank">Madaster BIM Handleiding</a> - deze beschrijft hoe (1) IFC-bestanden te prepareren t.a.v. geometrische data, classificatiecodering, etc. (2) IFC-bestanden te exporteren vanuit Revit en Archicad en (3) de Madaster propertyset geïmporteerd wordt in Revit en Archicad.
+* Download de <a href="/files/nl/01_Revit shared parameter file_Madaster.txt.zip" target="_blank">01_Revit shared parameter file_Madaster</a> - hiermee importeer je eenvoudig de Madaster Propertyset (Pset_Madaster) in Revit. Zie "Madaster BIM Handleiding" voor instructies.
+* Download de <a href="/files/nl/02_User Defined PropertySet_Madaster.txt.zip" target="_blank">02_User Defined PropertySet_Madaster</a> - hiermee importeer je eenvoudig de Madaster IFC-exportinstellingen in Revit. Zie "Madaster BIM Handleiding" voor instructies.
+* Download de <a href="/files/nl/01_Archicad propertyfile_Madaster_Archicad.xml.zip" target="_blank">01_Archicad propertyfile_Madaster</a> - hiermee importeer je eenvoudig de Madaster Propertyset (Pset_Madaster) in Archicad. Zie "Madaster BIM Handleiding" voor instructies. 
+* Download de <a href="https://helpcenter.kubusinfo.nl/portal/nl/kb/articles/ifc-modelexport-voor-madaster#Verwijzigingen)" target="_blank">nieuwste Archicad IFC ExportTranslator</a> - deze bevat de optimale exportsettings voor een IFC-bestand vanuit Archicad naar het Madaster platform (alleen beschikbaar voor KeyMembers).
+ * Download de <a href="https://helpcenter.bimcollab.com/portal/nl/kb/articles/smart-view-sets-downloads-nl" target="_blank">Madaster Smart View set (BIMCollab)</a> - importeer dit bestand in de BIMCollab Zoom oplossing om de kwaliteit van uw IFC-bestand te valideren.
+ * Download de <a href="https://www.bimcollab.com/nl/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> oplossing (gratis IFC-viewer) en bijbehorende Quick Start Guide.
+ * Interessante algemene informate over BIM kunt u via het <a href="https://www.bimloket.nl/p/294/BIM-basis-ILS" target="_blank">BIM loket</a> vinden.
+
+ * 
+* Lees de <a href="/files/be/nl/Madaster - BIM handleiding.pdf" target="_blank">Madaster BIM Handleiding</a> - deze beschrijft hoe (1) IFC-bestanden te prepareren t.a.v. geometrische data, classificatiecodering, etc. (2) IFC-bestanden te exporteren vanuit Revit en Archicad en (3) de Madaster propertyset geïmporteerd wordt in Revit en Archicad.
+ * Download de <a href="/files/be/nl/01_Revit shared parameter file_Madaster.txt.zip" target="_blank">01_Revit shared parameter file_Madaster</a> - hiermee importeer je eenvoudig de Madaster Propertyset (Pset_Madaster) in Revit. Zie "Madaster BIM Handleiding" voor instructies.
+* Download de <a href="/files/be/nl/02_User Defined PropertySet_Madaster.txt.zip" target="_blank">02_User Defined PropertySet_Madaster</a> - hiermee importeer je eenvoudig de Madaster IFC-exportinstellingen in Revit. Zie "Madaster BIM Handleiding" voor instructies.
+* Download de <a href="/files/be/nl/01_Archicad propertyfile_Madaster_Archicad.xml.zip" target="_blank">01_Archicad propertyfile_Madaster</a> - hiermee importeer je eenvoudig de Madaster Propertyset (Pset_Madaster) in Archicad. Zie "Madaster BIM Handleiding" voor instructies. 
+ 
  * Lees de <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import (Eng.)</a> - deze beschrijft het verwerkingsproces van IFC-bestanden binnen Madaster t.a.v. geometrische eigenschappen, classificatiecodering, bouwfasering en materiaalgebruik.
  * Voor die classificatiecodering heb je een Assembly code nodig in Revit. Voor de BB-SfB kan je deze gebruiken: <a href="/files/be/en/Yugening - BB-SfB assembly code.txt" target="_blank">Assembly Code File</a>. Dit tekstbestand is opgemaakt door architectenbureau Yugening. Voor de NL-SfB kan je dit tekstbestand gebruiken: <a href="/files/be/en/NL-SfB 2019 assembly code.txt" target="_blank">Assembly Code File</a>. Download de file en sluit het tekstbestand vervolgens aan onder [Manage] [Additional Settings] [Assemby Code]. Klik op [Browse] om het bestand te selecteren.
  * Lees de <a href="/files/be/nl/Madaster BIM - IFC Export.pdf" target="_blank">Madaster BIM IFC export</a> - deze beschrijft kort de stappen om een IFC-bestand te exporteren vanuit Archicad en Revit.
