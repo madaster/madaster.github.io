@@ -30,7 +30,9 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
  * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
  * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
-  * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2009" <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">hier</a> und das aktuelle Excel-Template gemäß "ÖNORM B 1801-1, 2022" können Sie <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">hier</a> herunterladen.
+  * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das aktuelle Excel-Template hier herunterladen:
+  * <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">gemäß "ÖNORM B 1801-1, 2009</a>
+  * <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">gemäß ÖNORM B 1801-1, 2022</a>
 
 ### Nachschlagewerke
 
@@ -49,7 +51,7 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+436706545662](tel:+436
 
 ## <img class="header-img" src="/assets/images/770.svg"> Release Notes
 
-Weitere Informationen zu den Releases finden Sie hier:#
+Weitere Informationen zu den Releases finden Sie hier:
 
 * <a href="/files/en/Madaster Release notes 2023.pdf" target="_blank">Release notes 2023</a>
 * <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Release 2022</a>
