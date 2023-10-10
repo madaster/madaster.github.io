@@ -11,7 +11,7 @@ Danach werden die Materialwerte mit Rückbaukosten, Aufbereitungskosten, Transpo
 
 ## Referenzen
 - LME (London Metal Exchange)
-- FREN (Federal Reserve Economic Data)
+- FRED (Federal Reserve Economic Data)
 - The World Bank
 - Plasticker
 - NASDAQ
