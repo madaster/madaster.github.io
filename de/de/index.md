@@ -28,7 +28,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM. 
  * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
  * <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster DE Smart view set (BIMcollab)</a> - Importieren Sie diese Datei in die BIMCollab Zoom-App, um die Qualität Ihrer IFC-Datei zu überprüfen.
- * <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">Hier</a> Können Sie das aktuelle <b>Excel-Template</b> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform können herunterladen.
+ * <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de" target="_blank">Hier</a> laden Sie direkt das aktuelle <b>Excel-Template</b> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform herunter.
 
 ### Nachschlagewerke
 
