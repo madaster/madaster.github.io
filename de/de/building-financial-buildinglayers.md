@@ -15,10 +15,10 @@ Danach werden die Materialwerte mit Rückbaukosten, Aufbereitungskosten, Transpo
 ## REFERENZEN
 - Brand, S. (1994). How Buildings Learn
 - LME (London Metal Exchange)
-- Quandl
-- www.vraagenaanbod.nl
-- RVO
-- BLS Beta Labs
+- FRED (Federal Reserve Economic Data)
+- The World Bank
+- Plasticker
+- NASDAQ
 
 ## WIE WIRKT SICH DIE INFLATION, DER BDB-INDEX UND DER DISKONTSATZ AUF DIE BERECHNUNG AUS?
 Der Einfluss ist in der Sensitivitätsanalyse auf den Detailseiten leicht nachprüfbar. Die Werte können angepasst werden. Als Standardwert wird die durchschnittliche Inflation und der durchschnittliche BDB-Index der letzten 18 Jahre angegeben. Der Diskontsatz setzt sich zu 0,7% aus dem Euribor, zu 2% aus dem Risiko und zu 0,3% aus der Prämie für den Finanzierer zusammen.
