@@ -22,15 +22,18 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### BIM-spezifische Handbücher & Vorlagen
 
-  * <a href="/files/en/EPEA_Generic.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind, einschließlich ihrer UIDs und Suchkriterien.
-  * <a href="/files/en/Madaster Materials.xlsx" target="_blank">Madaster Materialliste</a> - In dieser Excel finden Sie alle Materialien, die in der Madaster-Datenbank enthalten sind, einschließlich ihrer UIDs.
- * <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
- * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
- * <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
- * <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster Smart View Set (BIMCollab)</a> herunter - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
- * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
- * Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>.  
-  * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das aktuelle Excel-Template hier herunterladen: gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">ÖNORM B 1801-1, 2009</a> oder gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">ÖNORM B 1801-1, 2022</a>
+* <a href="/files/de/Madaster BIM - IFC export.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> - dies beschreibt kurz die Schritte zum Export einer IFC-Datei aus Archicad und Revit.
+* <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - dies beschreibt kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells.
+* <a href="/files/de/IFC Parameter.pdf" target="_blank">Madaster-IFC-Parameter</a> - hier wird die Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung beschrieben.
+* <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster Smart View Set (BIMCollab)</a> - importieren Sie diese Datei in die BIMCollab Zoom-Lösung, um die Qualität Ihrer IFC-Datei zu überprüfen.
+* <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
+* Interessante allgemeine Informationen über BIM finden Sie unter <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a>. 
+* <a href="/files/nl/01_Revit CPset_Madaster.txt.zip" target="_blank">01_Revit shared parameter file_Madaster</a> -dies erleichtert den Import des Madaster User Defined Custom Property Set (CPset_Madaster) in Revit.
+* Download de <a href="/files/nl/02_User Defined CustomPropertySet_Madaster.txt.zip" target="_blank">02_User Defined Custom PropertySet_Madaster</a> - damit lassen sich die IFC-Exporteinstellungen von Madaster leicht in Revit importieren.
+* <a href="/files/nl/01_Archicad propertyfile_Madaster_Archicad.xml.zip" target="_blank">01_Archicad propertyfile_Madaster</a> - das Madaster PropertySet zur Inkludierung in ArchiCAD. 
+* Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das **aktuelle Excel-Template** hier herunterladen: gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">ÖNORM B 1801-1, 2009</a> oder gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">ÖNORM B 1801-1, 2022</a>
+* <a href="/files/en/EPEA_Generic.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind, einschließlich ihrer UIDs und Suchkriterien.
+* <a href="/files/en/Madaster Materials.xlsx" target="_blank">Madaster Materialliste</a> - In dieser Excel finden Sie alle Materialien, die in der Madaster-Datenbank enthalten sind, einschließlich ihrer UIDs.
 
 ### Nachschlagewerke
 
