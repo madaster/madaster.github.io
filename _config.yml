@@ -25,6 +25,10 @@ countries:
     code: "at"
     defaultlanguage: "de"
     languages: "de"
+  - country: "Uk"
+    code: "gb"
+    defaultlanguage: "en"
+    languages: "en"
   
 title: Madaster Documentation
 
@@ -138,3 +142,10 @@ defaults:
       country: "at"
       lang_name: "Deutsch"
       lang: "de"
+  -
+    scope :
+      path: "gb/en"
+    values:
+      country: "gb"
+      lang_name: "English"
+      lang: "en"
