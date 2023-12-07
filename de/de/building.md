@@ -2,7 +2,10 @@
 title: Gebäude - Allgemein
 ref: building
 redirect_from:
+  - /de/de/building-datasettings
   - /de/de/building-edit
+  - /de/de/building-passportpresets
+  - /de/de/building-uploadpresets
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

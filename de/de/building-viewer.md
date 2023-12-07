@@ -1,6 +1,6 @@
 ---
-title: 3D
-ref: building-3D
+title: BIM VIewer
+ref: building-viewer
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
