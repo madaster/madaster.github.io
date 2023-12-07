@@ -2,9 +2,20 @@
 title: Account - Allgemein
 ref: account
 redirect_from:
-  - /de/de/verifieddatabase
-  - /de/de/supplier
+  - /de/de/account-circularity
+  - /de/de/account-datasettings
   - /de/de/account-edit
+  - /de/de/account-environmental
+  - /de/de/account-financial
+  - /de/de/account-foldertypes
+  - /de/de/account-map
+  - /de/de/account-mass
+  - /de/de/account-passportpresets
+  - /de/de/account-uploadpresets
+  - /de/de/supplier
+  - /de/de/transfer
+  - /de/de/verifieddatabase
+  - /de/de/verifieddatabase-databases
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

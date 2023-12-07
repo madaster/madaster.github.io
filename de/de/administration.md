@@ -4,16 +4,18 @@ ref: administration
 redirect_from:
   - /de/de/admin-classifications
   - /de/de/admin-classification-view
+  - /de/de/admin-materialfamilies
+  - /de/de/admin-materialfamilies-view
 ---
 
 ## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?
-Hier finden Sie die Datenbanken der innerhalb der Madaster-Plattform bekannten Materialien und Produkte. Ausführliche Informationen finden Sie hier. Unter der Registerkarte "Klassifizierungsmethoden" finden Sie die verfügbaren Klassifizierungen, mit denen Elemente aus einer Quelldatei verknüpft werden können.
+Hier finden Sie die Datenbanken der innerhalb der Madaster-Plattform bekannten Materialien und Produkte. </br>Unter dem Absatz "Informationen" finden Sie die verfügbaren Klassifizierungen, die für die Auswertung von Quelldateinen verwendet werden.
 
-## MATERIALIEN UND PRODUKTE
-Hier finden Sie die Material- und Produktdatenbanken, die den Madaster-Benutzern Plattformübergreifend zur Verfügung stehen. Sie können hier verschiedene Quellen verwenden, z.B. Datenbanken mit Produkt- oder Materialinformationen oder Lieferantendaten.
+## SYSTEMDATENBANKEN & PRODUZENTEN
+Hier finden Sie die Material- und Produktdatenbanken, die den Madaster-Benutzern plattformübergreifend zur Verfügung stehen. Sie haben hier Zugang zu verschiedenen Quellen, z.B. zgenerische Datenbanken oder Herstellerdaten.
 
 ## KLASSIFIZIERUNGSMETHODEN
-Auf dieser Maske finden Sie eine detaillierte Übersicht über die für Ihr Land bekannten Klassifikationsstrukturen (z.B. DIN 276-1 2008-12, DIN 276:2018-12 und Omniclass) innerhalb von Madaster. Bei dieser Methode werden alle Codes der Klassifikation und mit welcher "Gebäudeschicht" sie verknüpft ist, angezeigt.
+Hier finden Sie eine detaillierte Übersicht über die für Ihr Land bekannten Klassifikationsstrukturen (z.B. DIN 276-1 2008-12, DIN 276:2018-12 und Omniclass) und wie die Codes der jeweiligen Klassifikation den Gebäudeschichten zugeordnet werden.
 
-## PARTNER
-Auf diesen Bildschirmen finden Sie einen Überblick über die Partner von Madaster: Was sie tun, Was sie für Sie tun können und den Link zu ihrer eigenen Website.
+## MATERIALFAMILIEN
+Hier finden Sie eine detaillierte Übersicht über die verfügbaren Materialklassifizierungen und welche Preissätze für die einzelnen Materialfamilien genutzt werden. Die aktuelle ZuordnungKlassifizierung ist die Madaster V2 beruhend auf der NL-SfB.

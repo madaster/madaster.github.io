@@ -1,17 +1,17 @@
 ---
-title: Datei
+title: Dossier
 ref: account-files
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Diese Registerkarte enthält Informationen über die Dateien, die auf dieser höchsten Ebene dieses Kontos hochgeladen wurden. Hier können Sie neue Dateien hinzufügen und den Status einer Datei ändern. Bei den Dateien kann es sich um jede Art von Dateien handeln, wie z.B. Management- und Arbeitsunterlagen, Zertifikate, Verträge usw.
+Diese Registerkarte enthält Dateien, die auf dieser höchsten Ebene des Accounts hochgeladen wurden. </br>Hier können Sie neue Dateien hinzufügen und den Status einer Datei ändern. Bei den Dateien kann es sich um jede Art von Dateien handeln, wie z.B. Management- und Arbeitsunterlagen, Zertifikate, Verträge usw. Hier können außerdem Unternehmens- oder Projektwebseiten verlinkt werden.
 
-## SYMBOLLEISTE (ZWISCHEN DEN ZEILEN):
-Hochladen.Laden Sie eine Datei hoch und versehen Sie sie mit einem Suchbegriff.
+## WIE LADE ICH EINE NEUE DATEI HOCH?
+Klicken Sie auf die Schaltfläche “Hochladen”. Versehen Sie die Datei mit einem Tag und/oder wählen Sie einen Ablageordner aus.
 
-## DATEI - FESTE ORDNER FÜR DIE DOKUMENTATION ÜBER:
+## ORDNERSTRUKTUR
+Folgende Ordner stehen für die Sortierung Ihrer Ablage zur Verfügung:
+- Lieferanten & Zertifikate
+- Produktspezifikationen & Handbücher
 - Verträge & Garantien
-- Hersteller & Zertifikate
-- Produktspezifikationen und Handbücher
-- Zeichnungen und Berechnungen
-- Datenblätter
+- Zeichnungen & Berechnungen

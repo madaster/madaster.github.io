@@ -1,5 +1,5 @@
 ---
-title: 3D
+title: BIM Viewer
 ref: building-3D
 ---
 

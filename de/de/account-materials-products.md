@@ -2,7 +2,7 @@
 title: Materialien und Produkte
 ref: account-materials-products
 redirect_from:
-  - /nl/nl/account-materials
+  - /de/de/account-materials
 ---
 
 ## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?
@@ -25,23 +25,12 @@ Wenn Sie Rechte zum Bearbeiten von Materialien und Produkten haben, sehen Sie am
 ## MATERIAL- & PRODUKTTYPEN 
 Innerhalb von Madaster haben wir neben den Materialien vier Arten von Produkten: Volumen, Fläche, Länge und Stückzahl von Produkten. Wenn Sie nicht genau wissen, welche Art von Produkt Sie suchen, können Sie alle vier Typen auswählen, in diesem Fall werden alle Produkte angezeigt.
 
-## WIE FÜGE ICH EIN NEUES MATERIAL HINZU?
-Es gibt zwei Möglichkeiten, ein neues Material hinzuzufügen:
-
-1.	Unter der Registerkarte “Materialien & Produkte” auf der Verwaltungsseite in der Leiste unter dem Namen der Registerkarte gibt es die Schaltfläche “Material hinzufügen”.
-
-2.	Es ist auch möglich, ein neues Material in der Anreicherungsansicht hinzuzufügen. Sie können auf diesen Bildschirm zugreifen, indem Sie auf die Schaltfläche “Details anzeigen” hinter einer Quelldatei klicken. Anschließend können Sie zur zweiten Registerkarte “Anreichern” gehen. Hier sehen Sie eine Übersicht über alle Elemente aus Ihrer Quelldatei. Wenn das Element noch nicht verknüpft ist, können Sie auf das Symbol “Verknüpfen” klicken. Es erscheint ein Bildschirm mit der Überschrift “Neu erstellen”. Klicken Sie auf die Schaltfläche “Material” darunter. Wenn das Element bereits verbunden ist, können Sie auf die drei Punkte am Ende der Linie und dann auf “Erneut verbinden” klicken. Es erscheint der gleiche Bildschirm wie oben beschrieben.
-
-Beide Optionen führen Sie zum Bildschirm, um ein neues Material hinzuzufügen. Füllen Sie alle Informationen über das Material aus, wobei die mit * markierten Felder Pflichtfelder sind. Es ist möglich, den Namen und die Beschreibung in sechs Sprachen einzugeben. Die Eingabe des Namens ist nur in der auf der Plattform gewählten Sprache erforderlich. Wurde in den anderen Sprachen kein Name und/oder keine Beschreibung eingegeben, wird der Name und/oder die Beschreibung in die anderen Sprachen kopiert. Nachdem Sie alle Informationen am Ende der Seite eingegeben haben, klicken Sie auf die Schaltfläche “Speichern”. Das Material wird anschließend in der Datenbank angelegt und befindet sich nun in der Material- und Produktübersicht.
-
-Sie gelangen auf den Bildschirm, auf dem Sie weitere Daten zum gerade hinzugefügten Material angeben können. Durch Durchlaufen der verschiedenen Registerkarten können Sie zusätzliche Daten eingeben, z. B. im Bereich der Suchkriterien und Finanzinformationen.
-
 ## WIE KANN ICH EIN NEUES PRODUKT HINZUFÜGEN?
 Es gibt zwei Möglichkeiten, ein neues Produkt hinzuzufügen:
 
 1.  Unter der Registerkarte “Materialien & Produkte” auf der Verwaltungsseite in der Leiste unter dem Namen der Registerkarte gibt es die Schaltfläche “Produkt hinzufügen”.
 
-2.  Es ist auch möglich, ein neues Produkt in der Anreicherungsansicht hinzuzufügen. Sie können auf diesen Bildschirm zugreifen, indem Sie auf die Schaltfläche “Details anzeigen” hinter einer Quelldatei klicken. Anschließend können Sie zur zweiten Registerkarte “Anreichern” gehen. Hier sehen Sie eine Übersicht über alle Elemente aus Ihrer Quelldatei. Wenn das Element noch nicht verknüpft ist, können Sie auf das Symbol “Verknüpfen” klicken. Es erscheint ein Bildschirm mit der Überschrift “Neu erstellen”. Klicken Sie auf die Schaltfläche “Produkt” darunter. Wenn das Element bereits verbunden ist, können Sie auf die drei Punkte am Ende der Linie und dann auf “Erneut verbinden” klicken. Es erscheint der gleiche Bildschirm wie oben beschrieben.
+2.  Es ist auch möglich, ein neues Produkt in der Erweiterungsansicht hinzuzufügen. Sie können auf diesen Bildschirm zugreifen, indem Sie auf die Schaltfläche “Details anzeigen” hinter einer Quelldatei klicken. Anschließend können Sie auf “Erweitern” gehen. Hier sehen Sie eine Übersicht über alle Elemente aus Ihrer Quelldatei. Wenn das Element noch nicht verknüpft ist, können Sie auf das Symbol “Verknüpfen” klicken. Es erscheint ein Bildschirm mit der Überschrift “Neu erstellen”. Klicken Sie auf die Schaltfläche “Produkt” darunter. Wenn das Element bereits verbunden ist, können Sie auf die drei Punkte am Ende der Linie und dann auf “Erneut verbinden” klicken. Es erscheint der gleiche Bildschirm wie oben beschrieben.
 
 Beide Optionen führen Sie zum Bildschirm, um ein neues Produkt hinzuzufügen. Füllen Sie alle Informationen über das Produkt aus, wobei die mit * markierten Felder Pflichtfelder sind. Es ist möglich, den Namen und die Beschreibung in sechs Sprachen einzugeben. Die Eingabe des Namens ist nur in der auf der Plattform gewählten Sprache erforderlich. Wurde in den anderen Sprachen kein Name und/oder keine Beschreibung eingegeben, wird der Name und/oder die Beschreibung in die anderen Sprachen kopiert. Geben Sie im Feld “Produkttyp” an, ob es sich um ein Volumen-, ein Flächen-, ein Längenprodukt oder ein Stück eines Produkts handelt (ein Volumenprodukt kann beispielsweise ein Stahlbalken und ein Stück eines Produkts eine Klimaanlage sein). Bitte beachten Sie, dass das Feld “Produkttyp” nicht geändert werden kann, nachdem das Produkt gespeichert wurde. Nachdem Sie alle Informationen am Ende der Seite eingegeben haben, klicken Sie auf die Schaltfläche “Speichern”. Das Produkt wird anschließend in der Datenbank angelegt und befindet sich nun in der Material- und Produktübersicht.
 
