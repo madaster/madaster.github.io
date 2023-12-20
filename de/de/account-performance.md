@@ -2,6 +2,11 @@
 title: Performance
 ref: account-performance
 lang: de
+redirect_from:
+  - /de/de/account-circularity
+  - /de/de/account-environmental
+  - /de/de/account-financial
+  - /de/de/account-mass
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

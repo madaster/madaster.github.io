@@ -1,5 +1,5 @@
 ---
-title: Gebäude - Allgemein
+title: Objekt - Allgemein
 ref: building
 redirect_from:
   - /de/de/building-datasettings

@@ -6,10 +6,10 @@ redirect_from:
   - /de/de/view-product-searchcriteria
   - /de/de/view-product-files
   - /de/de/view-product-finance
+  - /de/de/view-product-children
+  - /de/de/view-product-environment
+  - /de/de/view-product-circularity
   - /de/de/edit-product
-  - /de/de/edit-product-searchcriteria
-  - /de/de/edit-product-files
-  - /de/de/edit-product-finance
   - /de/de/new-product
 ---
 

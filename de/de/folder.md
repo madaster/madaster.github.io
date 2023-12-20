@@ -1,6 +1,13 @@
 --- 
 title: Ordner -  Allgemein
 ref: folder
+redirect_from:
+  - /de/de/folder-circularity
+  - /de/de/folder-datasettings
+  - /de/de/folder-environmental
+  - /de/de/folder-move
+  - /de/de/folder-passportpresets
+  - /de/de/folder-uploadpresets
 --- 
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT? ##
