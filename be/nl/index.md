@@ -49,7 +49,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg" /> Madaster Servicedesk
-Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [0743-532059](tel:0473532059) of het e-mailadres: <service@madaster.be>.
+Heeft u vragen? Neem dan contact op met Madaster via het e-mailadres: <service@madaster.be>.
 
 ---
 
