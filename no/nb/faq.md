@@ -2,7 +2,7 @@
 title: Vanlige spørsmål
 ref: faq
 redirect_from:
-  - /no/nb/home
+  - platform-pages/home
 ---
 
 ## Hvilken informasjon vises her?

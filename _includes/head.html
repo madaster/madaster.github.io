@@ -1,12 +1,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+{% if jekyll.environment == "accept" %}
+  <meta name="robots" content="noindex nofollow">
+{% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900"> -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">    
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+  <script src="/assets/js/lunr.min.js"></script>
   {% seo %}
   {%- if site.google_analytics -%}
     {%- include google-analytics.html -%}

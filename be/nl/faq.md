@@ -2,7 +2,7 @@
 title: FAQ
 ref: faq
 redirect_from:
-  - /be/nl/home
+  - platform-pages/home
 ---
 
 ## Welke informatie wordt hier getoond?

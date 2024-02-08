@@ -6,20 +6,19 @@
       {% include header.html %}
       <section class="section">
         <div class="container">
-          <div class="columns is-multiline">
-            {% if page.menubar!="none" %}
-            <div class="column is-4-desktop is-4-tablet">
-              {% include menubar.html %}
-            </div>
+          <div class="columns is-desktop">
+            {% if page.menubar=='resources-nav' %}
+              <div class="column is-4-desktop">
+                {% include resources-nav.html %}
+              </div>
+            {% else if page.menubar!="none" %}
+              <div class="column is-4-desktop">
+                {% include menubar.html %}
+              </div>
             {% endif %}
             <div class="column">
               {{ content }}
             </div>
-            {% if site.posts and page.show_sidebar %}
-            <div class="column is-4-desktop is-12-tablet">
-              {% include latest-posts.html %}
-            </div>
-            {% endif %}
           </div>
         </div>
       </section>
@@ -30,6 +29,7 @@
     </div>
     <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
     <script src="{{ site.baseurl }}/assets/js/script.js" type="text/javascript"></script>
+    <script src="{{ site.baseurl }}/assets/js/search.js" type="text/javascript"></script>
     {%- include footer-scripts.html -%}
   </body>
 </html>

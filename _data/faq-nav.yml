@@ -8,10 +8,15 @@
       - ref: account-users
       - ref: account-subscriptions
       - ref: account-settings
+        items: 
+          - ref: account-foldertypes
+          - ref: account-datasettings
+          - ref: account-datalicensing 
+          - ref: account-uploadpresets
+          - ref: account-passportpresets
       - ref: account-features
-      - ref: account-materials-products
+      - ref: account-materials
         items:   
-          - ref: material
           - ref: product
     - ref: folder
       items:
@@ -21,14 +26,13 @@
     - ref: building
       items:   
         - ref: building-performance-overview
-        - ref: building-3D
+        - ref: building-viewer
         - ref: building-files
           items:
             - ref: building-file
             - ref: building-file-enrich
-            - ref: building-file-result
         - ref: building-users
-        - ref: building-level
+        - ref: building-performance-mass
         - ref: building-process
         - ref: building-circularity
         - ref: building-environmental
@@ -36,12 +40,13 @@
           items:
             - ref: building-financial-material
             - ref: building-financial-buildinglayers
-        - ref: building-apps
         - ref: buildingarchive
     - ref: database
       items:
-        - ref: database-users
-        - ref: database-availabilities
-    - ref: Administration
-    - ref: profile
+      - ref: database-users
+      - ref: database-availabilities
+      - ref: product
+    - ref: supplier
+    - ref: settings
+    - ref: information
     - ref: support

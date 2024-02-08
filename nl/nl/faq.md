@@ -1,8 +1,8 @@
 ---
 title: FAQ
-ref: faq
+ref: platform-pages
 redirect_from:
-  - /nl/nl/home
+  - platform-pages/home
 ---
 
 ## Welke informatie wordt hier getoond?

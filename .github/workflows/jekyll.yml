@@ -39,17 +39,16 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
 
-      # Michiel: disabled this build step, needed for docs v2 
-      # - name: Setup Node
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: "16"
-      # - name: Restore packages
-      #   run: npm ci
-      # - name: Build search file
-      #   run: npm run build
-      # - name: Remove temporary files
-      #   run: rm -rf node_modules
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - name: Restore packages
+        run: npm ci
+      - name: Build search file
+        run: npm run build
+      - name: Remove temporary files
+        run: rm -rf node_modules
       
       - name: Use ruby/setup-ruby to shorten build times
         uses: ruby/setup-ruby@v1
@@ -62,7 +61,7 @@ jobs:
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: production
+          JEKYLL_ENV: ${{ vars.JEKYLL_ENV }}
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default

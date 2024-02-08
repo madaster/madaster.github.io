@@ -3,7 +3,7 @@
 {% assign pages = site.pages | where:"country", page.country| where:"lang", page.lang %}
 <aside class="menu">
 {% assign menu = menus | first %}
-    <h2 class="menu-label">{{ menu.label }}</h2>
+
     <ul class="menu-list">
         {% for item in menu.items %}
     

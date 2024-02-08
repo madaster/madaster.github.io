@@ -41,7 +41,7 @@ _Certains documents sont uniquement disponibles en Anglais._
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Vous avez des questions ? Contactez Madaster par e-mail <service@madaster.be>.
+Vous avez des questions ? Contactez Madaster par téléphone [+32 473 53 20 59](tel:+32 473 53 20 59) ou par e-mail <service@madaster.be>.
 
 ---
 

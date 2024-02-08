@@ -14,9 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-remote-theme"
   gem "jekyll-sitemap"
-  gem "jekyll-paginate"
   gem "jekyll-seo-tag"
-  gem "jekyll-redirect-from"
 	gem "jekyll-last-modified-at"
   gem "kramdown-parser-gfm"
 end

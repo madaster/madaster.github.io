@@ -42,7 +42,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
 ### Naslagwerken
 
-* Lees de <a href="/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
+* Lees de <a href="/files/nl/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
 * Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
 * Lees het rapport<a href="/files/nl/Circular Buildings - een meetmethodiek voor losmaakbaarheid versie 2.pdf" target="_blank"> ‘Circular Buildings – een meetmethodiek voor losmaakbaarheid v2.0’</a> – deze beschrijft gedetailleerd de werking van de uniforme meetmethode voor losmaakbaarheid in de bouw.
 
@@ -57,30 +57,5 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-060
 
 Meer informatie over de releases vindt u hier:
 
-More information about the releases can be found here:
-
 * <a href="/files/nl/Madaster Releasenotes 2023.pdf" target="_blank">Release notes 2023</a>
-* <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release 2022</a>
-* <a href="/files/nl/Madaster Releasenotes 2021.pdf" target="_blank">Release 2021</a>
-* <a href="/files/Madaster Releasenotes_2020_09_NL.pdf" target="_blank">Release notes 7 januari 2021</a>
-* <a href="/files/Madaster Releasenotes_2020_08_NL.pdf" target="_blank">Release notes 1 december 2020</a>
-* <a href="/files/Madaster Releasenotes_2020_06_NL.pdf" target="_blank">Release notes 14 oktober 2020</a>
-* <a href="/files/Madaster Releasenotes_2020_05_NL.pdf" target="_blank">Release notes 10 september 2020</a>
-* <a href="/files/Madaster Releasenotes_2020_04_NE.pdf" target="_blank">Release notes 24 juni 2020</a>
-* <a href="/files/Releasenotes_Release_2020_03_NL.pdf" target="_blank">Release notes 25 maart 2020</a>
-* <a href="/files/Releasenotes_Release_2020_0102_NL.pdf" target="_blank">Release notes 19 maart 2020</a>
-* <a href="/files/Releasenotes_Release_2019.8_nl.pdf" target="_blank">Release notes 29 augustus 2019</a>
-* <a href="/files/Releasenotes_Release_2019.3_nl.pdf" target="_blank">Release notes 1 april 2019</a>
-* <a href="/files/Releasenotes_Release_2019.2_nl.pdf" target="_blank">Release notes 12 februari 2019</a>
-* <a href="/files/Releasenotes_Release_2019.1_nl.pdf" target="_blank">Release notes 21 januari 2019</a>
-* <a href="/files/Releasenotes_Release_2018.12_nl.pdf" target="_blank">Release notes 10 december 2018</a>
-* <a href="/files/Releasenotes_Release_2018.9_nl.pdf" target="_blank">Release notes 29 oktober 2018</a>
-* <a href="/files/Releasenotes_Release_2018.8_nl.pdf" target="_blank">Release notes 27 augustus 2018</a>
-* <a href="/files/Releasenotes_Release_2018.7_nl.pdf" target="_blank">Release notes 7 augustus 2018</a>
-* <a href="/files/Releasenotes_Release_2018.6_nl.pdf" target="_blank">Release notes 16 juli 2018</a>
-* <a href="/files/Releasenotes_Release_2018.5_nl.pdf" target="_blank">Release notes 25 juni 2018</a>
-* <a href="/files/Releasenotes_Release_2018.4_nl.pdf" target="_blank">Release notes 4 juni 2018</a>
-* <a href="/files/Releasenotes_Release_2018.3_nl.pdf" target="_blank">Release notes 26 april 2018</a>
-* <a href="/files/Releasenotes_Release_2018.2_nl.pdf" target="_blank">Release notes 29 maart 2018</a>
-* <a href="/files/Releasenotes_Release_2018.1_nl.pdf" target="_blank">Release notes 8 maart 2018</a>
-* <a href="/files/Releasenotes_Release_2017.1_nl.pdf" target="_blank">Release notes 15 december 2017</a>
+* <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release notes 2022</a>

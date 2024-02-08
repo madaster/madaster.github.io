@@ -16,7 +16,7 @@ countries:
   - country: "Deutschland"
     code: "de"
     defaultlanguage: "de"
-    languages: "de"
+    languages: "de,en"
   - country: "Belgium"
     code: "be"
     defaultlanguage: "nl"
@@ -24,25 +24,29 @@ countries:
   - country: "Austria"
     code: "at"
     defaultlanguage: "de"
-    languages: "de"
-  - country: "Uk"
+    languages: "de,en"
+  - country: "United Kingdom"
     code: "gb"
+    defaultlanguage: "en"
+    languages: "en"
+  - country: "Luxemburg"
+    code: "lu"
+    defaultlanguage: "en"
+    languages: "en"
+  - country: "United States"
+    code: "us"
     defaultlanguage: "en"
     languages: "en"
   
 title: Madaster Documentation
 
-gems:
-  - jekyll-redirect-from
-  - jekyll-last-modified-at
 whitelist:
-  - jekyll-redirect-from
   - jekyll-last-modified-at
 plugins:
-  - jekyll-redirect-from
   - jekyll-last-modified-at
 
 exclude:
+  - node_modules
   - README.md
   - swagger.json
   - update-api-docs.ps1
@@ -57,63 +61,21 @@ defaults:
     values:
       layout: "page"
       show_sidebar: false
-      menubar: faq-nav
+      menubar: platform-pages-nav
   -
     scope :
-      path: "ch/de"
+      path: "at/en"
     values:
-      lang: "de"
-      lang_name: "Deutsch"
-      country: "ch"
-  -
-    scope :
-      path: "ch/fr"
-    values:
-      lang: "fr"
-      lang_name: "Français"
-      country: "ch"
-  -
-    scope :
-      path: "ch/en"
-    values:
-      lang: "en"
-      lang_name: "English"
-      country: "ch"
-  -
-    scope :
-      path: "nl/nl"
-    values:
-      country: "nl"
-      lang_name: "Nederlands"
-      lang: "nl"
-  -
-    scope :
-      path: "nl/en"
-    values:
-      country: "nl"
+      country: "at"
       lang_name: "English"
       lang: "en"
   -
     scope :
-      path: "de/de"
+      path: "at/de"
     values:
-      country: "de"
+      country: "at"
       lang_name: "Deutsch"
       lang: "de"
-  -
-    scope :
-      path: "no/en"
-    values:
-      country: "no"
-      lang_name: "English"
-      lang: "en" 
-  - 
-    scope :
-      path: "no/nb"
-    values:
-      country: "no"
-      lang_name: "Norsk bokmål"
-      lang: "nb"     
   - 
     scope :
       path : "be/nl"
@@ -137,15 +99,85 @@ defaults:
       lang: "en"
   -
     scope :
-      path: "at/de"
+      path: "ch/de"
     values:
-      country: "at"
+      lang: "de"
+      lang_name: "Deutsch"
+      country: "ch"
+  -
+    scope :
+      path: "ch/fr"
+    values:
+      lang: "fr"
+      lang_name: "Français"
+      country: "ch"
+  -
+    scope :
+      path: "ch/en"
+    values:
+      lang: "en"
+      lang_name: "English"
+      country: "ch"
+  -
+    scope :
+      path: "de/de"
+    values:
+      country: "de"
       lang_name: "Deutsch"
       lang: "de"
+  -
+    scope :
+      path: "de/en"
+    values:
+      country: "de"
+      lang_name: "English"
+      lang: "en"
   -
     scope :
       path: "gb/en"
     values:
       country: "gb"
+      lang_name: "English"
+      lang: "en"
+  -
+    scope :
+      path: "lu/en"
+    values:
+      country: "lu"
+      lang_name: "English"
+      lang: "en"
+  -
+    scope :
+      path: "nl/nl"
+    values:
+      country: "nl"
+      lang_name: "Nederlands"
+      lang: "nl"
+  -
+    scope :
+      path: "nl/en"
+    values:
+      country: "nl"
+      lang_name: "English"
+      lang: "en"
+  -
+    scope :
+      path: "no/en"
+    values:
+      country: "no"
+      lang_name: "English"
+      lang: "en" 
+  - 
+    scope :
+      path: "no/nb"
+    values:
+      country: "no"
+      lang_name: "Norsk bokmål"
+      lang: "nb"     
+  -
+    scope :
+      path: "us/en"
+    values:
+      country: "us"
       lang_name: "English"
       lang: "en"

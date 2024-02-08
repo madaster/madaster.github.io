@@ -2,43 +2,94 @@
 title: Home
 ref: home
 menubar: none
+exclude: true
 ---
 
-## Welcome to the Madaster platform!
-On this page you will find additional information about the use and development of the Madaster platform.
+<section class="search">
+  <div class="search-wrapper">
+    <h2>Search Madaster Docs</h2>
+    <form class="search-form content-container flex-column-center" onsubmit="goToSearchHome(event)">
+      <input type="text" class="search-bar" id="search-input-home" autocomplete="off">
+      <button type="submit" class="search-button-icon" id="search-button-home">
+        <svg width="24" height="24" viewBox="0 0 20 20">
+          <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" fill="#398684" fill-rule="evenodd"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+</section>
 
----
-
-## <img class="header-img" src="/assets/images/767.svg"> Manuals
-
-
-### General manuals
-
- * Read the <a href="/files/en/Madaster - User Manual.pdf" target="_blank">Madaster User Manual</a> – This manual describes in detail the functionalities of the Madaster platform and how they can be applied.
- * Read the <a href="/files/en/Madaster - Manual Add Products.pdf" target="_blank">Madaster manual for adding Products</a> – this document describes in detail how different product types are added in Madaster.
- * Read the  <a href="/files/en/Madaster - Action Plan.pdf" target="_blank">Madaster Actionplan Material passport</a> - this document describes the necessary process steps leading to the delivery of a materials passport in the Madaster platform.
- * Read the  <a href="/files/en/Madaster - Tender text Madaster material passport.pdf" target="_blank">Manual for requesting a Madaster passport</a> - This document provides a manual on how to request a Madaster materials passport in a tender text. In addition, it offers concrete example sentences that can be used in the application.
-
-
-### BIM-specific manuals & templates
-
- * Read the <a href="/files/en/Madaster BIM - IFC guidelines.pdf" target="_blank">Madaster IFC-guidelines</a> - it briefly describes the most important instructions for drawing up a BIM model.
- * Read the <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC import</a> - this describes the import of IFC files within Madaster.
- * Read the <a href="/files/en/Madaster BIM - IFC export.pdf" target="_blank">Madaster BIM IFC export</a> – this briefly describes the steps to export an IFC file.
-
-
-### Reference works
-
- * Read the <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">Madaster Circulariteit Indicator explained</a> document – this describes in detail the operation of the Madaster Circularity Indicator (MCI) as well as the underlying methodology.
- 
-* Read the <a href="/files/en/Madaster - Financial.pdf" target="_blank">Explanation Madaster Financial Module</a> – this describes in detail the operation of the financial tab in Madaster as well as the underlying methodology.
-
-* Read the report <a href="/files/en/DGBC Disassembly Potential Measurement Methodology _ 2022.pdf" target="_blank">‘Circular Buildings - a measurement methodology for disassembly potential 2.0</a> – this describes in detail a uniform measurement method for disassembly potential in construction.
-
----
-
-## <img class="header-img" src="/assets/images/770.svg"> Release Notes
-
-More information about the releases can be found here:
-
-* <a href="/files/en/Madaster Release notes 2023.pdf" target="_blank">Release notes 2023</a>
+<section class="category-tiles flex-column-center">
+  <ul class="category-tiles-wrapper">
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./get-started">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/get-started.png">
+            </div>
+            <div class="header-wrapper">
+              <h3>Get started</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./knowledge-base">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/knowledge-base.png">
+            </div>
+            <div class="header-wrapper">
+              <h3>Knowledge Base</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./api">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/api.png">
+            </div>
+            <div class="header-wrapper">
+                <h3>API</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./platform-pages/">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/platform-pages.png">
+            </div>
+            <div class="header-wrapper">
+              <h3>Platform Pages</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./resources">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/resources.png">
+            </div>
+            <div class="header-wrapper">
+              <h3>Resources</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>

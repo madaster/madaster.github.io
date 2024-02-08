@@ -2,7 +2,7 @@
 title: FAQ
 ref: faq
 redirect_from:
-  - /be/fr/home
+  - platform-pages/home
 ---
 
 ## QUELLES SONT LES INFORMATIONS PRÉSENTÉES ICI ?

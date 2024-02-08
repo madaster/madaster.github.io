@@ -43,7 +43,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+41 44 500 44 46](tel:+41 44 500 44 46) oder E-Mail-Adresse <info@madaster.ch>.
+Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+41 500 44 46](tel:+41 500 44 46) oder E-Mail-Adresse <service@madaster.ch>.
 
 ---
 

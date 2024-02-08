@@ -1,13 +1,22 @@
 # madaster.github.io
 Documentation of the Madaster Platform
 
-## Updating the spectacle api-docs manually
-Run `update-api-docs.ps1`, which runs the following commands:
-```
-Invoke-WebRequest https://api.madaster.com/swagger/v2.0/swagger.json -OutFile swagger.json
-spectacle -t api-docs -l assets/images/madaster-logo.svg swagger.json
-```
 ## Run locally
   Install: https://jekyllrb.com/docs/installation/windows/
   bundle install
   bundle exec jekyll serve
+
+## Run locally in WSL
+sudo apt-get install -y ruby-full build-essential zlib1g-dev
+
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+gem install jekyll bundler
+# restore gems
+bundle install
+
+# run site
+bundle exec jekyll serve

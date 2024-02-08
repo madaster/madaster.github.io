@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+{% if jekyll.environment == "accept" %}
+    <meta name="robots" content="noindex nofollow">
+{% endif %}
     <script>
       fetch('https://api.db-ip.com/v2/free/self')
       .then( res => res.json())
