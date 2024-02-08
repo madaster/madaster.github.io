@@ -10,7 +10,7 @@ This page contains the release notes.
 
 ## Release notes 2024.1 ##
 
-* build number: 25412
+* build number: 25710
 * Releasedate: 8th of February 2024
 
 <!--## Internal release notes ##
