@@ -1,0 +1,14 @@
+- label: Knowledge base
+  items:
+    - ref: madaster-glossary
+    - ref: folder-types-and-folder-structure
+    - ref: calculations
+    - ref: classifications
+    - ref: databases
+    - ref: users
+    - ref: features
+    - ref: preparing-bim-ifc-source-files
+    - ref: madaster-property-set
+    - ref: preparing-excel-source-files
+    - ref: stay-organized
+    - ref: tendering

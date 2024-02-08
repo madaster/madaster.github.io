@@ -1,0 +1,9 @@
+- label: Get started
+  items:
+  - ref: set-up-your-account
+  - ref: set-up-objects
+  - ref: enrich-objects-with-material-and-product-databases
+  - ref: object-insights-and-performance
+  - ref: create-material-passports
+  - ref: portfolio-insights-and-performance
+  - ref: create-your-own-databases-with-custom-materials-and-products

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="48"
+   viewBox="0 0 173 144"
+   class="navigation-container__svg-icon"
+   version="1.1"
+   id="svg38"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs42" />
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="50.847458"
+     inkscape:cy="24.915254"
+     inkscape:window-width="1650"
+     inkscape:window-height="1103"
+     inkscape:window-x="364"
+     inkscape:window-y="125"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg38" />
+  <path
+     d="M89.842 57.608h22.15a3.35 3.35 0 0 1 3.342 3.338v50.912a3.35 3.35 0 0 0 3.341 3.338h22.15a3.34 3.34 0 0 1 3.342 3.339v22.127a3.35 3.35 0 0 0 3.342 3.338h22.15a3.35 3.35 0 0 0 3.341-3.338v-22.127a3.35 3.35 0 0 0-3.341-3.339h-22.15a3.34 3.34 0 0 1-3.342-3.338V3.338A3.35 3.35 0 0 0 140.825 0h-22.15a3.35 3.35 0 0 0-3.341 3.338v22.127a3.35 3.35 0 0 1-3.342 3.339h-22.15a3.35 3.35 0 0 0-3.342 3.338V54.27v-.005a3.34 3.34 0 0 1-3.342 3.339v.005h-22.15l.005-.005a3.34 3.34 0 0 1-3.341-3.339l-.005.005V32.142a3.35 3.35 0 0 0-3.342-3.338h-22.15a3.35 3.35 0 0 1-3.342-3.339V3.338A3.35 3.35 0 0 0 25.492 0H3.342A3.35 3.35 0 0 0 0 3.338v137.29a3.35 3.35 0 0 0 3.342 3.338h22.15a3.35 3.35 0 0 0 3.341-3.338V60.946a3.35 3.35 0 0 1 3.342-3.338h22.15a3.34 3.34 0 0 1 3.342 3.338v22.127a3.35 3.35 0 0 0 3.342 3.338h22.15a3.35 3.35 0 0 0 3.341-3.338V60.946a3.34 3.34 0 0 1 3.342-3.338"
+     fill="#398684"
+     fill-rule="evenodd"
+     id="path36" />
+</svg>

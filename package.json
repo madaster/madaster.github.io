@@ -1,0 +1,13 @@
+{
+  "name": "madaster-docs",
+  "version": "1.0.0",
+  "description": "Madaster docs",
+  "scripts": {
+    "build": "node generateSearchJSON.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "remove-markdown": "^0.5.0"
+  }
+}

@@ -1,0 +1,52 @@
+  - label: Platform pages
+    items:
+    - ref: platform-pages
+    - ref: account
+      items:   
+      - ref: account-performance
+      - ref: account-files
+      - ref: account-users
+      - ref: account-subscriptions
+      - ref: account-settings
+        items: 
+          - ref: account-foldertypes
+          - ref: account-datasettings
+          - ref: account-datalicensing
+          - ref: account-uploadpresets
+          - ref: account-passportpresets
+      - ref: account-features
+      - ref: account-materials
+        items:   
+          - ref: product
+    - ref: folder
+      items:
+        - ref: folder-performance
+        - ref: folder-files
+        - ref: folder-users
+    - ref: building
+      items:   
+        - ref: building-performance-overview
+        - ref: building-viewer
+        - ref: building-files
+          items:
+            - ref: building-file
+            - ref: building-file-enrich
+        - ref: building-users
+        - ref: building-performance-mass
+        - ref: building-process
+        - ref: building-circularity
+        - ref: building-environmental
+        - ref: building-financial
+          items:
+            - ref: building-financial-material
+            - ref: building-financial-buildinglayers
+        - ref: buildingarchive
+    - ref: database
+      items:
+      - ref: database-users
+      - ref: database-availabilities
+      - ref: product
+    - ref: supplier
+    - ref: settings
+    - ref: information
+    - ref: support

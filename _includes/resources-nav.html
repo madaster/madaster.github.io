@@ -1,0 +1,18 @@
+    
+{% assign menus = site.data.[page.menubar] %}
+{% assign pages = site.pages | where:"country", page.country| where:"lang", page.lang %}
+<aside class="menu">
+{% assign menu = menus | first %}
+
+    <ul class="menu-list">
+        {% for item in menu.items %}
+    
+            {% assign menupage = pages| where:"ref", item.ref | first%}
+            {% if menupage!=nil %}
+                <li id="{{item.ref}}">
+                    <a href="{{ menupage.url }}" class="{% if menupage.url == page.url %}is-active{% endif %}">{{ menupage.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}    
+    </ul>
+</aside>

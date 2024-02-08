@@ -1,0 +1,5 @@
+- label: Resources
+
+  items:
+    - ref: downloads
+    - ref: release-notes

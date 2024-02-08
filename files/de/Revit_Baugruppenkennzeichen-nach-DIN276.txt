@@ -1,0 +1,149 @@
+300	Bauwerk - Baukonstruktionen	1	
+310	BAUGRUBE, ERDBAU	2	
+311	Herstellung	3	-2001350
+312	Umschließung	3	-2001350
+313	Wasserhaltung	3	-2001350
+314	Vortrieb	3	-2001350
+319	Sonstiges	3	-2001350
+320	GRÜNDUNG, UNTERBAU	2	
+321	Baugrundverbesserung	3	-2001300
+322	Flachgründungen und Bodenplatten	3	-2001300
+323	Tiefgründungen	3	-2001300
+324	Gründungsbeläge	3	-2001300
+325	Abdichtungen und Bekleidungen	3	-2001300
+326	Dränagen	3	-2001300
+329	Sonstiges	3	-2001300
+330	AUSSENWÄNDE	2	
+331	Tragende Außenwände	3	-2000011
+332	Nichttragende Außenwände	3	-2000011
+333	Tragende Außenstützen	3	-2000100
+334	Außenwandöffnungen	3	-2000023
+335	Außenwandbekleidungen, außen	3	-2000011
+336	Außenwandbekleidungen, innen	3	-2000011
+337	Elementierte Außenwandkonstruktionen	3	-2000011
+338	Lichtschutz	3	-2000011
+339	Sonstiges	3	-2000011
+340	INNENWÄNDE	2	
+341	Tragende Innenwände	3	-2000011
+342	Nichttragende Innenwände	3	-2000011
+343	Innenstützen	3	-2000100
+344	Innenwandöffnungen	3	-2000023
+345	Innenwandbekleidungen	3	-2000011
+346	Elementierte Innenwandkonstruktionen	3	-2000011
+349	Sonstiges	3	-2000011
+350	DECKEN	2	
+351	Deckenkonstruktionen	3	-2000032
+352	Deckenöffnungen	3	-2000032
+353	Deckenbeläge	3	-2000032
+354	Deckenbekleidungen	3	-2000032
+355	Elementierte Deckenkonstruktionen	3	-2000032
+356	Lichtschutz	3	-2000032
+359	Sonstiges	3	-2000032
+360	DÄCHER	2	
+361	Dachkonstruktionen	3	-2000035
+362	Dachöffnungen	3	-2000014
+363	Dachbeläge	3	-2000035
+364	Dachbekleidungen	3	-2000035
+365	Elementierte Dachkonstruktionen	3	-2000035
+366	Lichtschutz	3	-2000035
+369	Dächer, sonstiges	3	-2000035
+370	INFRASTRUKTURANLAGEN	2	
+371	Anlagen für den Straßenverkehr	3	-2001340
+372	Anlagen für den Schienenverkehr	3	-2001340
+373	Anlagen für den Flugverkehr	3	-2001340
+374	Anlagen des Wasserbaus	3	-2001340
+375	Anlagen der Abwasserentsorgung	3	-2001340
+376	Anlagen der Wasserversorgung	3	-2001340
+377	Anlagen der Energie- und Informationsversorgung	3	-2001340
+378	Anlagen der Abfallentsorgung	3	-2001340
+379	Sonstiges	3	-2001340
+380	BAUKONSTRUKTIVE EINBAUTEN	2	
+381	Allgemeine Einbauten	3	-2001350
+382	Besondere Einbauten	3	-2001350
+383	Landschaftsgestalterische Einbauten	3	-2001350
+384	Mechanische Einbauten	3	-2001350
+385	Einbauten in Konstruktionen des Ingenieurbaus	3	-2001350
+386	Orientierungs- und Informationssysteme	3	-2001350
+387	Schutzeinbauten	3	-2001350
+389	Sonstiges	3	-2001350
+390	SONST. MASSNAHMEN FÜR BAUKONSTRUKTIONEN	2	
+391	Baustelleneinrichtung	3	-2001350
+392	Gerüste	3	-2001350
+393	Sicherungsmaßnahmen	3	-2001350
+394	Abbruchmaßnahmen	3	-2001350
+395	Instandsetzungen	3	-2001350
+396	Materialentsorgung	3	-2001350
+397	Zusätzliche Maßnahmen	3	-2001350
+398	Provisorische Baukonstruktionen	3	-2001350
+399	Sonstige Maßnahmen für Baukonstruktionen	3	-2001350
+400	Bauwerk - Technische Anlagen	1	
+410	ABWASSER-, WASSER-, GASANLAGEN	2	
+411	Abwasseranlagen	3	-2008043
+412	Wasseranlagen	3	-2008043
+413	Gasanlagen	3	-2008043
+419	Sonstiges	3	-2008043
+420	WÄRMEVERSORGUNGSANLAGEN	2	
+421	Wärmeerzeugungsanlagen	3	-2001140
+422	Wärmeverteilnetze	3	-2001140
+423	Raumheizflächen	3	-2001140
+424	Verkehrsheizflächen	3	-2001140
+429	Sonstiges	3	-2001140
+430	RAUMLUFTTECHNISCHE ANLAGEN	2	
+431	Lüftungsanlagen	3	-2001140
+432	Teilklimaanlagen	3	-2001140
+433	Klimaanlagen	3	-2001140
+434	Kälteanlagen	3	-2001140
+440	ELEKTRISCHE ANLAGEN	2	
+441	Hoch- und Mittelspannungsanlagen	3	
+442	Eigenstromversorgungsanlagen	3	-2001040
+443	Niederspannungsschaltanlagen	3	-2001040
+444	Niederspannungsinstallationsanlagen	3	-2001040
+445	Beleuchtungsanlagen	3	-2001040
+446	Blitzschutz- und Erdungsanlagen	3	-2001040
+447	Fahrleistungssysteme	3	-2001040
+449	Sonstiges	3	-2001040
+450	KOMMUNIKATIONS-, SICHERHEITS- UND INFORMATIONSTECHNISCHE ANLAGEN	2	
+451	Telekommunikationsanlagen	3	-2001350
+452	Such- und Signalanlagen	3	-2001350
+453	Zeitdienstanlagen	3	-2001350
+454	Elektroakustische Anlagen	3	-2001350
+455	Audiovisuelle Medien- und Antennenanlagen	3	-2001350
+456	Gefahrenmelde- und Alarmanlagen	3	-2001350
+457	Datenübertragungsnetze	3	-2001350
+458	Verkehrsbeeinflussungs-anlagen	3	-2001350
+459	Sonstiges	3	-2001350
+460	FÖRDERANLAGEN	2	
+461	Aufzugsanlagen	3	-2001350
+462	Fahrtreppen, Fahrsteige	3	-2001350
+463	Befahranlagen	3	-2001350
+464	Transportanlagen	3	-2001350
+465	Krananlagen	3	-2001350
+466	Hydraulikanlagen	3	-2001350
+469	Sonstiges	3	-2001350
+470	NUTZUNGSSPEZIFISCHE UND VERFAHRENSTECHNISCHE ANLAGEN	2	
+471	Küchentechnische Anlagen	3	-2001350
+472	Wäscherei-, Reinigungs- und badetechnische Anlagen	3	-2001350
+473	Medienversorgungs-anlagen, Medizin- und labortechnische Anlagen	3	-2001350
+474	Feuerlöschanlagen	3	-2001350
+475	Prozesswärme-, kälte- und -luftanlagen	3	-2001350
+476	Weitere nutzungsspezifische Anlagen	3	-2001350
+477	Verfahrenstechnische Anlagen, Wasser, Abwasser und Gase	3	-2001350
+478	Verfahrenstechnische Anlagen, Feststoffe, Wertstoffe und Abfälle	3	-2001350
+479	Sonstiges	3	-2001350
+480	GEBÄUDE- UND ANLAGENAUTOMATION	2	
+481	Automationseinrichtungen	3	-2001350
+482	Schaltschränke, Automationsschwerpunkte	3	-2001350
+483	Automationsmanagement	3	-2001350
+484	Kabel, Leitungen und Verlegesysteme	3	-2001350
+485	Datenübertragungsnetze	3	-2001350
+489	Sonstiges	3	-2001350
+490	SONSTIGE MASSNAHMEN FÜR TECHNISCHE ANLAGEN	2	
+491	Baustelleneinrichtung	3	-2001350
+492	Gerüste	3	-2001350
+493	Sicherungsmaßnahmen	3	-2001350
+494	Abbruchmaßnahmen	3	-2001350
+495	Instandsetzungen	3	-2001350
+496	Materialentsorgung	3	-2001350
+497	Zusätzliche Maßnahmen	3	-2001350
+498	Provisorische technische Anlagen	3	-2001350
+499	Sonstiges	3	-2001350
