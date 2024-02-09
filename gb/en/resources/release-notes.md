@@ -39,7 +39,7 @@ It is now possible to save your viewpoint in the 3D-viewer:
 
 ![saving your viewpoint in the 3D viewer](/assets/images/releasenotes/202401-9686.png)
 
-It is possible to undo your viewpoint and choose a new one. The chosen viewpoint will be default when opening the 3D viewer or in the performance tab.
+It is possible to undo your viewpoint and choose a new one. The chosen viewpoint will be the default when opening the 3D viewer or the general tab.
 
 ### Changes in datasources for financial information ###
 
