@@ -48,6 +48,6 @@ Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+49 30 235962051](tel:+
 
 Weitere Informationen zu den Releases finden Sie hier:
 
-* <a href="https://docs.madaster.com/nl/en/resources/release-notes" target="_blank">Release notes 2024</a>
+* <a href="https://docs.madaster.com/de/en/resources/release-notes" target="_blank">Release notes 2024</a>
 * <a href="/files/en/Madaster%20Release%20notes%202023.pdf" target="_blank">Release notes 2023</a>
 * <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Release notes 2022</a>
