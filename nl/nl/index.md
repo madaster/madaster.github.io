@@ -1,5 +1,7 @@
 ---
 title: Home
+description: Op deze pagina vindt u aanvullende informatie over het gebruik en de ontwikkeling van het Madaster-platform.
+tagline: Welkom bij het Madaster platform
 ref: home
 menubar: none
 ---
