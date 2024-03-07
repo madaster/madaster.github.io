@@ -38,9 +38,8 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### Nachschlagewerke
 
- * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Zirkularitätsindikator.pdf" target="_blank">Madaster Zirkularitätsindikator</a>. Es beschreibt ausführlich die Funktionsweise des Madaster Zirkularitätsindikator (MZI) sowie die zugrunde liegende Methodik.
-
- * Hier finden Sie das Dokument zum <a href="/files/de/Madaster - Finanzielles Modul.pdf" target="_blank">Finanziellen Modul von Madaster</a>, welches ausführlich die Funktionsweise der Tab "Finanziell" in Madaster sowie die zugrunde liegende Methodik beschreibt.
+ * Hier finden Sie Informationen bezüglich der Methodik und Funktionsweise zum <a href="https://docs.madaster.com/de/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">Madaster Zirkularitätsindikator (MZI)</a>.
+ * Hier finden Sie Informationen bezüglich der Methodik und Funktionsweise zum <a href="https://docs.madaster.com/de/en/knowledge-base/calculations#financial" target="_blank">Finanzielles Modul</a> von Madaster.
 
 ---
 
