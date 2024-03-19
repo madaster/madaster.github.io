@@ -11,7 +11,7 @@ exclude: true
     <a class="overview-link" href="./get-started/set-up-your-account">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/set-up-your-account.png">
+          <img class="resource-item-image" src="/assets/images/set-up-your-account.png" alt="A wide computer screen with a blue background and some accessories around it.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -26,7 +26,7 @@ exclude: true
     <a class="overview-link" href="./get-started/set-up-objects">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/set-up-objects.png">
+          <img class="resource-item-image" src="/assets/images/set-up-objects.png" alt="A computer screen with a black keyboard and some tools.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -41,7 +41,7 @@ exclude: true
       <a class="overview-link" href="./get-started/enrich-objects-with-material-and-product-databases">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/enrich-objects-with-material-and-product-databases.png">
+          <img class="resource-item-image" src="/assets/images/enrich-objects-with-material-and-product-databases.png" alt="A high grey server with a big plant next to it.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -56,7 +56,7 @@ exclude: true
     <a class="overview-link" href="./get-started/object-insights-and-performance">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/object-insights-and-performance.png">
+          <img class="resource-item-image" src="/assets/images/object-insights-and-performance.png" alt="A grey printer with some trays attached to it.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -71,7 +71,7 @@ exclude: true
     <a class="overview-link" href="./get-started/create-material-passports">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/create-material-passports.png">
+          <img class="resource-item-image" src="/assets/images/create-material-passports.png" alt="A computer screen with green and yellow bars on it resembling a graph.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -86,7 +86,7 @@ exclude: true
     <a class="overview-link" href="./get-started/portfolio-insights-and-performance">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/portfolio-insights-and-performance.png">
+          <img class="resource-item-image" src="/assets/images/portfolio-insights-and-performance.png" alt="A three dimensional pixelated bonsai tree.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -101,7 +101,7 @@ exclude: true
     <a class="overview-link" href="./get-started/create-your-own-databases-with-custom-materials-and-products">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/create-your-own-databases-with-custom-materials-and-products.png">
+          <img class="resource-item-image" src="/assets/images/create-your-own-databases-with-custom-materials-and-products.png" alt="A black server with two plant around it.">
         </div>
         <div class="resource-item-right">
           <h3>

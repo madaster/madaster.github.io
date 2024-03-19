@@ -483,6 +483,8 @@ body {
   border: none;
   cursor: pointer;
   font-size: 24px;
+  position: absolute;
+  right: 0;
 }
 
 .content-header {
@@ -490,11 +492,11 @@ body {
   flex-direction: row;
 }
 
-.content-header h3 {
+.content-header h2 {
   line-height: 32px;
   margin: 0;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 .countries-languages-items {

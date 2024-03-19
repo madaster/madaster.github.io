@@ -3,7 +3,7 @@
   <div class="modal-container">
     <div class="modal-content">
       <div class="content-header">
-        <h3>Change language</h3>
+        <h2>Change language</h2>
         <button class="modal-exit mdi mdi-close">
         </button>
       </div>
@@ -12,7 +12,7 @@
           {% assign sorted_countries = site.countries | sort: 'country' %}
           {% for country in sorted_countries %}
             <h5>
-              <a href="/{{ country.code }}/{{country.defaultlanguage}}">
+              <a href="/{{ country.code }}/{{country.defaultlanguage}}" aria-label="Change language to {{country.lang_name}}">
                 <img height="16" width="24" src="/assets/flags/{{ country.code }}.svg"/><span>{{ country.country }}</span>
               </a>
             </h5>
@@ -21,7 +21,7 @@
             <ul>
               {% for pagefound in pages %}
               <li class="countries-languages-item">
-                <a href="{{ pagefound.url }}" class="{% if  pagefound.url == page.url %}active{% endif %}">{{ pagefound.lang_name }}</a>
+                <a href="{{ pagefound.url }}" class="{% if  pagefound.url == page.url %}active{% endif %}" aria-label="Change language to {{pagefound.lang_name}}">{{ pagefound.lang_name }}</a>
               </li>
               {% endfor %}
             </ul>

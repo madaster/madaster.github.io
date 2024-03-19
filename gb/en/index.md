@@ -9,8 +9,8 @@ exclude: true
   <div class="search-wrapper">
     <h2>Search Madaster Docs</h2>
     <form class="search-form content-container flex-column-center" onsubmit="goToSearchHome(event)">
-      <input type="text" class="search-bar" id="search-input-home" autocomplete="off">
-      <button type="submit" class="search-button-icon" id="search-button-home">
+      <input type="text" class="search-bar" id="search-input-home" autocomplete="off" aria-label="Search input">
+      <button type="submit" class="search-button-icon" id="search-button-home" aria-label="Search button">
         <svg width="24" height="24" viewBox="0 0 20 20">
           <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" fill="#398684" fill-rule="evenodd"/>
         </svg>
@@ -26,7 +26,7 @@ exclude: true
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/get-started.png">
+              <img src="/assets/images/get-started.png" alt="An abstract computer screen to start setting up your account.">
             </div>
             <div class="header-wrapper">
               <h3>Get started</h3>
@@ -40,7 +40,7 @@ exclude: true
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/knowledge-base.png">
+              <img src="/assets/images/knowledge-base.png" alt="A set of yellow and blue blocks stacked on each other.">
             </div>
             <div class="header-wrapper">
               <h3>Knowledge Base</h3>
@@ -54,7 +54,7 @@ exclude: true
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/api.png">
+              <img src="/assets/images/api.png" alt="A multi-colored chip.">
             </div>
             <div class="header-wrapper">
                 <h3>API</h3>
@@ -68,7 +68,7 @@ exclude: true
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/platform-pages.png">
+              <img src="/assets/images/platform-pages.png" alt="A grey colored server with a little plant next to it.">
             </div>
             <div class="header-wrapper">
               <h3>Platform Pages</h3>
@@ -82,7 +82,7 @@ exclude: true
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/resources.png">
+              <img src="/assets/images/resources.png" alt="A white and brown box with multiple black panels on it.">
             </div>
             <div class="header-wrapper">
               <h3>Resources</h3>

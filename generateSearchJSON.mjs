@@ -22,8 +22,16 @@ try {
 
 async function createSearchFile(country, language) {
   try { 
+    const path = `./${country}/${language}`;
+    const stats = await fsa.stat(path);
+
+    if (!stats.isDirectory()) {
+      console.log(`${path} is not a directory.`);
+      return;
+    }
+
     const pages = [];
-    const allFiles = await fsa.readdir(`./${country}/${language}`);
+    const allFiles = await fsa.readdir(path);
 
     async function collectAllFiles(fileDirectory, directoryPath) {
       for (const file of fileDirectory) {
@@ -31,7 +39,7 @@ async function createSearchFile(country, language) {
         const stats = await fsa.lstat(path);
         if (stats.isDirectory() === true) {
           await collectAllFiles(await fsa.readdir(path), path);
-        } else {
+        } else if (stats.isFile()) {
           pages.push(path);
         }
       }

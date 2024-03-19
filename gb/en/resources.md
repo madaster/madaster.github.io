@@ -11,7 +11,7 @@ exclude: true
     <a class="overview-link" href="./resources/release-notes">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/release-notes.png">
+          <img class="resource-item-image" src="/assets/images/release-notes.png" alt="A blue and white box with a paper floating above it.">
         </div>
         <div class="resource-item-right">
           <h3>
@@ -26,7 +26,7 @@ exclude: true
     <a class="overview-link" href="./resources/downloads">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/downloads.png">
+          <img class="resource-item-image" src="/assets/images/downloads.png" alt="Two computer screen behind each other with a black keyboard.">
         </div>
         <div class="resource-item-right">
           <h3>
