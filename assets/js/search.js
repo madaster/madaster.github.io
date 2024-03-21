@@ -4,24 +4,30 @@ async function getSearchResults(country, language) {
   .then((responseJson)=>{return responseJson});
 }
 
+function sanitizeHTML(text) {
+  let element = document.createElement('div');
+  element.innerText = text;
+  return element.innerHTML;
+}
+
 // Go to search page from home
 function goToSearchHome(event) {
   event.preventDefault();
-  const inputValue = document.getElementById("search-input-home").value;
+  const inputValue = sanitizeHTML(document.getElementById("search-input-home").value);
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
 // Go to search page from nav
 function goToSearchNavDesktop(event) {
   event.preventDefault();
-  const inputValue = document.getElementById("search-input-nav-desktop").value;
+  const inputValue = sanitizeHTML(document.getElementById("search-input-nav-desktop").value);
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
 // Go to search page from nav
 function goToSearchNavMobile(event) {
   event.preventDefault();
-  const inputValue = document.getElementById("search-input-nav-mobile").value;
+  const inputValue = sanitizeHTML(document.getElementById("search-input-nav-mobile").value);
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
@@ -68,12 +74,12 @@ async function initiateSearch(country, language) {
       resultAmountContainer.classList.remove("active");
       resultAmountContainerOne.classList.add("active");
       document.getElementById('search-result-one').innerHTML = resultsFull.length;
-      document.getElementById('search-term-one').innerHTML = input.value;
+      document.getElementById('search-term-one').innerHTML = sanitizeHTML(input.value);
     } else {
       resultAmountContainer.classList.add("active");
       resultAmountContainerOne.classList.remove("active");
       document.getElementById('search-result').innerHTML = resultsFull.length;
-      document.getElementById('search-term').innerHTML = input.value;
+      document.getElementById('search-term').innerHTML = sanitizeHTML(input.value);
     }
 
     for (let i = 0; i < resultsFull.length; i++) {
