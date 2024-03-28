@@ -27,7 +27,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 * <a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM.
 * <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 * <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM.
-* <a href="/files/de/2023-11-01 madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (01_Revit shared parameter file_Madaster, 02_User Defined PropertySet_Madaster und Revit_Baugruppenkennzeichen-nach-DIN276)
+* <a href="/files/de/2024-03-28_madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (01_Revit shared parameter file_Madaster, 02_User Defined PropertySet_Madaster, IFC-Konfiguration Revit - Madaster Export und Revit_Baugruppenkennzeichen-nach-DIN276)
 * <a href="/files/de/2023-11-01 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD (Madaster_Archicad propertyfile und Madaster_Archicad Classification DIN 276_2018-12)
 * <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMCollab Zoom</a> - Kostenloser IFC-Viewer zur Betrachtung von IFC-Files außerhalb der Madaster Plattform.
 * <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster DE Smart view set (BIMcollab)</a> - Importieren Sie diese Datei in die BIMCollab Zoom-App, um die Qualität Ihrer IFC-Datei zu überprüfen.
@@ -45,7 +45,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
 Haben Sie Fragen? Sie erreichen uns per E-Mail <service@madaster.de> oder über unsere Servicehotline [+49 30 235962051](tel:+4930235962051).<br>
-Die Hotline ist montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr erreichbar. 
+Die Hotline ist <b>montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr</b> erreichbar. 
 
 ---
 
