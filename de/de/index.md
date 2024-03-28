@@ -44,7 +44,8 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ---
 
 ## <img class="header-img" src="/assets/images/771.svg"> Madaster Servicedesk
-Haben Sie Fragen? Kontaktieren Sie Madaster per Telefon [+49 30 235962051](tel:+4930235962051) oder E-Mail-Adresse <service@madaster.de>.
+Haben Sie Fragen? Sie erreichen uns per E-Mail <service@madaster.de> oder über unsere Servicehotline [+49 30 235962051](tel:+4930235962051).
+Die Hotline ist montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr erreichbar. 
 
 ---
 
