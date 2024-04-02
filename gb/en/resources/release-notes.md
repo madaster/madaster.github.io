@@ -8,30 +8,148 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+## Release notes 2024.2 ##
+
+* build number: 26551
+* Release date: 1st of April 2024
+
+<!-- ### MPG Calculation for Dutch  Buildings ###
+
+It is now possible to download a complete MPG report for a building. It is found in through the "issue material passport" button.
+
+![The MPG Passport](/assets/images/releasenotes/202402-9287.png)
+
+
+In order to be able to export a MPG passport, ifc elements on the building need to be connected to the NMD databases. In order to do so, link the ifc elements to the NMD database through the "enrich" screen
+
+Within the enrich screen, it is then possible to compare and sort according to MKI scores of applied products from the NMD database
+
+![The MPG Enrich Screen](/assets/images/releasenotes/202402-9724.png) -->
+
+### Scaling ###
+
+The database now has support for scalable products, so now mass can be calculated according to the scalable dimensions that are set up.
+
+There are multiple way a scaling of a product can be defined depending on the product. For instnace, it can be a wall whose thickness increases with an increase in area, or a pipe that increases in diameter with an increase in length.
+
+Scalable products can be applied as new products or applied to existing products. Within the database, when "new product" is selected, or "edit" is selected for an existing product, on the right side of the product information form there is now an option to check whether a product is "scalable" or not. 
+
+![The Scaling information form](/assets/images/releasenotes/202402-9876-1.png)
+
+When "scalable" is selected, there will be more fields visible where the scalability parameters of the product can be defined. This can be based on the functional unit, on fixed dimensions, or even a user-defined property. 
+
+![The Scaling formula](/assets/images/releasenotes/202402-9876-2.png)
+
+Once functional unit has been defined, the scaling unit can be defined, with X in the below being the scalable dimension.
+
+Linear scaling has the formula: (a * X + c) , where a and c need to be defined
+
+Scaling with power formula: (a * X<sup>b</sup> + c) , where a, b, and c need to be defined
+
+Logarithmic scaling: (a * In(b *X) + c) , where a, b, and c need to be defined.
+
+Exponential scaling: (a *exp(X) + c) , where a and c need to be defined
+
+![The Scalable product page](/assets/images/releasenotes/202402-9876-3.png)
+
+When an excel file containing scalable products is uploaded, it will automatically matcho those products and the values for the scalable properties, provided the values are within the margins defined for the product. If the extents of the product are outside the defined margins, the nominal value defined for the product will be assumed. On the enrich screen the values extracted from the excel can be verified.
+
+![Scalability in Enrichment 1](/assets/images/releasenotes/202402-9876-4.png)
+
+![Scalability in Enrichment 2](/assets/images/releasenotes/202402-9876-5.png)
+
+![Scalability in Enrichment 3](/assets/images/releasenotes/202402-9876-6.png)
+
+After activating the file, the mass will be calculated accordin to thespecifications set for scaling:
+
+![Mass Screenshot](/assets/images/releasenotes/202402-9876-6.png)
+
+In the above example, 3 example walls are used, on in the "Skin" layer, one in the "Services" layer, and one in the "Space Plan" layer. 
+
+In the "Services" layer, it is a default wall of 20cm thickness with a grammage of 20kg/m<sup>2</sup> and no scaling, therefore the final wall will be 200kg for 10m<sup>2</sup>
+
+In the "Space plan" layer, the wall is scaled to a thickness of 10cm instead of 20, and with a linear formula that sets its grammage to 0,5(a) * 10(cm) + 10(c) = 15kg/m2, which results in a mass of150kg for the same area of 10m<sup>2</sup>. Without scaling, the mass of this wall would have been assumed as 100kg.
+
+In the "skin" layer, the wall has a thickness of 75cm, and using the same linear scaling formula of 0.5 * 75 + 10 = 47.50kg/m<sup>2</sup> the resulting mass is 475kg for the same area of 10m<sup>2</sup>. Without the scaling formula, the mass of this wall would have been as 750kg.
+
+### DGNB Reporting ###
+
+Within the ESG Tab, a DGNB report can be produced. In this release, the reporting for ENV 1.1 Climate Action and Energy is available, which covers ENV 1.1-2.1, ENV 1.1-2.2, and ENV 1.1-2.5 in the DGNB. The compliance can be set either to EN15804:2012-04+A1 2013 or EN15804:2012+A2:2019
+
+![DGNB Screenshot](/assets/images/releasenotes/202402-9530.png)
+
+### BBSR Material Classification ###
+
+Madaster now supports the DGNB BBSR material classification
+
+### UMS 2.0 for German Customers ###
+
+The UMS for German customers has been updated to reflect the latest methodology stated in (state source). German buildings in the UMS now rely on Gross Floor Area rather than Volume for the calculations.
+
+### RIBA Stages ###
+
+The "Building Phases" in the UK has been updated to reflect the RIBA stages
+
+### Creation of Virtual Sub Elements ###
+
+In the enrich screen, a selected element can have a virtual subelement added to it through the "split element" button
+
+![Virtual Sub Elements](/assets/images/releasenotes/202402-9721-1.png)
+
+![Virtual Sub element button](/assets/images/releasenotes/202402-9721-2.png)
+
+Within the split element form, it is then possible to put the volume, area, length or width for the selected element, and it now acts as a sub element for the selected ifc parent element.
+
+![Created Virtual Sub element](/assets/images/releasenotes/202402-9721-3.png)
+
+The sub element can then have a product associated to it from any of the databases available in madaster, and that split element can then be duplicated across all ifc elements with the same parent name. A use case for this would be inserting a door handle that was not modelled in the ifc across all the similar doors in a project.
+
+### Advanced Mode for Private Home Owners ###
+
+Home owners can activate "advanced mode" in the settings via the 3 dots menu which enables
+
+* Performance tab
+* Mass Tab
+* Circularity Tab
+* Environmental Tab
+* Financial Tab
+* Presets for upload
+* Presets for passports
+* Data settings
+
+![Advanced mode for home owners](/assets/images/releasenotes/202402-9858.jpg)
+
+### Excel Template Updates ###
+
+In the Madaster Excel template, there is now support for implementing several buildings into the same excel template. Within the excel template, there is also an additional column for "Number of elements", which now indicates how many times an element is to be duplicated. For example, if there is a project with several windows of the same kind, the window data can be implemented once, and then the number of times it is duplicated across the project can be placed into the "Number of elements" column.
+
+### Additional options when copying an ifc ###
+
+When an ifc is copied, there are now options to duplicate the following items in the ifc:
+* The excluded states of any items excluded in the original ifc
+* Custom detachability data that was implemented within Madaster
+* Custom properties and data that was implemented within Madaster
+
+![Additional options when copying an ifc](/assets/images/releasenotes/202402-9708.jpg)
+
+### Added support for ifcmaterialproperties ###
+
+Madaster now supports ifcmaterialproperties
+
+### Bugfixes ###
+
+* Resolved bug where geometric properties were not appearing in customer PSET
+* Resolved incorrect limitations on the CRREM user defined Carbon Pricing
+* Resolved bug where CRREM reporting for the year 2023 was not working correctly with the excel functionality
+* Resolved bug where elements would be incorrectly duplicated in the excel export
+* Resolved bug where products in the financial tab would not show up correctly until tabs were changed
+* Resolved bug where superscript was not displaying correctly on product info pages
+
+
 ## Release notes 2024.1 ##
 
-* build number: 25710
+* build number: 25412
 * Releasedate: 8th of February 2024
-
-<!--## Internal release notes ##
-
-### Activate on-demand feature as super user ###
-
-As a superuser it is now possible to turn on on-demand features:
-
-![as a super user, on-demand feature can be activated](/assets/images/releasenotes/202401-9691.png)
-*screenshot of the feature screen when logged in as a superuser. You can now turn on the features and the red text is not shown to superusers*
-
-### Docs 2.0 ###
-
-This release docs 2.0 will go live. Development will supply the documentation in English.
-
-## Country-specific Release notes ##
-
-* The DGNB label has been added to the building form for Germany and Austria
-* The building service phase has been added to the building form for Austria
-
-## External release notes ##-->
 
 ### Save viewpoint in 3D-viewer ###
 
@@ -39,7 +157,7 @@ It is now possible to save your viewpoint in the 3D-viewer:
 
 ![saving your viewpoint in the 3D viewer](/assets/images/releasenotes/202401-9686.png)
 
-It is possible to undo your viewpoint and choose a new one. The chosen viewpoint will be the default when opening the 3D viewer or the general tab.
+It is possible to undo your viewpoint and choose a new one. The chosen viewpoint will be the default when opening the 3D viewer or in the general tab.
 
 ### Changes in datasources for financial information ###
 
@@ -49,11 +167,11 @@ For the following datapoints the source has been changed or fixed:
 * US Dollar Chinese Yuan exchange rate
 * Pricessets for Wool, Rubber and Timber
 
-### Searching for child elements in enrichment ###
+### Searching for sub elements in enrichment ###
 
-It is now possible to search for child elements in enrichment. Note that the result will show the parent in which the child contains the match on the search. It is also possible to search on child ID's.
+It is now possible to search for sub elements in enrichment. Note that the result will show the parent in which the sub contains the match on the search. It is also possible to search on sub ID's.
 
-![Finding results in child elements](/assets/images/releasenotes/202401-8784.png)
+![Finding results in sub elements](/assets/images/releasenotes/202401-8784.png)
 
 ### Reporting on Level(s) indicator 1.2 ###
 
