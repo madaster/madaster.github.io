@@ -1,6 +1,6 @@
 {% if page.lang=='en' %}
 <p class="last-modified">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
-{% else %}
+{% elsif page.lang='nl' %}
 <p class="last-modified">
   {% assign m = page.last_modified_at | date: "%-m" %}
     Laatst bijgewerkt: {{ page.last_modified_at | date: "%-d" }}
@@ -19,4 +19,25 @@
       {% when '12' %}december,
     {% endcase %}
     {{ page.last_modified_at | date: "%Y" }}</p>
+{% elsif page.lang='de' %}
+<p class="last-modified">
+  {% assign m = page.last_modified_at | date: "%-m" %}
+    Zuletzt bearbeitet: {{ page.last_modified_at | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}. Januar
+      {% when '2' %}. Februar
+      {% when '3' %}. März
+      {% when '4' %}. April
+      {% when '5' %}. Mai
+      {% when '6' %}. Juni
+      {% when '7' %}. Juli
+      {% when '8' %}. August
+      {% when '9' %}. September
+      {% when '10' %}. Oktober
+      {% when '11' %}. November
+      {% when '12' %}. Dezember
+    {% endcase %}
+    {{ page.last_modified_at | date: "%Y" }}</p>
+  {% else %}
+    <p class="last-modified">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
 {% endif %}
