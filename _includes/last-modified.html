@@ -1,6 +1,6 @@
 {% if page.lang=='en' %}
 <p class="last-modified">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
-{% elsif page.lang='nl' %}
+{% elsif page.lang=='nl' %}
 <p class="last-modified">
   {% assign m = page.last_modified_at | date: "%-m" %}
     Laatst bijgewerkt: {{ page.last_modified_at | date: "%-d" }}
@@ -19,7 +19,7 @@
       {% when '12' %}december,
     {% endcase %}
     {{ page.last_modified_at | date: "%Y" }}</p>
-{% elsif page.lang='de' %}
+{% elsif page.lang=='de' %}
 <p class="last-modified">
   {% assign m = page.last_modified_at | date: "%-m" %}
     Zuletzt bearbeitet: {{ page.last_modified_at | date: "%-d" }}
