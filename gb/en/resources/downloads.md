@@ -31,4 +31,4 @@ menubar: resources-nav
 * <a href="/files/de/Revit_Baugruppenkennzeichen-nach-DIN276.txt" target="_blank">Revit_Baugruppenkennzeichen-nach-DIN276</a> (German file)
 * <a href="/files/de/Madaster_Archicad propertyfile.xml" target="_blank">01_Archicad propertyfile_madaster</a> (German file)
 * <a href="/files/de/Madaster_Archicad Classification DIN 276_2018-12.xml" target="_blank">Archicad_Classification DIN 276_2018-12</a> (German file)
-
+* <a href="/files/at/Madaster BIM Anleitung_20240303.pdf" target="_blank">Madaster Handbuch IFC-Export (Archicad & Revit)</a> (Austrian file)
