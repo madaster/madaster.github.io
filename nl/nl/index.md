@@ -15,6 +15,7 @@ Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie o
 ### Algemene handleidingen
 
  * Open de <a href="/files/nl/Madaster - Gebruikershandleiding.pdf" target="_blank">Madaster Gebruikershandleiding</a> – deze handleiding beschrijft gedetailleerd de functionaliteiten van het Madaster-platform en hoe deze toegepast kunnen worden.
+ * Open de <a href="/files/nl/Madaster Handleiding MPG.pdf" target="_blank">Madaster MPG-handleiding</a> – deze handleiding beschrijft de processtappen die leiden tot de oplevering van een MilieuPrestatie Gebouwen (MPG)-berekening in het Madaster platform.
  * Open de <a href="/files/nl/Madaster - Handleiding Product toevoegen.pdf" target="_blank">Madaster handleiding Producten toevoegen</a> – dit document beschrijft gedetailleerd hoe gebruikers zelf een product in Madaster kunnen toevoegen.
  * Open de <a href="/files/nl/Madaster - Handleiding Product toevoegen (Producent).pdf" target="_blank">Madaster handleiding Producten toevoegen (PRODUCENT)</a> – dit document beschrijft in detail hoe een producent haar producten in het Madaster platform kan opvoeren en beschikbaar kan maken.
  * Open de <a href="/files/nl/Madaster - Stappenplan.pdf" target="_blank">Madaster handleiding Stappenplan</a> - dit document beschrijft de noodzakelijke processtappen die leiden tot de oplevering van een materialenpaspoort in het Madaster platform.
