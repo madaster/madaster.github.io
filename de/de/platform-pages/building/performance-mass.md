@@ -3,7 +3,6 @@ title: Masse
 ref: building-performance-mass
 redirect_from:
   - platform-pages/building/level-product
-  - platform-pages/building/performance-mass
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
