@@ -35,3 +35,51 @@ The screen appears for you to further specify the data of the product you have j
 - Is equal to
 - Starts with
 - Ends with (This also helps when entering incomplete search terms as search criteria).
+
+### PRODUCT SCALING ###
+
+How do you use the scalability option on a product?
+
+Within the database, check the box for "scalable" on the product
+
+There are multiple ways a scaling of a product can be defined depdending on the specific needs of a particular product. For instance, it can be a wall whose thickness increases with an increase in area, or a pipe that increases in diameter with an increase in length.
+
+Scalable products can be applied as new products or applied to existing products. Within the database, when "new product" is selected, or "edit" is selected for an existing product, on the right side of the product information form there is now an option to check whether a product is "scalable" or not. 
+
+![The Scaling information form](/assets/images/releasenotes/202402-9876-1.png)
+
+When "scalable" is selected, there will be more fields visible where the scalability parameters of the product can be defined. This can be based on the functional unit, on fixed dimensions, or even a user-defined property. 
+
+![The Scaling formula](/assets/images/releasenotes/202402-9876-2.png)
+
+Once functional unit has been defined, the scaling unit can be defined, with X in the below being the functional unit.
+
+Linear scaling has the formula: (a * X + c) , where a and c need to be defined
+
+Scaling with power formula: (a * X<sup>b</sup> + c) , where a, b, and c need to be defined
+
+Logarithmic scaling: (a * In(b *X) + c) , where a, b, and c need to be defined.
+
+Exponential scaling: (a *exp(X) + c) , where a and c need to be defined
+
+![The Scalable product page](/assets/images/releasenotes/202402-9876-3.png)
+
+When an excel file containing scalable products is uploaded, it will automatically matcho those products and the values for the scalable properties, provided the values are within the margins defined for the product. If the extents of the product are outside the defined margins, the nominal value defined for the product will be assumed. On the enrich screen the values extracted from the excel can be verified.
+
+![Scalability in Enrichment 1](/assets/images/releasenotes/202402-9876-4.png)
+
+![Scalability in Enrichment 2](/assets/images/releasenotes/202402-9876-5.png)
+
+![Scalability in Enrichment 3](/assets/images/releasenotes/202402-9876-6.png)
+
+After activating the file, the mass will be calculated accordin to thespecifications set for scaling:
+
+![Mass Screenshot](/assets/images/releasenotes/202402-9876-6.png)
+
+In the above example, 3 example walls are used, on in the "Skin" layer, one in the "Services" layer, and one in the "Space Plan" layer. 
+
+In the "Services" layer, it is a default wall of 20cm thickness with a grammage of 20kg/m<sup>2</sup> and no scaling, therefore the final wall will be 200kg for 10m<sup>2</sup>
+
+In the "Space plan" layer, the wall is scaled to a thickness of 10cm instead of 20, and with a linear formula that sets its grammage to 0,5(a) * 10(cm) + 10(c) = 15kg/m2, which results in a mass of150kg for the same area of 10m<sup>2</sup>. Without scaling, the mass of this wall would have been assumed as 100kg.
+
+In the "skin" layer, the wall has a thickness of 75cm, and using the same linear scaling formula of 0.5 * 75 + 10 = 47.50kg/m<sup>2</sup> the resulting mass is 475kg for the same area of 10m<sup>2</sup>. Without the scaling formula, the mass of this wall would have been assumed as 750kg.

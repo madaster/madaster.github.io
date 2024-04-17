@@ -220,6 +220,10 @@ Defined by ISO 14021 as the proportion, by mass, of recycled material in a produ
 
 A metric to characterise technical performance of a recycling. The general approach to estimate efficiency is Input measured as the mass or volume of all fractions or materials entering the recycling process per time period (usually per year) and Output, including the mass of the useful recycled components, excluding any unrecycled material sent to refuse . Loss of the components to the refuse can be due to process inefficiencies, such as sorting losses, loss of slag, damages or loss of quality.
 
+### Scalable Product
+
+A scalable product is a product within our database that has had a scaling calculation placed on it. This means that as a product increases in size based on a defined unit, referred to as the functional unit, another charcteristic of the product is proportionally increased with the increase of the functional unit. One example would be  a pipe in which the length is defined as the functional unit, and with an increase of the length the thickness of the pipe increases proportionally.
+
 ### Scarcity
 
 A key concepts of economics, meaning that the demand for a good or service is greater than their availability, i.e. the gap between limited—that is, scarce—resources and theoretically limitless wants. Therefore, scarcity can limit the choices available to the consumers who ultimately make up the economy. Natural resources like (noble) metals or fossil fuels are naturally rare. When demand exceeds the supply, these resources become scarce and prices can go up.
