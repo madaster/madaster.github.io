@@ -31,3 +31,8 @@ Sie gelangen auf den Bildschirm, um die Daten des gerade hinzugefügten Produkts
 - Ist gleich
 - Beginnt mit
 - Endet mit Dies hilft auch bei der Eingabe unvollständiger Suchbegriffe als Suchkriterium.
+
+## SKALIERUNG
+Ein skalierbares Produkt ist ein Produkt in einer Datenbank, für das eine Skalierungsberechnung durchgeführt wurde. Das bedeutet, dass mit zunehmender Größe eines Produkts, basierend auf einer definierten Einheit, die als funktionale Einheit bezeichnet wird, eine andere Eigenschaft des Produkts proportional mit der Zunahme der funktionalen Einheit zunimmt. Ein Beispiel wäre ein Rohr, bei dem die Länge als funktionale Einheit definiert ist, und bei einer Vergrößerung der Länge nimmt die Dicke des Rohrs proportional zu.
+
+Weitere Informationen zu dem Skalieren von Produkten finden Sie <a href="https://docs.madaster.com/gb/en/platform-pages/product.html" target="_blank">hier</a>.
