@@ -1,6 +1,6 @@
 ---
 title: Supplier - General
-ref: account
+ref: supplier
 redirect_from:
   - platform-pages/verifieddatabase
   - platform-pages/verifieddatabase/databases
