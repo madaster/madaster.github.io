@@ -10,9 +10,26 @@ redirect_from:
 In dieser Registerkarte können Sie Informationen zu verschiedenen Features einsehen, die im Bereich ESG, Zertifizierung und Reporting zu verorten sind.
 
 ### CRREM - CARBON RISK REAL ESTATE MONITOR
-Auf der Plattform ist das CRREM-Tool integriert. Weitere Details zur Einbindung folgen.
+Auf der Plattform wurde das externe entwickelte CRREM-Tool integriert. Dieses Tool wurde entwickelt, um die Kohlenstoffemissionen eines Gebäudes während seines Betriebs zu berechnen.
 
-Informationen zum CRREM-Tool finden Sie unter <a href="https://www.crrem.eu/" target="_blank">www.crrem.eu</a> bzw. im <a href="https://www.crrem.eu/wp-content/uploads/2023/09/CRREM-Risk-Assessment-Reference-Guide-V2_11_09_2023-final.pdf" target="_blank">User manual for the CRREM Risk Assessment Tool V2</a>.
+Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsmethode ausgewählt werden. Über die Schaltfläche **Einstellungen anzeigen** muss der Nutzer die Daten für die Objekteigenschaften, den Energiebezug, die flüchtigen Emissionen und die erneuerbaren Energien eingeben. Diese Daten werden mit einem globalen Erwärmungsziel bzw. einem Standard
+
+* Emissionsfaktor für Elektrizität
+* Fernwärme-Emissionsfaktor
+* Fernkälte-Emissionsfaktor
+* Elektrizitätspreis
+* Gaspreis
+* Fernwärmepreis
+* Preis für Fernkälte
+* Preis der ausgewählten "anderen Energiequelle" #1
+* Preis der ausgewählten "andere Energiequelle" #2
+* Kohlenstoffpreis in Abhängigkeit vom Standort des Gebäudes.
+
+Wenn detailliertere Informationen zu diesen Zahlen vorhanden sind, kann der Benutzer diese im Tab **"User-defined settings"** überschreiben. Bitte beachten Sie, dass für jedes Objekt die allgemeine Information **"Gross internal area"** ausgefüllt werden muss, und das **"Datum Fertigstellung"** in der Vergangenheit liegen muss.
+
+Nachdem Sie die Daten Ihres Gebäudebetriebs eingegeben haben, berechnet die Plattform die jährlichen CO2-Emissionen sowie die Energiekosten und den jährlichen Energieverbrauch. Um Kohlenstoffneutralität bis 2050 zu erreichen, berechnet das CRREM-Tool einen Dekarbonisierungspfad für das Objekt. Alle nachfolgenden Emissionen, die über das Dekarbonisierungsziel hinausgehen (so genannte "Excess-Emissionen"), stellen ein Kohlenstoff-Risiko dar. Die wirtschaftliche Obsoleszenz ist mit dem Stranding-Moment verbunden; je höher die überschüssigen Emissionen sind, desto größer ist die Wahrscheinlichkeit der wirtschaftlichen Obsoleszenz.
+
+Weitere Informationen zum CRREM-Tool finden Sie unter <a href="https://www.crrem.eu/" target="_blank">www.crrem.eu</a> bzw. im <a href="https://www.crrem.eu/wp-content/uploads/2023/09/CRREM-Risk-Assessment-Reference-Guide-V2_11_09_2023-final.pdf" target="_blank">User manual for the CRREM Risk Assessment Tool V2</a>.
 
 Dieses Feature ist kostenpflichtig. 
 
