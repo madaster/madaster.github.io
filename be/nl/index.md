@@ -4,7 +4,7 @@ ref: home
 menubar: none
 ---
 
-## Welkom bij het Madaster platform!
+### Welkom bij het Madaster platform!
 Welkom op het Madaster-platform! Op deze pagina vindt u aanvullende informatie over het gebruik en de ontwikkeling van het Madaster-platform.
 
 ---
@@ -43,7 +43,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
 ### Naslagwerken
 
-* Lees de <a href="/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
+* Lees de <a href="/files/en/Madaster - Circularity Indicator explained.pdf">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek (Link is in het Engels).
 * Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
  
 ---
