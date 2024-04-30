@@ -7,7 +7,14 @@ ref: database
 Auf dieser Seite finden Sie alle Materialien und Produkte, die in diesen Datenbanken, anderen öffentlich zugänglichen Datenbanken und allen Produkten, die Sie selbst auf der Plattform in Ihre eigene(n) „Account"-Datenbank(en) eingegeben haben, bekannt sind. Im Falle der Datenbank eines Archivs: 
 Sie finden alle Materialien und Produkte, die mit den Elementen im archivierten Gebäude verknüpft sind.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-cTiGd0j7JE&list=PLS17hWTtwLRTR64FSGzFuCeP7pB3Xlr_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Folgende (generische) Systemdatenbanken stehen Ihnen neben herstellerspezifischen Datenbanken zur Verfügung:
+
+| Datenbank         | Materialien/Produkte | Zirkularität  | Umweltwerte  |              Notiz                 |
+|-------------------|----------------------|---------------|--------------|------------------------------------|
+| Madaster          |        **Ja**        |       -       |      -       | Veraltet, bitte nicht mehr nutzen! |
+| Madaster C2C      |        **Ja**        |     **Ja**    |      -       | Veraltet, bitte nicht mehr nutzen! |
+| Ökobaudat         |        **Ja**        |       -       |    **Ja**    |                                    |
+| EPEA Genric       |        **Ja**        |     **Ja**    |    **Ja**    | Empfohlene generische Datenbank.   |
 
 ### REGISTERKARTEN ###
 **Datenbank**
