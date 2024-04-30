@@ -13,6 +13,15 @@ Diese Registerkarte enthält Dateien, die in das jeweilige Gebäude hochgeladen 
 ## WIE LADE ICH EINE NEUE DATEI HOCH?
 Klicken Sie auf die Schaltfläche "Hochladen" oben links auf dem Bildschirm. Ein neuer Bildschirm "Datei hinzufügen" wird geöffnet. Wählen Sie zunächst den Dateityp, den Sie hochladen möchten, wobei Sie zwischen einer Quelldatei (IFC oder Excel) oder einer allgemeinen Datei wählen können.
 
+Wenn Sie eine Quelldatei hochladen, nutzen Sie möglichst den automatischen Abgleich für die Verknüpfung der Materialien mit Produktdatensätzen. Folgende (generische) Systemdatenbanken stehen Ihnen neben herstellerspezifischen Datenbanken zur Verfügung:
+
+| Datenbank         | Materialien/Produkte | Zirkularität  | Umweltwerte  |              Notiz                 |
+|-------------------|----------------------|---------------|--------------|------------------------------------|
+| Madaster          |        **Ja**        |       -       |      -       | Veraltet, bitte nicht mehr nutzen! |
+| Madaster C2C      |        **Ja**        |     **Ja**    |      -       | Veraltet, bitte nicht mehr nutzen! |
+| Ökobaudat         |        **Ja**        |       -       |    **Ja**    |                                    |
+| EPEA Genric       |        **Ja**        |     **Ja**    |    **Ja**    | Empfohlene generische Datenbank.   |
+
 ## WIE KANN ICH BEREITS HOCHGELADENE DATEIEN ÄNDERN/VERSCHIEBEN/DOWNLOADEN ODER LÖSCHEN?
 Wählen Sie die Quelldatei, die Sie ändern, herunterladen oder löschen möchten. Hinter der Quelldatei wird eine Reihe von Symbolen angezeigt. Das Pfeilsymbol (1. Symbol) gibt Ihnen einen Einblick in die Qualität der Quelldatei und ermöglicht es Ihnen, die Datei manuell anzureichern und zu aktivieren/deaktivieren (weitere Informationen finden Sie in den obigen Abschnitten). Über das 2. Symbol können Sie die Datei herunterladen. Das 3. Symbol (Büroklammer) gibt Ihnen direkten Zugang zum Anreicherungsprozess. Mit dem 4. Icon (Stift) können Sie den Ordner/Ordner der Datei und so genannte "Tags" (Suchbegriffe) ändern. Das zuletzt angezeigte Symbol (Mülleimer) gibt Ihnen die Möglichkeit, die hochgeladene Datei zu löschen.
 
