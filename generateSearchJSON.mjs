@@ -23,9 +23,10 @@ try {
 async function createSearchFile(country, language) {
   try { 
     const path = `./${country}/${language}`;
-    const stats = await fsa.stat(path);
+    console.log(path);
+    const stats = await fsa.lstat(path);
 
-    if (!stats.isDirectory()) {
+    if (!stats.isDirectory() && !stats.isSymbolicLink()) {
       console.log(`${path} is not a directory.`);
       return;
     }
@@ -37,7 +38,7 @@ async function createSearchFile(country, language) {
       for (const file of fileDirectory) {
         const path = directoryPath + '/' + file;
         const stats = await fsa.lstat(path);
-        if (stats.isDirectory() === true) {
+        if (stats.isDirectory() === true || stats.isSymbolicLink()) {
           await collectAllFiles(await fsa.readdir(path), path);
         } else if (stats.isFile()) {
           pages.push(path);
