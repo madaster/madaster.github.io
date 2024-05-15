@@ -25,6 +25,37 @@ To ensure a detailed and easy calculation on Madaster, the BIM model needs to be
   * Preferably use the “IFC 4 Design Transfer View” export setting, however "IFC 2x3" is accepted.
   * Coordinate the local position of (all) the aspect models, close to the point of origin.
 
+## Reading/Extracting the data fields of an IFC file
+
+| PropertyName                      | PropertyType     | Madaster Element                  | Explanation                                                       |
+|-----------------------------------|------------------|-----------------------------------|-------------------------------------------------------------------|
+| MaterialOrProductId               | IfcText          | MadasterId                        | Identifier van het materiaal of product in een Madaster database. |
+| externaldatabaseId                | IfcText          | externaldatabaseId                |                                                                   |
+| GTIN                              | IfcText          | GTIN                              |                                                                   |
+| ArticleNumberGLN                  | IfcText          | ArticleNumberGLN                  |                                                                   |
+| MaterialOrProductName             | IfcText          | MaterialName                      |                                                                   |
+| MaterialOrProductRatio            | IfcText          |                                   |                                                                   |
+| Volume                            | IfcVolumeMeasure | Volume                            |                                                                   |
+| Area                              | IfcAreaMeasure   | Area                              |                                                                   |
+| Length                            | IfcLengthMeasure | Length                            |                                                                   |
+| Width                             | IfcLengthMeasure | Width                             |                                                                   |
+| Depth                             | IfcLengthMeasure | Depth                             |                                                                   |
+| Height                            | IfcLengthMeasure | Height                            |                                                                   |
+| Weight                            | IfcReal          | Weight                            |                                                                   |
+| Thickness                         | IfcLengthMeasure | Thickness                         |                                                                   |
+| Classification                    | IfcText          | Classification                    |                                                                   |
+| Phase                             | IfcText          | Phase                             |                                                                   |
+| DetachabilityConnectionType       | IfcText          | DetachabilityConnectionType       |                                                                   |
+| DetachabilityConnectionTypeDetail | IfcText          | DetachabilityConnectionTypeDetail |                                                                   |
+| DetachabilityAccessibility        | IfcText          | DetachabilityAccessibility        |                                                                   |
+| DetachabilityIntersection         | IfcText          | DetachabilityIntersection         |                                                                   |
+| DetachabilityProductEdge          | IfcText          | DetachabilityProductEdge          |                                                                   |
+| Reuse                             | IfcReal          | InputPercentageReuse              |                                                                   |
+| BuildingNumbers                   | IfcText          | BuildingNumbers                   |                                                                   |
+| WasteCodes                        | IfcText          | WasteCodes                        |                                                                   |
+| AssumedConstructionWaste          | IfcReal          | AssumedConstructionWaste          |                                                                   |
+| OverOrdering                      | IfcReal          | OverOrdering                      |                                                                   |
+
 ## Prepare Revit IFC source files
 
 To ensure your file is suitable for import, it must comply with buildSmart standards. Please refer to <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic IDS</a> for an extensive manual.
