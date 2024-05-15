@@ -25,7 +25,7 @@ To ensure a detailed and easy calculation on Madaster, the BIM model needs to be
   * Preferably use the “IFC 4 Design Transfer View” export setting, however "IFC 2x3" is accepted.
   * Coordinate the local position of (all) the aspect models, close to the point of origin.
 
-## Reading/Extracting the data fields of an IFC file
+## Reading the data fields of an IFC file
 
 If the custom property set with the name: CPset_Madaster is present on an IFC element and within this dataset, the properties below are filled in, then these values ​​of the properties are used within Madaster. Other properties are then ignored.
 
@@ -62,34 +62,34 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 
 ### Additional information
 
-**MaterialOrProductId**
+**MaterialOrProductId**\
 Identifier of the material or product in a Madaster database.
 
-**externaldatabaseId**
+**externaldatabaseId**\
 Identifier of the product or Material in an external database connected to Madaster.
 
-**GTIN**
+**GTIN**\
 Global Trade Item Number of the product.
 
-**ArticleNumberGLN**
+**ArticleNumberGLN**\
 The articleNumber|GLN combination.
 
-**MaterialOrProductName**
+**MaterialOrProductName**\
 If filled, this material/productname can be used to refer to search criteria.
 
-**MaterialOrProductRatio**
+**MaterialOrProductRatio**\
 Split element into children if MaterialOrProductRatio is available
 
-**Classification**
+**Classification**\
 For example: enter the NL/SfB-Table1 value (2 or 4 digits).
 
-**Phase**
+**Phase**\
 Value for the building phase.
 
-**Reuse**
+**Reuse**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
 
-**Waste codes**
+**Waste codes**\
 The wastecode format that needs to be used is as followed:
 code:percentage:nature:cw-outcome:oo-outcome;code:percentage:nature:cw-outcome:oo-outcome;
 
@@ -98,24 +98,24 @@ This can be for example:
 
 Following options are also available:
 
-*code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
-*code:percentage:nature; In this scenario the default nature will be overwritten by user input.
-*code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
+* code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
+* code:percentage:nature; In this scenario the default nature will be overwritten by user input.
+* code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
 
 Following scenario's will result in failure:
-*Wrong code
-*Double code (in case of multiple waste codes)
-*Percentage zero, negative or above 1 (100%)
-*Wrong nature
-*Wrong outcome
-*Outcome for CW that is only valid for OO and vice versa
-*Outcome that does not match with selected nature
-*Total of all wastecodes above 1 (100%)
+* Wrong code
+* Double code (in case of multiple waste codes)
+* Percentage zero, negative or above 1 (100%)
+* Wrong nature
+* Wrong outcome
+* Outcome for CW that is only valid for OO and vice versa
+* Outcome that does not match with selected nature
+* Total of all wastecodes above 1 (100%)
 
-**AssumedConstructionWaste**
+**AssumedConstructionWaste**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
 
-**OverOrdering**
+**OverOrdering**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
 
 ## Prepare Revit IFC source files
