@@ -41,7 +41,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
  * Hier finden Sie Informationen bezüglich der Methodik und Funktionsweise zum <a href="https://docs.madaster.com/de/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">Madaster Zirkularitätsindikator (MZI)</a>.
  * Hier finden Sie Informationen bezüglich der Methodik und Funktionsweise zum <a href="https://docs.madaster.com/de/en/knowledge-base/calculations#financial" target="_blank">Finanzielles Modul</a> von Madaster.
- * Hier finden Sie den Report <a href="https://www.dgbc.nl/upload/files/Publicaties/circulariteit/DGBC%20Disassembly%20Potential%20Measurement%20Methodology%20_%202022.pdf" target="_blank">‘Circular Buildings - der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
+ * Hier finden Sie den Report <a href="https://www.dgbc.nl/upload/files/Publicaties/circulariteit/DGBC%20Disassembly%20Potential%20Measurement%20Methodology%20_%202022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> - der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
  * Hier finden sie die Datenbankbeschreibung zur <a href="https://docs.madaster.com/files/en/EPEA_Generic_Dataset_Description.pdf" target="_blank">EPEA Datenbank</a> - die von Experten geprüfte und von der EPEA verifizierte Datenbank basierend auf einer Kombination aus EPDs und anderer wissenschaftlicher und öffentlicher Literatur. Diese Datenbank wird auf Madaster zu Verfügung gestellt.
 
 ---
