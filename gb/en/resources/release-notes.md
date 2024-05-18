@@ -8,6 +8,89 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+## Release notes 2024.3 ##
+
+### Waste ###
+
+This release the option has been added in the platform to add construction waste as well as being able to categorize both construction and demolition waste according to the European Waste Codes. 
+
+Waste is bound to the phase of the elements:
+
+* For preserved elements it is not possible to add waste information
+* New elements can have construction waste, including a wastage and overordering percentage
+* Demolished elements can be provided with an European Waste Code
+* A new phase has been introduced: "Construction waste". The function of this phase is to add construction waste information separately in case further information on the element is unknown. This creates the possibility to have waste information even though further details of the element, like the full amount, is not available.
+
+An element can have multiple European Waste Codes. When adding an European Waste Code there is the option to add:
+
+* The actual European Waste Code
+* The percentage of the element having that European Waste Code
+* Whether the waste is hazardous, non-hazardous or inert
+* The outcome, or end of life scenario, in case of it being construction waste or when it has been overordered. Note that when waste is hazardous there are different options, reflecting that hazardous waste is for example not reusable.
+
+There are multiple ways of adding waste information.
+
+#### Enrichment ####
+
+It is possible to add waste information when enriching your building file in the platform, for example when editing a new element:
+
+![Waste fields on a new element in enrichment](/assets/images/releasenotes/202403-9915-1.png)
+
+When selecting the option to add an European waste Code the following screen appears:
+
+![Adding an European Waste Code in enrichment](/assets/images/releasenotes/202403-9915-2.png)
+
+* In **material family** the European Waste Code can be selected
+* **Percentage** is the amount of waste attributed to that European waste code for that building element
+* In **Nature of waste** it is possible to select whether the waste is hazardous, non-hazardous or inert. Hazardous waste has a limited selection of end of life scenarios to be chosen from the outcome of construction or outcome of overordering waste.
+* In **Outcome of construction waste** it is possible to select the end of life scenario for this specific construction waste
+* In **Outcome of overordering** it is possible to select the end of life scenario for this specific overordering waste
+
+#### Excel ####
+
+It is possible to add waste information using the excel template. This can be done when using excel as the building file for your building or when exporting an ifc file. The format for utilizing the waste code column in excel is as follows:
+
+* code:percentage:nature:cw-outcome:oo-outcome;code:percentage:nature:cw-outcome:oo-outcome
+
+For which:
+
+* **code** is the European Waste Code
+* **percentage** is the percentage of the European Waste Code for the element
+* **nature** is the nature of waste
+* **cw-outcome** is the outcome of construction waste
+* **oo-outcome** is the outcome of overordering waste
+
+Which can be repeated in case of multiple codes. An example:
+
+* 16 02 09*:0.1:Hazardous:70:70;17 01:0.25:Inert:60:60;
+
+#### Including it in your .ifc file ####
+
+If you want to include waste information in your IFC file it is possible to match it by:
+
+* Using the upload settings in your account:
+
+![Mapping waste information in the upload settings](/assets/images/releasenotes/202403-9915-3.png)
+
+* Include it in the CPset
+
+### Level(s) indicator 2.1 ###
+
+It is now possible to generate the Level(s) 2.1 report. This is possible when:
+
+* You are using the DIN-276 classification in your digital building file
+* You have the Level(s) feature enabled
+
+![Generating the Level(s) 2.1 report](/assets/images/releasenotes/202403-9904.png)
+
+### DGNB Gebäuderessourcenpass ###
+
+We have updated the DGNB Gebäuderessourcenpass (GRP) so that a lot more information will be exported into the GRP. Provided the information is available of course.
+
+### Release notification removal ###
+
+The release notification will now be permanently removed once it has been dismissed.
+
 ## Release notes 2024.2 ##
 
 * build number: 26551
