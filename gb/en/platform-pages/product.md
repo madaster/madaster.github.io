@@ -64,7 +64,7 @@ Exponential scaling: (a *exp(X) + c) , where a and c need to be defined
 
 ![The Scalable product page](/assets/images/releasenotes/202402-9876-3.png)
 
-When an excel file containing scalable products is uploaded, it will automatically matcho those products and the values for the scalable properties, provided the values are within the margins defined for the product. If the extents of the product are outside the defined margins, the nominal value defined for the product will be assumed. On the enrich screen the values extracted from the excel can be verified.
+When a file containing scalable products is uploaded, it will automatically match those products and the values for the scalable properties, provided the values are within the margins defined for the product. If the extents of the product are outside the defined margins, the nominal value defined for the product will be assumed. On the enrich screen the values extracted from the excel can be verified.
 
 ![Scalability in Enrichment 1](/assets/images/releasenotes/202402-9876-4.png)
 
