@@ -2,6 +2,16 @@
 title: Performance
 ref: account-performance
 lang: nl
+redirect_from:
+  - platform-pages/account/circularity
+  - platform-pages/account/environmental
+  - platform-pages/account/mass
+  - platform-pages/account/financial
+  - platform-pages/folder/circularity
+  - platform-pages/folder/environmental
+  - platform-pages/folder/mass
+  - platform-pages/folder/financial
+  - platform-pages/folder/map
 ---
 
 ## Welke informatie wordt hier getoond?
