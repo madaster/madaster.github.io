@@ -8,7 +8,7 @@ menubar: get-started-nav
 
 Enrich source files with databases, troubleshoot elements not enriched, and refresh source files
 
-When a source file is processed, the Madaster system provides insight into the:
+When a source file is processed, by clicking on the Source file Name in the Dossier tab, the Madaster system provides insight into the:
 * **Quality of the source file**
   * Percentage of elements that contain a classification method (e.g. SfB, OmniClass table 21, NS 3451, DIN 276...) and are therefore assigned to the correct shearing layer (site, structure, etc.) (**location**).
   * Percentage of elements that contain a **material** description.
