@@ -21,6 +21,8 @@ When a source file is processed, by clicking on the Source file Name in the Doss
 
 Go to the tab **Enrich** (choose Manual) to check for missing material linking, classification codes and geometric information by using the filters on the left. If geometric information is missing you need to go back to the BIM (or Excel)-file and add the missing information and reload the file. The same goes for classification and material names missing in case this information should be included in the original file. Click <a href="../knowledge-base/preparing-bim-ifc-source-files" target="_blank">here</a> for how to prepare your ifc-file for Madaster. When classification and material matching is only necessary for the material passport these can be manually added in the Madaster platform by ticking the checkbox of one or more element.
 
+![Toolbar](/assets/images/gettingstarted/Getstarted_Enrich%20Button.png)
+
 The following options become available in the bottom of the page:
 1. A "Link"-tool to link elements missing material information or not linked with a database. (See: Manual matching process in Madaster).
 2. A "writing" tool where you can change/add building numbers, Feedstock input and output, and detachability.
