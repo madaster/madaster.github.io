@@ -25,108 +25,15 @@ To ensure a detailed and easy calculation on Madaster, the BIM model needs to be
   * Preferably use the “IFC 4 Design Transfer View” export setting, however "IFC 2x3" is accepted.
   * Coordinate the local position of (all) the aspect models, close to the point of origin.
 
-## Reading the data fields of an IFC file
-
-If the custom property set with the name: CPset_Madaster is present on an IFC element and within this dataset, the properties below are filled in, then these values ​​of the properties are used within Madaster. Other properties are then ignored.
-
-### Madaster Custom property set (CPset_Madaster)
-
-| PropertyName                      | PropertyType     | Madaster Element                  |
-|-----------------------------------|------------------|-----------------------------------|
-| MaterialOrProductId               | IfcText          | MadasterId                        |
-| externaldatabaseId                | IfcText          | externaldatabaseId                |
-| GTIN                              | IfcText          | GTIN                              |
-| ArticleNumberGLN                  | IfcText          | ArticleNumberGLN                  |
-| MaterialOrProductName             | IfcText          | MaterialName                      |
-| MaterialOrProductRatio            | IfcText          |                                   |
-| Volume                            | IfcVolumeMeasure | Volume                            |
-| Area                              | IfcAreaMeasure   | Area                              |
-| Length                            | IfcLengthMeasure | Length                            |
-| Width                             | IfcLengthMeasure | Width                             |
-| Depth                             | IfcLengthMeasure | Depth                             |
-| Height                            | IfcLengthMeasure | Height                            |
-| Weight                            | IfcReal          | Weight                            |
-| Thickness                         | IfcLengthMeasure | Thickness                         |
-| Classification                    | IfcText          | Classification                    |
-| Phase                             | IfcText          | Phase                             |
-| DetachabilityConnectionType       | IfcText          | DetachabilityConnectionType       |
-| DetachabilityConnectionTypeDetail | IfcText          | DetachabilityConnectionTypeDetail |
-| DetachabilityAccessibility        | IfcText          | DetachabilityAccessibility        |
-| DetachabilityIntersection         | IfcText          | DetachabilityIntersection         |
-| DetachabilityProductEdge          | IfcText          | DetachabilityProductEdge          |
-| Reuse                             | IfcReal          | InputPercentageReuse              |
-| BuildingNumbers                   | IfcText          | BuildingNumbers                   |
-| WasteCodes                        | IfcText          | WasteCodes                        |
-| AssumedConstructionWaste          | IfcReal          | AssumedConstructionWaste          |
-| OverOrdering                      | IfcReal          | OverOrdering                      |
-
-### Additional information
-
-**MaterialOrProductId**\
-Identifier of the material or product in a Madaster database.
-
-**externaldatabaseId**\
-Identifier of the product or Material in an external database connected to Madaster.
-
-**GTIN**\
-Global Trade Item Number of the product.
-
-**ArticleNumberGLN**\
-The articleNumber|GLN combination.
-
-**MaterialOrProductName**\
-If filled, this material/productname can be used to refer to search criteria.
-
-**MaterialOrProductRatio**\
-Split element into children if MaterialOrProductRatio is available
-
-**Classification**\
-For example: enter the NL/SfB-Table1 value (2 or 4 digits).
-
-**Phase**\
-Value for the building phase.
-
-**Reuse**\
-Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
-
-**Waste codes**\
-The wastecode format that needs to be used is as followed:
-code:percentage:nature:cw-outcome:oo-outcome;code:percentage:nature:cw-outcome:oo-outcome;
-
-This can be for example:
-16 02 09*:0.1:Hazardous:70:70;17 01:0.25:Inert:60:60;
-
-Following options are also available:
-
-* code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
-* code:percentage:nature; In this scenario the default nature will be overwritten by user input.
-* code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
-
-Following scenario's will result in failure:
-* Wrong code
-* Double code (in case of multiple waste codes)
-* Percentage zero, negative or above 1 (100%)
-* Wrong nature
-* Wrong outcome
-* Outcome for CW that is only valid for OO and vice versa
-* Outcome that does not match with selected nature
-* Total of all wastecodes above 1 (100%)
-
-**AssumedConstructionWaste**\
-Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
-
-**OverOrdering**\
-Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
-
 ## Prepare Revit IFC source files
 
 To ensure your file is suitable for import, it must comply with buildSmart standards. Please refer to <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic IDS</a> for an extensive manual.
 
-1. **Review Madaster’s <a href="!!!! ADD LINK TO MANUAL" target="_blank">general guidelines</a> for all IFC source files**
+1. **Review Madaster’s <a href="../../../files/en/Madaster BIM - IFC guidelines.pdf">General Guidelines</a> for all IFC source files**
 2. **Add building element classification in Revit:**
-  * Generally it is possible to have an ifcText or ifcClassification parameter, that contains the classification code (no ifcInteger!).
-  * To add the classification as an Assembly Code, download the file for the classification of your choice. (!! ADD LINK TO DOWNLOAD FOR ASSEMBLY CODE FILES!!)
-  * Go to Manage > Additional Settings > Assembly Code" and navigate to the classification file using browse and confirm with OK to load it into Revit. When you have selected an element go to "Edit Type" and click in the parameter "Assembly Code" and type the correct coding. It is also possible to select the Assembly code from a list, click on the block with ...   and select the correct code.
+  * In General, it is possible to have an ifcText or ifcClassification parameter, that contains the classification code (no ifcInteger).
+  * To add the classification as an Assembly Code, you must first download the file for the classification of your choice from your preferred source.
+  * Go to Manage > Additional Settings > Assembly Code" and navigate to the classification file using browse and confirm with OK to load it into Revit. When you have selected an element go to "Edit Type" and click in the parameter "Assembly Code" and type the correct coding. It is also possible to select the Assembly code from a list, click on the block with "..."   and select the correct code.
 3. **Add materials in Revit:**
   * It is possible to assign certain categories or families a specific material. For this go to Manage > Settings > Object Style.
   * To define the material of a type, select an instance of the type and go on "Edit Type" in the Properties Tab.
@@ -146,7 +53,7 @@ To ensure your file is suitable for import, it must comply with buildSmart stand
 
 To ensure your file is suitable for import, it must comply with IFC protocol. Please refer to <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic ID</a> for an extensive manual.
 
-1. **Review Madaster’s <a href="!!!! ADD LINK TO MANUAL"">general guidelines</a> for all IFC source files**
+1. **Review Madaster’s <a href="../../../files/en/Madaster BIM - IFC guidelines.pdf">General Guidelines</a> for all IFC source files**
 2. **Add building element classification in ArchiCAD:**
   * Madaster uses a classification code to sort the elements into building layers, the standard classification method varies from country to country.
   * This notation can be added in the Category and Properties in the selection settings of an object. In this window you need to open Manage IFC properties and must activate the Apply predefined rule. In this last window you can activate the Encoding and with the degree of detail (number of digits in the code). The last step is now to indicate which coding the object has.
@@ -160,9 +67,9 @@ To ensure your file is suitable for import, it must comply with IFC protocol. Pl
     * The "Geometry conversion" needs to be set to "IFC4 Design Transfer View"
     * The "Data conversion" to "General translator IFC4"
     * It is important that the check mark IFC Base Quantities in the data settings is not forgotten.
-    2. Import Madaster Template for IFC Export: (<a href="from our documentation page" target="_blank">https://docs.madaster.com/files/Archicad_ExportTemplate.tpl</a>) you can download a preset IFC translator, which can be imported via the import button. When saving your file, make sure to select the proper translator.
+    2. Import Madaster Template for IFC Export: From this <a href="../../../files/en/Madaster BIM - Archicad Translator.7z">link</a>, it is possible to a preset IFC translator, which can be imported into ArchiCad via the import button. When exporting your file, make sure the correct translator is selected.
 
 ## IFC model check
 
 * Before uploading your IFC model to the Madaster platform, it is recommended to do a completeness check (classification coding, Base Quantities, Material etc.) For this check, use the free BIMcollab ZOOM Public Viewer in combination with the Madaster smart views.
-*  BIMcollab ZOOM Public Viewer and the Madaster smart view can be downloaded for free <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads" target="_blank">here</a>. After installing the BIMCollab Zoom, you can load the programmed Madaster smart views into the program via the Import button. By now opening your own (IFC) model, the model, the smart views, can be checked for completeness.
+*  BIMcollab ZOOM Public Viewer and the Madaster smart view can be downloaded for free via this <a href="https://helpcenter.bimcollab.com/portal/en/kb/articles/smart-view-sets-downloads">Link</a>. After installing the BIMCollab Zoom, you can load the programmed Madaster smart views into the BIMCollab Zoom via the Import button. This will allow IFC files to be checked for completeness for the Madaster Platform.
