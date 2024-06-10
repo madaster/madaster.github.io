@@ -25,6 +25,99 @@ To ensure a detailed and easy calculation on Madaster, the BIM model needs to be
   * Preferably use the “IFC 4 Design Transfer View” export setting, however "IFC 2x3" is accepted.
   * Coordinate the local position of (all) the aspect models, close to the point of origin.
 
+## Reading the data fields of an IFC file
+
+If the custom property set with the name: CPset_Madaster is present on an IFC element and within this dataset, the properties below are filled in, then these values ​​of the properties are used within Madaster. Other properties are then ignored.
+
+### Madaster Custom property set (CPset_Madaster)
+
+| PropertyName                      | PropertyType     | Madaster Element                  |
+|-----------------------------------|------------------|-----------------------------------|
+| MaterialOrProductId               | IfcText          | MadasterId                        |
+| externaldatabaseId                | IfcText          | externaldatabaseId                |
+| GTIN                              | IfcText          | GTIN                              |
+| ArticleNumberGLN                  | IfcText          | ArticleNumberGLN                  |
+| MaterialOrProductName             | IfcText          | MaterialName                      |
+| MaterialOrProductRatio            | IfcText          |                                   |
+| Volume                            | IfcVolumeMeasure | Volume                            |
+| Area                              | IfcAreaMeasure   | Area                              |
+| Length                            | IfcLengthMeasure | Length                            |
+| Width                             | IfcLengthMeasure | Width                             |
+| Depth                             | IfcLengthMeasure | Depth                             |
+| Height                            | IfcLengthMeasure | Height                            |
+| Weight                            | IfcReal          | Weight                            |
+| Thickness                         | IfcLengthMeasure | Thickness                         |
+| Classification                    | IfcText          | Classification                    |
+| Phase                             | IfcText          | Phase                             |
+| DetachabilityConnectionType       | IfcText          | DetachabilityConnectionType       |
+| DetachabilityConnectionTypeDetail | IfcText          | DetachabilityConnectionTypeDetail |
+| DetachabilityAccessibility        | IfcText          | DetachabilityAccessibility        |
+| DetachabilityIntersection         | IfcText          | DetachabilityIntersection         |
+| DetachabilityProductEdge          | IfcText          | DetachabilityProductEdge          |
+| Reuse                             | IfcReal          | InputPercentageReuse              |
+| BuildingNumbers                   | IfcText          | BuildingNumbers                   |
+| WasteCodes                        | IfcText          | WasteCodes                        |
+| AssumedConstructionWaste          | IfcReal          | AssumedConstructionWaste          |
+| OverOrdering                      | IfcReal          | OverOrdering                      |
+
+### Additional information
+
+**MaterialOrProductId**\
+Identifier of the material or product in a Madaster database.
+
+**externaldatabaseId**\
+Identifier of the product or Material in an external database connected to Madaster.
+
+**GTIN**\
+Global Trade Item Number of the product.
+
+**ArticleNumberGLN**\
+The articleNumber|GLN combination.
+
+**MaterialOrProductName**\
+If filled, this material/productname can be used to refer to search criteria.
+
+**MaterialOrProductRatio**\
+Split element into children if MaterialOrProductRatio is available
+
+**Classification**\
+For example: enter the NL/SfB-Table1 value (2 or 4 digits).
+
+**Phase**\
+Value for the building phase.
+
+**Reuse**\
+Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
+
+**Waste codes**\
+The wastecode format that needs to be used is as followed:
+code:percentage:nature:cw-outcome:oo-outcome;code:percentage:nature:cw-outcome:oo-outcome;
+
+This can be for example:
+16 02 09*:0.1:Hazardous:70:70;17 01:0.25:Inert:60:60;
+
+Following options are also available:
+
+* code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
+* code:percentage:nature; In this scenario the default nature will be overwritten by user input.
+* code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
+
+Following scenario's will result in failure:
+* Wrong code
+* Double code (in case of multiple waste codes)
+* Percentage zero, negative or above 1 (100%)
+* Wrong nature
+* Wrong outcome
+* Outcome for CW that is only valid for OO and vice versa
+* Outcome that does not match with selected nature
+* Total of all wastecodes above 1 (100%)
+
+**AssumedConstructionWaste**\
+Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
+
+**OverOrdering**\
+Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
+
 ## Prepare Revit IFC source files
 
 To ensure your file is suitable for import, it must comply with buildSmart standards. Please refer to <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic IDS</a> for an extensive manual.
