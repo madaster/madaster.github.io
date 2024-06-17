@@ -8,6 +8,58 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+## Release notes 2024.4 ##
+
+### Changes to selection in the environmental screen ###
+
+It is now possible to select a preferred scheme, like the MPG or DGNB, directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
+
+![A building where multiple schemes are available](/assets/images/releasenotes/202404-10108-1.png)
+
+In addition, the phases have become multiselect, wich makes it possible to select and combine exacly the phases that you want to analyze. By default the selection is what the chosen scheme would normally require for reporting.
+
+![The option to choose your phases](/assets/images/releasenotes/202404-10108-2.png)
+
+### Level(s) 2.2 ###
+
+We have added the option to generate the Level(s) 2.2 report. This report is available if the Level(s) feature is activated on your account. It is a report of the construction and demolition waste of a project and similar to other Level(s) reports can be used to align with the EU Taxonomy. For automatic filling of the report the project requires waste information to be available in the project.
+
+![The screen where a Level(2) 2.2 report can be generated](/assets/images/releasenotes/202404-9914.png)
+
+### Changes to generate material passport ###
+
+The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB, the RICS Carbon Assessment or the MPG report.
+
+![An example of the new generate report options](/assets/images/releasenotes/202404-10111.png)
+
+### Waste codes in excel ###
+
+Last release we introduced the option to add waste information in your digital building files. In this release we've added the lists to the excel export of your building so that they are easier to see and use. This includes the European Waste Codes, the nature of the waste and the end of life scenarios.
+
+![The new sheet in the excel building export](/assets/images/releasenotes/202404-10232.png)
+
+### End of Life scenarios in EPDs ###
+
+Sometimes in EPD databases that we use there are multiple end of life scenarios defined. In order to accomodate for that we've added the different scenarios as separate products in Madaster where we could find them. By default the first scenario will be chosen for the matching.
+
+![An example of multiple end of life scenarios in the Okobaudat database](/assets/images/releasenotes/202404-10048.png)
+
+### Transferring buildings ###
+
+Transferring buildings can now only be done within the same country.
+
+### Country specific release items ###
+
+### United Kingdom ###
+
+* This release we've update our RICS functionality to be compliant with RICS v2. The report is available through the generate report option on a building if the feature is active.
+* We have added a field on the building for the UPRN (Unique Property Reference Number).
+
+### Germany ###
+
+* Now the CRREM report in Germany looks specifically for the Gross internal area for its calculations.
+* The Gebäuderessourcenpass has been updated so that is filled in more with data available in the platform.
+
 ## Release notes 2024.3 ##
 
 ### Waste ###
