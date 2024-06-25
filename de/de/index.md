@@ -21,7 +21,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 
 ### Spezifische Handbücher & Vorlagen
 
-* <a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind.
+* <a href="/files/epea/EPEA Generic 2024-6-25.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind.
 
   #### BIM
 * <a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM.
