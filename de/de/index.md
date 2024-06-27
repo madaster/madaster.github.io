@@ -17,7 +17,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/de/Madaster - Benutzerhandbuch.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
  * <a href="/files/de/Madaster - Produkte hinzufügen.pdf" target="_blank">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
  * <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
- * <a href="/files/de/Madaster - Leitfaden Ausschreibung.pdf" target="_blank">Leitfaden zur Ausschreibung eines Materialpasses</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
+ * <b>Leitfaden zur Ausschreibung eines Materialpasses</b> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können. <i>(Dieses Dokument befindet sich derzeit in der Überarbeitung!)</i>
 
 ### Spezifische Handbücher & Vorlagen
 
