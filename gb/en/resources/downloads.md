@@ -28,6 +28,7 @@ menubar: resources-nav
 
 * <a href="/files/nl/01_Revit shared parameter file_Madaster.txt.zip" target="_blank">01_Revit shared parameter file_Madaster</a> (Dutch file)
 * <a href="/files/nl/02_User Defined PropertySet_Madaster.txt.zip" target="_blank">02_User Defined PropertySet_Madaster</a> (Dutch file)
+* <a href="../../../files/en/Madaster BIM - Archicad Translator.7z">Madaster Archicad IFC Translator</a> (Dutch File)
 * <a href="/files/de/Revit_Baugruppenkennzeichen-nach-DIN276.txt" target="_blank">Revit_Baugruppenkennzeichen-nach-DIN276</a> (German file)
 * <a href="/files/de/Madaster_Archicad propertyfile.xml" target="_blank">01_Archicad propertyfile_madaster</a> (German file)
 * <a href="/files/de/Madaster_Archicad Classification DIN 276_2018-12.xml" target="_blank">Archicad_Classification DIN 276_2018-12</a> (German file)
