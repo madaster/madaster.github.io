@@ -1,6 +1,8 @@
 ---
 title: Dateidetails
+description: Dateidetails
 ref: building-file-details
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

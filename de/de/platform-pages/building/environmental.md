@@ -1,6 +1,8 @@
 ---
 title: Umwelt
+description: Umwelt
 ref: building-environmental
+type: FAQ
 ---
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
 Die gesamten Umweltauswirkungen (A1-A3) und die Umweltauswirkungen pro m<sup>2</sup> (A1-A3) werden angezeigt. Wird eine Benchmark ausgewählt und sind entsprechende Informationen verfügbar, wird das Gebäude mit anderen verglichen. Unbekannte Elemente werden angezeigt, damit sie damit sie angepasst und in die Berechnungen einbezogen werden können. Mit Hilfe der Dropdown-Listen können die Umwelt-Indikatoren nach Gesamtmenge, Gebäudeschicht und Material/Produkt angezeigt werden. 

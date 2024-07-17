@@ -1,14 +1,14 @@
 ---
 title: API
 ref: api
+type: API Documentation
 menubar: none
 ---
 
-# MADASTER API
-Die **Madaster API**-Endpunkte können verwendet werden, um mit der Madaster-Plattform und ihren Funktionen zu interagieren.
-Diese API deckt noch nicht alle Funktionen der Plattform vollständig ab, bitte beachten Sie die [OpenAPI-Dokumentation](https://api.madaster.com/).
+Der <a href="../knowledge-base/madaster-glossary#application-programming-interface-api" target="_blank">Madaster API</a>-Endpunkt kann verwendet werden, um mit der Madaster-Plattform und ihren Funktionen zu interagieren. Diese API deckt noch nicht alle Funktionen der Plattform vollständig ab, bitte beachten Sie die [OpenAPI-Dokumentation](https://api.madaster.com/).
+
 ## News zu Entwicklungen
-Melden Sie sich für den Newsletter (in Englisch) an, um Updates bezüglich der API zu erhalten.
+Melden Sie sich für den Newsletter (auf Englisch) an, um Updates bezüglich der API zu erhalten.
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -19,21 +19,21 @@ Melden Sie sich für den Newsletter (in Englisch) an, um Updates bezüglich der 
 <div id="mc_embed_signup">
     <form action="https://tech.us11.list-manage.com/subscribe/post?u=781d4269174ddb8c0dcf121fd&amp;id=d2e51fe3ef&amp;f_id=00028de0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-        <h2>Subscribe to Madaster API updates</h2>
-        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <h2>Abonnieren Sie die Madaster API Updates</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> erforderliche Angaben</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	<label for="mce-EMAIL">E-Mail-Adresse  <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
 	<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 </div>
 <div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
+	<label for="mce-FNAME">Vorname </label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 	<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
 </div>
 <div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
+	<label for="mce-LNAME">Nachname </label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 	<span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
 </div>
@@ -44,7 +44,7 @@ Melden Sie sich für den Newsletter (in Englisch) an, um Updates bezüglich der 
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_781d4269174ddb8c0dcf121fd_d2e51fe3ef" tabindex="-1" value=""></div>
         <div class="optionalParent">
             <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <input type="submit" value="Jetzt abonnieren" name="subscribe" id="mc-embedded-subscribe" class="button">
                 <p class="brandingLogo"><a href="http://eepurl.com/h9i465" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
             </div>
         </div>
@@ -55,30 +55,19 @@ Melden Sie sich für den Newsletter (in Englisch) an, um Updates bezüglich der 
 <!--End mc_embed_signup-->
 
 ## Token
-Um auf die API's zuzugreifen, benötigen Sie ein Autorisierungs-Token.
-Wenn Sie noch keins haben, lesen Sie das Kapitel über die Autorisierung weiter unten.
-Dieser Token sollte als Header mit dem Namen 'X-API-Key' gesendet werden, wodurch die Anfrage mit dem Token authentifiziert wird.
+Um auf die API-Ressourcen zugreifen zu können, benötigen Sie einen Autorisierungs-Token. Wenn Sie noch keinen haben, lesen Sie das folgende Kapitel über die Autorisierung. Dieser Token sollte als Header mit dem Namen 'X-API-Key' gesendet werden, wodurch die Anfrage mit dem Token authentifiziert wird.
 
-## AUTORISIERUNG
-Um auf die Dienste dieser API zugreifen zu können, benötigen Sie einen API-Schlüssel. Dieser Schlüssel muss im *X-API-Key*-Header an die Anfrage angehängt werden.
-Um einen API-Schlüssel zu erhalten, müssen Sie ein Token in der Madaster-Plattform hinzufügen oder Ihren Account Manager bitten, dies für Sie zu tun.
-Dadurch erhalten Sie Zugriff auf die Ressourcen und die damit verbundenen Entitäten.
+## Autorisierung
+Um auf die Dienste der API zugreifen zu können, benötigen Sie einen API-Schlüssel. Dieser Schlüssel muss im *X-API-Key*-Header an die Anfrage angehängt werden. Um einen API-Schlüssel zu erhalten, müssen Sie einen Token in der Madaster-Plattform hinzufügen oder den Administrator Ihres Accounts bitten, dies für Sie zu tun. Dadurch erhalten Sie Zugriff auf die Ressourcen und die damit verbundenen Entitäten.
 
-### HINZUFÜGEN EINES TOKENS ZU EINEM KONTO, ORDNER, GEBÄUDE ODER EINER DATENBANK
-- Klicken Sie auf die Registerkarte *Benutzer*.
+### Hinzufügen eines Tokens zu einem Account, Ordner, Objekt oder einer Datenbank
 
-<img src="/assets/images/api/addtoken1DE.png" class="api-img"/>
+1. Klicken Sie auf der gewünschten Ebene auf den Tab **Benutzer**, zugänglich über das Symbol <iconify-icon inline icon='mdi-dots-vertical'/> am Ende der Tableiste.
+1. Klicken Sie auf **API-Token hinzufügen** <iconify-icon inline icon='mdi-account-plus-outline'/>.
+1. Geben Sie einen Namen für den Token ein und kopieren Sie den generierten Token. Wählen Sie die Berechtigungsstufe sowie die Ablaufzeit und klicken Sie abschließend auf **Speichern**
 
-- Klicken Sie auf die Schaltfläche *API-TOKEN HINZUFÜGEN*.
+## Versionen
+Die API wird ständig verbessert, so dass im Laufe der Zeit weitere Versionen der Schnittstelle hinzugefügt werden. Welche Versionen welche API-Aufrufe unterstützen, finden Sie in der [OpenAPI-Dokumentation](https://api.madaster.com/). Es wird empfohlen, immer die neueste verfügbare Version für eine API-Anfrage zu verwenden. Die alten Versionen bleiben jedoch noch eine Zeit lang aus Legacy-Zwecken verfügbar. Um eine API-Version auszuwählen, hängen Sie das Versions-Tag an den API-Endpunkt an. Für Version 4.0 verwenden Sie zum Beispiel https://api.madaster.com/api/v4.0
 
-<img src="/assets/images/api/addtoken2DE.png" class="api-img"/>
-
-- Geben Sie einen Namen für den Token ein, kopieren Sie den generierten Schlüssel (1), wählen Sie eine Berechtigungsstufe und eine Ablaufzeit und klicken Sie abschließend auf die Schaltfläche Hinzufügen (2)
-
-<img src="/assets/images/api/addtoken3DE.png" class="api-img"/>
-
-## VERSIONEN
-Die API wird ständig verbessert, so dass im Laufe der Zeit weitere *Versionen* der Schnittstelle hinzugefügt werden. Welche Versionen welche API-Aufrufe unterstützen, finden Sie in der [OpenAPI-Dokumentation](https://api.madaster.com/). Es wird empfohlen, immer die neueste verfügbare Version für eine API-Anfrage zu verwenden: Die alten Versionen bleiben jedoch noch eine Zeit lang für Legacy-Zwecke verfügbar. Um eine API-Version auszuwählen, hängen Sie das Versions-Tag an den API-Endpunkt an. Für Version 3.0 verwenden Sie zum Beispiel https://api.madaster.com/api/v3.0
-
-## BEISPIELE
+## Beispiele
 Im [Github-Repository](https://github.com/Madaster/examples) finden Sie einige Beispiele, wie Sie mit der API in verschiedenen Programmiersprachen interagieren können.

@@ -1,6 +1,8 @@
 ---
-title: Dossier
+title: Dossier (Ordner)
+description: Dossier
 ref: folder-files
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

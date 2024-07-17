@@ -23,7 +23,7 @@ Go to the tab **Enrich** <iconify-icon inline icon='mdi:link-variant-plus'/> (ch
 
 The following options become available in the bottom of the page:
 1. A "Link"-tool to link elements missing material information or not linked with a database. (See: Manual matching process in Madaster).
-2. A "writing" tool where you can change/add building numbers, Feedstock input and output, and detachability.
+2. A "Writing" tool where you can change/add building numbers, Feedstock input and output, and detachability.
 3. An "Unlinking-tool" to unlink elements that wrongfully mapped with a database.
 4. An "Include and "Exclude"-tool to exclude elements that shouldn’t be a part of the calculations (eg. Air) or wrongfully Excluded elements can be ‘Included’ again. 
 
@@ -48,4 +48,4 @@ With the tab "Enrich again" you can add/delete languages and databases to a new 
 
 Looking for information on creating your own materials and products? Click <a href="../get-started/create-your-own-databases-with-custom-materials-and-products" target="_blank">here</a>.
 
-<a class="next-button" href="../get-started/object-insights-and-performance">Next step: Object Insights and Performance</a>
+<a class="next-button" href="../get-started/create-your-own-databases-with-custom-materials-and-products">Next step: Create your own databases</a>

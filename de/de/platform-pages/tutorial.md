@@ -1,8 +1,14 @@
 ---
 title: Tutorials
+description: Tutorials
 ref: tutorial
+type: FAQ
 menubar: none
 ---
+
+## Veraltete Seite! (nicht mehr eingebunden)
+
+
 ## MADASTER TUTORIALS
 
 ### TUTORIAL BENUTZEROBERFLÄCHE

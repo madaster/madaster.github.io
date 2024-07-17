@@ -8,17 +8,17 @@ exclude: true
 <div class="overview-content">
   <div class="overview-content-wrapper">
     <h1>Knowledge Base</h1>
-    <a class="overview-link" href="./knowledge-base/madaster-glossary">
+    <a class="overview-link" href="./knowledge-base/stay-organized">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/madaster-glossary.png" alt="A grey box with a abstract question mark on it.">
+          <img class="resource-item-image" src="/assets/images/stay-organized.png" alt="A stack of colored files.">
         </div>
         <div class="resource-item-right">
           <h3>
-            Madaster Glossary
+            Stay organized
           </h3>
           <p>
-            Definitions for terms used across Madaster's tools
+            Organize source files, general documents, projects, databases and folders
           </p>
         </div>
       </div>
@@ -38,51 +38,6 @@ exclude: true
         </div>
       </div>
     </a>
-    <a class="overview-link" href="./knowledge-base/calculations">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/calculations.png" alt="Two abstract boxes with a black keyboard.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Calculations
-          </h3>
-          <p>
-            Methodologies used for in-platform calculations
-          </p>
-        </div>
-      </div>
-    </a>
-      <a class="overview-link" href="./knowledge-base/classifications">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/classifications.png" alt="A traffic light with blue and green lights, floating above a house on a green square.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Classifications
-          </h3>
-          <p>
-            Methodologies used for in-platform classifications
-          </p>
-        </div>
-      </div>
-    </a>
-    <a class="overview-link" href="./knowledge-base/databases">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/databases.png" alt="A black server with a little plant next to it.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Databases
-          </h3>
-          <p>
-            Database configuration, sourcing and maintenance
-          </p>
-        </div>
-      </div>
-    </a>
     <a class="overview-link" href="./knowledge-base/users">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -98,17 +53,17 @@ exclude: true
         </div>
       </div>
     </a>
-    <a class="overview-link" href="./knowledge-base/features">
+    <a class="overview-link" href="./knowledge-base/preparing-excel-source-files">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/features.png" alt="Three green squares with a pixelated tree, brown building and a black floating box.">
+          <img class="resource-item-image" src="/assets/images/preparing-excel-source-files.png" alt="A computer screen with a blue background with two fishes on it, and some green squares around it.">
         </div>
         <div class="resource-item-right">
           <h3>
-            Features
+            Preparing Excel source files
           </h3>
           <p>
-            Features can be toggled on and off in the account-level Features tab
+            Download the Madaster excel templates
           </p>
         </div>
       </div>
@@ -138,37 +93,97 @@ exclude: true
             Madaster property set
           </h3>
           <p>
-            Description to be added
+            *Description to be added*
           </p>
         </div>
       </div>
     </a>
-    <a class="overview-link" href="./knowledge-base/preparing-excel-source-files">
+    <a class="overview-link" href="./knowledge-base/material-passports">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/preparing-excel-source-files.png" alt="A computer screen with a blue background with two fishes on it, and some green squares around it.">
+          <img class="resource-item-image" src="/assets/images/create-material-passports.png" alt="A computer screen with green and yellow bars on it resembling a graph.">
         </div>
         <div class="resource-item-right">
           <h3>
-            Preparing Excel source files
+            Material passport types
           </h3>
           <p>
-            Download the Madaster excel templates
+            Export types of the digital material passport
           </p>
         </div>
       </div>
     </a>
-    <a class="overview-link" href="./knowledge-base/stay-organized">
+    <a class="overview-link" href="./knowledge-base/features">
       <div class="overview-item">
         <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/stay-organized.png" alt="A stack of colored files.">
+          <img class="resource-item-image" src="/assets/images/features.png" alt="Three green squares with a pixelated tree, brown building and a black floating box.">
         </div>
         <div class="resource-item-right">
           <h3>
-            Stay organized
+            Features
           </h3>
           <p>
-            Organize source files, general documents, projects, databases and folders
+            Features can be toggled on and off in the account-level Features tab
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/calculations">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/calculations.png" alt="Two abstract boxes with a black keyboard.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Calculations
+          </h3>
+          <p>
+            Methodologies used for in-platform calculations
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/classifications">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/classifications.png" alt="A traffic light with blue and green lights, floating above a house on a green square.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Classifications
+          </h3>
+          <p>
+            Methodologies used for in-platform classifications
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/databases">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/databases.png" alt="A black server with a little plant next to it.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Databases
+          </h3>
+          <p>
+            Database configuration, sourcing and maintenance
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/databases-products">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/products.webp" alt="A lightbrown box with a little tree next to it.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Products
+          </h3>
+          <p>
+            Products configuration, sourcing and maintenance
           </p>
         </div>
       </div>
@@ -184,6 +199,21 @@ exclude: true
           </h3>
           <p>
             How to request a Madaster registration and materials passport in a tender text
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/madaster-glossary">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/madaster-glossary.png" alt="A grey box with a abstract question mark on it.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Madaster Glossary
+          </h3>
+          <p>
+            Definitions for terms used across Madaster's tools
           </p>
         </div>
       </div>

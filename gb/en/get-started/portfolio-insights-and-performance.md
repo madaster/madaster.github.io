@@ -24,5 +24,3 @@ Gain insights into a portfolio’s mass, circularity and detachability, environm
    
    * **Filter** objects by construction year and usage.
 1. **Export** the aggregated material mass to excel and download from the dossier.
-
-<a class="next-button" href="../get-started/create-your-own-databases-with-custom-materials-and-products">Next step: Create your own databases</a>

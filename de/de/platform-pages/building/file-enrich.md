@@ -1,6 +1,8 @@
 ---
 title: Anreichern
+description: Anreichern
 ref: building-file-enrich
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

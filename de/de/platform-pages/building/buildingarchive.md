@@ -1,6 +1,8 @@
 ---
 title: Archiv
+description: Archiv
 ref: buildingarchive
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

@@ -1,6 +1,8 @@
 ---
 title: Finanzen - Gebäudeschichten
+description: Finanzen - Gebäudeschichten
 ref: building-financial-buildinglayers
+type: FAQ
 ---
 
 ## BERECHNUNGSMETHODE

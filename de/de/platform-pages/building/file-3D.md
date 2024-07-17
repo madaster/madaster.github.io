@@ -1,6 +1,8 @@
 ---
-title: BIM Viewer
+title: BIM-Viewer
+description: BIM-Viewer
 ref: building-viewer
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

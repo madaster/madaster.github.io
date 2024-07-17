@@ -1,6 +1,8 @@
 ---
 title: Finanzen - Material
+description: Finanzen - Material
 ref: building-financial-material
+type: FAQ
 ---
 
 ## BERECHNUNGSMETHODE

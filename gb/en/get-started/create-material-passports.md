@@ -10,7 +10,7 @@ Generate custom material passports for your objects.
 
 ## Create a Materials Passport 
 
-1. On object-level go to the General tab, click **Issue material passport**.
+1. On object-level go to the General tab, click **Generate Report**.
 2. Select the [type of passport](../knowledge-base/material-passports).
 3. Select the Language and KPIs and to be included in the included in the passport.
     * Mass

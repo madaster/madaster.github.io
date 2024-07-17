@@ -1,6 +1,8 @@
 ---
-title: Benutzer
+title: Benutzer (Objekt)
+description: Benutzer
 ref: building-users
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

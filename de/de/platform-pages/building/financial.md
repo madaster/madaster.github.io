@@ -1,6 +1,8 @@
 ---
 title: Finanziell
+description: Finanziell
 ref: building-financial
+type: FAQ
 ---
 
 ## DIE REGISTERKARTE "FINANZEN"

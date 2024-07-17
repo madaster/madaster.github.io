@@ -1,6 +1,8 @@
 ---
 title: Verwaltung
+description: Verwaltung
 ref: information
+type: FAQ
 redirect_from:
   - platform-pages/admin/classifications
   - platform-pages/admin/classification-view

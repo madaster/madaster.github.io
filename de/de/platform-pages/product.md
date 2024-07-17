@@ -1,6 +1,8 @@
 ---
 title: Produkt
+description: Produkt
 ref: product
+type: FAQ
 redirect_from:
   - platform-pages/view/product
   - platform-pages/view/product-searchcriteria

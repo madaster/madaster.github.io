@@ -1,6 +1,8 @@
 ---
 title: Quell-Datei
+description: Quell-Datei
 ref: building-file
+type: FAQ
 redirect_from:
   - platform-pages/building/file-detail
 ---

@@ -1,6 +1,8 @@
 ---
 title: Bauprozess
+description: Bauprozess
 ref: building-process
+type: FAQ
 redirect_from:
   - platform-pages/building/process-product
 ---

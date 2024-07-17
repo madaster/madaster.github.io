@@ -1,6 +1,8 @@
 ---
-title: BIM VIewer
+title: BIM-Viewer
+description: BIM-Viewer
 ref: building-viewer
+type: FAQ
 redirect_from:
   - platform-pages/building/file_3dviewer
 ---

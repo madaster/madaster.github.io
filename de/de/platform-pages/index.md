@@ -1,6 +1,8 @@
 ---
 title: FAQ
+description: FAQ
 ref: faq
+type: FAQ
 redirect_from:
   - platform-pages/home
 ---

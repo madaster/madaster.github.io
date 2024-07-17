@@ -1,23 +1,19 @@
 ---
-title: Benutzer
+title: Benutzer (Account)
+description: Benutzer
 ref: account-users
+type: FAQ
 redirect_from:
   - platform-pages/supplier/users
   - platform-pages/verifieddatabase/users
 ---
 
-## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Auf jeder Ordnerebene können verschiedene Benutzer mit drei verschiedenen Rollen- und Berechtigungsebenen eingeladen werden. Hier können Sie Benutzer einladen, oder Sie können einen sogenannten „API-Schlüssel“ generieren, um einem anderen System den Zugriff auf den/die Ordner als Benutzer zu ermöglichen.
+## Wie kann ich Benutzer zu einem Account hinzufügen oder entfernen?
+Je nach Abonnement verfügt jeder Account über eine bestimmte Anzahl aktiver Benutzer. 
+Für weitere Informationen zum Einrichten des Accounts folgen Sie den <a href="https://docs-t.madaster.com/de/de/get-started/set-up-your-account#benutzer-einladen-und-organisieren" target="_blank">Ersten Schritten</a>.
 
-Die Tabelle gibt Aufschluss darüber, wer Rechte an diesem Ordner, den Unterordnern und/oder Gebäuden hat. Sie können Benutzer, Rollen und Berechtigungen auswählen.
+## Welche Berechtigungen aber die unterschiedlichen Benutzertypen?
+Die Benutzer können mit bestimmten Rechten auf unterschiedlichen Ebenen hinzugefügt werden. Für nähere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/knowledge-base/users.html#benutzer-auf-accountebene-hinzuf%C3%BCgen" target="_blank">Wissensdatenbank - Benutzer</a>.
 
-## WIE KANN ICH BENUTZER LÖSCHEN ODER IHRE ROLLE UND BERECHTIGUNGEN ÄNDERN?
-Ein Benutzer kann durch Klicken auf das Papierkorb-Symbol rechts gelöscht werden. Die Rolle und die Berechtigungen eines Benutzers können durch Klicken auf das Stiftsymbol auf der rechten Seite geändert werden.
-
-## VERFÜGBARE ROLLEN UND BERECHTIGUNGEN AUF KONTOEBENE:
-
-Kontoebene| Administrator | Manager | Leser |
--|-|-|-|
-Ordnertypen erstellen                                    | Ja            | Nein    | Nein  |
-Ordner erstellen                                         | Ja            | Ja      | Nein  |
-
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.  

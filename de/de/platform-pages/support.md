@@ -1,6 +1,8 @@
 ---
-title: Unterstützung
+title: Support
+description: Support
 ref: support
+type: FAQ
 ---
 
 

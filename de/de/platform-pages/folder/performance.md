@@ -1,6 +1,8 @@
 ---
-title: Performance
+title: Performance (Ordner)
+description: Performance
 ref: folder-performance
+type: FAQ
 lang: de
 redirect-from:
   - platform-pages/folder/map
