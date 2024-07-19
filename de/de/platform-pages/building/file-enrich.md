@@ -1,6 +1,6 @@
 ---
 title: Anreichern
-description: Anreichern
+description: Objekt - Anreichern
 ref: building-file-enrich
 type: FAQ
 ---

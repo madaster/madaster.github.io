@@ -1,6 +1,6 @@
 ---
 title: Features
-description: Features
+description: Account - Features
 ref: account-features
 type: FAQ
 ---

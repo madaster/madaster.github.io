@@ -1,6 +1,6 @@
 ---
-title: Finanzen - Material
-description: Finanzen - Material
+title: Finanzen Material
+description: Objekt - Finanzen Material
 ref: building-financial-material
 type: FAQ
 ---

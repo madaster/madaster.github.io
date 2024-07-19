@@ -1,6 +1,6 @@
 ---
-title: Benutzer (Datenbank)
-description: Benutzer
+title: Benutzer
+description: Datenbank - Benutzer
 ref: database-users
 type: FAQ
 ---

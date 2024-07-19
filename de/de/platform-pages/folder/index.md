@@ -1,6 +1,6 @@
 --- 
-title: Ordner -  Allgemein
-description: Ordner
+title: Ordner
+description: Ordner -  Allgemein
 ref: folder
 type: FAQ
 --- 

@@ -1,6 +1,6 @@
 ---
-title: Benutzer (Objekt)
-description: Benutzer
+title: Benutzer
+description: Objekt - Benutzer
 ref: building-users
 type: FAQ
 ---

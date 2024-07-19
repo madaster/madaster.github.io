@@ -1,6 +1,6 @@
 ---
 title: Dateidetails
-description: Dateidetails
+description: Objekt - Dateidetails
 ref: building-file-details
 type: FAQ
 ---

@@ -1,6 +1,6 @@
 ---
 title: Materialien & Produkte
-description: Materialien & Produkte
+description: Account - Materialien & Produkte
 ref: account-materials
 type: FAQ
 redirect_from:

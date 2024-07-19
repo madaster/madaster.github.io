@@ -1,6 +1,6 @@
 ---
 title: Bauprozess
-description: Bauprozess
+description: Objekt - Bauprozess
 ref: building-process
 type: FAQ
 redirect_from:

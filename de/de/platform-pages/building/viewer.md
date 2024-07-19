@@ -1,6 +1,6 @@
 ---
 title: BIM-Viewer
-description: BIM-Viewer
+description: Objekt - BIM-Viewer
 ref: building-viewer
 type: FAQ
 redirect_from:

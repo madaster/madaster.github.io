@@ -1,6 +1,6 @@
 ---
-title: Benutzer (Account)
-description: Benutzer
+title: Benutzer
+description: Account - Benutzer
 ref: account-users
 type: FAQ
 redirect_from:

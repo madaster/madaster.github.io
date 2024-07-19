@@ -1,6 +1,6 @@
 ---
-title: Zirkularität und Demontierbarkeit
-description: Zirkularität
+title: Zirkularität 
+description: Objekt - Zirkularität und Demontierbarkeit
 ref: building-circularity
 type: FAQ
 redirect_from:

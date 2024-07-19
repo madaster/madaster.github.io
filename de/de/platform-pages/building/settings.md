@@ -1,6 +1,6 @@
 ---
 title: Upload-Einstellungen
-description: Upload-Einstellungen
+description: Objekt - Upload-Einstellungen
 ref: building-settings
 type: FAQ
 ---

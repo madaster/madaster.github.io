@@ -1,6 +1,6 @@
 ---
-title: Dossier (Account)
-description: Dossier
+title: Dossier
+description: Account - Dossier
 ref: account-files
 type: FAQ
 ---

@@ -1,6 +1,6 @@
 ---
 title: Abonnement
-description: Abonnement
+description: Account - Abonnement
 ref: account-subscriptions
 type: FAQ
 redirect_from:

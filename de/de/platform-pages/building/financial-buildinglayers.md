@@ -1,6 +1,6 @@
 ---
-title: Finanzen - Gebäudeschichten
-description: Finanzen - Gebäudeschichten
+title: Finanzen Gebäudeschichten
+description: Objekt - Finanzen Gebäudeschichten
 ref: building-financial-buildinglayers
 type: FAQ
 ---

@@ -1,6 +1,6 @@
 ---
 title: Masse
-description: Masse
+description: Objekt - Masse
 ref: building-performance-mass
 type: FAQ
 redirect_from:

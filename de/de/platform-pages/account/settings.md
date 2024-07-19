@@ -1,6 +1,6 @@
 ---
 title: Einstellungen
-description: Einstellungen
+description: Account - Einstellungen
 ref: account-settings
 type: FAQ
 redirect_from:

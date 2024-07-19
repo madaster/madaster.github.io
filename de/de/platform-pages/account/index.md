@@ -1,5 +1,5 @@
 ---
-title: Account - Allgemein
+title: Account
 description: Account - Allgemein
 ref: account
 type: FAQ

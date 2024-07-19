@@ -1,6 +1,6 @@
 ---
-title: Performance (Account)
-description: Performance
+title: Performance
+description: Account - Performance
 ref: account-performance
 type: FAQ
 lang: de

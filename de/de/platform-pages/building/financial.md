@@ -1,6 +1,6 @@
 ---
 title: Finanziell
-description: Finanziell
+description: Objekt - Finanziell
 ref: building-financial
 type: FAQ
 ---

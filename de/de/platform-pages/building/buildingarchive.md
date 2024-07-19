@@ -1,6 +1,6 @@
 ---
 title: Archiv
-description: Archiv
+description: Objekt - Archiv
 ref: buildingarchive
 type: FAQ
 ---

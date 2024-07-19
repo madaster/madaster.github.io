@@ -1,6 +1,6 @@
 ---
-title: Objekt - Allgemein
-description: Objekt
+title: Objekt
+description: Objekt - Allgemein
 ref: building
 type: FAQ
 redirect_from:

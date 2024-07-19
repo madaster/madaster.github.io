@@ -1,6 +1,6 @@
 ---
 title: ESG
-description: ESG
+description: Objekt - ESG
 ref: building-esg
 type: FAQ
 redirect_from:

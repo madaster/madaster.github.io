@@ -1,6 +1,6 @@
 ---
-title: Dossier (Objekt)
-description: Dossier
+title: Dossier
+description: Objekt - Dossier
 ref: building-files
 type: FAQ
 ---

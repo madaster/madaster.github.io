@@ -1,6 +1,6 @@
 ---
-title: Performance (Objekt)
-description: Performance
+title: Performance
+description: Objekt - Performance
 ref: building-performance-overview
 type: FAQ
 ---

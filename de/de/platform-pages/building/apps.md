@@ -1,6 +1,6 @@
 ---
 title: Apps
-description: Apps
+description: Objekt - Apps
 ref: building-apps
 type: FAQ
 ---

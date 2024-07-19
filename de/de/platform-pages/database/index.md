@@ -1,6 +1,6 @@
 ---
 title: Datenbank
-description: Datenbank
+description: Datenbank - Allgemein
 ref: database
 type: FAQ
 ---
