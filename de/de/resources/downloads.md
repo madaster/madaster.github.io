@@ -33,4 +33,4 @@ menubar: resources-nav
 
 ## EPEA
 
-<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien, die in der generischen EPEA-Datenbank enthalten sind.
+<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 25.06.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
