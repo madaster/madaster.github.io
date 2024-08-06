@@ -7,7 +7,7 @@ exclude: true
 
 <div class="overview-content">
   <div class="overview-content-wrapper">
-    <h1>Quellen</h1>
+    <h1>Downloads</h1>
     <a class="overview-link" href="./resources/release-notes">
       <div class="overview-item">
         <div class="resource-item-left">
