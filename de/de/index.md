@@ -21,12 +21,12 @@ exclude: true
 
 <br/>
 <h2 class="main-header">Willkommen bei Madaster!</h2>
-<br/>
-Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der Madaster-Plattform.
+
+Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der **Plattform Madaster**.
 
 Haben Sie noch Fragen? Sie erreichen uns per E-Mail <service@madaster.de> oder über unsere Servicehotline [+49 30 235 962 051](tel:+4930235962051).<br/>Die Hotline ist **montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr** erreichbar.
 
-Mehr über <a href="https://madaster.de/impressum/" target="_blank">Madaster Germany</a> erfahren Sie auf unserer Webseite unter <a href="https://madaster.de/impressum/" target="_blank">https://madaster.de</a>
+Mehr über die **Madaster Germany GmbH** erfahren Sie auf unserer Webseite unter <a href="https://madaster.de" target="_blank">https://madaster.de</a>.
 
 <section class="category-tiles flex-column-center">
   <ul class="category-tiles-wrapper">
