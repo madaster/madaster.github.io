@@ -146,21 +146,7 @@ The release notification will now be permanently removed once it has been dismis
 * build number: 26551
 * Release date: 1st of April 2024
 
-## Internal release notes ##
-
-### Track and Trace Premium Tier ###
-
-Additional producer "premium" tier has been added which included Track and Trace by default.  
-
-### Updates to Content Management within Madaster
-
-For employees with access, at the bottom of the left sidebar is the "Content Management" button. Within Content management, Madaster Employees that have been given access will be able to change the names of building usages as well as titles and subtitles in the ESG tabs. Building usages have been grouped to reduce the size of the list.
-
-![The content management button in the sidebar](/assets/images/releasenotes/202402-9816.png)
-
-## External release notes ##
-
-### MPG Calculation for Dutch  Buildings ###
+<!-- ### MPG Calculation for Dutch  Buildings ###
 
 It is now possible to download a complete MPG report for a building. It is found in through the "issue material passport" button.
 
@@ -171,13 +157,13 @@ In order to be able to export a MPG passport, ifc elements on the building need 
 
 Within the enrich screen, it is then possible to compare and sort according to MKI scores of applied products from the NMD database
 
-![The MPG Enrich Screen](/assets/images/releasenotes/202402-9724.png)
+![The MPG Enrich Screen](/assets/images/releasenotes/202402-9724.png) -->
 
 ### Scaling ###
 
 The database now has support for scalable products, so now mass can be calculated according to the scalable dimensions that are set up.
 
-There are multiple ways a scaling of a product can be defined depdending on the specific needs of a particular product. For instance, it can be a wall whose thickness increases with an increase in area, or a pipe that increases in diameter with an increase in length.
+There are multiple way a scaling of a product can be defined depending on the product. For instnace, it can be a wall whose thickness increases with an increase in area, or a pipe that increases in diameter with an increase in length.
 
 Scalable products can be applied as new products or applied to existing products. Within the database, when "new product" is selected, or "edit" is selected for an existing product, on the right side of the product information form there is now an option to check whether a product is "scalable" or not. 
 
@@ -187,7 +173,7 @@ When "scalable" is selected, there will be more fields visible where the scalabi
 
 ![The Scaling formula](/assets/images/releasenotes/202402-9876-2.png)
 
-Once functional unit has been defined, the scaling unit can be defined, with X in the below being the functional unit.
+Once functional unit has been defined, the scaling unit can be defined, with X in the below being the scalable dimension.
 
 Linear scaling has the formula: (a * X + c) , where a and c need to be defined
 
@@ -297,26 +283,6 @@ Madaster now supports ifcmaterialproperties
 
 * build number: 25412
 * Releasedate: 8th of February 2024
-
-## Internal release notes ##
-
-### Activate on-demand feature as super user ###
-
-As a superuser it is now possible to turn on on-demand features:
-
-![as a super user, on-demand feature can be activated](/assets/images/releasenotes/202401-9691.png)
-*screenshot of the feature screen when logged in as a superuser. You can now turn on the features and the red text is not shown to superusers*
-
-### Docs 2.0 ###
-
-This release docs 2.0 will go live. Development will supply the documentation in English.
-
-## Country-specific Release notes ##
-
-* The DGNB label has been added to the building form for Germany and Austria
-* The building service phase has been added to the building form for Austria
-
-## External release notes ##
 
 ### Save viewpoint in 3D-viewer ###
 
