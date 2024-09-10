@@ -14,8 +14,6 @@ This page contains the release notes.
 * Build number: 30163
 * Release date: 9th of September 2024
 
-## External ##
-
 ### Changes to benchmarking ###
 
 It is now possible to benchmark your designs and archives from the main building as well as viewing the impacts side by side from the environmental screen.
