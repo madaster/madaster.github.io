@@ -1,6 +1,8 @@
 ---
 title: ESG
+description: Objekt - ESG
 ref: building-esg
+type: FAQ
 redirect_from:
   - platform-pages/account/esg
   - platform-pages/folder/esg

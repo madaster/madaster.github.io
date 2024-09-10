@@ -1,6 +1,8 @@
 ---
-title: Datenbank - Teilen
+title: Datenbank teilen
+description: Datenbank - Teilen
 ref: database-availabilities
+type: FAQ
 ---
 
 ## Welche Informationen werden hier angezeigt??

@@ -25,7 +25,7 @@ _Certains documents ne sont pas encore traduits en uniquement disponibles en Ang
 
 ### Manuels et autres informations spécifiques BIM.
 
-  * Télécharger la <a href="/files/de/Epea_Generic.xlsx" target="_blank">Liste matériel Madaster</a> - affiche les matériaux en français et en anglais qui sont inclus par défaut dans la base de données Madaster, ainsi que les UID des matériaux.
+  * Télécharger la <a href="/files/epea/EPEA Generic - Schweiz 2024-6-25.xlsx" target="_blank">Liste matériel Madaster</a> - affiche les matériaux en français et en anglais qui sont inclus par défaut dans la base de données Madaster, ainsi que les UID des matériaux.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC guidelines_EN.pdf" target="_blank">Madaster IFC-guidelines</a> - décrit de manière compacte les principales indications pour la création d'un modèle BIM.
  * Liser le <a href="/files/en/Madaster BIM - IFC import process.pdf" target="_blank">Madaster BIM IFC paramètres</a> - décrit l'importation de fichiers IFC dans Madaster.
  * Liser le <a href="/files/ch/en/Madaster BIM - IFC Export EN.pdf" target="_blank">Madaster BIM IFC export</a> – décrit brièvement les étapes de l'exportation d'un fichier IFC.

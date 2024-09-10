@@ -1,6 +1,8 @@
 ---
 title: Umwelt
+description: Objekt - Umwelt
 ref: building-environmental
+type: FAQ
 ---
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
 Die gesamten Umweltauswirkungen (A1-A3) und die Umweltauswirkungen pro m<sup>2</sup> (A1-A3) werden angezeigt. Wird eine Benchmark ausgewählt und sind entsprechende Informationen verfügbar, wird das Gebäude mit anderen verglichen. Unbekannte Elemente werden angezeigt, damit sie damit sie angepasst und in die Berechnungen einbezogen werden können. Mit Hilfe der Dropdown-Listen können die Umwelt-Indikatoren nach Gesamtmenge, Gebäudeschicht und Material/Produkt angezeigt werden. 
@@ -17,7 +19,7 @@ __*A4-A5 Errichtungsphase*__: Umfasst den Transport zur Baustelle und die Montag
 __*B1-B5 Nutzungsphase*__: Umfasst die Nutzung, Wartung, Reparatur, den Austausch und die Aufarbeitung von Materialien und Produkten innerhalb eines Gebäudes.
 
 __*B4 Ersatz*__: Berücksichtigt die Lebensdauer der verbauten Produkte im Verhältnis zur Lebensdauer des gesamten Gebäudes. Die Werte der Umweltwirkfaktoren eines Produktes, welches während der Lebensdauer des Gebäudes voraussichtlich mindestens einmal ersetzt wird, werden nun zusätzlich in den Berechnungen für die Nutzungsphase berücksichtigt.
-(Lebensdauer des Gebäudes/funktionale Lebensdauer des Produkts, aufgerundet auf ganze Zahl und multipliziert mit der Summe aus A1-A3, A4-A5, B1-B3 und C)
+(Lebensdauer des Gebäudes/funktionale Lebensdauer des Produkts -1, gerundet auf ganze Zahl und multipliziert mit der Summe aus A1-A3, A4-A5, B1-B3 und C des Produktes)
 
 __*C1-C4 Entsorgungsphase*__: Umfasst den Rückbau eines Gebäudes sowie den Transport, die Abfallverarbeitung und die Entsorgung seiner Materialien und Produkte.
 

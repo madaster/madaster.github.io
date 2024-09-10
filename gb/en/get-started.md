@@ -38,7 +38,7 @@ exclude: true
         </div>
       </div>
     </a>
-      <a class="overview-link" href="./get-started/enrich-objects-with-material-and-product-databases">
+    <a class="overview-link" href="./get-started/enrich-objects-with-material-and-product-databases">
       <div class="overview-item">
         <div class="resource-item-left">
           <img class="resource-item-image" src="/assets/images/enrich-objects-with-material-and-product-databases.png" alt="A high grey server with a big plant next to it.">
@@ -49,6 +49,21 @@ exclude: true
           </h3>
           <p>
             Enrich source files with databases, troubleshoot elements not enriched, and refresh source files
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./get-started/create-your-own-databases-with-custom-materials-and-products">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/create-your-own-databases-with-custom-materials-and-products.png" alt="A black server with two plant around it.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Create your own databases with custom materials and products
+          </h3>
+          <p>
+            Set up databases, create materials and products
           </p>
         </div>
       </div>
@@ -94,21 +109,6 @@ exclude: true
           </h3>
           <p>
             Gain insights into a portfolio’s mass, circularity and detachability, environmental impact, and financial residual value
-          </p>
-        </div>
-      </div>
-    </a>
-    <a class="overview-link" href="./get-started/create-your-own-databases-with-custom-materials-and-products">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/create-your-own-databases-with-custom-materials-and-products.png" alt="A black server with two plant around it.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Create your own databases with custom materials and products
-          </h3>
-          <p>
-            Set up databases, create materials and products
           </p>
         </div>
       </div>

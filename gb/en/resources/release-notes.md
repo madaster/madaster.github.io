@@ -8,6 +8,201 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+
+## Release notes 2024.5 ##
+
+* Build number: 30163
+* Release date: 9th of September 2024
+
+## External ##
+
+### Changes to benchmarking ###
+
+It is now possible to benchmark your designs and archives from the main building as well as viewing the impacts side by side from the environmental screen.
+
+First you need to set your benchmark:
+
+<figure><img src="/assets/images/releasenotes/202405-10500-1.png" alt="Set your benchmark"><figcaption>Set your benchmark</figcaption></figure>
+
+There you can choose the designs or archives you want to benchmark against. It is possible to select multiple:
+
+<figure><img src="/assets/images/releasenotes/202405-10500-2.png" alt="Choose your buildings for benchmarking"><figcaption>Choose your buildings for benchmarking</figcaption></figure>
+
+Once saved a new card will appear as well as multiple bars in the graph to be able to do a comparison:
+
+<figure><img src="/assets/images/releasenotes/202405-10500-3.png" alt="Results in the screen after selecting the buildings"><figcaption>Results in the screen after selecting the buildings</figcaption></figure>
+
+Note that you select the compliance and phases for different comparisons and that it is also possible to do this comparison from the design or archive. It is also possible to compare per shearing layer or classification:
+
+<figure><img src="/assets/images/releasenotes/202405-10500-4.png" alt="Results when selecting shearing layers"><figcaption>Results when selecting shearing layers</figcaption></figure>
+
+### Additional reporting options ###
+
+#### EU Taxonomy ####
+
+It is now possible to report on the EU Taxonomy for the substantial contribution to the circular economy. This is meant for the economic activity 'new construction'. This is a preview feature that is not enabled by default, but can be requested. If the feature is active the reporting option becomes available at the ESG tab:
+
+<figure><img src="/assets/images/releasenotes/202405-10241-1.png" alt="EU Taxonomy reporting option at ESG tab"><figcaption>EU Taxonomy reporting option at ESG tab</figcaption></figure>
+
+Once selected and the subject and indicator are selected the report will be shown:
+
+<figure><img src="/assets/images/releasenotes/202405-10241-2.png" alt="EU Taxonomy report"><figcaption>EU Taxonomy report</figcaption></figure>
+
+For a full description of the indicators we recommend looking at the EU Taxonomy compass. Note that for a number of indicators it is possible to use the Level(s) reports to show your alignment. The option to generate these reports have been added to the screen.
+
+#### Level(s) ####
+
+This release we've made a number of changes and additions to the Level(s) reports:
+
+* In the Level(s) 2.2 report the construction waste is now also filled
+* The Level(s) 2.4 report has been added
+
+### Smaller selection of environmental KPI's for the 15978 LCA analysis ###
+
+Due to performance reasons we have limited the set of KPI's which are shown in the environmental screen when the 15978 LCA methodology is chosen.
+
+### Changes to uploading a new or a new version of a source file ###
+
+#### New source file ####
+
+When uploading a new source file it is now possible to select a preferred compliance for matching. This makes it possible to for example only match on A2 EPD's instead of any EPD:
+
+<figure><img src="/assets/images/releasenotes/202405-9909-1.png" alt="Choosing A1 or A2 for matching"><figcaption>Choosing A1 or A2 for matching</figcaption></figure>
+
+#### New version of a source file ####
+
+When uploading a new version of a source file, for example from the dossier page:
+
+<figure><img src="/assets/images/releasenotes/202405-10506-1.png" alt="Starting adding a new version of a source file"><figcaption>Starting adding a new version of a source file</figcaption></figure>
+
+A number of changes have been made. First, there are more options to make sure information from the earlier version can be integrated with the new version:
+
+<figure><img src="/assets/images/releasenotes/202405-10506-2.png" alt="New options in the screen for uploading a new version of a source file"><figcaption>New options in the screen for uploading a new version of a source file</figcaption></figure>
+
+* Manually entered Phase and classification information will now be copied from the previous version when selecting "copy manually edited properties"
+* Manual circularity information can now be copied from the previous version when selecting "copy circularity and detachability"
+* It is now possible to copy the building numbers when selecting "Copy building numbers"
+* It is now possible to copy the waste codes when selecting "Copy waste codes"
+* Elements that have been split manually can also be copied when selecting "Copy split elements", but not in case the original parent element has been removed in the new file.
+
+Secondly, if in the original upload a compliance for matching was selected this will be shown as well. This is only informative, it is not possible to change your matching compliance when uploading a new version.
+
+Also, when uploading a new version it is now possible to use an upload preset.
+
+### Changes to enrichment ###
+
+In the enrichment screen we have changed a number of filters so that it is possible to select multiple values:
+
+<figure><img src="/assets/images/releasenotes/202405-9516-1.png" alt="Multiple values chosen at the filter for product"><figcaption>Multiple values chosen at the filter for product</figcaption></figure>
+
+This makes the filter options more powerful. Most filters have been changed to accomodate for this.
+
+Furthermore; the unit 'weight' was added as a filter option.
+
+When having an element in the phase 'new' or 'demolished' it is possible to add a European Waste code. These have been moved to a separate tab when editing the element:
+
+<figure><img src="/assets/images/releasenotes/202405-10459-1.png" alt="Waste codes in new tab"><figcaption>Waste codes in new tab</figcaption></figure>
+
+We have added the IFC properties when viewing an element in enrichment:
+
+<figure><img src="/assets/images/releasenotes/202405-10483-1.png" alt="The IFC properties as shown on an element in enrichment"><figcaption>The IFC properties as shown on an element in enrichment</figcaption></figure>
+
+### Designs and archive accessible from building overview ###
+
+Archives and designs have been made accessible from the general tab on a building. It was already possible to access these either through the navigation or from the account or folder. It has been added on two places:
+
+* Through the toolbar options where it is also possible to create the design or archive:
+
+<figure><img src="/assets/images/releasenotes/202405-9826-1.png" alt="Option to navigate to the archives from the toolbar"><figcaption>Option to navigate to the archives from the toolbar</figcaption></figure>
+
+<figure><img src="/assets/images/releasenotes/202405-9826-2.png" alt="Option to navigate to the designs from the toolbar"><figcaption>Option to navigate to the designs from the toolbar</figcaption></figure>
+
+Note that since there is a maximum of three designs the options to create one will disappear once there are already three.
+
+* On the bottom of the general tab on the building:
+
+<figure><img src="/assets/images/releasenotes/202405-9826-3.png" alt="Archives and designs on the bottom of the general tab"><figcaption>Archives and designs on the bottom of the general tab</figcaption></figure>
+
+### Changes to the 3D viewer ###
+
+* When showing the properties of an element in the 3D viewer the classification code is now visible:
+
+<figure><img src="/assets/images/releasenotes/202405-10495-1.png" alt="Classification in the 3D viewer"><figcaption>Classification in the 3D viewer</figcaption></figure>
+
+* When using the 3D viewer from the environmental or circularity tabs more interaction options have been added:
+
+<figure><img src="/assets/images/releasenotes/202405-10532-1.png" alt="New options from env or circ in the 3D viewer"><figcaption>New options from env or circ in the 3D viewer</figcaption></figure>
+
+Which are:
+* Toggle axis
+* Slice object
+* X-ray object
+
+### Other changes ###
+
+* When uploading a picture or logo on a producer database it will now be shown in the overview screen of the database and from the overview screen of all the databases
+* The exported graphic when using the button in the mass or environmental tab has been improved
+
+<figure><img src="/assets/images/releasenotes/202405-10531-1.png" alt="Button to export the graph as a picture"><figcaption>Button to export the graph as a picture</figcaption></figure>
+
+### Bugfixes ###
+
+* When using certain zoom levels on the finance tab a graphical glitch resulting in a loop could happen, this has been fixed.
+* The unit in the bars in the graph in the environmental tab could be different from the unit shown on the x-axis of the graph. This was fixed.
+* Calculating a building with a large amount of unmapped items could break the calculation process, for which we made a fix.
+
+## Release notes 2024.4 ##
+
+### Changes to selection in the environmental screen ###
+
+It is now possible to select a preferred scheme, like the MPG or DGNB, directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
+
+![A building where multiple schemes are available](/assets/images/releasenotes/202404-10108-1.png)
+
+In addition, the phases have become multiselect, wich makes it possible to select and combine exacly the phases that you want to analyze. By default the selection is what the chosen scheme would normally require for reporting.
+
+![The option to choose your phases](/assets/images/releasenotes/202404-10108-2.png)
+
+### Level(s) 2.2 ###
+
+We have added the option to generate the Level(s) 2.2 report. This report is available if the Level(s) feature is activated on your account. It is a report of the construction and demolition waste of a project and similar to other Level(s) reports can be used to align with the EU Taxonomy. For automatic filling of the report the project requires waste information to be available in the project.
+
+![The screen where a Level(2) 2.2 report can be generated](/assets/images/releasenotes/202404-9914.png)
+
+### Changes to generate material passport ###
+
+The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB, the RICS Carbon Assessment or the MPG report.
+
+![An example of the new generate report options](/assets/images/releasenotes/202404-10111.png)
+
+### Waste codes in excel ###
+
+Last release we introduced the option to add waste information in your digital building files. In this release we've added the lists to the excel export of your building so that they are easier to see and use. This includes the European Waste Codes, the nature of the waste and the end of life scenarios.
+
+![The new sheet in the excel building export](/assets/images/releasenotes/202404-10232.png)
+
+### End of Life scenarios in EPDs ###
+
+Sometimes in EPD databases that we use there are multiple end of life scenarios defined. In order to accomodate for that we've added the different scenarios as separate products in Madaster where we could find them. By default the first scenario will be chosen for the matching.
+
+![An example of multiple end of life scenarios in the Okobaudat database](/assets/images/releasenotes/202404-10048.png)
+
+### Transferring buildings ###
+
+Transferring buildings can now only be done within the same country.
+
+### Country specific release items ###
+
+### United Kingdom ###
+
+* This release we've update our RICS functionality to be compliant with RICS v2. The report is available through the generate report option on a building if the feature is active.
+* We have added a field on the building for the UPRN (Unique Property Reference Number).
+
+### Germany ###
+
+* Now the CRREM report in Germany looks specifically for the Gross internal area for its calculations.
+* The Gebäuderessourcenpass has been updated so that is filled in more with data available in the platform.
+
 ## Release notes 2024.3 ##
 
 ### Waste ###

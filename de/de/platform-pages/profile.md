@@ -1,6 +1,8 @@
 ---
 title: Einstellungen
+description: Einstellungen
 ref: profile
+type: FAQ
 ---
 
 ## EINSTELLUNGEN

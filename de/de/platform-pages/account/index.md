@@ -1,6 +1,8 @@
 ---
-title: Account - Allgemein
+title: Account
+description: Account - Allgemein
 ref: account
+type: FAQ
 redirect_from:
   - platform-pages/account/datasettings
   - platform-pages/account/edit

@@ -1,6 +1,8 @@
 ---
 title: Masse
+description: Objekt - Masse
 ref: building-performance-mass
+type: FAQ
 redirect_from:
   - platform-pages/building/level-product
 ---

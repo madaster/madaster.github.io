@@ -1,6 +1,8 @@
 ---
 title: Resultate
+description: Objekt - Resultate
 ref: building-file-result
+type: FAQ
 ---
 
 ## ERGEBNISSE NACH DER ANREICHERUNG

@@ -1,19 +1,11 @@
 <footer class="footer">
-    <div class="container">
-        
-        {% if site.footer_menu %}
-        <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
-                <div>
-                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+    <div class="footer-content">
+        <p class="footer-text">© 2024 Madaster</p>
+        {% if page.country=='de' %}
+        <span>|</span><a href="https://madaster.de/impressum" target="_blank" class="footer-text">Impressum</a>
         {% endif %}
-        <div class="content is-small has-text-centered madaster-footer-text">
-            <p class="footer-text">© 2024 Madaster</p>
-        </div>
+        {% if page.country=='at' %}
+        <span>|</span><a href="https://madaster.at/impressum" target="_blank" class="footer-text">Impressum</a>
+        {% endif %}
     </div>
 </footer>

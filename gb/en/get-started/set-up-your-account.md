@@ -6,7 +6,7 @@ type: Get Started
 menubar: get-started-nav
 ---
 
-Create your account, structure your account, invite team members, customize your account settings, and manage your subscription
+Create your account, structure your account, invite team members, customize your account settings, and manage your subscription.
 
 ## Create your account
 

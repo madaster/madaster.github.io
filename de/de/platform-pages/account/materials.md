@@ -1,37 +1,18 @@
 ---
-title: Materialien und Produkte
+title: Materialien & Produkte
+description: Account - Materialien & Produkte
 ref: account-materials
+type: FAQ
 redirect_from:
   - platform-pages/account/materials-old
 ---
 
-## WELCHE INFORMATIONEN KANN ICH HIER FINDEN?
-Auf dieser Seite finden Sie alle Materialien und Produkte, die in der Madaster-Datenbank und anderen öffentlich zugänglichen Datenbanken enthalten sind und alle Produkte, die Sie selbst auf der Plattform eingegeben haben (durch den Prozess; Anreicherung einer Quelldatei). 
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
+Auf dieser Seite finden Sie alle Materialien und Produkte, die in den Datenbanken der Madaster-Plattform bereitgestellt werden. 
+</br>Für detailliertere Informationen zu den Datenbanken auf der Plattform, besuchen Sie die <a href="https://docs-t.madaster.com/de/de/knowledge-base/databases" target="_blank">Wissensdatenbank - Datenbanken</a>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KylieVoDaZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Wie kann ich individuelle Materialien/Produkte einrichten?
+Für weitere Informationen zum Einrichten von individuellen Materialien/Produkten in einer eigenen Datenbank, folgen Sie unseren <a href="https://docs-t.madaster.com/de/de/get-started/create-your-own-databases-with-custom-materials-and-products" target="_blank">Ersten Schritten</a>.
 
-Unter dem geschlossenen Filter “Quelle” auf der linken Seite finden Sie eine Liste der verfügbaren Datenbanken mit Materialien und Produkten, auf die Sie Zugriff haben:
-
-- Alle Materialien und Produkte aus der Madaster-Datenbank können durch Auswahl von “Madaster” im Filter gefunden werden. Ihre eigenen Materialien und Produkte können durch Filtern nach dem Namen Ihres eigenen Kontos gefunden werden. Andere Benutzer außerhalb Ihres Kontos können die von Ihnen hinzugefügten Materialien nicht sehen, sie können nur sehen, was sie selbst hinzugefügt haben. 
-- Wenn Sie sich einen Überblick über die Materialien und Produkte verschaffen möchten, die in Ihrem Konto hinzugefügt wurden, können Sie über das Filtersymbol eine Auswahl der gewünschten Daten treffen. Die Madaster-Datenbank ist für jeden Benutzer sichtbar. Diese Daten können nicht geändert werden. Hinzugefügte Materialien und Produkte können bearbeitet werden, dies hängt jedoch von den Rechten des Benutzers ab.
-- Wenn Sie nur Materialien in der Übersicht sehen möchten, können Sie den Filter “Produktart” öffnen. Wenn Sie dann unten “Material” auswählen, sehen Sie nur die Materialien, die auf der Madaster-Plattform bekannt sind. 
-
-## HAUPTBILDSCHIRM
-In diesem Teil des Bildschirms werden alle Materialien und Produkte angezeigt, die den Such- oder Filterkriterien entsprechen. Die Spalten zeigen den Namen, den Produktcode, den Produkttyp bzw. den Lieferanten an. Schließlich gibt es zwei Symbole: ein "Stift"-Symbol, um das Material oder Produkt zu ändern, ein Pfeilsymbol, um Informationen über das Material oder Produkt anzuzeigen.
-
-## WIE KANN ICH MATERIAL-/PRODUKTDATEN ÄNDERN? 
-Wenn Sie Rechte zum Bearbeiten von Materialien und Produkten haben, sehen Sie am Ende der Zeile, hinter dem Material im Hauptbildschirm, ein "Stift"-Symbol. Wenn Sie auf dieses Symbol klicken, gelangen Sie auf den Bildschirm des betreffenden Materials oder Produkts, um die Daten zu bearbeiten. Ändern Sie die Daten, die Sie ändern möchten. Was bei einem Produkt nicht geändert werden kann, ist der Typ des Produkts. Klicken Sie auf die Schaltfläche "Speichern", um die Daten zu bearbeiten und zur Übersicht zurückzukehren.
-
-## MATERIAL- & PRODUKTTYPEN 
-Innerhalb von Madaster haben wir neben den Materialien vier Arten von Produkten: Volumen, Fläche, Länge und Stückzahl von Produkten. Wenn Sie nicht genau wissen, welche Art von Produkt Sie suchen, können Sie alle vier Typen auswählen, in diesem Fall werden alle Produkte angezeigt.
-
-## WIE KANN ICH EIN NEUES PRODUKT HINZUFÜGEN?
-Es gibt zwei Möglichkeiten, ein neues Produkt hinzuzufügen:
-
-1.  Unter der Registerkarte “Materialien & Produkte” auf der Verwaltungsseite in der Leiste unter dem Namen der Registerkarte gibt es die Schaltfläche “Produkt hinzufügen”.
-
-2.  Es ist auch möglich, ein neues Produkt in der Erweiterungsansicht hinzuzufügen. Sie können auf diesen Bildschirm zugreifen, indem Sie auf die Schaltfläche “Details anzeigen” hinter einer Quelldatei klicken. Anschließend können Sie auf “Erweitern” gehen. Hier sehen Sie eine Übersicht über alle Elemente aus Ihrer Quelldatei. Wenn das Element noch nicht verknüpft ist, können Sie auf das Symbol “Verknüpfen” klicken. Es erscheint ein Bildschirm mit der Überschrift “Neu erstellen”. Klicken Sie auf die Schaltfläche “Produkt” darunter. Wenn das Element bereits verbunden ist, können Sie auf die drei Punkte am Ende der Linie und dann auf “Erneut verbinden” klicken. Es erscheint der gleiche Bildschirm wie oben beschrieben.
-
-Beide Optionen führen Sie zum Bildschirm, um ein neues Produkt hinzuzufügen. Füllen Sie alle Informationen über das Produkt aus, wobei die mit * markierten Felder Pflichtfelder sind. Es ist möglich, den Namen und die Beschreibung in sechs Sprachen einzugeben. Die Eingabe des Namens ist nur in der auf der Plattform gewählten Sprache erforderlich. Wurde in den anderen Sprachen kein Name und/oder keine Beschreibung eingegeben, wird der Name und/oder die Beschreibung in die anderen Sprachen kopiert. Geben Sie im Feld “Produkttyp” an, ob es sich um ein Volumen-, ein Flächen-, ein Längenprodukt oder ein Stück eines Produkts handelt (ein Volumenprodukt kann beispielsweise ein Stahlbalken und ein Stück eines Produkts eine Klimaanlage sein). Bitte beachten Sie, dass das Feld “Produkttyp” nicht geändert werden kann, nachdem das Produkt gespeichert wurde. Nachdem Sie alle Informationen am Ende der Seite eingegeben haben, klicken Sie auf die Schaltfläche “Speichern”. Das Produkt wird anschließend in der Datenbank angelegt und befindet sich nun in der Material- und Produktübersicht.
-
-Sie gelangen auf den Bildschirm, auf dem Sie weitere Daten zum gerade hinzugefügten Produkt angeben können. Durch Durchlaufen der verschiedenen Registerkarten können Sie zusätzliche Daten eingeben, z. B. in das Feld “Suchkriterien”, “Produktzusammensetzung” und “Finanzinformationen”.
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

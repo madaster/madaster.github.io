@@ -23,11 +23,11 @@ The MCI assesses a building according to the origin as well as the end of life o
 Correction factors:
 
   Based on the 2 values above, a Circularity Indicator (CI) is calculated.
-  However, the CI does not account for the amount of missing information in the building. Therefore, a correction factor is applied to the CI, penalizing the percentage of building elements with an unknown mass and resulting in Madaster Circularity Indicator (MCI).
+  However, the CI does not account for the amount of missing information in the building or on chosen products. Therefore, two correction factors are applied to the CI, penalizing the percentage of building elements with an unknown mass and penalizing the percentage of known mass with no circularity information and resulting in Madaster Circularity Indicator (MCI).
 
 MCI in practice: 
-  * In practice, buildings will have MCI scores ranging from 10-100%. A building that is built entirely from virgin/unsustainably produced materials, that ends up primarily as waste, is a ‘linear’ building with a low MCI score of 10%.
-  * A building that consists entirely of recycled/reused materials, and uses products that can also be recycled/reused in the future is a ‘circular’ building with a maximum MCI score of 100%.
+  * In practice, buildings will have CI scores ranging from 10-100%. A building that is built entirely from virgin/unsustainably produced materials, that ends up primarily as waste, is a ‘linear’ building with a low CI score of 10%.
+  * A building that consists entirely of recycled/reused materials, and uses products that can also be recycled/reused in the future is a ‘circular’ building with a maximum CI score of 100%.
 
 
 ### Scope
@@ -61,7 +61,9 @@ $$
   | $L$ |Potential functional lifecycle of the product (years)|
   | $L_{av}$	|Industry-average functional lifecycle of the product (years)|
 
-  > No data is available for $L_{av}$ . In previous versions of the MCI, Madaster used the average lifespan of the layer the product was used instead, but this approach was not giving satisfactiry results and has been abandonned. The current version of the MCI only uses $F(X)=0.9$ 
+  > No data is available for $L_{av}$ . In previous versions of the MCI, Madaster used the average lifespan of the layer the product instead, but this approach was not giving satisfactory results and has been abandonned. 
+  
+  > The current version of the MCI only uses $F(X)=0.9$ 
 
 
 #### Weighting on Mass

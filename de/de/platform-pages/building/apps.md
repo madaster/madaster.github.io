@@ -1,5 +1,8 @@
 ---
 title: Apps
+description: Objekt - Apps
 ref: building-apps
+type: FAQ
 ---
-## FUNKTION NICHT AKTIV
+
+## Veraltete Seite! (nicht mehr eingebunden)

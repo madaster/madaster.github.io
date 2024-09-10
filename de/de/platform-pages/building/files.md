@@ -1,6 +1,8 @@
 ---
-title: Datei
+title: Dossier
+description: Objekt - Dossier
 ref: building-files
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

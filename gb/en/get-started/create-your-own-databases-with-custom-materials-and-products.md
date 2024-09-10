@@ -70,13 +70,13 @@ Madaster distinguishes between five different types of products, namely: volume,
 1. Press Save
 1. Products can be edited, deleted, copied and viewed in the database.
 
-## Duplicate and Edit Products
+## Duplicate and edit products
 
 1. Select a Product in the database
 1. Press Duplicate Element
 1. Edit Material or Product accordingly
 
-## Organize Databases
+## Organize databases
 
 From the Database tab in you database, you can see a table of all products and materials in the database. Each product can be expanded by clicking the arrow down icon <iconify-icon inline icon='mdi-chevron-down'/> at the end of the product's row.
 In the expansion the specific information for the product is visible. At the end of the product's row, there are icons for editing <iconify-icon inline icon='mdi-pencil-outline'/>, deleting <iconify-icon inline icon='mdi-delete'/>, adding a new version to <iconify-icon inline icon='mdi-content-duplicate'/>, and viewing the product <iconify-icon inline icon='mdi-arrow-right-circle-outline'/>.
@@ -84,3 +84,5 @@ In the expansion the specific information for the product is visible. At the end
 ## Deleting your database
 
 A database can only be deleted when there are no more products or materials registered to it. Once all the products are deleted from a database, you can click **Delete database** from the upper toolbar. Click **Yes** on the confirmation popup if you are sure and the database will be deleted. 
+
+<a class="next-button" href="../get-started/object-insights-and-performance">Next step: Object Insights and Performance</a>

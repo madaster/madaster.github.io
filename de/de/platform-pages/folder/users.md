@@ -1,6 +1,8 @@
 ---
 title: Benutzer
+description: Ordner -  Benutzer
 ref: folder-users
+type: FAQ
 ---
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?

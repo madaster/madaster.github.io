@@ -1,6 +1,8 @@
 ---
 title: Datenbank
+description: Datenbank - Allgemein
 ref: database
+type: FAQ
 ---
 
 ## What information is shown here?
@@ -49,11 +51,11 @@ Unter dem geschlossenen Filter „Quelle“ am linken Rand finden Sie eine Liste
 - Alle Materialien und Produkte aus der Madaster-Datenbank finden Sie, wenn Sie im Filter "Madaster" auswählen. Die Madaster-Datenbank ist für jeden Benutzer sichtbar. Diese Daten können nicht geändert werden. Selbst hinzugefügte Materialien und Produkte können bearbeitet werden, dies ist jedoch abhängig von den Rechten des Benutzers.
 - Materialien und Produkte aus anderen Quellen finden Sie, indem Sie im Filter die entsprechende Quelle oder den Lieferanten auswählen.
 
-### Art des Materials/Produkts ###
+### Art des Materials/Produkts
 Bei Madaster gibt es neben den Materialien vier Produkttypen: Volumen-, Oberflächen-, Längen- und Stückprodukte. Wenn Sie nicht genau wissen, nach welchem Produkttyp Sie suchen, können Sie alle vier Typen auswählen. In diesem Fall werden alle Produkte angezeigt. Wenn Sie nur Materialien in der Übersicht sehen wollen, können Sie den Filter „Produkttyp“ öffnen. Wenn Sie dann unten „Materialien“ auswählen, sehen Sie nur die Materialien, die innerhalb der Madaster Plattform bekannt sind.
 
-### Hauptbildschirm ###
+### Hauptbildschirm
 Dieser Teil des Bildschirms zeigt alle Materialien und Produkte an, die den Such- oder Filterkriterien entsprechen. Die Spalten zeigen den Namen, den Produktcode, den Produkttyp bzw. den Lieferanten an. Schließlich gibt es zwei Icons: ein „Stift“-Symbol, um das Material oder Produkt zu ändern, ein Pfeil-Symbol, um Informationen über das Material oder Produkt anzuzeigen.
 
-### Wie kann ich Material-/Produktdaten ändern? ###
+### Wie kann ich Material-/Produktdaten ändern?
 Wenn Sie Rechte zum Bearbeiten von Materialien und Produkten haben, sehen Sie am Ende der Zeile hinter dem Material im Hauptbildschirm ein „Stift“-Symbol. Wenn Sie auf dieses Symbol klicken, gelangen Sie auf den Bildschirm des betreffenden Materials oder Produkts, um die Daten zu bearbeiten. Ändern Sie die Daten, die Sie ändern möchten. Was bei einem Produkt nicht geändert werden kann, ist der Typ des Produkts. Klicken Sie auf die Schaltfläche „Speichern", um die Daten zu bearbeiten und zur Übersicht zurückzukehren.

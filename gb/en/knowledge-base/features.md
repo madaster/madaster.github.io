@@ -105,6 +105,15 @@ These 4 factors are:
 
 The quality index indicates the number of elements for which detachability information is included versus the number of elements in the building (in the relevant shearing layers).
 
+## RICS Whole Life Carbon Assessment
+When this feature is enabled, users will have the ability to generate a RICS Whole Life Carbon Assessment.
+
+The RICS Whole Life Carbon Assessment is a framework provided by the Royal Institute of Chartered Surveyors for the reporting of Embodied and Operational Carbon. You can find a link to the original framework <a href="https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment" target="_blank">here</a>. 
+
+The RICS Whole Life Carbon Assessment results are viewable through the Environmental tab, and by selecting "RICS Whole Life Carbon Assessment" from the "Compliance" drop down. The RICS Whole Life Carbon Assessment can be generated in the official RICS excel format by accessing the "General" tab on a building, selecting "Generate report", and selecting "RICS Whole Life Carbon Assessment" before selecting "Generate".
+
+For more information about how the assessment is generated, please refer to our <a href="/files/en/RICS Compliancy Guide.pdf">RICS Compliance Guide</a> which will guide users through how RICS is interpreted on the Madaster Platform.
+
 ## Levels
 Same as with CRREM, if you have the **ESG feature** enabled, you can get Reporting on **Level(s) Classification** on this ESG tab of a building. At this point, only the indicator 1.2 (Life cycle Global Warming Potential (GWP)) is developed and still in development-phase. We will be adding other indicators in the future. 
 

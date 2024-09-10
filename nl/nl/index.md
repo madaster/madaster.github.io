@@ -40,11 +40,11 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
  
   * Download de <a href="/files/nl/Madaster Materialen.xlsx" target="_blank">Madaster Materialen Lijst</a> – bevat het overzicht van materialen die standaard in de Madaster database aanwezig zijn, inclusief de UID's van de materialen en de classificaties mapping.
-  * Download de <a href="/files/nl/EPEA_Generic.xlsx" target="_blank">EPEA Generieke database</a> – bevat het overzicht van materialen en producten die standaard in de EPEA Generic database aanwezig zijn, inclusief de UID's en de classificaties mapping.
+  * Download de <a href="/files/epea/EPEA Generic - BENELUX 2024-6-25.xlsx" target="_blank">EPEA Generieke database</a> – bevat het overzicht van materialen en producten die standaard in de EPEA Generic database aanwezig zijn, inclusief de UID's en de classificaties mapping.
 
 ### Naslagwerken
 
-* Lees de <a href="/files/nl/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
+* Lees de <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
 * Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
 * Lees het rapport<a href="/files/nl/Circular Buildings - een meetmethodiek voor losmaakbaarheid versie 2.pdf" target="_blank"> ‘Circular Buildings – een meetmethodiek voor losmaakbaarheid v2.0’</a> – deze beschrijft gedetailleerd de werking van de uniforme meetmethode voor losmaakbaarheid in de bouw.
 
@@ -59,6 +59,6 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-060
 
 Meer informatie over de releases vindt u hier:
 
-* <a href="/files/nl/Madaster Releasenotes 2024.pdf" target="_blank">Release notes 2024</a>
+* <a href="https://docs.madaster.com/gb/en/resources/release-notes" target="_blank">Release notes 2024</a>
 * <a href="/files/nl/Madaster Releasenotes 2023.pdf" target="_blank">Release notes 2023</a>
 * <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release notes 2022</a>

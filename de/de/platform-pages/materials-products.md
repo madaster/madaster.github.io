@@ -1,6 +1,8 @@
 ---
 title: Materialien und Produkte
+description: Materialien und Produkte
 ref: materials-products
+type: FAQ
 redirect_from:
   - platform-pages/folder/materials
   - platform-pages/folder/materials-old

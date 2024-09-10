@@ -1,6 +1,8 @@
 ---
-title: Objekt - Allgemein
+title: Objekt
+description: Objekt - Allgemein
 ref: building
+type: FAQ
 redirect_from:
   - platform-pages/building/datasettings
   - platform-pages/building/edit
