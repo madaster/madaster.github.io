@@ -1,11 +1,4 @@
-<!-- <div class="wrapper madaster-language-toggle" style="text-align: right; line-height: 2em">
-  {% assign pages=site.pages | where:"country", page.country | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url }}">{{ page.lang |  upcase }}</a> {% endfor %}
-</div>
-<div class="wrapper madaster-language-toggle" style="text-align: right; line-height: 2em">
-  {% for country in site.countries %}{% if country.code!=page.country%} <a href="/{{ country.code }}/{{country.defaultlanguage}}" class="flag"><img src="/assets/images/{{ country.code }}.png"/></a></a>{% endif %} {% endfor %}
-</div> -->
-  {% for country in site.countries %}
+{% for country in site.countries %}
   <div class="navbar-item has-dropdown is-hoverable madaster-dropdown">
     <a href="/{{ country.code }}/{{country.defaultlanguage}}" class="madaster-navbar-item dropdown navbar-link flag"><img src="/assets/flags/{{ country.code }}.svg"/></a></a>
     {% assign pages=site.pages | where:"country", country.code | where:"ref", page.ref | sort: 'lang' %}
@@ -15,4 +8,4 @@
     </div>
     {% endif %} 
   </div>
-  {% endfor %}
+{% endfor %}

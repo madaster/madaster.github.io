@@ -168,3 +168,39 @@ if (window.location.pathname.split('/')[3] === 'get-started' || window.location.
     });
   });
 }
+
+// Get all country elements
+const countries = document.querySelectorAll('.countries-languages-item');
+const { country: currentCountry, language: currentLanguage } = getCountryAndLanguageFromUrl(window.location.href);
+
+function getCountryAndLanguageFromUrl(url) {
+  const parts = url.split('/');
+  return {
+    country: parts[3],
+    language: parts[4]
+  };
+}
+
+const languageElement = document.querySelectorAll(`[data-language="${currentCountry}-${currentLanguage}"]`);
+if (languageElement.length > 0) {
+  languageElement[0].classList.add('active');
+};
+
+countries.forEach(country => {
+    countries.forEach(c => {
+      const countryName = c.getAttribute('data-country');
+      if (countryName === currentCountry) {
+        c.classList.add('active');
+        document.getElementById('country-languages-' + countryName).style.display = 'block';
+      } else {
+        c.classList.remove('active');
+      }
+    });
+    country.addEventListener('click', function() {
+        countries.forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        document.querySelectorAll('.country-languages').forEach(lang => lang.style.display = 'none');
+        const countryName = this.getAttribute('data-country');
+        document.getElementById('country-languages-' + countryName).style.display = 'block';
+    });
+});
