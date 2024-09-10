@@ -3,30 +3,43 @@
   <div class="modal-container">
     <div class="modal-content">
       <div class="content-header">
-        <h2>Change language</h2>
         <button class="modal-exit mdi mdi-close">
         </button>
       </div>
       <div class="content-block">
+        {% assign sorted_countries = site.countries | sort: 'country' %}
         <div class="countries-languages-items">
-          {% assign sorted_countries = site.countries | sort: 'country' %}
-          {% for country in sorted_countries %}
-            <h5>
-              <a href="/{{ country.code }}/{{country.defaultlanguage}}" aria-label="Change language to {{country.lang_name}}">
+          <div>
+            <div class="countries-languages-header">
+              <h5>Countries</h5>
+            </div>
+            {% for country in sorted_countries %}
+            <div class="countries-languages-item" data-country="{{ country.code }}">
+              <a>
                 <img height="16" width="24" src="/assets/flags/{{ country.code }}.svg"/><span>{{ country.country }}</span>
               </a>
-            </h5>
-            {% assign pages=site.pages | where:"country", country.code | where:"ref", page.ref | sort: 'lang' %}
-            {% if pages %}
-            <ul>
-              {% for pagefound in pages %}
-              <li class="countries-languages-item">
-                <a href="{{ pagefound.url }}" class="{% if  pagefound.url == page.url %}active{% endif %}" aria-label="Change language to {{pagefound.lang_name}}">{{ pagefound.lang_name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          {% endfor %}
+            </div>
+            {% endfor %}
+          </div>
+          <div>
+            <div class="countries-languages-header">
+              <h5>Languages</h5>
+            </div>
+            {% for country in sorted_countries %}
+              {% assign pages=site.pages | where:"country", country.code | where:"ref", page.ref | sort: 'lang' %}
+                {% if pages %}
+                  <ul id="country-languages-{{ country.code }}" class="country-languages">
+                    {% for pagefound in pages %}
+                    <li class="country-language" data-language="{{ country.code }}-{{ pagefound.lang }}">
+                      <a href="{{ pagefound.url }}" class="{% if  pagefound.url == page.url %}active{% endif %}">
+                        <img height="16" width="24" src="/assets/flags/{{ pagefound.lang }}.svg"/><span>{{ pagefound.lang_name }}</span>
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
