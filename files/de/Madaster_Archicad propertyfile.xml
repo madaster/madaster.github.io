@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<PropertyDefinitionGroups>
+		<PropertyDefinitionGroup>
+			<Name>Pset_Madaster</Name>
+			<Description/>
+			<PropertyDefinitions>
+				<PropertyDefinition>
+					<Name>MaterialOrProductId</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>MaterialOrProductRatio</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>externaldatabaseId</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>GTIN</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>ArticleNumberGLN</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>MaterialOrProductName</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Volume</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Volume</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Area</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Area</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Lenght</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Length</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Width</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Length</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Height</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Length</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Depth</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>Numeric</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Length</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="NumVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Classification</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>Phase</Name>
+					<Description/>
+					<ValueDescriptor Type="SingleValueDescriptor">
+						<ValueType>String</ValueType>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="StringVariant">
+							<Status>UserUndefined</Status>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>DetachabilityConnectionType</Name>
+					<Description/>
+					<ValueDescriptor Type="EnumerationValueDescriptor" Version="2">
+						<EnumerationValueDescriptorWithStoredValues>
+							<ValueType>3</ValueType>
+							<Values>
+								<Key>C922447A-439C-47EE-B8B0-88458B273F40</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>keine Angabe</Value>
+									</Variant>
+								</Value>
+								<Key>004845AE-F52A-4291-A60E-13740414F225</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>None</Value>
+									</Variant>
+								</Value>
+								<Key>FD85C338-53AE-41AF-A8DC-D2556B07AA1B</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Dry Connection</Value>
+									</Variant>
+								</Value>
+								<Key>36EFF09C-5800-44CC-A4CB-05DA69F1B726</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>AddedConnectionConnection</Value>
+									</Variant>
+								</Value>
+								<Key>8CF32223-5E10-4172-B2B0-B8ECE712CC09</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>DirectConnection</Value>
+									</Variant>
+								</Value>
+								<Key>974110A8-8316-4901-9922-B7418C94A6F9</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>SoftChemicalConnection</Value>
+									</Variant>
+								</Value>
+								<Key>F94AF5C6-49AA-4202-BB25-1494F3718105</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>HardChemicalConnection</Value>
+									</Variant>
+								</Value>
+							</Values>
+						</EnumerationValueDescriptorWithStoredValues>
+						<HasMultiValue>false</HasMultiValue>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="GuidVariant">
+							<Status>Normal</Status>
+							<Value>C922447A-439C-47EE-B8B0-88458B273F40</Value>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>DetachabilityConnectionTypeDetail</Name>
+					<Description/>
+					<ValueDescriptor Type="EnumerationValueDescriptor" Version="2">
+						<EnumerationValueDescriptorWithStoredValues>
+							<ValueType>3</ValueType>
+							<Values>
+								<Key>7CE32E66-FD5E-48C6-AE47-359FC9452878</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>keine Angabe</Value>
+									</Variant>
+								</Value>
+								<Key>564FC925-12ED-45E5-8146-A4E2603D1A10</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Unknown</Value>
+									</Variant>
+								</Value>
+								<Key>B1FD0F13-B6EC-4AB9-89F0-2E0F3BA2613F</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>None</Value>
+									</Variant>
+								</Value>
+								<Key>069FC6ED-A533-43FD-B19C-5B11B7260977</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>1--</Value>
+									</Variant>
+								</Value>
+								<Key>6C8EB487-A6CE-483F-99D3-C18EAC82C0CA</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Click</Value>
+									</Variant>
+								</Value>
+								<Key>3918206F-9F6C-4DCA-B6CB-499A8FEA418E</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Velcro</Value>
+									</Variant>
+								</Value>
+								<Key>24D2A6C7-CD1B-4B34-B160-91FFEAC9AE8F</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Magnetic</Value>
+									</Variant>
+								</Value>
+								<Key>42374A9F-1D4F-49BE-8A54-F43CB1C0D3EA</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>2--</Value>
+									</Variant>
+								</Value>
+								<Key>E1846117-0EA0-47D2-9A7F-EE6D31CE2484</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>BoltAndNut</Value>
+									</Variant>
+								</Value>
+								<Key>EE1DBC74-3DA9-4C13-A2AE-DA4A76E8874F</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Spring</Value>
+									</Variant>
+								</Value>
+								<Key>EDB679BA-6BC1-41E6-BE8F-BF164D2FC2CA</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Corner</Value>
+									</Variant>
+								</Value>
+								<Key>3C5E095B-B6EA-427F-8D7E-2AE24A285A22</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Screw</Value>
+									</Variant>
+								</Value>
+								<Key>ECD057D6-2A9D-4453-8EEE-AA5454FD0446</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>3--</Value>
+									</Variant>
+								</Value>
+								<Key>A5CEDCFA-23E9-483A-AC17-B043FFA9782D</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Peg</Value>
+									</Variant>
+								</Value>
+								<Key>AAC643AB-A18E-46CF-B34D-9C3BDA0F0B10</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Nail</Value>
+									</Variant>
+								</Value>
+								<Key>FB98C484-CB41-420B-80D9-3B45351D8637</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>4--</Value>
+									</Variant>
+								</Value>
+								<Key>9236873B-7509-4971-A133-8DCC20584A65</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Sealant</Value>
+									</Variant>
+								</Value>
+								<Key>EB5D4B0B-160C-449A-AB32-DD4FBCF235B2</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Foam</Value>
+									</Variant>
+								</Value>
+								<Key>D8B03798-BF8E-4A2F-92DA-F94F3DA0A88B</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>5--</Value>
+									</Variant>
+								</Value>
+								<Key>DEAAE07D-5E19-4438-8A08-B36449EDD7B8</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Glue</Value>
+									</Variant>
+								</Value>
+								<Key>BD84A416-20BA-4C6D-967F-4DCB35459307</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Poured</Value>
+									</Variant>
+								</Value>
+								<Key>1C5EBCF9-2A75-471D-98BB-5A3F96D92900</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Welt</Value>
+									</Variant>
+								</Value>
+								<Key>3B73D1EB-AC8B-4000-8460-EDA91B198527</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Concrete</Value>
+									</Variant>
+								</Value>
+								<Key>9DCECA5F-30C3-4A54-BD84-529789FA77B4</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>ChemicalAnchor</Value>
+									</Variant>
+								</Value>
+							</Values>
+						</EnumerationValueDescriptorWithStoredValues>
+						<HasMultiValue>false</HasMultiValue>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="GuidVariant">
+							<Status>Normal</Status>
+							<Value>7CE32E66-FD5E-48C6-AE47-359FC9452878</Value>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>DetachabilityAccessibility</Name>
+					<Description/>
+					<ValueDescriptor Type="EnumerationValueDescriptor" Version="2">
+						<EnumerationValueDescriptorWithStoredValues>
+							<ValueType>3</ValueType>
+							<Values>
+								<Key>B9490ADE-84BC-4A4B-8F60-3508C146BD7B</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Keine Angabe</Value>
+									</Variant>
+								</Value>
+								<Key>FDA73510-FE7F-48AE-8F19-AD86019C31CC</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Accessible</Value>
+									</Variant>
+								</Value>
+								<Key>7C46A42F-0D4B-4FD2-BEA7-24692229E1EF</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>PartialNoDamage</Value>
+									</Variant>
+								</Value>
+								<Key>8FC31F05-A0A0-4A49-96BA-789B0934D9F4</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>PartialWithRepairableDamage</Value>
+									</Variant>
+								</Value>
+								<Key>4BC51CED-DBE1-448C-A570-8468A385EFB4</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>PartialWithDamage</Value>
+									</Variant>
+								</Value>
+								<Key>0F909356-A03A-470A-89B5-0BCF45386252</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>NotAccessible</Value>
+									</Variant>
+								</Value>
+							</Values>
+						</EnumerationValueDescriptorWithStoredValues>
+						<HasMultiValue>false</HasMultiValue>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="GuidVariant">
+							<Status>Normal</Status>
+							<Value>B9490ADE-84BC-4A4B-8F60-3508C146BD7B</Value>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>DetachabilityIntersection</Name>
+					<Description/>
+					<ValueDescriptor Type="EnumerationValueDescriptor" Version="2">
+						<EnumerationValueDescriptorWithStoredValues>
+							<ValueType>3</ValueType>
+							<Values>
+								<Key>D5DC0788-3485-4646-8F9E-3A580684BC8D</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>keine Angabe</Value>
+									</Variant>
+								</Value>
+								<Key>BB1164F5-D5B8-46D3-A88C-AC697F506087</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Unknown</Value>
+									</Variant>
+								</Value>
+								<Key>2B798884-CF56-491F-88F6-6480FB85CD75</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>None</Value>
+									</Variant>
+								</Value>
+								<Key>3EAD47FE-B0F9-4CDE-926F-55C43686E09A</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Incidental</Value>
+									</Variant>
+								</Value>
+								<Key>88B7C081-E036-40CE-A82D-33A22BFEA680</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Complete</Value>
+									</Variant>
+								</Value>
+							</Values>
+						</EnumerationValueDescriptorWithStoredValues>
+						<HasMultiValue>false</HasMultiValue>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="GuidVariant">
+							<Status>Normal</Status>
+							<Value>D5DC0788-3485-4646-8F9E-3A580684BC8D</Value>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+				<PropertyDefinition>
+					<Name>DetachabilityProductEdge</Name>
+					<Description/>
+					<ValueDescriptor Type="EnumerationValueDescriptor" Version="2">
+						<EnumerationValueDescriptorWithStoredValues>
+							<ValueType>3</ValueType>
+							<Values>
+								<Key>7E7C1E24-06C7-47E9-BFCC-5B1CDF5794FB</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Keine Angabe</Value>
+									</Variant>
+								</Value>
+								<Key>6F29B8E2-5F98-4766-B260-67C1105ADFC7</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Unknown</Value>
+									</Variant>
+								</Value>
+								<Key>B4869F9B-C3B1-4BCF-8E25-8EDEE9B5B6D0</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Open</Value>
+									</Variant>
+								</Value>
+								<Key>9E75AEE9-012D-48AC-862A-B59D5C96AFB7</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Overlapping</Value>
+									</Variant>
+								</Value>
+								<Key>91DCDCA6-7C9B-4054-8378-4F5FD39775CB</Key>
+								<Value Empty="false">
+									<Variant Type="StringVariant">
+										<Status>Normal</Status>
+										<Value>Closed</Value>
+									</Variant>
+								</Value>
+							</Values>
+						</EnumerationValueDescriptorWithStoredValues>
+						<HasMultiValue>false</HasMultiValue>
+					</ValueDescriptor>
+					<MeasureType>Default</MeasureType>
+					<DefaultValue>
+						<DefaultValueType>Basic</DefaultValueType>
+						<Variant Type="GuidVariant">
+							<Status>Normal</Status>
+							<Value>7E7C1E24-06C7-47E9-BFCC-5B1CDF5794FB</Value>
+						</Variant>
+					</DefaultValue>
+					<ClassificationIDs/>
+				</PropertyDefinition>
+			</PropertyDefinitions>
+		</PropertyDefinitionGroup>
+	</PropertyDefinitionGroups>
+</BuildingInformation>
