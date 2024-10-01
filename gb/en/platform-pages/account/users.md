@@ -8,7 +8,7 @@ redirect_from:
 - platform-pages/verifieddatabase/users
 ---
 
-## What information is hown here
+## What information is shown here
 Different users can be invited at each folder level, with three different role and permissions levels. Here you can invite users, or you can generate a so-called 'API key' to allow another system to access the folder(s) as a user.
 
 The table provides insight into who has rights or this folder, the subfolders and/or buildings. You can select users, roles, and permissions.
