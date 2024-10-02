@@ -33,7 +33,8 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
 ##### Dateien beschrieben im "Madaster BIM Handbuch":
 * <a href="/files/at/240621_01_Revit shared parameter file_Madaster.txt" target="_blank">01_Revit shared parameter file_Madaster</a> - Das Madaster User Defined Custom Property Set (CPset_Madaster) in Revit.
 * <a href="/files/at/240621_02_User Defined cPropertySet_Madaster.txt" target="_blank">02_User Defined Custom PropertySet_Madaster</a> - damit lassen sich die IFC-Exporteinstellungen von Madaster leicht in Revit importieren.
-* <a href="/files/nl/01_Archicad propertyfile_Madaster_Archicad.xml.zip" target="_blank">01_Archicad propertyfile_Madaster</a> - das Madaster PropertySet zur Inkludierung in ArchiCAD.
+* <a href="/files/at/Madaster_Archicad 20propertyfile.xml" target="_blank">01_Archicad propertyfile_Madaster</a> - das Madaster PropertySet zur Inkludierung in ArchiCAD.
+
 #### Excel
 * Für den Upload eines Gebäudes auf der Madaster Plattform können Sie das **aktuelle Excel-Template** hier herunterladen: gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at" target="_blank">ÖNORM B 1801-1, 2009</a> oder gemäß <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at" target="_blank">ÖNORM B 1801-1, 2022</a>
 
