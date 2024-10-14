@@ -1,6 +1,6 @@
 ---
 title: Dossier
-description: Ordner -  Dossier
+description: Ordner - Dossier
 ref: folder-files
 type: FAQ
 ---
