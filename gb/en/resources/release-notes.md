@@ -214,7 +214,7 @@ Which are:
 
 ### Changes to selection in the environmental screen ###
 
-It is now possible to select a preferred scheme, like the MPG or DGNB, directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
+It is now possible to select a preferred scheme, like the MPG or DGNB (DE), directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
 
 ![A building where multiple schemes are available](/assets/images/releasenotes/202404-10108-1.png)
 
@@ -230,7 +230,7 @@ We have added the option to generate the Level(s) 2.2 report. This report is ava
 
 ### Changes to generate material passport ###
 
-The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB, the RICS Carbon Assessment or the MPG report.
+The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB (DE), the RICS Carbon Assessment or the MPG report.
 
 ![An example of the new generate report options](/assets/images/releasenotes/202404-10111.png)
 
@@ -339,7 +339,7 @@ It is now possible to generate the Level(s) 2.1 report. This is possible when:
 
 ### DGNB Gebäuderessourcenpass ###
 
-We have updated the DGNB Gebäuderessourcenpass (GRP) so that a lot more information will be exported into the GRP. Provided the information is available of course.
+Madaster germany platform: We have updated the DGNB Gebäuderessourcenpass (GRP) so that a lot more information will be exported into the GRP. Provided the information is available of course.
 
 ### Release notification removal ###
 
@@ -411,7 +411,7 @@ In the "skin" layer, the wall has a thickness of 75cm, and using the same linear
 
 ### DGNB Reporting ###
 
-Within the ESG Tab, a DGNB report can be produced. In this release, the reporting for ENV 1.1 Climate Action and Energy is available, which covers ENV 1.1-2.1, ENV 1.1-2.2, and ENV 1.1-2.5 in the DGNB. The compliance can be set either to EN15804:2012-04+A1 2013 or EN15804:2012+A2:2019
+Within the ESG Tab, a DGNB report can be produced on the madaster germany platform. In this release, the reporting for ENV 1.1 Climate Action and Energy is available, which covers ENV 1.1-2.1, ENV 1.1-2.2, and ENV 1.1-2.5 in the DGNB. The compliance can be set either to EN15804:2012-04+A1 2013 or EN15804:2012+A2:2019
 
 ![DGNB Screenshot](/assets/images/releasenotes/202402-9530.png)
 
