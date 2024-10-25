@@ -1,0 +1,79 @@
+# 	*** EXAMPLE AUTODESK ***
+#
+#	User Defined PropertySet Definition File
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#	Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
+#	NormalisedRatio, MassDensity, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, 
+#	Power, Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#	VolumetricFlowRate
+#
+#	standard file location: C:\Program Files (x86)\Revit IFC 2023
+#	De regels waar een # voorstaat worden door de software genegeerd. Deze kunnen ook gebruikt worden om medegebruikers te informeren.
+#
+# 	*** EXAMPLE AUTODESK ***
+#
+#
+#
+#
+#	*** Begin PSET MADASTER ***
+#
+# 	This is the CPropertyset Madaster (CPset) made by Madaster 
+#
+#	Version 3.0 - d.d. 24-06-2024
+#
+#	Author: Ceylan Yazici / Luisa Limbach
+#
+#	Log:
+#	24-06-2024	Creation Date of this file
+#
+#	
+#
+#
+PropertySet:	CPset_Madaster	I/T	IfcElementType,IfcElement 
+#
+	DetachabilityConnectionType		Text		DetachabilityConnectionType	
+	Classification				Text		Baugruppenkennzeichen
+	Classification				Text		Classification
+	Length					Length		Length
+	Phase					Text		Phase
+	DetachabilityIntersection		Text		DetachabilityIntersection
+	MaterialOrProductName			Text		MaterialOrProductName
+	ArticleNumberGLN			Text		ArticleNumberGLN
+	DetachabilityConnectionTypeDetail	Text		DetachabilityConnectionTypeDetail
+	Depth					Length		Depth
+	MaterialOrProductId			Text		MaterialOrProductId
+	Height					Length		Height	
+	GTIN					Text		GTIN
+	DetachabilityProductEdge		Text		DetachabilityProductEdge
+	Width					Length		Width
+	DetachabilityAccessibility		Text		DetachabilityAccessibility
+	ExternaldatabaseId			Text		ExternaldatabaseId
+	Area					Area		Area
+	Volume					Volume		Volume
+	MaterialOrProductRatio			Text		MaterialOrProductRatio
+	WasteCodes			Text			WasteCodes
+	OverOrdering			Real			OverOrdering
+	AssumedConstructionWaste			Real			AssumedConstructionWaste
+	BuildingNumbers			Integer			BuildingNumbers
+	Reuse			Real			Reuse
+#
+#
+#
+#
+#
+#	END DOCUMENT
+#
+
+
+
+
+
+

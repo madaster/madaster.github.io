@@ -41,8 +41,9 @@ Klicken Sie auf Objektebene im Tab **Dossier** die Schaltfläche **Hochladen** <
 
   1. Wählen Sie den **Dateityp** Quelldatei (BIM oder Excel) und klicken Sie auf **Datei(en) auswählen**.
   2. Wählen Sie die **Klassifizierungsmethode** oder sofern bereits angelegt die gewünschten <a href="../knowledge-base/stay-organized#organisieren-der-quelldateien" target="_blank">Upload-Voreinstellungen</a>.
-  3. Wählen Sie die **Sprachen für den Abgleich** aus. 
-  4. Wählen Sie mittels des <iconify-icon inline icon='mdi-plus-thick'/> **Datenbank(en)** aus oder mittels des <iconify-icon inline icon='mdi-minus-thick'/> ab, um diese unter **Ausgewählte Datenbanken und Priorisierung** für die automatische Zuordnung von Produktdaten hinzuzufügen.
+  3. "Nur Produkte mit Umweltdaten gemäß ausgewählten Konformitäten abgleichen" ermöglicht Ihnen <u>bei Bedarf</u> den automatischen Zuordnungsprozess von Produktdatensätzen auf eine **Konformität** (EN 15804 oder EN 15804+A2) gezielt zu beschränken.
+  4. Wählen Sie die **Sprachen für den Abgleich** aus.
+  5. Wählen Sie mittels des <iconify-icon inline icon='mdi-plus-thick'/> **Datenbank(en)** aus oder mittels des <iconify-icon inline icon='mdi-minus-thick'/> ab, um diese unter **Ausgewählte Datenbanken und Priorisierung** für die automatische Zuordnung von Produktdaten hinzuzufügen.
 
      > Hinweis: Die Reihenfolge der ausgewählten Datenquellen bestimmt die Priorisierung dieser im Zuordnungsprozess. Diese kann per Drag and Drop verändert werden.
 

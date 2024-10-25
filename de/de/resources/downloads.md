@@ -23,9 +23,9 @@ menubar: resources-nav
 
 <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM.
 
-<a href="/files/de/2024-07-24 madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 24.07.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (01_Revit shared parameter file_Madaster, 02_User Defined PropertySet_Madaster, IFC-Konfiguration Revit - Madaster Export und Revit_Baugruppenkennzeichen-nach-DIN276)
+<a href="/files/de/2024-08-14 madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 14.08.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (240624_01_Revit shared parameter file_Madaster, 240621_02_User Defined cPropertySet_Madaster, IFC-Konfiguration Revit - Madaster Export und Revit_Baugruppenkennzeichen-nach-DIN276-V3)
 
-<a href="/files/de/2023-11-01 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 01.11.2023)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD (Madaster_Archicad propertyfile und Madaster_Archicad Classification DIN 276_2018-12)
+<a href="/files/de/2024-10-14 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 14.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD (01_Archicad propertyfile und Madaster_Archicad Classification DIN 276_2018-12)
 
 ## Excel
 

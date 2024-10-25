@@ -8,13 +8,72 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+## Release notes 2024.6 ##
+
+* Build number: 30680
+* Release date: 4th of October 2024
+
+### Source file settings visible on uploaded building file ###
+
+With this release the settings used when uploading a source file are now visible when viewing said file:
+
+<figure><img src="/assets/images/releasenotes/202406-10762-1.png" alt="Information about the settings used when uploading a file as shown in the platform"><figcaption>Information about the settings used when uploading a file as shown in the platform</figcaption></figure>
+
+### Set lifespan on element ###
+
+It is now possible to set a lifespan on element level. This overrules the lifespan as set in either the classification or on the product itself. This will effect certain calculations, such as the impacts in the B4 phase.
+
+<figure><img src="/assets/images/releasenotes/202406-10825-1.png" alt="Setting the lifespan on an element can be done from the enrichment screen"><figcaption>Setting the lifespan on an element can be done from the enrichment screen</figcaption></figure>
+
+This has also been added to the upload presets and to the excel export of a building file.
+
+### Changes to splitting elements ###
+
+When splitting an element manually in the platform we will now show how much volume and thickness remains from the main element. If the total of the splitted elements is more or less than the value of the original element a warning is shown. It is also possible to set a specific lifespan on the splitted element.
+
+<figure><img src="/assets/images/releasenotes/202406-10473-1.png" alt="The warning shown when the total amounts do not match"><figcaption>The warning shown when the total amounts do not match</figcaption></figure>
+
+<figure><img src="/assets/images/releasenotes/202406-10473-2.png" alt="Remaing amount shown when splitting an element"><figcaption>Remaing amount shown when splitting an element</figcaption></figure>
+
+### Possible to drill down in classification overview on circularity and environmental tabs ###
+
+It is now possible to click on the classification codes in the circularity and environmental tabs in order to see the deeper levels of the classification.
+
+<figure><img src="/assets/images/releasenotes/202406-10555-1.png" alt="More detailed classification overview for circularity"><figcaption>More detailed classification overview for circularity</figcaption></figure>
+
+
+### Export and import of an excel building file added ###
+
+If you have used an excel template to create your building you can now use the export and import functionality on the building file.
+
+### Defaults when uploading a new version ###
+
+When uploading a new version of a source file the following options are now checked by default:
+
+<figure><img src="/assets/images/releasenotes/202406-10782-1.png" alt="Defaults when uploading a new version"><figcaption>Defaults when uploading a new version</figcaption></figure>
+
+### Warning added when waste codes do not add up to 100% ###
+
+If the waste codes do not add up to a 100% a warning will be shown. It is still possible to save the waste codes without them being a 100%.
+
+<figure><img src="/assets/images/releasenotes/202406-10472-1.png" alt="The warning that is shown in enrichment when the waste codes do not add up to a 100%"><figcaption>The warning that is shown in enrichment when the waste codes do not add up to a 100%</figcaption></figure>
+
+### Other changes ###
+
+* In the environmental tab it is no shown in the relevant card when the area that is necessary for the calculation is not filled in
+* When importing an IFC the material layers are no longer grouped by name but instead separate items are created in Madaster
+* Information about whether a product is removed during a renovation has been added to track and trace
+
+### Country specific ###
+
+* For all countries except the Netherlands the layer lifespans have been removed from the material passport
+* The Gebäuderessourcenpass has been updated to version 1.2
+* A number of older versions of Okobaudat have been made available
 
 ## Release notes 2024.5 ##
 
 * Build number: 30163
 * Release date: 9th of September 2024
-
-## External ##
 
 ### Changes to benchmarking ###
 
@@ -155,7 +214,7 @@ Which are:
 
 ### Changes to selection in the environmental screen ###
 
-It is now possible to select a preferred scheme, like the MPG or DGNB, directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
+It is now possible to select a preferred scheme, like the MPG or DGNB (DE), directly in the environmental tab. This influences the available KPI's as well, since different schemes have different KPI's. The availability of a scheme is dependent on whether the corresponding feature is available in your account. By default, the standard 15978 is always available and can be based on either A1 or A2 EPD's as described in the 15804. These changes to the selection work on account, folder and building level.
 
 ![A building where multiple schemes are available](/assets/images/releasenotes/202404-10108-1.png)
 
@@ -171,7 +230,7 @@ We have added the option to generate the Level(s) 2.2 report. This report is ava
 
 ### Changes to generate material passport ###
 
-The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB, the RICS Carbon Assessment or the MPG report.
+The 'issue material passport' button has been changed to 'generate report'. This button will now give the option to generate the Madaster material passport as well as scheme specific reports like the Gebäuderessourcenpass from the DGNB (DE), the RICS Carbon Assessment or the MPG report.
 
 ![An example of the new generate report options](/assets/images/releasenotes/202404-10111.png)
 
@@ -280,7 +339,7 @@ It is now possible to generate the Level(s) 2.1 report. This is possible when:
 
 ### DGNB Gebäuderessourcenpass ###
 
-We have updated the DGNB Gebäuderessourcenpass (GRP) so that a lot more information will be exported into the GRP. Provided the information is available of course.
+Madaster germany platform: We have updated the DGNB Gebäuderessourcenpass (GRP) so that a lot more information will be exported into the GRP. Provided the information is available of course.
 
 ### Release notification removal ###
 
@@ -352,7 +411,7 @@ In the "skin" layer, the wall has a thickness of 75cm, and using the same linear
 
 ### DGNB Reporting ###
 
-Within the ESG Tab, a DGNB report can be produced. In this release, the reporting for ENV 1.1 Climate Action and Energy is available, which covers ENV 1.1-2.1, ENV 1.1-2.2, and ENV 1.1-2.5 in the DGNB. The compliance can be set either to EN15804:2012-04+A1 2013 or EN15804:2012+A2:2019
+Within the ESG Tab, a DGNB report can be produced on the madaster germany platform. In this release, the reporting for ENV 1.1 Climate Action and Energy is available, which covers ENV 1.1-2.1, ENV 1.1-2.2, and ENV 1.1-2.5 in the DGNB. The compliance can be set either to EN15804:2012-04+A1 2013 or EN15804:2012+A2:2019
 
 ![DGNB Screenshot](/assets/images/releasenotes/202402-9530.png)
 

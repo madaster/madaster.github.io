@@ -113,17 +113,18 @@ Die DGNB unterscheidet in ihrem System in folgende Nutzungsprofile:
 
 Derzeit kann Madaster Sie im Zertifizierungsprozess in den folgenden Teilbereichen unterstützen:
 
-**ENV 1.1 – Klimaschutz und Energie**
+### ENV 1.1 – Klimaschutz und Energie
 
 In dieser Kategorie können verschiedene Key Performance Indicators (KPI) wie die Treibhausgasemissionen und Primärenergiebedarfe des baulichen Teils sowie in Betrieb und Nutzung dargestellt und ausgegeben werden (KPI 1-4). Darüber hinaus ist die Bauwerksmasse gemäß LCA auswertbar (KPI 9 auf S. 43 f. des Kriterienkatalogs).
 Diese sind auf die Bilanzierungsregeln der DGNB abgestimmt und können somit zu einer Vergleichbarkeit der Lebenszyklus-CO<sub>2</sub>-Bilanz zwischen verschiedenen Projekten und zur Einordnung gemäß vorgegebener Benchmarks genutzt werden (Grenz-, Referenz-, Ziel-, oberer Zielwert).
+
+### TEC 1.6 - Zirkuläres Bauen
+Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und ohne Rückbau unterschieden. Die Bewertung basiert auf der Integration von Rückbaupotenzialen und zirkulären Konzepten bereits in der Planungsphase. In der Ausführungsphase werden Punkte für den Einsatz zirkulärer Produkte und Bauteile, sowie für die Dokumentation durch Produkt- oder Materialpässe vergeben. Eine umfassende Dokumentation in einem digitalen Gebäuderessourcenpass und hohe „Zirkularitätsquoten“ tragen ebenfalls zur Bewertung bei. Es werden Bonuspunkte für Gebäude vergeben, die überwiegend für die Kreislaufwirtschaft konzipiert.
 
 1. Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Gebäuderessourcenpass generieren** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
 3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **Dossier** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
-
-Weitere Kriteriengruppen des Kriterienkatalogs, wie bspw. Teilbereiche des ECO 2.7 und des TEC 1.6, befinden sich aktuell in der Entwicklung.
 
 Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="_blank">www.dgnb.de</a>.
 
@@ -131,7 +132,7 @@ Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="
 
 ## ESG
 
-Der Tab **ESG** (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
+Der **ESG-Tab** (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
 
 Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
 

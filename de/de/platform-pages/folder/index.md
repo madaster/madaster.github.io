@@ -1,14 +1,12 @@
 --- 
 title: Ordner
-description: Ordner -  Allgemein
+description: Ordner - Allgemein
 ref: folder
 type: FAQ
 --- 
 
 ## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT? ##
 Hier finden Sie alle in diesem Konto erstellten Ordner. Ein Ordner kann als eine bestimmte Sammlung von Unterordnern und/oder Gebäuden angesehen werden. In der Schublade Navigation ist die Ordnerstruktur sichtbar und kann ein-  und ausgeklappt werden, um den Überblick über alle Ordner, Unterordner und Gebäude zu behalten, auf die Sie Zugriff haben.
-
-
 
 ## REGISTERKARTE ##
 Das Vorhandensein von Registerkarten kann je nach Art des Ordners variieren. In jedem Fall sind drei Registerkarten vorhanden:

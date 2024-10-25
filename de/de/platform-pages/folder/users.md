@@ -1,6 +1,6 @@
 ---
 title: Benutzer
-description: Ordner -  Benutzer
+description: Ordner - Benutzer
 ref: folder-users
 type: FAQ
 ---

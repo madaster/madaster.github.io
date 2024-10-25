@@ -254,7 +254,7 @@ $$
 
 |||
 |-|-|
-|Round|Round down to the nearest whole value|
+|Round|Round up to the nearest whole value|
 |$L_{building}$|Lifespan of the building|
 |$L_{product}$|Lifespan of the product|
 |$LCA_{i[phase]}$|Value of the environmental indicator i for the phase(s) for the product|
