@@ -70,8 +70,7 @@ async function createSearchFile(country, language) {
         };
       })
     );
-
-    await fsa.writeFile(`./assets/json/search-${country}-${language}.json`, JSON.stringify(data), 'utf-8');
+    await fsa.writeFile(`./assets/json/search-${country}-${language}.json`, JSON.stringify(data), { encoding: 'utf-8', contentType: 'application/json' });
   } catch (e) {
     console.log(e);
   }

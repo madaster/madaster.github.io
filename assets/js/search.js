@@ -4,39 +4,35 @@ async function getSearchResults(country, language) {
   .then((responseJson)=>{return responseJson});
 }
 
-function sanitizeHTML(text) {
-  let element = document.createElement('div');
-  element.innerText = text;
-  return element.innerHTML;
-}
-
 // Go to search page from home
 function goToSearchHome(event) {
   event.preventDefault();
-  const inputValue = sanitizeHTML(document.getElementById("search-input-home").value);
+  const inputValue = document.getElementById("search-input-home").value;
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
 // Go to search page from nav
 function goToSearchNavDesktop(event) {
   event.preventDefault();
-  const inputValue = sanitizeHTML(document.getElementById("search-input-nav-desktop").value);
+  const inputValue = document.getElementById("search-input-nav-desktop").value;
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
 // Go to search page from nav
 function goToSearchNavMobile(event) {
   event.preventDefault();
-  const inputValue = sanitizeHTML(document.getElementById("search-input-nav-mobile").value);
+  const inputValue = document.getElementById("search-input-nav-mobile").value;
   location.href = window.location.origin + window.location.pathname.substring(0,7) + "search?query=" + inputValue;
 }
 
 async function initiateSearch(country, language) {
   const searchResults = await getSearchResults(country, language);
+  patchLunr(lunr);
   let idx = lunr(function () {
     this.field('title');
     this.field('content');
     this.ref('url');
+    this.caseSensitive = false;
 
     for(let i = 0; i < searchResults.length; i++) {
       this.add(searchResults[i]);
@@ -74,12 +70,12 @@ async function initiateSearch(country, language) {
       resultAmountContainer.classList.remove("active");
       resultAmountContainerOne.classList.add("active");
       document.getElementById('search-result-one').innerHTML = resultsFull.length;
-      document.getElementById('search-term-one').innerHTML = sanitizeHTML(input.value);
+      document.getElementById('search-term-one').innerText = input.value;
     } else {
       resultAmountContainer.classList.add("active");
       resultAmountContainerOne.classList.remove("active");
       document.getElementById('search-result').innerHTML = resultsFull.length;
-      document.getElementById('search-term').innerHTML = sanitizeHTML(input.value);
+      document.getElementById('search-term').innerText = input.value;
     }
 
     for (let i = 0; i < resultsFull.length; i++) {
@@ -109,9 +105,10 @@ async function initiateSearch(country, language) {
       resultContainer.appendChild(result);
     }
   }});
-  const queryString = window.location.search;
+  // const queryString = window.location.search;
+  const queryString = new URL(window.location).searchParams.get('query');
   if(queryString) {
-    document.getElementById('search-input').value = (queryString.split("?query=")[1]).replaceAll('%20',' ');
+    document.getElementById('search-input').value = queryString;
     const event = new Event('click');
     searchButton.dispatchEvent(event);
   }
