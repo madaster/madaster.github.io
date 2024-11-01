@@ -36,8 +36,8 @@ The MCI score is based on the following components:
 #### Construction phase (objective: 100% sustainable materials):
   1. Product mass (kg)
   1. Renewable feedstock Sustainably Produced (% of mass);
-  1. Reused materials used to manufacture a product (% of mass);
-  1. Recycled materials used to manufacture a product (% of mass);
+  1. Reused materials used to manufacture a product (% of mass) which includes repurposed materials;
+  1. Recycled materials used to manufacture a product (% of mass) which includes downcycled materials;
   1. Efficiency of the recycling process resulting in the recycled materials (%).
 
 #### End-of-life phase (objective: 100% of reusable materials):
