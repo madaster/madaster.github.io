@@ -5,6 +5,59 @@ ref: release-notes
 type: Downloads
 menubar: resources-nav
 ---
+## Release notes 2024.7 ##
+
+* Build number: 30956
+* Release date: 1st of November 2024
+
+### Additional options when exporting portfolio ###
+
+On folder and account level the export of buildings in an excel has been changed. The button has been moved to the toolbar:
+
+<figure><img src="/assets/images/releasenotes/202407-10734-1.png" alt="Button to generate an excel of the buildings in your account of folder"><figcaption>Button to generate an excel of the buildings in your account of folder</figcaption></figure>
+
+And it will now dynamically be filled with the selected KPI's. KPI's are chosen in the edit-layout setting on your profile:
+
+<figure><img src="/assets/images/releasenotes/202407-10734-2.png" alt="In edit lay-out it is possible to choose KPI's"><figcaption>In edit lay-out it is possible to choose KPI's</figcaption></figure>
+
+### Configure a database to match on name ###
+
+If you want your product database to automatically include the names of the product as search criteria to be matched on when a building file uses the database there is now an option for this. This is both possible on a producer database and on a database in a regular account.
+
+<figure><img src="/assets/images/releasenotes/202407-10848-1.png" alt="Option to use the product names as search criteria for matching"><figcaption>Option to use the product names as search criteria for matching</figcaption></figure>
+
+### Upload preset extended with output flow for reuse ###
+
+It is now possible to set the properties used in an IFC file for reuse on the output flow:
+
+<figure><img src="/assets/images/releasenotes/202407-10857-1.png" alt="Upload setting for using data from an ifc for the output flow for reuse"><figcaption>Upload setting for using data from an ifc for the output flow for reuse</figcaption></figure>
+
+### Sharing databases across countries ###
+
+It is now possible to share a database with accounts in other countries:
+
+<figure><img src="/assets/images/releasenotes/202407-10923-1.png" alt="Option to share a database with accounts in different countries"><figcaption>Option to share a database with accounts in different countries</figcaption></figure>
+
+### Ökobaudat ###
+
+* The Ökobaudat 2020 version has been made available
+
+### Other  changes ###
+
+* Type is now shown when viewing an element in enrichment 
+* It is now possible in the dossier of a building to switch between the upload and export date of your source files.
+* It is now possible to select a delivery date on your building much further in the past.
+* The list of system databases and suppliers has been ordered more logically in the navigation and the country filter also filters this list now.
+
+### Bugfixes ###
+
+* Parts of the legend could be missing on the graphs in the environmental screen, which is fixed.
+* Product images would not appear when viewing a product from enrichment, now they do.
+* For benchmarking the option to select 'none' did not result in clearing the benchmarks. This is fixed.
+* Fixed the dropdown for the explorer display mode in the 3D viewer not appearing.
+* Fixed a bug where the user settings screen would partially disappear behind other parts of the screen.
+* In the material passport databases could be shown as verified when they weren't, which is fixed.
+* Material classification could be missing on the product when using the classification from the bill of materials. This is resolved.
 
 ## Release notes 2024.6 ##
 
