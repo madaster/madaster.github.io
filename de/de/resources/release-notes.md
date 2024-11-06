@@ -5,7 +5,6 @@ ref: release-notes
 type: Downloads
 menubar: resources-nav
 ---
-
 ## Release notes 2024.7 ##
 
 * Build number: 30956
@@ -43,7 +42,7 @@ It is now possible to share a database with accounts in other countries:
 
 * The Ökobaudat 2020 version has been made available
 
-### Other  changes ###
+### Other changes ###
 
 * Type is now shown when viewing an element in enrichment 
 * It is now possible in the dossier of a building to switch between the upload and export date of your source files.
