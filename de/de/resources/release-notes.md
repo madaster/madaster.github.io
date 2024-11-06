@@ -5,6 +5,7 @@ ref: release-notes
 type: Downloads
 menubar: resources-nav
 ---
+
 ## Release notes 2024.7 ##
 
 * Build number: 30956
