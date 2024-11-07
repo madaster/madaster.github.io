@@ -44,7 +44,7 @@ It is now possible to share a database with accounts in other countries:
 
 ### Other changes ###
 
-* Type is now shown when viewing an element in enrichment 
+* When the Name of the ifc element is unknown (when it is not set in the IFC or it contains no data) the typename is no shown as the name. 
 * It is now possible in the dossier of a building to switch between the upload and export date of your source files.
 * It is now possible to select a delivery date on your building much further in the past.
 * The list of system databases and suppliers has been ordered more logically in the navigation and the country filter also filters this list now.
