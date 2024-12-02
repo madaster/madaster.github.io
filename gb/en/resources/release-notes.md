@@ -8,6 +8,86 @@ menubar: resources-nav
 
 This page contains the release notes.
 
+## Release notes 2024.8 ##
+
+* Build number: 31592
+* Release date: December 2nd 2024
+
+### Calculating impacts of a renovation ###
+
+It is now possible to see the environmental impacts of a renovation according to the 15978 standard. This works as follows:
+
+When your building is in renovation:
+
+<figure><img src="/assets/images/releasenotes/202408-10845-1.png" alt="Building phase in renovation on the building"><figcaption>Building phase in renovation on the building</figcaption></figure>
+
+Madaster will for the impacts take into account the different phases of the elements on the building, where there are three options: new, preserved and demolished. New elements represent the added elements to a building in the renovation, preserved the elements that are kept and demolished the ones that are removed in the renovation project. This can be set in the building file and also in enrichment:
+
+<figure><img src="/assets/images/releasenotes/202408-10845-2.png" alt="Setting the element phase in enrichment"><figcaption>Setting the element phase in enrichment</figcaption></figure>
+
+The impacts of the elements that have these different phases will then show up in the environmental screen on the building and are calculated according to the 15978 LCA rules as defined in the standard. Keep in mind that this will only work when using the 15978 as the LCA analysis method.
+
+<figure><img src="/assets/images/releasenotes/202408-10845-3.png" alt="The impacts of the renovation"><figcaption>The impacts of the renovation</figcaption></figure>
+
+It is possible to filter on the phases by clicking in the graph. That way, it is possible to for example single out only the impacts of the newly added materials in the renovation project:
+
+<figure><img src="/assets/images/releasenotes/202408-10845-4.png" alt="The impacts of the new materials in the renovation project"><figcaption>The impacts of the new materials in the renovation project</figcaption></figure>
+
+### Product passport ###
+
+With this release a new preview feature has been added to generate a product passport for your products. This feature can be found here:
+
+<figure><img src="/assets/images/releasenotes/202408-10793-1.png" alt="The product passport feature"><figcaption>The product passport feature</figcaption></figure>
+
+Having this feature on will change the product overview page:
+
+<figure><img src="/assets/images/releasenotes/202408-10793-2.png" alt="The product overview page when the product passport feature is turned on"><figcaption>The product overview page when the product passport feature is turned on</figcaption></figure>
+
+It will also open up the option to configure your product passport on a product database:
+
+<figure><img src="/assets/images/releasenotes/202408-10793-3.png" alt="Setting up a product passport"><figcaption>Setting up a product passport</figcaption></figure>
+
+There is an option to generate your product passport on the product. When used a pdf file will be created in the dossier of the product:
+
+<figure><img src="/assets/images/releasenotes/202408-10793-4.png" alt="Generating a product passport"><figcaption>Generating a product passport</figcaption></figure>
+
+Location of the passport:
+
+<figure><img src="/assets/images/releasenotes/202408-10793-5.png" alt="The passport in the dossier of the product"><figcaption>The passport in the dossier of the product</figcaption></figure>
+
+Now it is possible to view or download your product passport.
+
+### Support for element combination in IFC ###
+
+When in the IFC export the material families are exported as separate IFC elements it is now possible to set up IFC properties that will be read out in Madaster to recombine those separate IFC elements within a parent-child structure. This is done by using the following properties directly in the Madaster cp_set:
+
+* ElementInstanceCombinationId
+* ElementCombinationType
+
+Or defining your own property names in the upload settings in the platform. When this is used Madaster will create a virtual parent element where all elements sharing this ID will be grouped under based on the ElementInstanceCombinationId. The ElementCombinationType will be used for the name and typename of the element.
+
+### Adding material names as search criteria ###
+
+When linking an element to a product in enrichment it was already possible to add the product as a search criterion on the building level. This has now been extended to make it possible to add it as a search criterion on account level as well:
+
+<figure><img src="/assets/images/releasenotes/202408-11039-1.png" alt="Adding search criteria based on the chosen product on account level"><figcaption>Adding search criteria based on the chosen product on account level</figcaption></figure>
+
+### Construction waste in A5 for 15978 and Level(s) ###
+
+The impacts of the construction waste will now be counted in the A5 phase of a building when using the 15978 or Level(s) LCA schemes. The impacts are calculated by summing the impacts from the following phases of the product: A1-A3+A4+C1+C2+C3+C4.
+
+### Other changes ###
+
+* When clicking on the more detailed hierarchy of the classification in the mass tab there was an option to go to a non-existent last level. This is now no longer possible.
+* Benchmarking has been changed so it is now only possible to select a building that a user is allowed to see (from the same account)
+* It is now possible to use 'contains' in the product excel template for search criteria
+* When using the 3D viewer in enrichment, the ID column has been replaced with the material name. It is still possible to see the ID's.
+
+### Country specific ###
+
+* For the DGNB it is now possible to aditionally select the following KPI's in the environment screen: POCP, EP and AP. Keep in mind that those KPI's are based on the A1 values.
+* The Infrastructure classification LB-VI, Version 7 has been added for Austria 
+
 ## Release notes 2024.7 ##
 
 * Build number: 30956
