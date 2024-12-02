@@ -35,7 +35,7 @@ It is possible to filter on the phases by clicking in the graph. That way, it is
 
 ### Product passport ###
 
-With this release a new preview feature has been added to generate a product passport for your products. This feature can be found here:
+With this release a new preview feature (which means it can be only be turned on, on request) has been added to generate a product passport for your products. This feature can be found here:
 
 <figure><img src="/assets/images/releasenotes/202408-10793-1.png" alt="The product passport feature"><figcaption>The product passport feature</figcaption></figure>
 
