@@ -74,7 +74,8 @@ When linking an element to a product in enrichment it was already possible to ad
 
 ### Construction waste in A5 for 15978 and Level(s) ###
 
-The impacts of the construction waste will now be counted in the A5 phase of a building when using the 15978 or Level(s) LCA schemes. The impacts are calculated by summing the impacts from the following phases of the product: A1-A3+A4+C1+C2+C3+C4.
+The impacts of the construction waste will now be counted in the A5 phase of a building when using the 15978 or Level(s) LCA schemes. The impacts are calculated by summing the impacts from the following phases of the product: A1-A3+A4+C1+C2+C3+C4. 
+(Construction waste is included when the phase of the element(s) is 'Construction waste' in the source files)
 
 ### Other changes ###
 
