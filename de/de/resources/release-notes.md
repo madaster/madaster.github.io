@@ -13,6 +13,8 @@ menubar: resources-nav
 
 ### Calculating impacts of a renovation ###
 
+> Achtung: Da in der deutschen Plattform jegliche Lebenszyklusanalyse für Gebäude auf 50 Jahre Lebensdauer angelegt ist, funktioniert die Berechnung bei Renovierungs-/Sanierungsprojekten noch nicht wie geplant. Ab dem Release 2025.1 erfolgt die Umstellung, dass ausschließlich für die DGNB mit 50 Jahren Lebensdauer kalkuliert wird und weitere Kalkulationen wie EN 15978 mit der Objektlebensdauer (default oder individuell angegeben). Bei der Neuberechnung eines Objektes können die Werte sich daher nach dem Release 2025.1 erheblich ändern.
+
 It is now possible to see the environmental impacts of a renovation according to the 15978 standard. This works as follows:
 
 When your building is in renovation:
