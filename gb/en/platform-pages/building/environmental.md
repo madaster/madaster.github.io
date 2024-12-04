@@ -28,6 +28,26 @@ __*C1-C4 End of Life Processing*__: includes the deconstruction of a building, a
 
 __*D Benefits and Loads beyond the System Boundary*__: includes the reuse and recycling potential of the building's materials and products. It is not guaranteed that reuse or recycling will occur in the future, thus stage D is an assumption and not included in full-building calculations.
 
+### Environmental Impact Indicator for renovation
+
+Madaster shows the environmental impacts of a renovation according to the *LCA standard EN 15978*.
+
+To be able to use this functionality
+
+1. The building has to be set as a **renovation** project in the *General* tab.
+2. The building has also to be given a **delivery date** and a **last renovation date**.
+3. The elements of the building need to be given information about the **phase** they belong to (preserved, demolished or new).
+
+Preserved elements represent the ones which are kept in the building, demolished elements are those which are removed from it, and new elements are those added during the renovation project. The phase can either be set in the source file of the building or in the platform via the enrichment or via the excel file import. *(For further information on the phases please refer to chapter CPset of the BIM manual or the spreadsheet Quickstart of the upload excel template.)*
+
+The results of the calculation of the impact will be shown in the *Environmental* tab in the "**Total**" dashboard, presenting the different proportions in the diagram using different patterns for each phase. It also provides the possibility to toggle the phases via the legend. That way, it is possible, for example, to single out only the impacts of the newly added materials in the renovation project. 
+
+The impacts will be split into:
+- **Current**: Impacts of demolished and preserved elements until last renovation date
+- **Preserved**: Impacts of preserved elements after renovation date (until the end of the given lifespan of the building)
+- **Demolition**: Impacts of demolished elements after renovation date
+- **New**: Impact of the new materials brought in during renovation and specified construction waste
+
 ### Environmental Impact Indicator By Shearing Layer
 The environmental impact indicator is shown by building layer across all life cycle stages.
 

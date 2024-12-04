@@ -17,7 +17,7 @@ This page contains the release notes.
 
 It is now possible to see the environmental impacts of a renovation according to the 15978 standard. This works as follows:
 
-When your building is in renovation:
+When your building is in renovation and you have added a **last renovation date**:
 
 <figure><img src="/assets/images/releasenotes/202408-10845-1.png" alt="Building phase in renovation on the building"><figcaption>Building phase in renovation on the building</figcaption></figure>
 
