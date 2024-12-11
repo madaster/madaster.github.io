@@ -18,8 +18,9 @@ Je nach Abonnement verfügt jeder Account über eine bestimmte Anzahl aktiver Be
 
 ## Benutzer auf Accountebene hinzufügen
 
-Benutzer, die auf **Accountebene** <iconify-icon inline icon='mdi-briefcase-variant'/> eingeladen werden, erhalten Zugang zu allen bestehenden und zukünftigen Ordnern, Projekten und Objekten innerhalb des Accounts. Benutzern auf Accountebene kann eine der folgenden Berechtigungen zugewiesen werden:
+Benutzer, die auf **Accountebene** <iconify-icon inline icon='mdi-briefcase-variant'/> eingeladen werden, erhalten Zugang zu **allen** bestehenden und zukünftigen Ordnern, Projekten und Objekten innerhalb des Accounts. Benutzern auf Accountebene kann eine der folgenden Berechtigungen zugewiesen werden:
 
+|Accountebene|Administrator|Manager & Mitarbeiter an der Datenbank|Manager|Leser|Kontakt Rechnungsstellung|
 |-|-|-|-|-|-|
 |Erstellen und Bearbeiten von Ordnertypen| Ja| Nein| Nein| Nein| Nein|
 |Ordner erstellen| Ja| Ja| Ja| Nein| Nein|
