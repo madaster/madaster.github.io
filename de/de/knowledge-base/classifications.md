@@ -23,7 +23,7 @@ Jeder Schicht ist eine bestimmte Lebensdauer zugeordnet. So werden z.B. die Elem
 
 ## Klassifizierung der Objektelemente
 
-Klassifizierungen werden verwendet um einzelne Elemente von Objekten und die dafür verbauten Materialien/Produkte entsprechend der diversen Auswertungoptionen auflisten zu können (z.B. gemäß der Gebäudeschichten oder der deutschen Kostengruppen als ). Auf diese Weise können die Ergebnisse jeder Berechnung sowohl für eine individuelle als auch für eine umfassende, allgemeine Analyse strukturiert werden.
+Klassifizierungen werden verwendet um einzelne Elemente von Objekten und die dafür verbauten Materialien/Produkte entsprechend der diversen Auswertungoptionen auflisten zu können (z.B. gemäß der Gebäudeschichten oder der deutschen Kostengruppen). Auf diese Weise können die Ergebnisse jeder Berechnung sowohl für eine individuelle als auch für eine umfassende, allgemeine Analyse strukturiert werden.
 
 Die meisten Länder haben ihre eigenen Normen für die Klassifizierung der Elemente (siehe <a href="https://docs.madaster.com/nl/en/knowledge-base/madaster-glossary.html" target="_blank">Glossar - Industrienormen</a>). Welche Ihnen neben den nationalen Klassifizierung zur Verfügung stehen, finden Sie außerdem in der linken Navigationsleiste auf der Plattform unter "Informationen/Klassifizierungsmethoden". Nach entsprechender Auswahl liest die Madaster-Plattform diese bei Upload automatisch aus dem BIM-Modell bzw. der Quelldatei aus.
 
