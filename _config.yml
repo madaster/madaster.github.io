@@ -1,11 +1,11 @@
 # /*theme: jekyll-theme-cayman*/
 # remote_theme: chrisrhymes/bulma-clean-theme
 countries:
-  - country: "Nederland"
+  - country: "Netherlands"
     code: "nl"
     defaultlanguage: "nl"
     languages: "nl,en"
-  - country: "Swiss"
+  - country: "Switzerland"
     code: "ch"
     defaultlanguage: "de"
     languages: "de,fr,en"
@@ -13,7 +13,7 @@ countries:
     code: "no"
     defaultlanguage: "nb"
     languages: "nb,en"
-  - country: "Deutschland"
+  - country: "Germany"
     code: "de"
     defaultlanguage: "de"
     languages: "de,en"
@@ -29,7 +29,7 @@ countries:
     code: "gb"
     defaultlanguage: "en"
     languages: "en"
-  - country: "Luxemburg"
+  - country: "Luxembourg"
     code: "lu"
     defaultlanguage: "en"
     languages: "en"
