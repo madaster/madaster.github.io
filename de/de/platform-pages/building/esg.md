@@ -27,7 +27,7 @@ Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsmethode ausgewähl
 * Preis der ausgewählten "andere Energiequelle" #2
 * Kohlenstoffpreis in Abhängigkeit vom Standort des Gebäudes.
 
-Wenn detailliertere Informationen zu diesen Zahlen vorhanden sind, kann der Benutzer diese im Tab **"User-defined settings"** überschreiben. Bitte beachten Sie, dass für jedes Objekt die allgemeine Information **"Gross internal area"** ausgefüllt werden muss, und das **"Datum Fertigstellung"** in der Vergangenheit liegen muss.
+Wenn detailliertere Informationen zu diesen Zahlen vorhanden sind, kann der Benutzer diese im Tab **"User-defined settings"** überschreiben. Bitte beachten Sie, dass für jedes Objekt die allgemeine Information **"Gross internal area"** ausgefüllt werden muss, und das **"Datum Fertigstellung"** in der Vergangenheit liegen muss. Zuvor muss ein CRREM-Bericht auf Account- oder Ordnerebene erstellt werden.
 
 Nachdem Sie die Daten Ihres Gebäudebetriebs eingegeben haben, berechnet die Plattform die jährlichen CO2-Emissionen sowie die Energiekosten und den jährlichen Energieverbrauch. Um Kohlenstoffneutralität bis 2050 zu erreichen, berechnet das CRREM-Tool einen Dekarbonisierungspfad für das Objekt. Alle nachfolgenden Emissionen, die über das Dekarbonisierungsziel hinausgehen (so genannte "Excess-Emissionen"), stellen ein Kohlenstoff-Risiko dar. Die wirtschaftliche Obsoleszenz ist mit dem Stranding-Moment verbunden; je höher die überschüssigen Emissionen sind, desto größer ist die Wahrscheinlichkeit der wirtschaftlichen Obsoleszenz.
 
