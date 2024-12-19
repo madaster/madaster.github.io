@@ -32,7 +32,7 @@
                     {% for pagefound in pages %}
                     <li class="country-language" data-language="{{ country.code }}-{{ pagefound.lang }}">
                       <a href="{{ pagefound.url }}" class="{% if  pagefound.url == page.url %}active{% endif %}">
-                        <img height="16" width="24" src="/assets/flags/{{ pagefound.lang }}.svg"/><span>{{ pagefound.lang_name }}</span>
+                        {{ pagefound.lang_name }}
                       </a>
                     </li>
                     {% endfor %}
