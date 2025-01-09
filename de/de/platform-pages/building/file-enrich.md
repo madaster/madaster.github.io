@@ -5,38 +5,28 @@ ref: building-file-enrich
 type: FAQ
 ---
 
-## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Der Prozess des Abgleichs eines (IFC)-Elements mit einem Produkt oder einem Material wird von Madaster automatisch nach dem Import und dem Auslesen der Quelldatei durchgeführt. Es ist möglich, dass Elemente nicht abgeglichen wurden oder dass auf der Grundlage der Suchkriterien ein falscher Abgleich stattgefunden hat. In der ANREICHERN-Maske kann der Matching-Prozess überprüft und abgeschlossen werden, das sogenannte “Anreichern” des Prozesses.
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
+Nach dem Import und dem Auslesen der Quelldatei wird ein automatischer Verknüpfungsprozess eines (IFC)-Elements mit einem Produkt oder einem Material einer Datenbank durchgeführt. Es ist möglich, dass Elemente nicht abgeglichen wurden oder dass auf der Grundlage der Suchkriterien ein falscher Abgleich stattgefunden hat. Es wird daher empfohlen, die automatischen Verknüpfungen auf die Plausibilität zu prüfen.
 
-**HINWEIS**: Madaster rät dringend, vor dem Import einer Quelldatei sicherzustellen, dass die Informationen in der Quelldatei gut mit den Informationen in den ausgewählten Datenbanken/Quellen übereinstimmen. Dies kann durch die Verwendung des Materialnamens in der EPEA-Datenbank (siehe <a href="https://docs.madaster.com/files/de/Epea_Generic.xlsx">EPEA Generic</a>) erfolgen oder indem sichergestellt wird, dass der Name in den Quelldateien mit der (eigenen) ausgewählten Datenbank/Quelle übereinstimmt.
+> Es ist dringend empfohlen, vor dem Import einer Quelldatei sicherzustellen, dass die Informationen (bspw. Materialbezeichnung) in der Quelldatei gut mit den Informationen in den ausgewählten Datenbanken übereinstimmen. Nutzen Sie hierfür bestensfalls genaue Materialbeschreibungen der frei zugänglichen Datenbanken, die Sie für den Abgleich nutzen können.
 
-## LINKER SEITENRAND
-Auf der linken Seite steht eine Such- und Filterfunktion zur Verfügung. Der Filter "Themen" kann aufgeklappt werden, um eine Auswahl zu treffen:
-
-- Statuselement: Filter für verknüpfte/nicht verknüpfte Elemente. Insbesondere für die Anreicherung ungebundener Elemente der wichtigste Filter.
-- Berechnungselement: Filter auf eingebettete/ausgeschlossene Elemente.
-- IFC-Typ: Filter für die verfügbaren IFC-Typen.
-- Bauphase: Filter für die vorhandene Bauphase (vorhanden / Abriss / Rohbau / neu / Final).
-- Bauschichten: Filter für die Gebäudeschicht (nach Stewart Brand).
-- Stockwerke: Filter für die vorhandenen Stockwerke/Gebäudeebenen.
-- Klassifizierungsmethoden: Filter auf verfügbaren Klassifizierungscode.
-- Dimension der Einheit: Filter auf Dimensionseinheit: Volumen / Oberfläche / Länge.
-
-## HAUPTBILDSCHIRM
+### Erläuterung des Hauptbildschirms
 Der Hauptbildschirm zeigt die Liste aller in der Quelldatei enthaltenen Elemente. In den Spalten werden folgende Informationen angezeigt:
 
-- Element: Elementname aus der Quelldatei.
-- Materialien: Materialname aus der Quelldatei.
-- Produkt/Material: das Produkt/Material, mit dem das Element verbunden ist.
-- Anzahl: die Anzahl der Elemente dieses Typs/Namens.
-- Symbol: Link.
+1. Element: Elementname aus der Quelldatei.
+1. Materialien: Materialname aus der Quelldatei.
+1. Produkt/Material: das Produkt/Material, mit dem das Element mit einem Datensatz einer ausgewählten Datenbank verbunden ist.
+1. Volumen/Fläche/Länge: geometrische Informationen des Elements der Quelldatei, die von Madaster ausgelesen wurden.
+1. Menge: die Anzahl der Elemente dieses Typs/Namens.
+1. Symbol <iconify-icon inline icon='mdi-link-variant'/>: Das Element der Quelldatei ist mit einem Datensatz einer ausgewählten Datenbank verbunden.
 
-Durch Auswahl eines oder mehrerer Elemente erscheint ein Dialogblock, mit dem die Elemente überschrieben/getrennt oder eingebettet/ausgeschlossen werden können. Das Einschließen oder Ausschließen eines Elements führt dazu, dass dieses Element in die Berechnungen einbezogen/nicht einbezogen wird. Dies kann z.B. für die Masse des umgebenden Geländes verwendet werden, wenn es in der Quelldatei enthalten ist. Oder wenn es Überschneidungen gibt.
+Durch Auswahl eines oder mehrerer Elemente erscheint ein Dialogblock, mit dem die Elemente angepasst werden können. Es besteht ebenfalls die Möglichkeit, die ausgewählten Elemente in einem 3D-Viewer <iconify-icon inline icon='mdi-axis-arrow-info'/> darstellen zu lassen, um die Elemente besser zu lokalisieren und eventuelle Anpassungen leichter durchzuführen. Alternativ sind ebenfalls die Element-IDs <iconify-icon inline icon='mdi-identifier'/> anzeigbar, sodass die Anpassungen direkt im BIM-Modell verfolgbar sind.
 
-## 3D-MODELL
-Am oberen Rand des Fensters, in der blauen Leiste, befindet sich eine Schaltfläche zum Aktivieren eines 3D-Viewers. Dies ist nur möglich, wenn die Quelldatei ein IFC-Modell ist:
+### Objekt anreichern
+Weitere Informationen dazu, wie Sie Ihr Objekt auf der Madaster-Plattform mit Informationen anreichern, finden Sie in unseren <a href="https://docs.madaster.com/de/de/get-started/enrich-objects-with-material-and-product-databases" target="_blank">Ersten Schritten - Objekt anreichern</a>.
 
-- 3D-Modell anzeigen: Der 3D-Viewer öffnet sich und zeigt das Gesamtmodell.
-- Auswahl im 3D-Modell anzeigen: Der 3D-Viewer öffnet sich und zeigt das/die ausgewählte(n) Element(e).
+### Vorbereiten und Anpassen der Quelldatei
+Weitere Informationen dazu, wie Sie Ihre Quelldatei vorbereiten können und welche Anforderungen für die optimierte Nutzung der Madaster-Plattform bestehen, finden Sie in unserer <a href="https://docs.madaster.com/de/de/knowledge-base/preparing-bim-ifc-source-files.html" target="_blank">Wissensdatenbank - Vorbereiten einer Quelldatei</a>.
 
-Wenn ein Element in der 3D-Ansicht ausgewählt wird, erscheint ein Dialogblock, mit dem die Elemente überschrieben/getrennt oder eingebettet/ausgeschlossen werden können. Zu diesem Zeitpunkt ist das fragliche Element noch nicht in der Liste ausgewählt.
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

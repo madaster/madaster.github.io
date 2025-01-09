@@ -4,21 +4,16 @@ description: Objekt - Archiv
 ref: buildingarchive
 type: FAQ
 ---
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 
-## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Nach dem Öffnen eines Objekts gelangen Sie auf die Detailseite des Objekts. Diese Seite enthält allgemeine Informationen. Dort sehen Sie eine Zusammenfassung der eingegebenen Daten. Wenn Sie eine Adresse eingegeben haben, sehen Sie eine Karte mit dem Standort. Wenn Bilder des Objekts hinzugefügt wurden, sehen Sie diese Bilder.
+Weitere Informationen zur Verwaltung des Objekts, finden Sie in unserer <a href="https://docs.madaster.com/de/de/knowledge-base/stay-organized#verwalten-von-objekten" target="_blank">Wissensdatenbank - Verwalten des Accounts</a>. Hier finden Sie Informationen zu folgenden Themen:
+1. Objekte verschieben
+1. Objekte archivieren
+1. Objekte übertragen
+1. Objekte splitten
+1. Varianten erstellen
 
-## WIE SIND DIE REGISTERKARTEN ORGANISIERT?
-Informationen über das Objekt sind in mehreren Registerkarten organisiert „Allgemeines”, „Dossier”, „Masse”, „Zirkularität”, "Umwelt", „Finanziell”, „Bauprozess” und „Benutzer”.
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
 
-- **Allgemeines** Allgemeine Informationen über das Objekt, wie die Adresse, Katasterdaten, Typ, Bruttogesamtfläche.
-- **Dossier** Alle mit diesem Objekt hochgeladenen Dateien und die für dieses Objekt erstellten Materialpässe finden Sie hier. Für jede Registerkarte können Sie weitere Informationen erhalten, indem Sie auf das „Information”-Symbol auf der rechten Seite der Leiste klicken Dies führt Sie direkt zur richtigen Erklärung.
-- **Masse** Ein Überblick über alle pro Gebäudeschicht verwendeten Materialien und Produkte, klassifiziert nach der gewählten Klassifizierung für Materialien.
-- **Zirkularität** Diese Registerkarte enthält Informationen über die Rundheitsangabe des Objekts.
-- **Finanziell** Diese Registerkarte enthält Informationen zu den finanziellen Angaben des Objekts.
-- **Bauprozess** Informationen über die verwendeten Produkte und Materialien, klassifiziert nach dem Bauprozess des Objekts. Diese Registerkarte ist nur verfügbar, wenn das Objekt in der Registerkarte Allgemein die Bauphase “Renovierung” erhalten hat.
 
-## DIE WERKZEUGLEISTE
-
-**Löschen**
-Mit dieser Schaltfläche gelangen Sie zu einem Dialog, in dem Sie dieses Objekt sofort löschen können. Achtung! Dadurch werden das Objekt und alle zugehörigen Daten über das Objekt, die Quelldateien und die allgemeinen Dateien sowie die Materialpässe gelöscht! Dafür gibt es keine “Wiederherstellungs”-Option.

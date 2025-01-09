@@ -11,30 +11,26 @@ redirect_from:
   - platform-pages/account/foldertypes
 ---
 
-## Ordner-Einstellungen
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 
-### Wie füge ich einen Ordner und ein neues Objekt hinzu?
-Für weitere Informationen zum Einrichten des Accounts folgen Sie den <a href="https://docs-t.madaster.com/de/de/get-started/set-up-your-account#ordner-erstellen-und-organisieren" target="_blank">Ersten Schritten</a>.
+### Ordner erstellen
+Für weitere Informationen zum Einrichten des Accounts folgen Sie den <a href="https://docs.madaster.com/de/de/get-started/set-up-your-account#ordner-erstellen-und-organisieren" target="_blank">Ersten Schritten</a>.
 
-### Wie füge ich einen neuen Ordnertyp hinzu?
-Sie können hier einen neuen Ordnertyp erstellen, der auf den gesamten Account angewendet werden kann, um eine geeignete Organisationsstruktur für Ihren zu schaffen. Sie sehen eine Schaltflächenleiste mit einem Button zum Erstellen eines neuen Ordnertyps . Darunter sehen Sie die Liste der bereits erstellten Ordnertypen.
-</br> Für weitere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/knowledge-base/folder-types-and-folder-structure.html" target="_blank">Wissensdatenbank - Ordnertypen und Ordnerstruktur</a>.
-
-## Sonstige Einstellungen
-
+### Ordner verwalten
+Für weitere Informationen, welche Ordnertypen Ihnen zur Verfügung stehen und wie Sie sich eine eigene Ordnerstruktur aufbauen, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/knowledge-base/folder-types-and-folder-structure" target="_blank">Wissensdatenbank - Ordnertypen und Ordnerstruktur</a>.
 
 ### Voreinstellungen für den Upload
-Für weitere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/knowledge-base/stay-organized#presets-for-source-file-uploads#voreinstellungen-f%C3%BCr-quelldateiuploads" target="_blank">Wissensdatenbank - Voreinstellungen für Quelldateiuploads</a>.
+Für weitere Informationen besuchen Sie unsere <a href="https://docs.madaster.com/de/de/knowledge-base/stay-organized.html#organisieren-der-quelldateien" target="_blank">Wissensdatenbank - Voreinstellungen für Quelldateiuploads</a>.
 
 ### Voreinstellungen für Materialpässe
-Für weitere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/get-started/create-material-passports" target="_blank">Wissensdatenbank - Materialpass erstellen</a>.
+Für weitere Informationen besuchen Sie unsere <a href="https://docs.madaster.com/de/de/get-started/create-material-passports" target="_blank">Wissensdatenbank - Materialpass erstellen</a>.
 
 ### Dateneinstellungen
-Für weitere Informationen zum Einrichten des Accounts folgen Sie den <a href="https://docs-t.madaster.com/de/de/get-started/set-up-your-account#ordner-erstellen-und-organisieren" target="_blank">Ersten Schritten</a>.
+Für weitere Informationen zu den möglichen Accounteinstellungen, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/get-started/set-up-your-account.html#accounteinstellungen-anpassen" target="_blank">Erste Schritte - Accounteinstellungen</a>.
 
 ### Datenbank
-Für weitere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/knowledge-base/databases" target="_blank">Wissensdatenbank - Datenbanken</a>.
+Für weitere Informationen besuchen Sie unsere <a href="https://docs.madaster.com/de/de/knowledge-base/databases" target="_blank">Wissensdatenbank - Datenbanken</a>.
 
 
 ## Nicht gefunden, was Sie suchen?
-Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.  
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.  
