@@ -16,7 +16,7 @@ countries:
   - country: "Germany"
     code: "de"
     defaultlanguage: "de"
-    languages: "de,en"
+    languages: "de"
   - country: "Belgium"
     code: "be"
     defaultlanguage: "nl"
