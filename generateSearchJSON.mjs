@@ -64,8 +64,8 @@ async function createSearchFile(country, language) {
         title: data.title,
         url: path.replace('./docs/', '').replace(/\.md$/, '.html'),
         content: contents
-        .join('')
-        .replace(/\s{2,}/g, '')
+        .join(' ')
+        .replace(/\s{2,}/g, ' ')
         .trim(),
         };
       })
