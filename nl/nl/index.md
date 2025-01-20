@@ -59,6 +59,7 @@ Heeft u vragen? Neem dan contact op met Madaster via het telefoonnummer [085-060
 
 Meer informatie over de releases vindt u hier:
 
-* <a href="https://docs.madaster.com/gb/en/resources/release-notes" target="_blank">Release notes 2024</a>
+* <a href="https://docs.madaster.com/gb/en/resources/release-notes" target="_blank">Release notes 2025</a>
+* <a href="https://docs.madaster.com/gb/en/resources/release-notes-2024" target="_blank">Release notes 2024</a>
 * <a href="/files/nl/Madaster Releasenotes 2023.pdf" target="_blank">Release notes 2023</a>
 * <a href="/files/nl/Madaster Releasenotes 2022.pdf" target="_blank">Release notes 2022</a>
