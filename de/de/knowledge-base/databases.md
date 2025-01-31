@@ -30,7 +30,7 @@ Die Berechtigung des Benutzers hängt von zwei Parametern ab:
 * Die eingestellten Datenbankeigenschaften können in der Registerkarte **Datenbank** unter dem Feld **Datenbankeigenschaften bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> eingestellt werden.
 
 Nähere Informationen über die Berechtigungen und Hierarchiebenen für Benutzer finden sie
-<a href='https://docs-t.madaster.com/de/de/knowledge-base/users.html' target='_blank'>hier</a>.
+<a href='/de/de/knowledge-base/users.html' target='_blank'>hier</a>.
 
 ## Datenbank erstellen
 
@@ -57,7 +57,7 @@ Es besteht die Möglichkeit, die Produkte und Materialien einer Datenbank über 
 1. Für den **Import** klicken Sie **Importieren** und nach Auswahl der Importinformationen <iconify-icon inline icon='mdi-checkbox-marked'/> auf **OK**.
 
 ## Datenbank teilen
- Wenn Sie die notwendige <a href='https://docs-t.madaster.com/de/de/knowledge-base/users.html' target='_blank'>Berechtigung</a> besitzen, können Sie Datenbanken teilen. Gehen Sie dafür auf die jeweilige Datenbank <iconify-icon inline icon='mdi-database' /> und anschließend auf die Registerkarte **Geteilt mit**.
+ Wenn Sie die notwendige <a href='/de/de/knowledge-base/users.html' target='_blank'>Berechtigung</a> besitzen, können Sie Datenbanken teilen. Gehen Sie dafür auf die jeweilige Datenbank <iconify-icon inline icon='mdi-database' /> und anschließend auf die Registerkarte **Geteilt mit**.
  1. Klicken Sie auf **Freigeben** <iconify-icon inline icon='mdi-plus-circle-outline'/>, um die Datenbank mit einstellbaren Freigaberechten zu teilen.
  1. Klicken Sie auf **Freigabe bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/>, um die eingestellten Freigaberechte anzupassen. 
  
@@ -86,4 +86,4 @@ Nähere Informationen zu den Produktinformationen und Einstellungsmöglichkeiten
 
 ## API Token hinzufügen
 
-Nähere Informationen zur Nutzung der Madaster API finden Sie <a href="https://docs-t.madaster.com/de/de/api/" target="_blank">hier</a>.
+Nähere Informationen zur Nutzung der Madaster API finden Sie <a href="/de/de/api/" target="_blank">hier</a>.

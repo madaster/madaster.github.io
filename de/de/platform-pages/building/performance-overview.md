@@ -6,7 +6,7 @@ type: FAQ
 ---
 
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
-In der Registerkarte **Performance** werden zusammenfassende Metriken für das ausgewählte Objekt angezeigt. Für weitere Informationen besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/get-started/object-insights-and-performance.html" target="_blank">Ersten Schritte</a>.
+In der Registerkarte **Performance** werden zusammenfassende Metriken für das ausgewählte Objekt angezeigt. Für weitere Informationen besuchen Sie unsere <a href="/de/de/get-started/object-insights-and-performance.html" target="_blank">Ersten Schritte</a>.
 
 ### Key Performance Indicators (KPI)
 Die folgenden Summen werden für das Objekt angezeigt:
@@ -19,7 +19,7 @@ Die folgenden Summen werden für das Objekt angezeigt:
 1. **Globales Erwärmungspotenzial (GWP)**: misst die äquivalenten CO<sub>2</sub>-Emissionen, die bei der Herstellung (A1-A3), Installation (A4-A5), Nutzung (B1-B5) und Demontage (C1-C4) eines Objekts freigesetzt werden. Da die Produktionsdaten (A1-A3) im Baugewerbe am leichtesten zugänglich sind, werden sie verwendet, um zuverlässige Gesamtwerte zu ermitteln, die zwischen Accounts, Ordnern und Objekten verglichen werden können. Die Intensität des Globalen Erwärmungspotenzials (GWP) für A1-A3 wird ebenfalls pro m<sup>2</sup> angegeben.
 
 ### Berechnung der Key Performance Indicators (KPI)
-Für nähere Informationen zur Berechnung der unterschiedlichen Indikatoren besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/knowledge-base/calculations" target="_blank">Wissensdatenbank - Kalkulationen</a>.
+Für nähere Informationen zur Berechnung der unterschiedlichen Indikatoren besuchen Sie unsere <a href="/de/de/knowledge-base/calculations" target="_blank">Wissensdatenbank - Kalkulationen</a>.
 
 ## Nicht gefunden, was Sie suchen?
-Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs-t.madaster.com/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen. 
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen. 

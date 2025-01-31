@@ -37,7 +37,7 @@ Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den B
 2. **Klassifizierung hinzufügen:**
   * Madaster verwendet einen Klassifizierungscode, um die Elemente in Gebäudeschichten zu sortieren, die Standardklassifizierungsmethode variiert von Land zu Land.
   * Diese Notation kann in der Kategorie und den Eigenschaften in den Selektionseinstellungen eines Objekts hinzugefügt werden. In diesem Fenster müssen Sie IFC-Eigenschaften verwalten öffnen und die Option Vordefinierte Regel anwenden aktivieren. In diesem letzten Fenster können Sie die Kodierung und den Detaillierungsgrad (Anzahl der Ziffern des Codes) aktivieren. Der letzte Schritt besteht nun darin, anzugeben, welche Kodierung das Objekt hat.
-  * Alternativ dazu können Sie sich das  <a href="https://docs-t.madaster.com/de/de/knowledge-base/madaster-property-set.html#madaster-archicad-eigenschaftssatz-cpset_madaster" target="_blank">Madaster Pset</a> herunterladen und in Archicad importieren.
+  * Alternativ dazu können Sie sich das  <a href="/de/de/knowledge-base/madaster-property-set.html#madaster-archicad-eigenschaftssatz-cpset_madaster" target="_blank">Madaster Pset</a> herunterladen und in Archicad importieren.
 3. **Materialien hinzufügen**
   * Für eine exakte Auswertung sollten alle modellierten Elemente eine Materialbeschreibung besitzen, die in Archicad in den Baustoffen mit der Option *individuelles Material hinzuzufügen* definiert wird.
   * Wichtig ist, dass die verwendeten Materialien einen eindeutigen Namen erhalten, in dem die Materialdefinition beschrieben ist (Betonfestigkeit X/Y und Z% Stahl, Steinwolle etc.).
@@ -48,7 +48,7 @@ Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den B
     * Die *Geometriekonvertierung* muss auf *IFC4 Design Transfer View* eingestellt werden.
     * Die *Datenkonvertierung* auf *General translator IFC4*.
     * Es ist wichtig, dass der Haken bei *IFC Base Quantities* in den *Dateneinstellungen* nicht vergessen wird.
-    2. Über die <a href="https://docs-t.madaster.com/de/de/knowledge-base/madaster-property-set.html#madaster-revit-eigenschaftssatz-cpset_madaster" target="_blank">Madaster-Vorlage</a> können Sie einen voreingestellten IFC-Übersetzer herunterladen, der über den *Import*-Button importiert werden kann.
+    2. Über die <a href="/de/de/knowledge-base/madaster-property-set.html#madaster-revit-eigenschaftssatz-cpset_madaster" target="_blank">Madaster-Vorlage</a> können Sie einen voreingestellten IFC-Übersetzer herunterladen, der über den *Import*-Button importiert werden kann.
 
 
 ## Revit IFC-Quelldateien vorbereiten

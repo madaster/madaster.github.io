@@ -114,7 +114,7 @@ Die aufgeführten Beispiele dienen lediglich zur Veranschaulichung und stellen k
 
 **N) Gewicht / Dicke / Höhe / Breite / Durchmesser / Eigenschaft / Menge**
 * Notwendigkeit der Eingabe: *Optional*
-* Möchten Sie die Skalierungsfunktion von Madaster für Ihre Materialien/Produkte verwenden, hinterlegen Sie in diesen Feldern die notwendigen Informationen. Nähere Erläuterungen finden Sie unter <a href="https://docs-t.madaster.com/de/de/knowledge-base/databases.html#produktinformation" target="_blank">Skalierbarkeit</a>.
+* Möchten Sie die Skalierungsfunktion von Madaster für Ihre Materialien/Produkte verwenden, hinterlegen Sie in diesen Feldern die notwendigen Informationen. Nähere Erläuterungen finden Sie unter <a href="/de/de/knowledge-base/databases.html#produktinformation" target="_blank">Skalierbarkeit</a>.
 
 **O) Objektnummern**
 * Notwendigkeit der Eingabe: *Optional*
@@ -128,15 +128,15 @@ Aufgrund der Langlebigkeit der Objekte ist es wichtig, gerade dieses Wissen lang
     * **Zugänglichkeit der Verbindung:** Wählen Sie hier die Zugänglichkeit der Verbindung des Produktes.
     * **Überschneidungen:** Wählen Sie hier die Produktüberschneidungen.
     * **Produktkanten:** Sie können bewerten, wie Produkte in einer Komposition platziert sind und ob diese offen oder geschlossen ist. Wie der Name schon sagt, hat dies mit den physischen „Kanten" des Produkts zu tun. Liegt ein Produkt so, dass es von umgebenden Produkten „umschlossen“ ist, spricht man von einem Randeinschluss. Dies macht es unmöglich, ein Produkt anders als in umgekehrter Reihenfolge des Aufbaus zu demontieren. Der Randeinschlussfaktor ist in zwei Situationen relevant: 1) für einzelne Produkte, die von der Komposition umschlossen sind oder 2) für Serienprodukte, die sich gegenseitig umschließen.
-* weitere Informationen zur Berechnung der Demontierbarkeit finden Sie <a href="https://docs-t.madaster.com/de/de/knowledge-base/calculations.html#demontierbarkeit-detachability" target="_blank">hier</a>.
+* weitere Informationen zur Berechnung der Demontierbarkeit finden Sie <a href="/de/de/knowledge-base/calculations.html#demontierbarkeit-detachability" target="_blank">hier</a>.
 
 **AE) % Wiederverwendet**
 * Notwendigkeit der Eingabe: *Empfohlen*
-* Mit der Eingabe dieses Feldes geben Sie an, zu wie viel Prozent das Material/Produkt hinsichtlich der *Materialherkunft* wiederverwendet wurde. Ist diese Information hinterlegt, kann diese für die Berechnung des <a href="https://docs-t.madaster.com/de/de/knowledge-base/calculations.html#madaster-zirkularit%C3%A4tsindikator-mzi" target="_blank">Madaster Zirkularitätsindikators</a> genutzt werden.
+* Mit der Eingabe dieses Feldes geben Sie an, zu wie viel Prozent das Material/Produkt hinsichtlich der *Materialherkunft* wiederverwendet wurde. Ist diese Information hinterlegt, kann diese für die Berechnung des <a href="/de/de/knowledge-base/calculations.html#madaster-zirkularit%C3%A4tsindikator-mzi" target="_blank">Madaster Zirkularitätsindikators</a> genutzt werden.
 
 **AF) Prozentsatz für die Verfügbarkeit für die Wiederverwendung**
 * Notwendigkeit der Eingabe: *Empfohlen*
-*  Mit der Eingabe dieses Feldes geben Sie die prozentuale Anzahl an, wie viele Materialien/Produkte im Sanierungs-/Rückbauprozess in der *Materialverwendung* für die Wiederverwendung in Betracht gezogen werden können. Ist diese Information hinterlegt, kann diese für die Berechnung des <a href="https://docs-t.madaster.com/de/de/knowledge-base/calculations.html#madaster-zirkularit%C3%A4tsindikator-mzi" target="_blank">Madaster Zirkularitätsindikators</a> genutzt werden.
+*  Mit der Eingabe dieses Feldes geben Sie die prozentuale Anzahl an, wie viele Materialien/Produkte im Sanierungs-/Rückbauprozess in der *Materialverwendung* für die Wiederverwendung in Betracht gezogen werden können. Ist diese Information hinterlegt, kann diese für die Berechnung des <a href="/de/de/knowledge-base/calculations.html#madaster-zirkularit%C3%A4tsindikator-mzi" target="_blank">Madaster Zirkularitätsindikators</a> genutzt werden.
 
 **AG) Angenommene Bauabfälle**
 * Notwendigkeit der Eingabe: *Optional*

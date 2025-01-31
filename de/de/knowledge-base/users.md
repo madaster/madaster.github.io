@@ -10,7 +10,7 @@ Benutzer einladen und Berechtigungen festlegen sowie Verwendung der API
 
 Auf der Plattform ist es möglich, Benutzer mit bestimmten Rechten auf Account-, Ordner- und Objektebene hinzuzufügen.
 Benutzer können als *Zeichnungsberechtigt* zugewiesen werden, was bedeutet, dass sie die rechtliche Verantwortung haben, die Lizenzbedingungen von eingeschränkten Herstellerdatenbanken zu akzeptieren. Diese sind auf Accountebene hinter dem Symbol <iconify-icon inline icon='mdi-dots-vertical'/> im Menü und auf der Seite **Lizensierte Datenbanken** aufgeführt.
-Weitere Informationen hierzu finden Sie auf der Seite <a href="https://docs-t.madaster.com/de/de/knowledge-base/databases.html" target="_blank">Datenbanken auf Madaster</a>.
+Weitere Informationen hierzu finden Sie auf der Seite <a href="/de/de/knowledge-base/databases.html" target="_blank">Datenbanken auf Madaster</a>.
 
 **Aktive (gezählte) Nutzer gegenüber Lesern**
 
