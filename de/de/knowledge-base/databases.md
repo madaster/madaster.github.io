@@ -1,12 +1,12 @@
 ---
 title: Datenbanken
-description: Datenbankkonfiguration, Anlegen von Produkten und Datenpflege
+description: Datenbankkonfiguration und Datenpflege
 ref: databases
 type: Wissensdatenbank
 menubar: knowledge-base-nav
 ---
 
-Datenbankkonfiguration, Anlegen von Produkten und Datenpflege
+Datenbankkonfiguration und Datenpflege
 
 ## Verfügbare Datenbanken
 
