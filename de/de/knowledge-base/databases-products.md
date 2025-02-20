@@ -1,12 +1,12 @@
 ---
 title: Produkte
-description: Product upload/set up and maintenance
+description: Produkte anlegen und pflegen
 ref: databases-products
 type: Wissensdatenbank
 menubar: knowledge-base-nav
 ---
 
-Product upload/set up and maintenance
+Produkte anlegen und pflegen
 
 ## Produktinformation - Allgemein
 
