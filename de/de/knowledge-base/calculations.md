@@ -70,7 +70,7 @@ Der MZI-Wert eines Objekts setzt sich aus den MZI-Werten der verschiedenen Gebä
 
 ### Berechnung des Madaster Zirkularitätsindikator (MZI)
 **ZI Score für die Materialherkunft**
-Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann durch Verweis auf ein Produkt einer <a href="../knowledge-base/databases#verfügbare-datenbanken" target="_blank">Systemdatenbank</a> der Madaster Plattform oder durch Erstellung eines Produkts<a href="../knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
+Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann durch Verweis auf ein Produkt einer <a href="../knowledge-base/databases#verfügbare-datenbanken" target="_blank">Systemdatenbank</a> der Madaster Plattform oder durch <a href="../knowledge-base/databases-products" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
 * Die Formel für den Zirkularitätsindikator der Materialherkunft lautet:
 
 $$
@@ -95,7 +95,7 @@ $$
   | $M_{B}$ | Masse des gesamten Produkts (kg);
     
 **ZI Score für die Materialverwertung**
-Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick in das zu geben, was am Ende der Lebensdauer eines Produkts geschieht. Diese Informationen können durch Verweis auf <a href="../knowledge-base/databases#existing-databases" target="_blank">eine bestehende Datenbank</a> innerhalb der Madaster-Plattform oder durch <a href="https://docs.madaster.com/nl/en/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
+Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick in das zu geben, was am Ende der Lebensdauer eines Produkts geschieht. Diese Informationen können durch Verweis auf ein Produkt <a href="../knowledge-base/databases#verfügbare-datenbanken" target="_blank">einer bestehende Datenbank</a> innerhalb der Madaster-Plattform oder durch <a href="../knowledge-base/databases-products" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
 
 Bei der Berechnung wird zwischen Recycling, Downcycling, Wiederverwendung, Deponierung und Verbrennung (thermische Verwertung) unterschieden.
 
