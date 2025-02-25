@@ -8,6 +8,53 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.2 ##
+
+* Build number: 32489
+* Release date: February 22nd 2025
+
+### Draft products ###
+
+It is now possible to put a product in a database in draft when you are still working on it:
+
+<figure><img src="/assets/images/releasenotes/202502-11446-1.png" alt="Putting a product in draft"><figcaption>Putting a product in draft.</figcaption></figure>
+
+Draft products are active products and have their own filter (publication status). A tag is shown as well to make it clear the product is in draft:
+
+<figure><img src="/assets/images/releasenotes/202502-11446-2.png" alt="A product in draft in a product overview"><figcaption>A product in draft in a product overview</figcaption></figure>
+
+Draft products cannot be used to link to elements. Once a product has been used in a building it cannot be put in draft again.
+
+### Assumed waste codes ###
+
+If the Madaster platform has assumed waste codes of a product, based on for example the material composition, these will be shown in enrichment:
+
+<figure><img src="/assets/images/releasenotes/202502-11340-1.png" alt="The assumed waste codes"><figcaption>The assumed waste codes as shown in enrichment</figcaption></figure>
+
+If the assumed waste code is correct it is possible to quickly add it to the element so it is actually connected to the element and will appear in reports:
+
+<figure><img src="/assets/images/releasenotes/202502-11340-2.png" alt="Adding the assumed waste code"><figcaption>Adding the assumed waste code</figcaption></figure>
+
+### Other changes ###
+
+* It is now possible to directly generate the technical annex when using the 'generate report' button on a building:
+
+<figure><img src="/assets/images/releasenotes/202502-11394-1.png" alt="Generating the technical annex"><figcaption>Option to generate the technical annex</figcaption></figure>
+
+* The Madaster ID and external ID are no shown on a product in the platform when the product passport feature is active.
+
+* It used to be necessary to have detachability filled in before you could fill in the percentage of 'available for reuse' on the circularity values of a product. This is no longer necessary.
+
+* We have updated the 3D functionality so it can work better with big source files.
+
+* It is now possible to set the following IFC properties in the upload settings:
+
+<figure><img src="/assets/images/releasenotes/202502-11301-1.png" alt="Name and Type Name in upload settings"><figcaption>Name and Type Name in upload settings</figcaption></figure>
+
+### Country specific
+
+* Germany: The Gebäuderessourcenpass (DGNB) has been updated to version 1.2.1
+
 ## Release notes 2025.1 ##
 
 * Build number: 31984
