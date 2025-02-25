@@ -9,9 +9,9 @@ type: FAQ
 In der Registerkarte **Performance** werden zusammenfassende Metriken für das ausgewählte Objekt angezeigt. Für weitere Informationen besuchen Sie unsere <a href="/de/de/get-started/object-insights-and-performance.html" target="_blank">Ersten Schritte</a>.
 
 ### Key Performance Indicators (KPI)
-Die folgenden Summen werden für das Objekt angezeigt:
+Die angezeigten KPIs können über die Dateneinstellungen angepasst werden. Diese kann man über die drei Punkte im Menü finden. Dateneinstellungen können von Account, zu Ordner, zu Objekt vererbt werden, und um sie zu bearbeiten, muss eventuell die Vererbung mit dem ensprechenden Knopf in den Dateneinstellungen aufgelöst werden.
+Folgende Summen können für das Objekt angezeigt werden:
 
-1. **Bruttogrundfläche**
 1. **Masse**: misst die Gesamtmasse der Materialien sowie die Intensität der verwendeten Materialien pro m<sup>2</sup>.
 1. **Zirkularität**: misst den Madaster Zirkularitätsindikator (MZI), der auf dem Anteil der beim Bau verwendeten Sekundärrohstoffe sowie ihrem Nutzen und ihrem Potenzial für die Wiederverwendung oder das Recycling am Ende ihrer Nutzungsdauer basiert. Unbekannte Materialien wirken sich bei der Berechnung des MZI negativ aus. Die angezeigte Prozentzahl wird nach der Gesamtmasse der einzelnen Objekte innerhalb des Accounts gewichtet. Daher beeinflussen Objekte mit einer hohen Masse den Zirkularitätswert stärker als solche mit einer geringen Masse.
 1. **Demontierbarkeit**: misst den Grad, in dem Materialien und Produkte demontiert werden können, ohne beschädigt zu werden. Die angezeigte Prozentzahl wird nach der Gesamtmasse der einzelnen Objekte innerhalb des Accounts gewichtet. Daher beeinflussen Objekte mit hoher Masse den Wert stärker als solche mit geringer Masse. 
@@ -22,4 +22,4 @@ Die folgenden Summen werden für das Objekt angezeigt:
 Für nähere Informationen zur Berechnung der unterschiedlichen Indikatoren besuchen Sie unsere <a href="/de/de/knowledge-base/calculations" target="_blank">Wissensdatenbank - Kalkulationen</a>.
 
 ## Nicht gefunden, was Sie suchen?
-Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen. 
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen. 
