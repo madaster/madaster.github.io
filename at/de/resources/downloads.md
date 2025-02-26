@@ -7,13 +7,13 @@ menubar: resources-nav
 ---
 
 ## Handbücher
-<a href="files/at/Madaster - Benutzerhandbuch_AT.pdf" target="_blank">Madaster Benutzerhandbuch (Stand: 31.10.2024)</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
+<a href="/files/at/Madaster - Benutzerhandbuch_AT.pdf" target="_blank">Madaster Benutzerhandbuch (Stand: 31.10.2024)</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
 
-<a href="files/at/Madaster - Produkte hinzufügen_AT.pdf" target="_blank">Madaster Handbuch für Produkte (Stand: 31.10.2024)</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
+<a href="/files/at/Madaster - Produkte hinzufügen_AT.pdf" target="_blank">Madaster Handbuch für Produkte (Stand: 31.10.2024)</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
 
-<a href="files/at/Madaster - Ablaufplan Material Passport_AT.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan (Stand: 31.10.2024)</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
+<a href="/files/at/Madaster - Ablaufplan Material Passport_AT.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan (Stand: 31.10.2024)</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
 
-Hier finden Sie den Report <a href="files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
+Hier finden Sie den Report <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
 
 <div style="margin-top: 40px;"> </div>
 
