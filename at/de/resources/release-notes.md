@@ -53,6 +53,9 @@ If the assumed waste code is correct it is possible to quickly add it to the ele
 
 ### Country specific
 
+* Austria: Ab jetzt können Gebäude mit der Baubook-Datenbank verknüpft werden.
+<figure><img src="/assets/images/releasenotes/202502-11301-2.png" alt="Baubook database"><figcaption>Baubook database</figcaption></figure>
+
 * Germany: The Gebäuderessourcenpass (DGNB) has been updated to version 1.2.1
 
 ## Release notes 2025.1 ##
