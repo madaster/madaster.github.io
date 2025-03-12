@@ -62,6 +62,8 @@ Es besteht die Möglichkeit, die Produkte und Materialien einer Datenbank über 
  1. Klicken Sie auf **Freigeben** <iconify-icon inline icon='mdi-plus-circle-outline'/>, um die Datenbank mit einstellbaren Freigaberechten zu teilen.
  1. Klicken Sie auf **Freigabe bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/>, um die eingestellten Freigaberechte anzupassen. 
  
+ >**INFO** - Sobald eine Datenbank freigegeben wurde, lässt sich die Freigabe nicht mehr rückgängig machen. Dies stellt die kontinuierliche Verfügbarkeit sicher. Die Art der Rechte (Zuordnen, Kopieren, Beitragen, Verwalten) können nachträglich geändert werden.
+
 ## Datenbank bearbeiten
 In jeder Datenbank können Produkte oder Materialien hinzugefügt werden, die für die auf der Plattform registrierten Objekte verwendet werden können. Auf der Hauptübersichtsseite der Datenbank sehen Sie in der Registerkarte **Datenbank** eine Liste aller Produkte, die in der Datenbank enthalten sind.
 
