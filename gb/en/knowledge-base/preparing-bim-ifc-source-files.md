@@ -45,7 +45,7 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 | Width                             | IfcLengthMeasure | Width                             |
 | Depth                             | IfcLengthMeasure | Depth                             |
 | Height                            | IfcLengthMeasure | Height                            |
-| Weight                            | IfcReal          | Weight                            |
+| Weight                            | IfcMassMeasure   | Weight                            |
 | Thickness                         | IfcLengthMeasure | Thickness                         |
 | Classification                    | IfcText          | Classification                    |
 | Phase                             | IfcText          | Phase                             |
