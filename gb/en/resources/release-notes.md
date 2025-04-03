@@ -17,7 +17,7 @@ This page contains the release notes for 2025.
 
 With this release it is now possible to filter on the IFC hierarchy in enrichment:
 
-<figure><img src="/assets/images/releasenotes/202503-11382-1.png" alt="The IFC Hierary in the filters in enrichment"><figcaption>The IFC Hierary in the filters in enrichment.</figcaption></figure>
+<figure><img src="/assets/images/releasenotes/202503-11382-1.png" alt="The IFC Hierary in the filters in enrichment"><figcaption>The IFC Hierarchy in the filters in enrichment.</figcaption></figure>
 
 This makes finding the right set of elements quicker based on the IFC structure.
 
