@@ -5,24 +5,10 @@ ref: folder-users
 type: FAQ
 ---
 
-## WELCHE INFORMATIONEN WERDEN HIER ANGEZEIGT?
-Auf jeder Ordnerebene können verschiedene Benutzer mit drei verschiedenen Rollen- und Berechtigungsebenen eingeladen werden. Hier können Sie Benutzer einladen, oder Sie können einen sogenannten „API-Schlüssel“ generieren, um einem anderen System den Zugriff auf den/die Ordner als Benutzer zu ermöglichen.
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 
-Die Tabelle gibt Aufschluss darüber, wer Rechte an diesem Ordner, den Unterordnern und/oder Gebäuden hat. Sie können Benutzer, Rollen und Berechtigungen auswählen.
+### Benutzer verwalten
+Weitere Informationen dazu, wie Sie Benutzer zu ihrem Ordner hinzufügen und welche Rollen und Berechtigungen möglich sind, finden Sie in unseren <a href="/de/de/get-started/set-up-your-account.html#benutzer-einladen-und-organisieren" target="_blank">Ersten Schritten - Benutzer einladen und organisieren</a> oder in der <a href="/de/de/knowledge-base/users.html" target="_blank">Wissensdatenbank - Benutzer</a>.
 
-## WIE KANN ICH BENUTZER LÖSCHEN ODER IHRE ROLLE UND BERECHTIGUNGEN ÄNDERN?
-Ein Benutzer kann durch Klicken auf das Papierkorb-Symbol rechts gelöscht werden. Die Rolle und die Berechtigungen eines Benutzers können durch Klicken auf das Stiftsymbol auf der rechten Seite geändert werden.
-
-## VERFÜGBARE ROLLEN UND BERECHTIGUNGEN AUF ORDNEREBENE:
-
-|Gebäudeebene                                            | Administrator | Manager | Leser |
-|--------------------------------------------------------|---------------|---------|-------|
-|Portfolios und Unterordner erstellen                    | Ja            | Nein    | Nein  |
-|Portfolios und darunter liegende Gebäude ansehen        | Ja            | Ja      | Ja    |
-|Ändern der Portfolios und der darunter liegenden Gebäude| Ja            | Ja      | Nein  |
-|Ordner und darunter liegende Gebäude löschen            | Ja            | Nein    | Nein  |
-|Gebäude zu einem Ordner hinzufügen                      | Ja            | Ja      | Nein  |
-|Hinzufügen und Entfernen von Benutzern                  | Ja            | Nein    | Nein  |
-|Hinzufügen und Ändern von Materialien und Produkten     | Ja            | Ja      | Nein  |
-|Materialpass erstellen                                  | Ja            | Ja      | Nein  |
-|Materialpass als PDF herunterladen                      | Ja            | Ja      | Ja    |
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen. 
