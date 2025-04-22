@@ -23,7 +23,7 @@ Die Informationen über das Objekt sind in mehreren Registerkarten organisiert.
 1. **Zirkularität** Diese Registerkarte enthält Informationen über die Zirkularitätswerte des Objekts.
 1. **Umwelt** Diese Registerkarte enthält Informationen zu den ausgelesenen Umweltinformationen des Objekts, die für eine Ökobilanz genutzt werden können.
 1. **Finanziell** Diese Registerkarte enthält Informationen zu den finanziellen Auswertungen des Objekts.
-1. **Bauprozess** Informationen über die verwendeten Produkte und Materialien, klassifiziert nach dem Bauprozess des Objekts. Diese Registerkarte ist nur verfügbar, wenn das Objekt in der Registerkarte **Allgemeines** die Bauphase *Renovierung* erhalten hat.
+1. **Bauprozess** Informationen über die verwendeten Produkte und Materialien, klassifiziert nach dem Bauprozess des Objekts. Diese Registerkarte ist nur verfügbar, wenn das Objekt in der Registerkarte **Allgemeines** die Bauphase *Bestandserhalt* erhalten hat.
 1. **Reporting** Diese Registerkarte enthält Informationen zu den Bereichen **EU-Taxonomie**, **CRREM**, **DNGB** und **Level(s)**.
 
 ### Erste Schritte

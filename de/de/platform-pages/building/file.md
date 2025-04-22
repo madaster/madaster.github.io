@@ -1,6 +1,6 @@
 ---
-title: Quell-Datei
-description: Objekt - Quell-Datei
+title: Quelldatei
+description: Objekt - Quelldatei
 ref: building-file
 type: FAQ
 redirect_from:
@@ -31,7 +31,7 @@ Die Elemente, die noch nicht verknüpft wurden müssen nun vervollständigt werd
 - Der Prozentsatz der Anzahl der Elemente in der Quelldatei, die mit einem Produkt oder Material in den ausgewählten Datenbanken verknüpft sind.
 
 ### Prozentsatz Masse
-Der Prozentsatz der Anzahl der Elemente in der Quelldatei, die mit einem Produkt oder Material in den ausgewählten Datenbanken verbunden sind und deren Masse bekannt ist.
+- Der Prozentsatz der Anzahl der Elemente in der Quelldatei, die mit einem Produkt oder Material in den ausgewählten Datenbanken verbunden sind und deren Masse bekannt ist.
 
 ## Nicht gefunden, was Sie suchen?
 Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

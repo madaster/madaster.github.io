@@ -27,6 +27,5 @@ Danach werden die Materialwerte mit Rückbaukosten, Aufbereitungskosten, Transpo
 Der Einfluss ist in der Sensitivitätsanalyse auf den Detailseiten leicht nachprüfbar. Die Werte können angepasst werden. Als Standardwert wird die durchschnittliche Inflation und der durchschnittliche BDB-Index der letzten 18 Jahre angegeben. Der Diskontsatz setzt sich zu 0,7% aus dem Euribor, zu 2% aus dem Risiko und zu 0,3% aus der Prämie für den Finanzierer zusammen.
 
 ## Nicht gefunden, was Sie suchen?
-## Nicht gefunden, was Sie suchen?
 Weitere Infos zu der Berechnungsmethode im Finanziellen Tab gibt es <a href ="/de/de/knowledge-base/calculations#finanzielles-tool" target="_blank">hier</a>.
 Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

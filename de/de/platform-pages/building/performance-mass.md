@@ -27,9 +27,9 @@ Die Gesamtmasse und die Materialintensität werden angezeigt. Wird eine Benchmar
 ### Unbekannte Elemente
 Unbekannte Elemente sind solche, die bei den Berechnungen nicht berücksichtigt wurden. Dies kann aus drei verschiedenen Gründen resultieren:
 
-1. Unverknüpfte Elemente: Diese Elemente sind nicht mit Datensätzen einer Material-/Produktdatenbank verknüpft und können daher nicht bei Berechnungen berücksichtigt werden.
-1. Elemente ohne Klassifikation: Diesen Elementen fehlen Informationen zur Klassifizierung gemäß DIN 276:2018-12, so dass sie keiner Gebäudeschicht zugeordnet werden können oder die zugewiesenen Klassifizierungen nach DIN276:2018 ist nicht Teil einer Geäbudeschicht nach den Shearing Layers. Eine Zuweisung der Kostengruppen auf die Shearing Layers ist <a href=""https://platform.madaster.com/admin/classifications/cd373c62-3c53-4bd0-bedb-0e77bd36d60a" target="">hier</a> einzusehen.
-1. Elemente mit unzureichenden geometrischen Angaben: Diesen Elementen fehlen geometrische Angaben, die zu dem verknüpften Produkt und dessen Funktionale Einheit passen, so dass keine Berechnung zustande kommen kann.
+1. **Elemente mit fehlender Verknüpfung**: Diese Elemente sind nicht mit Datensätzen einer Material-/Produktdatenbank verknüpft und können daher nicht bei Berechnungen berücksichtigt werden.
+1. **Elemente mit unbekannter Gebäudeschicht**: Diesen Elementen fehlen Informationen zur Klassifizierung gemäß DIN 276:2018-12, so dass sie keiner Gebäudeschicht zugeordnet werden können oder die zugewiesenen Klassifizierungen nach DIN276:2018 ist nicht Teil einer Gebäudeschicht nach den Shearing Layers. Eine Zuweisung der Kostengruppen auf die Shearing Layers ist <a href="https://platform.madaster.com/admin/classifications/cd373c62-3c53-4bd0-bedb-0e77bd36d60a" target="">hier</a> einzusehen.
+1. **Elemente mit unzureichenden geometrischen Angaben**: Diesen Elementen fehlen geometrische Angaben, die zu dem verknüpften Produkt und dessen Funktionale Einheit passen, so dass keine Berechnung zustande kommen kann.
 
 ## Nicht gefunden, was Sie suchen?
-Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

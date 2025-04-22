@@ -9,7 +9,7 @@ type: FAQ
 ### Allgemeines
 In der Registerkarte „Finanziell” wird berechnet, was das verbaute Material aktuell, sowie die Entwicklung dieses Wertes bis an sein Lebensende.
 Diese Auswertung ist für das Gesamtgebäude möglich, je Materialfamilie sowie für einzelne Produkte.
-Hier mit ist kein Gebäudewert gemeint, sondern nur den Wert der Materialien an sich, ohne den Wert des Grundstücks.
+Hiermit ist kein Gebäudewert gemeint, sondern nur den Wert der Materialien an sich, ohne den Wert des Grundstücks.
 
 ### Welche Zahl ist die relevante?
 Im Rahmen der finanziellen Bewertung auf Madaster, gibt es den *Aktuellen Rohstoffrestwert*, der den verbauten Materialwert (nach Rückbau, Transport und Aufarbeitung) heute darstellt. Diesen "Aktuellen Rohstoffrestwert" kann man sich zu zukünftigen Zeitpunkten anzeigen lassen.
