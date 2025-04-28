@@ -61,9 +61,13 @@ $$
   | $L$ |Mögliche funktionelle Lebensdauer eines Produkts (Jahre)|
   | $L_{av}$	|Industriedurchschnittliche funktionelle Lebensdauer eines Produkts (Jahre)|
 
-  > Hinweis: Für $L_{av}$ liegen keine Daten vor.  In früheren Versionen des MCI verwendete Madaster die durchschnittliche Lebensdauer der Gebäudeschichten (Shearing Layers), in die das Produkt eingeordnet wurde. Dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen!
+  > Hinweis: Für $L_{av}$ liegen keine Daten vor.
+> 
+> In früheren Versionen des MCI verwendete Madaster die durchschnittliche Lebensdauer der Gebäudeschichten (Shearing Layers), in die das Produkt eingeordnet wurde. Dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen!
 
-> Die aktuelle Version des MZI nutzt  $F(X)=0,9$ 
+> Die aktuelle Version des MZI nutzt
+>
+> $F(X)=0,9$ 
 
 
 **Gewichtung nach Masse**
