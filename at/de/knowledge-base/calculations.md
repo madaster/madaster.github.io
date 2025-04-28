@@ -61,9 +61,9 @@ $$
   | $L$ |Mögliche funktionelle Lebensdauer eines Produkts (Jahre)|
   | $L_{av}$	|Industriedurchschnittliche funktionelle Lebensdauer eines Produkts (Jahre)|
 
-  > Hinweis: Für $L_{av}$ liegen keine Daten vor. </br> In früheren Versionen des MCI verwendete Madaster die durchschnittliche Lebensdauer der Gebäudeschichten (Shearing Layers), in die das Produkt eingeordnet wurde. Dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen!
+  > Hinweis: Für $L_{av}$ liegen keine Daten vor.  In früheren Versionen des MCI verwendete Madaster die durchschnittliche Lebensdauer der Gebäudeschichten (Shearing Layers), in die das Produkt eingeordnet wurde. Dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen!
 
-> Die aktuelle Version des MZI nutzt </br> $F(X)=0,9$ 
+> Die aktuelle Version des MZI nutzt  $F(X)=0,9$ 
 
 
 **Gewichtung nach Masse**
@@ -72,7 +72,9 @@ Der MZI-Wert eines Objekts setzt sich aus den MZI-Werten der verschiedenen Gebä
 
 ### Berechnung des Madaster Zirkularitätsindikator (MZI)
 **ZI Score für die Materialherkunft**
-</br> Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
+
+
+Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
 
 * Die Formel für den Zirkularitätsindikator der Materialherkunft (Konstruktionsphase) lautet:
 
@@ -98,7 +100,9 @@ $$
   | $M_{B}$ | Masse des gesamten Produkts (kg).
     
 **ZI Score für die Materialverwertung**
-</br> Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick darin zu geben, was am Ende der Lebensdauer eines Produkts passiert. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
+
+
+Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick darin zu geben, was am Ende der Lebensdauer eines Produkts passiert. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
 
 Bei der Berechnung wird zwischen Recycling, Downcycling, Wiederverwendung, Deponierung und Verbrennung (thermische Verwertung) unterschieden.
 
