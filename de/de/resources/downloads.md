@@ -15,6 +15,8 @@ menubar: resources-nav
 
 <a href="/files/de/madaster GER_Supportannex_Juli 2024.pdf" target="_blank">Supportannex (Stand 04.07.2024)</a> - Dieses Dokument gibt einen Überblick, welche Supportmöglichkeiten Madaster Germany den Nutzenden der Plattform anbietet.
 
+<a href="files/de/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+
 ## BIM
 
 <a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch (Stand 25.11.2024)</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM (Revit, ArchiCAD, AllPlan).

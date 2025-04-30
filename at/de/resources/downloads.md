@@ -15,6 +15,8 @@ menubar: resources-nav
 
 Hier finden Sie den Report <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
 
+<a href="files/at/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+
 <div style="margin-top: 40px;"> </div>
 
 ## BIM
