@@ -15,15 +15,15 @@ Zugrundeliegende Berechnungsmethoden der Plattform
 Der Madaster Zirkularitätsindikator (MZI) bewertet die Zirkularität (0-100%) von Objekten wie Gebäuden, Brücken oder Bahnhöfen gemäß der Eigenschaften der verbauten Materialien/Produkte. Der Madaster Zirkularitätsindikator basiert auf dem von der Ellen MacArthur Foundation entwickelten Material Circularity Indicator und wurde für die Funktionalität der Madaster Plattform angepasst.
 
 Der MZI bewertet ein Objekt sowohl hinsichtlich der Herkunft als auch des geplanten Lebensendszenarios seines Materials:
-  1. **Materialherkunft**: Wie hoch ist der prozentuale Anteil an sekundären (recycelten), wiederverwendeten und weiterverwendeten Materialien/Produkte, die für den Bau eines Objekts genutzt wurden?
+  1. **Materialherkunft**: Wie hoch ist der prozentuale Anteil an sekundären (recycelten, wiederverwendeten und weiterverwendeten) Materialien/Produkte, die für den Bau eines Objekts genutzt wurden?
       > Grundprinzip: Beim Bau sollten so viele recycelte und wieder- oder weiterverwendete Materialien/Produkte wie möglich verwendet werden.
   2. **Materialverwertung**: Wie hoch ist der Prozentsatz der für den Bau eines Objekts verwendeten Materialien/Produkte, die für eine Sekundärnutzung (Recycling oder Wiederverwendung) in Frage kommen?
       > Grundprinzip: Nach dem geplanten End-of-Life des Objektes sollten so viele Materialien/Produkte wie möglich für das Recycling und die Wiederverwendung verfügbar sein.
 
 **Korrekturfaktoren:**
 
-  Auf der Grundlage der beiden obigen Werte wird der ZI Objekt Score (ZI) berechnet.
-  Der ZI berücksichtigt jedoch nicht die Menge der fehlenden Informationen im Objekt. Daher werden zwei Korrekturfaktor auf den ZI angewandt, der eine der den Prozentsatz der Objektelemente mit unbekannter Masse negativ einkalkuliert und der zweite der den Prozentsatz an bekannter Masse mit unbekannter Zirkularität berücksichtigt und zu einem Madaster Zirkularitätsindikator (MZI) führt.
+Auf der Grundlage der beiden obigen Werte wird der ZI Objekt Score (ZI) berechnet.
+Der ZI berücksichtigt jedoch nicht die Menge der fehlenden Informationen im Objekt! Daher werden zwei Korrekturfaktor auf den ZI angewandt, der eine der den Prozentsatz der Objektelemente mit unbekannter Masse negativ einkalkuliert und der zweite der den Prozentsatz an bekannter Masse mit keinen Zirkularitätsinformationen berücksichtigt und zu einem Madaster Zirkularitätsindikator (MZI) führt.
 
 **MZI in der Praxis:**
   * In der Praxis weisen Objekt MZI-Werte zwischen 10 und 100% auf.
@@ -47,9 +47,9 @@ Die MZI-Bewertung basiert auf den folgenden Komponenten:
 
 
 ### Messmethode
-  Der MZI basiert auf dem "Material Circularity Indicator" der Ellen MacArthur Foundation (EMF), der als Open Source auf der Website der Ellen MacArthur Foundation zu finden ist. Diese Berechnungsmethode ermöglicht es Nutzern, Produkte und Objekt durch den Vergleich der verschiedenen Komponenten gegenüberzustellen und auf einfache Weise Ambitionen und Ziele der Kreislaufwirtschaft zuzuordnen.
+Der MZI basiert auf dem "Material Circularity Indicator" der Ellen MacArthur Foundation (EMF), der als Open Source auf der Website der Ellen MacArthur Foundation zu finden ist. Diese Berechnungsmethode ermöglicht es Nutzern, Produkte und Objekt durch den Vergleich der verschiedenen Komponenten gegenüberzustellen und auf einfache Weise Ambitionen und Ziele der Kreislaufwirtschaft zuzuordnen.
 
-  Der "Material Zirkularitätsindikator" verwendet eine zusätzliche Komponente, die auf der Nutzung des Faktors "Utility" basiert:
+Der "Material Circularity Indicator" verwendet eine zusätzliche Komponente, die auf der Nutzung des Faktors "Utility" basiert:
 
 $$
 F(X) = \frac{0,9}{X} \quad \text{wobei} \quad X = \frac{L}{L_{av}}
@@ -61,7 +61,13 @@ $$
   | $L$ |Mögliche funktionelle Lebensdauer eines Produkts (Jahre)|
   | $L_{av}$	|Industriedurchschnittliche funktionelle Lebensdauer eines Produkts (Jahre)|
 
-  > Hinweis: Da keine zufriedenstellenden Daten für $L_{av}$ verfügbar sind, wird in der aktuellen MZI Berechnung $L_{av}=L$ angenommen. Somit fließt die individuelle Lebensdauer nicht in den MZI ein. </br> In vorherigen Versionen des MZI, hat Madaster stattdessen die durchschnittliche Lebensdauer einer Gebäudeschicht genutzt, aber dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen. Die aktuelle Version des MZI nutzt $F(X)=0,9$ 
+  > Hinweis: Für $L_{av}$ liegen keine Daten vor.
+> 
+> In früheren Versionen des MCI verwendete Madaster die durchschnittliche Lebensdauer der Gebäudeschichten (Shearing Layers), in die das Produkt eingeordnet wurde. Dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen!
+
+> Die aktuelle Version des MZI nutzt
+>
+> $F(X)=0,9$ 
 
 
 **Gewichtung nach Masse**
@@ -70,8 +76,11 @@ Der MZI-Wert eines Objekts setzt sich aus den MZI-Werten der verschiedenen Gebä
 
 ### Berechnung des Madaster Zirkularitätsindikator (MZI)
 **ZI Score für die Materialherkunft**
-Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann durch Verweis auf ein Produkt einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">Systemdatenbank</a> der Madaster Plattform oder durch Erstellung eines Produkts <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
-* Die Formel für den Zirkularitätsindikator der Materialherkunft lautet:
+
+
+Um den Zirkularitätsindikator für die Konstruktionsphase zu berechnen, muss die Materialherkunft bekannt sein. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
+
+* Die Formel für den Zirkularitätsindikator der Materialherkunft (Konstruktionsphase) lautet:
 
 $$
 ZI_{Konstruktion} = F_{R} + F_{RS} + F_{U}
@@ -79,10 +88,10 @@ $$
 
   |||
   |-|-|
-  | $ZI_{Konstruktion}$ | Zirkularitätsindikator der Materialherkunft;
-  | $F_R$ | Anteil der rezyklierten Materialien (als % der Produktmasse);
-  |$F_{RS}$ | Anteil der erneuerbaren, nachhaltig produzierten Materialien (als % der Produktmasse);
-  | $F_U$ | Anteil der wiederverwendeten Produkte und/oder Komponenten (als % der Produktmasse);
+  | $ZI_{Konstruktion}$ | Zirkularitätsindikator der Materialherkunft.
+  | $F_R$ | Anteil der rezyklierten Materialien (als % der Produktmasse).
+  |$F_{RS}$ | Anteil der erneuerbaren, nachhaltig produzierten Materialien (als % der Produktmasse).
+  | $F_U$ | Anteil der wiederverwendeten Produkte und/oder Komponenten (als % der Produktmasse).
   
 $$
 F_{R} = M_{R} * E_{F} / M_{B}
@@ -90,12 +99,14 @@ $$
 
   |||
   |-|-|
-  | $M_R$ |  Masse der rezyklierten Materialien Input (kg);
-  |$E_F$| Die Effizienz der rezyklierten Prozesse vor der Konstruktionsphase (%); Dies betrifft die Rezyklierung vor her Herstellung eines Produkts z.B. ist es möglich, dass es zwei verworfene Keramik-Fliesen bedarf, um eine neue, komplett aus rezykliertem Material bestehende Keramik-Fliese herzustellen (also 50% Effizienz).
-  | $M_{B}$ | Masse des gesamten Produkts (kg);
+  | $M_R$ |  Masse der rezyklierten Materialien Input (kg).
+  |$E_F$| Die Effizienz der rezyklierten Prozesse vor der Konstruktionsphase (%); Dies betrifft die Rezyklierung vor der Herstellung eines Produkts z.B. ist es möglich, dass es zwei verworfene Keramik-Fliesen bedarf, um eine neue, komplett aus rezykliertem Material bestehende Keramik-Fliese herzustellen (also 50% Effizienz).
+  | $M_{B}$ | Masse des gesamten Produkts (kg).
     
 **ZI Score für die Materialverwertung**
-Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick in das zu geben, was am Ende der Lebensdauer eines Produkts geschieht. Diese Informationen können durch Verweis auf <a href="/at/de/knowledge-base/databases#existing-databases" target="_blank">eine bestehende Datenbank</a> innerhalb der Madaster-Plattform oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank">Erstellung eines benutzerdefinierten Produkts</a> eingegeben werden.
+
+
+Um den Zirkularitätsindikator für die Materialverwertung dieses Produkts zu berechnen, muss der Benutzer in der Lage sein, einen Einblick darin zu geben, was am Ende der Lebensdauer eines Produkts passiert. Diese Information kann entweder durch Verweis auf ein Produkt aus einer <a href="/at/de/knowledge-base/databases#verfügbare-datenbanken" target="_blank">System- oder geprüfte Datenbanken</a> der Madaster-Plattform erfolgen – wichtig ist dabei, dass das ausgewählte Produkt auch Zirkularitätswerte enthält! – oder durch <a href="/at/de/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank"> Erstellung eines benutzerdefinierten Produkts</a> in einer individuellen Benutzerdatenbank erfasst werden.
 
 Bei der Berechnung wird zwischen Recycling, Downcycling, Wiederverwendung, Deponierung und Verbrennung (thermische Verwertung) unterschieden.
 

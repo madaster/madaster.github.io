@@ -7,7 +7,7 @@ type: FAQ
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 
 Die gesamten Umweltauswirkungen (A1-A3) und die Umweltauswirkungen pro m<sup>2</sup> (A1-A3) werden angezeigt. Wird eine Benchmark ausgewählt und sind entsprechende Informationen verfügbar, wird das Gebäude mit anderen verglichen. 
-Über die Schaltfläche oben links können Sie die **Benchmark anpassen** <iconify-icon inline icon='mdi-vector-polyline-edit'/>. Weitere Informationen zum Einrichten von Benchmarks finden Sie <a href="../knowledge-base/stay-organized#verwalten-von-objekten" target="_blank">hier</a>.
+Über die Schaltfläche oben links können Sie die **Benchmark anpassen** <iconify-icon inline icon='mdi-vector-polyline-edit'/>. Weitere Informationen zum Einrichten von Benchmarks finden Sie <a href="https://docs.madaster.com/de/de/knowledge-base/stay-organized#verwalten-von-objekten" target="_blank">hier</a>.
 Unbekannte Elemente werden angezeigt, damit sie damit sie angepasst und in die Berechnungen einbezogen werden können. Mit Hilfe der Dropdown-Listen können die Umwelt-Indikatoren nach Gesamtmenge, Gebäudeschicht, Klassifizierung und Material/Produkt angezeigt werden. 
 
 ### Umweltauswirkungen
@@ -31,16 +31,16 @@ Der Lebenszyklus eines Gebäudes wird in die folgenden Phasen unterteilt:
 
 
 ### 3D-Ansicht
-Der Indikator für die Umweltauswirkungen wird nach Material/Produkt über alle Lebenszyklusphasen hinweg angezeigt. In der 3D-Darstellung sind die Materialien/Produkte je nach Höhe ihres Beitrags zum Umwelt-Indikator farblich gekennzeichnet. Materialien mit den größten Umweltauswirkungen werden in rot dargestellt, während Materialien mit 0 oder sogar regenerativem Beitrag in grün angezeigt werden.
+Der Indikator für die Umweltauswirkungen wird nach Material/Produkt über alle Lebenszyklusphasen hinweg angezeigt. In der 3D-Darstellung sind die Materialien/Produkte je nach Höhe ihres Beitrags zum Umwelt-Indikator farblich gekennzeichnet. Materialien mit den größten Umweltauswirkungen werden in rot dargestellt, während Materialien mit 0 oder sogar einem regenerativem Beitrag in grün angezeigt werden.
 
 > Dieses Feature kann individuell zum Abonnement dazugebucht werden. Weitere Informationen finden Sie in unserer <a href="https://docs.madaster.com/de/de/knowledge-base/features.html" target="_blank">Wissensdatenbank - Features</a>.
 
 ### Unbekannt
 Unbekannte Elemente sind solche, die bei den Berechnungen nicht berücksichtigt wurden. Dies kann aus drei verschiedenen Gründen resultieren:
 
-1. Unverknüpfte Elemente: Diese Elemente sind nicht mit Produktdatensatz verknüpft wurden und können daher nicht bei Berechnungen berücksichtigt werden.
-1. Elemente ohne Klassifikation: Diesen Elementen fehlen Informationen zur Klassifizierung gemäß DIN 276:2018-12, so dass sie keiner Gebäudeschicht zugeordnet werden können. Die Ergebnisse werden zwar berechnet, jedoch werden sie in der Auswertung in der Gebäudekategorie "Unbekannt" angezeigt.
-1. Elemente mit unzureichenden geometrischen Angaben: Diesen Elementen fehlen entsprechende geometrische Angaben, so dass keine Berechnungen zustande kommen kann.
+1. **Elemente mit fehlender Verknüpfung**: Diese Elemente sind nicht mit Datensätzen einer Material-/Produktdatenbank verknüpft und können daher nicht bei Berechnungen berücksichtigt werden.
+1. **Elemente mit unbekannter Gebäudeschicht**: Diesen Elementen fehlen Informationen zur Klassifizierung gemäß DIN 276:2018-12, so dass sie keiner Gebäudeschicht zugeordnet werden können oder die zugewiesenen Klassifizierungen nach DIN276:2018 ist nicht Teil einer Gebäudeschicht nach den Shearing Layers. Eine Zuweisung der Kostengruppen auf die Shearing Layers ist <a href="https://platform.madaster.com/admin/classifications/cd373c62-3c53-4bd0-bedb-0e77bd36d60a" target="">hier</a> einzusehen.
+1. **Elemente mit unzureichenden geometrischen Angaben**: Diesen Elementen fehlen geometrische Angaben, die zu dem verknüpften Produkt und dessen Funktionale Einheit passen, so dass keine Berechnung zustande kommen kann.
 
 ## Nicht gefunden, was Sie suchen?
 Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="https://docs.madaster.com/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.

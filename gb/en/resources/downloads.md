@@ -12,13 +12,12 @@ menubar: resources-nav
 
 ## Excel template
 
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/88eb09b8-d3f5-4cb1-a732-eb64281a585c/en" target="_blank">NL-SfB</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/587e0f01-fbe6-4d54-9a01-0f31cee5c187/en" target="_blank">NL-SfB V202112</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/e6bbe656-6722-4f7c-a825-8be526e13189/en" target="_blank">Omniclass</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/409ba166-bbd8-4f34-86f2-505da8a9be45/en" target="_blank">Shearing layers</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/b1c528d5-1ad2-4e34-a8be-d98162e74b03/en" target="_blank">Level(s)</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/en" target="_blank">ONORM B 1801-1, 2009</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/en" target="_blank">ONORM B 1801-1, 2022</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/88eb09b8-d3f5-4cb1-a732-eb64281a585c/en/nl" target="_blank">NL-SfB</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/587e0f01-fbe6-4d54-9a01-0f31cee5c187/en/nl" target="_blank">NL-SfB V202112</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/fa9a80d8-60f1-4615-82c4-7211f1dcdb2d/en/be" target="_blank">BB-SfB</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/6209e66f-0481-491d-8ee1-459edde1daa7/en/gb" target="_blank">Uniclass 2015</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/4808c420-223b-46ff-98cd-f183c1a8b4e1/en/gb" target="_blank">NRM 1</a>
+* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/a20e1e6c-a0ec-4996-b680-a9c1b3de1d87/en/gb" target="_blank">RICS</a>
 
 ## Bim Collab
 

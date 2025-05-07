@@ -10,27 +10,18 @@ redirect_from:
   - platform-pages/supplier/settings
 ---
 
-## Welche Informationen werden hier angezeigt?
-Wenn Sie als Kontoinhaber/Benutzer mit Zugriff auf die Kontoebene auf das Pluszeichen des Kontonamens im Abschnitt „Systemdatenbank & Produzenten“ geklickt haben, werden auf dem Hauptbildschirm alle für diesen Produzenten“/verifizierte Datenbank verfügbaren Datenbanken angezeigt.
+## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 
+### Produkte verwalten
+Weitere Informationen dazu, wie Sie Produkte hinzufügen und verwalten können, finden Sie in unserer <a href="/de/de/knowledge-base/databases-products.html" target="_blank">Wissensdatenbank - Produkte</a>.
 
-### Registerkarten im Hauptbildschirm
-- **Datenbank**; Zugriff auf die Listen aller für diesen Lieferanten/verifizierte Datenbank verfügbaren Datenbanken;
-- **Einstellungen**; Nur für einen Kontoadministrator verfügbar. Auf dieser Seite wird die Liste der Fertigungs- und Produktionsadressen angezeigt, die für die Verwendung in Produkten verfügbar sind. Von hier aus ist es möglich, diese Adressen zu verwalten.
-- **Abonnement**; Nur für einen Kontoadministrator verfügbar. Abonnementübersicht Ihres Kontos;
-- **Datenbanken**; Zugriff auf alle Produktdatenbanken, die mit diesem Konto verknüpft sind und auf die Sie Zugriff haben;
+### Benutzer verwalten
+Weitere Informationen dazu, wie Sie Benutzer verwalten können und welche Benutzertypen und Berechtigungen verfügbar sind, finden Sie in unserer <a href="/de/de/knowledge-base/users.html" target="_blank">Wissensdatenbank - Benutzer</a>.
 
- 
-### Menü
+### Features
+Neben den Grundfunktionen der Madaster-Plattform werden weitere Features angeboten, die individuell dazugebucht oder nach Anfrage freigeschaltet werden können. 
+Für nähere Informationen besuchen Sie unsere <a href="/de/de/knowledge-base/features" target="_blank">Wissensdatenbank - Features</a>.
 
-**Benutzer**
-- **Benutzer hinzufügen**; Fügen Sie einen Benutzer hinzu oder laden Sie einen neuen Benutzer ein.
-- **API-Token hinzufügen**; Generieren Sie ein API-Token, um ein System als Benutzer einzuladen.
+## Nicht gefunden, was Sie suchen?
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
 
-**Merkmale**
-- Listen aller verfügbaren Funktionen (Vorschau) bzw. welche nicht auf diesem Konto aktiviert werden können.
-
-
-### WERKZEUGLEISTE (ZWISCHEN ZEILEN):
-- **Bearbeiten**; Hier können Sie den Namen und das Logo ändern.
-- **Neue Datenbank +**; ermöglicht Ihnen, eine neue Datenbank zu erstellen;

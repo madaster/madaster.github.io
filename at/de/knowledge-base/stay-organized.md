@@ -85,6 +85,40 @@ Bei Bedarf können Projekte archiviert werden.
     * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/>
     * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/>
 
+<div style="margin-top: 40px;"> </div>
+
+### Objekte archivieren
+
+Bei Bedarf können Projekte archiviert werden.
+
+1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Archivieren** <iconify-icon inline icon='mdi-lock-plus'/>.
+2. Es wird ein Dropdown-Menü mit den folgenden Optionen angezeigt:
+    * **Objekt deaktivieren** <iconify-icon inline icon='mdi-lock-outline'/> - Das Objekt ist vorübergehend pausiert und kann erst nach der Reaktivierung wieder bearbeitet werden.
+    * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/> - Die Verknüpfungen zu den Produktdaten bleiben erhalten. Änderungen an den Produktdaten werden in den Gebäudedaten sichtbar, inklusive Benachrichtigung und Aufforderung zur Neuberechnung.
+    * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/> - Eine vollständige Kopie aller Daten, einschließlich der Produktdaten zum Archivierungszeitpunkt, wird erstellt. Das Archiv bleibt von späteren Änderungen in den Datenbanken unberührt.
+
+Weitere Details bezüglich (teil)archivierter und deaktivierter Gebäude sind <a href="../platform-pages/building/buildingarchive.html"> hier</a> zu finden.
+
+<div style="margin-top: 40px;"> </div>
+
+### Was ist ein (teil)archiviertes Gebäude?
+
+**Vollständig Archiviert (vollständiges Archiv):** Wenn ein Gebäude vollständig archiviert wird, dann wird eine Kopie des Gebäudes, zu dem Zeitpunkt der Archivierung erstellt. Das Original bleibt bestehen aber die Archivierung kann nicht Rückgangig gemacht werden. Alle verknüpften Produkte werden in einer neuen Datenbank (unter dem (Teil)Archiv zu finden) gespeichert und die KPIs sind zu dem Zeitpunkt der Archivierung eingefroren.
+Es werden nur aktive Dateien in das (Teil)Archiv übernommen, die jedoch nicht weiter bearbeitet werden können.
+Das Objekt wird im Abonnement als "Archiv" gezählt.
+
+**Teilweise Archiviert (Teilarchiv):** Wie ein vollständig archiviertes Gebäude, aber die verknüpften Produkte aus globalen Datenbanken (z.B. EPEA Generic, OEKOBAUDAT) werden nicht in der neuen Datenbank des Teil-Archives zusätzlich gespeichert.
+
+<div style="margin-top: 40px;"> </div>
+
+### Was ist ein de-aktiviertes Gebäude?
+
+**Deaktiviertes Gebäude:** Wenn ein Gebäude deaktiviert wird, dann werden alle Berechnungen des Gebäudes zu dem Zeitpunkt der Deaktivierung pausiert. Es wird kein zweites Objekt erstellt aber die Deaktivierung kann Rückgängig gemacht werden.
+Auch inaktive Dateien gehen nicht verlohren, können jedoch nicht mehr bearbeitet werden bis das Gebäude wieder aktiviert wurde.
+Das Objekt wird im Abonnement als "Archiv" gezählt.
+
+<div style="margin-top: 40px;"> </div>
+
 ### Objekte übertragen
 
 Sie können **ein vollständiges Archiv** des Objekts oder **ein Teilarchiv** des Objekts in einem anderen Account erstellen.

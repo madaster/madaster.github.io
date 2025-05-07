@@ -21,7 +21,7 @@ Um eine detaillierte und einfache Berechnung auf Madaster zu gewährleisten, mus
 * **Eindeutige GUIDs**.
 * **Geometrische Eigenschaften** (sogenannte "Basismengen").
 * Eine **Materialbeschreibung**.
-* Eine **Klassifizierungskodierung**, anhand derer Madaster die Elemente der entsprechenden Gebäudeschicht zuordnen kann. Die meisten Länder haben ihre eigenen Normen für die Klassifizierung von Bauelementen (siehe <a href="../nl/en/knowledge-base/madaster-glossary.html" target="_blank">Madaster Glossar - Standards</a>). Die Madaster-Plattform ermöglicht es Ihnen, Ihre nationale Klassifizierung aus den BIM-Dateien zu lesen und sie den Schichten des Gebäudes zuzuordnen.
+* Eine **Klassifizierungskodierung**, anhand derer Madaster die Elemente der entsprechenden Gebäudeschicht zuordnen kann. Die meisten Länder haben ihre eigenen Normen für die Klassifizierung von Bauelementen (siehe <a href="/at/de/knowledge-base/madaster-glossary.md" target="_blank">Madaster Glossar - Standards</a>). Die Madaster-Plattform ermöglicht es Ihnen, Ihre nationale Klassifizierung aus den BIM-Dateien zu lesen und sie den Schichten des Gebäudes zuzuordnen.
 * Stellen Sie den korrekten IFC-Typ sicher.
 * Verhindern Sie die Verwendung der IFC-Entität "Building element proxy" und "Building element part".
 * Exportieren Sie den "Renovierungsstatus" oder die "Phase" im gleichnamigen Property-Set. Wenn Sie selbst erstellt wurden, verwenden Sie die Beriffe:
@@ -31,7 +31,7 @@ Um eine detaillierte und einfache Berechnung auf Madaster zu gewährleisten, mus
 
 ## ArchiCAD IFC-Quelldateien vorbereiten
 
-Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den BuildSmart-Standards entsprechen. Unter <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic IDS</a> finden Sie eine ausführliche Anleitung. Beachten Sie darüber hinaus das <a href="BIM Handbuch inkludieren" target="_blank">Madaster-BIM-Handbuch</a>.
+Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den BuildSmart-Standards entsprechen. Unter <a href="https://ucm.buildingsmart.org/use-case-details/2594/en" target="_blank">BIM Basic IDS</a> finden Sie eine ausführliche Anleitung. Beachten Sie darüber hinaus das <a href="/files/at/Madaster - BIM Anleitung_AT.pdf" target="_blank">Madaster-BIM-Handbuch</a>.
 
 1. Lesen Sie die <a href="../files/de/BIM%20basis%20ILS_infographicA4_German.pdf" target="_blank">BIM Basic IDS</a> von Madaster für alle IFC-Quelldateien.
 2. **Klassifizierung hinzufügen:**

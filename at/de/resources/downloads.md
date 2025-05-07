@@ -15,6 +15,8 @@ menubar: resources-nav
 
 Hier finden Sie den Report <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
 
+<a href="files/at/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+
 <div style="margin-top: 40px;"> </div>
 
 ## BIM
@@ -43,9 +45,9 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 </ul>
 
 ### Excel
-<a href="/files/at/MaterialImportTemplate_NORM_B18011_2009_de-at.xlsx" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2009</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+<a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2009</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
-<a href="/files/at/MaterialImportTemplate_NORM_B18011_2022_de-at.xlsx" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2022</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+<a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2022</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
 ### Revit
 <a href="/files/at/20241211_madaster_revit.zip" target="_blank">ZIP-Ordner Revit (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:

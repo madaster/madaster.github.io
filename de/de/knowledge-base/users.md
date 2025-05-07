@@ -23,7 +23,7 @@ Benutzer, die auf **Accountebene** <iconify-icon inline icon='mdi-briefcase-vari
 |Accountebene|Administrator|Manager & Mitarbeiter an der Datenbank|Manager|Leser|Kontakt Rechnungsstellung|
 |-|-|-|-|-|-|
 |Erstellen und Bearbeiten von Ordnertypen| Ja| Nein| Nein| Nein| Nein|
-|Ordner erstellen| Ja| Ja| Ja| Nein| Nein|
+|Ordner erstellen| Ja| Nein| Nein| Nein| Nein|
 |Datenbank erstellen| Ja| Nein| Nein| Nein| Nein|
 |Mitarbeit an einer Account-Datenbank oder geteilten Account-Datenbank mit Beitragsrechten| Ja| Ja| Nein| Nein| Nein|
 |Abbonement einsehen| Ja| Nein| Nein| Nein| Nein|

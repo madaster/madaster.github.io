@@ -18,6 +18,7 @@ Auf dieser Seite finden Sie weitere Informationen über die Nutzung und Entwickl
  * <a href="/files/ch/de/Madaster Materialpass Schritt-für-Schritt Plan_CH-DE.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Ausstellung eines Materialpasses auf der Madaster-Plattform führen.
  * <a href="/files/ch/de/Tender Text Material Passport_CH-DE.pdf" target="_blank">Leitfaden zur Erstellung eines Materialpasses</a> - Dieses Dokument enthält eine Anleitung zur Beantragung eines Madaster-Materialpasses in einem Ausschreibungstext. Darüber hinaus bietet es konkrete Beispielsätze, die im Ausschreibungstext verwendet werden können.
  * <a href="/files/ch/de/Schematische Übersicht zu Madaster Datenanforderungen pro Auswertung.xlsx" target="_blank"> Schematische Übersicht zu Madaster Datenanforderungen pro Auswertung</a> - Dieses Dokument bietet eine schematische Übersicht über die Datenrichtlinien für eine Registrierung auf Madaster basierend auf der gewünschten Auswertung.
+ * <a href="files/ch/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
 
 ### Online Tutorials
 

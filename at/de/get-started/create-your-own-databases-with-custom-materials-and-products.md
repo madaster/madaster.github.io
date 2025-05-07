@@ -50,6 +50,8 @@ Daher ist es beim Teilen einer Datenbank notwendig, die Rechte festzulegen, mit 
 3. Wählen Sie die gewünschten **Rechte** für das Teilen sowie den Account, Ordner oder das Objekt.
 4. Klicken Sie auf **Speichern**.
 
+>**INFO** - Sobald eine Datenbank freigegeben wurde, lässt sich die Freigabe nicht mehr rückgängig machen. Dies stellt die kontinuierliche Verfügbarkeit sicher. Die Art der Rechte (Zuordnen, Kopieren, Beitragen, Verwalten) können nachträglich geändert werden.
+
 ## Produkte erstellen und bearbeiten
 
 Madaster unterscheidet zwischen verschiedenen Produkttypen. Die Wahl des Produkttypen hängt in erster Linie von den verfügbaren geometrischen Daten des betreffenden Objektelements in der Quelldatei ab.

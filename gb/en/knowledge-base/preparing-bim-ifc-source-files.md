@@ -31,34 +31,42 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 
 ### Madaster Custom property set (CPset_Madaster)
 
-| PropertyName                      | PropertyType     | Madaster Element                  |
-|-----------------------------------|------------------|-----------------------------------|
-| MaterialOrProductId               | IfcText          | MadasterId                        |
-| externaldatabaseId                | IfcText          | externaldatabaseId                |
-| GTIN                              | IfcText          | GTIN                              |
-| ArticleNumberGLN                  | IfcText          | ArticleNumberGLN                  |
-| MaterialOrProductName             | IfcText          | MaterialName                      |
-| MaterialOrProductRatio            | IfcText          |                                   |
-| Volume                            | IfcVolumeMeasure | Volume                            |
-| Area                              | IfcAreaMeasure   | Area                              |
-| Length                            | IfcLengthMeasure | Length                            |
-| Width                             | IfcLengthMeasure | Width                             |
-| Depth                             | IfcLengthMeasure | Depth                             |
-| Height                            | IfcLengthMeasure | Height                            |
-| Weight                            | IfcReal          | Weight                            |
-| Thickness                         | IfcLengthMeasure | Thickness                         |
-| Classification                    | IfcText          | Classification                    |
-| Phase                             | IfcText          | Phase                             |
-| DetachabilityConnectionType       | IfcText          | DetachabilityConnectionType       |
-| DetachabilityConnectionTypeDetail | IfcText          | DetachabilityConnectionTypeDetail |
-| DetachabilityAccessibility        | IfcText          | DetachabilityAccessibility        |
-| DetachabilityIntersection         | IfcText          | DetachabilityIntersection         |
-| DetachabilityProductEdge          | IfcText          | DetachabilityProductEdge          |
-| Reuse                             | IfcReal          | InputPercentageReuse              |
-| BuildingNumbers                   | IfcText          | BuildingNumbers                   |
-| WasteCodes                        | IfcText          | WasteCodes                        |
-| AssumedConstructionWaste          | IfcReal          | AssumedConstructionWaste          |
-| OverOrdering                      | IfcReal          | OverOrdering                      |
+| PropertyName                      | PropertyType       | Madaster Element                  |
+|-----------------------------------|--------------------|-----------------------------------|
+| MaterialOrProductId               | IfcText            | MadasterId                        |
+| externaldatabaseId                | IfcText            | externaldatabaseId                |
+| GTIN                              | IfcText            | GTIN                              |
+| ArticleNumberGLN                  | IfcText            | ArticleNumberGLN                  |
+| MaterialOrProductName             | IfcText            | MaterialName                      |
+| MaterialOrProductRatio            | IfcText            |                                   |
+| Volume                            | IfcVolumeMeasure   | Volume                            |
+| Area                              | IfcAreaMeasure     | Area                              |
+| Length                            | IfcLengthMeasure   | Length                            |
+| Width                             | IfcLengthMeasure   | Width                             |
+| Depth                             | IfcLengthMeasure   | Depth                             |
+| Height                            | IfcLengthMeasure   | Height                            |
+| Weight                            | IfcMassMeasure     | Weight                            |
+| Thickness                         | IfcLengthMeasure   | Thickness                         |
+| OtherUnit                         | IfcReal            | OtherUnit                         |
+| OtherUnitName                     | IfcText            | OtherUnitName                     |
+| OtherUnitPropertyName             | IfcText            | OtherUnitPropertyName             |
+| Classification                    | IfcText            | Classification                    |
+| BuildingNumbers                   | IfcText            | BuildingNumbers                   |
+| Phase                             | IfcText            | Phase                             |
+| DetachabilityConnectionType       | IfcText            | DetachabilityConnectionType       |
+| DetachabilityConnectionTypeDetail | IfcText            | DetachabilityConnectionTypeDetail |
+| DetachabilityAccessibility        | IfcText            | DetachabilityAccessibility        |
+| DetachabilityIntersection         | IfcText            | DetachabilityIntersection         |
+| DetachabilityProductEdge          | IfcText            | DetachabilityProductEdge          |
+| Reuse                             | IfcReal            | InputPercentageReuse              |
+| InstallationDate                  | IfcText            | InstallationDate                  |
+| SerialNumber                      | IfcText            | SerialNumber                      |
+| TechnicalCondition                | IfcPositiveInteger | TechnicalCondition                |
+| AestheticCondition                | IfcPositiveInteger | AestheticCondition                |
+| Comment                           | IfcText            | Comment                           |
+| WasteCodes                        | IfcText            | WasteCodes                        |
+| AssumedConstructionWaste          | IfcReal            | AssumedConstructionWaste          |
+| OverOrdering                      | IfcReal            | OverOrdering                      |
 
 ### Additional information
 
