@@ -13,6 +13,8 @@ menubar: resources-nav
 
 <a href="/files/de/Madaster - Ablaufplan Material Passport.pdf" target="_blank">Madaster Schritt-für-Schritt-Plan</a> - Dieses Dokument beschreibt die notwendigen Prozessschritte, die zur Erstellung eines Materialpasses auf der Madaster-Plattform führen.
 
+<a href="/files/de/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+
 
 ## BIM
 
