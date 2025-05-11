@@ -12,12 +12,12 @@ menubar: resources-nav
 
 ## Excel template
 
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/88eb09b8-d3f5-4cb1-a732-eb64281a585c/en/nl" target="_blank">NL-SfB</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/587e0f01-fbe6-4d54-9a01-0f31cee5c187/en/nl" target="_blank">NL-SfB V202112</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/fa9a80d8-60f1-4615-82c4-7211f1dcdb2d/en/be" target="_blank">BB-SfB</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/6209e66f-0481-491d-8ee1-459edde1daa7/en/gb" target="_blank">Uniclass 2015</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/4808c420-223b-46ff-98cd-f183c1a8b4e1/en/gb" target="_blank">NRM 1</a>
-* <a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/a20e1e6c-a0ec-4996-b680-a9c1b3de1d87/en/gb" target="_blank">RICS</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/88eb09b8-d3f5-4cb1-a732-eb64281a585c/en/nl" target="_blank">NL-SfB</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/587e0f01-fbe6-4d54-9a01-0f31cee5c187/en/nl" target="_blank">NL-SfB V202112</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/fa9a80d8-60f1-4615-82c4-7211f1dcdb2d/en/be" target="_blank">BB-SfB</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/6209e66f-0481-491d-8ee1-459edde1daa7/en/gb" target="_blank">Uniclass 2015</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/4808c420-223b-46ff-98cd-f183c1a8b4e1/en/gb" target="_blank">NRM 1</a>
+* <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/a20e1e6c-a0ec-4996-b680-a9c1b3de1d87/en/gb" target="_blank">RICS</a>
 
 ## Bim Collab
 

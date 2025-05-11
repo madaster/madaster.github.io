@@ -31,7 +31,7 @@ menubar: resources-nav
 
 ## Excel
 
-<a href="https://backend.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template</a> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template</a> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
 ## EPEA
 
