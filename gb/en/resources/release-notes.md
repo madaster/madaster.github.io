@@ -10,8 +10,8 @@ This page contains the release notes for 2025.
 
 ## Release notes 2025.4 ##
 
-* Build number: 
-* Release date: 
+* Build number: 33498
+* Release date: 11th of May 2025
 
 ### Matching rules in enrichment ###
 
