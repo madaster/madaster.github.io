@@ -8,6 +8,147 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.4 ##
+
+* Build number: 
+* Release date: 
+
+### Matching rules in enrichment ###
+
+This release the options when linking an element to a product from enrichment have been changed: 
+
+<figure><img src="/assets/images/releasenotes/202504-11869-1.png" alt="The new options when linking elements to products."><figcaption>The new options when linking elements to products.</figcaption></figure>
+
+The options are:
+
+* To directly link the current selected element to the chosen product
+* To set up more elaborate matching rules based on your selection
+* To change all elements current mapped to a certain product to the new selected product
+
+A matching rule will link all elements to the chosen product based on certain properties of the element:
+
+<figure><img src="/assets/images/releasenotes/202504-11869-2.png" alt="The matching rules."><figcaption>The matching rules.</figcaption></figure>
+
+The options are:
+
+* To link all elements with the same material name
+* To link all elements with the same type (IfcElementType)
+* To link all elements with the same generalized type (like IfcWallType, IfcRoofType)
+
+It is possible to combine these options for a more granular mapping. It is also possible to include this matching rule as a search criteria on either the building or the whole account for future use.
+
+### Redesign upload settings screen ###
+
+The upload settings screen has been given a redesign to be more clear:
+
+<figure><img src="/assets/images/releasenotes/202504-11426-1.png" alt="The matching rules."><figcaption>Part of the redesigned upload settings screen.</figcaption></figure>
+
+### Other changes ###
+
+* The maximum number of elements shown in enrichment has been set to 500.
+* The column type name has been added to the excel export of an ifc file.
+
+### Bugfixes ###
+
+* It was possible to delete source files that were being processed when selecting multiple files, this is fixed.
+* The checkbox for 'allow elements to match with products of different dimensions or quantities' on the upload settings would be unchecked when reopening the screen or applying it when uploading a file. This has been fixed.
+* Uploading a new version of a source file could crash when splitted elements were kept and new elements were added. This has been resolved.
+* A rare bug in paging could result in duplicate elements; this is resolved.
+
+
+## Release notes 2025.3 ##
+
+* Build number: 33047
+* Release date: March 31st 2025
+
+### IFC hierarchy now available in enrichment ##
+
+With this release it is now possible to filter on the IFC hierarchy in enrichment:
+
+<figure><img src="/assets/images/releasenotes/202503-11382-1.png" alt="The IFC Hierary in the filters in enrichment"><figcaption>The IFC Hierarchy in the filters in enrichment.</figcaption></figure>
+
+This makes finding the right set of elements quicker based on the IFC structure.
+
+There is also the option to quickly link a product to elements that share the same type and material:
+
+<figure><img src="/assets/images/releasenotes/202503-11382-2.png" alt="Linking a product to all elements that have the same type and material."><figcaption>Linking a product to all elements that have the same type and material.</figcaption></figure>
+
+This means that is should be quicker to assign a product to elements that according to the IFC model would make sense to be connected to the same product.
+
+Existing models are not updated, so this will only show up for new models or reuploaded models.
+
+### View quality of all source files from dossier ##
+
+The option to view the quality of all the source files is now available from the dossier on a building. It used to be an option in the mass tab only.
+
+<figure><img src="/assets/images/releasenotes/202503-11568-1.png" alt="Option to view the quality of all source files."><figcaption>Option to view the quality of all source files.</figcaption></figure>
+
+### Editing multiple documents ##
+
+It is now possible to edit multiple documents by selecting multiple files in for example the dossier of a building:
+
+<figure><img src="/assets/images/releasenotes/202503-11423-1.png" alt="Editing multiple source files."><figcaption>Editing multiple source files.</figcaption></figure>
+
+### Additional properties added to elements ###
+
+New properties have been added that can be filled on the element. These are:
+
+* Serial number; which can be used to specify more specifically the products that are installed
+* Installation date; which can be used to specify on which date the product was installed. When this information is available it is used in B4 calculations as well.
+* Technical condition: a high-level indicator for in what technical condition the installed product/element is
+* Aesthetic condition: a high-level indicator for in what aesthetic condition the installed product/element is
+* Comment: a free text field for commenting on the installed product or the element.
+
+These fields can be filled in on the new details tab on an element:
+
+<figure><img src="/assets/images/releasenotes/202503-11430-1.png" alt="The new details tab on an element in enrichment."><figcaption>The new details tab on an element in enrichment.</figcaption></figure>
+
+They are also added to the excel upload templates for buildings, as well as the excel export/import functionality. These fields are now also available in the upload settings.
+
+These new properties are also exported when generating a technical annex.
+
+### Changes to the upload presets ###
+
+The following options have been added to the upload presets:
+
+Above mentioned new properties on the element:
+* Serial number
+* Comment
+* Technical condition
+* Aesthetic condition
+* Installation date
+
+<figure><img src="/assets/images/releasenotes/202503-11430-2.png" alt="The new element properties in the upload presets screen."><figcaption>The new element properties in the upload presets screen.</figcaption></figure>
+
+Another addition to the upload presets are the basic dimensions:
+* Volume
+* Area
+* Length
+* Width
+
+<figure><img src="/assets/images/releasenotes/202503-11678-1.png" alt="The basic dimensions in the upload presets screen."><figcaption>The new basic dimension in the upload presets screen.</figcaption></figure>
+
+### Changes to the upload screen ###
+
+There are two new options added when uploading a source file.
+
+1. When there is no phase information available on the element it is possible to set the default that will be filled in when uploading a file to the platform. There is a prefilled default selected based on the phase of the building. For example, when a building is new, the default phase will be prefilled with 'new' as well. This can still be changed though.
+
+<figure><img src="/assets/images/releasenotes/202503-11461-1.png" alt="The option to set a default element phase in the upload screen."><figcaption>The option to set a default element phase in the upload screen.</figcaption></figure>
+
+2. Another new option is the choice to match products on elements when the dimensions or quantities differ. This is off by default to prevent having to re-link after uploading, but can be turned on:
+
+<figure><img src="/assets/images/releasenotes/202503-11572-1.png" alt="The option to match elements on products with different dimensions or quantities yes or no."><figcaption>The option to match elements on products with different dimensions or quantities yes or no.</figcaption></figure>
+
+### Other changes ###
+
+* The ICE database has been updated to the latest version.
+* The ENVIRONDEC database has been updated.
+* It is now possible to select multiple accounts when sharing a database with an account.
+* Details on where a search criterion is matched on is now shown in the overview of search criteria on a product in a database.
+* On a database it is possible to set whether inactive products should be shown by defaut in the overview.
+
+
 ## Release notes 2025.2 ##
 
 * Build number: 32489

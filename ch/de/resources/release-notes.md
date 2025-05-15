@@ -8,6 +8,53 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.4 ##
+
+* Build number: 
+* Release date: 
+
+### Matching rules in enrichment ###
+
+This release the options when linking an element to a product from enrichment have been changed: 
+
+<figure><img src="/assets/images/releasenotes/202504-11869-1.png" alt="The new options when linking elements to products."><figcaption>The new options when linking elements to products.</figcaption></figure>
+
+The options are:
+
+* To directly link the current selected element to the chosen product
+* To set up more elaborate matching rules based on your selection
+* To change all elements current mapped to a certain product to the new selected product
+
+A matching rule will link all elements to the chosen product based on certain properties of the element:
+
+<figure><img src="/assets/images/releasenotes/202504-11869-2.png" alt="The matching rules."><figcaption>The matching rules.</figcaption></figure>
+
+The options are:
+
+* To link all elements with the same material name
+* To link all elements with the same type (IfcElementType)
+* To link all elements with the same generalized type (like IfcWallType, IfcRoofType)
+
+It is possible to combine these options for a more granular mapping. It is also possible to include this matching rule as a search criteria on either the building or the whole account for future use.
+
+### Redesign upload settings screen ###
+
+The upload settings screen has been given a redesign to be more clear:
+
+<figure><img src="/assets/images/releasenotes/202504-11426-1.png" alt="The matching rules."><figcaption>Part of the redesigned upload settings screen.</figcaption></figure>
+
+### Other changes ###
+
+* The maximum number of elements shown in enrichment has been set to 500.
+* The column type name has been added to the excel export of an ifc file.
+
+### Bugfixes ###
+
+* It was possible to delete source files that were being processed when selecting multiple files, this is fixed.
+* The checkbox for 'allow elements to match with products of different dimensions or quantities' on the upload settings would be unchecked when reopening the screen or applying it when uploading a file. This has been fixed.
+* Uploading a new version of a source file could crash when splitted elements were kept and new elements were added. This has been resolved.
+* A rare bug in paging could result in duplicate elements; this is resolved.
+
 ## Release notes 2025.3 ##
 
 * Build number: 33047
