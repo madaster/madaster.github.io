@@ -73,6 +73,4 @@ Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den B
 
 ## IFC-Modellprüfung
 
-1. Bevor Sie Ihr IFC-Modell auf die Madaster-Plattform hochladen, empfiehlt es sich, eine Vollständigkeitsprüfung durchzuführen (Klassifizierungskodierung, Basismengen, Material usw.). Für diese Prüfung verwenden Sie den kostenlosen BIMcollab ZOOM Public Viewer in Kombination mit den Madaster Smart Views.
-2. Der <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMcollab ZOOM Public Viewer</a> und <a href="https://helpcenter.bimcollab.com/portal/de/kb/articles/smart-view-sets-downloads-de" target="_blank">Madaster Smart Views</a>
-können kostenlos heruntergeladen werden. Nach der Installation von BIMCollab Zoom können Sie die programmierten Madaster Smart Views über die Schaltfläche Importieren in das Programm laden. Indem Sie nun Ihr eigenes (IFC) Modell öffnen, kann das Modell, die Smart Views, auf Vollständigkeit geprüft werden.
+Bevor Sie Ihr IFC-Modell auf die Madaster-Plattform hochladen, empfiehlt es sich, eine Vollständigkeitsprüfung durchzuführen (Klassifizierungskodierung, Basismengen, Material usw.). Für diese Prüfung können Sie den kostenlosen <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMcollab ZOOM Public Viewer</a> verwenden.
