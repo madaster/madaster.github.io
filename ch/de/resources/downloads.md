@@ -30,4 +30,4 @@ menubar: resources-nav
 
 ## EPEA
 
-<a href="/files/ch/de/Madaster Materialien.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 15.10.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+<a href="/files/ch/de/EPEA Generic - Schweiz.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 15.10.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
