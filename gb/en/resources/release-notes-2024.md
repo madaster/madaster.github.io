@@ -1,7 +1,7 @@
 ---
 title: Release notes
 description: More information about the releases can be found here
-ref: release-notes
+ref: release-notes-2024
 type: Resources
 menubar: resources-nav
 ---
