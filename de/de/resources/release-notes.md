@@ -8,6 +8,59 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.5 ##
+
+* Build number: 
+* Release date: 
+
+### QNG ###
+
+Für Deutschland und Österreich wurde die QNG (Qualitätssiegel Nachhaltiges Gebäude) als Vorschaufunktion verfügbar gemacht.
+
+> Bitte beachten Sie, dass wir die Funktion gemeinsam mit einzelnen Nutzer:innen testen und es so lange als Vorschaufunktion beibehalten wird, bis wir sicher sind, dass unsere Implementierung korrekt ist.
+
+Für eine detaillierte Analyse konsultieren Sie bitte die offizielle Dokumentation des QNG.
+
+**Folgendes wurde für die QNG-Zertifizierung implementiert:**
+* QNG-Rechenwerttabelle (Ökobilanzierung Rechenwerte 2023 Version 1.3), einschließlich der erforderlichen Emissionsfaktoren für Energie
+
+* Die folgenden Schemata:
+    * QNG Wohngebäude 1.3
+    * QNG Nichtwohngebäude 1.3
+
+* Änderungen unter „Objekt bearbeiten“ im Allgemeines-Tab:
+    * Änderungen im Reiter „Zertifizierungen“ eines Objekts, um dort Informationen bezüglich der QNG-Zertifizierung eingeben zu können
+    * Der Reiter „Energie“ wurde vollständig überarbeitet, wenn im Zertifizierungen-Reiter ein QNG-Konformitätschema gewählt wird
+* Es gibt einen neuen Energie-Tab, der die Ergebnisse aus den Energieeingaben anzeigt
+* QNG ist im Umwelt-Tab als Konformität verfügbar, was sich auf die Phasen des Lebenszyklus auswirkt
+* QNG wurde als Berichtsart im Reporting-Tab hinzugefügt
+
+Um die QNG-Funktion zu nutzen, muss im Allgemeines-Tab unter „Objekt bearbeiten“, im Reiter „Zertifizierungen“ das Konformitätsschema ausgewählt werden.
+Eine gleichzeitige Nutzung des Konformitätsschema der DGNB 2023 ist nicht möglich, da unterschiedliche Datenbanken für die Verknüpfung vorausgesetzt werden.
+
+<figure><img src="/assets/images/releasenotes/202505_madaster GER_QNG.jpg" alt="Auswahl des Konformitätsschemata."><figcaption>Auswahl des Konformitätsschemata.</figcaption></figure>
+
+### Changes to the Bill of Materials on a product ###
+
+This release a few changes have been made to the interaction with the bill of materials on a product:
+
+* When adding a product to the bill of materials the product overview will now immediately open
+* A description field has been added for each added product in the bill of materials:
+
+<figure><img src="/assets/images/releasenotes/202505-BoM-1.png" alt="The new description field on the bill of materials."><figcaption>The new description field on the bill of materials.</figcaption></figure>
+
+* It is now possible to change the sequence of the products in the bill of materials:
+
+<figure><img src="/assets/images/releasenotes/202505-BoM-2.png" alt="Changing the sequence in the bill of materials."><figcaption>Changing the sequence in the bill of materials.</figcaption></figure>
+
+### Other changes ###
+
+* The Proca feature is now also available on non-producer databases
+* A number of material classification mappings have been redone
+* In a number of EPD databases the owner of the EPD data has been set as the manufacturer
+* For German accounts it is now possible to choose B6.1, B6.2 or B6.3 when applying energy EPDs
+
+
 ## Release notes 2025.4 ##
 
 * Build number: 
