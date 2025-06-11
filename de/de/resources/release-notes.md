@@ -15,7 +15,7 @@ This page contains the release notes for 2025.
 
 ### QNG ###
 
-Für Deutschland und Österreich wurde die QNG (Qualitätssiegel Nachhaltiges Gebäude) als Vorschaufunktion verfügbar gemacht.
+Für Deutschland wurde die QNG (Qualitätssiegel Nachhaltiges Gebäude) als Vorschaufunktion verfügbar gemacht.
 
 > Bitte beachten Sie, dass wir die Funktion gemeinsam mit einzelnen Nutzer:innen testen und es so lange als Vorschaufunktion beibehalten wird, bis wir sicher sind, dass unsere Implementierung korrekt ist.
 
