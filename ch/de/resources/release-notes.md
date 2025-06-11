@@ -8,6 +8,47 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.5 ##
+
+* Build number: 33804
+* Release date: 6th of June 2025
+
+### Changes to the Bill of Materials on a product ###
+
+This release a few changes have been made to the interaction with the bill of materials on a product:
+
+* When adding a product to the bill of materials the product overview will now immediately open
+* A description field has been added for each added product in the bill of materials:
+
+<figure><img src="/assets/images/releasenotes/202505-BoM-1.png" alt="The new description field on the bill of materials."><figcaption>The new description field on the bill of materials.</figcaption></figure>
+
+* It is now possible to change the sequence of the products in the bill of materials:
+
+<figure><img src="/assets/images/releasenotes/202505-BoM-2.png" alt="Changing the sequence in the bill of materials."><figcaption>Changing the sequence in the bill of materials.</figcaption></figure>
+
+### Selecting a Compliance Scheme
+
+When creating a building, you can now use the drop-down menu on the Labels tab (also accessible via the General tab) to select which compliance scheme you want to follow. 
+<figure><img src="/assets/images/releasenotes/202505-Schemes.png" alt="When editing the building a compliance scheme can be choosen."><figcaption>When editing the building a compliance scheme can be choosen.</figcaption></figure>
+In the following, values that are mandatory for the calculations are queried according to the respective selection.
+
+### New Benchmark Card
+
+The first change in the benchmarking and comparison functionality has been implemented. With this release, you will find a separate card in the Environmental tab that provides more detailed information about the benchmark you have selected.
+
+* How many buildings in your account/folder/of a certain type are considered for your benchmark and how much is the current building above or below this benchmark?
+* Or which individual buildings (including their comparative values) have you selected for your benchmark and how much is the current building above or below this benchmark?
+
+<figure><img src="/assets/images/releasenotes/202505-Benchmarking.png" alt="The new Benchmark card offers further details."><figcaption>The new Benchmark card offers further details.</figcaption></figure>
+
+### Other changes ###
+
+* The Proca feature is now also available on non-producer databases
+* In a number of EPD databases the owner of the EPD data has been set as the manufacturer
+* A number of material classification mappings have been redone
+* For German accounts it is now possible to choose B6.1, B6.2 or B6.3 when applying energy EPDs
+
+
 ## Release notes 2025.4 ##
 
 * Build number: 
