@@ -194,7 +194,7 @@ $$
 
 ## Demontierbarkeit (Detachability)
 
-Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="https://www.dgbc.nl/upload/files/Publicaties/circulariteit/DGBC%20Disassembly%20Potential%20Measurement%20Methodology%20_%202022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
+Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
 
 Auf Madaster basiert die Berechnung auf allen verknüpften Elementen, wobei die vier Demontierbarkeits-Eigenschaften für jedes Element in der Quelldatei enthalten sein kann (z.B. mit dem Madaster_CPset und den Detachability-Eigenschaften, dessen Anwendung in der BIM-Handbuch beschrieben ist oder unter <a href="/ch/de/knowledge-base/madaster-property-set.html" target="_blank">Madaster Common Property Set</a>.) und wenn die Information nicht in der Quelldatei gefunden wird, greift Madaster auf die Demontierbarkeit zurück, die im verknüpften Produkt definiert wurde.
 Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur Demontierbarkeit enthält, werden die Demontierbarkeits-Eigenschaften als "Unbekannt" markiert.
