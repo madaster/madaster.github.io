@@ -33,12 +33,12 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 
 | PropertyName                      | PropertyType       | Madaster Element                  |
 |-----------------------------------|--------------------|-----------------------------------|
-|*MaterialOrProductId               | IfcText            |*MadasterID                        |
+| MaterialOrProductId               | IfcText            | MadasterID                        |
 | externaldatabaseId                | IfcText            | ExternalDatabaseId                |
 | GTIN                              | IfcText            | GTIN                              |
 | ArticleNumberGLN                  | IfcText            | ArticleNumberGLN                  |
 | MaterialOrProductName             | IfcText            | MaterialName                      |
-| MaterialOrProductRatio            | IfcText            |                                  |
+| MaterialOrProductRatio            | IfcText            |                                   |
 | Volume                            | IfcVolumeMeasure   | Volume                            |
 | Area                              | IfcAreaMeasure     | Area                              |
 | Length                            | IfcLengthMeasure   | Length                            |
@@ -48,13 +48,13 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 | Weight                            | IfcMassMeasure     | Weight                            |
 | Thickness                         | IfcLengthMeasure   | Thickness                         |
 | OtherUnit                         | IfcReal            | OtherUnit                         |
-|*OtherUnitUnitName                 | IfcText            | OtherUnitName                     |
+| OtherUnitUnitName                 | IfcText            | OtherUnitName                     |
 | OtherUnitPropertyName             | IfcText            | OtherUnitPropertyName             |
 | Reuse                             | IfcReal            | InputPercentageReuse              |
-|*ElementInstanceCombinationId      |*IfcText            |*                                  |
-|*ElementCombinationType            |*IfcText            |*                                  |
-|*ElementName                       |*IfcText            |*                                  |
-|*ElementTypeName                   |*IfcText            |*                                  |
+| ElementInstanceCombinationId      | IfcText            |                                   |
+| ElementCombinationType            | IfcText            |                                   |
+| ElementName                       | IfcText            |                                   |
+| ElementTypeName                   | IfcText            |                                   |
 | Classification                    | IfcText            | Classification                    |
 | Phase                             | IfcText            | Phase                             |
 | BuildingNumbers                   | IfcText            | BuildingNumbers                   |
@@ -63,13 +63,13 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 | DetachabilityAccessibility        | IfcText            | DetachabilityAccessibility        |
 | DetachabilityIntersection         | IfcText            | DetachabilityIntersection         |
 | DetachabilityProductEdge          | IfcText            | DetachabilityProductEdge          |
-|*LifeSpan                          |*IfcInteger         |*LifeSpan                          |
+| LifeSpan                          | IfcInteger         | LifeSpan                          |
 | InstallationDate                  | IfcText            | InstallationDate                  |
 | SerialNumber                      | IfcText            | SerialNumber                      |
-| TechnicalCondition                |*IfcInteger         | TechnicalCondition                |
-| AestheticCondition                |*IfcInteger         | AestheticCondition                |
+| TechnicalCondition                | IfcInteger         | TechnicalCondition                |
+| AestheticCondition                | IfcInteger         | AestheticCondition                |
 | Comment                           | IfcText            | Comment                           |
-|*AvailableForReuse                 | IfcReal            |*InputPercentageAvailableForReuse  |
+| AvailableForReuse                 | IfcReal            | InputPercentageAvailableForReuse  |
 | WasteCodes                        | IfcText            | WasteCodes                        |
 | AssumedConstructionWaste          | IfcReal            | AssumedConstructionWaste          |
 | OverOrdering                      | IfcReal            | OverOrdering                      |
