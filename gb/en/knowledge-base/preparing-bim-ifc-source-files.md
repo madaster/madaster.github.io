@@ -132,7 +132,7 @@ Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a
 **OverOrdering**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
 
-**Detachability**
+**Detachability**\
 The acceptable values for the detachability information are as follows.
 
 | DetachabilityConnectionType    | DetachabilityConnectionTypeDetail | Explanation                      |
