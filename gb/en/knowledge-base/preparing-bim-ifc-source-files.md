@@ -33,8 +33,8 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 
 | PropertyName                      | PropertyType       | Madaster Element                  |
 |-----------------------------------|--------------------|-----------------------------------|
-| MaterialOrProductId               | IfcText            | MadasterId                        |
-| externaldatabaseId                | IfcText            | externaldatabaseId                |
+| MaterialOrProductId               | IfcText            | MadasterID                        |
+| externaldatabaseId                | IfcText            | ExternalDatabaseId                |
 | GTIN                              | IfcText            | GTIN                              |
 | ArticleNumberGLN                  | IfcText            | ArticleNumberGLN                  |
 | MaterialOrProductName             | IfcText            | MaterialName                      |
@@ -48,23 +48,29 @@ If the custom property set with the name: CPset_Madaster is present on an IFC el
 | Weight                            | IfcMassMeasure     | Weight                            |
 | Thickness                         | IfcLengthMeasure   | Thickness                         |
 | OtherUnit                         | IfcReal            | OtherUnit                         |
-| OtherUnitName                     | IfcText            | OtherUnitName                     |
+| OtherUnitUnitName                 | IfcText            | OtherUnitName                     |
 | OtherUnitPropertyName             | IfcText            | OtherUnitPropertyName             |
+| Reuse                             | IfcReal            | InputPercentageReuse              |
+| ElementInstanceCombinationId      | IfcText            |                                   |
+| ElementCombinationType            | IfcText            |                                   |
+| ElementName                       | IfcText            |                                   |
+| ElementTypeName                   | IfcText            |                                   |
 | Classification                    | IfcText            | Classification                    |
-| BuildingNumbers                   | IfcText            | BuildingNumbers                   |
 | Phase                             | IfcText            | Phase                             |
+| BuildingNumbers                   | IfcText            | BuildingNumbers                   |
 | DetachabilityConnectionType       | IfcText            | DetachabilityConnectionType       |
 | DetachabilityConnectionTypeDetail | IfcText            | DetachabilityConnectionTypeDetail |
 | DetachabilityAccessibility        | IfcText            | DetachabilityAccessibility        |
 | DetachabilityIntersection         | IfcText            | DetachabilityIntersection         |
 | DetachabilityProductEdge          | IfcText            | DetachabilityProductEdge          |
-| Reuse                             | IfcReal            | InputPercentageReuse              |
+| LifeSpan                          | IfcInteger         | InputPercentageReuse              |
 | InstallationDate                  | IfcText            | InstallationDate                  |
 | SerialNumber                      | IfcText            | SerialNumber                      |
-| TechnicalCondition                | IfcPositiveInteger | TechnicalCondition                |
-| AestheticCondition                | IfcPositiveInteger | AestheticCondition                |
+| TechnicalCondition                | IfcInteger         | TechnicalCondition                |
+| AestheticCondition                | IfcInteger         | AestheticCondition                |
 | Comment                           | IfcText            | Comment                           |
 | WasteCodes                        | IfcText            | WasteCodes                        |
+| AvailableForReuse                 | IfcReal            | InputPercentageAvailableForReuse  |
 | AssumedConstructionWaste          | IfcReal            | AssumedConstructionWaste          |
 | OverOrdering                      | IfcReal            | OverOrdering                      |
 
@@ -125,6 +131,54 @@ Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a
 
 **OverOrdering**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
+
+**Detachability**
+The acceptable values for the detachability information are as follows.
+
+| DetachabilityConnectionType    | DetachabilityConnectionTypeDetail | Explanation                      |
+|--------------------------------|-----------------------------------|----------------------------------|
+| DryConnection                  |                                   | Dry connection                   |
+|                                | None                              | Loose (no fixing material)       |
+|                                | Click                             | Click connection                 |
+|                                | Velcro                            | Velcro connection                |
+|                                | Magnetic                          | Magnetic connection              |
+| AddedConnectionConnection      |                                   | Connection with added elements   |
+|                                | BoltAndNut                        | Bolt and nut connection          |
+|                                | Spring                            | Spring connection                |
+|                                | Corner                            | Corner joints                    |
+|                                | Screw                             | Screw joint                      |
+| DirectConnection               |                                   | Direct integral connection       |
+|                                | Peg                               | Peg connection                   |
+|                                | Nail                              | Nailing                          |
+| SoftChemicalConnection         |                                   | Soft chemical compound           |
+|                                | Sealant                           | Sealant                          |
+|                                | Foam                              | Foam joint (PUR)                 |
+| HardChemicalConnection         |                                   | Hard chemical compound           |
+|                                | Glue                              | Adhesive bonding                 |
+|                                | Dump                              | Poured                           |
+|                                | Weld                              | Weld joint                       |
+|                                | Concrete                          | Cementitious bond                |
+|                                | ChemicalAnchor                    | Chemical anchors                 |
+
+| DetachabilityAccessibility     | Explanation                                                                |
+|--------------------------------|----------------------------------------------------------------------------|
+| Accessible                     | Freely accessible without additional actions                               |
+| PartialNoDamage                | Accessible with additional actions that do not cause damage                |
+| PartialWithRepairableDamage    | Accessible with additional operations with fully repairable damage         |
+| PartialWithDamage              | Accessible with additional operations with partially repairable damage     |
+| NotAccessible                  | Not accessible, irreparable damage to the product or surrounding products  |
+
+| DetachabilityIntersection      | Explanation                                                                     |
+|--------------------------------|---------------------------------------------------------------------------------|
+| None                           | No intersections - modular zoning of products or elements from different layers |
+| Incidental                     | Occasional intersections of products or elements from different layers          |
+| Complete                       | Full integration of products or elements from different layers                  |
+
+| DetachabilityProductEdge       | Explanation                                                            |
+|--------------------------------|------------------------------------------------------------------------|
+| Open                           | No obstacle to the (intermediate) removal of products or elements      |
+| Overlapping                    | Partial obstruction to (intermediate) removal of products or elements  |
+| Closed                         | Complete obstruction to (intermediate) removal of products or elements |
 
 ## Prepare Revit IFC source files
 
