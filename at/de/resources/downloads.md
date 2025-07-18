@@ -39,33 +39,16 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 <div style="margin-top: 20px;"> </div>
 
 ### Allplan
-<a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan:
+<a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan.
 
-<ul>
-    <li>IfcExportMadaster<li>
-    <li>Madaster Austauschprofil</li>
-    <li>MadasterPropertyMapping</li>
-</ul>
 
 ### ArchiCAD
-<a href="/files/at/20241211_madaster_archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD:
-
-<ul>
-    <li>Madaster_ArchiCAD common propertyfile</li>
-    <li>Madaster_ArchiCAD Classification ÖNORM B 1801-1:2022</li>
-</ul>
+<a href="/files/at/20241211_madaster_archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD.
 
 ### Revit
-<a href="/files/at/20241211_madaster_revit.zip" target="_blank">ZIP-Ordner Revit (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:
-
-<ul>
-    <li>240624_01_Revit shared parameter file_Madaster</li>
-    <li>240621_02_User Defined cPropertySet_Madaster</li>
-    <li>IFC-Konfiguration Revit - Madaster Export</li>
-</ul>
+<a href="/files/at/20241211_madaster_revit.zip" target="_blank">ZIP-Ordner Revit (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit.
 
 ### Excel
-
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2009</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2022</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
