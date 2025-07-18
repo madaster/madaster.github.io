@@ -40,6 +40,7 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 
 ### Allplan
 <a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan:
+
 <ul>
     <li>IfcExportMadaster<li>
     <li>Madaster Austauschprofil</li>
@@ -47,16 +48,16 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 </ul>
 
 ### ArchiCAD
-
 <a href="/files/at/20241211_madaster_archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD:
+
 <ul>
     <li>Madaster_ArchiCAD common propertyfile</li>
     <li>Madaster_ArchiCAD Classification ÖNORM B 1801-1:2022</li>
 </ul>
 
 ### Revit
-
 <a href="/files/at/20241211_madaster_revit.zip" target="_blank">ZIP-Ordner Revit (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:
+
 <ul>
     <li>240624_01_Revit shared parameter file_Madaster</li>
     <li>240621_02_User Defined cPropertySet_Madaster</li>
