@@ -24,10 +24,18 @@ menubar: resources-nav
 
 <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM.
 
-<a href="/files/ch/de/2024_Madaster CH_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
+## EPEA
+<a href="/files/ch/de/EPEA Generic - Schweiz.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 15.10.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
 
+## Programme
+
+### Allplan
+<a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan.
+
+### ArchiCAD
 <a href="/files/ch/de/2024_Madaster CH_Archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD. 
 
-## EPEA
+### Revit
+<a href="/files/ch/de/2024_Madaster CH_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
 
-<a href="/files/ch/de/EPEA Generic - Schweiz.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 15.10.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+

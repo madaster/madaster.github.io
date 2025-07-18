@@ -18,21 +18,28 @@ menubar: resources-nav
 <a href="/files/de/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
 
 ## BIM
-
 <a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch (Stand 25.11.2024)</a> - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM (Revit, ArchiCAD, AllPlan).
 
 <a href="/files/de/IFC-Richtlinien für BIM Modelle.pdf" target="_blank">Madaster BIM-Richtlinien</a> - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 
 <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM.
 
-<a href="/files/de/2025-01-13 madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 13.01.2025)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (240624_01_Revit shared parameter file_Madaster, 240621_02_User Defined cPropertySet_Madaster, IFC-Konfiguration Revit - Madaster Export und Revit_Baugruppenkennzeichen-nach-DIN276-V3)
+## EPEA
+<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 25.06.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
 
+## Programme
+<div style="margin-top: 20px;"> </div>
+
+### Allplan
+<a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan (IfcExportMadaster, Madaster Austauschprofil, MadasterPropertyMapping)
+
+### ArchiCAD
 <a href="/files/de/2024-10-14 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 14.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD (01_Archicad propertyfile und Madaster_Archicad Classification DIN 276_2018-12)
+
+### Revit
+<a href="/files/de/2025-01-13 madaster GER_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 13.01.2025)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit (240624_01_Revit shared parameter file_Madaster, 240621_02_User Defined cPropertySet_Madaster, IFC-Konfiguration Revit - Madaster Export und Revit_Baugruppenkennzeichen-nach-DIN276-V3)
 
 ## Excel
 
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template</a> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
-## EPEA
-
-<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste (Stand 25.06.2024)</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
