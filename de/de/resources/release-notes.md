@@ -8,6 +8,66 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.6 ##
+
+* Build number: 34594
+* Release date: 25th of July 2025
+
+### Multiple price sets on a product ###
+
+When a product consists of multiple materials that are each connected to a priceset this was not shown as such when looking at the product level. An overview of the different price trends and price sets for the different materials have been added to the product:
+
+<figure><img src="/assets/images/releasenotes/202506-12126-1.png" alt="The changes in the financial tab on a product."><figcaption>The changes in the financial tab on a product.</figcaption></figure>
+
+Also, the price shown on the product when the digital product passport feature is active reflects the material composition:
+
+<figure><img src="/assets/images/releasenotes/202506-12126-2.png" alt="Nominal value as shown on the product when the digital product passport feature is turned on."><figcaption>Nominal value as shown on the product when the digital product passport feature is turned on.</figcaption></figure>
+
+### Changes to matching and enrichment ###
+
+* Matching elements with weight on products with other functional units, but for which density is known is now possible. So, if you have an element with a weight and you connect it with a volume product that has a known density the volume is now calculated based on the weight so that the platform knowns how much of the product you are using and which impacts it has.
+
+* Only changed for the excel upload: when the area and thickness is known the volume will now be calculated, so matching with a volume product when these characteristics are available (but not the volume) gives results.
+
+* IFC class has been added to the element properties overview:
+
+<figure><img src="/assets/images/releasenotes/202506-12152-1.png" alt="IFC Class as shown in the element property overview from enrichment."><figcaption>IFC Class as shown in the element property overview from enrichment.</figcaption></figure>
+
+* Clicking text will activate or deactivate the filter, instead of only clicking the circle:
+
+<figure><img src="/assets/images/releasenotes/202506-12095-1.png" alt="Text clickable part to turn the filter on or off."><figcaption>Text clickable part to turn the filter on or off.</figcaption></figure>
+
+### Need to reindex old source files ###
+
+For performance reasons old source files that have not been used for more than 18 months will need to be reindexed before being able to manually enrich it again:
+
+<figure><img src="/assets/images/releasenotes/202506-12044-1.png" alt="The notification and reindex option on the source file."><figcaption>The notification and reindex option on the source file.</figcaption></figure>
+
+### Search added for manufacturers in product databases ###
+
+In a product database it is now possible to search for a specific manufacturer:
+
+<figure><img src="/assets/images/releasenotes/202506-12169-1.png" alt="Searching for products from a specific manufacturer in a product database."><figcaption>Searching for products from a specific manufacturer in a product database.</figcaption></figure>
+
+### Use coordinates for adding the location of a building ###
+
+It is now possible to add the location of the building by using the coordinates:
+
+<figure><img src="/assets/images/releasenotes/202506-9728-1.png" alt="Adding the location through coordinates."><figcaption>Adding the location through coordinates.</figcaption></figure>
+
+### Country specific ###
+
+* German translations have been added to the Madaster CP_set
+* Usable net heated floor area has been added to DACH buildings. This is also needed for the B6.3 calculations for the QNG Residential scheme, which has been adjusted accordingly.
+* The amount of elements shown to have an unknown classification is for Germany and Austria no longer based on the shearing layers but on the actual classification used.
+* For Switzerland it is now possible to set up multiple bechmarking values when choosing the Ecobau scheme:
+
+<figure><img src="/assets/images/releasenotes/202506-12239-1.png" alt="Setting up the benchmarking values for Ecobau."><figcaption>Setting up the benchmarking values for Ecobau.</figcaption></figure>
+
+These are shown on the environmental tab as well.
+
+* Museum and Restaurant have been added as building usages to Switzerland
+
 ## Release notes 2025.5 ##
 
 * Build number: 33804
