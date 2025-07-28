@@ -11,7 +11,7 @@ This page contains the release notes for 2025.
 ## Release notes 2025.6 ##
 
 * Build number: 34594
-* Release date: 25th of July 2025
+* Release date: 26th of July 2025
 
 ### Multiple price sets on a product ###
 
@@ -36,6 +36,8 @@ Also, the price shown on the product when the digital product passport feature i
 * Clicking text will activate or deactivate the filter, instead of only clicking the circle:
 
 <figure><img src="/assets/images/releasenotes/202506-12095-1.png" alt="Text clickable part to turn the filter on or off."><figcaption>Text clickable part to turn the filter on or off.</figcaption></figure>
+
+* If an element in an IFC has only one material and the material contains the detachability information this is now correctly read in in Madaster.
 
 ### Need to reindex old source files ###
 
@@ -67,6 +69,18 @@ It is now possible to add the location of the building by using the coordinates:
 These are shown on the environmental tab as well.
 
 * Museum and Restaurant have been added as building usages to Switzerland
+* The KBOB has been update to the latest version
+
+### Bugfixes ###
+
+* EU Taxonomy reports could not be generated on a design, this has been changed
+* Detachability scores for the services layer were not displayed correctly, which has been fixed
+* It was not possible to immediately select a certification scheme when creating a building, now it is
+* Certification information was not properly displayed in the general tab on the building, this is fixed
+* When editing a passport preset cancelling you still save the changes, this is fixed
+* When choosing a compliance a incorrect choice could be shown in a number of screens, which has been fixed
+* Changing handling cost was not always saved, this is fixed
+
 
 ## Release notes 2025.5 ##
 
