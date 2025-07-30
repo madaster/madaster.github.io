@@ -41,7 +41,12 @@ Also, the price shown on the product when the digital product passport feature i
 
 ### Need to reindex old source files ###
 
-For performance reasons old source files that have not been used for more than 18 months will need to be reindexed before being able to manually enrich it again:
+For performance reasons old source files that:
+
+* Have not been used for more than 18 months
+* For archives or deactivated source files this is 3 months 
+
+Will need to be reindexed before being able to manually enrich it again:
 
 <figure><img src="/assets/images/releasenotes/202506-12044-1.png" alt="The notification and reindex option on the source file."><figcaption>The notification and reindex option on the source file.</figcaption></figure>
 
