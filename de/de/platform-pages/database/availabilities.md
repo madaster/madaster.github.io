@@ -1,5 +1,5 @@
 ---
-title: Datenbank teilen
+title: Verwalten
 description: Datenbank - Teilen
 ref: database-availabilities
 type: FAQ

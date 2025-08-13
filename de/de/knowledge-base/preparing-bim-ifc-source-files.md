@@ -69,8 +69,3 @@ Um sicherzustellen, dass Ihre Datei für den Import geeignet ist, muss sie den B
 4. **IFC-Datei exportieren**
   * In der Registerkarte *Property Sets* die Kästchen für *Export base quantities* und *Export user defined property sets* auswählen, wenn das *Madaster cPset* verwendet wurde.
   * In der Registerkarte *Allgemein* wählen Sie *IFC4 Design Transfer View*.
-
-
-## IFC-Modellprüfung
-
-Bevor Sie Ihr IFC-Modell auf die Madaster-Plattform hochladen, empfiehlt es sich, eine Vollständigkeitsprüfung durchzuführen (Klassifizierungskodierung, Basismengen, Material usw.). Für diese Prüfung können Sie den kostenlosen <a href="https://www.bimcollab.com/de/go/free-ifc-viewer/" target="_blank">BIMcollab ZOOM Public Viewer</a> verwenden.

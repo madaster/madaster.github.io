@@ -1,6 +1,6 @@
 ---
-title: ESG
-description: Objekt - ESG
+title: Reporting
+description: Objekt - Reporting
 ref: building-esg
 type: FAQ
 redirect_from:
@@ -11,6 +11,7 @@ redirect_from:
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
 In dieser Registerkarte können Sie Informationen zu verschiedenen Features einsehen, die im Bereich ESG, Zertifizierung und Reporting zu verorten sind. Derzeit sind folgende Optionen möglich:
 
+1. EU-Taxonomie
 1. CRREM - Carbon Risk Real Estate Monitor
 1. Level(s)
 1. DGNB
