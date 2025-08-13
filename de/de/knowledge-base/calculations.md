@@ -302,7 +302,7 @@ Das Finanzelle Tool berechnet, was das im Gebäude verbaute Material wert ist. D
 * Aktueller Rohstoff-Restwert; dies ist der heutige Wert des Materials unter Berücksichtigung einer Reihe von Korrekturfaktoren.
 * Diskontierter Kapitalwert. Der Kapitalwert ist der heutige Wert, der vom Ende der Lebensdauer der Gebäudeschicht für die Materialien in jeder Schicht zurückgerechnet wird, wobei eine Reihe von Korrekturfaktoren, der Abzinsungssatz und die Materialwertentwicklung berücksichtigt werden.
 
-Der aktuelle Rohstoffrestwert für ein Bauwerk wird durch die Summe der jeweiligen Werte seiner Produkte berechnet. Wenn ein Produkt durch eine Stückliste definiert ist, werden die entsprechenden Produkte in der finanziellen Berechnung aufgeführt.
+Der aktuelle Rohstoffrestwert für ein Bauwerk wird durch die Summe der jeweiligen Werte seiner Produkte berechnet. Wenn ein Produkt durch eine Materialliste definiert ist, werden die entsprechenden Produkte in der finanziellen Berechnung aufgeführt.
 Aktueller Rohstoff-Restwert eines Produktes:
 
 

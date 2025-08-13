@@ -11,12 +11,12 @@ Produkte anlegen und pflegen
 ## Produktinformation - Allgemein
 
 Hier können produktspezifische Informationen eingegeben werden.
-Es gibt 2 Optionen für die Berechnung von Informationen auf der Grundlage der Stückliste. Nur wenn das Kontrollkästchen aktiviert ist, wird diese Registerkarte sichtbar gemacht. Das Kontrollkästchen für die Berechnung von Umweltwerten wird nur sichtbar, wenn das Kontrollkästchen für die Berechnung von Kreisläufen aktiviert ist:
+Es gibt 2 Optionen für die Berechnung von Informationen auf der Grundlage der Materialliste. Nur wenn das Kontrollkästchen aktiviert ist, wird diese Registerkarte sichtbar gemacht. Das Kontrollkästchen für die Berechnung der Umweltinformationen wird nur sichtbar, wenn das Kontrollkästchen für die Berechnung der Zirkularität aktiviert ist:
 ![Berechnen-aus-Stückliste](../../../assets/images/knowledgebase/calculatefrombom.png)
 
-### Keine Berechnung von Rundheitswerten aus der Stückliste
+### Keine Berechnung von Zirkularität aus der Materialliste
 
-  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Kreisförmigkeits- und Dichtewerte aus der Stückliste berechnen soll
+  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Zirkularität und Dichte aus der Materialliste berechnen soll
   * Area Composition ist sichtbar (Madaster und Madaster V2)
   * Drücken Sie <iconify-icon inline icon='mdi-plus-circle-outline' />, um die Madaster (V2) Materialfamilie hinzuzufügen. Wählen Sie aus der Auswahlliste die gewünschte Familie aus und fügen Sie den Prozentsatz hinzu (wie viel ein Produkt aus dieser Materialfamilie besteht).
   * Geben Sie die Informationen in kg/Maß ein. Das Maß hängt von der Produktart ab, die Sie zuvor ausgewählt haben:
@@ -28,21 +28,21 @@ Es gibt 2 Optionen für die Berechnung von Informationen auf der Grundlage der S
     - Energie (keine weiteren Angaben erforderlich)
   * Die Registerkarte für die Kreislaufwirtschaft muss mit den verfügbaren und benötigten Informationen ausgefüllt werden.
 
-### Berechnen Sie die Zirkularitätswerte aus der Stückliste
+### Berechnen der Zirkularität und Dichte auf Grundlage der Materialliste
 
-  * Wenn Sie möchten, dass Madaster die Zirkularitätswerte aus der <a href="" target="_blank">Stückliste</a> berechnet, dann markieren (klicken) Sie das Kästchen.
+  * Wenn Sie möchten, dass Madaster die Zirkularitätswerte aus der <a href="" target="_blank">Materialliste</a> berechnet, dann markieren (klicken) Sie das Kästchen.
   * Auf der Registerkarte für die Zirkularität sind nun einige Eingabefelder für Werte, die berechnet werden, deaktiviert. Die restlichen Felder können ausgefüllt werden, sofern Informationen verfügbar sind.
 
-### Umweltwerte aus der Materialliste berechnen
+### Berechnen der Umweltinformationen auf Grundlage der Materialliste
 
-  * Markieren Sie das Kästchen, wenn Sie möchten, dass Madaster die Umweltwerte aus der <a href="" target="_blank">Materialliste</a> berechnet.
-  * Um auf die Registerkarte "Stückliste" zu gelangen, muss ein Name eingegeben und das Produkt gespeichert werden.
-  * Wenn die Umweltwerte aus der Stückliste berechnet werden, muss die Registerkarte "Umwelt" nicht ausgefüllt werden.
+  * Markieren Sie das Kästchen, wenn Sie möchten, dass Madaster die Umweltinformationen aus der <a href="" target="_blank">Materialliste</a> berechnet.
+  * Um auf die Registerkarte "Materialliste" zu gelangen, muss ein Name eingegeben und das Produkt gespeichert werden.
+  * Wenn die Umweltinformationen aus der Materialliste berechnet werden, muss die Registerkarte "Umwelt" nicht ausgefüllt werden.
 
-### Keine Umweltwerte aus der Stückliste berechnen
+### KEINE Berechnung der Umweltinformationen auf Grundlage der Materialliste
 
-  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Umweltwerte aus der Stückliste berechnen soll.
-  * Wenn die Umweltwerte nicht aus der Stückliste berechnet werden, muss die Registerkarte Umwelt ausgefüllt werden.
+  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Umweltinformationen aus der Materialliste berechnen soll.
+  * Wenn die Umweltinformationen nicht aus der Materialliste berechnet werden, muss die Registerkarte "Umwelt" ausgefüllt werden.
 
 ## Skalierbarkeit
 
