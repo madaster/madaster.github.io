@@ -31,8 +31,8 @@ Users invited at folder-level will be given access to all sub-folders and projec
 
 |Folder level |Administrator |Manage & Contribute to database|Manager|Reader|Billing|
 |-|-|-|-|-|-|
-|Create folders and subfolders| Yes| No| No| No| No|
 |View folder and underlying buildings/folders| Yes| Yes| Yes| Yes| Yes|
+|Create folders and subfolders| Yes| No| No| No| No|
 |Modify folder and underlying buildings/folders| Yes| Yes| Yes| No| No|
 |Delete folder and underlying buildings/folders| Yes| No| No| No| No|
 |Add building to a folder (if foldertype allows building)| Yes| Yes| Yes| No| No|
@@ -48,7 +48,7 @@ Users invited at building-level will be given access to only the selected buildi
 
 |Building level|Administrator|Manage & Contribute to database|Manager|Reader|Billing|
 |-|-|-|-|-|-|
-|View building| Yes| Yes| Yes| No| No|
+|View building| Yes| Yes| Yes| Yes| No|
 |Modify building| Yes| Yes| Yes| No| No|
 |Delete building| Yes| No| No| No| No|
 |Add and remove users| Yes| No| No| No| No|
