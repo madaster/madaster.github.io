@@ -40,11 +40,6 @@ countries:
   
 title: Madaster Documentation
 
-whitelist:
-  - jekyll-last-modified-at
-plugins:
-  - jekyll-last-modified-at
-
 exclude:
   - node_modules
   - README.md
@@ -53,7 +48,7 @@ exclude:
   - generateSearchJSON.mjs
   - package.json
   - package-lock.json
-  
+
 defaults:
   -
     scope :
