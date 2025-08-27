@@ -21,7 +21,7 @@ In diesem Bereich können unter den Tabs **Allgemeines**, **Zertifizierungen**, 
 
 > Im Tab **Energie** lässt sich der Primärenergiebedarf [kWh/m²/a] eintragen. Zusätzlich können EPDs für die Phase B6 der LCA hinterlegt werden. Diese Daten werden anschließend im Tab **Umwelt** innerhalb der Phase B6 des gesamten Lebenszyklus angezeigt.
 
-- **Verschieben** | **Archivieren** | **Varianten** | **Übertragen**  - mehr Informationen dazu <a href="/at/de/knowledge-base/stay-organized.html#verwalten-von-objekten">hier</a>
+- **Verschieben** - **Archivieren** - **Varianten** - **Übertragen** - mehr Informationen dazu <a href="/at/de/knowledge-base/stay-organized.html#verwalten-von-objekten">hier</a>
 - **Löschen**
 - **Hochladen** von Quelldateien - mehr Informationen <a href="/at/de/get-started/set-up-objects.html#quelldatei-hochladen">hier</a>
 - **Erweitern** der Quelldatei. Diese Option ist nur verfügbar, wenn genau **eine** Quelldatei hinterlegt ist. - mehr Informationen <a href="/at/de/platform-pages/building/file-enrich">hier</a>
