@@ -10,6 +10,26 @@ Neben der <a href="/at/de/get-started/portfolio-insights-and-performance" target
 
 Gehen Sie dazu in das jeweilige Objekt und wählen Sie unter den folgenden Auswertungstabs.
 
+## Allgemeines
+
+Hier werden die allgemeinen Informationen über das Objekt angezeigt, wie die Adresse, Katasterdaten, Typ oder Bruttogesamtfläche.
+Darüber hinaus stehen folgende Funktionen zur Verfügung:
+
+- **Objekt bearbeiten**
+  
+In diesem Bereich können unter den Tabs **Allgemeines**, **Zertifizierungen**, **Energie** Informationen und **Bilder des Objekts hochgeladen** zusätzliche manuelle Informationen hinterlegt werden.
+
+> Im Tab **Energie** lässt sich der Primärenergiebedarf [kWh/m²/a] eintragen. Zusätzlich können EPDs für die Phase B6 der LCA hinterlegt werden. Diese Daten werden anschließend im Tab **Umwelt** innerhalb der Phase B6 des gesamten Lebenszyklus angezeigt.
+
+- **Verschieben** | **Archivieren** | **Varianten** | **Übertragen**  - mehr Informationen dazu <a href="/at/de/knowledge-base/stay-organized.html#verwalten-von-objekten">hier</a>
+- **Löschen**
+- **Hochladen** von Quelldateien - mehr Informationen <a href="/at/de/get-started/set-up-objects.html#quelldatei-hochladen">hier</a>
+- **Erweitern** der Quelldatei. Diese Option ist nur verfügbar, wenn genau **eine** Quelldatei hinterlegt ist. - mehr Informationen <a href="/at/de/platform-pages/building/file-enrich">hier</a>
+- **Neu berechnen**
+- **Bericht generieren** - mehr Informationen <a href="/at/de/get-started/create-material-passports" target="_blank">hier</a>
+- **Neue Datenbank** - mehr Informationen <a href="/at/de/get-started/create-your-own-databases-with-custom-materials-and-products" target="_blank">hier</a>
+
+
 ## Performance
 
 Die hier angezeigten KPI und Statistiken zu dem Objekt kann jeder Benutzer individuell für sich **anpassen**.
