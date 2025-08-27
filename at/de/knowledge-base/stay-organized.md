@@ -81,18 +81,6 @@ Bei Bedarf können Projekte archiviert werden.
 
 1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Archivieren** <iconify-icon inline icon='mdi-lock-plus'/>.
 2. Es wird ein Dropdown-Menü mit den folgenden Optionen angezeigt:
-    * **Objekt deaktivieren** <iconify-icon inline icon='mdi-lock-outline'/>
-    * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/>
-    * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/>
-
-<div style="margin-top: 40px;"> </div>
-
-### Objekte archivieren
-
-Bei Bedarf können Projekte archiviert werden.
-
-1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Archivieren** <iconify-icon inline icon='mdi-lock-plus'/>.
-2. Es wird ein Dropdown-Menü mit den folgenden Optionen angezeigt:
     * **Objekt deaktivieren** <iconify-icon inline icon='mdi-lock-outline'/> - Das Objekt ist vorübergehend pausiert und kann erst nach der Reaktivierung wieder bearbeitet werden.
     * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/> - Die Verknüpfungen zu den Produktdaten bleiben erhalten. Änderungen an den Produktdaten werden in den Gebäudedaten sichtbar, inklusive Benachrichtigung und Aufforderung zur Neuberechnung.
     * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/> - Eine vollständige Kopie aller Daten, einschließlich der Produktdaten zum Archivierungszeitpunkt, wird erstellt. Das Archiv bleibt von späteren Änderungen in den Datenbanken unberührt.
