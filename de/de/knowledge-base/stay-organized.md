@@ -22,7 +22,11 @@ Im Dossier der Objekt können Sie verfügbare Quelldateien hinzufügen, anzeigen
 
 Wählen Sie die Quelldatei aus, die Sie ändern, herunterladen oder löschen möchten. Rechts neben der Quelldatei wird eine Reihe von Symbolen angezeigt.
 
-Die Schaltfläche **Details anzeigen** <iconify-icon inline icon='mdi-arrow-right-circle-outline'/> gibt Ihnen einen Einblick in die Qualität der Quelldatei und ermöglicht Ihnen, die Datei manuell anzureichern und zu aktivieren/deaktivieren.
+Die Schaltfläche **Details anzeigen** <iconify-icon inline icon='mdi-arrow-right-circle-outline'/> führt zu den Details der Quelldatei und gibt Ihnen einen Einblick in die Qualität der Quelldatei und ermöglicht Ihnen, die Datei manuell anzureichern und zu aktivieren/deaktivieren.
+
+Ist man bei den Details der Quelldatei, kann man über die Schaltfläche **Datei in anderes Objekt übertragen**, die Quelldatei in andere Objekte und auch andere Accounts übertragen, sofern man die entsprechenden Berechtigungen in dem Account hat.
+
+Man kann auch eine Quelldatei als Excel exportieren, um dort zu bearbeiten und dann wieder auf Madaster zu laden. Hierfür geht man zu den Details der Quelldatei, und auf die Schaltfläche **Datei exportieren** und **Generieren**. Nachdem der Export generiert ist, kann man über die Schaltfläche **Datei exportieren** und **Herunterladen** die Datei herunterladen, bearbeiten und über die Schaltfläche **Datei importieren** wieder hochladen. So werden die Änderungen, die in dem Export vorgenommen wurden auf Madaster übernommen.
 
 Eine Quelldatei kann auch direkt über den **Schieberegler** <iconify-icon inline icon='mdi-toggle-switch'/> aktiviert oder deaktiviert und so in der Berechnung berücksichtigt oder von der Berechnung ausgeschlossen werden.
 
@@ -32,7 +36,7 @@ Die Schaltfläche **Erweitern** <iconify-icon inline icon='mdi-link-variant-plus
 
 Die Schaltfläche **Eine neue Version hinzufügen** <iconify-icon inline icon='mdi-upload-lock'/> dient zum Hochladen einer neuen Version einer bereits bearbeiteten/verknüpften Quelldatei. Dadurch bleibt die bisherige Bearbeitung erhalten und es werden nur neue, ergänzende Informationen aus dem Modell gezogen.
 
-Die Schaltfläche **Datei bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> ermöglicht es Ihnen 'Tags' Ihrer Quelldatei ändern.
+Die Schaltfläche **Datei bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> ermöglicht es Ihnen 'Tags' Ihrer Quelldatei ändern. Tags dienen zur Beschreibung des Inhalts der Quelldatei und erleichtern die Unterscheidung unterschiedlicher Dateien.
 
 Und schließlich können Sie bei Bedarf die hochgeladene **Datei löschen** <iconify-icon inline icon='mdi-delete-outline'/>.
 
@@ -68,9 +72,19 @@ Im Dossier gibt es zwei Möglichkeiten, Allgemeine Dokumente und Quelldateien zu
 
 ## Verwalten von Objekten
 
+### Objekte vergleichen
+In der Registerkarte **Umwelt** besteht die Möglichkeit, Objekte miteinander zu vergleichen. Nachdem Sie in der Menüleiste **Benchmark anpassen** <iconify-icon inline icon='mdi-vector-polyline-edit'/> klicken, haben Sie eine Auswahl zwischen folgenden Möglickeiten:
+1. **Keine**: Hiermit wird kein Vergleich durchgeführt.
+1. **Account**: Hier können Sie Ihr Objekt mit allen Objekten in Ihrem Account vergleichen.
+1. **Ordner**: Hier können Sie Ihr Objekt mit allen Objekten in Ihrem ausgewählten Ordner vergleichen.
+1. **Objekt**: Hier können Sie Ihr Objekt mit einem oder mehreren ausgewählten Objekten vergleichen.
+1. Zusätzlich zu den erläuterten Auswahlmöglichkeiten ist ein **Filter** gegen bestimmte Gebäudetypen setzbar. 
+
+> **Hinweis**: Der Filter ist nur dann anwendbar, wenn Sie Objekte dem auswählten Gebäudetyp zugeordnet haben. Ist bspw. für den Gebäudetyp *Büro- und Verwaltungsgebäude* kein Objekt in Ihrem Account/Ordner verfügbar, ist auch kein Vergleich möglich. Es wird in diesen Fällen **kein** generisches Gebäude für den Vergleich herangezogen.
+
 ### Objekte verschieben
 
-Bei Bedarf können Projekte von einem Ordner in einen anderen verschoben werden.
+Bei Bedarf können Projekte innerhalb eines Accounts von einem Ordner in einen anderen verschoben werden.
 
 1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Verschieben** <iconify-icon inline icon='mdi-swap-horizontal-circle'/>. Es wird eine Liste mit den verfügbaren Ordnern angezeigt.
 2. Wählen Sie den Ordner aus, in den Sie das Objekt verschieben möchten, und klicken Sie auf **Speichern**.
@@ -85,13 +99,26 @@ Bei Bedarf können Projekte archiviert werden.
     * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/>
     * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/>
 
+
+### Was ist ein (teil)archiviertes Gebäude?
+**Vollständig Archiviert (vollständiges Archiv):** Wenn ein Gebäude vollständig archiviert wird, dann wird eine Kopie des Gebäudes, zu dem Zeitpunkt der Archivierung erstellt. Das Original bleibt bestehen aber die Archivierung kann nicht Rückgangig gemacht werden. Alle verknüpften Produkte werden in einer neuen Datenbank (unter dem (Teil)Archiv zu finden) gespeichert und die KPIs sind zu dem Zeitpunkt der Archivierung eingefroren.
+Es werden nur aktive Dateien in das (Teil)Archiv übernommen, die jedoch nicht weiter bearbeitet werden können.
+Das Objekt wird im Abonnement als "Archiv" gezählt.
+
+**Teilweise Archiviert (Teilarchiv):** Wie ein vollständig archiviertes Gebäude, aber die verknüpften Produkte aus globalen Datenbanken (z.B. EPEA Generic, OEKOBAUDAT) werden nicht in der neuen Datenbank des Teil-Archives zusätzlich gespeichert. Das Objekt wird im Abonnement als "Archiv" gezählt.
+
+### Was ist ein deaktiviertes Gebäude?
+**Deaktiviertes Gebäude:** Wenn ein Gebäude deaktiviert wird, dann werden alle Berechnungen des Gebäudes zu dem Zeitpunkt der Deaktivierung pausiert. Es wird kein zweites Objekt erstellt aber die Deaktivierung kann Rückgängig gemacht werden.
+Auch inaktive Dateien gehen nicht verloren, können jedoch nicht mehr bearbeitet werden bis das Gebäude wieder aktiviert wurde.
+Das Objekt wird im Abonnement als "Archiv" gezählt.
+
 ### Objekte übertragen
 
-Sie können **ein vollständiges Archiv** des Objekts oder **ein Teilarchiv** des Objekts in einem anderen Account erstellen.
+Sie können eine Kopie, gemeinsam mit einem **vollständigen Archiv** des Objekts oder einem **Teilarchiv** des Objekts, in einen anderen Account übertragen. Objekte können nur von Administratoren übertragen werden.
 
 1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Übertragung** <iconify-icon inline icon='mdi-bank-transfer-out'/> und wählen Sie im Dropdown aus.
-2. **Erstellen Sie ein Teilarchiv des Objekts in einem anderen Account** <iconify-icon inline icon='mdi-lock-open-outline'/>. Das kopierte Objekt kann unter dem neuen Account bearbeitet werden und enthält eine Datenbank, die nur die (im ursprünglichen Objekt) verwendeten Materialien und Produkte aus nicht-globalen Datenbanken enthält.
-3. **Erstellen Sie ein vollständiges Archiv des Objekts in einem anderen Account**  <iconify-icon inline icon='mdi-lock-open'/>. Das kopierte Objekt kann unter dem neuen Account bearbeitet werden und enthält eine Datenbank mit allen (im ursprünglichen Objekt) verwendeten Materialien und Produkten.
+2. **Erstellen Sie ein Teilarchiv des Objekts in einem anderen Account** <iconify-icon inline icon='mdi-lock-open-outline'/>. Erstellt eine Kopie des Gebäudes sowie ein Teilarchiv, und überträgt diese in den gewünschten Account bzw. Ordner. Das Gebäude ist weiter bearbeitbar, das Teilarchiv nicht (siehe Teilarchiv). Varianten werden nicht übertragen. 
+3. **Erstellen Sie ein vollständiges Archiv des Objekts in einem anderen Account**  <iconify-icon inline icon='mdi-lock-open'/>. Erstellt eine Kopie des Gebäudes sowie ein vollständiges Archiv, und überträgt diese in den gewünschten Account bzw. Ordner. Das Gebäude ist weiter bearbeitbar, das Teilarchiv nicht (siehe vollständiges Archiv). Varianten werden nicht übertragen.
 
 ### Objekte splitten
 
