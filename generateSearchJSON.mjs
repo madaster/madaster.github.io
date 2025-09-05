@@ -43,6 +43,8 @@ async function createSearchFile(country, language) {
           const realstats = await fsa.lstat(realpath);
           if (realstats.isDirectory() === true) {
             await collectAllFiles(await fsa.readdir(realpath), realpath);
+          } else if (realstats.isFile()) {
+            pages.push(path);
           }
         } else if (stats.isDirectory() === true) {
           await collectAllFiles(await fsa.readdir(path), path);
