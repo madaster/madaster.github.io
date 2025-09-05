@@ -38,7 +38,13 @@ async function createSearchFile(country, language) {
       for (const file of fileDirectory) {
         const path = directoryPath + '/' + file;
         const stats = await fsa.lstat(path);
-        if (stats.isDirectory() === true || stats.isSymbolicLink()) {
+        if (stats.isSymbolicLink() === true) {
+          const realpath = await fsa.realpath(path);
+          const realstats = await fsa.lstat(realpath);
+          if (realstats.isDirectory() === true) {
+            await collectAllFiles(await fsa.readdir(realpath), realpath);
+          }
+        } else if (stats.isDirectory() === true) {
           await collectAllFiles(await fsa.readdir(path), path);
         } else if (stats.isFile()) {
           pages.push(path);
