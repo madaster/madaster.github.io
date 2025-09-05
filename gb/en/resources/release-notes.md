@@ -8,6 +8,54 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.7 ##
+
+* Build number: 35007
+* Release date: 29th of August 2025
+
+### Component databases ###
+
+It is now possible to base a product database on a verified database like Ökobaudat, EPEA or the Nationale Milieudatabase. It was already possible to add such a product to your bill of materials in a product, but now this functionality has been extended. First it is possible to select the source(s) you want to base your products on:
+
+<figure><img src="/assets/images/releasenotes/202507-12123-1.png" alt="Selecting source database(s) when creating a new database."><figcaption>Selecting source database(s) when creating a new database.</figcaption></figure>
+
+In such a database there is an option to add a component. This is also available in databases which are not based specificaly on another database:
+
+<figure><img src="/assets/images/releasenotes/202507-12123-2.png" alt="The add component button in the toolbar in a regular product database."><figcaption>The add component button in the toolbar in a regular product database.</figcaption></figure>
+
+A component works slightly different from a regular product. Material classifications, environmental and financial data are assumed to come from the BoM so these tabs have been removed:
+
+<figure><img src="/assets/images/releasenotes/202507-12123-3.png" alt="Tabs on a component product."><figcaption>Tabs on a component product.</figcaption></figure>
+
+It is also possible to add the classification on the products in the bill of materials.
+
+When using a product in this way the platform uses and shows the lowest level of the bill of materials for calculations. So, if for example an Ökobaudat product is used then in the environmental screen this Ökobaudat product is shown for the impacts.
+
+### Reference product ###
+
+It is now possible to add a product from another database as a reference product to the database of your choosing:
+
+<figure><img src="/assets/images/releasenotes/202507-12460-1.png" alt="Adding a product as a reference product to another database."><figcaption>Adding a product as a reference product to another database.</figcaption></figure>
+
+This gives the opportunity to use another product and tweak it to your own use. This can also be done from the enrichment:
+
+<figure><img src="/assets/images/releasenotes/202507-12460-2.png" alt="Adding a reference product from enrichment."><figcaption>Adding a reference product from enrichment.</figcaption></figure>
+
+### CRREM Update ###
+
+The CRREM feature has been updated with the latest version of the template as supplied by CRREM so that is now possible to report over 2024. Also changed is:
+
+* It is now possible to set a starting month:
+
+<figure><img src="/assets/images/releasenotes/202507-12302-1.png" alt="Setting up the starting month for CRREM."><figcaption>Setting up the starting month for CRREM.</figcaption></figure>
+
+* Historical data is now saved, so information from earlier years stays visible in the platform. In the CRREM report that is generated the latest data is used.
+
+### Country specific ###
+
+* Ecobau benchmarks are added to the passport
+* The RICS report and RICS classification have been changed due to customer findings
+
 ## Release notes 2025.6 ##
 
 * Build number: 34594
