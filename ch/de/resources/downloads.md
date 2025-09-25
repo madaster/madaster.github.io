@@ -36,6 +36,6 @@ menubar: resources-nav
 <a href="/files/ch/de/2024_Madaster CH_Archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD. 
 
 ### Revit
-<a href="/files/ch/de/2024_Madaster CH_Revit.zip" target="_blank">ZIP-Ordner Revit (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
+<a href="/files/ch/de/2025-07-18 madaster CH_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand 18.07.2025)</a> und <a href="/files/ch/de/2025-07-18 madaster CH_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand 18.07.2025)</a>- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
 
 

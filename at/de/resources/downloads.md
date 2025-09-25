@@ -41,12 +41,20 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 ### Allplan
 <a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan.
 
-
 ### ArchiCAD
-<a href="/files/at/20241211_madaster_archicad.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD.
+<a href="/files/at/2025-09-23 madaster AT_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand: 23.09.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD:
+<ul>
+    <li>20250923_02_Archicad common propertyfile_madaster_en</li>
+    <li>20241211_01_madaster_archicad Classification ÖNORM B 1801-1_2022</li>
+</ul>
 
 ### Revit
-<a href="/files/at/20241211_madaster_revit.zip" target="_blank">ZIP-Ordner Revit (Stand: 11.12.2024)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit.
+<a href="/files/at/2025-07-18 madaster AT_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand: 18.07.2025)</a> und <a href="/files/at/2025-07-18 madaster AT_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand: 18.07.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:
+<ul>
+    <li>250718_01_Revit shared parameter file_Madaster</li>
+    <li>250718_02_User Defined cPropertySet_Madaster_en</li>
+    <li>IFC-Konfiguration Revit - Madaster Export</li>
+</ul>
 
 ### Excel
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2009</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.

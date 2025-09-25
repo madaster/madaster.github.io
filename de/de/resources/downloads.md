@@ -39,8 +39,8 @@ menubar: resources-nav
 * Revit_Baugruppenkennzeichen-nach-DIN276-V3
 
 ### ArchiCAD
-<a href="/files/de/2024-10-14 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD </a> (Stand 14.10.2024)- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD
-* 01_Archicad propertyfile
+<a href="/files/de/2025-09-23 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD </a> (Stand 23.09.2025)- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD
+* 20250923_02_Archicad common propertyfile_madaster_en
 * Madaster_Archicad Classification DIN 276_2018-12
 
 ## Excel
