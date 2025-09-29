@@ -8,6 +8,46 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.8 ##
+
+* Build number: 35409
+* Release date: 27th of September 2025
+
+### Edit quantities of elements ###
+
+There are now two options to edit the quantities (volume, area, length, weight etc.) of the elements in an object
+
+1. **Via the source file Excel export**
+    
+    Click on the source file in the dossier, select "file export", and generate the Excel file. Download it, correct the values, then click on "file import" and upload the Excel file.
+<figure><img src="/assets/images/releasenotes/202508-150937.png" alt="How to use the source file Excel export."><figcaption>How to use the source file Excel export.</figcaption></figure>
+
+2. **Via the enrichment**
+   
+    Check the box of the element and click on the pen icon below. Change the values at the bottom of the pop-up window and confirm.
+<figure><img src="/assets/images/releasenotes/202508-103055.png" alt="Change quantities in the Enrichment."><figcaption>Change quantities in the Enrichment.</figcaption></figure>
+
+### Update Performance tab ###
+
+The settings and presentation of targets and comparisons in the Performance tab have changed.
+
+Instead of percentages, the plain values of the KPIs are now shown. Colour codes in red or green support intuitive understanding, indicating, for example, whether the object has achieved the target or exceeded the benchmark.
+
+To improve usability, the handling has also changed. The "Edit layout" button has been moved from the profile settings to the top line of the tab and is now combined with the Data settings, where targets can be set.
+
+<figure><img src="/assets/images/releasenotes/202508-123810-1.png" alt="New layout and editing option of the Performance Tab."><figcaption>New layout and editing option of the Performance Tab.</figcaption></figure>
+<figure><img src="/assets/images/releasenotes/202508-123810-2.png" alt="Editing the layout and setting targets."><figcaption>Editing the layout and setting targets.</figcaption></figure>
+
+This change also means that the option to set this up as a user has been removed. These settings will now apply on either account, folder or object.
+
+### Update Components ###
+
+Components are now tagged as such, making them distinguishable from standard products. It is also possible to filter for components within a database.
+
+<figure><img src="/assets/images/releasenotes/202508-122118.png" alt="Distinguish components of products."><figcaption>Distinguish components of products.</figcaption></figure>
+
+In addition, when editing the products in the Bill of Materials of a component, the lifespan of the various products can be adjusted to correspond with the overall lifespan of the component.
+
 ## Release notes 2025.7 ##
 
 * Build number: 35007
