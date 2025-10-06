@@ -191,14 +191,11 @@ $$
 
 ## Detachability
 
-The Detachability Index at the building level is calculated according to a methodology described by the <a href="https://www.dgbc.nl/upload/files/Publicaties/circulariteit/DGBC%20Disassembly%20Potential%20Measurement%20Methodology%20_%202022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a>. Within Madaster, the calculation is made on all elements linked to products. Detachability information can be defined for a product in the database, if its installation is constantly the same, however the detachability information can still be overwritten in the Enrichment Tab for individual elements.
-
+The Detachability Index at the building level is calculated according to a methodology described by the <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v2-0/" target="_blank">Dutch Green Building Council (DGBC)</a>. Within Madaster, the calculation is made on all elements linked to products. Detachability information can be defined for a product in the database, if its installation is constantly the same, however the detachability information can still be overwritten in the Enrichment Tab for individual elements.
 
 In short, the Detachability Index assesses building components based on the following criteria and scoring:
 
-#### Connection type
-
-||
+| Connection type |
 |-|
 |Dry connection|
 |Connection with added elements|
@@ -206,9 +203,7 @@ In short, the Detachability Index assesses building components based on the foll
 |Soft chemical compound|
 |Hard chemical compound|
 
-#### Accessibility of the connection
-
-| |
+| Accessibility of the connection |
 |-|
 | Freely accessible without additional actions |
 | Accessible with additional actions that do not cause damage |
@@ -216,21 +211,18 @@ In short, the Detachability Index assesses building components based on the foll
 | Accessible with additional operations with partially repairable damage |
 | Not accessible - irreparable damage to the product or surrounding products |
 
-#### Intersections
-
-| |
+| Intersections |
 |-|
 | No intersections - modular zoning of products or elements from different layers |
 | Occasional intersections of products or elements from different layers |
 | Full integration of products or elements from different layers |
 
-#### Product edges inclusion
-
-| |
+| Product edges inclusion |
 |-|
 | Open, no obstacle to the (intermediate) removal of products or elements |
 | Overlap, partial obstruction to (intermediate) removal of products or elements |
 | Closed, complete obstruction to (intermediate) removal of products or elements |
+
 
 ## Environmental
 
