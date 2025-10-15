@@ -129,7 +129,7 @@ Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und 
 ### Welche Informationen füllt Madaster automatisiert im DGNB-Gebäuderessourcenpass aus?
 Inhaltlich umfasst der Gebäuderessourcenpass sechs übergeordnete Bereiche mit insgesamt 25 Teilaspekten, die entweder verpflichtend oder optional anzugeben sind. 
 
-> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, o.ä., kann die Plattform diese nicht in den GRP exportieren.
+> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
 
 #### Allgemeines
 1. Projektinformationen
