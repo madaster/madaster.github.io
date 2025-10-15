@@ -126,6 +126,38 @@ Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und 
 3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **Dossier** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
 
+### Welche Informationen füllt Madaster automatisiert im DGNB-Gebäuderessourcenpass aus?
+Inhaltlich umfasst der Gebäuderessourcenpass sechs übergeordnete Bereiche mit insgesamt 25 Teilaspekten, die entweder verpflichtend oder optional anzugeben sind. 
+
+> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
+
+#### Allgemeines
+1. Projektinformationen
+
+#### Bereich: Gebäudeinformationen und Gebäudemasse
+1. Standort und Baujahr
+1. Art der Bauweise
+1. Typ/Anlass: Bestandserhalt oder Neubau
+1. Gesamtmasse des Gebäudes
+1. Flächengewichtete Gesamtmasse des Gebäudes
+1. Umfang dokumentierter Masse
+1. Datenbasis, Datenbank
+
+#### Bereich: Materialität, Materialherkunft und Bau- und Abbruchabfälle
+1. Materialität des Bauwerks
+1. Monetärer Materialwert
+1. Materialherkunft – Umgesetzte Kreislaufführung
+1. Bau- und Abbruchabfälle der Baumaßnahme
+
+#### Bereich: Umweltwirkungen über den Lebenszyklus
+1. Umweltwirkungen über den Lebenszyklus
+
+#### Demontagefähigkeit, Materialverwertungspotenzial und Zirkularitätsbewertung
+1. Materialverwertung
+1. Monetäre Restwerte
+
+Mit diesen genannten Informationen wird dann automatisch eine Übersicht für den reduzierten und vollständigen Gebäuderessourcenpass in der Excel ausgefüllt.
+
 Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="_blank">www.dgnb.de</a>.
 
 *Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
