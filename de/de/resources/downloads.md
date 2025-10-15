@@ -21,7 +21,7 @@ menubar: resources-nav
 
 <a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch</a> (Stand 25.11.2024) - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM (Revit, ArchiCAD, AllPlan).
 
-<a href="/files/de/Madaster BIM IFC Richtlinien_August 2023.pdf" target="_blank">Madaster BIM/IFC-Richtlinien</a> (Stand 06.08.2023) - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
+<a href="/files/de/Madaster BIM IFC Richtlinien_Oktober 2025.pdf" target="_blank">Madaster BIM/IFC-Richtlinien</a> (Stand 15.10.2025) - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 
 <a href="/files/de/BIM Basis Informations-Lieferungs-Handbuch_2024.pdf" target="_blank">BIM Basis Informations-Lieferungs-Handbuch</a> (Stand 2024) - Beinhaltet interessante allgemeine Informationen über BIM.
 
