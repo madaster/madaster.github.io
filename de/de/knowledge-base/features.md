@@ -169,8 +169,10 @@ Der **ESG-Tab** (Environmental, Social & Governance) kann kostenfrei für einen 
 
 Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
 
+* <a href="../knowledge-base/features#eu-taxonomie" target="_blank">EU-Taxonomie</a>
 * <a href="../knowledge-base/features#crrem-carbon-rist-real-estate-monitor" target="_blank">CRREM</a>
 * <a href="../knowledge-base/features#levels" target="_blank">Level(s)</a>
+* <a href="../knowledge-base/features#qng" target="_blank">QGN</a>
 * <a href="../knowledge-base/features#dgnb" target="_blank">DGNB</a>
 
 ## Infrastruktur*
@@ -270,3 +272,6 @@ Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.
 5. Nach dem Abschluss aller Angaben, klicken Sie auf **Speichern**.
 6. Nachdem die getätigten Informationen automatisch berechnet wurden, können Sie die Auswertungen und Benchmarks der Lebenszyklusanalyse (LCA) im Tab **Umwelt** oder im Tab **Reporting** unter **QNG** einsehen.
 7. Wenn Sie Ihre Angaben überprüfen oder verändern möchten, können Sie diese im Tab **Energie** oder im Tab **Allgemeines** unter **Objekt bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> anpassen.
+
+> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
+Für eine Berechnung von Umweltindikatoren während der LCA-Phase D2 muss im Tab **Allgemeines** unter **Energie** die Menge von "Exportiertem Strom" definier werden.
