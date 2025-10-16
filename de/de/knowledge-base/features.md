@@ -54,7 +54,7 @@ Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht w
 
 Das CRREM-Tool wurde entwickelt, um die Kohlenstoffemissionen eines Gebäudes während seines Betriebs zu berechnen. Dieses extern entwickelte Tool wurde auf der Madaster-Plattform integriert, um die Betriebsdaten einzelner Gebäude aber auch ganzer Portfolios auswerten zu können.
 
-Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsart ausgewählt werden. Über die Schaltfläche **Einstellungen anzeigen** <iconify-icon inline icon='mdi-cog-outline'/> können Sie die Daten zu den Gebäudeeigenschaften, dem Energiebezug, den flüchtigen Emissionen und den erneuerbaren Energien im Tab **Input** eingeben und für die Verarbeitung **Speichern**.
+Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden. Über die Schaltfläche **Einstellungen anzeigen** <iconify-icon inline icon='mdi-cog-outline'/> können Sie die Daten zu den Gebäudeeigenschaften, dem Energiebezug, den flüchtigen Emissionen und den erneuerbaren Energien im Tab **Input** eingeben und für die Verarbeitung **Speichern**.
 
 Diese Daten werden mit einem globalen Erwärmungsziel bzw. einem Standardwert kombiniert
 * Emissionsfaktor für Elektrizität
@@ -76,7 +76,7 @@ Weitere Informationen zum CRREM-Tool finden Sie unter <a href="https://www.crrem
 
 Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
 
-> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">ESG-Tab</a> aktiviert ist, um Zugriff auf das dort integrierte CRREM-Tool zu haben.
+> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf das dort integrierte CRREM-Tool zu haben.
 
 ## Datenbank Import/Export*
 
@@ -95,7 +95,7 @@ Sofern Produktdaten in Datenbanken nicht über eine Schnittstellenanbindung eing
 
 ## DGNB*
 
-Der Kriterienkatalog „Gebäude Neubau“ in der Version 2023 umfasst eine Vielzahl von Parametern und Indikatoren, die für eine Zertifizierung erfasst und berichtet werden müssen. Bereits auf Madaster erfasste Daten können aus der Plattform ausgelesen und weitergegeben werden, um in passenden Teilbereichen für die DGNB-Zertifizierung oder im Berichtsprozess genutzt zu werden. 
+Der Kriterienkatalog **Gebäude Neubau** in der Version 2023 umfasst eine Vielzahl von Parametern und Indikatoren, die für eine Zertifizierung erfasst und berichtet werden müssen. Bereits auf Madaster erfasste Daten können aus der Plattform ausgelesen und weitergegeben werden, um in passenden Teilbereichen für die DGNB-Zertifizierung oder im Berichtsprozess genutzt zu werden. 
 
 Die DGNB unterscheidet in ihrem System in folgende Nutzungsprofile:
 
@@ -111,7 +111,7 @@ Die DGNB unterscheidet in ihrem System in folgende Nutzungsprofile:
 * Versammlungsstätten
 * Wohngebäude 
 
-Derzeit kann Madaster Sie im Zertifizierungsprozess in den folgenden Teilbereichen unterstützen:
+Auf **Objektebene** kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.Derzeit kann Madaster Sie im Zertifizierungsprozess in den folgenden Teilbereichen unterstützen:
 
 ### ENV 1.1 – Klimaschutz und Energie
 
@@ -121,7 +121,7 @@ Diese sind auf die Bilanzierungsregeln der DGNB abgestimmt und können somit zu 
 ### TEC 1.6 - Zirkuläres Bauen
 Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und ohne Rückbau unterschieden. Die Bewertung basiert auf der Integration von Rückbaupotenzialen und zirkulären Konzepten bereits in der Planungsphase. In der Ausführungsphase werden Punkte für den Einsatz zirkulärer Produkte und Bauteile, sowie für die Dokumentation durch Produkt- oder Materialpässe vergeben. Eine umfassende Dokumentation in einem digitalen Gebäuderessourcenpass und hohe „Zirkularitätsquoten“ tragen ebenfalls zur Bewertung bei. Es werden Bonuspunkte für Gebäude vergeben, die überwiegend für die Kreislaufwirtschaft konzipiert.
 
-1. Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsart ausgewählt werden.
+1. Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Gebäuderessourcenpass generieren** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
 3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **Dossier** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
@@ -129,7 +129,7 @@ Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und 
 ### Welche Informationen füllt Madaster automatisiert im DGNB-Gebäuderessourcenpass aus?
 Inhaltlich umfasst der Gebäuderessourcenpass sechs übergeordnete Bereiche mit insgesamt 25 Teilaspekten, die entweder verpflichtend oder optional anzugeben sind. 
 
-> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
+> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, o.ä., kann die Plattform diese nicht in den GRP exportieren.
 
 #### Allgemeines
 1. Projektinformationen
@@ -163,9 +163,9 @@ Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="
 
 *Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
 
-## ESG
+## Reporting
 
-Der **ESG-Tab** (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
+Der **Reporting -Tab** bzw. ESG (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
 
 Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
 
@@ -196,7 +196,7 @@ Level(s) verwendet Basisindikatoren zur Nachhaltigkeit, die im und vom Bausektor
 |2.|Ressourceneffiziente Stoffkreisläufe|2.2|Bau- und Abbruchabfälle und -materialien|
 |2.|Ressourceneffiziente Stoffkreisläufe|2.4|Entwurf für den Rückbau|
 
-1. Auf Objektebene kann im Tab **ESG** im Dropdown diese Berichtsart ausgewählt werden.
+1. Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Bericht generieren für Indikator *XY*** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
 3. Nach Fertigstellung steht Ihnen der Bericht im **Dossier** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
@@ -205,7 +205,7 @@ Weitere Informationen zu Level(s) finden Sie bei der <a href="https://environmen
 
 *Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
 
-> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">ESG-Tab</a> aktiviert ist, um Zugriff auf die dort integrierten Level(s)-Berichte zu haben.
+> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf die dort integrierten Level(s)-Berichte zu haben.
 
 ## Objekt teilen
 
