@@ -32,11 +32,12 @@ menubar: resources-nav
 * MadasterPropertyMapping
 
 ### Revit
-<a href="/files/de/2025-07-18 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2025-07-18 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 18.07.2025) - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit
-* 250718_01_Revit shared parameter file_Madaster
-* 250718_02_User Defined cPropertySet_Madaster
+<a href="/files/de/2025-09-22 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2025-09-22 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 22.09.2025) - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit
+* 250922_01_Revit shared parameter file_Madaster
+* 250922_02_User Defined cPropertySet_Madaster
 * IFC-Konfiguration Revit - Madaster Export
 * Revit_Baugruppenkennzeichen-nach-DIN276-V3
+
 
 ### ArchiCAD
 <a href="/files/de/2025-09-23 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD </a> (Stand 23.09.2025)- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD
