@@ -50,7 +50,7 @@ Madaster bietet die Möglichkeit, verschiedene Voreinstellungen für Quelldatei-
 2. Geben Sie einen Namen für Ihre Voreinstellung ein. Wählen Sie die Klassifizierungsmethode, die in der Quelldatei verwendet wird.
 3. Wählen Sie Ihre bevorzugte Klassifizierungsmethode.
 4. Sie können nun eingeben, welche PropertySets und Eigenschaftsnamen in Ihren Modellen für Objektnummer, Phase, Klassifizierungscodes, GTIN, Wiederverwendungsanteil und Materialbeschreibungen verwendet werden.
-5. Datenquellen und Prioritäten können ausgewählt werden. Klicken Sie zum Auswählen auf das + bei den verfügbaren Quellen. Durch Ziehen und Ablegen können Sie die Reihenfolge festlegen, in der die Datenquellen nach Übereinstimmungen durchsucht werden sollen.
+5. Datenquellen und Prioritäten können ausgewählt werden. Klicken Sie zum Auswählen auf das + bei den verfügbaren Quellen. Durch Ziehen und Ablegen können Sie die Reihenfolge festlegen, in der die Datenquellen nach übereinstimmungen durchsucht werden sollen.
 6. Um die Suchkriterien zu erweitern, können Sprachen ausgewählt werden, wenn sie für die ausgewählte Datenquelle relevant sind. Wenn eine Sprache ausgewählt ist, wird sie beim Abgleich der Daten aus der Datenbank mit den Daten der Quelldatei berücksichtigt.
 
 ## Organisieren allgemeiner Dokumente
@@ -75,50 +75,47 @@ Im Dossier gibt es zwei Möglichkeiten, Allgemeine Dokumente und Quelldateien zu
 ### Objekte vergleichen
 In der Registerkarte **Umwelt** besteht die Möglichkeit, Objekte miteinander zu vergleichen. Nachdem Sie in der Menüleiste **Benchmark anpassen** <iconify-icon inline icon='mdi-vector-polyline-edit'/> klicken, haben Sie eine Auswahl zwischen folgenden Möglickeiten:
 1. **Keine**: Hiermit wird kein Vergleich durchgeführt.
-1. **Account**: Hier können Sie Ihr Objekt mit allen Objekten in Ihrem Account vergleichen.
-1. **Ordner**: Hier können Sie Ihr Objekt mit allen Objekten in Ihrem ausgewählten Ordner vergleichen.
+1. **Account**: Hier können Sie Ihr Objekt mit allen anderen Objekten in Ihrem Account vergleichen.
+1. **Ordner**: Hier können Sie Ihr Objekt mit allen anderen Objekten in Ihrem ausgewählten Ordner vergleichen.
 1. **Objekt**: Hier können Sie Ihr Objekt mit einem oder mehreren ausgewählten Objekten vergleichen.
 1. Zusätzlich zu den erläuterten Auswahlmöglichkeiten ist ein **Filter** gegen bestimmte Gebäudetypen setzbar. 
 
 > **Hinweis**: Der Filter ist nur dann anwendbar, wenn Sie Objekte dem auswählten Gebäudetyp zugeordnet haben. Ist bspw. für den Gebäudetyp *Büro- und Verwaltungsgebäude* kein Objekt in Ihrem Account/Ordner verfügbar, ist auch kein Vergleich möglich. Es wird in diesen Fällen **kein** generisches Gebäude für den Vergleich herangezogen.
 
+### Objekte archivieren
+1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Archivieren** <iconify-icon inline icon='mdi-lock-plus'/>.
+2. Es wird ein Dropdown-Menü mit den folgenden Optionen angezeigt:
+    * **Objekt deaktivieren** <iconify-icon inline icon='mdi-lock-outline'/>
+    * **Teilarchiv** <iconify-icon inline icon='mdi-lock-outline'/>
+    * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/>
+
+### Was ist ein (teil)archiviertes Objekt?
+**Vollständiges Archiv:** Ein Vollständiges Archiv stellt den vollständigen Abschlusszustand eines Objekts dar – einen „Stand der Dinge” zu einem bestimmten Zeitpunkt. Dabei wird eine vollständige Kopie des gesamten Objekts inklusive aller Elemente, aktive Dateien und verknüpften Produkte erstellt. Dieses Archiv bleibt unverändert und stellt somit einen gesicherten Zustand dar, der nicht nachträglich verändert werden kann. Das Objekt wird im Abonnement als **Archiv** gezählt.
+
+**Teilarchiv:** Im Rahmen einer Teilarchivierung wird eine Kopie aller verknüpften Produkte erstellt, die nicht aus globalen Datenbanken (erkennbar am blauen Haken) stammen. Die Verlinkung zu offiziellen, geprüften Datenquellen wie der Ökobaudat bleibt jedoch bestehen. Das bedeutet: Wenn sich Daten in diesen externen Quellen ändern, erhalten Sie eine Benachrichtigung und können Ihr Objekt entsprechend neu berechnen. Zur Sicherheit werden die privat erfassten Produkte dennoch lokal kopiert.
+
+### Was ist ein deaktiviertes Objekt?
+**Deaktiviertes Gebäude:** Wenn ein Objekt deaktiviert wird, dann werden alle Berechnungen des Objekt zu dem Zeitpunkt der Deaktivierung pausiert. Es wird kein zweites Objekt erstellt aber die Deaktivierung kann rückgängig gemacht werden.
+Auch inaktive Dateien gehen nicht verlohren, können jedoch nicht mehr bearbeitet werden bis das Objekt wieder aktiviert wurde.
+Das Objekt wird im Abonnement als **Archiv** gezählt.
+
 ### Objekte verschieben
 
-Bei Bedarf können Projekte innerhalb eines Accounts von einem Ordner in einen anderen verschoben werden.
+Bei Bedarf können Projekte **innerhalb eines Accounts** von einem Ordner in einen anderen **verschoben** werden.
 
 1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Verschieben** <iconify-icon inline icon='mdi-swap-horizontal-circle'/>. Es wird eine Liste mit den verfügbaren Ordnern angezeigt.
 2. Wählen Sie den Ordner aus, in den Sie das Objekt verschieben möchten, und klicken Sie auf **Speichern**.
 
-### Objekte archivieren
-
-Bei Bedarf können Projekte archiviert werden.
-
-1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Archivieren** <iconify-icon inline icon='mdi-lock-plus'/>.
-2. Es wird ein Dropdown-Menü mit den folgenden Optionen angezeigt:
-    * **Objekt deaktivieren** <iconify-icon inline icon='mdi-lock-outline'/>
-    * **Teilarchivierung** <iconify-icon inline icon='mdi-lock-outline'/>
-    * **Vollständiges Archiv** <iconify-icon inline icon='mdi-lock'/>
-
-
-### Was ist ein (teil)archiviertes Gebäude?
-**Vollständig Archiviert (vollständiges Archiv):** Wenn ein Gebäude vollständig archiviert wird, dann wird eine Kopie des Gebäudes, zu dem Zeitpunkt der Archivierung erstellt. Das Original bleibt bestehen aber die Archivierung kann nicht Rückgangig gemacht werden. Alle verknüpften Produkte werden in einer neuen Datenbank (unter dem (Teil)Archiv zu finden) gespeichert und die KPIs sind zu dem Zeitpunkt der Archivierung eingefroren.
-Es werden nur aktive Dateien in das (Teil)Archiv übernommen, die jedoch nicht weiter bearbeitet werden können.
-Das Objekt wird im Abonnement als "Archiv" gezählt.
-
-**Teilweise Archiviert (Teilarchiv):** Wie ein vollständig archiviertes Gebäude, aber die verknüpften Produkte aus globalen Datenbanken (z.B. EPEA Generic, OEKOBAUDAT) werden nicht in der neuen Datenbank des Teil-Archives zusätzlich gespeichert. Das Objekt wird im Abonnement als "Archiv" gezählt.
-
-### Was ist ein deaktiviertes Gebäude?
-**Deaktiviertes Gebäude:** Wenn ein Gebäude deaktiviert wird, dann werden alle Berechnungen des Gebäudes zu dem Zeitpunkt der Deaktivierung pausiert. Es wird kein zweites Objekt erstellt aber die Deaktivierung kann Rückgängig gemacht werden.
-Auch inaktive Dateien gehen nicht verloren, können jedoch nicht mehr bearbeitet werden bis das Gebäude wieder aktiviert wurde.
-Das Objekt wird im Abonnement als "Archiv" gezählt.
-
 ### Objekte übertragen
 
-Sie können eine Kopie, gemeinsam mit einem **vollständigen Archiv** des Objekts oder einem **Teilarchiv** des Objekts, in einen anderen Account übertragen. Objekte können nur von Administratoren übertragen werden.
+Sie können eine Objektkopie **in einen anderen Account übertragen**. Objekte können nur von Benutzern übertragen werden, die im Ursprungsaccount **Administrator**-Rechte und im Zielaccount mindestens Rechte zum **Objekt übertragen** haben. 
+Es wird lediglich eine Kopie in den Zielaccount übertragen, dabei werden Varianten nicht mitkopiert – das Originalobjekt bleibt im Ursprungsaccount erhalten und ist weiterhin bearbeitbar.
+Inaktive Quelldateien, Varianten, Allgemeine Dateien, Externe Links oder erstellte Berichte (z.B. Materialpässe) werden nicht übernommen, aber Materialpässe können beim Übertragen neu im Zielordner erstellt werden.
 
-1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Übertragung** <iconify-icon inline icon='mdi-bank-transfer-out'/> und wählen Sie im Dropdown aus.
-2. **Erstellen Sie ein Teilarchiv des Objekts in einem anderen Account** <iconify-icon inline icon='mdi-lock-open-outline'/>. Erstellt eine Kopie des Gebäudes sowie ein Teilarchiv, und überträgt diese in den gewünschten Account bzw. Ordner. Das Gebäude ist weiter bearbeitbar, das Teilarchiv nicht (siehe Teilarchiv). Varianten werden nicht übertragen. 
-3. **Erstellen Sie ein vollständiges Archiv des Objekts in einem anderen Account**  <iconify-icon inline icon='mdi-lock-open'/>. Erstellt eine Kopie des Gebäudes sowie ein vollständiges Archiv, und überträgt diese in den gewünschten Account bzw. Ordner. Das Gebäude ist weiter bearbeitbar, das Teilarchiv nicht (siehe vollständiges Archiv). Varianten werden nicht übertragen.
+1. Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Übertragen** <iconify-icon inline icon='mdi-bank-transfer-out'/> und wählen Sie im Dropdown aus.
+    * **Objektkopie und Kopie der eigenen Produktdatensätze erstellen:** <iconify-icon inline icon='mdi-lock-open-outline'/> Erstellt eine Kopie des Objekts. Zusätzlich werden alle verknüpften Produkte, die nicht aus globalen Datenbanken (erkennbar am blauen Haken) stammen, in einer neuen Datenbank im Zielaccount gespeichert (vergleichbar mit Teil-Archiv).
+    * **Objektkopie und Kopie aller verknüpften Produktdatensätze erstellen:**  <iconify-icon inline icon='mdi-lock-open'/> Erstellt eine Kopie des Objekts sowie aller verknüpften Produktdatensätze, unabhängig von ihrer Herkunft. Diese werden vollständig in einer neuen Datenbank im Zielaccount gespeichert (vergleichbar mit vollständigem Archiv)
+2. Wählen Sie den gewünschten Zielaccount und -ordner aus, in den das Objekt übertragen werden soll.
 
 ### Objekte splitten
 
@@ -128,6 +125,8 @@ Klicken Sie im Tab **Allgemeines** des gewünschten Objekts auf **Objekt splitte
 
 ### Varianten erstellen
 
-Die Schaltfläche **Variante** <iconify-icon inline icon='mdi-pencil-ruler-outline'/> im Tab **Allgemeines** auf Objektebene ermöglicht es Ihnen, ein Objekt zu duplizieren und die erstellte Variante in Madaster anzupassen (d.h. andere Materialien/Produkte mit IFC-Elementen zu verknüpfen) und die Auswirkungen der verschiedenen Auswertungen auf der Plattform zu sehen. Pro Objekt können bis zu 3 Varianten hinzugefügt werden. Jede Variante wird im Navigationsbaum auf der linken Seite unterhalb des ursprünglichen Objekts angezeigt. Varianten können keine Untervarianten enthalten und können nicht verschoben, archiviert oder auf ein anderen Account übertragen werden. Dazu müssen Sie diese zuvor **Zur Hauptversion machen** <iconify-icon inline icon='mdi-pencil-ruler-outline'/>.
+Die Schaltfläche **Variante** <iconify-icon inline icon='mdi-pencil-ruler-outline'/> im Tab **Allgemeines** auf Objektebene ermöglicht es Ihnen, ein Objekt zu duplizieren und die erstellte Variante in Madaster anzupassen (d.h. andere Materialien/Produkte mit IFC-Elementen zu verknüpfen) und die Auswirkungen der verschiedenen Auswertungen auf der Plattform zu sehen. Pro Objekt können kostenlos bis zu 3 Varianten hinzugefügt werden. Jede Variante wird im Navigationsbaum auf der linken Seite unterhalb des ursprünglichen Objekts angezeigt. Varianten können keine Untervarianten enthalten und können nicht verschoben, archiviert oder auf ein anderen Account übertragen werden. Dazu müssen Sie diese zuvor **Zur Hauptversion machen** <iconify-icon inline icon='mdi-pencil-ruler-outline'/>.
 
 > Bei der Erstellung von Varianten werden nur **aktive** Quelldateien dupliziert. Achten Sie daher vor der Erstellung darauf, welche Quelldatei(en) Sie aktiviert haben.  
+
+
