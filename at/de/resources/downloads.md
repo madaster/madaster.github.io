@@ -49,10 +49,10 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
 </ul>
 
 ### Revit
-<a href="/files/at/2025-07-18 madaster AT_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand: 18.07.2025)</a> und <a href="/files/at/2025-07-18 madaster AT_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand: 18.07.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:
+<a href="/files/de/2025-09-22 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand: 22.09.2025)</a> und <a href="/files/de/2025-09-22 madaster_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand: 22.09.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit:
 <ul>
-    <li>250718_01_Revit shared parameter file_Madaster</li>
-    <li>250718_02_User Defined cPropertySet_Madaster_en</li>
+    <li>250922_01_Revit shared parameter file_Madaster</li>
+    <li>250922_02_User Defined cPropertySet_Madaster_en</li>
     <li>IFC-Konfiguration Revit - Madaster Export</li>
 </ul>
 
