@@ -33,9 +33,9 @@ menubar: resources-nav
 <a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan (Stand: 28.06.2025)</a> enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan.
 
 ### ArchiCAD
-<a href="/files/ch/de/2025-09-23 madaster CH_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 24.10.2024)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD. 
+<a href="/files/ch/de/2025-09-23 madaster CH_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD (Stand 25.09.2025)</a> - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD. 
 
 ### Revit
-<a href="/files/ch/de/2025-07-18 madaster CH_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand 18.07.2025)</a> und <a href="/files/ch/de/2025-07-18 madaster CH_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand 18.07.2025)</a>- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
+<a href="/files/de/2025-09-22 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch, Stand 22.09.2025)</a> und <a href="/files/de/2025-09-22 madaster_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch, Stand 22.09.2025)</a>- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit. 
 
 
