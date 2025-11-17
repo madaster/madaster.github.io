@@ -8,6 +8,41 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.9 ##
+
+* Build number: 36230
+* Release date: 2nd of November 2025
+
+### Graph on environmental adjusts to selected phases ###
+
+With this release the graph shown on the environmental tab will now adjust to the selected phases. This means that non-included phases will not be shown:
+
+<figure><img src="/assets/images/releasenotes/202509-12665-1.png" alt="Graph only showing selected phases."><figcaption>Graph only showing selected phases.</figcaption></figure>
+
+Also, by default all phases will be selected.
+
+### Publication date shown when linking an element ###
+
+When linking a product to an element the publication date of the product data is now available. This is done so that in case there are multiple published datasets it is clear which one is more recent.
+
+<figure><img src="/assets/images/releasenotes/202509-12701-1.png" alt="The publication date as shown when linking an element."><figcaption>The publication date as shown when linking an element.</figcaption></figure>
+
+### Changes to RICS ###
+
+For the RICS functionality on the platform we have updated the export template to be more in line with the RICS guidelines as well as making it possible to export GWP in the technical annex.
+
+### Bugfixes ###
+
+* A number of graphical glitches with the environmental graph and its interaction were fixed
+* Quantity was not always exported correctly in the technical annex, which is fixed
+* The value for B6.3 would not always save, which has been resolved
+* When creatin a component the classification code would sometimes incorrectly show up as uknown or as a GUID. This is fixed.
+* The colorcoding of the target value could be shown as red even though you achieved the goal; which is solved
+* A number of bugs related to the QNG were solved; including:
+    * LCA class not always being saved
+    * The GWP for KG400 could be displayed wrong on the QNG tab
+* When generating a Gebäuderessourcenpass for the DGNB some of the input values were only included in English when they needed to be German. This was fixed.
+
 ## Release notes 2025.8 ##
 
 * Build number: 35409
