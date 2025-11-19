@@ -191,7 +191,7 @@ $$
 
 ## Detachability
 
-The Detachability Index at the building level is calculated according to a methodology described by the <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v2-0/" target="_blank">Dutch Green Building Council (DGBC)</a>. Within Madaster, the calculation is made on all elements linked to products. Detachability information can be defined for a product in the database, if its installation is constantly the same, however the detachability information can still be overwritten in the Enrichment Tab for individual elements.
+The Detachability Index at the building level is calculated according to a methodology described by the <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v2-0/" target="_blank">Dutch Green Building Council (DGBC)</a>. Within Madaster, the calculation is made on all elements which are linked to a product and which have a classification ending up in the layers Structure, Skin, Services, Space plane and Surroundings. Detachability information can be defined for a product in the database, if its installation is constantly the same, however the detachability information can still be overwritten in the Enrichment for individual elements.
 
 In short, the Detachability Index assesses building components based on the following criteria and scoring:
 
