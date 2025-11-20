@@ -201,7 +201,9 @@ Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur 
 
 Eine Bearbeitung der Demontierbarkeit ist auf der Plattform möglich, indem im Erweitert-Tab ein Element ausgewählt wird und mit dem Stift-Icon in der Menüleiste bearbeitet wird. Auch die Auswahl und Bearbeitung mehrerer Elemente gleichzeitig ist möglich.
 
-Für die Angabe über IFC-Quelldateien müssen die englischen Begriffe genutzt werden, während die Demontierbarkeit über die Excel-Quelldatei oder über die Plattform (als Produktangabe oder Elementangabe im Erweitert-Tab), mit deutschen Begriffen angegeben wird.
+Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden.
+
+Damit die Demontierbarkeit bewertet werden kann, müssen alle Elemente nach den Kostengruppen der DIN 276 auf der dritten Ebene (z. B. 311, 312, 313) klassifiziert sein und nicht auf der ersten Ebene (z. B. 200, 300, 400) oder der zweiten Ebene (z. B. 310, 320, 330, 340).
 
 Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
 
