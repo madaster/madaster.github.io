@@ -1,5 +1,5 @@
 ---
-title: Stay organized
+title: Managing the account
 description: Organize Source Files, General Documents, Projects, Databases and Folders
 ref: stay-organized
 type: Knowledge Base
