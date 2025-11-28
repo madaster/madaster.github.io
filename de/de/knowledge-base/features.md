@@ -158,22 +158,18 @@ Inhaltlich umfasst der Gebäuderessourcenpass sechs übergeordnete Bereiche mit 
 
 Mit diesen genannten Informationen wird dann automatisch eine Übersicht für den reduzierten und vollständigen Gebäuderessourcenpass in der Excel ausgefüllt.
 
-
 Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="_blank">www.dgnb.de</a>.
 
 *Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
 
-## Reporting
+## EU-Taxonomie*
 
-Der **Reporting -Tab** bzw. ESG (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
+Zwecks einer Auswertung, ob ein wesentlicher Beitrag zum Umweltziel 4 "Übergang zu einer Kreislaufwirtschaft" durch das Objekt geleistet werden kann, finden Sie hier Kennzahlen und Berichte zu:
 
-Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
-
-* <a href="../knowledge-base/features#eu-taxonomie" target="_blank">EU-Taxonomie</a>
-* <a href="../knowledge-base/features#crrem-carbon-rist-real-estate-monitor" target="_blank">CRREM</a>
-* <a href="../knowledge-base/features#levels" target="_blank">Level(s)</a>
-* <a href="../knowledge-base/features#qng" target="_blank">QGN</a>
-* <a href="../knowledge-base/features#dgnb" target="_blank">DGNB</a>
+* Bau- und Abbruchabfälle
+* LCA
+* Bauentwürfe und -techniken
+* Verwendung von Primärrohstoffen
 
 ## Infrastruktur*
 
@@ -217,6 +213,39 @@ Um dieses Feature nutzen zu können, muss in der Quelldatei für jedes Element e
 2. Es erscheint eine **Benachrichtigung** <iconify-icon inline icon='mdi-bell-outline'/> sobald der Prozess beendet ist.
 3. Gehen Sie in der linken Navigationsleiste auf das betreffende Objekt und öffnen Sie die darunter liegenden **Splittobjekte** <iconify-icon inline icon='mdi-chevron-down'/>.
 
+## QNG*
+
+Mit dem neuen QNG-Feature unterstützt Madaster die Nachweisführung gemäß den Anforderungen des **Qualitätssiegels Nachhaltiges Gebäude (QNG)**. In Übereinstimmung mit den QNG-Siegeldokumenten können sowohl **Wohngebäude** als auch **Nichtwohngebäude** hinsichtlich ihrer ökologischen Qualität über eine **Lebenszyklusanalyse (LCA)** ausgewertet werden. Durch die weitgehende Automatisierung der Berechnung und die Integration relevanter Eingabe- und Auswertungsfunktionen wird der Nachweisprozess effizient und anwenderfreundlich gestaltet.
+
+### Hintergrund
+Das QNG ist Bestandteil der Bundesförderung für effiziente Gebäude (BEG) und stellt eine bundeseinheitliche Zertifizierungsgrundlage für nachhaltiges Bauen dar. Die Anforderungen betreffen unter anderem die Reduktion der Treibhausgasemissionen und des Primärenergiebedarfs über den Lebenszyklus eines Gebäudes hinweg. Grundlage für die ökologischen Nachweise ist eine vollständige LCA gemäß der Norm DIN EN 15978.
+
+Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.info/qng/qng-anforderungen/qng-siegeldokumente/" target="_blank">hier</a>.
+
+### Wie kann ich die Lebenszyklusanalyse (LCA) für QNG mit Madaster berechnen lassen?
+1. Zur Nachweisführung eines neuen Objekts, legen Sie zunächst ein neues Objekt an. Klicken Sie hierfür auf Ordnerebene im Tab **Allgemeines** auf **neues Objekt** <iconify-icon inline icon='mdi-plus-circle-outline'/>.
+2. Möchten Sie ein bestehendes Objekt hinsichtlich QNG auswerten lassen, klicken Sie auf **Objektebene** im Tab **Allgemeines** auf  **Objekt bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/>.
+3. Wählen Sie im Tab **Zertifizierung** die gewünschte Berichtsart und tätigen Sie alle notwendigen Angaben für Ihr Objekt.
+4. Klicken Sie anschließend auf den Tab **Energie** und tätigen Sie dort alle notwendigen Angaben für Ihr Objekt.
+5. Nach dem Abschluss aller Angaben, klicken Sie auf **Speichern**.
+6. Nachdem die getätigten Informationen automatisch berechnet wurden, können Sie die Auswertungen und Benchmarks der Lebenszyklusanalyse (LCA) im Tab **Umwelt** oder im Tab **Reporting** unter **QNG** einsehen.
+7. Wenn Sie Ihre Angaben überprüfen oder verändern möchten, können Sie diese im Tab **Energie** oder im Tab **Allgemeines** unter **Objekt bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> anpassen.
+
+> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
+Für eine Berechnung von Umweltindikatoren während der LCA-Phase D2 muss im Tab **Allgemeines** unter **Energie** die Menge von "Exportiertem Strom" definier werden.
+
+## Reporting
+
+Der **Reporting -Tab** bzw. ESG (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
+
+Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
+
+* <a href="../knowledge-base/features#eu-taxonomie" target="_blank">EU-Taxonomie</a>
+* <a href="../knowledge-base/features#crrem-carbon-rist-real-estate-monitor" target="_blank">CRREM</a>
+* <a href="../knowledge-base/features#levels" target="_blank">Level(s)</a>
+* <a href="../knowledge-base/features#qng" target="_blank">QGN</a>
+* <a href="../knowledge-base/features#dgnb" target="_blank">DGNB</a>
+
 ## Track&Trace
 
 Es handelt sich hierbei um ein **herstellerspezifisches Feature**.
@@ -254,24 +283,3 @@ Der Urban Mining Screener ist vor allem als **Flächenerfassungstool** gedacht. 
 Sofern Sie an einem automatischen Upload einer Vielzahl von Objekten interessiert sind, kontaktieren Sie bitte den Support.
 
 Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
-
-## QNG*
-
-Mit dem neuen QNG-Feature unterstützt Madaster die Nachweisführung gemäß den Anforderungen des **Qualitätssiegels Nachhaltiges Gebäude (QNG)**. In Übereinstimmung mit den QNG-Siegeldokumenten können sowohl **Wohngebäude** als auch **Nichtwohngebäude** hinsichtlich ihrer ökologischen Qualität über eine **Lebenszyklusanalyse (LCA)** ausgewertet werden. Durch die weitgehende Automatisierung der Berechnung und die Integration relevanter Eingabe- und Auswertungsfunktionen wird der Nachweisprozess effizient und anwenderfreundlich gestaltet.
-
-### Hintergrund
-Das QNG ist Bestandteil der Bundesförderung für effiziente Gebäude (BEG) und stellt eine bundeseinheitliche Zertifizierungsgrundlage für nachhaltiges Bauen dar. Die Anforderungen betreffen unter anderem die Reduktion der Treibhausgasemissionen und des Primärenergiebedarfs über den Lebenszyklus eines Gebäudes hinweg. Grundlage für die ökologischen Nachweise ist eine vollständige LCA gemäß der Norm DIN EN 15978.
-
-Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.info/qng/qng-anforderungen/qng-siegeldokumente/" target="_blank">hier</a>.
-
-### Wie kann ich die Lebenszyklusanalyse (LCA) für QNG mit Madaster berechnen lassen?
-1. Zur Nachweisführung eines neuen Objekts, legen Sie zunächst ein neues Objekt an. Klicken Sie hierfür auf Ordnerebene im Tab **Allgemeines** auf **neues Objekt** <iconify-icon inline icon='mdi-plus-circle-outline'/>.
-2. Möchten Sie ein bestehendes Objekt hinsichtlich QNG auswerten lassen, klicken Sie auf **Objektebene** im Tab **Allgemeines** auf  **Objekt bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/>.
-3. Wählen Sie im Tab **Zertifizierung** die gewünschte Berichtsart und tätigen Sie alle notwendigen Angaben für Ihr Objekt.
-4. Klicken Sie anschließend auf den Tab **Energie** und tätigen Sie dort alle notwendigen Angaben für Ihr Objekt.
-5. Nach dem Abschluss aller Angaben, klicken Sie auf **Speichern**.
-6. Nachdem die getätigten Informationen automatisch berechnet wurden, können Sie die Auswertungen und Benchmarks der Lebenszyklusanalyse (LCA) im Tab **Umwelt** oder im Tab **Reporting** unter **QNG** einsehen.
-7. Wenn Sie Ihre Angaben überprüfen oder verändern möchten, können Sie diese im Tab **Energie** oder im Tab **Allgemeines** unter **Objekt bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> anpassen.
-
-> **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
-Für eine Berechnung von Umweltindikatoren während der LCA-Phase D2 muss im Tab **Allgemeines** unter **Energie** die Menge von "Exportiertem Strom" definier werden.

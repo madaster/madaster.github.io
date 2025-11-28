@@ -1,16 +1,22 @@
 - label: Knowledge base
   items:
+    - ref: features
     - ref: stay-organized
     - ref: folder-types-and-folder-structure
     - ref: users
     - ref: preparing-excel-source-files
     - ref: preparing-bim-ifc-source-files
     - ref: madaster-property-set
-    - ref: material-passports
-    - ref: features
-    - ref: calculations
-    - ref: classifications
+    - ref: work-processes
     - ref: databases
     - ref: databases-products
+    - ref: calculations
+    - ref: dgnb
+    - ref: qng
+    - ref: mpg
+    - ref: rics
+    - ref: classifications
+    - ref: quality-check
+    - ref: material-passports
     - ref: tendering
     - ref: madaster-glossary

@@ -45,6 +45,16 @@ There are 2 options for calculating information based on the Bill of Material. O
   * Do **not** check the box if Madaster should **not** calculate environmental values from the Bill of Materials 
   * If environmental values are not calculated from Bill of Materials, Environmental tab must be filled out
 
+### Draft mode (only Supplier databases)
+
+To be able to continue adding and editing products to a published databases without making them already available or visible, the author can check the box **Draft**.
+
+<figure><img src="/assets/images/knowledgebase/product draft.png" alt="Checkbox to set product in draft mode"><figcaption>Checkbox to set product in draft mode</figcaption></figure>
+
+Draft products are active products and have their own filter in the database (*publication status*). Additionally a tag is shown in the productlist of the database to visiualize the mode. But only owners of this database can see those products. Or use these products in a Bill of materials in another product, if for instance details of the composition shall not be published. 
+
+Products in mode "draft" cannot be linked to elements. And once a product has been linked to an element it cannot be put in draft again.
+
 ## Circularity Tab
 
 Material specific information can be added here. Madaster differentiates between Input and Output.
@@ -150,3 +160,13 @@ Enter information relevant to the financial assessment of the product
 * **Default priceset**
 * **Manual entry**
 * **Automatic import**
+
+## Difference between products and components
+
+**Components** always refer to other components or products for the calculation of mass, circularity, environmental and financial data. In addition, the name of the reference components or products is always listed in the evaluation.
+
+For example, if a component A consists of product 1 and product 2 from database P, and this component is linked to an element, product 1 and product 2, as well as database P, will appear in the evaluation.
+
+Products can also reference other products/components. However, the evaluation always mentions the name of the created product – not the name of the referenced products/components.
+
+For details see <a href="..resources/release-notes#release-notes-20257" target="_blank">Release notes 2025.7</a>.
