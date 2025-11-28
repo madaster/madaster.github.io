@@ -33,6 +33,7 @@
             - ref: building-file-enrich
         - ref: building-performance-mass
         - ref: building-circularity
+        - ref: building-energy
         - ref: building-environmental
         - ref: building-financial
           items:
