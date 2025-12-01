@@ -8,6 +8,21 @@ exclude: true
 <div class="overview-content">
   <div class="overview-content-wrapper">
     <h1>Wissensdatenbank</h1>
+    <a class="overview-link" href="./knowledge-base/features">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/features.png" alt="Three green squares with a pixelated tree, brown building and a black floating box.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Features
+          </h3>
+          <p>
+            Verfügbare Ergänzungen der Partnerschaftslizenzen
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/stay-organized">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -98,66 +113,6 @@ exclude: true
         </div>
       </div>
     </a>
-    <a class="overview-link" href="./knowledge-base/material-passports">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/create-material-passports.png" alt="A computer screen with green and yellow bars on it resembling a graph.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Materialpassexporte
-          </h3>
-          <p>
-            Exportvarianten des digitalen Materialpasses
-          </p>
-        </div>
-      </div>
-    </a>
-    <a class="overview-link" href="./knowledge-base/features">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/features.png" alt="Three green squares with a pixelated tree, brown building and a black floating box.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Features
-          </h3>
-          <p>
-            Verfügbare Ergänzungen der Partnerschaftslizenzen
-          </p>
-        </div>
-      </div>
-    </a>
-    <a class="overview-link" href="./knowledge-base/calculations">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/calculations.png" alt="Two abstract boxes with a black keyboard.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Kalkulationen
-          </h3>
-          <p>
-            Zugrundeliegende Berechnungsmethoden der Plattform
-          </p>
-        </div>
-      </div>
-    </a>
-      <a class="overview-link" href="./knowledge-base/classifications">
-      <div class="overview-item">
-        <div class="resource-item-left">
-          <img class="resource-item-image" src="/assets/images/classifications.png" alt="A traffic light with blue and green lights, floating above a house on a green square.">
-        </div>
-        <div class="resource-item-right">
-          <h3>
-            Klassifikationen
-          </h3>
-          <p>
-            Zugrundeliegende Klassifizierungsmethoden der Plattform
-          </p>
-        </div>
-      </div>
-    </a>
     <a class="overview-link" href="./knowledge-base/databases">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -184,6 +139,51 @@ exclude: true
           </h3>
           <p>
             Produkte anlegen und pflegen
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/calculations">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/calculations.png" alt="Two abstract boxes with a black keyboard.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Kalkulationen
+          </h3>
+          <p>
+            Zugrundeliegende Berechnungsmethoden der Plattform
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/classifications">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/classifications.png" alt="A traffic light with blue and green lights, floating above a house on a green square.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Klassifikationen
+          </h3>
+          <p>
+            Zugrundeliegende Klassifizierungsmethoden der Plattform
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/material-passports">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/create-material-passports.png" alt="A computer screen with green and yellow bars on it resembling a graph.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Materialpassexporte
+          </h3>
+          <p>
+            Exportvarianten des digitalen Materialpasses
           </p>
         </div>
       </div>
