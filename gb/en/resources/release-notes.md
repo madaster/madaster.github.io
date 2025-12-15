@@ -8,6 +8,30 @@ menubar: resources-nav
 
 This page contains the release notes for 2025.
 
+## Release notes 2025.10 ##
+
+* Build number: 36522
+* Release date: 15th of December 2025
+
+### UI/UX Changes ###
+
+* The material or product name from the building file is now shown in brackets after the element name when linking a product in enrichment:
+
+<figure><img src="/assets/images/releasenotes/202510-12707-1.png" alt="The name of the material or product when linking."><figcaption>The name of the material or product when linking.</figcaption></figure>
+
+* When generating a material passport the environmental graph is now changed according to the selected phases.
+
+### Country specific ###
+
+* MEPG is now an option for the Netherlands, as well as having B6 in the technical annex
+* If the QNG scheme is selected the "Sockelbetrag" is now shown as a separate bar in the environmental tab.
+* If the Ecobau scheme is selected a specific "Material Passport ECOBAU" export is now available according to the Ecobau requirements.
+
+### Bugfixes ###
+
+* The MCI could end up higher than 100% in certain scenario's; this has been fixed.
+* The F-gasses for QNG would sometimes disappear even after saving them, which has been corrected.
+
 ## Release notes 2025.9 ##
 
 * Build number: 36230
