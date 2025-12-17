@@ -1,87 +1,90 @@
 ---
-title: Account einrichten
-description: Account erstellen und anpassen, Teammitglieder einladen und Ihr Abonnement verwalten
-ref: set-up-your-account
-type: Erste Schritte
-menubar: get-started-nav
+title: Datenbanken
+description: Datenbankkonfiguration, Anlegen von Produkten und Datenpflege
+ref: databases
+type: Wissensdatenbank
+menubar: knowledge-base-nav
 ---
 
-Account erstellen und anpassen, Teammitglieder einladen und Ihr Abonnement verwalten
+Datenbankkonfiguration, Anlegen von Produkten und Datenpflege
 
-## Account erstellen
+## Verfügbare Datenbanken
 
-<video width="400" height="300" controls><source src="/files/de/Abo%20ausw%C3%A4hlen.mp4" type="video/mp4"></video> 
+Madaster unterscheidet zwischen drei Arten von Datenbanken.
 
-1. Gehen Sie auf <a href="https://registration.madaster.com/DE" target="_blank">https://registration.madaster.com/DE</a>, wählen Sie das Ihren Bedürfnissen entsprechende Abonnement aus.
-2. Überprüfen Sie Ihren Posteingang bezüglich der Bestätigungs-E-Mail und folgen Sie dem den darin enthaltenen Link. Falls Sie über ein Microsoft Firmenkonto verfügen, melden Sie gern darüber bei der Plattform an. Alternativ registrieren Sie sich mit Ihrer persönlichen E-Mail. <br>
-Einmal registriert, können Sie sich künftig direkt unter <a href="https://platform.madaster.com/" target="_blank">https://platform.madaster.com</a> anmelden.
+* **System- oder geprüfte Datenbanken**: z.B.  <a href= '/files/at/Epea_Generic.xlsx' target='_blank'>EPEA </a>, <a href= 'https://www.oekobaudat.de/' target='_blank'>ÖKOBAUDAT</a> <iconify-icon inline icon='mdi-database-check-outline'/>
+* **Produzentendatenbanken** <iconify-icon inline icon='mdi-database' />
+  > Diese Datenbanken finden Sie in der linken Navigation <iconify-icon inline icon='mdi-menu' /> unten, hinter dem aufklappbaren Feld <iconify-icon inline icon='mdi-chevron-down' />  **Systemdatenbanken & Produzenten** <iconify-icon inline icon='mdi-database-cog-outline' />.
 
-> Hinweis: Die folgenden Ausführungen gelten nicht vollumfänglich für Accounts mit Privatabonnement, da deren Zweck die Verwaltung eines einzelnen Gebäudes in privater Hand ist.
+* **Individuelle Benutzerdatenbanken** <iconify-icon inline icon='mdi-database' />
+  > Diese finden Sie in der linken Navigation <iconify-icon inline icon='mdi-menu' /> in ihrem Account.
 
-## Multi-Faktor-Authentifizierung (MFA) einrichten
-Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) für alle Nutzer in allen Ländern verpflichtend – einschließlich reiner Lesezugänge. Die Anmeldung erfolgt zusätzlich zum Passwort mit einem zeitbasierten Code aus einer Authentifizierungs-App (z.B. Microsoft Authenticator, Google Authenticator).
+> **Hinweis: BITTE BEACHTEN SIE, DASS DIE DATENBANKEN *Madaster* UND *Madaster C2C* NICHT ZUR VERWENDUNG EMPFOHLEN SIND.**
 
-**Einrichtung (beim ersten Login nach Aktivierng)**
-1. Authenticator-App installieren.
-2. In der App „+“ wählen, „Geschäfts- oder Schulkonto“ hinzufügen.
-3. In Madaster einloggen; den angezeigten QR-Code mit der App scannen.
-4. Den 6-stelligen Code aus der App eingeben und bestätigen. Die Codes erneuern sich alle 30 Sekunden. Bei Falscheingabe den aktuellen Code verwenden.
+## Benutzerberechtigung
 
-**Du hast dein Handy oder Gerät verloren?**
-* Firmenkonto: MFA durch die interne IT zurücksetzen lassen.
-* Persönliches Konto: Support kontaktieren (service@madaster.de) zur Identitätsprüfung und zum Zurücksetzen der MFA.
+Die Berechtigung des Benutzers hängt von zwei Parametern ab:
+1. Art des Benutzers
+2. Ebene, auf der der Benutzer eingeladen wurde (Account-/Ordner-/Objektebene)
+3. Datenbankeigenschaften
+* Die eingestellten Datenbankeigenschaften können in der Registerkarte **Datenbank** unter dem Feld **Datenbankeigenschaften bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/> eingestellt werden.
 
-> Hinweis zu **geteilten Zugänge**: Zugänge sind personengebunden und die gemeinsame Nutzung ist nicht zulässig. Wurde ein Zugang bislang geteilt, sind zusätzliche Nutzer im Account anzulegen und mit passenden Rechten auszustatten (Benutzerverwaltung).
+Nähere Informationen über die Berechtigungen und Hierarchiebenen für Benutzer finden sie
+<a href='/at/de/knowledge-base/users.html' target='_blank'>hier</a>.
 
-## Ordner erstellen und organisieren
-Für die individuelle Organisation Ihres Accounts bietet Madaster eine flexible Ordnerstruktur. <a href="../knowledge-base/folder-types-and-folder-structure" target="_blank">Ordner</a> können Projekte, Datenbanken oder auch andere Unterordner (z.B. für Regionen, Tochtergesellschaften oder Objekttypen) enthalten. Die Struktur kann jederzeit angepasst und Objekte innerhalb der Ordner verschoben werden. Bevor jedoch ein Objekt erstellt werden kann, muss zumindest ein Ordner angelegt werden.
+## Datenbank erstellen
 
-<video width="400" height="300" controls><source src="/files/de/Ordner erstellen.mp4" type="video/mp4"></video>
+### Account- / Ordner- / Objektebene
+Die Account- und Ordnerstruktur in Madaster ist flexibel und kann nach eigenen Präferenzen eingerichtet werden. Die Plattform erlaubt mehrere Ordner pro Account, die Unterordner oder Objekte enthalten können. Um diese Struktur in Bezug auf Materialien und Produkte zu unterstützen, ist es möglich, eine oder mehrere Datenbanken auf unterschiedlichen Ebenen innerhalb des eigenen Accounts zu erstellen und zu verwenden.
 
-1. Klicken Sie dazu auf Accountebene <iconify-icon inline icon='mdi-briefcase-variant'/> im Tab **Allgemeines** auf die Schaltfläche **Neuer Ordner** <iconify-icon inline icon='mdi-folder-plus-outline'/>.
-2. Wählen Sie einen **Ordnertypen** aus.
+1. Datenbank auf **Accountebene** <iconify-icon inline icon='mdi-briefcase-variant'/>
+  * Eine Datenbank auf dieser Ebene kann von allen darunter liegenden Ordnerebenen und Objekten innerhalb des Accounts genutzt werden. Die Datenbank kann auch mit anderen Accountsn geteilt werden.
+2. Datenbank auf **Ordnerebene** <iconify-icon inline icon='mdi-folder-outline'/>
+  * Eine Datenbank auf dieser Ebene kann nur von Objekten in dem ausgewählten Ordner und den darunter liegenden Ebenen verwendet werden. Die Datenbank kann auch mit anderen Accounts geteilt werden.
+3. Datenbank auf **Objektebene** <iconify-icon inline icon='mdi-office-building'/> 
+  * Eine Datenbank auf dieser Ebene kann nur von dem ausgewählten Objekt verwendet werden. Die Datenbank kann nicht mit anderen Accounts geteilt werden.
 
-   > Hinweis: Madaster bietet Standardordner, die geändert oder gelöscht werden können. Es können auch neue Ordnertypen hinzugefügt werden. Klicken Sie <a href="../knowledge-base/folder-types-and-folder-structure" target="_blank">hier</a> für weitere Informationen zum Bearbeiten der Ordnertypen des Kontos.
+### Neue Datenbank erstellen
+1. Um eine neue Datenbank zu erstellen, gehen sie auf Account-/Ordner-/Objektebene in der Registerkarte **Allgemeines** in der Symbolleiste auf **Neue Datenbank** <iconify-icon inline icon='mdi-database-plus-outline'/>.
+2. Klicken Sie nach der Eingabe der erforderlichen Informationen auf **Speichern**.
 
-3. Geben Sie einen **Namen** für den Ordner an. Eine Beschreibung und ein Logo sind optional. Klicken Sie auf **Speichern**.
-4. Erstellen Sie bei Bedarf **Unterordner** innerhalb von Ordnern, um eine hierarchische Struktur einzurichten.
 
-## Benutzer einladen und organisieren
-Zu Ihrem Unternehmensaccount können weitere <a href="../knowledge-base/users" target="_blank">Benutzer</a> mit eigenen Rollen und Berechtigungen hinzugefügt werden.
+## Datenbank importieren/exportieren
+Es besteht die Möglichkeit, die Produkte und Materialien einer Datenbank über eine Excel-Vorlage zu importieren/exportieren.
+1. Klicken Sie in der Datenbank auf die Registerkarte **Dossier** und anschließend in der Symbolleiste auf **Import/Export** <iconify-icon inline icon='mdi-swap-vertical'/>.
+1. Um die **Excel-Vorlage** herunterzuladen wählen Sie **Exportieren**, wählen Sie das Kästchen **Leere Vorlage generieren** <iconify-icon inline icon='mdi-checkbox-marked'/> und bestätigen Sie mit **OK**.
+1. Für den **Export** einer vorhandenen Datenbank klicken Sie auf **Exportieren** und nach Auswahl der Exportinformationen <iconify-icon inline icon='mdi-checkbox-marked'/> auf **OK**. 
+1. Für den **Import** klicken Sie **Importieren** und nach Auswahl der Importinformationen <iconify-icon inline icon='mdi-checkbox-marked'/> auf **OK**.
+> **Hinweis:** Wenn Sie zum ersten Mal Informationen über die Datenbank importieren/exportieren, empfiehlt es sich, zumindest ein Probe-Produkt in den Export einzubeziehen. So können Sie prüfen, welche Informationen wo enthalten sind und wie sie strukturiert werden. Beachten Sie, dass die Auswahl **Leere Vorlage generieren** kein Produkt aus der Datenbank enthält.
 
-<video width="400" height="300" controls><source src="/files/de/Benutzer_Account_new.mp4" type="video/mp4"></video>
+## Datenbank teilen
+ Wenn Sie die notwendige <a href='/at/de/knowledge-base/users.html' target='_blank'>Berechtigung</a> besitzen, können Sie Datenbanken teilen. Gehen Sie dafür auf die jeweilige Datenbank <iconify-icon inline icon='mdi-database' /> und anschließend auf die Registerkarte **Geteilt mit**.
+ 1. Klicken Sie auf **Freigeben** <iconify-icon inline icon='mdi-plus-circle-outline'/>, um die Datenbank mit einstellbaren Freigaberechten zu teilen.
+ 1. Klicken Sie auf **Freigabe bearbeiten** <iconify-icon inline icon='mdi-pencil-outline'/>, um die eingestellten Freigaberechte anzupassen. 
+ 
+## Datenbank bearbeiten
+In jeder Datenbank können Produkte oder Materialien hinzugefügt werden, die für die auf der Plattform registrierten Objekte verwendet werden können. Auf der Hauptübersichtsseite der Datenbank sehen Sie in der Registerkarte **Datenbank** eine Liste aller Produkte, die in der Datenbank enthalten sind.
 
-1. Klicken Sie in der linken Navigationsleiste auf Ihren **Accountnamen**.
-2. Auf der rechten Seite befindet sich in der Tab-Leiste hinter dem Symbol <iconify-icon inline icon='mdi-dots-vertical'/> der Reiter **Benutzer**.
-3. Klicken Sie auf **Benutzer hinzufügen** <iconify-icon inline icon='mdi-account-plus-outline'/>.
+### Produkt hinzufügen
+In der oberen Symbolleiste können Sie ein neues Produkt zur Datenbank hinzufügen, indem Sie auf die Schaltfläche **Produkt hinzufügen** <iconify-icon inline icon='mdi-plus-circle-outline'/> klicken. Um ein Produkt zu erstellen, sollten folgende Informationen hinterlegt werden:
+1. Produktinformationen (Name, Typ, Lebensdauer, Dichte, Funktionelle Einheit, Zusammensetzung)
+1. Zirkulariät (Materialherkunft, Demontierbarkeit, Materialverwertung)
+1. Umwelt (Umweltinformationen gemäß EPD)
+1. Suchkriterium (zum automatischen Abgleich bei spezifischen Material-/Produktbeschreibungen)
+1. Finanziell (Preissätze zu Transport- und Aufarbeitungskosten)
 
-   > Hinweis: Auf Accountebene hinzugefügte Benutzer erhalten Zugriff auf alle aktuellen und zukünftigen Ordner, Projekte und Datenbanken innerhalb des Accounts. Bei Bedarf kann der Zugriff eines Benutzers auf einen Ordner (einschließlich aller Unterordner) oder auf bestimmte Objekte beschränkt werden. In solchen Fällen muss der Ordner oder das Objekt bereits erstellt worden sein. Klicken Sie <a href="../knowledge-base/users" target="_blank">hier</a>, um weitere Informationen zum Einladen von Benutzern und zum Verwalten von Berechtigungen zu erhalten.
+Durch diese Konfiguration können Sie sowohl monolithische als auch mehrschichtige Produkte anlegen.
 
-4. Geben Sie die **E-Mail-Adresse** des Benutzers ein und wählen Sie die entsprechende **Berechtigung** aus.
+### Produkt einsehen, bearbeiten und löschen
+Für vorhandene Produkte sind verschienene Anpassungsmöglichkeiten verfügbar:
+1. Produkt bearbeiten <iconify-icon inline icon='mdi-pencil-outline'/>
+1. Produkt löschen <iconify-icon inline icon='mdi-delete-outline'/>
+1. Neue Version des Produkts erstellen <iconify-icon inline icon='mdi-content-duplicate'/>
+1. Produkt ansehen <iconify-icon inline icon='mdi-arrow-right-circle-outline'/>
+1. reduzierte Produktinformationen ausklappen <iconify-icon inline icon='mdi-chevron-down'/>
 
-    *Eingeladene Benutzer erhalten eine E-Mail mit Anleitung über den Beitritt zum Account:*
-     * *Neue Benutzer ohne bestehendes Profil müssen sich registrieren, um dem Account beizutreten.*
-     * *Benutzer mit bestehenden Profilen können dem Account mit ihrem bestehenden Login beitreten.*
+Nähere Informationen zu den Produktinformationen und Einstellungsmöglichkeiten finden Sie im Abschnitt **Produkt hinzufügen**.
 
-5. Um eine **Änderungen** an einer Benutzerrolle bzw. Berechtigung vorzunehmen, klicken Sie rechts auf das Symbol <iconify-icon inline icon='mdi-pencil-outline'/> neben den entsprechenden Namen.
+## API Token hinzufügen
 
-   > Hinweis: Benutzerrollen und Berechtigungen können nur auf der Ebene (Account, Ordner oder Objekt) bearbeitet werden, auf der sie ursprünglich eingerichtet wurden.
-
-6. Um Benutzer zu löschen, klicken Sie rechts auf das Symbol <iconify-icon inline icon='mdi-delete-outline'/>.
-
-## Accounteinstellungen anpassen
-
-Bei Bedarf können für den gesamten Account auf oberster Ebene zu folgenden Punkten Voreinstellungen definiert werden. Klicken Sie dafür in der Tab-Leiste hinter dem Symbol <iconify-icon inline icon='mdi-dots-vertical'/> auf den entsprechenden Reiter.
- * <a href="../knowledge-base/stay-organized#organisieren-der-quelldateien" target="_blank">Voreinstellungen für den Upload</a>
- * <a href="../knowledge-base/material-passports#voreinstellungen-für-materialpässe" target="_blank">Voreinstellungen für Materialpassexporte</a>.
- * **Dateneinstellungen**
-
-## Features nutzen
-
-Bei Bedarf können Sie neue, kostenfreie **Features** auf Accountebene aktivieren. Klicken Sie <a href="../knowledge-base/features" target="_blank">hier</a> für weitere Informationen.
-
-## Abonnement verwalten
-
-Die Erweiterung Ihres Abonnement um zusätzliche Benutzer und Objekte oder das Buchen kostenpflichtiger Features können Sie in dem Tab **Abonnement** auf Accountebene selbst vornehmen. Dort finden Sie die detaillierte Informationen zum Leistungsumfang Ihrer aktuellen Buchung, der Laufzeit und den Kosten. Bei Bedarf klicken Sie dort auf die Schaltfläche **Abonnement ändern** oder auch **Abonnement kündingen**.
-
-<a class="next-button" href="../get-started/set-up-objects">Nächster Schritt: Objekt einrichten</a>
+Nähere Informationen zur Nutzung der Madaster API finden Sie <a href="/at/de/api/" target="_blank">hier</a>.
