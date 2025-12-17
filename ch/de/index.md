@@ -24,7 +24,7 @@ exclude: true
 
 Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der **Plattform Madaster**.
 
-Haben Sie noch Fragen? Sie erreichen uns per E-Mail <info@madaster.ch> oder über unsere Servicehotline [+41 44 500 4446](tel:+41445004446).<br/>Die Hotline ist **montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr** erreichbar.
+Haben Sie noch Fragen? Sie erreichen uns per E-Mail <info@madaster.ch> oder über unsere Servicehotline [+41 44 553 06 95](tel:+41445530695).<br/>Die Hotline ist **montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr** erreichbar.
 
 Mehr über die **Madaster Services Switzerland AG** erfahren Sie auf unserer Webseite unter <a href="https://madaster.ch" target="_blank">https://madaster.ch</a>.
 
