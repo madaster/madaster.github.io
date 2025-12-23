@@ -3,7 +3,6 @@ title: Performance
 description: Account - Performance
 ref: account-performance
 type: FAQ
-lang: de
 redirect_from:
   - platform-pages/account/circularity
   - platform-pages/account/environmental
