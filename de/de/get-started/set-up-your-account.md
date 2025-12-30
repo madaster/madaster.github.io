@@ -10,26 +10,19 @@ Account erstellen und anpassen, Teammitglieder einladen und Ihr Abonnement verwa
 
 ## Account erstellen
 
-1. Gehen Sie auf <a href="https://registration.madaster.com/DE" target="_blank">https://registration.madaster.com/DE</a>, wählen Sie das Ihren Bedürfnissen entsprechende Abonnement aus.
-2. Überprüfen Sie Ihren Posteingang bezüglich der Bestätigungs-E-Mail und folgen Sie dem den darin enthaltenen Link. Falls Sie über ein Microsoft Firmenkonto verfügen, melden Sie gern darüber bei der Plattform an. Alternativ registrieren Sie sich mit Ihrer persönlichen E-Mail. <br>
-Einmal registriert können Sie sich künftig direkt unter <a href="https://platform.madaster.com/" target="_blank">https://platform.madaster.com</a> anmelden.
+Wir freuen uns, dass Sie für einen Account auf unserer Plattform **"Madaster - das Kataster für Materialien"** interessieren.
 
-> Hinweis: Die folgenden Ausführungen gelten nicht vollumfänglich für Accounts mit Privatabonnement, da deren Zweck die Verwaltung eines einzelnen Gebäudes in privater Hand ist.
+Um den Account gemäß Ihrer Bedürfnisse zu erstellen, kontaktieren Sie uns bitte telefonisch oder per E-Mail 
 
-## Multi-Faktor-Authentifizierung (MFA) einrichten
-Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) für alle Nutzer in allen Ländern verpflichtend – einschließlich reiner Lesezugänge. Die Anmeldung erfolgt zusätzlich zum Passwort mit einem zeitbasierten Code aus einer Authentifizierungs-App (z.B. Microsoft Authenticator, Google Authenticator).
+Für **Deutschland** unter **+49 30 235 962 050** oder **info@madaster.de**
 
-**Einrichtung (beim ersten Login nach Aktivierng)**
-1. Authenticator-App installieren.
-2. In der App „+“ wählen, „Geschäfts- oder Schulkonto“ hinzufügen.
-3. In Madaster einloggen; den angezeigten QR-Code mit der App scannen.
-4. Den 6-stelligen Code aus der App eingeben und bestätigen. Die Codes erneuern sich alle 30 Sekunden. Bei Falscheingabe den aktuellen Code verwenden.
+Für **Österreich** unter **+43 1 39 5065 7868** oder **info@madaster.at**
 
-**Du hast dein Handy oder Gerät verloren?**
-* Firmenkonto: MFA durch die interne IT zurücksetzen lassen.
-* Persönliches Konto: Support kontaktieren (service@madaster.de) zur Identitätsprüfung und zum Zurücksetzen der MFA.
+Für die **Schweiz** unter **+41 43 216 97 66** oder **info@madaster.ch** 
 
-> Hinweis zu **geteilten Zugänge**: Zugänge sind personengebunden und die gemeinsame Nutzung ist nicht zulässig. Wurde ein Zugang bislang geteilt, sind zusätzliche Nutzer im Account anzulegen und mit passenden Rechten auszustatten (Benutzerverwaltung).
+Unsere Kolleg:innen werden dann mit Ihnen die passende Konfiguration zusammenstellen und das erste Training planen.
+
+Sobald der Account dann für Sie eingerichtet wurde, können Sie sich mit den folgenden Schritten fortfahren.
 
 ## Ordner erstellen und organisieren
 
@@ -64,6 +57,8 @@ Zu Ihrem Unternehmensaccount können weitere <a href="../knowledge-base/users" t
    > Hinweis: Benutzerrollen und Berechtigungen können nur auf der Ebene (Account, Ordner oder Objekt) bearbeitet werden, auf der sie ursprünglich eingerichtet wurden.
 
 6. Um Benutzer zu löschen, klicken Sie rechts auf das Symbol <iconify-icon inline icon='mdi-delete-outline'/>.
+
+> Hinweis: Informationen zu der verpflichtenden **Multi-Faktor-Authentifizierung (MFA)** für alle Benutzer der Plattform finden Sie <a href="../knowledge-base/users#multi-faktor-authentifizierung-mfa-einrichten" target="_blank">hier</a>.
 
 ## Accounteinstellungen anpassen
 

@@ -24,7 +24,6 @@ Users invited at account-level will be given access to all existing and future f
 |Can view the subscription page| Yes| No| No| No| No|
 |Can view the user page| Yes| No| No| No| No|
 
-
 ## Add users at folder-level
 
 Users invited at folder-level will be given access to all sub-folders and projects within the selected folder. Folder-level users can be assigned one of the following permissions:
@@ -57,7 +56,24 @@ Users invited at building-level will be given access to only the selected buildi
 |Export Material Passport| Yes| Yes| Yes| No| No|
 |Download Material Passport to PDF| Yes| Yes| Yes| Yes| Yes|
 
-## Add API token
+## Setting up Multi-Factor Authentication (MFA)
 
+To increase account security, multi-factor authentication (MFA) has been mandatory for all users in all countries since April 2025 – including read-only accounts. Detailed information can be found in the <a href="https://madaster.co.uk/mfa-faq/" target="_blank">FAQs on our websites</a>.
+
+In addition to your password, you will need to log in with a time-based code from an authentication app (e.g. Microsoft Authenticator, Google Authenticator).
+
+**Setup (when logging in for the first time after activation)**
+1. Install the Authenticator app.
+2. Select ‘+’ in the app and add ‘Business or school account’.
+3. Log in to Madaster, scan the QR code displayed with the Authenticator app.
+4. Enter and confirm the 6-digit code from the app. The codes are renewed every 30 seconds. If you enter the code incorrectly, use the current code.
+
+**Lost your mobile phone or device?**
+* Microsoft Company account: Have MFA reset by your internal IT department.
+* Personal account: Contact our support team for identity verification and to reset the MFA.
+
+> **Note on shared access:** Platform access is personal and shared use is not permitted. If access has been shared up to now, additional users must be created in the account and given the appropriate rights.
+
+## Add API token
 
 For more information on using the Madaster API, visit our <a href="../api/" target="_blank">API Documentation</a>.

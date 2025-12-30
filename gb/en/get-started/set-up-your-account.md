@@ -10,8 +10,23 @@ Create your account, structure your account, invite team members, customize your
 
 ## Create your account
 
-1. Go to <a href="https://registration.madaster.com" target="_blank">https://registration.madaster.com</a>, choose your country, and sign up for the appropriate subscription that matches your needs.
-2. Check your inbox for a confirmation email. Use the link therein or go to the Madaster platform by logging in at <a href="https://platform.madaster.com/" target="_blank">https://platform.madaster.com</a>. Login with your company account if you have one with Microsoft. Otherwise register with your personal email.
+We are delighted that you are interested in creating an account on our platform, **'Madaster – the materials register'**.
+
+To create an account tailored to your individual needs, please contact us by telephone or email.
+
+|Country|Contact|
+|-|-|
+|**Austria**| call **+43 1 39 5065 7868** or email info@madaster.at|
+|**Belgium**| call **+32 470 44 25 22** or email info@madaster.be|
+|**Germany**| call **+49 30 235 962 050** or email info@madaster.de|
+|**Netherlands**| call **+31 85 060 1242** or email info@madaster.nl|
+|**Norway**| call **+47 959 19 625** or email info@madaster.no|
+|**Switzerland**| call **+41 43 216 97 66** or email info@madaster.ch|
+|**United Kingdom**| call **+44 203 576 2065** or email info@madaster.co.uk|
+
+Our colleagues will then work with you to put together the right configuration and plan your initial training.
+
+Once your account has been set up, you can proceed with the following steps.
 
 ## Create and organize folders
 
@@ -39,6 +54,8 @@ From your account, individual users can be added. Madaster enables each user to 
 1. To modify user roles and permissions, click on the <iconify-icon inline icon='mdi-pencil-outline'/> icon on the right.
    > Note: User roles and permissions can only be edited at the level (account, folder, object) where they were originally established.
 1. To delete users, click on the <iconify-icon inline icon='mdi-delete'/> icon on the right.
+
+> Note: Information on mandatory **Multi-Factor-Authentication (MFA)** for all users of the platform can be found <a href="../knowledge-base/users#setting-up-multi-factor-authentication-mfa" target="_blank">here</a>.
 
 ## Customize default account settings
 

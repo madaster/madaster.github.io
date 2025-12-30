@@ -62,6 +62,21 @@ Benutzer, die auf **Objektebene** <iconify-icon inline icon='mdi-office-building
 |Materialpass exportieren| Ja| Ja| Ja| Nein| Nein|
 |Materialpass herunterladen| Ja| Ja| Ja| Ja| Ja|
 
+## Multi-Faktor-Authentifizierung (MFA) einrichten
+Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) für alle Nutzer in allen Ländern verpflichtend – einschließlich reiner Lesezugänge. Die Anmeldung erfolgt zusätzlich zum Passwort mit einem zeitbasierten Code aus einer Authentifizierungs-App (z.B. Microsoft Authenticator, Google Authenticator).
+
+**Einrichtung (beim ersten Login nach Aktivierng)**
+1. Authenticator-App installieren.
+2. In der App „+“ wählen, „Geschäfts- oder Schulkonto“ hinzufügen.
+3. In Madaster einloggen; den angezeigten QR-Code mit der App scannen.
+4. Den 6-stelligen Code aus der App eingeben und bestätigen. Die Codes erneuern sich alle 30 Sekunden. Bei Falscheingabe den aktuellen Code verwenden.
+
+**Du hast dein Handy oder Gerät verloren?**
+* Firmenkonto: MFA durch die interne IT zurücksetzen lassen.
+* Persönliches Konto: Support kontaktieren (service@madaster.de) zur Identitätsprüfung und zum Zurücksetzen der MFA.
+
+> Hinweis zu **geteilten Zugänge**: Zugänge sind personengebunden und die gemeinsame Nutzung ist nicht zulässig. Wurde ein Zugang bislang geteilt, sind zusätzliche Nutzer im Account anzulegen und mit passenden Rechten auszustatten (Benutzerverwaltung).
+
 ## API token hinzufügen
 
 Mehr Informationen zur API finden Sie <a href="../api/" target="_blank">hier</a>.
