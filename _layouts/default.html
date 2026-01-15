@@ -11,6 +11,10 @@
               <div class="column is-4-desktop">
                 {% include resources-nav.html %}
               </div>
+            {% elsif page.menubar=='tutorials-nav' %}
+              <div class="column is-4-desktop">
+                {% include tutorials-nav.html %}
+              </div>
             {% elsif page.menubar!="none" %}
               <div class="column is-4-desktop">
                 {% include menubar.html %}
