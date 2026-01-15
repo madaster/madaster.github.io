@@ -140,13 +140,16 @@ function addResourceMenu(){
 
 
 
-if (window.location.pathname.split('/')[3] === 'get-started' || window.location.pathname.split('/')[3] === 'knowledge-base'  || window.location.pathname.split('/')[3] === 'resources') {
+if (
+  window.location.pathname.split('/')[3] === 'get-started' || 
+  window.location.pathname.split('/')[3] === 'knowledge-base' || 
+  window.location.pathname.split('/')[3] === 'resources' ||
+  window.location.pathname.split('/')[3] === 'tutorials.html') 
+{
   if (window.location.pathname.split('/')[3] === 'resources') {
     addResourceMenu();
- }
-  else{
+  } else {
     addSubmenuIDLinks();
-    
   }
 
   const navLinks = document.querySelectorAll('.generated-anchor-menu li a');
