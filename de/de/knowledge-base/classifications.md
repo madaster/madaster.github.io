@@ -59,7 +59,7 @@ Die Nutzungsarten, die Rückbaukosten sowie die Lebensdauer des Objektes sowie d
 |Handelsbau| |
 |Industriegebäude| |
 |Versammlungsstätte| |
-|Beherbungsbau| |		
+|Beherbergungsstätte| |		
 |Sonstiges| |
 
 ### Infrastrukturkategorien
