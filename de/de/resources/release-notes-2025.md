@@ -1,7 +1,7 @@
 ---
 title: Release notes
 description: More information about the releases can be found here
-ref: release-notes
+ref: release-notes-2025
 type: Resources
 menubar: resources-nav
 ---
@@ -483,12 +483,3 @@ In addition to the annex at product level, it is now possible to export a techni
 
 * For Germany, the lifespan of a building that is taken into account in the environmental calculation can now deviate from the 50 years (specified by the DGNB). 
 * Some products in the EPEA database were updated so that they are also available for the United Kingdom, Netherlands, Norway and Switzerland now.
-
-## Older release notes ##
-
-More information about the releases can be found here:
-
-* <a href="/gb/en/resources/release-notes-2024" target="_blank">Release notes 2024</a>
-* <a href="/files/en/Madaster Release notes 2023.pdf" target="_blank">Release notes 2023</a>
-* <a href="/files/en/Madaster Release notes 2022.pdf" target="_blank">Release notes 2022</a>
-* <a href="/files/en/Madaster Release notes 2021.pdf" target="_blank">Release notes 2021</a>
