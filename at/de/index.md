@@ -59,14 +59,14 @@ exclude: true
       </a>
     </li>
     <li class="category-tile-wrapper list-unstyled">
-      <a href="./api">
+      <a href="./tutorials">
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/api.png" alt="A multi-colored chip.">
+              <img src="/assets/images_GER/Tutorial Docs.png" alt="A computer with play button on screen.">
             </div>
             <div class="header-wrapper">
-                <h3>API</h3>
+                <h3>Tutorials</h3>
             </div>
           </div>
         </div>
@@ -101,14 +101,14 @@ exclude: true
       </a>
     </li>
     <li class="category-tile-wrapper list-unstyled">
-      <a href="mailto:service@madaster.at">
+      <a href="./api">
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images/users.png" alt="Isometric illustration of a person in business attire with brown hair.">
+              <img src="/assets/images/api.png" alt="A multi-colored chip.">
             </div>
             <div class="header-wrapper">
-              <h3>Support</h3>
+                <h3>API</h3>
             </div>
           </div>
         </div>
