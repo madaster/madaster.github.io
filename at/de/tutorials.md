@@ -14,7 +14,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/7_koWh18APc?si=NWm691c0ht9LbuxK"
+  src="https://www.youtube.com/embed/hy3hLGQFYN4?si=J6vC_rk3EfXGN24m"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
