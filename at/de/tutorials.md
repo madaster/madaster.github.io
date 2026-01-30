@@ -28,7 +28,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/5y4vUQsRIvQ?si=eFihBfD-dDNXIQof"
+  src="https://www.youtube.com/embed/LDhghmcsNZA?si=Wu6OrEJM8ky5symz"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,7 +42,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/yq8xk6wNoFM?si=ujs74oW3UJLVZkcO"
+  src="https://www.youtube.com/embed/laGuGbabRv4?si=1SPNWJ05mnttiCXb"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -56,7 +56,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/OtLMdIp4K8U?si=dlk9kdChwtC2ITSs"
+  src="https://www.youtube.com/embed/6ddoEDMv6X4?si=UMQ6zFPSD6FfiPFG"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -70,7 +70,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/HWDhCSZWOU0?si=b1TD4LPcrc0c70cc"
+  src="https://www.youtube.com/embed/B1bGzEE-qQE?si=gZF5YlxcgUKsppfQ"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -84,7 +84,7 @@ Hier finden Sie Einführungsvideos für die madaster Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/7KzL2SlF0pM?si=AyPqcULoNyePKajC"
+  src="https://www.youtube.com/embed/Vngb97JL_nI?si=EhiUHMHkzX1gzJ5n"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
