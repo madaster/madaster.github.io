@@ -8,41 +8,85 @@ menubar: knowledge-base-nav
 
 Produkte anlegen und pflegen
 
-## Produktinformation - Allgemein
+## Unterschied Produkte und Bauteile
 
-Hier können produktspezifische Informationen eingegeben werden.
-Es gibt 2 Optionen für die Berechnung von Informationen auf der Grundlage der Materialliste. Nur wenn das Kontrollkästchen aktiviert ist, wird diese Registerkarte sichtbar gemacht. Das Kontrollkästchen für die Berechnung der Umweltinformationen wird nur sichtbar, wenn das Kontrollkästchen für die Berechnung der Zirkularität aktiviert ist:
+**Bauteile** referenzieren immer auf andere Bauteile oder Produkte, um Massen sowie zirkuläre, ökologische und finanzielle Kennwerte zu berechnen.  
+In der Auswertung wird dabei stets der Name der referenzierten Bauteile bzw. Produkte aufgeführt.
+
+Besteht beispielsweise ein *Bauteil A* aus einem *Produkt 1* und einem *Produkt 2* aus der *Datenbank P* und wird dieses Bauteil mit einem Element verknüpft, so erscheinen in der Auswertung *Produkt 1* und *Produkt 2* sowie die *Datenbank P* in der Materialliste.
+
+**Produkte** können ebenfalls auf andere Produkte oder Bauteile referenzieren. In der Auswertung wird jedoch immer der Name des erstellten Produkts angezeigt – nicht der Name der referenzierten Produkte oder Bauteile.
+
+## Produkte/ Bauteile anlegen
+
+Um ein neues Produkt bzw. Bauteil anzulegen, müssen folgende Pflichtfelder ausgefüllt werden:
+
+- **Produktname**  
+  *Wie heißt dieses Produkt?*  
+  (z. B. „Stahlbeton-Wand“)
+
+- **Produkttyp**  
+  *Mit welcher geometrischen Angabe definiere ich die Menge dieses Produkts?*  
+  (z. B. „Ich definiere die Stahlbeton-Wand pro Volumen.“)
+
+- **Funktionelle Einheit**  
+  *Bezogen auf welche Menge und Einheit definiere ich dieses Produkt?*  
+  (z. B. „Ich definiere die Stahlbeton-Wand pro 1 m³.“)
+
+- **Funktionale Lebensdauer (Jahre)**  
+  *Wie lange erfüllt dieses Produkt seinen Nutzen?*  
+  (z. B. „Die Stahlbeton-Wand erfüllt 50 Jahre lang ihren Nutzen.“)
+
+Anschließend muss entschieden werden, ob alle Informationen zu diesem Produkt manuell eingetragen werden oder ob diese über eine Referenz zu anderen Produkten mithilfe einer Materialliste abgeleitet werden.
+
+Soll eine Materialliste angelegt werden, stehen zwei Optionen zur Verfügung:
+
+* Berechnung der Zirkularität und Dichte auf Grundlage der Materialliste  
+* Berechnung der Umweltinformationen auf Grundlage der Materialliste
+
 ![Berechnen-aus-Stückliste](../../../assets/images/knowledgebase/calculatefrombom.png)
-
-### Keine Berechnung von Zirkularität aus der Materialliste
-
-  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Zirkularität und Dichte aus der Materialliste berechnen soll
-  * Area Composition ist sichtbar (Madaster und Madaster V2)
-  * Drücken Sie <iconify-icon inline icon='mdi-plus-circle-outline' />, um die Madaster (V2) Materialfamilie hinzuzufügen. Wählen Sie aus der Auswahlliste die gewünschte Familie aus und fügen Sie den Prozentsatz hinzu (wie viel ein Produkt aus dieser Materialfamilie besteht).
-  * Geben Sie die Informationen in kg/Maß ein. Das Maß hängt von der Produktart ab, die Sie zuvor ausgewählt haben:
-    - Volumen (z.B. Beton = m<sup>3</sup>)
-    - Fläche (z.B. Boden = m<sup>2</sup>)
-    - Länge (z. B. Rohr = m)
-    - Menge (z. B. Hardware = kg)
-    - Sonstiges (keine zusätzlichen Angaben erforderlich)
-    - Energie (keine weiteren Angaben erforderlich)
-  * Die Registerkarte für die Kreislaufwirtschaft muss mit den verfügbaren und benötigten Informationen ausgefüllt werden.
 
 ### Berechnen der Zirkularität und Dichte auf Grundlage der Materialliste
 
-  * Wenn Sie möchten, dass Madaster die Zirkularitätswerte aus der <a href="" target="_blank">Materialliste</a> berechnet, dann markieren (klicken) Sie das Kästchen.
-  * Auf der Registerkarte für die Zirkularität sind nun einige Eingabefelder für Werte, die berechnet werden, deaktiviert. Die restlichen Felder können ausgefüllt werden, sofern Informationen verfügbar sind.
+* Wenn die Zirkularitätswerte aus der Materialliste berechnet werden sollen, muss das Kästchen **„Berechnung der Zirkularität und Dichte auf Grundlage der Materialliste“** aktiviert und die Angaben gespeichert werden.
+* Die Registerkarte **„Zirkularität“** wird anschließend mit Daten aus der Materialliste befüllt. Felder zur Wiederverwendung können ergänzend ausgefüllt werden.
 
 ### Berechnen der Umweltinformationen auf Grundlage der Materialliste
 
-  * Markieren Sie das Kästchen, wenn Sie möchten, dass Madaster die Umweltinformationen aus der <a href="" target="_blank">Materialliste</a> berechnet.
-  * Um auf die Registerkarte "Materialliste" zu gelangen, muss ein Name eingegeben und das Produkt gespeichert werden.
-  * Wenn die Umweltinformationen aus der Materialliste berechnet werden, muss die Registerkarte "Umwelt" nicht ausgefüllt werden.
+* Wenn die Umweltinformationen aus der Materialliste berechnet werden sollen, muss das Kästchen **„Berechnung der Umweltinformationen auf Grundlage der Materialliste“** aktiviert und die Angaben gespeichert werden.
+* Die Registerkarte **„Umwelt“** wird anschließend mit Daten aus der Materialliste befüllt.
 
-### KEINE Berechnung der Umweltinformationen auf Grundlage der Materialliste
+### Befüllen der Materialliste
 
-  * Markieren Sie **nicht** das Kästchen, wenn Madaster **keine** Umweltinformationen aus der Materialliste berechnen soll.
-  * Wenn die Umweltinformationen nicht aus der Materialliste berechnet werden, muss die Registerkarte "Umwelt" ausgefüllt werden.
+
+* In der Registerkarte **„Materialliste“** können nun Schichten oder Bestandteile dieses Produkts bzw. Bauteils definiert werden.
+* Über den Button **„Hinzufügen“** lassen sich Produkte aus allen verfügbaren Datenbanken auswählen. Mithilfe des Filters **„Quelle“** kann die Auswahl auf bestimmte Datenbanken eingeschränkt werden. Das gewünschte Produkt kann anschließend ausgewählt und über **„Element hinzufügen“** eingefügt werden.
+* Danach wird die Menge dieses Elements pro funktioneller Einheit des gesamten Produkts bzw. Bauteils definiert (siehe *Produktinformation – Allgemein* → **„Funktionelle Einheit“**).
+* Über den Toggle **„Gewicht eingeben“** kann ein Element entweder pro Kilogramm oder auf Basis seiner eigenen funktionellen Einheit angegeben werden.
+
+> **Beispiel:**  
+> Ich habe ein PVC-Fenster, für das alle mir bekannten Angaben pro 1 m² vorliegen.  
+> Ich möchte alle Informationen zu den Bestandteilen des Fensters berechnen lassen.  
+> Das Fenster besteht aus 0,74 m² Flachglas und 4 m (bzw. 5 kg) PVC-Profil.  
+> Daher definiere ich die funktionelle Einheit als **1 m²** und füge der Materialliste 0,74 m² Flachglas und 5 kg PVC-Profil hinzu.
+
+
+### Keine Berechnung von Zirkularität oder Umweltinformationen aus der Materialliste
+
+* Aktivieren Sie das Kästchen **nicht**, wenn Madaster **keine** Zirkularitäts-, Dichte- oder Umweltinformationen aus der Materialliste berechnen soll.
+* Die Materialzusammensetzung kann manuell definiert werden (nach NL-SfB, BBSR und European Waste Codes). Über den Button <iconify-icon inline icon='mdi-plus-circle-outline' /> wird eine Materialfamilie hinzugefügt. Wählen Sie die gewünschte Familie aus der Auswahlliste aus und geben Sie den prozentualen Anteil an.
+* Geben Sie die Informationen in kg/Maß an. Das Maß hängt von der zuvor ausgewählten Produktart ab:
+  * Volumen (z. B. Beton = m³)
+  * Fläche (z. B. Boden = m²)
+  * Länge (z. B. Rohr = m)
+  * Menge (z. B. Tür = Stück)
+  * Sonstiges (keine zusätzlichen Angaben erforderlich)
+  * Energie (keine zusätzlichen Angaben erforderlich)
+* Die Registerkarten **„Zirkularität“** bzw. **„Umwelt“** müssen anschließend mit den verfügbaren und erforderlichen Informationen ausgefüllt werden.
+
+### Anlegen von Bauteilen für Zertifizierungen
+
+Wenn eine Berechnungsmethode die Verwendung von Produkten aus einer bestimmten Datenbank vorschreibt (z. B. ÖKOBAUDAT für DGNB oder die QNG-Rechenwerttabelle für QNG) und ein Bauteil aus Produkten dieser Datenbank zusammengestellt wird, erscheint in der Auswertung die entsprechende Produktdatenbank in der Materialliste. Damit ist die Konformität mit der jeweiligen Methode gegeben.
 
 ## Skalierbarkeit
 
