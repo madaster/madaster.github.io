@@ -19,14 +19,30 @@ exclude: true
   </div>
 </section>
 
-<br/>
-<h2 class="main-header">Willkommen bei Madaster!</h2>
+<div style="text-align: center;">
+    <br/>
+    <h2 class="main-header"><img src="/assets/flags/de.svg" alt="Deutschland Flagge" width="20px">Willkommen bei Madaster Deutschland!</h2>
 
-Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der **Plattform Madaster**.
+  <p>
+        Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der 
+        <strong>Plattform Madaster</strong>.
+  </p>
 
-Haben Sie noch Fragen? Sie erreichen uns per E-Mail <service@madaster.de> oder über unsere Servicehotline [+49 30 235 962 051](tel:+4930235962051).<br/>Die Hotline ist **montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr** erreichbar.
+  <p>
+        Haben Sie noch Fragen? Sie erreichen uns per E-Mail 
+        <a href="mailto:service@madaster.de">service@madaster.de</a> 
+        oder über unsere Servicehotline 
+        <a href="tel:+4930235962051">+49 30 235 962 051</a>.
+        <br/>
+        Die Hotline ist <strong>montags bis donnerstags zwischen 9 - 17 Uhr 
+        und freitags zwischen 9 - 15 Uhr</strong> erreichbar.
+  </p>
 
-Mehr über die **Madaster Germany GmbH** erfahren Sie auf unserer Webseite unter <a href="https://madaster.de" target="_blank">https://madaster.de</a>.
+  <p>
+        Mehr über die <strong>Madaster Germany GmbH</strong> erfahren Sie auf unserer Webseite unter 
+        <a href="https://madaster.de" target="_blank">https://madaster.de</a>.
+  </p>
+</div>
 
 <section class="category-tiles flex-column-center">
   <ul class="category-tiles-wrapper">

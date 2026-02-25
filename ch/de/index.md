@@ -19,14 +19,30 @@ exclude: true
   </div>
 </section>
 
-<br/>
-<h2 class="main-header">Willkommen bei Madaster!</h2>
+<div style="text-align: center;">
+    <br/>
+    <h2 class="main-header"><img src="/assets/flags/ch.svg" alt="Schweizer Flagge" width="20px">Willkommen bei Madaster Schweiz!</h2>
 
-Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der **Plattform Madaster**.
+  <p>
+        Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der 
+        <strong>Plattform Madaster</strong>.
+  </p>
 
-Haben Sie noch Fragen? Sie erreichen uns per E-Mail <info@madaster.ch> oder über unsere Servicehotline [+41 44 553 06 95](tel:+41445530695).<br/>Die Hotline ist **montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr** erreichbar.
+  <p>
+        Haben Sie noch Fragen? Sie erreichen uns per E-Mail 
+        <a href="mailto:info@madaster.ch">info@madaster.ch</a> 
+        oder über unsere Servicehotline 
+        <a href="tel:+41445530695">+41 44 553 06 95</a>.
+        <br/>
+        Die Hotline ist <strong>montags bis donnerstags zwischen 9 - 17 Uhr 
+        und freitags zwischen 9 - 15 Uhr</strong> erreichbar.
+  </p>
 
-Mehr über die **Madaster Services Switzerland AG** erfahren Sie auf unserer Webseite unter <a href="https://madaster.ch" target="_blank">https://madaster.ch</a>.
+  <p>
+        Mehr über die <strong>Madaster Services Switzerland AG</strong> erfahren Sie auf unserer Webseite unter 
+        <a href="https://madaster.ch" target="_blank">https://madaster.ch</a>.
+  </p>
+</div>
 
 <section class="category-tiles flex-column-center">
   <ul class="category-tiles-wrapper">
