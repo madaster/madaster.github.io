@@ -20,7 +20,7 @@ exclude: true
 </section>
 
 <br/>
-<h2 class="main-header"><img src="/assets/flags/at.svg" alt="Österreich Flagge" width="20px"> Willkommen bei Madaster Österreich!</h2>
+<h2 class="main-header">Willkommen bei Madaster Österreich!</h2>
 
 <div style="text-align: center;">
     Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der Plattform Madaster.

@@ -21,7 +21,7 @@ exclude: true
 
 <div style="text-align: center;">
     <br/>
-    <h2 class="main-header"><img src="/assets/flags/ch.svg" alt="Schweizer Flagge" width="20px">Willkommen bei Madaster Schweiz!</h2>
+    <h2 class="main-header">Willkommen bei Madaster Schweiz!</h2>
 
   <p>
         Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der 
