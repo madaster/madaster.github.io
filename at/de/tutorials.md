@@ -6,7 +6,7 @@ menubar: tutorials-nav
 type: Tutorials
 ---
 
-Hier finden Sie Einführungsvideos für die madaster Plattform.
+Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 
 <div style="margin-top: 60px;"></div>
 
