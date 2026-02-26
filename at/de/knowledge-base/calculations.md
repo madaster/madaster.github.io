@@ -330,8 +330,7 @@ $$CNV= TV - FC_1 - FC_2 - FC_3$$
 #### Trendwert
 
 Der Trendwert (TV) ist in der Zeitleiste für den aktuellen Monat zu finden.
-Es ist eine lineare Grafik, die durch eine Regressionsanalyse (Methode der kleinsten Quadrate) aus der Historischen Preisentwicklung (HPD) berechnet wird.
- **HPD** Die Historische Preisentwicklung (HPD) ist die Entwicklung des Letzten bekannten Wertes (PV)
+Es handelt sich um einen linearen Graphen, der mittels Regressionsanalyse (Methode der kleinsten Quadrate) aus der Historischen Preisentwicklung (HPD) berechnet wird. Die Historische Preisentwicklung (HPD) ist die Entwicklung des Aktuellen Rohstoffwertes des Preissatzes (PV).
 
 $$PV=M*LKV$$
 
