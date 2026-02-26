@@ -14,7 +14,7 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/hy3hLGQFYN4?si=J6vC_rk3EfXGN24m"
+  src="https://www.youtube.com/embed/hy3hLGQFYN4?si=gxr2QiqtxyQXnNN7"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -25,10 +25,10 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <div style="margin-top: 60px;"></div>
 
 ## 02 | Navigation und Hilfe
-<iframe
+<iframez
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/LDhghmcsNZA?si=Wu6OrEJM8ky5symz"
+  src="https://www.youtube.com/embed/LDhghmcsNZA?si=0z_hjMVN7K3TbMoo"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,7 +42,7 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/laGuGbabRv4?si=1SPNWJ05mnttiCXb"
+  src="https://www.youtube.com/embed/laGuGbabRv4?si=hsXHfv89N8aPGowg"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -56,7 +56,7 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/6ddoEDMv6X4?si=UMQ6zFPSD6FfiPFG"
+  src="https://www.youtube.com/embed/6ddoEDMv6X4?si=6vT4Xh1oPT6hUOOb"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -70,7 +70,7 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/B1bGzEE-qQE?si=gZF5YlxcgUKsppfQ"
+  src="https://www.youtube.com/embed/B1bGzEE-qQE?si=WjEBagKzVSL4OV5J"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -84,7 +84,7 @@ Hier finden Sie Einführungsvideos für die madaster FREE Plattform.
 <iframe
   width="840"
   height="473"
-  src="https://www.youtube.com/embed/Vngb97JL_nI?si=EhiUHMHkzX1gzJ5n"
+  src="https://www.youtube.com/embed/Vngb97JL_nI?si=Ae2Ek8qfnFX8VjVJ"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
