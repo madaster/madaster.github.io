@@ -3,6 +3,8 @@ title: Datenbank
 description: Datenbank - Allgemein
 ref: database
 type: FAQ
+redirect_from:
+  - platform-pages/datbase/files
 ---
 
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
