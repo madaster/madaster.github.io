@@ -55,6 +55,7 @@ In the 3D tab and in the enrichment the platform shows all propertysets of a sel
 
 ### Country specific ###
 * NL: For new Dutch buildings there is the option to generate a HNN report in the 'General' tab.
+* CH: The new version of the KBOB (2009/1:2022, Version 8.0) is available in Madaster.
 
 ### Bugfixes ###
 * QNG: C3+C4 included in LCA again
