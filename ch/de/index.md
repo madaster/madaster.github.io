@@ -75,6 +75,20 @@ exclude: true
       </a>
     </li>
     <li class="category-tile-wrapper list-unstyled">
+      <a href="./tutorials">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images_GER/Tutorial Docs.png" alt="A computer with play button on screen.">
+            </div>
+            <div class="header-wrapper">
+                <h3>Tutorials</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
       <a href="./api">
         <div class="category-tile">
           <div class="category-tile-body">

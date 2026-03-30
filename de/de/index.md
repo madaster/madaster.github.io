@@ -74,7 +74,7 @@ exclude: true
         </div>
       </a>
     </li>
-        <li class="category-tile-wrapper list-unstyled">
+    <li class="category-tile-wrapper list-unstyled">
       <a href="./tutorials">
         <div class="category-tile">
           <div class="category-tile-body">
