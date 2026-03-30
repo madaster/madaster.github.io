@@ -144,6 +144,7 @@ if (
   window.location.pathname.split('/')[3] === 'get-started' || 
   window.location.pathname.split('/')[3] === 'knowledge-base' || 
   window.location.pathname.split('/')[3] === 'resources' ||
+  window.location.pathname.split('/')[3] === 'tutorials' ||
   window.location.pathname.split('/')[3] === 'tutorials.html') 
 {
   if (window.location.pathname.split('/')[3] === 'resources') {
