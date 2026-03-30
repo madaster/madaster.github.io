@@ -8,6 +8,58 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.3 ##
+
+* Build number: 38161
+* Release date: 28th of March 2026
+
+### Showcases ###
+
+Available for all but especially for Producers and Austrian Circularity Leaders we introduced the possibility to share an object as a showcase with all users of your countries platform. Meaning every user within your country will get reading access to the published object. Our teams use it to share our **Demo models** with you. If you are interested to share insights on your object(s) please contact your local supportteam.
+
+If the feature is enabled go to the 'Users' tab of the object and click on 'Make available to all platform users'.
+<figure><img src="/assets/images/releasenotes/202603-13143-1.png" alt="Publish your object as a showcase."><figcaption>Publish your object as a showcase.</figcaption></figure>
+
+The object will appear in the navigationlist on the left of each user and a tag will mark it as 'Showcase'. This tag will also make it easier for you as the owner to recognize that it is shared.
+<figure><img src="/assets/images/releasenotes/202603-13143-2.png" alt="Tag to mark the status of an object."><figcaption>Option to revoke the publication of your object as a showcase.</figcaption></figure>
+
+### Update and new filters for system databases ###
+
+The following databases were updated:
+* ENVIRONDEC
+* IBU DATA
+* KIWA
+* MRPI
+* and ÖKOBAUDAT
+
+And if available information on
+* Functional Lifespan
+* Publication date
+* FreeClass
+* and IBUCategories
+were copied and can now be filtered for.
+
+### Individual database visible in the general tab ###
+
+Apart from being shown in the navigation list on the right, databases are now also shown in the general tab of the level they were created in, meaning on account, folder or object level.
+
+<figure><img src="/assets/images/releasenotes/202603-12354.png" alt="Databases in the general tab of an account."><figcaption>Databases in the general tab of an account, folder or object.</figcaption></figure>
+
+### Show quantitysets (IFC) ###
+
+In the 3D tab and in the enrichment the platform shows all propertysets of a selected element. Now we also included the quantitysets 'BaseQuantities' and 'Qto[...]BaseQuantities'. This offers further insight since those set often contain the geometrical information of an element. 
+
+<figure><img src="/assets/images/releasenotes/202603-13184-1.png" alt="Example quantityset in the 3D tab"><figcaption>Example for a quantityset shown in the 3D tab.</figcaption></figure>
+
+<figure><img src="/assets/images/releasenotes/202603-13184-2.png" alt="Example quantityset in the enrichment"><figcaption>Example for a quantityset shown in the enrichment.</figcaption></figure>
+
+### Country specific ###
+* NL: For new Dutch buildings there is the option to generate a HNN report in the 'General' tab.
+
+### Bugfixes ###
+* QNG: C3+C4 included in LCA again
+
+
 ## Release notes 2026.2 ##
 
 * Build number: 37547
