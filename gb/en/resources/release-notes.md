@@ -41,7 +41,7 @@ were copied and can now be filtered for.
 
 ### Individual database visible in the general tab ###
 
-Apart from being shown in the navigation list on the right, databases are now also shown in the general tab of the level they were created in, meaning on account, folder or object level.
+Apart from being shown in the navigation list on the right, databases are now also shown in the general tab of the level they were created in, meaning on account or folder level.
 
 <figure><img src="/assets/images/releasenotes/202603-12354.png" alt="Databases in the general tab of an account."><figcaption>Databases in the general tab of an account, folder or object.</figcaption></figure>
 
