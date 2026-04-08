@@ -61,7 +61,7 @@ $$
   | $L$ |Mögliche funktionelle Lebensdauer eines Produkts (Jahre)|
   | $L_{av}$	|Industriedurchschnittliche funktionelle Lebensdauer eines Produkts (Jahre)|
 
-  > Hinweis: Da keine zufriedenstellenden Daten für $L_{av}$ verfügbar sind, wird in der aktuellen MZI Berechnung $L_{av}=L$ angenommen. Somit fließt die individuelle Lebensdauer nicht in den MZI ein. </br> In vorherigen Versionen des MZI, hat Madaster stattdessen die durchschnittliche Lebensdauer einer Gebäudeschicht genutzt, aber dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen. Die aktuelle Version des MZI nutzt $F(X)=0,9$ 
+  > Hinweis: Da keine zufriedenstellenden Daten für $L_{av}$ verfügbar sind, wird in der aktuellen MZI Berechnung $L_{av}=L$ angenommen. Somit fließt die individuelle Lebensdauer nicht in den MZI ein. In vorherigen Versionen des MZI (bis zum 2023.7), hat Madaster stattdessen die durchschnittliche Lebensdauer einer Gebäudeschicht genutzt, aber dieser Ansatz wurde wegen mangelhafter Genauigkeit verworfen. Die aktuelle Version des MZI nutzt $F(X)=0,9$ 
 
 
 **Gewichtung nach Masse**
