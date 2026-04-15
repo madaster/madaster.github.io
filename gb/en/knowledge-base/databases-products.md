@@ -169,4 +169,4 @@ For example, if a component A consists of product 1 and product 2 from database 
 
 Products can also reference other products/components. However, the evaluation always mentions the name of the created product – not the name of the referenced products/components.
 
-For details see <a href="..resources/release-notes#release-notes-20257" target="_blank">Release notes 2025.7</a>.
+For details see <a href="..resources/release-notes.html#release-notes-20257" target="_blank">Release notes 2025.7</a>.
