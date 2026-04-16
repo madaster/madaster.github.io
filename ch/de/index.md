@@ -132,3 +132,67 @@ exclude: true
     </li>
   </ul>
 </section>
+
+
+<div style="
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+">
+
+  <!-- YouTube Button -->
+  <a href="https://www.youtube.com/@Madaster"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="
+       display: flex;
+       align-items: center;
+       gap: 12px;
+       padding: 14px 20px;
+       background: #ffffff;
+       border: 1px solid #e5e5e5;
+       border-radius: 10px;
+       text-decoration: none;
+       color: #2f2f2f;
+       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+       transition: all 0.2s ease;
+     ">
+
+    <img src="/assets/images_GER/youtube.svg"
+         alt="YouTube Logo"
+         style="height: 26px; width: auto; display: block;">
+
+    <span style="font-size: 16px; font-weight: 500;">
+      Webinare ansehen
+    </span>
+  </a>
+
+  <!-- Madaster Button -->
+  <a href="https://platform.madaster.com/"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="
+       display: flex;
+       align-items: center;
+       gap: 12px;
+       padding: 14px 20px;
+       background: #ffffff;
+       border: 1px solid #e5e5e5;
+       border-radius: 10px;
+       text-decoration: none;
+       color: #2f2f2f;
+       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+     ">
+
+    <img src="/assets/images_GER/Madaster_RGB.svg"
+         alt="Madaster Logo"
+         style="height: 22px; width: auto; display: block;">
+
+    <span style="font-size: 16px; font-weight: 500;">
+      Zur madaster Plattform
+    </span>
+  </a>
+
+</div>
