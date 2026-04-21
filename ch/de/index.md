@@ -65,7 +65,7 @@ Mehr über die <b>Madaster Services Switzerland AG</b> erfahren Sie auf unserer 
         <div class="category-tile">
           <div class="category-tile-body">
             <div class="img-wrapper">
-              <img src="/assets/images_GER/Tutorial Docs.png" alt="A computer with play button on screen.">
+              <img src="/assets/images/tutorials.png" alt="A computer with play button on screen.">
             </div>
             <div class="header-wrapper">
                 <h3>Tutorials</h3>
