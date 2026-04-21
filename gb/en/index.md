@@ -19,6 +19,17 @@ exclude: true
   </div>
 </section>
 
+<br>
+<h2 class="main-header">Welcome to Madaster!</h2>
+<div style="text-align: center;">
+<br>
+Here you will find all the information you need about using the <a href="https://platform.madaster.com/" target="_blank">Madaster platform</a> and about its latest developments.
+<br><br>
+Do you have any questions? Contact your <b>local supportteam</b> or send an email to <a href="mailto:service@madaster.com">service@madaster.com</a>.
+<br><br>
+Learn more about us on our website at <a href="https://madaster.com" target="_blank">https://madaster.com</a>
+</div>
+
 <section class="category-tiles flex-column-center">
   <ul class="category-tiles-wrapper">
     <li class="category-tile-wrapper list-unstyled">
@@ -50,20 +61,6 @@ exclude: true
       </a>
     </li>
     <li class="category-tile-wrapper list-unstyled">
-      <a href="./api">
-        <div class="category-tile">
-          <div class="category-tile-body">
-            <div class="img-wrapper">
-              <img src="/assets/images/api.png" alt="A multi-colored chip.">
-            </div>
-            <div class="header-wrapper">
-                <h3>API</h3>
-            </div>
-          </div>
-        </div>
-      </a>
-    </li>
-    <li class="category-tile-wrapper list-unstyled">
       <a href="./platform-pages/">
         <div class="category-tile">
           <div class="category-tile-body">
@@ -86,6 +83,20 @@ exclude: true
             </div>
             <div class="header-wrapper">
               <h3>Resources</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./api">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/api.png" alt="A multi-colored chip.">
+            </div>
+            <div class="header-wrapper">
+                <h3>API</h3>
             </div>
           </div>
         </div>
