@@ -19,29 +19,15 @@ exclude: true
   </div>
 </section>
 
+<br>
+<h2 class="main-header">Willkommen bei Madaster Deutschland!</h2>
 <div style="text-align: center;">
-    <br/>
-    <h2 class="main-header">Willkommen bei Madaster Deutschland!</h2>
-
-  <p>
-        Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der 
-        <strong>Plattform Madaster</strong>.
-  </p>
-
-  <p>
-        Haben Sie noch Fragen? Sie erreichen uns per E-Mail 
-        <a href="mailto:service@madaster.de">service@madaster.de</a> 
-        oder über unsere Servicehotline 
-        <a href="tel:+4930235962051">+49 30 235 962 051</a>.
-        <br/>
-        Die Hotline ist <strong>montags bis donnerstags zwischen 9 - 17 Uhr 
-        und freitags zwischen 9 - 15 Uhr</strong> erreichbar.
-  </p>
-
-  <p>
-        Mehr über die <strong>Madaster Germany GmbH</strong> erfahren Sie auf unserer Webseite unter 
-        <a href="https://madaster.de" target="_blank">https://madaster.de</a>.
-  </p>
+<br>
+Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der <b>Plattform Madaster</b>.
+<br><br>
+Haben Sie noch Fragen? Sie erreichen uns per E-Mail <a href="mailto:service@madaster.de">service@madaster.de</a> oder über unsere Servicehotline <a href="tel:+4930235962051">+49 30 235 962 051</a>.<br>Die Hotline ist <b>montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr</b> erreichbar.
+<br><br>
+Mehr über die <b>Madaster Germany GmbH</b> erfahren Sie auf unserer Webseite unter <a href="https://madaster.de" target="_blank">https://madaster.de</a>.
 </div>
 
 <section class="category-tiles flex-column-center">
@@ -89,20 +75,6 @@ exclude: true
       </a>
     </li>
     <li class="category-tile-wrapper list-unstyled">
-      <a href="./api">
-        <div class="category-tile">
-          <div class="category-tile-body">
-            <div class="img-wrapper">
-              <img src="/assets/images/api.png" alt="A multi-colored chip.">
-            </div>
-            <div class="header-wrapper">
-                <h3>API</h3>
-            </div>
-          </div>
-        </div>
-      </a>
-    </li>
-    <li class="category-tile-wrapper list-unstyled">
       <a href="./platform-pages/">
         <div class="category-tile">
           <div class="category-tile-body">
@@ -130,6 +102,20 @@ exclude: true
         </div>
       </a>
     </li>
+    <li class="category-tile-wrapper list-unstyled">
+      <a href="./api">
+        <div class="category-tile">
+          <div class="category-tile-body">
+            <div class="img-wrapper">
+              <img src="/assets/images/api.png" alt="A multi-colored chip.">
+            </div>
+            <div class="header-wrapper">
+                <h3>API</h3>
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
   </ul>
 </section>
 
@@ -142,7 +128,7 @@ exclude: true
 ">
 
   <!-- YouTube Button -->
-  <a href="https://www.youtube.com/@Madaster"
+  <a href="https://www.youtube.com/playlist?list=PLS17hWTtwLRT0aTgFVKFmJAhaEUnPxNm3"
      target="_blank"
      rel="noopener noreferrer"
      style="

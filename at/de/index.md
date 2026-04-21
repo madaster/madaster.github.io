@@ -21,12 +21,14 @@ exclude: true
 
 <br/>
 <h2 class="main-header">Willkommen bei Madaster Österreich!</h2>
-
 <div style="text-align: center;">
-    Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der Plattform Madaster.
+<br>
+Auf diesen Seiten finden Sie alle Informationen zur Nutzung und Weiterentwicklung der <b>Plattform Madaster</b>.
+<br><br>
+Haben Sie noch Fragen? Sie erreichen uns per E-Mail <a href="mailto:service@madaster.at">service@madaster.at</a> oder über unsere Servicehotline <a href="tel:+4313950657221">+43 1 395 065 722 1</a>.<br>Die Hotline ist <b>montags bis donnerstags zwischen 9 - 17 Uhr und freitags zwischen 9 - 15 Uhr</b> erreichbar.
+<br><br>
+Mehr über die <b>Madaster Austria GmbH</b> erfahren Sie auf unserer Webseite unter <a href="https://madaster.at" target="_blank">https://madaster.at</a>.
 </div>
-
-
 
 <section class="category-tiles flex-column-center">
   <ul class="category-tiles-wrapper">
@@ -117,7 +119,6 @@ exclude: true
     </ul>
 </section>
 
-
 <div style="
   display: flex;
   justify-content: center;
@@ -127,7 +128,7 @@ exclude: true
 ">
 
   <!-- YouTube Button -->
-  <a href="https://www.youtube.com/@Madaster"
+  <a href="https://www.youtube.com/playlist?list=PLS17hWTtwLRT0aTgFVKFmJAhaEUnPxNm3"
      target="_blank"
      rel="noopener noreferrer"
      style="
