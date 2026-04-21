@@ -36,7 +36,7 @@ Go to “Enrich” (Manual) and sort by the “Material / Product” column.
 3. **Which elements are not linked to a product dataset?**<br>
 Go to “Enrich” (Manual) and use the filter “Element status” (not linked) to see where the “Product / material” column is empty.
 
-    > <u>Note</u>: For details on elements with multiple materials or sub-elements, see <a href="../knowledge-base/work-processes.html#material-compositions-of-elements" target="_blank">Work processes</a> or in the **BIM Manual** in the <a href="../resources/downloads" target="_blank">Download section</a>.
+    > <u>Note</u>: For details on elements with multiple materials or sub-elements, see <a href="../knowledge-base/work-processes.html#material-compositions-of-elements" target="_blank">Work processes</a>.
 
     > <u>Note</u>: If you prefer to work with a **Bill of Quantities** in Excel format, you can generate one by clicking in the dossier on the relevant source file and selecting “File export <iconify-icon inline icon='mdi-file-download-outline'/>”.
 
