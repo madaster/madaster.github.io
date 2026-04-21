@@ -1,5 +1,5 @@
 ---
-title: Work porcesses
+title: Work processes
 description: Possible working methods with elements made of different materials
 ref: work-processes
 type: Knowledge Base
@@ -30,7 +30,7 @@ With a <a href="https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x
 
 You can add the <a href="../knowledge-base/preparing-bim-ifc-source-files.html#reading-the-data-fields-of-an-ifc-file" target="_blank">CPset_Madaster</a> to elements in your project and use the MaterialOrProductName and the MaterialOrProductRatio to enable the platform splitting an element into “virtual” sub-elements.
 
-For more details, please refer to our **BIM Manual** in the <a href="../resources/downloads" target="_blank">Download section</a>.
+For more details, please refer to <a href="../knowledge-base/madaster-property-set.html" target="_blank">Madaster Common Property Set</a>.
 
 #### 1.5 Model Each Material Layer Separately
 
