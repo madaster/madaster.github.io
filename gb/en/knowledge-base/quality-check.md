@@ -72,8 +72,6 @@ In the last dropdown under the KPI cards, select “Material/Product” – the 
 
 > <u>Note</u>: With the “3D Insights” feature, you can also track these findings via corresponding colour coding of elements in the 3D model (requires an ifc source file).
 
-> *Internal note: Does not apply to sub-elements due to modelled layers. [Azure Board](https://dev.azure.com/Madaster/Madaster/_boards/board/t/Madaster%20Team/Backlog%20items?text=3d&workitem=12688)*
-
 ### Circularity (e.g. recyclability and dismantlability)
 
 In the circularity tab, you can display all linked products under the KPI cards in the “Material/Product” dropdown. The sorting criterion can be set via the second dropdown.
