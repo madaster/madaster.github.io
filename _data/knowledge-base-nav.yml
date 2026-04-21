@@ -8,6 +8,7 @@
     - ref: preparing-bim-ifc-source-files
     - ref: madaster-property-set
     - ref: work-processes
+    - ref: enrichment
     - ref: databases
     - ref: databases-products
     - ref: calculations
