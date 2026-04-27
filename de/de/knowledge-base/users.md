@@ -77,6 +77,10 @@ Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) f
 
 > Hinweis zu **geteilten Zugänge**: Zugänge sind personengebunden und die gemeinsame Nutzung ist nicht zulässig. Wurde ein Zugang bislang geteilt, sind zusätzliche Nutzer im Account anzulegen und mit passenden Rechten auszustatten (Benutzerverwaltung).
 
+**Noch offene Fragen zur Multi-Faktor-Authentifizierung (MFA)?**
+
+Antworten auf häufig gestellte Fragen zur madaster MFA findest du in unseren <a href="https://madaster.de/mfa-faq/" target="_blank">FAQs zur Multi-Faktor-Authentifizierung</a>.
+
 ## API token hinzufügen
 
 Mehr Informationen zur API finden Sie <a href="../api/" target="_blank">hier</a>.
