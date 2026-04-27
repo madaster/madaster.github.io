@@ -1,6 +1,6 @@
 ---
-title: Verwaltung
-description: Verwaltung
+title: Informationen
+description: Informationen
 ref: information
 type: FAQ
 redirect_from:
