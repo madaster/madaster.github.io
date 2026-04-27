@@ -20,7 +20,7 @@ Hier finden Sie die Material- und Produktdatenbanken, die den Madaster-Benutzern
 Hier finden Sie eine detaillierte Übersicht über die für Ihr Land bekannten Klassifikationsstrukturen (z.B. DIN 276-1 2008-12, DIN 276:2018-12 und Omniclass) und wie die Codes der jeweiligen Klassifikation den Gebäudeschichten zugeordnet werden.
 
 ### Materialfamilien
-Hier finden Sie eine detaillierte Übersicht über die verfügbaren Materialklassifizierungen und welche Preissätze für die einzelnen Materialfamilien genutzt werden.
+Hier finden Sie eine detaillierte Übersicht über die verfügbaren Materialklassifizierungen und welche Preissätze für die einzelnen Materialfamilien genutzt werden. Die aktuelle ZuordnungKlassifizierung ist die NL-SfB.
 
 ## Nicht gefunden, was Sie suchen?
 Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
