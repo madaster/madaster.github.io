@@ -72,9 +72,13 @@ Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) f
 
 **Du hast dein Handy oder Gerät verloren?**
 * Firmenkonto: MFA durch die interne IT zurücksetzen lassen.
-* Persönliches Konto: Support kontaktieren (service@madaster.de) zur Identitätsprüfung und zum Zurücksetzen der MFA.
+* Persönliches Konto: Support kontaktieren (service@madaster.at) zur Identitätsprüfung und zum Zurücksetzen der MFA.
 
 > Hinweis zu **geteilten Zugänge**: Zugänge sind personengebunden und die gemeinsame Nutzung ist nicht zulässig. Wurde ein Zugang bislang geteilt, sind zusätzliche Nutzer im Account anzulegen und mit passenden Rechten auszustatten (Benutzerverwaltung).
+
+**Noch offene Fragen zur Multi-Faktor-Authentifizierung (MFA)?**
+
+Antworten auf häufig gestellte Fragen zur madaster MFA findest du in unseren <a href="https://madaster.at/mfa-qa/" target="_blank">FAQs zur Multi-Faktor-Authentifizierung</a>.
 
 ## API token hinzufügen
 
