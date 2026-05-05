@@ -8,6 +8,54 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.4 ##
+
+* Build number: 39222
+* Release date: 4th of May 2026
+
+### Changes ###
+
+* Comments searchable in enrichment; if there is a comment on your element you can now search on it in enrichment. The whole comment is searchable:
+
+<figure><img src="/assets/images/releasenotes/202604-13302-1.png" alt="Search results with comments searchable."><figcaption>Search results with comments searchable.</figcaption></figure>
+
+* Sankey in PNG; it is now possible to export the Sankey diagram from the building process table in .png. This is available for both Sankey diagrams.
+
+<figure><img src="/assets/images/releasenotes/202604-13233-1.png" alt="The export button on a Sankey diagram."><figcaption>The export button on a Sankey diagram.</figcaption></figure>
+
+* Copy paste rows or tables on environmental information on a product; if you have the environmental information of a product in a table (from an excel or a webpage like the product information on Okobaudat) you can now copy a whole row or table at once in the platform. It is now also possible when editing the data to hide columns or to empty them. When hiding there is the option to unhide as well. When copy pasting, keep in mind that the number of columns need to match.
+
+<figure><img src="/assets/images/releasenotes/202604-13325-1.png" alt="The new options to hide or unhide columns, as well as emptying a column."><figcaption>The new options to hide or unhide columns, as well as emptying a column.</figcaption></figure>
+
+<figure><img src="/assets/images/releasenotes/202604-13325-2.png" alt="Copying a whole table from a webpage."><figcaption>Copying a whole table from a webpage.</figcaption></figure>
+
+* Default element phase has been added to the upload presets; this was already possible in the regular upload of a building file.
+
+* For IFC v2 exports from Archicad we will now strip the prefix from the material properties in case the prefix is identical to the material name so that if you want to map the property in for example your upload settings you have a singular reference which works.
+
+### Country specific ###
+
+* For the Netherlands a dashboard has been added for Het Nieuwe Normaal:
+
+<figure><img src="/assets/images/releasenotes/202604-13070-1.png" alt="The new dashboard for 'het nieuwe normaal'."><figcaption>The new dashboard for 'het nieuwe normaal'.</figcaption></figure>
+
+* For the UK the infrastructure preview feature has been made available as well as some additional infrastructure objects
+
+<figure><img src="/assets/images/releasenotes/202604-13317-1.png" alt="The infrastructure preview feature."><figcaption>The infrastructure preview feature.</figcaption></figure>
+
+<ul>The additional objects are categorized as "Electricity Infrastructure" with options for "Converter station" and "Switch station":</ul>
+
+<figure><img src="/assets/images/releasenotes/202604-13317-2.png" alt="The new energy infrastructure options."><figcaption>The new energy infrastructure options.</figcaption></figure>
+
+<ul>Additionally, the fields on the "power cable" have been changed.</ul>
+
+* For Germany the default compliance has been changed to 15978 A2 when opening the environmental screen.
+
+### Bugfixes ###
+
+* The number of elements as shown in the mass tab would not always be correct; this has been fixed.
+* When inputting environmental data on a product the number would incorrectly be rounded in case of 6 decimals; this has been fixed.
+
 
 ## Release notes 2026.3 ##
 
