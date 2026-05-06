@@ -11,13 +11,11 @@ menubar: resources-nav
 
 <a href="/files/de/Madaster - Produkte hinzufügen.pdf" target="_blank">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
 
-<a href="/files/de/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
-
 <a href="/files/de/madaster GER_Supportannex_Juli 2024.pdf" target="_blank">Supportannex</a> (Stand 04.07.2024) - Dieses Dokument gibt einen Überblick, welche Supportmöglichkeiten Madaster Germany den Nutzenden der Plattform anbietet.
 
 ## BIM
 
-<a href="/files/de/madaster DACH_BIM Handbuch.pdf" target="_blank">Madaster BIM-Handbuch</a> (Stand 27.03.2026) - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM (Revit, ArchiCAD, AllPlan).
+<a href="/files/de/madaster GER_BIM Anleitung.pdf" target="_blank">Madaster BIM-Handbuch</a> (Stand 20.03.2026) - Beschreibung der Verarbeitung von IFC-Dateien innerhalb der Madaster-Plattform in Bezug auf geometrische Eigenschaften, Klassifizierungscodierung, Konstruktionsphasen und Materialverwendung. Es enthält außerdem Informationen zum Pset_Madaster sowie den Exporteinstellung aus BIM (Revit, ArchiCAD, AllPlan).
 
 <a href="/files/de/Madaster BIM IFC Richtlinien_Oktober 2025.pdf" target="_blank">Madaster BIM/IFC-Richtlinien</a> (Stand 15.10.2025) - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 
@@ -30,11 +28,14 @@ menubar: resources-nav
 * MadasterPropertyMapping
 
 ### Revit
-<a href="/files/de/2025-09-22 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2025-09-22 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 22.09.2025) - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Revit
-* 250922_01_Revit shared parameter file_Madaster
-* 250922_02_User Defined cPropertySet_Madaster
+<a href="/files/de/2026-04-30 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2026-04-30 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 30.04.2026) - enthält die im "Madaster BIM-Handbuch" beschriebenen Hilfsdateien für Revit
+* 250718_01_Revit shared parameter file_Madaster
+* 250718_02_User Defined cPropertySet_Madaster
 * IFC-Konfiguration Revit - Madaster Export
 * Revit_Baugruppenkennzeichen-nach-DIN276-V3
+
+> **Hinweis:** Die Revit‑Madaster‑Hilfsdateien wurden aktualisiert; die bisherigen Versionen funktionieren weiterhin, dürfen jedoch nur untereinander kombiniert werden, ebenso wie die neuen Versionen, sodass alte (2025-09-22) und neue Dateien (2026-04-30) nicht miteinander gemischt werden sollten.
+
 
 ### ArchiCAD
 <a href="/files/de/2025-09-23 madaster GER_ArchiCAD.zip" target="_blank">ZIP-Ordner ArchiCAD </a> (Stand 23.09.2025)- enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für ArchiCAD
@@ -48,3 +49,8 @@ menubar: resources-nav
 ## EPEA
 
 <a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste </a> (Stand 25.06.2024) - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+> **Hinweis:** Sollten Sie beim Download eine Fehlermeldung "Diese Arbeitsmappe konnte nicht geladen werden" erhalten, dann finden Sie die Datei im Download-Bereich des geöffneten Browsers.
+
+<a href="/files/de/Circular & LCA Library by EPEA (DACH).xlsx" target="_blank">Circular & LCA Library by EPEA </a> (Stand 14.04.2026) - 
+In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+> **Hinweis:** Die **Circular & LCA Library by EPEA** ist die aktualisierte Verison der **EPEA Generic**, die seit Release 2026.3 verfügbar ist. In der Downloaddatei ist ein Abgleich von Neu zu Alt im Tabellenblatt "Übersetzungen".
