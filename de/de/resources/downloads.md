@@ -7,11 +7,19 @@ menubar: resources-nav
 ---
 
 ## Allgemein
+
+<a href="/files/de/2604_Madaster_DACH_Willkommen.pdf" target="_blank">Onboarding neue Nutzer</a> (Stand 04.2026) – Überblick über die Plattform madaster sowie die Supportangebote von uns für Sie als Nutzende.
+
 <a href="/files/de/Madaster - Benutzerhandbuch.pdf" target="_blank">Madaster Benutzerhandbuch</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
 
 <a href="/files/de/Madaster - Produkte hinzufügen.pdf" target="_blank">Madaster Handbuch für Produkte</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
 
-<a href="/files/de/madaster GER_Supportannex_Juli 2024.pdf" target="_blank">Supportannex</a> (Stand 04.07.2024) - Dieses Dokument gibt einen Überblick, welche Supportmöglichkeiten Madaster Germany den Nutzenden der Plattform anbietet.
+<div style="margin-top: 20px;"> </div>
+
+### Hersteller
+<a href="/files/at/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+
+<div style="margin-top: 40px;"> </div>
 
 ## BIM
 
@@ -20,6 +28,11 @@ menubar: resources-nav
 <a href="/files/de/Madaster BIM IFC Richtlinien_Oktober 2025.pdf" target="_blank">Madaster BIM/IFC-Richtlinien</a> (Stand 15.10.2025) - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 
 <a href="/files/de/BIM Basis Informations-Lieferungs-Handbuch_2024.pdf" target="_blank">BIM Basis Informations-Lieferungs-Handbuch</a> (Stand 2024) - Beinhaltet interessante allgemeine Informationen über BIM.
+
+<div style="margin-top: 40px;"> </div>
+
+## Programme
+<div style="margin-top: 20px;"> </div>
 
 ### Allplan
 <a href="/files/de/2025-06-28 madaster GER_Allplan.zip" target="_blank">ZIP-Ordner Allplan</a> (Stand: 28.06.2025) - enthält die im "Madaster BIM-Handbuch" beschriebenen Dateien für Allplan 
@@ -42,9 +55,13 @@ menubar: resources-nav
 * 20250923_02_Archicad common propertyfile_madaster_en
 * Madaster_Archicad Classification DIN 276_2018-12
 
+<div style="margin-top: 40px;"> </div>
+
 ## Excel
 
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template</a> gemäß "DIN 276:2018-12" für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+
+<div style="margin-top: 40px;"> </div>
 
 ## EPEA
 

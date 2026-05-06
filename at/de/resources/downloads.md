@@ -7,12 +7,16 @@ menubar: resources-nav
 ---
 
 ## Handbücher
+
+<a href="/files/de/2604_Madaster_DACH_Willkommen.pdf" target="_blank">Onboarding neue Nutzer</a> (Stand 04.2026) – Überblick über die Plattform madaster sowie die Supportangebote von uns für Sie als Nutzende.
+
 <a href="/files/at/Madaster - Benutzerhandbuch_AT.pdf" target="_blank">Madaster Benutzerhandbuch (Stand: 31.10.2024)</a> – Dieses Handbuch beschreibt im Detail die Funktionalitäten der Madaster-Plattform und wie sie angewendet werden können.
 
 <a href="/files/at/Madaster - Produkte hinzufügen_AT.pdf" target="_blank">Madaster Handbuch für Produkte (Stand: 31.10.2024)</a> – Dieses Dokument beschreibt im Detail, wie verschiedene Produkttypen in Madaster hinzugefügt werden.
 
-Hier finden Sie den Report <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> der beschreibt, wie die einheitliche Bewertungsmethode für die Demontierbarkeit funktioniert.
+<div style="margin-top: 20px;"> </div>
 
+### Hersteller
 <a href="/files/at/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
 
 <div style="margin-top: 40px;"> </div>
@@ -23,13 +27,6 @@ Hier finden Sie den Report <a href="/files/at/DGBC_Disassembly Potential Measure
 <a href="/files/at/Madaster BIM IFC Richtlinien_Oktober 2025.pdf" target="_blank">Madaster BIM-Richtlinien</a> - In diesen Richtlinien sind kurz die wichtigsten Hinweise zur Erstellung eines BIM-Modells beschrieben.
 
 <a href="/files/de/BIM basis ILS_infographicA4_German.pdf" target="_blank">BIM loket</a> - Beinhaltet interessante allgemeine Informationen über BIM.
-
-<div style="margin-top: 40px;"> </div>
-
-## EPEA
-<a href="/files/at/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
-
-Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" target="_blank">Datenbankbeschreibung zur EPEA Datenbank</a> - die von Experten geprüfte und von der EPEA verifizierte Datenbank basierend auf einer Kombination aus EPDs und anderer wissenschaftlicher und öffentlicher Literatur. Diese Datenbank wird auf Madaster zu Verfügung gestellt.
 
 <div style="margin-top: 40px;"> </div>
 
@@ -54,7 +51,19 @@ Hier finden sie die <a href="/files/at/EPEA_Generic_Dataset_Description.pdf" tar
     <li>IFC-Konfiguration Revit - Madaster Export</li>
 </ul>
 
-### Excel
-<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/d03edfe3-01d6-4b4c-a68f-b3c78af051ea/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2009</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+<div style="margin-top: 40px;"> </div>
 
-<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de-at/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2022</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+## Excel
+
+<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de/at" target="_blank">Excel-Template</a> gemäß "ÖNORM B 1801-1 für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+
+<div style="margin-top: 40px;"> </div>
+
+## EPEA
+
+<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste </a> (Stand 25.06.2024) - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+> **Hinweis:** Sollten Sie beim Download eine Fehlermeldung "Diese Arbeitsmappe konnte nicht geladen werden" erhalten, dann finden Sie die Datei im Download-Bereich des geöffneten Browsers.
+
+<a href="/files/de/Circular & LCA Library by EPEA (DACH).xlsx" target="_blank">Circular & LCA Library by EPEA </a> (Stand 14.04.2026) - 
+In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+> **Hinweis:** Die **Circular & LCA Library by EPEA** ist die aktualisierte Verison der **EPEA Generic**, die seit Release 2026.3 verfügbar ist. In der Downloaddatei ist ein Abgleich von Neu zu Alt im Tabellenblatt "Übersetzungen".
