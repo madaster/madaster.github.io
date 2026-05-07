@@ -61,9 +61,9 @@ menubar: resources-nav
 
 ## EPEA
 
-<a href="/files/de/Epea_Generic.xlsx" target="_blank">EPEA Material-/Produktliste </a> (Stand 25.06.2024) - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
+<a href="/files/de/Circular & LCA Library by EPEA (DACH).xlsx" target="_blank">Circular & LCA Library by EPEA </a> (04.05.2026) - 
+In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen Datenbank **Circular & LCA Library by EPEA** enthalten sind.
 > **Hinweis:** Sollten Sie beim Download eine Fehlermeldung "Diese Arbeitsmappe konnte nicht geladen werden" erhalten, dann finden Sie die Datei im Download-Bereich des geöffneten Browsers.
 
-<a href="/files/de/Circular & LCA Library by EPEA (DACH).xlsx" target="_blank">Circular & LCA Library by EPEA </a> (Stand 14.04.2026) - 
-In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen EPEA-Datenbank enthalten sind.
-> **Hinweis:** Die **Circular & LCA Library by EPEA** ist die aktualisierte Verison der **EPEA Generic**, die seit Release 2026.3 verfügbar ist. In der Downloaddatei ist ein Abgleich von Neu zu Alt im Tabellenblatt "Übersetzungen".
+<a href="/files/de/EPEA_Generic_2022 with mapping to new version.xlsx" target="_blank">EPEA Generic 2022</a> - In dieser Excel finden Sie alle Materialien und Produkte, die in der generischen Datenbank **EPEA Generic 2022** enthalten sind.
+> **Hinweis:** Ab dem Release 2026.4 wird die **EPEA Generic 2022** nicht mehr aktualisiert! Bitte nutzen Sie stattdessen die neue und aktualisierte Version **Circularity & LCA Library by EPEA** – diese ersetzt die bisherige Datenbank. Für laufende Projekte bleibt die alte Version EPEA Generic 2022 weiterhin nutzbar. Die Downloaddatei im Tabellenblatt "Produkt" enthält eine Zuordnung der Datensätze von der alten zur neuen Version.
