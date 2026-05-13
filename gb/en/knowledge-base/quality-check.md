@@ -1,5 +1,5 @@
 ---
-title: Quality Control and Quality Management
+title: Quality control and Quality management
 description: Finale check on completed projects
 ref: quality-check
 type: Knowledge Base

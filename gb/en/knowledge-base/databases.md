@@ -8,69 +8,103 @@ menubar: knowledge-base-nav
 
 Database configuration, sourcing and maintenance.
 
-Madaster distinguishes 3 types of Databases: 
-  * Verified databases, 
-  * Supplier databases, 
-  * Customer databases: a customer can create its own databases of product to be used in its buildings.
+## Available databases
 
-## Existing Databases
+Madaster distinguishes between 3 types of databases, which are listed in the left-hand navigation list <iconify-icon inline icon='mdi-menu'/> under <iconify-icon inline icon='mdi-database-cog-outline'/> **System databases & suppliers**: 
 
-System and Supplier specific databases are found on the left side navigation, at the bottom, behind the expandable **System databases & Suppliers**. 
-* System or verified databases: e.g. EPEA, Ökobaudat <iconify-icon inline icon='mdi-database-check-outline'/> 
-  <a href='../../../files/en/EPEA_Generic.xlsx' target='_blank'>EPEA Excel for download</a>
-* Supplier databases: constantly growing.  <iconify-icon inline icon='mdi-database' /> 
-* Individual user Databases
-* History: Madaster and Madaster C2C
+1. **Verified / System databases** <iconify-icon inline icon='mdi-database-check-outline'/> <br>Madaster is connected to various official data sources provided by officials from different countries, e.g. Eco-Platform, EPEA, KBOB, Nationale Millieu Database, Ökobaudat. <br>*Madaster and Madaster C2C where the first databases the platform offered to our founding partners. Since those only contain very limited material information we recommend to switch to other databases (e.g. the ones from EPEA).
+2. **Supplier databases** <iconify-icon inline icon='mdi-database'/> <br>Provide product information straigth from the Producers themselves.
+3. **Account databases** <br>These individual customer databases are created within the respective accounts for each user's own projects and are not publicly accessible.
 
-## Database at different levels (account / folder / building)
+## Creating Databases
 
-The account/folder type structure in Madaster is flexible and can be set-up according to own preferences. The platform allows several folders per account, which may contain subfolders or buildings/infra objects. To support this structure in terms of materials and products, it is possible to create and use one or multiple databases, on each level (account, folder, project/object) within the own account.
+### Supplier
+Manufacturer can add a **New database <iconify-icon inline icon='mdi-plus'/>** directly in the Supplier tab of their account.
 
-1. Database at account level 
-  * A database on this level can be used by all underlying folder levels and projects/objects within the account. The database can also be shared with other accounts.
-2. Database at folder level
-  * A database on this level can only be used by projects/objects in the selected folder and underlying levels. The database can also be shared with other accounts.
-3. Database at project/object level 
-  * A database on this level can only be used by the selected project/object. The database CANNOT be shared with other accounts. 
+### User
+Account databases for **normal users** can be added at each level within the own account (account / folder / object) since the account structure in Madaster is flexible and customizable to suit your preferences. The platform allows several folders per account, which may contain subfolders or buildings/infra objects. To support this structure in terms of materials and products, it is possible to create and use one or multiple databases.
+
+1. Database at **account level <iconify-icon inline icon='mdi-briefcase-variant'/>** <br>A database on this level can be used by all underlying folder levels and objects within the account. The database can also be <a href="../get-started/create-your-own-databases-with-custom-materials-and-products#share-databases-with-other-accounts-folders-buildings" target="_blank">shared with other accounts</a>.
+2. Database at **folder level <iconify-icon inline icon='mdi-folder-outline'/>** <br>A database on this level can only be used by objects in the selected folder and underlying levels. The database can also be <a href="../get-started/create-your-own-databases-with-custom-materials-and-products#share-databases-with-other-accounts-folders-buildings" target="_blank">shared with other accounts</a>.
+3. Database at **object level <iconify-icon inline icon='mdi-office-building'/> <iconify-icon inline icon='mdi-wall'/> <iconify-icon inline icon='mdi-bridge'/> <iconify-icon inline icon='mdi-sprout'/> <iconify-icon inline icon='mdi-road-variant'/> <iconify-icon inline icon='mdi-pipe'/> <iconify-icon inline icon='mdi-train'/>** <br>A database on this level can only be used by the selected object/project. This database CANNOT be shared with other accounts.
+
+Users can add a **New database <iconify-icon inline icon='mdi-database-plus-outline'/>** directly at each level in General tab.
+
+## Database configuration
+
+### User
+The configuration options for **account databases** are limited to
+* give a name, logo and description
+* decide whether it should be set as default selected database on upload
+* decide whether inactive products should be shown by default in the database overview
+* decide whether to use the product names as search criterion <br>for the automatic mapping on upload
+* decide whether it should be restricted to selected input databases for the creation of <a href="../knowledge-base/databases-products.html#difference-between-products-and-components" target="_blank">components</a>.
+
+### Supplier
+Manufacturer databases serve a different purpose and therefor differ in the options or properties to configure.
+
+<figure><img src="/assets/images/knowledgebase/database_properties.png" alt="Edit database properties"><figcaption>Edit database properties</figcaption></figure>
+
+* Give a name, logo and description <br>either in a language that is valid globally <iconify-icon inline icon='mdi-earth-off'/> or differ according to the platform's language settings <iconify-icon inline icon='mdi-earth'/>.
+* Decide whether inactive products should be shown by default in the database overview. <br>*In active products could be dataset were the EPD is expired or a new productversion is on the market. Those might not be available anymore but still built in in existing buildings/objects.*
+* Decide whether to use the product names as search criterion <br>for the automatic mapping on upload.
+* Decide whether it should be restricted to selected input databases for the creation of <a href="../knowledge-base/databases-products.html#difference-between-products-and-components" target="_blank">components</a>.
+
+If the feature **Track&Trace** is enable within your account you can decide how you want your product data to be shared. Only if the information is provided will it be possible to track your products in the T&T module.
+* **Open** = Madaster users can link product information to the elements in their objects without having to share information about their objects in return.
+* **Sharing with optout** =  Madaster users can link product information to the elements in their objects, but have to actively choose if they want to share information about their objects in return.
+* **Datasharing** = Madaster users can only link product information to the elements in their objects if they share information about their objects in return (esp. location of the object, amount of the product, date of placement). 
+<br>This option allows you to enter a license agreement that explains to users how the object data they share will be used.
+
+Next is a set of checkboxes, all regarding the Product Information of the products in your database. You can set whether or not the users: 
+* may see a **Bill of Materials**
+* can see the **Circularity tab**
+* can see the **Environmental tab**
+* can see the **Financial tab**
+* can see the **Product files**
+* can use the product in their own Bill of Materials <br>*to e.g. create a multi layered product or component in their own database.*
+* can copy all product information in their own database <br>*to e.g. create a product similar to yours or to enter some discrepancies.*
+
+Finally, you decide when —or whether— you want to make the database available to all platform users in which countries. (For example, where are your products’ EPD data recognized as valid?)
+
+The database configuration can be adjusted at any time in the Database tab using the button **Edit database properties <iconify-icon inline icon='mdi-pencil-outline'/>**.
+
+## Products
+
+For detailed information about products please see the <a href="../knowledge-base/databases-products.html" target="_blank">Products page</a>.
+
+> Note: Your database should be maintained on a regular base to make sure your products are still up to date. The information coming from your database will help keeping the calculations and information on objects of high quality.
+
+### Adding products
+The database and its products can be filled in various ways, e.g. manually, via an API, via an excel, via copying information or soon via AI upload. For detailed information see <a href="../knowledge-base/databases-products#Adding Products to databases" target="_blank">here</a>.
+
+The following product information is valuable in the context of the platform’s analyses:
+
+1. Product information (name, type, service life, density, functional unit, composition)
+2. Circularity (material origin, detachability, material recovery)
+3. Environment (environmental information according to EPD)
+4. Search criteria (for automatic matching with specific material/product descriptions)
+5. Financial (rates for transportation and refurbishment costs)
+
+This configuration allows you to create both monolithic products and multilayer products (e.g. Products with a Bill of Materials or Components).
+
+### View, edit, and delete products
+For existing products there are various customization options are available via the database overview. 
+1. Edit product <iconify-icon inline icon='mdi-pencil-outline'/>
+2. Delete product <iconify-icon inline icon='mdi-delete-outline'/>
+3. Create a new version of the product <iconify-icon inline icon='mdi-content-duplicate'/>
+4. View product <iconify-icon inline icon='mdi-arrow-right-circle-outline'/>
+5. Expand condensed product information <iconify-icon inline icon='mdi-chevron-down'/>
+
+## Import/Export Database
+
+Once this feature is enabled, you can import or export products and materials from a database using an Excel template. In the Dossier tab simply click in the toolbar **Import/Export** <iconify-icon inline icon='mdi-swap-vertical'/> and choose before clicking OK.
 
 ## User permission
 
-1. **Contributors** can add and modify materials and products in database on the platform
-2. **Administrators** can additionally manage users and share the database with additional accounts
+1. **Contributors** can add and modify products in database on the platform.
+2. **Administrators** can additionally manage users and share the database with additional accounts.
 
 ## Add API Token
 
-1. For more information on using the Madaster API, visit our <a href="../api/index.md" target="_blank">API Documentation</a>
-
-## Product information
-
-Please see <a href="../knowledge-base/databases-products" target="_blank">here</a>.
-
-## Database configuration
-When you have a database under an account or object, the properties are limited in what you can configure: a simple name, description, language and if it should be selected on upload. But when you are editing a supplier database, there a lot more options or properties to configure:
-
-![Database_properties](../../../assets/images/knowledgebase/database_properties.png)
-
-First of you can choose how your products are shared within the Madaster platform:
-- **Open** : Madaster users can use the products in their buildings and do not share information back
-- **Sharing with optout** : Madaster users can use the products in their buildings and choose whether they want to share information back.
-- **Datasharing** : Madaster users can use the products in their buildings. Location, Amount, Date of placement will be shared back in the Track & Trace module of the producer
-And with this choice, you can set a license text for the users of the products in your database. 
-
-Next is a set of checkboxes, all regarding the Product Information of the products in your database. You can set whether or not the users: 
-- can see the **Bill of Materials**
-- can see the **Circularity tab**
-- can see the **Environmental tab**
-- can see the **Financial tab**
-- can see the **Product files**
-- can use the product in their own Bill of Materials
-- can copy all product information in their own database
-
-Last things to configure is the countries for which you want to be available and check if the database is available for all Madaster customers in these countries.
-
-## Database sourcing
-The database and its products can be filled in manually, as described above. Another possibility is upload by Excel file or through the API programmatically. For these sources you can find more information at [Api reference](../api/index.md).
-
-## Database maintenance
-Your database should be maintained on a regular base, make sure your products are still up to date and your files are still good. The information coming from your database will help keeping the calculations and information of other objects and buildings, not only your own, of high quality.
-
+For more information on how to add a Token and use the Madaster API, visit our <a href="../api/index.md" target="_blank">API Documentation</a>
