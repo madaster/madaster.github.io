@@ -120,10 +120,25 @@ exclude: true
         </div>
         <div class="resource-item-right">
           <h3>
-            Work processes
+            Multi-material elements
           </h3>
           <p>
-            Possible working methods with elements made of different materials
+            Processing options for elements made of multiple materials
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/enrichment">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/enrichment.png" alt="A cube added by small elements.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Enrichment
+          </h3>
+          <p>
+            Tips for the enrichment process
           </p>
         </div>
       </div>
@@ -195,10 +210,10 @@ exclude: true
         </div>
         <div class="resource-item-right">
           <h3>
-            Quality check
+            Quality control and quality management
           </h3>
           <p>
-            Finale check on completed projects
+            The finale check on completed projects
           </p>
         </div>
       </div>
