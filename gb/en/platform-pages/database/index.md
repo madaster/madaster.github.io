@@ -13,7 +13,7 @@ On this page you will find all the products contained in the selected database.
 
 In the case of the database belonging to a full object archive you will find all products that are linked to the elements in the archived object.
 
-> Note: Further in formation can be found in our <a href="../knowledge-base/databases.html" target="_blank">Knowledgebase under Databases</a>.
+> Note: Further information can be found in our <a href="../knowledge-base/databases.html" target="_blank">Knowledgebase under Databases</a>.
 
 ## Navigation tabs
 
