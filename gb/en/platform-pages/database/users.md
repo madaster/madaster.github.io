@@ -1,5 +1,5 @@
 ---
-title: Database Users
+title: Database - Users
 ref: database-users
 type: Platform Pages
 menubar: platform-pages-nav
@@ -30,5 +30,5 @@ Admin                                            | Mange  | Above + Manage datab
 ### The toolbar
 
 **Users**
-- Add user; add a user or invite a new user.
+- Add user; add an existing user or invite a new user.
 - Add API token; generate an API token to invite a system as a user.

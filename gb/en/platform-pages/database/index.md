@@ -8,26 +8,30 @@ redirect_from:
 ---
 
 ## What information is shown here?
-On this page you will find all products that are present in the selected database, 
-In the case of the database of an full building archive: you will find all products that are linked to the elements in the archived building.
 
+On this page you will find all the products contained in the selected database.
+
+In the case of the database belonging to a full object archive you will find all products that are linked to the elements in the archived object.
+
+> Note: Further in formation can be found in our <a href="../knowledge-base/databases.html" target="_blank">Knowledgebase under Databases</a>.
 
 ## Navigation tabs
-**database**: This is where the materials, products and database properties can be processed..
 
-**[Users](./users.md)**: users or API tokens can be added here.
+**Database** - This is where the materials and products as well as database properties can be processed.
 
-**[Shared with](./availabilities.md)**: here this database can be shared with other accounts, folders and/or buildings.
-**Dossier**: only available if the databse import/export feature is activated. Here you can export/import the database to/from an excel file .
+**[Users](./users.md)** - Users or API tokens can be added here.
 
-### The toolbar -  under the navigation tabs
+**[Shared with](./availabilities.md)** - This database can be shared with other accounts, folders and/or objects.
+
+**Dossier** - Only visible if the database import/export feature is activated; here you can export or import the database to or from an excel file.
+
+## The toolbar -  under the navigation tabs
 
 - Edit database properties; change the name of the database and set whether this database should be set as default in the upload process;
 - Delete database; delete this database; Only possible if no products are linked to this database;
 - Add product; add a new product to this database.
 
 ## Main screen
-
 
 ### Left margin
 On the left hand side you will find a 'search' filter at the top. This allows you to search for a name or number in the database.
