@@ -35,8 +35,10 @@ You can filter on products that have environmental information in the selected c
 ### Status
 You can filter between active or inactive products. 
 
-### Material Families (Madaster V2)
-You can filter for products that have a certain material family or even sub family. For instance if you are looking for a product in the Timber family, You select 'I - Wood' and then the subfamilies are shown so you can select 'I1 - Timber'. 
+### Material Families
+You can filter for products that have a certain material family or even sub family. The main classification follows the NL-SfB.
+
+For instance if you are looking for a product in the Timber family select 'I - Wood' and then the subfamilies are shown so you can select 'I1 - Timber'. 
 
 ### Other filters
 There are more filters you can select, for instance based on your location or specific subscription. Use what you need to find your products. 
