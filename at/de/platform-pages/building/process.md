@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
-Die hier gezeigten Informationen basieren auf den aktiven Quelldateien, die mit diesem Gebäude hochgeladen wurden. Weitere Informationen finden Sie in unseren <a href="/de/de/get-started/object-insights-and-performance.html#bauprozess" target="_blank">Ersten Schritten - Bauprozess</a>
+Die hier gezeigten Informationen basieren auf den aktiven Quelldateien, die mit diesem Gebäude hochgeladen wurden. Weitere Informationen finden Sie in unseren <a href="/at/de/get-started/object-insights-and-performance.html#bauprozess" target="_blank">Ersten Schritten - Bauprozess</a>
 
 
 ### Bauprozessphasen
@@ -26,4 +26,4 @@ Die hier gezeigten Informationen basieren auf den aktiven Quelldateien, die mit 
 
 
 ## Nicht gefunden, was Sie suchen?
-Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/de/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
+Falls Ihre Frage nicht beantwortet werden konnte, besuchen Sie unsere <a href="/at/de/" target="_blank">Home-Seite der Madaster Docs</a>. Über die Suchleiste werden Sie zu den Antworten geleitet, die Sie suchen.
