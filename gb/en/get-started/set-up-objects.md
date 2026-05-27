@@ -10,13 +10,10 @@ Create new objects, prepare and upload source files, and select classification m
 
 ## Create a new object
 
-1. From the folder-level under the **General** tab, select **New Object**, then select one of the options in the dropdown menu, for example: **Building** or **Urban Mining Screener**.
+1. From the folder-level under the **General** tab, select **New object <iconify-icon inline icon='mdi-plus-circle-outline'/>** and select one of the options in the dropdown menu, for example **<iconify-icon inline icon='mdi-office-building'/> Object** or **Urban Mining Screener**.
    > Note: If this button is not visible, a folder of the right type must first be created. The default settings for Region, Municipality, Area, Company, and Subsidiary **Folder Types** prohibit adding buildings directly within them. Review and edit your **Folder types and folder structure** if necessary.
-1. After creating a new object, click on **Edit building** and add building information, including **Address**, **Usage**, **Gross surface Area**, **Building Phase**, **Delivery Date**, **Cadaster Information** on the main tab.
-1. On the extra tabs in the toolbar, you can insert other useful information about **Labels**, **Energy**, **Building images** and **Lifespan**. 
-
-![Toolbar](/assets/images/gettingstarted/editbuilding.png)
-
+2. A Pop up window will open. Please fill in the as * **mandatory** marked fields, for example the 'Usage' and 'Gross Floor Area (GFA)'.<br> Either go on to fill in all information at once or any time after creating a new object, click on **Edit <iconify-icon inline icon='mdi-pencil-outline'/>** to adjust for example the Address, Building Phase or Delivery Date on the main tab.
+3. On the extra tabs in the toolbar, you can insert other useful information about Labels, Energy, Building images and Lifespan. <br><figure><img src="/assets/images/gettingstarted/editbuilding.png" alt="Toolbar of an object"></figure>
 4. Click **Save**. 
 
 ## Prepare source files
