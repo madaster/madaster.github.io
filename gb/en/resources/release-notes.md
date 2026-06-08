@@ -8,6 +8,51 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.5 ##
+
+* Build number: 39740
+* Release date: 8th of June 2026
+
+### Changes ###
+
+* Sankey diagram; it is now possible to see the material flow Sankey on account and folder. This diagram was only available on buildings in renovation. It is available at the dropdown on the circularity tab:
+
+<figure><img src="/assets/images/releasenotes/202605-13383-1.png" alt="The materials flows Sankey diagram on account level."><figcaption>The materials flows Sankey diagram on account level.</figcaption></figure>
+
+* See products when clicking on the graph in env with material/products selected; it is now possible to see the products when you are in the environmental tab on a building and having selected the view for materials/products:
+
+<figure><img src="/assets/images/releasenotes/202605-13386-1.png" alt="Overview of products from the material/product view."><figcaption>Overview of products from the material/product view.</figcaption></figure>
+
+### Adding elements outside of elements in an original source file ###
+
+In the dossier of a building it is now possible to add a virtual file:
+
+<figure><img src="/assets/images/releasenotes/202605-13372-1.png" alt="Adding a virtual file."><figcaption>Adding a virtual file.</figcaption></figure>
+
+For both virtual files and excel source files it is possible to add elements directly:
+
+<figure><img src="/assets/images/releasenotes/202605-13372-2.png" alt="The option to add elements manually."><figcaption>The option to add elements manually.</figcaption></figure>
+
+When adding elements it is possible to filter on products. While selecting products a separate box is shown from which you can see/manage the selection:
+
+<figure><img src="/assets/images/releasenotes/202605-13372-3.png" alt="Selecting products to add as elements to a building."><figcaption>Selecting products to add as elements to a building.</figcaption></figure>
+
+Once products are selected it is possible to adjust the values, such as phase and quantity:
+
+<figure><img src="/assets/images/releasenotes/202605-13372-4.png" alt="Adjusting the values of the selected elements."><figcaption>Adjusting the values of the selected elements.</figcaption></figure>
+
+### Country specific ###
+
+* Onvoorzien hergebruik; for MPG buildings the reuse % on element has been replaced with a 'unforeseen reuse' toggle as used in the MPG calculation rules:
+
+<figure><img src="/assets/images/releasenotes/202605-13352-1.png" alt="The toggle for unforeseen reuse on an element."><figcaption>The toggle for unforeseen reuse on an element.</figcaption></figure>
+
+The calculation was already done according to the rules but now it is more clear in the UI as well.
+
+### API 4.0 ###
+
+The API has been updated substantially. For further information please see our <a href="https://api.madaster.com/" target="_blank">OpenAPI documentation</a> and apply for the <a href="https://docs.madaster.com/gb/en/api/#stay-up-to-date" target="_blank">Newsletter</a>.
+
 ## Release notes 2026.4 ##
 
 * Build number: 39222
