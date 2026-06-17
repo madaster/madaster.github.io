@@ -1,33 +1,35 @@
 ---
 title: Features
-description: Verfügbare Ergänzungen der Partnerschaftslizenzen
+description: Übersicht der verfügbaren Features
 ref: features
 type: Wissensdatenbank
 menubar: knowledge-base-nav
 ---
 
-Verfügbare Ergänzungen der Partnerschaftslizenzen
+Übersicht der verfügbaren Features
 
 ## Allgemeines
 
-Auf Accountebene <iconify-icon inline icon='mdi-briefcase-variant'/> hinter dem Symbol <iconify-icon inline icon='mdi-dots-vertical'/> im Tab **Features** finden Sie eine Übersicht der verfügbaren Funktionen sowie der Vorschaufunktionen.
+Auf Accountebene <iconify-icon inline icon='mdi-briefcase-variant'/> im Tab **Features** finden Sie eine Übersicht der verfügbaren Features sowie der Vorschau-Features.
 
-Die **verfügbaren Features** auf der linken Seite können Sie selbst aktivieren <iconify-icon inline icon='mdi-toggle-switch'/> oder - sofern kostenpflichtig - im Tab <a href="../get-started/set-up-your-account#abonnement-verwalten" target="_blank">Abonnement</a> jederzeit selbstständig hinzubuchen. Ergänzungen des laufenden Vertrages werden immer anteilig zur aktuellen Laufzeit berechnet. 
+Auf der linken Seite sehen Sie eine Übersicht aller **Features**, die auf Madaster verfügbar sind: 
+* **Toggle aktiviert** <iconify-icon inline icon='mdi-toggle-switch'/>: Das Feature steht Ihnen in Ihrem aktuell gebuchten Paket zur Verfügung und wurde für den Account aktiviert.
+* **Toggle deaktiviert** <iconify-icon inline icon='mdi-toggle-switch-off'/>: Das Feature wurde für den Account deaktiviert. Im Paket enthaltene Features können bei Bedarf von Account-Administratoren aktiviert werden.
 
-Die **Vorschau-Features** auf der rechten Seite stehen in einer Alpha-Version für die Evaluierung durch unsere Benutzer zur Verfügung. Wenn Sie Interesse haben, uns bei der Entwicklung mittels Anwenderfeedback zu unterstützen, melden Sie sich bitte gern unter über unsere Servicehotline [+49 30 235962051](tel:+4930235962051) oder per Mail an <service@madaster.de> und wir schalten Ihnen den Zugriff frei. Im Folgenden sind diese Features mit einem Stern markiert.
+Interessieren Sie sich für Funktionen, die ihnen mit ihrem aktuellen Paket nicht zur Verfügung stehen, dann kontaktieren sie uns gerne unter über unsere Servicehotline [+49 30 235962051](tel:+4930235962051) oder per Mail an <service@madaster.de> - wir beraten euch gerne!
+
+Die **Vorschau-Features** auf der rechten Seite stehen in einer Alpha-Version für die Evaluierung durch unsere Benutzer zur Verfügung. Wenn Sie Interesse haben, uns bei der Entwicklung mittels Anwenderfeedback zu unterstützen, melden Sie sich bitte gern unter über unsere Servicehotline [+49 30 235962051](tel:+4930235962051) oder per Mail an <service@madaster.de> und wir schalten Ihnen den Zugriff frei. Hier in den Madaster Docs sind diese Vorschau-Features mit einem Stern markiert.
 
 ## 3D-Viewer
 
-Nicht zu verwechseln mit dem Tab BIM-Viewer, welcher die im Objekt hochgeladene IFC-Datei visualisiert, ermöglicht die **3D-Ansicht hinsichtlich Umweltauswirkungen und Kreislaufwirtschaft** eine visuelle, farbcodierte Darstellung der Produkte Ihres Objekts mit dem jeweils größten Einfluss. Somit können Sie anhand des Modells sehen, ob Sie Ihre Zielsetzung hinsichtlich einer nachhaltigen Bauweise erreicht haben.
+Im Unterschied zum Tab „BIM-Viewer", der lediglich die hochgeladene IFC-Datei visualisiert, bietet der **3D-Viewer** eine **visuelle, farbcodierte Darstellung** Ihrer Produkte in ihrem Objekt – geordnet nach ihrem jeweiligen Einfluss auf Umweltauswirkungen und Kreislaufwirtschaft. So sehen Sie auf einen Blick, ob Ihr Objekt die gesetzten Nachhaltigkeitsziele erfüllt.
 
 Sobald dieses Feature aktiviert ist:
 1. Können Sie in den Tabs **Zirkularität** und **Umwelt** im Dropdown-Menü unter den KPI die Option **Material/Produkt** wählen.
 2. Sodann erscheint die Schaltfläche **3D-Viewer**, worüber die interaktive Modellansicht gestartet wird, in der die Elemente mit einer Farbkodierung von dunkelgrün (gut) bis dunkelrot (schlecht) markiert sind, um ihre Auswirkungen gemäß der jeweils gewählte Analyse zu signalisieren.
 3. Über die Schaltfläche **Grafik anzeigen** gelangen Sie zurück zum Balkendiagramm. 
 
-Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
-
-> Hinweis: Eine Sneakpreview können Sie an entsprechender Stelle in Ihren Objekten finden.
+> Hinweis: Dieses Feature ist in allen Paketen enthalten.
 
 ## API-Schreibaktionen
 
@@ -48,7 +50,7 @@ Ein <a href="../api/index#token" target="_blank">API-Token</a> muss generiert we
 
 Weitere Informationen zur Plattform-API von Madaster finden Sie in der spezifischen <a href="https://api.madaster.com/" target="_blank">OpenAPI_Dokumentation</a>.
 
-Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
+> Hinweis: Dieses Feature ist im Abonnement PORTFOLIO für Sie verfügbar.​
 
 ## CRREM (Carbon Risk Real Estate Monitor)
 
@@ -74,11 +76,9 @@ Nachdem Sie nun die Daten Ihres Gebäudebetriebs eingegeben haben, berechnet die
 
 Weitere Informationen zum CRREM-Tool finden Sie unter <a href="https://www.crrem.eu/" target="_blank">www.crrem.eu</a> bzw. im <a href="https://www.crrem.eu/wp-content/uploads/2023/09/CRREM-Risk-Assessment-Reference-Guide-V2_11_09_2023-final.pdf" target="_blank">User manual for the CRREM Risk Assessment Tool V2</a>.
 
-Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
+> Hinweis: Dieses Feature ist im Abonnement EXPERT und PORTFOLIO für Sie verfügbar.​ Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf das dort integrierte CRREM-Tool zu haben.
 
-> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf das dort integrierte CRREM-Tool zu haben.
-
-## Datenbank Import/Export*
+## Datenbank Import/Export
 
 Sofern Produktdaten in Datenbanken nicht über eine Schnittstellenanbindung eingespeist werden können, müssen Sie einzelnen per manueller Eingabe erfasst werden. Um hier noch eine Alternative zur Verfügung zu stellen, arbeiten wir an der Möglichkeit, Daten **per Excel** zu erfassen und auch zu exportieren.
 
@@ -91,9 +91,9 @@ Sofern Produktdaten in Datenbanken nicht über eine Schnittstellenanbindung eing
 3. Nachdem Sie mit **OK** bestätigt haben, steht Ihnen die entsprechende Excel nach Fertigstellung im Dossier für den **Download** zur Verfügung.
 4. Die Option **Importieren** ist erst verfügbar, nachdem überhaupt einmal ein Export generiert wurde. </br> Wählen Sie, welche Produktdaten über die Excel importiert werden sollen sowie die lokal gespeicherte Datei und bestätigen Sie mit **OK**. Wenn alle Informationen korrekt sind, werden Ihre Produkte der Datenbank hinzugefügt und in der Produktübersicht angezeigt.
 
-*Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
+> Hinweis: Dieses Feature ist in allen Paketen enthalten.
 
-## DGNB*
+## DGNB
 
 Der Kriterienkatalog **Gebäude Neubau** in der Version 2023 umfasst eine Vielzahl von Parametern und Indikatoren, die für eine Zertifizierung erfasst und berichtet werden müssen. Bereits auf Madaster erfasste Daten können aus der Plattform ausgelesen und weitergegeben werden, um in passenden Teilbereichen für die DGNB-Zertifizierung oder im Berichtsprozess genutzt zu werden. 
 
@@ -160,9 +160,9 @@ Mit diesen genannten Informationen wird dann automatisch eine Übersicht für de
 
 Weitere Informationen finden Sie unter <a href="https://www.dgnb.de/de" target="_blank">www.dgnb.de</a>.
 
-*Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
+> Hinweis: Dieses Feature ist in allen Paketen enthalten.
 
-## EU-Taxonomie*
+## EU-Taxonomie
 
 Zwecks einer Auswertung, ob ein wesentlicher Beitrag zum Umweltziel 4 "Übergang zu einer Kreislaufwirtschaft" durch das Objekt geleistet werden kann, finden Sie hier Kennzahlen und Berichte zu:
 
@@ -171,15 +171,15 @@ Zwecks einer Auswertung, ob ein wesentlicher Beitrag zum Umweltziel 4 "Übergang
 * Bauentwürfe und -techniken
 * Verwendung von Primärrohstoffen
 
+> Hinweis: Dieses Feature ist im Abonnement EXPERT und PORTFOLIO für Sie verfügbar.
+
 ## Infrastruktur*
 
 Dieses Feature ermöglicht neben Gebäuden auch andere <a href="../knowledge-base/classifications/nutzungsarten" target="_blank">Objekttypen</a> auf der Madaster-Plattform registrieren und dokumentieren zu können. Durch das Hochladen einer Excel- oder IFC-Quelldatei, können **Infrastrukturobjekte** nach Verknüpfung mit passenden Produktdaten regulär bezüglich Masse, Umweltwirkung, Zirkularität und finanziellem Restwert ausgewertet werden.
 
-*Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
+> Hinweis: Dieses Feature ist ein **Vorschau-Feature**. Aktuell suchen wir **erfahrene Partner**, die uns bei der Entwicklung begleiten und für Interviews zu Themen wie spezifische Dateiformate, Klassifikationen, Nachhaltigkeitsschwerpunkte und Reportings in den diversen <a href="../knowledge-base/classifications/nutzungsarten" target="_blank">Kategorien</a> zur Verfügung stehen. Bei Interesse kontaktieren Sie bitte den Support.
 
-> Hinweis: Aktuell suchen wir **erfahrene Partner**, die uns bei der Entwicklung begleiten und für Interviews zu Themen wie spezifische Dateiformate, Klassifikationen, Nachhaltigkeitsschwerpunkte und Reportings in den diversen <a href="../knowledge-base/classifications/nutzungsarten" target="_blank">Kategorien</a> zur Verfügung stehen.
-
-## Level(s)*
+## Level(s)
 
 Level(s) ist ein **europäischer Bewertungs- und Berichtsrahmen**, der eine gemeinsame Sprache für die Nachhaltigkeitsleistung von Gebäuden bietet. Level(s) fördert die Berücksichtigung des Lebenszyklus von Gebäuden und liefert einen robusten Ansatz zum Messen und Unterstützen von Verbesserungen vom Entwurf bis zum Lebensende von Wohngebäuden und Büroräumen.
 
@@ -199,13 +199,11 @@ Level(s) verwendet Basisindikatoren zur Nachhaltigkeit, die im und vom Bausektor
 
 Weitere Informationen zu Level(s) finden Sie bei der <a href="https://environment.ec.europa.eu/topics/circular-economy/levels_en" target="_blank">European Commission</a>.
 
-*Es handelt sich um ein **Vorschau-Feature**. Bei Interesse kontaktieren Sie bitte den Support.
-
-> Hinweis: Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf die dort integrierten Level(s)-Berichte zu haben.
+> Hinweis: Dieses Feature ist im Abonnement EXPERT und PORTFOLIO für Sie verfügbar. Bitte achten Sie darauf, dass außerdem der <a href="../knowledge-base/features#esg" target="_blank">Reporting-Tab</a> aktiviert ist, um Zugriff auf die dort integrierten Level(s)-Berichte zu haben.
 
 ## Objekt teilen
 
-Die Funktion **Split object** kann kostenfrei für einen Account aktiviert werden und ermöglicht es, auf Grundlage einer einzigen IFC-Quelldatei mehrere, individuelle Objektdossiers und Materialpässe, entsprechend der Objekteinheiten zu erstellen. Teilen Sie bspw. eine IFC-Datei eines Quartiers oder eines Mehrfamilienhauses in einzelne Häuser oder Wohnungen.
+Die Funktion **Quelldatei splitten** ermöglicht es, auf Grundlage einer einzigen IFC-Quelldatei mehrere, individuelle Objektdossiers und Materialpässe, entsprechend der Objekteinheiten zu erstellen. Teilen Sie bspw. eine IFC-Datei eines Quartiers oder eines Mehrfamilienhauses in einzelne Häuser oder Wohnungen.
 
 Um dieses Feature nutzen zu können, muss in der Quelldatei für jedes Element eine entsprechende **Objektnummer** angegeben sein.
 
@@ -213,7 +211,9 @@ Um dieses Feature nutzen zu können, muss in der Quelldatei für jedes Element e
 2. Es erscheint eine **Benachrichtigung** <iconify-icon inline icon='mdi-bell-outline'/> sobald der Prozess beendet ist.
 3. Gehen Sie in der linken Navigationsleiste auf das betreffende Objekt und öffnen Sie die darunter liegenden **Splittobjekte** <iconify-icon inline icon='mdi-chevron-down'/>.
 
-## QNG*
+> Hinweis: Dieses Feature ist im Abonnement EXPERT und PORTFOLIO für Sie verfügbar. 
+
+## QNG
 
 Mit dem neuen QNG-Feature unterstützt Madaster die Nachweisführung gemäß den Anforderungen des **Qualitätssiegels Nachhaltiges Gebäude (QNG)**. In Übereinstimmung mit den QNG-Siegeldokumenten können sowohl **Wohngebäude** als auch **Nichtwohngebäude** hinsichtlich ihrer ökologischen Qualität über eine **Lebenszyklusanalyse (LCA)** ausgewertet werden. Durch die weitgehende Automatisierung der Berechnung und die Integration relevanter Eingabe- und Auswertungsfunktionen wird der Nachweisprozess effizient und anwenderfreundlich gestaltet.
 
@@ -234,9 +234,11 @@ Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.
 > **Hinweis** Es können nur dann Auswertungen berechnet und exportiert werden, wenn die zugehörigen Informationen auf der Plattform eingepflegt sind. Fehlen Verknüpfungen, Material- oder Bauteilklassifikationen, die Zuordnung gemäß **DIN 276:2018-12**, o.ä., kann die Plattform diese nicht in den GRP exportieren.
 Für eine Berechnung von Umweltindikatoren während der LCA-Phase D2 muss im Tab **Allgemeines** unter **Energie** die Menge von "Exportiertem Strom" definier werden.
 
+> Hinweis: Dieses Feature ist in allen Paketen enthalten.
+
 ## Reporting
 
-Der **Reporting -Tab** bzw. ESG (Environmental, Social & Governance) kann kostenfrei für einen Account aktiviert werden und steht daraufhin in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
+Der **Reporting-Tab** steht in der Tab-Leiste auf allen Ebenen (auch Ordner und Objekt) zur Verfügung. In diesem Tab sind diverse Reportingtools eingebunden, welche separat aktiviert werden müssen. Danach können Sie hier diverse Berichte erstellen und relevante KPI anzeigen lassen.
 
 Folgende Funktionen sind hier beheimatet und aktuell verfügbar:
 
@@ -259,7 +261,7 @@ Nachdem Sie dieses Feature aktiviert haben, können Hersteller damit ihre **Prod
     
 Klicken Sie auf die Schaltfläche **Nach Excel exportieren** <iconify-icon inline icon='mdi-file-download-outline'/>, um einen Bericht gemäß Ihrer Auswahl zu generieren und laden Sie den Export aus dem Dossier herunter.
 
-Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
+> Hinweis: Dieses Hersteller-Feature ist im PERFOMANCE Abonnement für Sie verfügbar.​
 
 ## Urban Mining Screener
 
@@ -282,4 +284,4 @@ Der Urban Mining Screener ist vor allem als **Flächenerfassungstool** gedacht. 
 
 Sofern Sie an einem automatischen Upload einer Vielzahl von Objekten interessiert sind, kontaktieren Sie bitte den Support.
 
-Dieses kostenpflichtige Feature kann über den Tab **Abonnement** hinzugebucht werden.
+> Hinweis: Dieses Feature ist im Abonnement EXPERT und PORTFOLIO für Sie verfügbar. 

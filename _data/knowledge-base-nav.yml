@@ -19,5 +19,6 @@
     - ref: classifications
     - ref: quality-check
     - ref: material-passports
+    - ref: industrial-reuse
     - ref: tendering
     - ref: madaster-glossary

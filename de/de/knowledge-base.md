@@ -113,6 +113,21 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/work-processes">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/work-process.png" alt="A computer screen with processes on the screen.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Arbeitsmethoden
+          </h3>
+          <p>
+            Mögliche Workflows zu Elementen aus mehreren Materialien
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/databases">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -158,6 +173,36 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/dgnb">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/schemes.png" alt="Check marked sign">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            DGNB
+          </h3>
+          <p>
+            Zugrundeliegende Berechnungen der Auswertungen gemäß DGNB
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/qng">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/schemes.png" alt="Check marked sign">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            QNG
+          </h3>
+          <p>
+            Zugrundeliegende Berechnungen der Auswertungen gemäß QNG
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/classifications">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -173,6 +218,21 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/quality-check">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/quality-check.png" alt="A magnifying glass in front of a computer screen with a checkmark.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Quality check
+          </h3>
+          <p>
+            Finale Prüfung fertiggestellter Projekte
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/material-passports">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -184,6 +244,21 @@ exclude: true
           </h3>
           <p>
             Exportvarianten des digitalen Materialpasses
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/industrial-reuse">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/industrial-reuse.png" alt="A computer screen two fitting jigsaw pieces.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Madaster Match
+          </h3>
+          <p>
+            Angebot und Nachfrage von Bauteilen für die (industrielle) Wiederverwendung
           </p>
         </div>
       </div>
