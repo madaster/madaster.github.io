@@ -225,7 +225,7 @@ exclude: true
         </div>
         <div class="resource-item-right">
           <h3>
-            Quality check
+            Qualitätskontrolle und Qualitätsmanagement 
           </h3>
           <p>
             Finale Prüfung fertiggestellter Projekte

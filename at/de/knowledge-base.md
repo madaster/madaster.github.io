@@ -113,6 +113,21 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/work-processes">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/work-process.png" alt="A computer screen with processes on the screen.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Arbeitsmethoden
+          </h3>
+          <p>
+            Mögliche Workflows zu Elementen aus mehreren Materialien
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/databases">
       <div class="overview-item">
         <div class="resource-item-left">
@@ -169,6 +184,21 @@ exclude: true
           </h3>
           <p>
             Zugrundeliegende Klassifizierungsmethoden der Plattform
+          </p>
+        </div>
+      </div>
+    </a>
+    <a class="overview-link" href="./knowledge-base/quality-check">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/quality-check.png" alt="A magnifying glass in front of a computer screen with a checkmark.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Qualitätskontrolle und Qualitätsmanagement 
+          </h3>
+          <p>
+            Finale Prüfung fertiggestellter Projekte
           </p>
         </div>
       </div>
