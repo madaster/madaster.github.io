@@ -212,11 +212,11 @@ Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur 
 
 Eine Bearbeitung der Demontierbarkeit ist auf der Plattform möglich, indem im Erweitert-Tab ein Element ausgewählt wird und mit dem Stift-Icon in der Menüleiste bearbeitet wird. Auch die Auswahl und Bearbeitung mehrerer Elemente gleichzeitig ist möglich.
 
-Für die Angabe über IFC-Quelldateien müssen die englischen Begriffe genutzt werden, während die Demontierbarkeit über die Excel-Quelldatei oder über die Plattform (als Produktangabe oder Elementangabe im Erweitert-Tab), mit deutschen Begriffen angegeben wird.
+> Hinweis: Wenn Sie die Informationen zur Demontierbarkeit manuell im Pset eintragen, verwenden Sie bitte die Werte, die in unserem <a href="/de/de/resources/downloads" target="_blank">BIM-Handbuch</a> hinterlegt sind. 
 
 Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
 
-#### Verbindungstypen (Connection type)
+#### Art der Verbindung (Connection type)
 
 ||
 |-|
@@ -226,7 +226,10 @@ Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
 |Weiche chemische Verbindung (Soft chemical compound)|
 |Harte chemische Verbindung (Hard chemical compound)|
 
-#### Zugänglichkeit (Accessibility of the connection)
+> Hinweis: Die **Art der Verbindung** ist für die Auswertung eine verpflichtende Angabe, während die **Details zur Verbindung** eine Zusatzinfo ist.
+
+
+#### Zugänglichkeit der Verbindung (Accessibility)
 
 | |
 |-|
@@ -244,7 +247,7 @@ Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
 | Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten (Incidental) |
 | Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten (Complete) |
 
-#### Einschluss von Produktkanten (Product edges inclusion)
+#### Produktkanten (Product Edge)
 
 | |
 |-|
