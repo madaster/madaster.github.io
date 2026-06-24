@@ -212,7 +212,7 @@ We have added the unit to the dimensions when editing an element in the enrichme
 
 ### Country Specific ###
 
-* For QNG a help for calculating the impact of PV for energy has been added for non-residential buildings:
+* For QNG a help for calculating the impact of PV for energy has been added for residential buildings:
 
 <figure><img src="/assets/images/releasenotes/202601-12859-1.png" alt="The monthly PV calculation help."><figcaption>The monthly PV calculation help.</figcaption></figure>
 
