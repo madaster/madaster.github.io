@@ -1,13 +1,13 @@
 import fs from 'fs';
 import fsa from 'node:fs/promises';
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 import matter from 'gray-matter';
 import removeMd from 'remove-markdown';
 
 // Find all countries and languages
 try {
   const fileContents = fs.readFileSync('_config.yml', 'utf8');
-  const data = yaml.load(fileContents);
+  const data = load(fileContents);
   if (data.countries !== null) {
     for (let i = 0; i < data.countries.length; i++) {
       const languages = data.countries[i].languages.split(',');
