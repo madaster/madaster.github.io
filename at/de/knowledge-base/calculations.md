@@ -204,64 +204,108 @@ $$
 |$E_C$ | Effizienz des Rezyklingprozess' (%) eines Produkts mit der Materialverwertung als Recycling. Der Standardwert 75% kann händisch überschrieben werden, da häufig diese Information nicht vorliegt.|
 
 ## Demontierbarkeit (Detachability)
-
 Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
 
-Auf Madaster basiert die Berechnung auf allen verknüpften Elementen, wobei die vier Demontierbarkeits-Eigenschaften für jedes Element in der Quelldatei enthalten sein kann (z.B. mit dem Madaster_CPset und den Detachability-Eigenschaften, dessen Anwendung in der BIM-Handbuch beschrieben ist oder unter <a href="/at/de/knowledge-base/madaster-property-set.html" target="_blank">Madaster Common Property Set</a>.) und wenn die Information nicht in der Quelldatei gefunden wird, greift Madaster auf die Demontierbarkeit zurück, die im verknüpften Produkt definiert wurde.
-Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur Demontierbarkeit enthält, werden die Demontierbarkeits-Eigenschaften als "Unbekannt" markiert.
+### Erfassung der Demontierbarkeit
 
-Eine Bearbeitung der Demontierbarkeit ist auf der Plattform möglich, indem im Erweitert-Tab ein Element ausgewählt wird und mit dem Stift-Icon in der Menüleiste bearbeitet wird. Auch die Auswahl und Bearbeitung mehrerer Elemente gleichzeitig ist möglich.
+Die Demontierbarkeits-Eigenschaften können bereits in der Quelldatei hinterlegt werden, entweder über die <a href= "https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="">Excel-Quelldatei</a> oder über eine IFC-Datei. In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen. In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
 
-Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden.
+Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden. 
 
-> Hinweis: Wenn Sie die Informationen zur Demontierbarkeit manuell im CPset eintragen, verwenden Sie bitte die Werte, die in unserem <a href="/de/de/resources/downloads" target="_blank">BIM-Handbuch</a> hinterlegt sind.
-> 
-Die Bewertung der Demontierbarkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_
+Alternativ können die Demontierbarkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
+
+### Berechnung der Demontierbarkeit 
+
+Die Berechnung der Demontierbarkeit in madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Demontierbarkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift madaster auf die Demontierbarkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Demontierbarkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
+
+> Hinweis: Bei Bauteilen wird die Demontierbarkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. Unterschied Produkte und Bauteile. 
+<a href="https://docs.madaster.com/at/de/knowledge-base/databases-products.html" target="_blank">Unterschied Produkte und Bauteile</a>
+
+Die Bewertung der Demontierbarkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_.
 
 > Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt.
 
-Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
+Für die Auswertung der Demontierbarkeit müssen alle vier erforderlichen Demontierbarkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontierbarkeit.
 
-#### Art der Verbindung (Connection type)
+  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland wird die Masse der Elemente stattdessen genommen. Die Demontierbarkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontierbarkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
 
-||
-|-|
-|Trockene Verbindung (Dry connection)|
-|Verbindung mit Zusatzelementen (Connection with added elements)|
-|Direkte integrierte Verbindung (Direct integral connection)|
-|Weiche chemische Verbindung (Soft chemical compound)|
-|Harte chemische Verbindung (Hard chemical compound)|
+Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen.
 
-> Hinweis: Die **Art der Verbindung** ist für die Auswertung eine verpflichtende Angabe, während die **Details zur Verbindung** eine Zusatzinfo ist.
+### Erforderliche Demontierbarkeits-Eigenschaften
+
+Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index und werden wie folgt in eine IFC-Quelldatei eingetragen:
+
+#### 1. Art der Verbindung (Connection Type) und Details zur Verbindung (Connection Type Detail )
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityConnectionType** bzw. **ArtDerVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte ArtDerVerbindung      | Englische Werte DetachabilityConnectionType |
+|----------------------------------------|-------------------------------------|
+| TrockeneVerbindung                     | DryConnection                       |
+| VerbindungMitZusatzelementen           | AddedConnectionConnection           |
+| DirekteIntegrierteVerbindung           | DirectConnection                    |
+| WeicheChemischeVerbindung              | SoftChemicalConnection              |
+| HarteChemischeVerbindung               | HardChemicalConnection              |
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityConnectionTypeDetail** bzw. **DetailsZurVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte DetailsZurVerbindung    | Englishe Werte ConnectionTypeDetail | Deutsche Werte ArtDerVerbindung              | Englishe Werte ConnectionType         |
+|----------------------------------------|------------------------------|-------------------------------------|--------------------------------|
+| Unbekannt                              | Unknown                      | TrockeneVerbindung                 | DryConnection                  |
+| Lose                                   | None                         | TrockeneVerbindung                 | DryConnection                  |
+| Klickverbindung                        | Click                        | TrockeneVerbindung                 | DryConnection                  |
+| Klettverbindung                        | Velcro                       | TrockeneVerbindung                 | DryConnection                  |
+| MagnetischeVerbindung                  | Magnetic                     | TrockeneVerbindung                 | DryConnection                  |
+| Unbekannt                              | Unknown                      | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| BolzenMutterVerbindung                 | BoltAndNut                   | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Federverbindung                        | Spring                       | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Eckverbindung                          | Corner                       | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Schraubverbindung                      | Screw                        | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Unbekannt                              | Unknown                      | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Zapfenverbindung                       | Peg                          | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Genagelt                               | Nail                         | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Unbekannt                              | Unknown                      | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Dichtungsmittel                        | Sealant                      | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Schaumstoffverbindung                  | Foam                         | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Unbekannt                              | Unknown                      | HarteChemischeVerbindung          | HardChemicalConnection         |
+| Klebeverbindung                        | Glue                         | HarteChemischeVerbindung          | HardChemicalConnection         |
+| Gegossen                               | Dump                         | HarteChemischeVerbindung          | HardChemicalConnection         |
+
+#### 2. Zugänglichkeit der Verbindung (Accessibility)
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityAccessibility** bzw. **ZugänglichkeitDerVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Englische Werte | Deutsche Werte | *Erklärung* |
+|-----------------|----------------|-----------|
+| Accessible | FreiZugänglich | *Frei zugänglich ohne zusätzliche Maßnahmen* |
+| PartialNoDamage | ZugänglichOhneSchaden | *Zugänglich mit zusätzlichen Aktionen, die keinen Schaden verursachen* |
+| PartialWithRepairableDamage | ZugänglichMitVollständigReparierbarenSchäden | *Zugänglich mit zusätzlichen Maßnahmen und mit vollständig reparierbaren Schäden* |
+| PartialWithDamage | ZugänglichMitTeilweiseReparierbarenSchäden | *Zugänglich mit zusätzlichen Maßnahmen und mit teilweise reparierbaren Schäden* |
+| NotAccessible | NichtZugänglich | *Nicht zugänglich - irreparable Schäden am Produkt oder den umliegenden Produkten* |
 
 
-#### Zugänglichkeit der Verbindung (Accessibility)
+#### 3. Überschneidungen (Intersections)
 
-| |
-|-|
-| Frei zugänglich ohne zusätzliche Maßnahmen (Accessible) |
-| Zugänglich mit zusätzlichen Aktionen, die keinen Schaden verursachen (PartialNoDamage) |
-| Zugänglich mit zusätzlichen Maßnahmen und mit vollständig reparierbaren Schäden (PartialWithRepairableDamage) |
-| Zugänglich mit zusätzlichen Maßnahmen und mit teilweisereparierbaren Schäden (ParialWithDamage) |
-| Nicht zugänglich - irreparable Schäden am Produkt oder den umliegenden Produkten (NotAccessible) |
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityIntersection** bzw. **Überschneidungen** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
 
-#### Überschneidungen (Intersections)
+| Englische Werte                | Deutsche Werte                 | *Erklärung*                                 |
+|--------------------------------|--------------------------------|-------------------------------------------|
+| None                           | KeineÜberschneidungen          | *Keine Überschneidungen – modulare Zonierung von Produkten oder Elementen aus unterschiedlichen Schichten* |
+| Incidental                     | GelegentlicheÜberschneidungen  | *Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten* |
+| Complete                       | VollständigeIntegration        | *Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten* |
 
-| |
-|-|
-| Keine Überschneidungen – modulare Zonierung von Produkten oder Elementen aus unterschiedlichen Schichten (None) |
-| Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten (Incidental) |
-| Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten (Complete) |
 
-#### Produktkanten (Product Edge)
+#### 4. Produktkanten (Product Edges Inclusion)
 
-| |
-|-|
-| Offen - kein Hindernis für die (Zwischen-)Entfernung von Produkten oder Elementen (Open) |
-| Überlappung - teilweise Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen (Overlapping)|
-| Geschlossen - vollständige Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen (Closed) |
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityProductEdge** bzw. **Produktkanten** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
 
-Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen. 
+| Englische Werte | Deutsche Werte | *Erklärung* |
+|-----------------|----------------|-----------|
+| Open            | Offen          | *Offen - kein Hindernis für die (Zwischen-)Entfernung von Produkten oder Elementen* |
+| Overlapping     | Überlappung    | *Überlappung - teilweise Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
+| Closed          | Geschlossen    | *Geschlossen - vollständige Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
+
+Weitere Details zum Befüllen von Paramtern für Madaster, sind in unserem <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuch</a> zu finden.
 
 ## Umwelt
 
