@@ -212,7 +212,13 @@ Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur 
 
 Eine Bearbeitung der Demontierbarkeit ist auf der Plattform möglich, indem im Erweitert-Tab ein Element ausgewählt wird und mit dem Stift-Icon in der Menüleiste bearbeitet wird. Auch die Auswahl und Bearbeitung mehrerer Elemente gleichzeitig ist möglich.
 
-> Hinweis: Wenn Sie die Informationen zur Demontierbarkeit manuell im Pset eintragen, verwenden Sie bitte die Werte, die in unserem <a href="/de/de/resources/downloads" target="_blank">BIM-Handbuch</a> hinterlegt sind. 
+Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden.
+
+> Hinweis: Wenn Sie die Informationen zur Demontierbarkeit manuell im CPset eintragen, verwenden Sie bitte die Werte, die in unserem <a href="/de/de/resources/downloads" target="_blank">BIM-Handbuch</a> hinterlegt sind.
+> 
+Die Bewertung der Demontierbarkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_
+
+> Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt.
 
 Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
 
