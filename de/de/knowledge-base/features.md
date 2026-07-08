@@ -220,7 +220,7 @@ Mit dem neuen QNG-Feature unterstützt Madaster die Nachweisführung gemäß den
 ### Hintergrund
 Das QNG ist Bestandteil der Bundesförderung für effiziente Gebäude (BEG) und stellt eine bundeseinheitliche Zertifizierungsgrundlage für nachhaltiges Bauen dar. Die Anforderungen betreffen unter anderem die Reduktion der Treibhausgasemissionen und des Primärenergiebedarfs über den Lebenszyklus eines Gebäudes hinweg. Grundlage für die ökologischen Nachweise ist eine vollständige LCA gemäß der Norm DIN EN 15978.
 
-Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.info/qng/qng-anforderungen/qng-siegeldokumente/" target="_blank">hier</a>.
+Mehr Informationen zu den QNG-Anforderungen finden Sie <a href="https://www.qng.info/qng/qng-siegeldokumente/" target="_blank">hier</a>.
 
 ### Wie kann ich die Lebenszyklusanalyse (LCA) für QNG mit Madaster berechnen lassen?
 1. Zur Nachweisführung eines neuen Objekts, legen Sie zunächst ein neues Objekt an. Klicken Sie hierfür auf Ordnerebene im Tab **Allgemeines** auf **neues Objekt** <iconify-icon inline icon='mdi-plus-circle-outline'/>.
