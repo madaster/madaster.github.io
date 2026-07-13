@@ -8,6 +8,51 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.6 ##
+
+* Build number: 40059
+* Release date: 13th of July 2026
+
+The main part of this release consists of a technical upgrade, which involves a number of changes to the user interface that were necessitated by a new version of a component framework. Although this upgrade is extensive, users should not notice any significant differences in the user interface.
+
+### Product Passport Options ###
+
+When producers generate a Product Passport for a product, they can now choose from a range of additional options.
+
+<figure><img src="/assets/images/releasenotes/202606-115528.png" alt="Settings when generating a Product Passport."><figcaption>Settings when generating a Product Passport.</figcaption></figure>
+
+* Language dropdown: Instead of using the language specified in the user settings, you can explicitly select the language for the Product Passport.
+
+* Country dropdown: A database may be published for multiple countries, which means that a product can have different environmental values depending on the country selected. If the database is available for more than one country, you can choose which country's environmental values should be used in the Product Passport.
+
+### Benchmarking on Circularity ###
+
+It was already possible to set benchmarks for an object or compare it with other objects based on its environmental assessment. This functionality has now been extended to the circularity assessment as well.
+
+<figure><img src="/assets/images/releasenotes/202606-142123.png" alt="Adjusting benchmark settings for a circularity assessment."><figcaption>Adjusting benchmark settings for a circularity assessment.</figcaption></figure>
+
+Click on "Adjust your benchmark" in the toolbar of the Circularity tab and make your selection.
+
+If you wish to benchmark against the entire account, as before, the value will continue to be displayed on the Circularity card. However, you can now also benchmark against specific object types or limit the comparison to objects within the current folder.
+
+If you select specific objects or designs, they will also be displayed side by side in the Total bar chart.
+
+### Bugfixes ###
+
+In addition, we focused primarily on bug fixes in this release.
+
+* When using the 3D Viewer for Materials and Products in the Environmental tab, sorting by impact did not work correctly; this has been fixed.
+* When switching between options in the drop-down menu on the Circularity tab at folder level, it was sometimes necessary to select certain options a second time before they were displayed as intended; this has been fixed.
+* Elements could not be added to virtual files via enrichment; this has been fixed.
+* If elements were mapped to components, the products listed in the Technical Annex on Elements were incomplete; this has been fixed. Furthermore, to avoid confusion, the geometrical information of these products has been reduced to only those values used for the environmental calculation.
+* The Product Passport export did not display GWP and showed an incorrect financial value; this has been fixed.
+
+### Country specific ###
+* For Germany when transferrring an object containing QNG information to another account, the QNG information was not tranferred; this has been fixed.
+* For Germany in the DGNB GRP only the current value was exported, even though cell D264 should contain the residual value and cell D64 the current value. This issue has been corrected.
+* For the Netherlands, following the publication of new energy carriers by the NMD, some options were displayed multiple times when B6.1 was added to an MPG object. This issue has been corrected, and the platform now displays the applicable energy carriers based on the calculation date.
+
+
 ## Release notes 2026.5 ##
 
 * Build number: 39740
