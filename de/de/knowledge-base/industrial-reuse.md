@@ -56,17 +56,17 @@ Je detaillierter die Informationen vorliegen, desto wahrscheinlicher kommt es zu
 
 |Menge |Optional |Bitte geben Sie eine Stückzahl an. |
 |Gewicht |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Gewichtsangaben in Tonnen, Kilogramm oder Gramm. |
-|Volumen |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu.Die Plattform verarbeitet Volumenangaben in Kubikmeter, Liter, Kubikdezimeter oder Kubikzentimeter. |
-|Fläche |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Flächeangaben in Quadratmeter, Quadratzentimeter oder Quadratmillimeter. |
-|Länge |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Längenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Volumen |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu.Die Plattform verarbeitet Volumenangaben in Kubikmetern, Litern, Kubikdezimetern oder Kubikzentimetern. |
+|Fläche |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Flächenangaben in Quadratmetern, Quadratzentimetern oder Quadratmillimetern. |
+|Länge |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Längenangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
 
 #### Maße ####
 
-|Breite |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Breitenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Tiefe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Tiefenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Höhe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Höhenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Dicke |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Dickenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Durchmesser |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Durchmesserangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Breite |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Breitenangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
+|Tiefe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Tiefenangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
+|Höhe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Höhenangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
+|Dicke |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Dickenangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
+|Durchmesser |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Durchmesserangaben in Metern, Dezimetern, Zentimetern oder Millimetern. |
 
 #### Zustand und Standort ####
 
