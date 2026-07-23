@@ -28,9 +28,13 @@ Nach dem Anlegen des Projektes können im Tab **Produkte** verfügbare Produkte 
 1. diese einzeln manuell über die Schaltfläche **Produkt hinzufügen <iconify-icon inline icon='mdi-plus-circle-outline'/>** in der Plattform eingegeben oder 
 2. eine Excel-Datei über die Schaltfläche **Produkte importieren <iconify-icon inline icon='mdi-table-arrow-up'/>** hochladen.
 
-> Hinweis: **Es wird kein spezielles Excel-Template benötigt!** Verwenden Sie gern Ihre eigene Excel. Auch CSV-Dateien können genutzt werden. Die Zuordnung von Spalten und Produkteigenschaften wird beim Import direkt in der Plattform vorgenommen. Sofern Sie keine eigene Excel zur Hand haben, kontaktieren Sie gern service@madaster.de zwecks einer Vorlage.
+> Hinweis: **Es wird kein spezielles Excel-Template benötigt!** Verwenden Sie gern Ihre betriebseigene Excel. Auch CSV-Dateien können genutzt werden.
 
-**Folgende Informationen aus einer Excel können von der Madaster Plattform verarbeitet werden.**
+Die Zuordnung von Spalten und Produkteigenschaften wird beim Import direkt in der Plattform vorgenommen. Sofern Sie keine eigene Excel zur Hand haben, kontaktieren Sie gern service@madaster.de.
+
+Je detaillierter die Informationen vorliegen, desto wahrscheinlicher kommt es zu einem erfolgreichen Match mit Interessenten. Jedoch gibt es technisch keine zwingenden Angaben, da entscheidend ist, was sie erfassen wollen und welche Daten Ihnen überhaupt vorliegen.
+
+**Folgende Informationen können von Madaster Plattform verarbeitet werden.**
 
 #### Grundinformationen ####
 
@@ -42,41 +46,41 @@ Nach dem Anlegen des Projektes können im Tab **Produkte** verfügbare Produkte 
 |Farbe |Optional | |
 |GTIN |Optional | |
 |Seriennummer |Optional | |
-|Produktkategorie |Optional |Hier können Kategorien gemäß Freeclass ausgewählt werden. Alternativ können Sie beim Excelimport den Haken bei "Produktkategorie mit KI erkennen" setzen. |
+|Produktkategorie |Optional |Hier können Sie Kategorien gemäß Freeclass angeben. Wir empfehlen jedoch eher diese zu erfassen, indem Sie beim Excelimport den Haken bei "Produktkategorie mit KI erkennen" setzen. |
 |**Materialien** |**Empfohlen** |Hier können Sie Materialien (z. B. Metall, Stahl, Beton) angeben. Alternativ können Sie beim Excelimport den Haken bei "Materialien mit KI aus Zeilendaten extrahieren" setzen. |
 |**Verfügbar ab** |**Empfohlen** |Bitte geben Sie ein Datum an. |
 |**Verfügbar bis** |**Empfohlen** |Bitte geben Sie ein Datum an. | 
-|Mindestmenge |Optional | |
-|Mindestmengeneinheit |Optional |Bitte geben Sie eine Einheit an. |
+|Mindestmenge |Optional |Mindestmengeneinheiten können ebenfalls in dieser oder einer separaten Spalten erfasst werden. Die Plattform verarbeitet Angaben in Stück, Kubikmetern, Quadratmetern, Metern oder Kilogramm. |
 
-#### Massen und Maße ####
+#### Mengen ####
 
 |Menge |Optional |Bitte geben Sie eine Stückzahl an. |
-|Gewicht |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Gewichtsangaben in Tonnen, Kilogramm oder Gramm. |
-|Volumen |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Volumenangaben in Kubikmeter, Liter, Kubikdezimeter oder Kubikzentimeter. |
-|Fläche |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Flächeangaben in Quadratmeter, Quadratzentimeter oder Quadratmillimeter. |
-|Länge |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Längenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Breite |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Breitenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Tiefe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Tiefenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Höhe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Höhenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Dicke |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Dickenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
-|Durchmesser |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie bitte jeweils ein Extraspalte für die Einheitenangabe hinzu. Die Plattform verarbeitet Durchmesserangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Gewicht |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Gewichtsangaben in Tonnen, Kilogramm oder Gramm. |
+|Volumen |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu.Die Plattform verarbeitet Volumenangaben in Kubikmeter, Liter, Kubikdezimeter oder Kubikzentimeter. |
+|Fläche |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Flächeangaben in Quadratmeter, Quadratzentimeter oder Quadratmillimeter. |
+|Länge |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Längenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+
+#### Maße ####
+
+|Breite |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Breitenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Tiefe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Tiefenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Höhe |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Höhenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Dicke |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Dickenangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
+|Durchmesser |Optional |Wenn Sie je Spalte keine einheitliche Einheit verwenden möchten, fügen Sie die Einheit bitte hier oder einer Extraspalte hinzu. Die Plattform verarbeitet Durchmesserangaben in Meter, Dezimeter, Zentimeter oder Millimeter. |
 
 #### Zustand und Standort ####
 
-|Technischer Zustand |Optional |Die Plattform verarbeitet die Angaben unbekannt, wie neu, gut, ausreichend, schlecht oder beschädigt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport sozusagen übersetzt werden. |
-|Ästhetischer Zustand |Optional |Die Plattform verarbeitet die Angaben unbekannt, wie neu, gut, ausreichend, schlecht oder beschädigt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport sozusagen übersetzt werden. |
+|Technischer Zustand |Optional |Die Plattform verarbeitet die Angaben unbekannt, wie neu, gut, ausreichend, schlecht oder beschädigt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport übersetzt werden. |
+|Ästhetischer Zustand |Optional |Die Plattform verarbeitet die Angaben unbekannt, wie neu, gut, ausreichend, schlecht oder beschädigt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport übersetzt werden. |
 |Etage |Optional |Etagen werden nur als Nummer erkannt. Verwenden Sie alternativ gern *"Etage oder Standort innerhalb des Objektes"* für eine ausführlichere Beschreibung. |
 |Raum |Optional |Hier können sowohl Buchstaben als auch Nummern erfasst werden. Verwenden Sie alternativ gern *"Etage oder Standort innerhalb des Objektes"* für eine ausführlichere Beschreibung. |
-|Demontagefähigkeit |Optional |Die Plattform verarbeitet die Angaben unbekannt, einfach, mäßig oder schwierig. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport sozusagen übersetzt werden. Verwenden Sie alternativ gern *"Beschreibung der Demontagefähigkeit"* für eine ausführlichere Beschreibung. |
+|Demontagefähigkeit |Optional |Die Plattform verarbeitet die Angaben unbekannt, einfach, mäßig oder schwierig. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport übersetzt werden. Verwenden Sie alternativ gern *"Beschreibung der Demontagefähigkeit"* für eine ausführlichere Beschreibung. |
 |Zerstörungsfrei demontierbar |Optional |Bitte geben Sie Wahr oder Falsch an. Verwenden Sie alternativ gern *"Beschreibung der Demontagefähigkeit"* für eine ausführlichere Beschreibung. |
-|Status bei Verfügbarkeit |Optional |Die Plattform verarbeitet die Angaben unbekannt, demontiert, dauerhaft installiert, demontiert und gelagert, sortiert oder gemischt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport sozusagen übersetzt werden. |
+|Status bei Verfügbarkeit |Optional |Die Plattform verarbeitet die Angaben unbekannt, demontiert, dauerhaft installiert, demontiert und gelagert, sortiert oder gemischt. Sollten Sie eigene Kategorien verwenden, können diese beim Excelimport übersetzt werden. |
 |Enthält gefährliche Stoffe |Optional |Bitte geben Sie Wahr oder Falsch an. |
 |Kontaminationshinweis |Optional | |
 
-> Hinweis: Technisch gibt es keine zwingenden Angaben. Aber je detaillierter die Informationen vorliegen, desto wahrscheinlicher kommt es zu einem erfolgreichen Match mit Interessenten!
-
-Zur Bearbeitung mehrerer Produkte auf einmal, wählen Sie die Gewünschten bitte aus <iconify-icon inline icon='mdi-checkbox-marked'/> und klicken auf <iconify-icon inline icon='mdi-pencil'/> (Massenbearbeitung).
+Zur Bearbeitung mehrerer Produkte mit einem Mal auf der Plattform, wählen Sie die Gewünschten (nach dem Import) bitte aus <iconify-icon inline icon='mdi-checkbox-marked'/> und klicken auf <iconify-icon inline icon='mdi-pencil'/> (Massenbearbeitung).
 
 ### 3. Schritt: Bilder importieren
 
@@ -118,6 +122,6 @@ Unter **Gespeicherte Suchprofile anzeigen <iconify-icon inline icon='mdi-folder-
 
 ## Noch Fragen?
 
-Benötigen Sie Unterstützung beim Anlegen von Projekten oder Suchprofilen? 
+Benötigen Sie Unterstützung beim Anlegen von Projekten oder Suchprofilen oder beim Match? 
 
 Melden Sie sich gern per Mail an <a href="mailto:service@madaster.de">service@madaster.de</a> oder über unsere Servicehotline <a href="tel:+4930235962051">+49 30 235 962 051</a>
