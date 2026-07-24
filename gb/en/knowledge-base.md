@@ -188,6 +188,21 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/rics">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/schemes.png" alt="Check marked sign">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            RICS
+          </h3>
+          <p>
+            RICS Whole Life Carbon – Madaster User Manual
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/classifications">
       <div class="overview-item">
         <div class="resource-item-left">
