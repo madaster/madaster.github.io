@@ -7,7 +7,7 @@ menubar: knowledge-base-nav
 ---
 
 Depending on the subscription every account has a certain number of active (Administrator, Manage & Contribute to database, Manager) users. To view the number of active users available, go to the **Subscriptions** Tab on account level (only visible for active users).
-On the plattform it is possible to add users, with certain permissions at account-, folder- and building-level.
+On the plattform it is possible to add users, with certain permissions at account-, folder- and object-level.
 Users can be assigned a "legal role", meaning they have the legal responsibility to accept license terms of restricted producer databases. These are listed under the three dots in the menu, and in the page **Licensed databases**.
 For more information on this, see the <a href="databases" target="_blank">Databases on Madaster</a>.
 
@@ -30,31 +30,34 @@ Users invited at folder-level will be given access to all sub-folders and projec
 
 |Folder level |Administrator |Manage & Contribute to database|Manager|Reader|Billing|
 |-|-|-|-|-|-|
-|View folder and underlying buildings/folders| Yes| Yes| Yes| Yes| Yes|
 |Create folders and subfolders| Yes| No| No| No| No|
-|Modify folder and underlying buildings/folders| Yes| Yes| Yes| No| No|
-|Delete folder and underlying buildings/folders| Yes| No| No| No| No|
-|Add building to a folder (if foldertype allows building)| Yes| Yes| Yes| No| No|
+|View folder and underlying objects/folders| Yes| Yes| Yes| Yes| Yes|
+|Modify folder and underlying objects/folders| Yes| Yes| Yes| No| No|
+|Delete folder and underlying objects/folders| Yes| No| No| No| No|
+|Add object to a folder (if foldertype allows it)| Yes| Yes| Yes| No| No|
 |Add and remove users| Yes| No| No| No|   |
 |Add database (folder level)| Yes| No| No| No| No|
 |Contribute to database (folder level)| Yes| Yes| No| No| No|
 |Export Material Passport| Yes| Yes| Yes| No| No|
 |Download Material Passport to PDF| Yes| Yes| Yes| No| No|
 
-## Add users at building-level
+## Add users at object-level
 
-Users invited at building-level will be given access to only the selected building. Building-level users can be assigned one of the following permissions:
+Users invited at object-level will be given access to the selected object only. Object-level users can be assigned one of the following permissions:
 
-|Building level|Administrator|Manage & Contribute to database|Manager|Reader|Billing|
+|Object level|Administrator|Manage & Contribute to database|Manager|Reader|Billing|
 |-|-|-|-|-|-|
-|View building| Yes| Yes| Yes| Yes| No|
-|Modify building| Yes| Yes| Yes| No| No|
-|Delete building| Yes| No| No| No| No|
+|View object| Yes| Yes| Yes| Yes| No|
+|Modify object| Yes| Yes| Yes| No| No|
+|Delete object| Yes| No| No| No| No|
+|Transfer object*| Yes| No| No| No| No|
 |Add and remove users| Yes| No| No| No| No|
-|Add database (building level)| Yes| No| No| No| No|
-|Contributions to database created on building level or shared with the building with at least contribution rights(folder level)| Yes| Yes| No| No| No|
+|Add database (object-level)| Yes| No| No| No| No|
+|Contributions to database created on object-level or shared with the object with at least contribution rights (folder-level)| Yes| Yes| No| No| No|
 |Export Material Passport| Yes| Yes| Yes| No| No|
 |Download Material Passport to PDF| Yes| Yes| Yes| Yes| Yes|
+
+<i>* The user needs at least the transfer role in the target account or target folder where the object should be transferred to.</i>
 
 ## Setting up Multi-Factor Authentication (MFA)
 
