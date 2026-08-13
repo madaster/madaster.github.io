@@ -19,11 +19,11 @@ menubar: resources-nav
 
 
 ### Hersteller
-<a href="/files/de/01_Teil A_Hersteller_Datenbank anlegen_Manuell.pdf" target="_blank">Madaster Produkte manuell anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den manuellen Upload von Produktdaten auf der Madaster-Plattform.
+<a href="/files/de/01_Teil A_Hersteller_Datenbank anlegen_Manuell.pdf" target="_blank">Produkte/Materialien manuell anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den manuellen Upload von Produktdaten auf der Madaster-Plattform.
 
-<a href="/files/de/02_Teil B_Hersteller_Datenbank anlegen_Excel.pdf" target="_blank">Madaster Produkte über Excel anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den Import von Produktdaten über eine Excel-Vorlage auf der Madaster-Plattform.
+<a href="/files/de/02_Teil B_Hersteller_Datenbank anlegen_Excel.pdf" target="_blank">Produkte/Materialien per Excel anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den Import von Produktdaten über eine Excel-Vorlage auf der Madaster-Plattform.
 
-<a href="/files/de/03_Teil C_Hersteller_Datenbank anlegen_KI Import.pdf" target="_blank">Madaster Produkte per KI-Import anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den automatisierten Import von Produktdaten mittels KI-gestützter EPD Erkennung auf der Madaster-Plattform.
+<a href="/files/de/03_Teil C_Hersteller_Datenbank anlegen_KI Import.pdf" target="_blank">Produkte/Materialien per KI-Import anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den automatisierten Import von Produktdaten mittels KI-gestützter EPD Erkennung auf der Madaster-Plattform.
 
 
 <div style="margin-top: 40px;"> </div>
