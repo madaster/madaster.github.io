@@ -26,7 +26,7 @@ Madaster allows user to generate reports aligned with the RICS standard at granu
 
 Using the generate report button a user can export a RICS WLCA report that reflects the buildings RIBA Plan of Work Stage. The RIBA Plan of Work Stage can be adjusted in the buildings ‘General‘ tab. Plan of Work Stages 4 upward will produce detailed granularity report outputs.
 
-## Setting up a Project for the RICS Feature
+## Setting Up a Project for the RICS Feature
 
 First of all make sure that this <a href="../knowledge-base/features.html" target="_blank">feature</a> is enabled <iconify-icon inline icon='mdi-toggle-switch'/> for your account.
 
