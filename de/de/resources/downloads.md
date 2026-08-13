@@ -15,10 +15,16 @@ menubar: resources-nav
 
 <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Circular Buildings - a measurement method for disassembly potential 2.0</a> - Dieser Report beschreibt, wie die Bewertungsmethode für die Demontierbarkeit funktioniert.
 
-<div style="margin-top: 20px;"> </div>
+<div style="margin-top: 40px;"> </div>
+
 
 ### Hersteller
-<a href="/files/at/Madaster - Hersteller Excel Anleitung.pdf" target="_blank">Madaster Hersteller Excel-Anleitung (Stand: 30.04.2025)</a> – Dieses Handbuch erklärt den Excel-Upload von Herstellerdaten auf der Madaster-Plattform und worauf beim Ausfüllen der Tabellenspalten zu achten ist.
+<a href="/files/de/01_Teil A_Hersteller_Datenbank anlegen_Manuell.pdf" target="_blank">Madaster Produkte manuell anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den manuellen Upload von Produktdaten auf der Madaster-Plattform.
+
+<a href="/files/de/02_Teil B_Hersteller_Datenbank anlegen_Excel.pdf" target="_blank">Madaster Produkte über Excel anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den Import von Produktdaten über eine Excel-Vorlage auf der Madaster-Plattform.
+
+<a href="/files/de/03_Teil C_Hersteller_Datenbank anlegen_KI Import.pdf" target="_blank">Madaster Produkte per KI-Import anlegen (Stand: 08.2026)</a> – Dieses Handbuch erklärt den automatisierten Import von Produktdaten mittels KI-gestützter EPD Erkennung auf der Madaster-Plattform.
+
 
 <div style="margin-top: 40px;"> </div>
 
