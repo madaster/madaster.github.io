@@ -49,15 +49,16 @@ Users invited at object-level will be given access to the selected object only. 
 |-|-|-|-|-|-|
 |View object| Yes| Yes| Yes| Yes| No|
 |Modify object| Yes| Yes| Yes| No| No|
-|Delete object| Yes| No| No| No| No|
+|Archive / deactivate object| Yes| No| No| No| No|
 |Transfer object*| Yes| No| No| No| No|
+|Delete object| Yes| No| No| No| No|
 |Add and remove users| Yes| No| No| No| No|
 |Add database (object-level)| Yes| No| No| No| No|
 |Contributions to database created on object-level or shared with the object with at least contribution rights (folder-level)| Yes| Yes| No| No| No|
 |Export Material Passport| Yes| Yes| Yes| No| No|
 |Download Material Passport to PDF| Yes| Yes| Yes| Yes| Yes|
 
-<i>* The user needs at least the transfer role in the target account or target folder where the object should be transferred to.</i>
+<i>* The user needs at least the <b>Transfer Objects</b> role in the target account or target folder where the object should be transferred to.</i>
 
 ## Setting up Multi-Factor Authentication (MFA)
 

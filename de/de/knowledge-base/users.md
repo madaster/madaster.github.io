@@ -29,7 +29,6 @@ Benutzer, die auf **Accountebene** <iconify-icon inline icon='mdi-briefcase-vari
 |Abbonement einsehen| Ja| Nein| Nein| Nein| Nein|
 |Benutzer einsehen| Ja| Nein| Nein| Nein| Nein|
 
-
 ## Benutzer auf Ordnerebene hinzufügen
 
 Benutzer, die auf **Ordnerebene** <iconify-icon inline icon='mdi-folder-account'/> eingeladen werden, erhalten Zugriff auf alle Unterordner und Projekte innerhalb des ausgewählten Ordners. Benutzern auf Ordnerebene kann eine der folgenden Berechtigungen zugewiesen werden:
@@ -55,12 +54,17 @@ Benutzer, die auf **Objektebene** <iconify-icon inline icon='mdi-office-building
 |-|-|-|-|-|-|
 |Objekt einsehen| Ja| Ja| Ja| Ja| Ja|
 |Objekt bearbeiten| Ja| Ja| Ja| Nein| Nein|
+|Objekt (teilweise) archivieren| Ja| Nein| Nein| Nein| Nein|
+|Objekt übertragen*| Ja| Nein| Nein| Nein| Nein|
 |Objekt löschen| Ja| Nein| Nein| Nein| Nein|
 |Benutzer hinzufügen/entfernen| Ja| Nein| Nein| Nein| Nein|
 |Datenbank hinzufügen| Ja| Nein| Nein| Nein| Nein|
 |Mitarbeit an einer Objekt-Datenbank oder geteilten Objekt-Datenbank mit Beitragsrechten| Ja| Ja| Nein| Nein| Nein|
 |Materialpass exportieren| Ja| Ja| Ja| Nein| Nein|
 |Materialpass herunterladen| Ja| Ja| Ja| Ja| Ja|
+|Benutzer einsehen| Ja| Ja| Nein| Nein| Nein|
+
+<i>* Benutzer benötigen im Zielaccount bzw. Zielordner mindestestens <b>Objekte übertragen</b> Rechte, um diese Funktion erfolgreich ausführen zu können.</i>
 
 ## Multi-Faktor-Authentifizierung (MFA) einrichten
 Zur Erhöhung der Kontosicherheit ist die Multi-Faktor-Authentifizierung (MFA) für alle Nutzer in allen Ländern verpflichtend – einschließlich reiner Lesezugänge. Die Anmeldung erfolgt zusätzlich zum Passwort mit einem zeitbasierten Code aus einer Authentifizierungs-App (z.B. Microsoft Authenticator, Google Authenticator).
