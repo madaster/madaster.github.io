@@ -27,28 +27,6 @@ When generating a report and setting up the KPI's to be added it would happen th
 
 <figure><img src="/assets/images/releasenotes/202607-13595-1.png" alt="Do not forget the KPI!"><figcaption>Do not forget the KPI!</figcaption></figure>
 
-### Madaster Match ###
-
-Numerous changes have been done to Madaster Match:
-
-* An overview of the matches has been added:
-
-<figure><img src="/assets/images/releasenotes/202607-13591-1.png" alt="The new overview of matches."><figcaption>The new overview of matches.</figcaption></figure>
-
-It is also possible to change the status of the match.
-
-Other changes to Madaster Match include:
-
-* Classification has been added to the products
-* Some dropdowns have been changed to checkboxes
-* It is now possible to state the agreed price when completing a match:
-
-<figure><img src="/assets/images/releasenotes/202607-13547-1.png" alt="The form when completing a match."><figcaption>The form when completing a match.</figcaption></figure>
-
-* It is now possible to export the products in a Madaster Match project:
-
-<figure><img src="/assets/images/releasenotes/202607-13549-1.png" alt="Exporting the project products in excel."><figcaption>Exporting the project products in excel.</figcaption></figure>
-
 ### Country specific ###
 
 #### For the Netherlands ####
@@ -68,6 +46,20 @@ This will also show the recalculated MPG target as a benchmark in the platform:
 
 <figure><img src="/assets/images/releasenotes/202607-13598-1.png" alt="The new grouping of GRP fields on the labels tab."><figcaption>The new grouping of GRP fields on the labels tab.</figcaption></figure>
 
+* Numerous changes have been done to Madaster Match:
+
+    * An overview of the matches has been added:
+    <figure><img src="/assets/images/releasenotes/202607-13591-1.png" alt="The new overview of matches."><figcaption>The new overview of matches.</figcaption></figure>
+
+    * It is also possible to change the status of the match.
+    * A classification has been added to the products
+    * Some dropdowns have been changed to checkboxes
+    * It is now possible to state the agreed price when completing a match:
+    <figure><img src="/assets/images/releasenotes/202607-13547-1.png" alt="The form when completing a match."><figcaption>The form when completing a match.</figcaption></figure>
+    
+    * It is now possible to export the products in a Madaster Match project:
+    <figure><img src="/assets/images/releasenotes/202607-13549-1.png" alt="Exporting the project products in excel."><figcaption>Exporting the project products in excel.</figcaption></figure>
+
 #### For the UK ####
 
 The 'Upfront carbon emissions' have been added as a KPI in the environmental tab:
@@ -79,6 +71,7 @@ The 'Upfront carbon emissions' have been added as a KPI in the environmental tab
 * The results from Enersoft were not displayed anymore after saving, which was fixed
 * It is now properly possible to delete a Madaster Match project
 * Showcases would sometimes not show up for some users, which was fixed
+
 
 ## Release notes 2026.6 ##
 

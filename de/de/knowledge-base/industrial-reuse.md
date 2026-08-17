@@ -3,7 +3,8 @@ title: Madaster Match
 description:  Angebot und Nachfrage von Bauteilen für die (industrielle) Wiederverwendung
 ref: industrial-reuse
 type: Wissensdatenbank
-menubar: knowledge-base-nav
+redirect_from:
+  - platform-pages/account/industrial-reuse
 ---
 
 Madaster Match unterstützt dabei, Materialien und Produkte strukturiert zu erfassen, für Andere bereitzustellen und passende Suchprofile für die Wiederverwendung oder Materialvermittlung anzulegen.
