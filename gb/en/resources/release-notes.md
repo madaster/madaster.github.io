@@ -8,6 +8,78 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.7 ##
+
+* Build number: 40561
+* Release date: 15th of August 2026
+
+### Overview of Seach Criteria ###
+
+An overview of search criteria has been added to account, folder and object level:
+
+<figure><img src="/assets/images/releasenotes/202607-13606-1.png" alt="The new overview of search criteria."><figcaption>The new overview of search criteria.</figcaption></figure>
+
+It is possible to delete a search criterion here, as well as to navigate to the database or product directly.
+
+### Reminder to not forget to add KPI ###
+
+When generating a report and setting up the KPI's to be added it would happen that people would forget to click on the '+'. We have added some UI help to remind users that they might still have a KPI ready to be added:
+
+<figure><img src="/assets/images/releasenotes/202607-13595-1.png" alt="Do not forget the KPI!"><figcaption>Do not forget the KPI!</figcaption></figure>
+
+### Madaster Match ###
+
+Numerous changes have been done to Madaster Match:
+
+* An overview of the matches has been added:
+
+<figure><img src="/assets/images/releasenotes/202607-13591-1.png" alt="The new overview of matches."><figcaption>The new overview of matches.</figcaption></figure>
+
+It is also possible to change the status of the match.
+
+Other changes to Madaster Match include:
+
+* Classification has been added to the products
+* Some dropdowns have been changed to checkboxes
+* It is now possible to state the agreed price when completing a match:
+
+<figure><img src="/assets/images/releasenotes/202607-13547-1.png" alt="The form when completing a match."><figcaption>The form when completing a match.</figcaption></figure>
+
+* It is now possible to export the products in a Madaster Match project:
+
+<figure><img src="/assets/images/releasenotes/202607-13549-1.png" alt="Exporting the project products in excel."><figcaption>Exporting the project products in excel.</figcaption></figure>
+
+### Country specific ###
+
+#### For the Netherlands ####
+
+We implemented the 'soepelere en gewogen MPG eis' voor A2. For selecting the correct area's and usages we have added the following options:
+
+<figure><img src="/assets/images/releasenotes/202607-13507-1.png" alt="The required area and usage selection for the soepelere en gewogen MPG eis."><figcaption>The required area and usage selection for the soepelere en gewogen MPG eis.</figcaption></figure>
+
+This will also show the recalculated MPG target as a benchmark in the platform:
+
+<figure><img src="/assets/images/releasenotes/202607-13507-1.png" alt="The recalculated MPG target."><figcaption>The recalculated MPG target.</figcaption></figure>
+
+#### For Germany and Austria ####
+
+* DGNB calculations for reused elements has been changed so that C3-4 and D are included
+* Building fields have moved, mainly so that the specific fields that are only used in the Gebäuderessourcenpass are grouped together when choosing the scheme:
+
+<figure><img src="/assets/images/releasenotes/202607-13598-1.png" alt="The new grouping of GRP fields on the labels tab."><figcaption>The new grouping of GRP fields on the labels tab.</figcaption></figure>
+
+#### For the UK ####
+
+The 'Upfront carbon emissions' have been added as a KPI in the environmental tab:
+
+<figure><img src="/assets/images/releasenotes/202607-13602-1.png" alt="The upfront emissions KPI."><figcaption>The upfront emissions KPI.</figcaption></figure>
+
+### Bugfixes ###
+
+* The results from Enersoft were not displayed anymore after saving, which was fixed
+* It is now properly possible to delete a Madaster Match project
+* Showcases would sometimes not show up for some users, which was fixed
+
 ## Release notes 2026.6 ##
 
 * Build number: 40059
