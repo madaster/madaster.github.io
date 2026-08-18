@@ -26,7 +26,7 @@ De CI beoordeling kent 2 verschillende bepalingsmethodes:
 
 De Gebouw CI wordt gecorrigeerd met twee factoren die de compleetheid van de in Madaster vastgelegde dataset meenemen in de totaal score. Een circulair gebouw en daarbij behorend Materialen Paspoort werkt alleen voor producten en materialen die goed zijn vastgelegd. De correctie vindt plaats op basis van de compleetheid van het model op basis van het percentage van de massa waarvan het materiaal onbekend is, en de compleetheid van het model op basis van het percentage van de massa waarvan de NL-SfB codering afwezig is.
 
-Ook is er een <a href="/files/Toelichting_Madaster_Circulariteit_Indicator_v1.0_nl.pdf" target="_blank">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
+Ook is er een <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">uitgebreide toelichting</a> van de Madaster Circulariteit Indicator beschikbaar.
 
 ### Losmaakbaarheid
 De losmaakbaarheidsindex op gebouwniveau wordt berekend volgens een methodiek beschreven op de site van de Dutch Green Building Council. Binnen Madaster wordt de berekening gemaakt op alle elementen gekoppeld aan producten die zijn voorzien van losmaakbaarheidsinformatie en een Milieukostenindicator bevatten.

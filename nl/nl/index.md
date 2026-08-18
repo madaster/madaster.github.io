@@ -44,7 +44,7 @@ Bekijk hier de <a href="https://www.youtube.com/watch?v=fPVuCa9L1uQ&list=PLS17hW
 
 ### Naslagwerken
 
-* Lees de <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
+* Lees de <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">Toelichting Madaster Circulariteit Indicator</a> - deze beschrijft gedetailleerd de werking van de Madaster Circulariteit Indicator (MCI) alsmede de achterliggende methodiek.
 * Lees de <a href="/files/nl/Madaster - Financieel.pdf" target="_blank">Toelichting Madaster Financiële Module</a> – deze beschrijft gedetailleerd de werking van de financiële tab in Madaster alsmede de achterliggende methodiek.
 * Lees het rapport<a href="/files/nl/Circular Buildings - een meetmethodiek voor losmaakbaarheid versie 2.pdf" target="_blank"> ‘Circular Buildings – een meetmethodiek voor losmaakbaarheid v2.0’</a> – deze beschrijft gedetailleerd de werking van de uniforme meetmethode voor losmaakbaarheid in de bouw.
 
