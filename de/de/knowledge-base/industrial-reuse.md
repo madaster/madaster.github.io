@@ -3,6 +3,7 @@ title: Madaster Match
 description:  Angebot und Nachfrage von Bauteilen für die (industrielle) Wiederverwendung
 ref: industrial-reuse
 type: Wissensdatenbank
+menubar: knowledge-base-nav
 redirect_from:
   - platform-pages/account/industrial-reuse
 ---
