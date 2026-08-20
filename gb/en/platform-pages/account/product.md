@@ -15,7 +15,7 @@ redirect_from:
   - platform-pages/edit/product-files
   - platform-pages/edit/product-finance
   - platform-pages/new/product
-  
+  - platform-pages/account/searchcriteria
 ---
 
 ## HOW TO ADD A NEW PRODUCT?

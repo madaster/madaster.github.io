@@ -14,6 +14,7 @@ redirect_from:
   - platform-pages/edit/product
   - platform-pages/new/product
   - platform-pages/copy/product
+  - platform-pages/account/searchcriteria
 ---
 
 ## Welche Informationen finde ich hier und welche Anpassungen kann ich tätigen?
