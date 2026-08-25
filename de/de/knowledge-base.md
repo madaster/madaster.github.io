@@ -255,10 +255,10 @@ exclude: true
         </div>
         <div class="resource-item-right">
           <h3>
-            Madaster Match
+            Match
           </h3>
           <p>
-            Angebot und Nachfrage von Bauteilen für die (industrielle) Wiederverwendung
+            Vermittlung von Produkten zur Wiederverwendung und weiteren Verwertungsmöglichkeiten
           </p>
         </div>
       </div>
