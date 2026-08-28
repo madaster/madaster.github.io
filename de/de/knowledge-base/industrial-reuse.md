@@ -5,7 +5,9 @@ ref: industrial-reuse
 type: Wissensdatenbank
 menubar: knowledge-base-nav
 redirect_from:
+  - platform-pages/industrialreuseproject
   - platform-pages/account/industrial-reuse
+  - platform-pages/supplier/industrial-reuse
 ---
 
 Madaster Match unterstützt dabei, Materialien und Produkte strukturiert zu erfassen, für Andere bereitzustellen und passende Suchprofile für die Wiederverwendung oder Materialvermittlung anzulegen.
