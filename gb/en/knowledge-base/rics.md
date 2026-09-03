@@ -82,7 +82,7 @@ $$A1−A3s=\sum GWP_{biogenic}$$
 
 > **<u>What the user must do manually:</u>** *Ensure that the EPDs used in the project are compliant with **EN 15804:A2** standard of reporting. For more information on the EN 15804 please see <a href="../knowledge-base/madaster-glossary.html#environmental" target="_blank">here</a>.*
 
-The reason why Madaster only uses EN 15804:A2 EPDS is because the LCA KPIs (GWP, ADP etc) are broken down further as mandated by this guidance. This allows the platform to clearly differentiate between sequestered GWP (GWPbiogenice) and embodied GWP impacts. Assumptions will have to made for percentage sequestered if A1 EPDs are used. This has to be clearly declared within the assessor’s final RICS report.
+The reason why Madaster only uses EN 15804:A2 EPDS is because the LCA KPIs (GWP, ADP etc) are broken down further as mandated by this guidance. This allows the platform to clearly differentiate between sequestered GWP (biogenic) and embodied GWP impacts. Assumptions will have to made for percentage sequestered if A1 EPDs are used. This has to be clearly declared within the assessor’s final RICS report.
 
 ## A4 Transport to Site
 
