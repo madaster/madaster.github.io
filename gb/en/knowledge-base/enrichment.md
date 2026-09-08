@@ -43,13 +43,13 @@ Another window will open showing the following options, which you can choose by 
 2. Link elements according to your own **Matching Rules** and save these rules for future automatic mapping.
 You decide whether to link based on the material name <u>OR</u> the type name <u>OR</u> the IFC type <u>OR EVEN</u> a combination of several criteria.
 
-> Note: Using the drop-down list on the right, you can choose whether to save this rule for future use – either for this specific object or for the entire account. The second option is useful if your projects are frequently modelled in the same way.
+    > Note: Using the drop-down list on the right, you can choose whether to save this rule for future use – either for this specific object or for the entire account. The second option is useful if your projects are frequently modelled in the same way.
 
-> Note: By checking the last box you can also include elements that are already linked.
+    > Note: By checking the last box you can also include elements that are already linked.
 
 3. Link all elements **mapped to a specific product**.
 
-> Note: Select this option if, for example, you wish to replace a product with a more environmentally friendly or circular alternative.
+    > Note: Select this option if, for example, while planning you wish to replace a product with a more environmentally friendly or circular alternative or while building a former planned product is replaced by another.
 
 <figure><img src="/assets/images/knowledgebase/Search criteria.png" alt="Options in the manual mapping process incl. matching rules."><figcaption>Options in the manual mapping process incl. matching rules.</figcaption></figure>
 
