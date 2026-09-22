@@ -1,6 +1,6 @@
 ---
-title: Dossier
-description: Objekt - Dossier
+title: Dateien
+description: Objekt - Dateien
 ref: building-files
 type: FAQ
 ---
@@ -9,7 +9,7 @@ type: FAQ
 Diese Registerkarte enthält Quelldateien, die für das jeweilige Objekt hochgeladen wurden. Hier können Sie verfügbare Dateien ansehen, ändern und herunterladen und neue Dateien hinzufügen. Zwei Arten von Dateien können in das System hochgeladen werden: Quelldateien und allgemeine Dateien.
 
 1. **Quelldateien** sind die IFC- und/oder Excel-Quelldateien, die die im Objekt verwendeten Materialien und Produkte enthalten und deren Inhalt zur Darstellung der Ergebnisse in den verschiedenen Madaster-Registerkarten verwendet werden.
-2. **Allgemeine Dokumente** sind alle anderen relevanten Akten, die der Bauakte hinzugefügt werden können, wie z.B. Verwaltungs- und Arbeitsunterlagen, Bescheinigungen, Garantien usw. Das Dossier zeigt auch alle Materialpässe, die für dieses Objekt erstellt wurden.
+2. **Allgemeine Dokumente** sind alle anderen relevanten Akten, die der Bauakte hinzugefügt werden können, wie z.B. Verwaltungs- und Arbeitsunterlagen, Bescheinigungen, Garantien usw. Das Tab **Dateien** zeigt auch alle Materialpässe, die für dieses Objekt erstellt wurden.
 
 ### Objekt einrichten
 Weitere Informationen dazu, wie Sie ein Objekt einrichten, finden Sie in den <a href="https://docs.madaster.com/de/de/get-started/set-up-objects.html" target="_blank">Ersten Schritten - Objekt einrichten</a>.

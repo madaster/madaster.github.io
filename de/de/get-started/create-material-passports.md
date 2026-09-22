@@ -19,6 +19,6 @@ menubar: get-started-nav
     * *Umweltwirkfaktoren*
     * *Finanziell*
 
-4. Klicken Sie **Generieren**. Nach Fertigstellung können Sie den Materialpass im Tab **Dossier** herunterladen.
+4. Klicken Sie **Generieren**. Nach Fertigstellung können Sie den Materialpass im Tab **Dateien** herunterladen.
 
 <a class="next-button" href="./portfolio-insights-and-performance">Nächster Schritt: Portfolio - Einblicke und Performance</a>

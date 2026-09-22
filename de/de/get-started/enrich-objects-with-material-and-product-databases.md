@@ -48,7 +48,7 @@ Wenn die automatische Zuordnung nicht alle Elemnte verknüpfen konnte, können S
    
    **b.** Verknüpfen Sie das Element mit einem Produkt oder Material aus einer vorhandenen Datenbank, indem Sie die Suchfunktion <iconify-icon inline icon='mdi-magnify'/> verwenden, das Kästchen des Materials/Produkts markieren <iconify-icon inline icon='mdi-checkbox-marked'/> und auf das Symbol <iconify-icon inline icon='mdi-link-variant'/> oben rechts klicken. Wählen Sie die passende Option und klicken Sie **OK**
 
-> Hinweis: Während Sie die Datei anreichern, führt die Madaster-Plattform im Hintergrund einen neuen Zuordnungsprozess durch. Dadurch verändert sich das Ergebnis der „Qualität des Zuordnungsprozesses“ sowie der Auswertungen. Um Sie in Ihrem Arbeitsfluss nicht zu unterbrechen, werden Sie nach Abschluss der Anreicherung aufgefordert, eine Neuberechnung durchzuführen. Klicken Sie dazu im Tab Allgemeines oder Dossier die Schaltfläche **Neu berechnen** <iconify-icon inline icon='mdi-calculator-variant-outline'/>.
+> Hinweis: Während Sie die Datei anreichern, führt die Madaster-Plattform im Hintergrund einen neuen Zuordnungsprozess durch. Dadurch verändert sich das Ergebnis der „Qualität des Zuordnungsprozesses“ sowie der Auswertungen. Um Sie in Ihrem Arbeitsfluss nicht zu unterbrechen, werden Sie nach Abschluss der Anreicherung aufgefordert, eine Neuberechnung durchzuführen. Klicken Sie dazu im Tab Allgemeines oder Dateien die Schaltfläche **Neu berechnen** <iconify-icon inline icon='mdi-calculator-variant-outline'/>.
 
 ## Erneutes automatisches Zuordnen
 

@@ -37,7 +37,7 @@ Für beide Arten von Quelldateien sollten je Element folgende Angaben enthalten 
 
 ## Quelldatei hochladen
 
-Klicken Sie auf Objektebene im Tab **Dossier** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
+Klicken Sie auf Objektebene im Tab **Dateien** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
 
   1. Wählen Sie den **Dateityp** Quelldatei (BIM oder Excel) und klicken Sie auf **Datei(en) auswählen**.
   2. Wählen Sie die **Klassifizierungsmethode** oder sofern bereits angelegt die gewünschten <a href="../knowledge-base/stay-organized#organisieren-der-quelldateien" target="_blank">Upload-Voreinstellungen</a>.
@@ -53,7 +53,7 @@ Klicken Sie auf Objektebene im Tab **Dossier** die Schaltfläche **Hochladen** <
 
 Pro Objekt können auch **mehrere Quelldateien** bei Madaster hochgeladen und gleichzeitig ausgewertet werden. Beispielsweise je eine QUelldatei zum Architektur-, TGA- und Einrichtungmodell oder verschiedene Versionen dieser Modelle. IFC- und Excel-Dateien können dazu auch kombiniert werden.
 
-Schalten Sie auf Objektebene im Tab Dossier die hochgeladene Quelldatei **Aktiv** <iconify-icon inline icon='mdi-toggle-switch'/>. Nur aktivierte Quelldateien werden bei der Auswertung berücksichtigt.
+Schalten Sie auf Objektebene im Tab Dateien die hochgeladene Quelldatei **Aktiv** <iconify-icon inline icon='mdi-toggle-switch'/>. Nur aktivierte Quelldateien werden bei der Auswertung berücksichtigt.
 
 Wurde ein BIM-Modell überarbeitet und ist eine hochgeladene Quelldatei veraltet, kann eine **neue Version** hinzugefügt werden, ohne dass die bisherigen Produktverknüpfungen verloren gehen. Klicken Sie dazu neben der betreffenden Quelldatei auf das Symbol <iconify-icon inline icon='mdi-upload-lock'/> auf der rechten Seite.
 

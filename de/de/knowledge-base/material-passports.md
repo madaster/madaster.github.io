@@ -41,7 +41,7 @@ Zusätzlich kann ein technischer Annex in Form eines Excelexports über alleemen
 
 ### Webbasierter One-pager
 
-Zusätzlich zum One-Pager, der Zusammenfassung und dem Materialpass ist es auch möglich, einen webbasierten Pass zu erstellen. Dieser webbasierte Pass ähnelt dem One-Pager, steht aber online zur Verfügung, damit Sie ihn mit anderen teilen können. Im Gegensatz zu den anderen Pässen, die als .pdf-Datei zum Herunterladen erstellt werden, werden die webbasierten Pässe online erstellt und gespeichert. Auf der Registerkarte Dossier finden Sie den Link, der zu diesem webbasierten Pass erstellt wird und den Sie bspw. per E-Mail weitergeben können. Die Empfänger:innen können den One-Pager lesen, ohne sich auf der Madaster-Plattform anmelden zu müssen. Die Empfänger:innen können Ihr Objekt auf Madaster nicht sehen, also stellen Sie bitte sicher, dass Sie alle Informationen auswählen, die Sie weitergeben möchten.
+Zusätzlich zum One-Pager, der Zusammenfassung und dem Materialpass ist es auch möglich, einen webbasierten Pass zu erstellen. Dieser webbasierte Pass ähnelt dem One-Pager, steht aber online zur Verfügung, damit Sie ihn mit anderen teilen können. Im Gegensatz zu den anderen Pässen, die als .pdf-Datei zum Herunterladen erstellt werden, werden die webbasierten Pässe online erstellt und gespeichert. Auf der Registerkarte Dateien finden Sie den Link, der zu diesem webbasierten Pass erstellt wird und den Sie bspw. per E-Mail weitergeben können. Die Empfänger:innen können den One-Pager lesen, ohne sich auf der Madaster-Plattform anmelden zu müssen. Die Empfänger:innen können Ihr Objekt auf Madaster nicht sehen, also stellen Sie bitte sicher, dass Sie alle Informationen auswählen, die Sie weitergeben möchten.
 
 ## Voreinstellungen für Materialpässe
 

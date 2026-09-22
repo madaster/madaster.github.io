@@ -26,7 +26,7 @@ Wie kann geprüft werden, ob durch die automatische Zuordnung Elemente korrekt m
 ### Vorbetrachtung 
 
 1. **Wurden alle Materialangaben aus der Quelldatei ausgelesen?**<br>
-Klicken Sie im Dossier des Objekts auf die entsprechende Quelldatei. Unter „Qualität der Quelldatei“ sehen sie unter "Materialbeschreibung" eine prozentuale Angabe, für wie viele Elemente eine Materialangabe gefunden wurde.
+Klicken Sie im Tab **Dateien** des Objekts auf die entsprechende Quelldatei. Unter „Qualität der Quelldatei“ sehen sie unter "Materialbeschreibung" eine prozentuale Angabe, für wie viele Elemente eine Materialangabe gefunden wurde.
 
     > Hinweis: Materialien sollten über alle Elemente in demselben Attribut vermerkt sein. Gemäß den buildingSMART-Richtlinien wird empfohlen, das Attribut „ifcmaterial“ zu nutzen. Alternativ kann das Attribut über die „Voreinstellungen für den Upload“ festgelegt werden. Es werden nicht mehrere Attribute ausgelesen oder kombiniert.
 
@@ -39,7 +39,7 @@ Gehen Sie zu „Erweitern“ (Manuell) und verwenden Sie den Filter „Elementst
     > Hinweis: Einzelheiten zu Elementen mit mehreren Materialien oder Unterelementen finden Sie unter <a href="../knowledge-base/work-processes.html#materialzusammensetzungen-von-elementen" target="_blank">Arbeitsprozesse</a> oder im **BIM-Handbuch** im <a href="../resources/downloads" target="_blank">Download-Bereich</a>.
 
 
-    > Hinweis: Wenn Sie es bevorzugen mit einer Bill of Quantities im Excelformat zu arbeiten, können Sie diese nach Klick auf die entsprechende Quelldatei im Dossier über „Datei exportieren <iconify-icon inline icon='mdi-file-download-outline'/>“ generieren.
+    > Hinweis: Wenn Sie es bevorzugen mit einer Bill of Quantities im Excelformat zu arbeiten, können Sie diese nach Klick auf die entsprechende Quelldatei im Tab **Dateien** über „Datei exportieren <iconify-icon inline icon='mdi-file-download-outline'/>“ generieren.
 
 ### Prüfniveau 1 - Sichtprüfung
 

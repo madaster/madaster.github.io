@@ -1,6 +1,6 @@
 ---
-title: Dossier
-description: Account - Dossier
+title: Dateien
+description: Account - Dateien
 ref: account-files
 type: FAQ
 ---
@@ -8,9 +8,9 @@ type: FAQ
 ### Account verwalten
 Für weitere Informationen zum Einrichten des Accounts folgen Sie den <a href="https://docs.madaster.com/de/de/get-started/set-up-your-account" target="_blank">Ersten Schritten</a>.
 
-### Dossier verwalten
+### Dateien verwalten
 Diese Registerkarte enthält Dateien, die auf der Accountebene hochgeladen wurden. Hier können Sie neue Dateien hinzufügen und den Status einer Datei ändern. Bei den Dateien kann es sich um jede Art von Dateien handeln, wie z.B. Management- und Arbeitsunterlagen, Zertifikate, Verträge usw. Hier können außerdem Unternehmens- oder Projektwebseiten verlinkt werden.
-Quelldateien z.B. IFC-Dateien, sollten jedoch in auf Objektebene im Dossier hochgeladen werden.
+Quelldateien z.B. IFC-Dateien, sollten jedoch in auf Objektebene im Tab **Dateien** hochgeladen werden.
 
 ### Ablagestruktur
 Folgende Ordner stehen für die Sortierung Ihrer Ablage zur Verfügung:

@@ -82,13 +82,13 @@ Weitere Informationen zum CRREM-Tool finden Sie unter <a href="https://www.crrem
 
 Sofern Produktdaten in Datenbanken nicht über eine Schnittstellenanbindung eingespeist werden können, müssen Sie einzelnen per manueller Eingabe erfasst werden. Um hier noch eine Alternative zur Verfügung zu stellen, arbeiten wir an der Möglichkeit, Daten **per Excel** zu erfassen und auch zu exportieren.
 
-1. Klicken Sie in der betreffenden Datenbank <iconify-icon inline icon='mdi-database'/> im Tab **Dossier** auf **Import/Export** <iconify-icon inline icon='mdi-swap-vertical'/>.
+1. Klicken Sie in der betreffenden Datenbank <iconify-icon inline icon='mdi-database'/> im Tab **Dateien** auf **Import/Export** <iconify-icon inline icon='mdi-swap-vertical'/>.
 2. Wählen Sie zunächst **Exportieren** <iconify-icon inline icon='mdi-radiobox-marked'/> und die entsprechende Sprache.
 
     * Sofern Sie noch keine Produkte erfasst haben, wählen Sie **Leere Vorlage generieren** <iconify-icon inline icon='mdi-checkbox-marked'/>.
     * Sofern Sie bereits Produkte angelegt haben, wählen Sie, welche Produktdaten exportiert bzw. über die Excel bearbeitet werden sollen.
 
-3. Nachdem Sie mit **OK** bestätigt haben, steht Ihnen die entsprechende Excel nach Fertigstellung im Dossier für den **Download** zur Verfügung.
+3. Nachdem Sie mit **OK** bestätigt haben, steht Ihnen die entsprechende Excel nach Fertigstellung im Tab **Dateien** für den **Download** zur Verfügung.
 4. Die Option **Importieren** ist erst verfügbar, nachdem überhaupt einmal ein Export generiert wurde. </br> Wählen Sie, welche Produktdaten über die Excel importiert werden sollen sowie die lokal gespeicherte Datei und bestätigen Sie mit **OK**. Wenn alle Informationen korrekt sind, werden Ihre Produkte der Datenbank hinzugefügt und in der Produktübersicht angezeigt.
 
 > Hinweis: Dieses Feature ist in allen Paketen enthalten.
@@ -123,7 +123,7 @@ Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und 
 
 1. Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Gebäuderessourcenpass generieren** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
-3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **Dossier** zum Download zur Verfügung.
+3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **im Tab **Dateien**** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
 
 ### Welche Informationen füllt Madaster automatisiert im DGNB-Gebäuderessourcenpass aus?
@@ -194,7 +194,7 @@ Level(s) verwendet Basisindikatoren zur Nachhaltigkeit, die im und vom Bausektor
 
 1. Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Bericht generieren für Indikator *XY*** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
-3. Nach Fertigstellung steht Ihnen der Bericht im **Dossier** zum Download zur Verfügung.
+3. Nach Fertigstellung steht Ihnen der Bericht im Tab **Dateien** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
 
 Weitere Informationen zu Level(s) finden Sie bei der <a href="https://environment.ec.europa.eu/topics/circular-economy/levels_en" target="_blank">European Commission</a>.
@@ -203,11 +203,11 @@ Weitere Informationen zu Level(s) finden Sie bei der <a href="https://environmen
 
 ## Objekt teilen
 
-Die Funktion **Quelldatei splitten** ermöglicht es, auf Grundlage einer einzigen IFC-Quelldatei mehrere, individuelle Objektdossiers und Materialpässe, entsprechend der Objekteinheiten zu erstellen. Teilen Sie bspw. eine IFC-Datei eines Quartiers oder eines Mehrfamilienhauses in einzelne Häuser oder Wohnungen.
+Die Funktion **Quelldatei splitten** ermöglicht es, auf Grundlage einer einzigen IFC-Quelldatei mehrere, individueller Ablageorte und Materialpässe, entsprechend der Objekteinheiten zu erstellen. Teilen Sie bspw. eine IFC-Datei eines Quartiers oder eines Mehrfamilienhauses in einzelne Häuser oder Wohnungen.
 
 Um dieses Feature nutzen zu können, muss in der Quelldatei für jedes Element eine entsprechende **Objektnummer** angegeben sein.
 
-1. Nachdem die Quelldatei hochgeladen und angereichert wurde, klicken Sie im Tab **Allgemeines** auf die Schaltfläche **Objekt splitten** <iconify-icon inline icon='mdi-call-split'/>, um automatisch einzelne Objektdossiers auf der Grundlage der zugewiesenen Objektnummern zu erstellen.
+1. Nachdem die Quelldatei hochgeladen und angereichert wurde, klicken Sie im Tab **Allgemeines** auf die Schaltfläche **Objekt splitten** <iconify-icon inline icon='mdi-call-split'/>, um automatisch einzelner Ablageorte auf der Grundlage der zugewiesenen Objektnummern zu erstellen.
 2. Es erscheint eine **Benachrichtigung** <iconify-icon inline icon='mdi-bell-outline'/> sobald der Prozess beendet ist.
 3. Gehen Sie in der linken Navigationsleiste auf das betreffende Objekt und öffnen Sie die darunter liegenden **Splittobjekte** <iconify-icon inline icon='mdi-chevron-down'/>.
 
@@ -259,7 +259,7 @@ Nachdem Sie dieses Feature aktiviert haben, können Hersteller damit ihre **Prod
 3. **Zoomen** Sie alternativ in der Karte und/oder zeichnen Sie benutzerdefinierte Grenzen mittels der **Auswahlsymbole** <iconify-icon inline icon='mdi-pentagon'/> <iconify-icon inline icon='mdi-square'/> <iconify-icon inline icon='mdi-circle'/> oben rechts auf der Karte.
 4. Zusätzlich können Sie unter Karte durch Anhaken spezifische **Produkte wählen**.
     
-Klicken Sie auf die Schaltfläche **Nach Excel exportieren** <iconify-icon inline icon='mdi-file-download-outline'/>, um einen Bericht gemäß Ihrer Auswahl zu generieren und laden Sie den Export aus dem Dossier herunter.
+Klicken Sie auf die Schaltfläche **Nach Excel exportieren** <iconify-icon inline icon='mdi-file-download-outline'/>, um einen Bericht gemäß Ihrer Auswahl zu generieren und laden Sie den Export in dem Tab **Dateien** herunter.
 
 > Hinweis: Dieses Hersteller-Feature ist im PERFOMANCE Abonnement für Sie verfügbar.​
 
@@ -278,7 +278,7 @@ Der UMS bietet eine vereinfachte Analyse, von Objekten, Portfolios oder ganzer G
 2. Geben Sie in der sich öffnenden Maske mindestens die **erforderlichen Informationen** an, welche unter Allgemeines mit einem roten Stern markiert sind.
 3. Zusätzlich können Sie in dem Tab **Energie** weitere Daten zum Verbrauch hinterlegen, um die Berechnung der Lenszyklusphase Betrieb (B6) zu ermöglichen.
 4. Klicken Sie auf **Speichern**, um die automatische Analyse zu starten.
-5. Sobalb diese abgeschlossen ist, finden Sie neben den Auswertungstab im Tab **Dossier**  ein PDF mit den Ergebnissen.
+5. Sobalb diese abgeschlossen ist, finden Sie neben den Auswertungstab im Tab **Dateien**  ein PDF mit den Ergebnissen.
 
 Der Urban Mining Screener ist vor allem als **Flächenerfassungstool** gedacht. Da Abweichungen von der Statistik in einer Mengenanalyse weniger erheblich sind als im Einzelfall. Dennoch können Sie den Urban Mining Screener in der **Version 2.0** nunmehr als Startpunkt für die Erfassung eines Objektes nutzen. Um das gescreente **in ein reguläres Objekt zu konvertieren** klicken Sie unter Allgemeines auf die Schlafläche <iconify-icon inline icon='mdi-home-switch-outline'/>. Nun können Sie die Materialschätzung als Excel exportieren und gemäß vorhandener Daten zu verfeinern.
 

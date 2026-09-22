@@ -10,7 +10,7 @@ Organisieren von Ordnern, Dokumenten, Objekten und Quelldateien
 
 ## Arten von Dateien
 
-Auf jeder Ebene - Account, Ordner, Objekt - gibt es ein Dossier, in dem Sie Ihre Dokumentation, Links und Quelldateien speichern und organisieren können. Auf Account- und Ordnerebene können Sie allgemeine Dokumente und Links hochladen. Quelldateien sind nur auf der Ebene der Objekt relevant.
+Auf jeder Ebene - Account, Ordner, Objekt - gibt es ein Tab **Dateien**, in dem Sie Ihre Dokumentation, Links und Quelldateien speichern und organisieren können. Auf Account- und Ordnerebene können Sie allgemeine Dokumente und Links hochladen. Quelldateien sind nur auf der Ebene der Objekt relevant.
 
 Innerhalb der Madaster-Plattform wird zwischen zwei Arten von Dateien unterschieden, nämlich:
 * **Quelldateien**: die Dateien, mit denen die Materialien und Produkte sowie die Mengen eines Objekts geliefert werden, um in Madaster registriert zu werden. Dazu gehören die IFC-Dateien und die Excel-Vorlage von Madaster.
@@ -18,7 +18,7 @@ Innerhalb der Madaster-Plattform wird zwischen zwei Arten von Dateien unterschie
 
 ## Organisieren der Quelldateien
 
-Im Dossier der Objekt können Sie verfügbare Quelldateien hinzufügen, anzeigen, ändern, löschen und herunterladen.
+Im Tab **Dateien** der Objekt können Sie verfügbare Quelldateien hinzufügen, anzeigen, ändern, löschen und herunterladen.
 
 Wählen Sie die Quelldatei aus, die Sie ändern, herunterladen oder löschen möchten. Rechts neben der Quelldatei wird eine Reihe von Symbolen angezeigt.
 
@@ -55,17 +55,17 @@ Madaster bietet die Möglichkeit, verschiedene Voreinstellungen für Quelldatei-
 
 ## Organisieren allgemeiner Dokumente
 
-Im Dossier der Objekte können Sie die verfügbaren allgemeinen Dateien hinzufügen, anzeigen, bearbeiten, löschen und herunterladen. Wählen Sie die Datei, die Sie bearbeiten, herunterladen oder löschen möchten. Hinter der Datei werden drei Symbole angezeigt, mit denen Sie die Datei herunterladen, den Ordner oder die Tags bearbeiten und die Datei löschen können.
+Im Tab **Dateien** der Objekte können Sie die verfügbaren allgemeinen Dateien hinzufügen, anzeigen, bearbeiten, löschen und herunterladen. Wählen Sie die Datei, die Sie bearbeiten, herunterladen oder löschen möchten. Hinter der Datei werden drei Symbole angezeigt, mit denen Sie die Datei herunterladen, den Ordner oder die Tags bearbeiten und die Datei löschen können.
 
-Wenn Sie ein allgemeines Dokument hochladen, müssen Sie einen oder mehrere Ordner auswählen, in dem die Datei abgelegt werden soll. Im Dossier können Sie nach diesen Ordnern filtern:
+Wenn Sie ein allgemeines Dokument hochladen, müssen Sie einen oder mehrere Ordner auswählen, in dem die Datei abgelegt werden soll. Im Tab **Dateien** können Sie nach diesen Ordnern filtern:
 * Verträge & Garantien.
 * Zeichnungen & Berechnungen.
 * Produktspezifikationen & Handbücher.
 * Lieferanten & Bescheinigungen.
 
-### Suche nach Dateien im Dossier
+### Suche nach Dateien im Tab **Dateien**
 
-Im Dossier gibt es zwei Möglichkeiten, Allgemeine Dokumente und Quelldateien zu finden, nämlich über die Suchfunktion.
+Im Tab **Dateien** gibt es zwei Möglichkeiten, Allgemeine Dokumente und Quelldateien zu finden, nämlich über die Suchfunktion.
 * Filtern nach Schlüsselwörtern in den Dateinamen oder Tags der Quelldateien und allgemeinen Dokumente
 * Durchsuchen der Ordner
 * Sie können auch (unter der Ordnerstruktur) auf ein oder mehrere Schlagwörter klicken, um nach ihnen zu filtern

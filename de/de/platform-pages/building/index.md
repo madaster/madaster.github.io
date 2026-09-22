@@ -18,7 +18,7 @@ Die Informationen über das Objekt sind in mehreren Registerkarten organisiert.
 1. **Allgemeines** Allgemeine Informationen über das Gebäude, wie die Adresse, Katasterdaten, Typ, Bruttogesamtfläche.
 1. **Performance** Übersicht über die ausgelesenen Key Performance Indicator des Objekts.
 1. **BIM-Viewer** Wenn Sie Ihr Objekt mittels IFC hochgeladen haben, finden Sie hier das BIM-Modell.
-1. **Dossier** Alle mit diesem Objekt hochgeladenen Dateien und die für dieses Objekt erstellten Materialpässe finden Sie hier. 
+1. **Dateien** Alle mit diesem Objekt hochgeladenen Dateien und die für dieses Objekt erstellten Materialpässe finden Sie hier. 
 1. **Masse** Diese Registerkarte enthält Informationen über die Massen des Objekts.
 1. **Zirkularität** Diese Registerkarte enthält Informationen über die Zirkularitätswerte des Objekts.
 1. **Umwelt** Diese Registerkarte enthält Informationen zu den ausgelesenen Umweltinformationen des Objekts, die für eine Ökobilanz genutzt werden können.

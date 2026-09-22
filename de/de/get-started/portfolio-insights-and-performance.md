@@ -20,4 +20,4 @@ Ebenso können Sie die Auswahl der auszuwertenden **Objekte anpassen**.
 1. **Filtern** <iconify-icon inline icon='mdi-filter-outline'/> Sie über die Schaltfläche oben links Objekte nach dem Baujahr und/oder der Nutzung.
 2. **Zoomen** Sie alternativ in der Karte und/oder zeichnen Sie benutzerdefinierte Grenzen mittels der **Auswahlsymbole** <iconify-icon inline icon='mdi-pentagon'/> <iconify-icon inline icon='mdi-square'/> <iconify-icon inline icon='mdi-circle'/> oben rechts auf der Karte.
     
-In der Kachel Objekte können Sie die jeweilige Auswahl **Nach Excel exportieren** und den Export jederzeit aus dem Dossier herunterladen.
+In der Kachel Objekte können Sie die jeweilige Auswahl **Nach Excel exportieren** und den Export jederzeit in dem **Dateien** herunterladen.

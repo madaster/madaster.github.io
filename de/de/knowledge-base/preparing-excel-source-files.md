@@ -14,7 +14,7 @@ Das Excel-Template kann als alternative Quelldatei für Objekte genutzt werden, 
 
 Für jede verfügbare <a href="../knowledge-base/classifications" target="_blank">Klassifizierungsmethode</a> (bspw. DIN 276:2018-12) gibt es eine spezische Excel-Vorlagendatei zum Herunterladen.
 
-1. Klicken Sie auf Objektebene im Tab **Dossier** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
+1. Klicken Sie auf Objektebene im Tab **Dateien** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
 2. Wählen Sie über das Dropdown-Menü die **Klassifizierungsmethode**.
 3. Hinter dem Hinweis *"Verwenden Sie Excel? Dann verwenden Sie **diese Vorlage**"* steckt ein Downloadlink der Excel-Vorlage, welche Sie nach Klicken auf diesen in Ihrem lokalen Download-Ordner finden können.
 
@@ -149,9 +149,9 @@ Aufgrund der Langlebigkeit der Objekte ist es wichtig, gerade dieses Wissen lang
 
 ## Madaster Excel-Template hochladen
 
-1. Klicken Sie wie beim Herunterladen der Vorlage auf Objektebene im Tab **Dossier** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
+1. Klicken Sie wie beim Herunterladen der Vorlage auf Objektebene im Tab **Dateien** die Schaltfläche **Hochladen** <iconify-icon inline icon='mdi-upload'/>.
 2. Wählen Sie über das Dropdown-Menü die selbe <a href="../knowledge-base/classifications" target="_blank">Klassifizierungsmethode</a> wie für die Vorlage aus.
 3. Über **Datei(en) auswählen** geben Sie die ausgefüllte Excel an.
 4. Wählen Sie eine Sprache und eine Datenbank für den automatischen Abgleich aus und klicken Sie **Speichern**.
 
-Ist die Datei hochgeladen und verarbeitet, finden Sie diese im **Dossier**. Zur weiteren Bearbeitung folgen Sie der Anleitung <a href="../get-started/enrich-objects-with-material-and-product-databases">Objekt anreichern</a>.
+Ist die Datei hochgeladen und verarbeitet, finden Sie diese im **Dateien**. Zur weiteren Bearbeitung folgen Sie der Anleitung <a href="../get-started/enrich-objects-with-material-and-product-databases">Objekt anreichern</a>.

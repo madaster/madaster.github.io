@@ -34,7 +34,7 @@ Im Kriterium TEC 1.6 des DGNB-Kriterienkatalogs wird zwischen Projekten mit und 
 
 1. Auf Objektebene kann im Tab **Reporting** im Dropdown diese Berichtsart ausgewählt werden.
 2. Die vorhandenen Daten können über die Schaltfläche **Gebäuderessourcenpass generieren** <iconify-icon inline icon='mdi-cog-outline'/> exportiert werden. In diesem Anwendungsfall werden die Tabellenfelder, für welche Informationen durch die Nutzung der Madaster-Plattform vorliegen, automatisch befüllt. 
-3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **Dossier** zum Download zur Verfügung.
+3. Nach Fertigstellung steht Ihnen der befüllte Gebäuderessourcenpass gemäß der Excelvorlage der DGNB im **im Tab **Dateien**** zum Download zur Verfügung.
 4. Fehlende Informationen können in der generierten Excel nach dem **Download** außerhalb der Plattform ergänzt werden.
 
 ### Welche Informationen füllt Madaster automatisiert im DGNB-Gebäuderessourcenpass aus?
