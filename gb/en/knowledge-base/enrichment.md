@@ -34,7 +34,7 @@ Automatic mapping occurs when uploading a new file <u>OR</u> when it is manually
 
 ### 2. Manual Mapping
 
-Altertanitavely Manual Mapping allows to link each element individually or several elements at once. Check the box next to the element(s) and click  the icon <iconify-icon inline icon='mdi-link-variant'/>. A window will open showing all available databases, including the products. Select the product dataset you wish to link and click **Link**.
+Alternatively Manual Mapping allows to link each element individually or several elements at once. Check the box next to the element(s) and click  the icon <iconify-icon inline icon='mdi-link-variant'/>. A window will open showing all available databases, including the products. Select the desired product dataset and click **Link <iconify-icon inline icon='mdi-link-variant'/>**.
 
 Another window will open showing the following options, which you can choose by checking the corresponding box.
 
@@ -70,14 +70,14 @@ In the **search field** on the top left you can look for
 
 Especially when working on long-term projects or in a team, it can be helpful to save a separate backup of the current and final version of a project. 
 
-Of course, there is a backup of the entire platform to protect it from complete data loss due to a technical error. Furthermore, accidentally deleted items can be restored by our support team within 30 days before they are permanently deleted. However, <u>if data within a project is overwritten (e.g., by automatic remapping), it is not possible to restore the previous state</u>.
+Of course, there is a backup of the entire platform to protect it from complete data loss due to a technical error. Furthermore, accidentally deleted items can be restored by our support team within 30 days before they are permanently deleted. However, <b><i><u>if data within a project is overwritten (e.g., by automatic remapping), it is not possible to restore the previous state</u></i></b>.
 
 **Recommendations for Data Backup**
 
 1. Use the **archive** feature to save intermediate versions of ongoing projects and/or the final state. Our support team can use an archive to restore at least this version as an active object. <br>
 For information on setting up an archive, see <a href="../knowledge-base/stay-organized#manage-objects" target="_blank">Manage objects</a>.
 
-2. Alternatively, you can create a **design** of an intermediate version or to test the impact of mapping other products. <br>
+2. Alternatively, you can create a **design** as an intermediate version or to test the impact of mapping other products. <br>
 For information on setting up a design, see <a href="../knowledge-base/stay-organized#manage-objects" target="_blank">Manage objects</a>.
 
 3. Another alternative is to upload the source file as a **new version** and keep the "older" version in the dossier’s file tree. The elements of each file could be mapped differently.

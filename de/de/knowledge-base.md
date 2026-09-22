@@ -128,6 +128,21 @@ exclude: true
         </div>
       </div>
     </a>
+    <a class="overview-link" href="./knowledge-base/enrichment">
+      <div class="overview-item">
+        <div class="resource-item-left">
+          <img class="resource-item-image" src="/assets/images/enrichment.png" alt="A cube added by small elements.">
+        </div>
+        <div class="resource-item-right">
+          <h3>
+            Erweitern
+          </h3>
+          <p>
+            Tipps für den Erweiterungsprozess
+          </p>
+        </div>
+      </div>
+    </a>
     <a class="overview-link" href="./knowledge-base/databases">
       <div class="overview-item">
         <div class="resource-item-left">
