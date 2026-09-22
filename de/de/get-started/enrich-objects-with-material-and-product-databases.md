@@ -30,7 +30,7 @@ Fehlende geometrische Informationen müssen über die Quelldateien ergänzt und 
 Die folgenden Optionen stehen für manuelle Anpassungen und Zuordnungen zur Verfügung, wenn vor dem Element die zugehörige Checkbox <iconify-icon inline icon='mdi-checkbox-marked'/> ausgewählt wird:
 
   * **Verknüpfen** <iconify-icon inline icon='mdi-link-variant'/> von Elementen, denen Materialinformationen fehlen oder die nicht automatisch mit einem Produktdatensatz verknüpft wurden (siehe <a href="../get-started/enrich-objects-with-material-and-product-databases#manueller-zuordnungsprozess">Manueller Zuordnungsprozess</a>)
-  * **Ergänzen oder Ändern** <iconify-icon inline icon='mdi-pencil-outline'/> von Elementinformationen, wie Objektnummer, Phase, Klassifikation, Materialherkunft/Materialverwertung und Demontierbarkeit
+  * **Ergänzen oder Ändern** <iconify-icon inline icon='mdi-pencil-outline'/> von Elementinformationen, wie Objektnummer, Phase, Klassifikation, Materialherkunft/Materialverwertung und Demontagefähigkeit
   * **Aufheben von Verknüpfungen** <iconify-icon inline icon='mdi-link-variant-off'/> von Elementen und Produktdatensätzen, die nicht passen oder nicht dem Projekt entsprechen
   * **Teilen mehrschichtiger Elemente** <iconify-icon inline icon='mdi-set-split'/> bzw. von Elementen mit verschiedenen Materialien, um die getrennte Verknüpfung mit Produktdatensätzen zu ermöglichen
   * **Einschließen** und **Ausschließen** von Elementen, die Teil oder kein Teil der Berechnungen sein sollten (z.B. Luftschichten) 

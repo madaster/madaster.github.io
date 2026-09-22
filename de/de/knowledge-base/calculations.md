@@ -192,38 +192,38 @@ $$
 |-|-|
 |$E_C$ | Effizienz des Rezyklingprozess' (%) eines Produkts mit der Materialverwertung als Recycling. Der Standardwert 75% kann händisch überschrieben werden, da häufig diese Information nicht vorliegt.|
 
-## Demontierbarkeit (Detachability)
+## Demontagefähigkeit (Detachability)
 
-Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
+Der Demontagefähigkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
 
-### Erfassung der Demontierbarkeit
+### Erfassung der Demontagefähigkeit
 
-Die Demontierbarkeits-Eigenschaften können bereits in der Quelldatei hinterlegt werden, entweder über die <a href= "https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="">Excel-Quelldatei</a> oder über eine IFC-Datei. In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen. In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
+Die Demontagefähigkeits-Eigenschaften können bereits in der Quelldatei hinterlegt werden, entweder über die <a href= "https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="">Excel-Quelldatei</a> oder über eine IFC-Datei. In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen. In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
 
-Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden. 
+Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontagefähigkeit genutzt werden. 
 
-Alternativ können die Demontierbarkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
+Alternativ können die Demontagefähigkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
 
-### Berechnung der Demontierbarkeit 
+### Berechnung der Demontagefähigkeit 
 
-Die Berechnung der Demontierbarkeit in madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Demontierbarkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift madaster auf die Demontierbarkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Demontierbarkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
+Die Berechnung der Demontagefähigkeit in madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Demontagefähigkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift madaster auf die Demontagefähigkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Demontagefähigkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
 
-> Hinweis: Bei Bauteilen wird die Demontierbarkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. Unterschied Produkte und Bauteile. 
+> Hinweis: Bei Bauteilen wird die Demontagefähigkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. Unterschied Produkte und Bauteile. 
 <a href="https://docs.madaster.com/de/de/knowledge-base/databases-products.html" target="_blank">Unterschied Produkte und Bauteile</a>
 
-Die Bewertung der Demontierbarkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_.
+Die Bewertung der Demontagefähigkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_.
 
 > Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt. 
 
-Für die Auswertung der Demontierbarkeit müssen alle vier erforderlichen Demontierbarkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontierbarkeit.
+Für die Auswertung der Demontagefähigkeit müssen alle vier erforderlichen Demontagefähigkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontagefähigkeit.
 
-  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland wird die Masse der Elemente stattdessen genommen. Die Demontierbarkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontierbarkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
+  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland wird die Masse der Elemente stattdessen genommen. Die Demontagefähigkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontagefähigkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
 
 Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen.
 
-### Erforderliche Demontierbarkeits-Eigenschaften
+### Erforderliche Demontagefähigkeits-Eigenschaften
 
-Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index und werden wie folgt in eine IFC-Quelldatei eingetragen:
+Die folgenden vier Eigenschaften bestimmen den Demontagefähigkeits-Index und werden wie folgt in eine IFC-Quelldatei eingetragen:
 
 #### 1. Art der Verbindung (Connection Type) und Details zur Verbindung (Connection Type Detail )
 
@@ -487,7 +487,7 @@ $$B_l=\frac{\sum_{b}M_{bl}*MZI_{bl}}{\sum_{b}M_{bl}}$$
 |$\sum_{b}$|Summe für alle Gebäude in Auswahl|
 
 #### Demontierbakeit:
-Der Objekt-Benchmark wird durch die Berechnung eines gewichteten Durchschnitts des Demontierbarkeitsindexes ermittelt:
+Der Objekt-Benchmark wird durch die Berechnung eines gewichteten Durchschnitts des Demontagefähigkeitsindexes ermittelt:
 
 $$B_t=\frac{\sum_{b}M_b*DI_b}{\sum_{b}M_b}$$
 
@@ -495,7 +495,7 @@ $$B_t=\frac{\sum_{b}M_b*DI_b}{\sum_{b}M_b}$$
 |--------------|--------------|
 |$B_t$|Benchmark Wert|
 |$M_b$| Masse des Gebäudes |
-|$DI_b$| Demontierbarkeits-Index des Gebäudes |
+|$DI_b$| Demontagefähigkeits-Index des Gebäudes |
 |$\sum_{b}$|Summe für alle Gebäude in Auswahl|
 
 $$B_l=\frac{\sum_{b}M_{bl}*DI_{bl}}{\sum_{b}M_{bl}}$$
@@ -504,7 +504,7 @@ $$B_l=\frac{\sum_{b}M_{bl}*DI_{bl}}{\sum_{b}M_{bl}}$$
 |--------------|--------------|
 |$B_t$|Benchmark Value Per Layer|
 | $M_{bl}$ | Masse der Gebäudeschicht |
-|$DI_{bl}$| Demontierbarkeits-Index der Gebäudeschicht |
+|$DI_{bl}$| Demontagefähigkeits-Index der Gebäudeschicht |
 |$\sum_{b}$|Summe für alle Gebäude in Auswahl|
 
 

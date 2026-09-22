@@ -192,11 +192,11 @@ Eine detaillierte Erläuterung finden Sie <a href="https://eplca.jrc.ec.europa.e
 
 ## Zirkularität
 
-### Demontierbarkeit
+### Demontagefähigkeit
 
-Bei der Bewertung der Demontierbarkeit wird berücksichtigt, wie die Produkte miteinander verbunden sind sowie ob und wie sie aus einer Konstruktion entfernt werden können. Die Angabe der Demontierbarkeit in Madaster basiert auf der überarbeiteten Version der einheitlichen Messmethode für die Demontierbarkeit, wie im Bericht *Circular Buildings - a measurement methodology for disassembly potential 2.0* beschrieben, welcher von einem Konsortium aus u.a. dem Dutch Green Building Council, der Netherlands Enterprise Agency und W/E Adviseurs im Auftrag des niederländischen Innenministeriums und der Transition Agenda Circular Building Economy entwickelt und getestet wurde.
+Bei der Bewertung der Demontagefähigkeit wird berücksichtigt, wie die Produkte miteinander verbunden sind sowie ob und wie sie aus einer Konstruktion entfernt werden können. Die Angabe der Demontagefähigkeit in Madaster basiert auf der überarbeiteten Version der einheitlichen Messmethode für die Demontagefähigkeit, wie im Bericht *Circular Buildings - a measurement methodology for disassembly potential 2.0* beschrieben, welcher von einem Konsortium aus u.a. dem Dutch Green Building Council, der Netherlands Enterprise Agency und W/E Adviseurs im Auftrag des niederländischen Innenministeriums und der Transition Agenda Circular Building Economy entwickelt und getestet wurde.
 
-Ausführliche Informationen finden Sie bitte in unserer <a href="../knowledge-base/calculations#demontierbarkeit-detachability" target="_blank">Wissensdatenbank</a>.
+Ausführliche Informationen finden Sie bitte in unserer <a href="../knowledge-base/calculations#Demontagefähigkeit-detachability" target="_blank">Wissensdatenbank</a>.
 
 ### Madaster Zirkularitätsindikator (MZI)
 

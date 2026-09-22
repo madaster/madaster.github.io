@@ -39,7 +39,7 @@ Verwenden Sie das **Dropdown-Menü** unter den KPI, um die Masse des Objekts nac
 
 ## Zirkularität
 
-Sehen Sie sich die Zirkularität und die Demontierbarkeit des Objekts an. Die Bewertung gemäß dem **Madaster Zirkularitätsindikator (MZI)** betrachtet vor allem den Masseanteil der verwendeten Sekundärmaterialien sowie das Massepotenzial der verbauten Produkte hinsichtlich einer Wiederverwendung oder des Recyclings am Ende der Nutzungsdauer des Objekts. Die Analyse der **Demontierbarkeit** ermittelt den Grad des Objektes, in welchem ihm verbaute Produkte ohne Beschädigung wieder entnommen werden können.
+Sehen Sie sich die Zirkularität und die Demontagefähigkeit des Objekts an. Die Bewertung gemäß dem **Madaster Zirkularitätsindikator (MZI)** betrachtet vor allem den Masseanteil der verwendeten Sekundärmaterialien sowie das Massepotenzial der verbauten Produkte hinsichtlich einer Wiederverwendung oder des Recyclings am Ende der Nutzungsdauer des Objekts. Die Analyse der **Demontagefähigkeit** ermittelt den Grad des Objektes, in welchem ihm verbaute Produkte ohne Beschädigung wieder entnommen werden können.
 
 Klicken Sie neben den KPI jeweils auf den Pfeil <iconify-icon inline icon='mdi-chevron-right'/> um **Detailansichten** zur Berechnung und den Unterkategorien anzuzeigen. Sofern über den Tab Performance aktiviert, wird hier auch der **Benchmark-Vergleich** angezeigt. Klicken Sie auf **Unbekannt**, um zu ermitteln, welche Elemente Anpassungen bedürfen, bevor sie in Berechnungen einbezogen werden können.
 
@@ -54,7 +54,7 @@ Verwenden Sie das **Dropdown-Menü** unter den KPI, um die Zirkulariät des Obje
    * Nutzen Sie das **2. Dropdown-Menü**, um die Produkte nach weiteren Kriterien zu sortieren.
    * Klicken Sie auf die Schaltfläche **3D-Viewer**, um die aktivierten Quelldateien als Objektmodell farbcodiert gemäß der jeweiligen Auswahl anzuzeigen. *(Der 3D-Viewer ist ein kostenpflichtiges <a href="../knowledge-base/features#3d-viewer" target="_blank">Feature</a>.)*
 
-Erfahren Sie mehr über die <a href="../knowledge-base/calculations#madaster-zirkularitätsindikator-mzi" target="_blank">Berechnung des Madaster Zirkularitätsindikators (MZI)</a> und die <a href="../knowledge-base/calculations#demontierbarkeit-detachability" target="_blank">Bewertung der Demontierbarkeit</a> von Objekten.
+Erfahren Sie mehr über die <a href="../knowledge-base/calculations#madaster-zirkularitätsindikator-mzi" target="_blank">Berechnung des Madaster Zirkularitätsindikators (MZI)</a> und die <a href="../knowledge-base/calculations#Demontagefähigkeit-detachability" target="_blank">Bewertung der Demontagefähigkeit</a> von Objekten.
 
 ## Umwelt
 

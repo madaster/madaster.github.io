@@ -20,7 +20,7 @@ Für jede verfügbare <a href="../knowledge-base/classifications" target="_blank
 
 ## Madaster Excel-Template ausfüllen
 
-Für ein bestmögliches Auswertungsergebnis, sollte die Vorlage möglichst vollständig mit Informationen befüllt werden. Jedoch gibt es <a href="../knowledge-base/preparing-excel-source-files#erforderliche-mindestangaben" target="_blank">erfoderliche Mindestangaben</a> sowie <a href="../knowledge-base/preparing-excel-source-files#optionale-angaben" target="_blank">optionale Angaben</a>. Welche der Letztgenannten auszufüllen sind, richtet sich nach der Zielsetzung der Darstellung Ihres Projekts auf der Plattform. So sind beispielsweise Materialangaben Pflicht für einen digitalen Materialpass. Angaben zur Demontierbarkeit sind optional. Werden diese nicht erfasst, wird die Demontierbarkeit auch nicht ausgewertet.
+Für ein bestmögliches Auswertungsergebnis, sollte die Vorlage möglichst vollständig mit Informationen befüllt werden. Jedoch gibt es <a href="../knowledge-base/preparing-excel-source-files#erforderliche-mindestangaben" target="_blank">erfoderliche Mindestangaben</a> sowie <a href="../knowledge-base/preparing-excel-source-files#optionale-angaben" target="_blank">optionale Angaben</a>. Welche der Letztgenannten auszufüllen sind, richtet sich nach der Zielsetzung der Darstellung Ihres Projekts auf der Plattform. So sind beispielsweise Materialangaben Pflicht für einen digitalen Materialpass. Angaben zur Demontagefähigkeit sind optional. Werden diese nicht erfasst, wird die Demontagefähigkeit auch nicht ausgewertet.
 
 In der Excel-Datei finden Sie auf dem ersten Tabellenblatt eine Kurzanleitung, in der erklärt wird, was Sie in welches Blatt und welche Zellen eintragen müssen. Folgend finden Sie ausführlichere Informationen.
 
@@ -46,7 +46,7 @@ Der folgende Abschnitt erläutert den Hintergrund und die zu hinterlegenden Info
 
 ### Erforderliche Mindestangaben
 
-Die nachfolgende Tabelle und Ausführungen erläutern die mindestens auszufüllenden Spalten, um die Grundfunktionalität der Plattform nutzen zu können. Für detailliertere Auswertungen (bspw. Demontierbarkeit) beachten Sie die nachfolgenden Erläuterungen zu <a href="../knowledge-base/preparing-excel-source-files#optionale-angaben" target="_blank">Optionale Angaben</a>. 
+Die nachfolgende Tabelle und Ausführungen erläutern die mindestens auszufüllenden Spalten, um die Grundfunktionalität der Plattform nutzen zu können. Für detailliertere Auswertungen (bspw. Demontagefähigkeit) beachten Sie die nachfolgenden Erläuterungen zu <a href="../knowledge-base/preparing-excel-source-files#optionale-angaben" target="_blank">Optionale Angaben</a>. 
 
 **Ein Beispiel**
 
@@ -120,15 +120,15 @@ Die aufgeführten Beispiele dienen lediglich zur Veranschaulichung und stellen k
 * Notwendigkeit der Eingabe: *Optional*
 * Falls Ihr Objekt aus mehreren Unterobjekten besteht, bspw. Mehrfamilienhaus mit mehreren Eigentumswohnungen, können Sie durch die Angabe Ihr Objekt unterteilen und in der Plattform danach filtern. Die Funktionalität ist vergleichbar mit der der *Etage*.
 
-**V/Y/AA/AC) Demontierbarkeit**
+**V/Y/AA/AC) Demontagefähigkeit**
 * Notwendigkeit der Eingabe: *Empfohlen*
-* Die Angaben zur Demontierbarkeit dienen der Informationstiefe zu den Elementen bzw. dem Objekt. Nur wenn hier über die Dropdownauswahl Eingaben getätigt werden, kann die Plattform unter Zirkularität Ergebnisse zur Demontierbarkeitsananlyse der Elemente bzw. des Objektes bereitstellen. 
+* Die Angaben zur Demontagefähigkeit dienen der Informationstiefe zu den Elementen bzw. dem Objekt. Nur wenn hier über die Dropdownauswahl Eingaben getätigt werden, kann die Plattform unter Zirkularität Ergebnisse zur Demontagefähigkeitsananlyse der Elemente bzw. des Objektes bereitstellen. 
 Aufgrund der Langlebigkeit der Objekte ist es wichtig, gerade dieses Wissen langfristig digital zu sichern und zur Verfügung zu stellen. Gerade bei Renovierungsvorhaben sind diese Informationen essenziell und reduzieren den Planungsaufwand (bspw. die persönliche Ortsbesichtigung). Des Weiteren erleichtern Sie die Planung, welche Produkte unter welchem Aufwand wieder in den Kreislauf zurückgeführt werden können. 
     * **Verbindungstyp:** Wählen Sie hier den Verbindungstyp des Produktes.
     * **Zugänglichkeit der Verbindung:** Wählen Sie hier die Zugänglichkeit der Verbindung des Produktes.
     * **Überschneidungen:** Wählen Sie hier die Produktüberschneidungen.
     * **Produktkanten:** Sie können bewerten, wie Produkte in einer Komposition platziert sind und ob diese offen oder geschlossen ist. Wie der Name schon sagt, hat dies mit den physischen „Kanten" des Produkts zu tun. Liegt ein Produkt so, dass es von umgebenden Produkten „umschlossen“ ist, spricht man von einem Randeinschluss. Dies macht es unmöglich, ein Produkt anders als in umgekehrter Reihenfolge des Aufbaus zu demontieren. Der Randeinschlussfaktor ist in zwei Situationen relevant: 1) für einzelne Produkte, die von der Komposition umschlossen sind oder 2) für Serienprodukte, die sich gegenseitig umschließen.
-* weitere Informationen zur Berechnung der Demontierbarkeit finden Sie <a href="/de/de/knowledge-base/calculations.html#demontierbarkeit-detachability" target="_blank">hier</a>.
+* weitere Informationen zur Berechnung der Demontagefähigkeit finden Sie <a href="/de/de/knowledge-base/calculations.html#Demontagefähigkeit-detachability" target="_blank">hier</a>.
 
 **AE) % Wiederverwendet**
 * Notwendigkeit der Eingabe: *Empfohlen*

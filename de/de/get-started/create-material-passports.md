@@ -15,7 +15,7 @@ menubar: get-started-nav
     *Aus folgenden Themen können diverse KPI gewählt werden:*
     * *Masse*
     * *Zirkularität*
-    * *Demontierbarkeit*
+    * *Demontagefähigkeit*
     * *Umweltwirkfaktoren*
     * *Finanziell*
 

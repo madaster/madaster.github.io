@@ -1,6 +1,6 @@
 ---
 title: Zirkularität
-description: Objekt - Zirkularität und Demontierbarkeit
+description: Objekt - Zirkularität und Demontagefähigkeit
 ref: building-circularity
 type: FAQ
 redirect_from:
@@ -18,12 +18,12 @@ Der Madaster Zirkularitätsindikator bewertet den Grad der Kreislauffähigkeit j
 
 Eine detailierte Beschreibung des Madaster Zirkularitätsindikators finden Sie in unserer <a href="/de/de/knowledge-base/calculations#madaster-zirkularit%C3%A4tsindikator-mzi" target="_blank">Wissensdatenbank - Kalkulation</a>.
 
-### Demontierbarkeit
-Der Demontierbarkeitsindex auf Objektebene wird nach einer Methodik berechnet, die auf der Website des <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v11-26">Dutch Green Building Council</a> beschrieben ist.
-Die Berechnung erfolgt für alle Elemente, die mit Produkten verbunden sind, für die vollständige Informationen zur Demontierbarkeit vorliegen. Jedes Produkt wird anhand der Verbindungsart, der Zugänglichkeit der Verbindung, der Kreuzungen und der Produktkanten bewertet. Die Masse der betreffenden Elemente wird als Gewichtungsfaktor verwendet.
-Der Qualitätsindex gibt die Anzahl der Elemente an, bei denen die Demontierbarkeitsinformation vorliegen im Vergleich zur Gesamtzahl der Elemente des Objekts (in den betreffenden Gebäudeschichten). 
+### Demontagefähigkeit
+Der Demontagefähigkeitsindex auf Objektebene wird nach einer Methodik berechnet, die auf der Website des <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v11-26">Dutch Green Building Council</a> beschrieben ist.
+Die Berechnung erfolgt für alle Elemente, die mit Produkten verbunden sind, für die vollständige Informationen zur Demontagefähigkeit vorliegen. Jedes Produkt wird anhand der Verbindungsart, der Zugänglichkeit der Verbindung, der Kreuzungen und der Produktkanten bewertet. Die Masse der betreffenden Elemente wird als Gewichtungsfaktor verwendet.
+Der Qualitätsindex gibt die Anzahl der Elemente an, bei denen die Demontagefähigkeitsinformation vorliegen im Vergleich zur Gesamtzahl der Elemente des Objekts (in den betreffenden Gebäudeschichten). 
 
-Eine detailierte Beschreibung des Madaster Zirkularitätsindikators finden Sie in unserer <a href="/de/de/knowledge-base/calculations#demontierbarkeit-detachability" target="_blank">Wissensdatenbank - Kalkulation</a>.
+Eine detailierte Beschreibung des Madaster Zirkularitätsindikators finden Sie in unserer <a href="/de/de/knowledge-base/calculations#Demontagefähigkeit-detachability" target="_blank">Wissensdatenbank - Kalkulation</a>.
 
 ### Unbekannt
 Unbekannte Elemente sind solche, die bei den Berechnungen nicht berücksichtigt wurden. Dies kann aus drei verschiedenen Gründen resultieren:

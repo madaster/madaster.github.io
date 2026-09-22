@@ -73,13 +73,13 @@ Wählen sie im letzten Dropdown unter den KPI Cards "Material/Produkt“ aus - d
 
 > Hinweis: Mit dem Feature „3D Insights“Material Impact Vizualizer können Sie diese Erkenntnisse ebenfalls über entsprechende Einfärbungen der Elemente im 3D-Modell nachverfolgen (Voraussetzung: ifc-Quelldatei).
 
-### Zirkularität (wie Recyclingfähigkeit und Demontierbarkeit)
+### Zirkularität (wie Recyclingfähigkeit und Demontagefähigkeit)
 
 Im Zirkularitätstab können Sie unter den KPI Cards im Dropdown „Material/Produkt“ alle verlinkten Produkte anzeigen lassen. Das Sortierkriterium bestimmen Sie über den zweiten Dropdown. 
 
 > Hinweis: Mit dem Feature „3D Insights Material Impact Vizualizer “ können Sie diese Erkenntnisse ebenfalls über entsprechende Einfärbungen der Elemente im 3D-Modell nachverfolgen (Voraussetzung: ifc-Quelldatei). 
 
-Weitere Informationen zur Zirkularitätsberechnung erhalten Sie über den grünen Pfeil neben der KPI. Wurden den Elementen Informationen zur Demontierbarkeit hinzugefügt, können Sie auch per Klick auf den Pfeil neben dieser KPI näheres zur Kalkulation erfahren.
+Weitere Informationen zur Zirkularitätsberechnung erhalten Sie über den grünen Pfeil neben der KPI. Wurden den Elementen Informationen zur Demontagefähigkeit hinzugefügt, können Sie auch per Klick auf den Pfeil neben dieser KPI näheres zur Kalkulation erfahren.
 
 ### Materialmassen
 
