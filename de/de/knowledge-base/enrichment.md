@@ -10,7 +10,7 @@ Tipps für den Erweiterungsprozess.
 
 Um eine umfassende Bewertung eines Objekts auf Madaster zu gewährleisten, sollte jedes Element mindestens über eine Klassifizierung und ausreichende geometrische Informationen verfügen sowie mit einem Produktdatensatz verknüpft sein. Weitere Informationen dazu finden Sie auch unter <a href="../knowledge-base/quality-check.html#grundlegende-betrachtung" target="_blank">Qualitätskontrolle und Qualitätsmanagement</a>.
 
-Um die Ergebnisse der automatischen Zuordnungsprozesses während des Hochladens einer Quelldatei im Detail zu überprüfen, wechseln Sie auf Objektebene zum Tab **Dossier** und klicken Sie
+Um die Ergebnisse der automatischen Zuordnungsprozesses während des Hochladens einer Quelldatei im Detail zu überprüfen, wechseln Sie auf Objektebene zum Tab **Dateien** und klicken Sie
 
 1. entweder auf die Quelldatei und anschließend auf die Schaltfläche  **Erweitern <iconify-icon inline icon='mdi-link-variant-plus'/> (Manuell)**
 
@@ -80,4 +80,4 @@ Informationen zum Erstellen eines Archivs finden Sie unter <a href="../knowledge
 2. Alternativ können Sie eine **Variante** als Zwischenstand anlegen oder um die Auswirkungen der Zuordnung anderer Produkte zu testen. <br>
 Informationen zum Erstellen einer Variante finden Sie unter <a href="../knowledge-base/stay-organized#verwalten-von-objekten" target="_blank">Verwalten von Objekten</a>.
 
-3. Eine weitere Möglichkeit besteht darin, die Quelldatei als **neue Version** hochzuladen und die „ältere“ Version im Dateibaum des Dossiers zu belassen. Die Elemente der jeweiligen Datei können unterschiedlich zugeordnet werden.
+3. Eine weitere Möglichkeit besteht darin, die Quelldatei als **neue Version** hochzuladen und die „ältere“ Version im Dateibaum im Tab **Dateien** zu belassen. Die Elemente der jeweiligen Datei können unterschiedlich zugeordnet werden.
