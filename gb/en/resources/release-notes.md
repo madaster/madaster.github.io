@@ -8,6 +8,49 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+
+## Release notes 2026.8 ##
+
+* Build number: 41361
+* Release date: 27th of September 2026
+
+### Changes ###
+
+* When navigating to the mass tab and selecting to view it by classification the material intensity is now shown:
+
+<figure><img src="/assets/images/releasenotes/202608-13483-1.png" alt="The material intensity on the mass tab when view by classification is chosen."><figcaption>The material intensity on the mass tab when view by classification is chosen.</figcaption></figure>
+
+* When using a bill of materials product detachability is no longer shown on the bill of materials products because the value is taken from the top level:
+
+<figure><img src="/assets/images/releasenotes/202608-13283-1.png" alt="Detachability on a BoM product."><figcaption>Detachability on a BoM product.</figcaption></figure>
+
+### Country specific ###
+
+#### For Germany and DACH ####
+
+* It is now possible to use the QNG energy calculations on a DGNB building, this includes using A2 energy profiles
+<figure><img src="/assets/images/releasenotes/202608-13666-1.png" alt="Energy calculation options when using DGNB."><figcaption>Energy calculation options when using DGNB.</figcaption></figure>
+
+* The DGNB new construction scheme can now be selected for any building phase
+* The DGNB 2023.2 scheme has been added, including its correct KPI's
+* It has been made more clear if the lifespan from the BNB is used
+* The DGNB Detachability and Material Separability have been implemented directly instead of through a mapping from the DGBC method. This can be selected on a building:
+<figure><img src="/assets/images/releasenotes/202608-13587-1.png" alt="Detachability method selection on a building."><figcaption>Detachability method selection on a building.</figcaption></figure>
+
+* Quality level has been added to products, this is used for calculating the Material compatibility for the DGNB
+* Latest changes to Madaster Match:
+
+    * It is now possible to manage documents to a product in Madaster Match:
+    <figure><img src="/assets/images/releasenotes/202608-13740-1.png" alt="The dossier tab on a product in Madaster Match, where documents can be managed."><figcaption>The dossier tab on a product in Madaster Match, where documents can be managed.</figcaption></figure>
+
+    * Authorizations have been changed: </br>A reader is now able to view products and matches. The transfer objects role can no longer interact with most of Madaster Match's features.
+    * After creating a Madaster Match project, the new project is now opened directly.
+
+### Bugfixes ###
+
+* An issue has been resolved where child elements could appear twice after splitting an element.
+
+
 ## Release notes 2026.7 ##
 
 * Build number: 40561
@@ -102,6 +145,11 @@ If you wish to benchmark against the entire account, as before, the value will c
 
 If you select specific objects or designs, they will also be displayed side by side in the Total bar chart.
 
+### Country specific ###
+* For Germany when transferrring an object containing QNG information to another account, the QNG information was not tranferred; this has been fixed.
+* For Germany in the DGNB GRP only the current value was exported, even though cell D264 should contain the residual value and cell D64 the current value. This issue has been corrected.
+* For the Netherlands, following the publication of new energy carriers by the NMD, some options were displayed multiple times when B6.1 was added to an MPG object. This issue has been corrected, and the platform now displays the applicable energy carriers based on the calculation date.
+
 ### Bugfixes ###
 
 In addition, we focused primarily on bug fixes in this release.
@@ -111,11 +159,6 @@ In addition, we focused primarily on bug fixes in this release.
 * Elements could not be added to virtual files via enrichment; this has been fixed.
 * If elements were mapped to components, the products listed in the Technical Annex on Elements were incomplete; this has been fixed. Furthermore, to avoid confusion, the geometrical information of these products has been reduced to only those values used for the environmental calculation.
 * The Product Passport export did not display GWP and showed an incorrect financial value; this has been fixed.
-
-### Country specific ###
-* For Germany when transferrring an object containing QNG information to another account, the QNG information was not tranferred; this has been fixed.
-* For Germany in the DGNB GRP only the current value was exported, even though cell D264 should contain the residual value and cell D64 the current value. This issue has been corrected.
-* For the Netherlands, following the publication of new energy carriers by the NMD, some options were displayed multiple times when B6.1 was added to an MPG object. This issue has been corrected, and the platform now displays the applicable energy carriers based on the calculation date.
 
 
 ## Release notes 2026.5 ##
