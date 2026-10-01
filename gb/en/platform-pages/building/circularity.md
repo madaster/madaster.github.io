@@ -29,7 +29,7 @@ The circularity assessment has 2 different determination methods:
 
 The Building CI is corrected by two factors that include the completeness of the data set recorded in Madaster in the total score. A circular building and associated Materials Passport only works for products and materials that have been properly recorded. The correction is based on the completeness of the model based on the percentage of the mass of which the material is unknown, and the completeness of the model based on the percentage of the mass of which the NL-SfB coding is absent.
 
-A <a href="/files/en/Madaster - Circularity Indicator explained.pdf" target="_blank">detailed explanation</a> of the Madaster Circularity Indicator is also available.
+A <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">detailed explanation</a> of the Madaster Circularity Indicator is also available.
 
 ### Detachability
 The detachability index at the building level is calculated according to a methodology described on the site of the Dutch Green Building Council. Within Madaster, the calculation is made on all elements linked to products which have detachability information and an Environmental Cost Indicator.
