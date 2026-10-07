@@ -77,7 +77,9 @@ menubar: resources-nav
 
 ## Excel
 
-<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template gemäß DIN 276:2018-12</a>  für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de/dgnb" target="_blank">Excel-Template gemäß DIN 276:2018-12 mit der Rückbaufähigkeit nach DGNB</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
+
+<a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="_blank">Excel-Template gemäß DIN 276:2018-12</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
 <a href="https://platform.madaster.com/api/buildingfile/downloadexceltemplate/5913febd-c32b-4530-9b85-1afa7a40d15e/de/at" target="_blank">Excel-Template gemäß ÖNORM B 1801-1:2022</a> für den Upload eines Gebäudes auf der Madaster Plattform ohne IFC-Datei.
 
