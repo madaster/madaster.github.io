@@ -24,6 +24,12 @@ This page contains the release notes for 2026.
 
 <figure><img src="/assets/images/releasenotes/202608-13283-1.png" alt="Detachability on a BoM product."><figcaption>Detachability on a BoM product.</figcaption></figure>
 
+* The DGNB Detachability and Material Separability have been implemented directly instead of through a mapping from the DGBC method. This can be selected on a building:
+
+<figure><img src="/assets/images/releasenotes/202608-13587-1.png" alt="Detachability method selection on a building."><figcaption>Detachability method selection on a building.</figcaption></figure>
+
+* Quality level has been added to products, this is used for calculating the Material compatibility for the DGNB
+
 ### Country specific ###
 
 #### For Germany and DACH ####
@@ -34,10 +40,6 @@ This page contains the release notes for 2026.
 * The DGNB new construction scheme can now be selected for any building phase
 * The DGNB 2023.2 scheme has been added, including its correct KPI's
 * It has been made more clear if the lifespan from the BNB is used
-* The DGNB Detachability and Material Separability have been implemented directly instead of through a mapping from the DGBC method. This can be selected on a building:
-<figure><img src="/assets/images/releasenotes/202608-13587-1.png" alt="Detachability method selection on a building."><figcaption>Detachability method selection on a building.</figcaption></figure>
-
-* Quality level has been added to products, this is used for calculating the Material compatibility for the DGNB
 * Latest changes to Madaster Match:
 
     * It is now possible to manage documents to a product in Madaster Match:
