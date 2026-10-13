@@ -23,12 +23,11 @@ The MCI assesses a building according to the origin as well as the end of life o
 Correction factors:
 
   Based on the 2 values above, a Circularity Indicator (CI) is calculated.
-  However, the CI does not account for the amount of missing information in the building or on chosen products. Therefore, two correction factors are applied to the CI, penalizing the percentage of building elements with an unknown mass and penalizing the percentage of known mass with no circularity information and resulting in Madaster Circularity Indicator (MCI).
+  However, the CI does not account for the amount of missing information in the building. Therefore, a correction factor is applied to the CI, penalizing the percentage of building elements with an unknown mass and resulting in Madaster Circularity Indicator (MCI).
 
 MCI in practice: 
-  * In practice, buildings will have CI scores ranging from 10-100%. A building that is built entirely from virgin/unsustainably produced materials, that ends up primarily as waste, is a ‘linear’ building with a low CI score of 10%.
-  * A building that consists entirely of recycled/reused materials, and uses products that can also be recycled/reused in the future is a ‘circular’ building with a maximum CI score of 100%.
-
+  * In practice, buildings will have MCI scores ranging from 10-100%. A building that is built entirely from virgin/unsustainably produced materials, that ends up primarily as waste, is a ‘linear’ building with a low MCI score of 10%.
+  * A building that consists entirely of recycled/reused materials, and uses products that can also be recycled/reused in the future is a ‘circular’ building with a maximum MCI score of 100%.
 
 ### Scope
 
@@ -45,7 +44,6 @@ The MCI score is based on the following components:
   1. Materials suitable for recycling (% of mass);
   1. Efficiency of end-of-life recycling process (%).
 
-
 ### Measurement Method
   The MCI is based on the ‘Material Circularity Indicator’ of the Ellen MacArthur Foundation (EMF), which is open-source and can be found on the website of the Ellen MacArthur Foundation. This calculation method enables users to compare products and buildings through by comparing the various components and to easily assign circularity ambitions and objectives.
 
@@ -55,16 +53,14 @@ $$
 F(X) = \frac{0.9}{X} \quad \text{where} \quad X = \frac{L}{L_{av}}
 $$
 
-
   |||
   |-|-|
   | $L$ |Potential functional lifecycle of the product (years)|
   | $L_{av}$	|Industry-average functional lifecycle of the product (years)|
 
-  > No data is available for $L_{av}$ . In previous versions of the MCI, Madaster used the average lifespan of the layer the product instead, but this approach was not giving satisfactory results and has been abandonned. 
+  > No data is available for $L_{av}$ . In previous versions of the MCI, Madaster used the average lifespan of the layer the product was used instead, but this approach was not giving satisfactiry results and has been abandonned.
   
   > The current version of the MCI only uses $F(X)=0.9$ 
-
 
 #### Weighting on Mass
 
@@ -93,8 +89,7 @@ $$
   |-|-|
   |$M_{R}$|  The mass of recycled material input (kg);
   |$E_{F}$| The efficiency of the recycling process preceding the construction phase (%); This applies to the recycling process preceding the production of the product. E.g., it is possible that it takes two discarded floor tiles to manufacture one new floor tile that completely consists of recycled materials (a 50% efficiency).
- 
-    
+
 #### End-of-Life Phase Circularity Indicator
 To calculate the Circularity Indicator for the end-of-life phase, the user must be able to provide insight into what will happen at the end of each products lifespan. This information can be input by refering to <a href="../knowledge-base/databases#existing-databases" target="_blank">an existing databases</a> within the Madaster Platform, or by <a href="https://docs.madaster.com/nl/en/knowledge-base/databases#database-at-different-levels-account--folder--building" target="_blank">creating a custom product</a>. 
 
@@ -191,37 +186,81 @@ $$
 
 ## Detachability
 
-The Detachability Index at the building level is calculated according to a methodology described by the <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v2-0/" target="_blank">Dutch Green Building Council (DGBC)</a>. Within Madaster, the calculation is made on all elements which are linked to a product and which have a classification ending up in the layers Structure, Skin, Services, Space plane and Surroundings. Detachability information can be defined for a product in the database, if its installation is constantly the same, however the detachability information can still be overwritten in the Enrichment for individual elements.
+The detachability assesses the way in which a product or component is installed in an object. On Madaster, you can enter the detachability details according to the **DGBC** (<a href="https://www.dgbc.nl" target="_blank">Dutch Green Building Council</a>) or the **DGNB** (Deutsche Gesellschaft für Nachhaltiges Bauen / <a href="https://www.dgnb.de/en" target="_blank">German Sustainable Building Council</a>). 
 
-In short, the Detachability Index assesses building components based on the following criteria and scoring:
+The selection of the system is made at the object level in the General tab under **Edit** .
 
-| Connection type |
-|-|
-|Dry connection|
-|Connection with added elements|
-|Direct integral connection|
-|Soft chemical compound|
-|Hard chemical compound|
+<figure><img src="/assets/images/knowledgebase/Selection detachability.png" alt="Selection of detachability system via a dropdown."><figcaption>Selection of detachability system via a dropdown</figcaption></figure>
 
-| Accessibility of the connection |
-|-|
-| Freely accessible without additional actions |
-| Accessible with additional actions that do not cause damage |
-| Accessible with additional operations with fully repairable damage |
-| Accessible with additional operations with partially repairable damage |
-| Not accessible - irreparable damage to the product or surrounding products |
+The calculation of detachability is based on all linked elements. If no product is linked, the relevant elements are not included in the calculation. Detachability information can be defined for a product, provided that its installation is always the same; however, these details may be overridden by the information assigned to the elements in the source file or, taking precedence over both, manually assigned in the 'Enrichment'.
 
-| Intersections |
-|-|
-| No intersections - modular zoning of products or elements from different layers |
-| Occasional intersections of products or elements from different layers |
-| Full integration of products or elements from different layers |
+>  Note: For components, the detachability is derived from the products listed in its bill of materials.
 
-| Product edges inclusion |
-|-|
-| Open, no obstacle to the (intermediate) removal of products or elements |
-| Overlap, partial obstruction to (intermediate) removal of products or elements |
-| Closed, complete obstruction to (intermediate) removal of products or elements |
+### DGBC
+
+The Detachability Index at object level **calculated according to the** <a href="https://www.dgbc.nl/publicaties/circular-buildings-een-meetmethodiek-voor-losmaakbaarheid-v2-0/" target="_blank">methodology described by the Dutch Green Building Council (DGBC)</a> considers all elements which are linked to a product <u>AND</u> which have a classification ending up in the layers Structure, Skin, Services, Space plane and Surroundings. Elements of the layers Stuff and Unknown are not included in the valuation. Elements linked to a product but with no information on detachability will lower the Index quality.
+
+>  Please note that the **Detachability index** cannot be considered in isolation from the **Index quality**, which indicates the ratio between the number of elements for which detachability information is available and the total number of mapped elements in the object.
+
+In short, the Detachability Index assesses elements based on the following criteria, which are also provided in the excel template or which can be added to an IFC sourcefile via the <a href="https://docs.madaster.com/gb/en/knowledge-base/madaster-property-set.html" target="_blank">CPset_Madaster</a>.
+
+| Connection type (*DCGB*) | DetachabilityConnectionType (*CPset_Madaster*) |
+| - | - |
+| Dry connection | DryConnection |
+| Connection with added elements | AddedConnectionConnection |
+| Direct integral connection | DirectConnection |
+| Soft chemical compound | SoftChemicalConnection |
+| Hard chemical compound | HardChemicalConnection |
+
+| Accessibility of the connection (*DCGB*) | DetachabilityAccessibility (*CPset_Madaster*) |
+| - | - |
+| Freely accessible without additional actions | Accessible |
+| Accessible with additional actions that do not cause damage | PartialNoDamage |
+| Accessible with additional operations with fully repairable damage | PartialWithRepairableDamage |
+| Accessible with additional operations with partially repairable damage | PartialWithDamage |
+| Not accessible - irreparable damage to the product or surrounding products | NotAccessible |
+
+| Intersections (*DCGB*) | DetachabilityIntersection (*CPset_Madaster*) |
+| - | - |
+| No intersections - modular zoning of products or elements from different layers | None |
+| Occasional intersections of products or elements from different layers | Incidental |
+| Full integration of products or elements from different layers | Complete |
+
+| Product edges inclusion (*DCGB*) | DetachabilityProductEdge (*CPset_Madaster*) |
+| - | - |
+| Open, no obstacle to the (intermediate) removal of products or elements | Open |
+| Overlap, partial obstruction to (intermediate) removal of products or elements | Overlapping |
+| Closed, complete obstruction to (intermediate) removal of products or elements | Closed |
+
+### DGNB
+
+The detachability, the material separability and material compatibility are among the key circularity indicators defined in the <a href="https://www.dgnb.de/en/sustainable-building/circular-building/circularity-indices" target="_blank">methodology of the DGNB</a>.
+
+**Detachability** is used to indicate the extent to which a product or component can be dismantled.
+
+| Detachability (*CPset_Madaster*) |
+| - |
+| Optimised *or* Optimized |
+| Improved |
+| Standard |
+| Limited |
+| Problematic |
+
+An empty property or no value corresponds 'Assessment not possible'.
+
+**Material separability** is used to indicate the extent to which materials within a product or component can be separated.
+
+| Material separability (*CPset_Madaster*) |
+| - |
+| Optimised *or* Optimized |
+| Improved |
+| Standard |
+| Limited |
+| Problematic |
+
+An empty property or no value corresponds 'Assessment not possible'.
+
+**Material compatibility** is used to indicate the compatibility of materials within a product or component. The value for this indicator is specified under the circularity tab via DGNB material quality for the relevant product.
 
 
 ## Environmental
@@ -246,7 +285,7 @@ $$
 
 |||
 |-|-|
-|Round|Round up to the nearest whole value|
+|Round|Round down to the nearest whole value|
 |$L_{building}$|Lifespan of the building|
 |$L_{product}$|Lifespan of the product|
 |$LCA_{i[phase]}$|Value of the environmental indicator i for the phase(s) for the product|
@@ -276,6 +315,7 @@ $$
 |$L_{product}$|Lifespan of the product|
 |$LCA_{i[phase]}$|Value of the environmental indicator i for the phase(s) for the product|
 
+
 ## Financial
 
 The financial module shows what the residual value of a building is expressed in terms of material value. This is expressed in either:
@@ -285,7 +325,6 @@ The financial module shows what the residual value of a building is expressed in
 
 The Current value for a project is calculated by the sum of respective current values of its products. If a product is defined through a bill of materials, then the refered products will be listed in the financial calculation.
 Current value a product:
-
 
 $$CNV= TV - FC_1 - FC_2 - FC_3$$
 
@@ -359,7 +398,6 @@ $$FC_2=\sum_{p} FC_{2-p}*M_p$$
 | Abbreviation | Description |
 |--------------|-------------|
 | $M_p$ | Mass of product in the building |
-
 
 $$FC_{3-p}=H_p(1+IR)$$
 
@@ -435,7 +473,6 @@ $$B_l=\frac{\sum_{b}M_{bl}*DI_{bl}}{\sum_{b}M_{bl}}$$
 |$DI_{bl}$| Detachabilty Index of the building layer |
 |$\sum_{b}$|SUM for all buildings in selection|
 
-
 #### Environmental KPI's:  
 The building benchmark is established as a weighted average of the environmental KPI's:
 
@@ -447,8 +484,8 @@ $$B_{ip-t}=\frac{\sum_{b}LCA_{ip-b}}{\sum_{b}GSA_b}$$
 | $LCA_{ip-b}$ | LCA value for indicator i in phases p of the building|
 |$\sum_{b}$|SUM for all buildings in selection|
 
+### Material Value/m<sup>2</sup>:
 
-### Material Value/m<sup>2</sup>; 
 The material value benchmark is established as a weighted average of the material values of the buildings in te selection: 
 
 $$B=\frac{\sum_{b}CV_b}{\sum_{b}GSA_b}$$
