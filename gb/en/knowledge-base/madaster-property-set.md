@@ -33,6 +33,10 @@ E.g. if a user entered a value in the Madaster CPset property "Length", while th
 | OtherUnit                         | IfcReal            | OtherUnit                         |
 | OtherUnitName                     | IfcText            | OtherUnitName                     |
 | OtherUnitPropertyName             | IfcText            | OtherUnitPropertyName             |
+| ElementInstanceCombinationId      | IfcText            | ElementInstanceCombinationId      |
+| ElementCombinationType            | IfcText            | ElementCombinationType            |
+| ElementName                       | IfcText            | ElementName                       |
+| ElementTypeName                   | IfcText            | ElementTypeName                   |
 | Classification                    | IfcText            | Classification                    |
 | BuildingNumbers                   | IfcText            | BuildingNumbers                   |
 | Phase                             | IfcText            | Phase                             |
@@ -41,7 +45,11 @@ E.g. if a user entered a value in the Madaster CPset property "Length", while th
 | DetachabilityAccessibility        | IfcText            | DetachabilityAccessibility        |
 | DetachabilityIntersection         | IfcText            | DetachabilityIntersection         |
 | DetachabilityProductEdge          | IfcText            | DetachabilityProductEdge          |
+| DgnbDetachability                 | IfcText            | DgnbDetachability                 |
+| DgnbMaterialSeparability          | IfcText            | DgnbMaterialSeparability          |
 | Reuse                             | IfcReal            | InputPercentageReuse              |
+| Available for reuse               | IfcReal            | InputPercentageReuse              |
+| LifeSpan                          | IfcReal            | InputPercentageReuse              |
 | InstallationDate                  | IfcText            | InstallationDate                  |
 | SerialNumber                      | IfcText            | SerialNumber                      |
 | TechnicalCondition                | IfcPositiveInteger | TechnicalCondition                |
@@ -77,6 +85,9 @@ For example: enter the NL/SfB-Table1 value (2 or 4 digits).
 **Phase**\
 Value for the building phase.
 
+**Detachability**\
+For detailed information on the processable values see in the Knowledge Base <a href="../knowledge-base/calculations#detachability">Detachability</a>
+
 **Reuse**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.
 
@@ -84,24 +95,24 @@ Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a
 The wastecode format that needs to be used is as followed:
 code:percentage:nature:cw-outcome:oo-outcome;code:percentage:nature:cw-outcome:oo-outcome;
 
-This can be for example:
-16 02 09*:0.1:Hazardous:70:70;17 01:0.25:Inert:60:60;
+    This can be for example:
+    16 02 09*:0.1:Hazardous:70:70;17 01:0.25:Inert:60:60;
 
-Following options are also available:
+    Following options are also available:
 
-* code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
-* code:percentage:nature; In this scenario the default nature will be overwritten by user input.
-* code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
+    * code:percentage; In this scenario nature will be default for the belonging code and outcomes will be empty.
+    * code:percentage:nature; In this scenario the default nature will be overwritten by user input.
+    * code:percentage:nature:cw-outcome; In this scenario all 4 will be filled, but no overordering outcome.
 
-Following scenario's will result in failure:
-* Wrong code
-* Double code (in case of multiple waste codes)
-* Percentage zero, negative or above 1 (100%)
-* Wrong nature
-* Wrong outcome
-* Outcome for CW that is only valid for OO and vice versa
-* Outcome that does not match with selected nature
-* Total of all wastecodes above 1 (100%)
+    Following scenario's will result in failure:
+    * Wrong code
+    * Double code (in case of multiple waste codes)
+    * Percentage zero, negative or above 1 (100%)
+    * Wrong nature
+    * Wrong outcome
+    * Outcome for CW that is only valid for OO and vice versa
+    * Outcome that does not match with selected nature
+    * Total of all wastecodes above 1 (100%)
 
 **AssumedConstructionWaste**\
 Enter a number in the format 0.01 (1%) and 1.0 (100%). Should be above 0.0 and a maximum of 1.0.

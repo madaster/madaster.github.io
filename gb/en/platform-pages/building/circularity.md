@@ -32,7 +32,7 @@ The Building CI is corrected by two factors that include the completeness of the
 A <a href="https://docs.madaster.com/nl/en/knowledge-base/calculations#madaster-circularity-indicator-mci" target="_blank">detailed explanation</a> of the Madaster Circularity Indicator is also available.
 
 ### Detachability
-The detachability index at the building level is calculated according to a methodology described on the site of the Dutch Green Building Council. Within Madaster, the calculation is made on all elements linked to products which have detachability information and an Environmental Cost Indicator.
+The detachability index at the building level is calculated according to the selected methodology. For detailed information, please refer in our Docs to the Knowledge Base section Calculations <a href="https://docs.madaster.com/gb/en/knowledge-base/calculations#detachability" target="_blank">Detachability</a>.
 
 ### Material Flows
 Using the dropdown, material flows can be displayed by total, shearing layer, and material/product. Input flows are classified based on Platform CB'23's definition of virgin and secondary feedstock. Virgin feedstock is divided into renewable and non-renewable material, with renewable material being further divided into sustainably produced and non-sustainably produced material. Secondary feedstock is divided into material from reuse and material from recycling. Output flows are classified based on Platform CB'23's definition. Output is divided into material available for reuse, material available for recycling, material for landfill, and material for incineration. When shown in 3D, the materials/products are color-coded based on their MCI, and their input and output flows.
