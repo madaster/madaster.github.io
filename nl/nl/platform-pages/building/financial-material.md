@@ -13,10 +13,10 @@ Vervolgens zijn de materiaalwaarden gecorrigeerd met sloopkosten, bewerkings- en
 
 ### Bronnen
 * LME (London Metal Exchange)
-* Quandl
-* www.vraagenaanbod.nl
-* RVO
-* BLS Beta Labs
+* FRED (Federal Reserve Economic Data)
+* The World Bank
+* Plasticker
+* NASDAQ
 
 
 ### Welke invloed hebben inflatie, BDB-index (bouwkosten-index) en de discontovoet op mijn berekening?

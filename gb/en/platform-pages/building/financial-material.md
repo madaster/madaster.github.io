@@ -14,11 +14,11 @@ Subsequently, the material values were corrected for demolition costs, processin
 
 
 ### Sources
-- LME (London Metal Exchange)
-- Quandl
-- www.vraagenaanbod.nl
-- RVO
-- BLS Beta Labs
+* LME (London Metal Exchange)
+* FRED (Federal Reserve Economic Data)
+* The World Bank
+* Plasticker
+* NASDAQ
 
 ### What influence do inflation, BDB Index (construction costs index) and the discount rate have on my calculation?
 The influence of these can be tested in the sensitivity analysis on the detail pages. Here the inflation, BDB index and the discount rate can be adjusted. The values for inflation and the BDB-index are standard on the average of the last 18 years. For the discount rate, the 10-year government interest rate (0.7%) is taken with a number of risk (2%) and profit (0.3%) added.

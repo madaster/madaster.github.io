@@ -12,11 +12,11 @@ Deretter blir materialverdiene korrigert for rivekostnader, behandlingskostnader
 
 
 ### Kilder
-- LME (London Metal Exchange, metallbørsen i London).
-- Quandl.
-- www.vraagenaanbod.nl.
-- RVO.
-- BLS Beta Labs.
+* LME (London Metal Exchange)
+* FRED (Federal Reserve Economic Data)
+* The World Bank
+* Plasticker
+* NASDAQ
 
 ### Hvordan påvirker inflasjon, BDB-indeksen (byggekostnadsindeks) og diskonteringsrenten beregningen min?
 Innflytelsen av disse kan testes i følsomhetsanalysen på detaljsidene. Her kan du justere inflasjon, BDB-indeksen og diskonteringsrenten. Verdiene for inflasjon og BDB-indeksen er som standard lik gjennomsnittet for de siste 18 årene. Som diskonteringsrente brukes renten for tiårige statsobligasjoner (0,7 %) pluss risiko (2 %) og fortjeneste (0,3 %) lagt til.
