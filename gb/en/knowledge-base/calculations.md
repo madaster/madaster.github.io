@@ -248,7 +248,7 @@ The detachability, the material separability and material compatibility are amon
 
 An empty property or no value corresponds 'Assessment not possible'.
 
-**Material separability** is used to indicate the extent to which materials within a product or component can be separated.
+**MaterialSeparability** is used to indicate the extent to which materials within a product or component can be separated.
 
 | Material separability (*CPset_Madaster*) |
 | - |
@@ -260,7 +260,7 @@ An empty property or no value corresponds 'Assessment not possible'.
 
 An empty property or no value corresponds 'Assessment not possible'.
 
-**Material compatibility** is used to indicate the compatibility of materials within a product or component. The value for this indicator is specified under the circularity tab via DGNB material quality for the relevant product.
+**Material compatibility** is used to indicate the compatibility of materials within a product or component. The value for this indicator is specified in the product in the circularity tab via *DGNB material quality*.
 
 
 ## Environmental

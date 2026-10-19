@@ -45,8 +45,8 @@ E.g. if a user entered a value in the Madaster CPset property "Length", while th
 | DetachabilityAccessibility        | IfcText            | DetachabilityAccessibility        |
 | DetachabilityIntersection         | IfcText            | DetachabilityIntersection         |
 | DetachabilityProductEdge          | IfcText            | DetachabilityProductEdge          |
-| DgnbDetachability                 | IfcText            | DgnbDetachability                 |
-| DgnbMaterialSeparability          | IfcText            | DgnbMaterialSeparability          |
+| Detachability                     | IfcText            | **Dgnb**Detachability             |
+| MaterialSeparability              | IfcText            | **Dgnb**MaterialSeparability      |
 | Reuse                             | IfcReal            | InputPercentageReuse              |
 | Available for reuse               | IfcReal            | InputPercentageReuse              |
 | LifeSpan                          | IfcReal            | InputPercentageReuse              |
