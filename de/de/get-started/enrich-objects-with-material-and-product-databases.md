@@ -25,8 +25,6 @@ Sobald eine Quelldatei hochgeladen und verarbeitet wurde, können Sie durch Klic
 
 Klicken Sie die Schaltfläche **Erweitern** <iconify-icon inline icon='mdi-link-variant-plus'/> und wählen Sie **Manuell**, um in die Detailansicht zu gelangen. Den **Fortschritt des Erweiterungsprozesses** können Sie mithilfe der Filter auf der linken Seite analysieren. z.B. nach fehlenden Materialverknüpfungen, Klassifizierungen oder geometrischen Informationen zu suchen.
 
-Fehlende geometrische Informationen müssen über die Quelldateien ergänzt und mittels neuer Version hochgeladen werden. <a href="../knowledge-base/preparing-bim-ifc-source-files" target="_blank">Hier</a> erfahren Sie, wie Sie Ihre IFC-Datei für Madaster vorbereiten.
-
 Die folgenden Optionen stehen für manuelle Anpassungen und Zuordnungen zur Verfügung, wenn vor dem Element die zugehörige Checkbox <iconify-icon inline icon='mdi-checkbox-marked'/> ausgewählt wird:
 
   * **Verknüpfen** <iconify-icon inline icon='mdi-link-variant'/> von Elementen, denen Materialinformationen fehlen oder die nicht automatisch mit einem Produktdatensatz verknüpft wurden (siehe <a href="../get-started/enrich-objects-with-material-and-product-databases#manueller-zuordnungsprozess">Manueller Zuordnungsprozess</a>)
@@ -36,6 +34,14 @@ Die folgenden Optionen stehen für manuelle Anpassungen und Zuordnungen zur Verf
   * **Einschließen** und **Ausschließen** von Elementen, die Teil oder kein Teil der Berechnungen sein sollten (z.B. Luftschichten) 
 
 > Hinweis: Bei der **Suche** <iconify-icon inline icon='mdi-magnify'/> nach Elementen wird empfohlen, vor und nach dem Suchbegriff ein * hinzuzufügen, um beliebige Buchstaben vor und/oder nach dem Wort einzuschließen und bessere Treffer zu erhalten.
+
+### Fehlende geometrische Informationen ergänzen
+Fehlende geometrische Informationen können:
+* über die Quelldateien ergänzt und mittels neuer Version hochgeladen werden. <a href="../knowledge-base/preparing-bim-ifc-source-files" target="_blank">Hier</a> erfahren Sie, wie Sie Ihre IFC-Datei für Madaster vorbereiten.
+* über den Excel-Export der IFC-Quelldatei angepasst werden. Dazu klicken Sie im Dateien-Tab auf die Quelldatei, wählen **Datei exportieren** und generieren die Excel-Datei. Laden Sie diese herunter, korrigieren Sie die Werte und klicken Sie anschließend auf **Datei importieren**, um die Excel-Datei hochzuladen.
+* direkt unter **Erweitern** <iconify-icon inline icon='mdi-link-variant-plus'/>. Aktivieren Sie die Checkbox eines oder mehrerer Elemente in der Erweitern-Oberfläche, klicken Sie auf das Stiftsymbol <iconify-icon inline icon='mdi-pencil-outline'/> und passen Sie die Mengenangaben im unteren Bereich des Dialogfensters an.
+
+
 
 ## Manueller Zuordnungsprozess
 
