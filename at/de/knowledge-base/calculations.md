@@ -203,37 +203,111 @@ $$
 |-|-|
 |$E_C$ | Effizienz des Rezyklingprozess' (%) eines Produkts mit der Materialverwertung als Recycling. Der Standardwert 75% kann händisch überschrieben werden, da häufig diese Information nicht vorliegt.|
 
-## Demontierbarkeit (Detachability)
-Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
+## Rückbaubarkeit
 
-### Erfassung der Demontierbarkeit
+Die Rückbaubarkeit bewertet die Art und Weise wie ein Produkt oder Bauteil im Objekt verbaut ist. Auf Madaster kann man die Rückbaubarkeit nach DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen) oder nach DGBC (Dutch Green Building Council) eintragen. Das Vorgehen bei beiden Methoden wird im Folgenden erläutert.
 
-Die Demontierbarkeits-Eigenschaften können bereits in der Quelldatei hinterlegt werden, entweder über die <a href= "https://platform.madaster.com/api/buildingfile/downloadexceltemplate/cd373c62-3c53-4bd0-bedb-0e77bd36d60a/de/de" target="">Excel-Quelldatei</a> oder über eine IFC-Datei. In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen. In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
+### Rückbaubarkeit - DGNB vs. DGBC
 
-Sowohl für die Nutzung von Excel- sowie IFC-Quelldateien, können englische oder deutsche Begriffe der Demontierbarkeit genutzt werden. 
+Auf Madaster gibt es zwei Methoden zur Bewertung der Rückbaufähigkeit: die Methode nach DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen) mit den Indikatoren „Demontagefähigkeit“ und „Werkstoffliche Trennbarkeit“ und die Methode nach DGBC (Dutch Green Building Council) mit dem Indikator „Demontagefähigkeit“.
 
-Alternativ können die Demontierbarkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
+Die Auswahl erfolgt in der Plattform auf Projektebene unter „Objekt bearbeiten“ im Reiter „Allgemeines“.
 
-### Berechnung der Demontierbarkeit 
+### Erfassung der Rückbaubarkeit
 
-Die Berechnung der Demontierbarkeit in madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Demontierbarkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift madaster auf die Demontierbarkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Demontierbarkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
+Grundsätzlich kann man die Rückbaubarkeit in der Quelldatei eines spezifischen Projekts definieren, oder für Produkte der eigenen Account-/Ordner-/Projekt-Datenbank festlegen.
 
-> Hinweis: Bei Bauteilen wird die Demontierbarkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. Unterschied Produkte und Bauteile. 
-<a href="https://docs.madaster.com/at/de/knowledge-base/databases-products.html" target="_blank">Unterschied Produkte und Bauteile</a>
+Sowohl bei der Nutzung von Excel- als auch von IFC-Quelldateien können englische oder deutsche Begriffe der Rückbaubarkeit genutzt werden.
 
-Die Bewertung der Demontierbarkeit erfolgt nach der Methode des Dutch Green Building Council. Dafür wurden die in madaster verwendeten Klassifizierungen, wie die DIN 276 oder ÖNORM B 1801-1, den für die Berechnung relevanten Gebäudeschichten zugeordnet. Eine Übersicht der Zuordnung finden Sie unter <a href="https://platform.madaster.com/admin/classifications" target="_blank">Klassifizierungsmethode</a> in den jeweiligen Klassifizierungen. _(für den Zugriff ist eine madaster-Lizenz erforderlich)_.
+**Per Element definieren - Quelldatei IFC:**
+In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des Madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
 
-> Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt.
+Für DGNB:
+Die Rückbaubarkeits-Eigenschaften "Demontagefähigkeit" und "Werkstoffliche Trennbarkeit" können bereits in der Quelldatei hinterlegt werden, entweder über die Excel-Quelldatei oder über eine IFC-Datei.
 
-Für die Auswertung der Demontierbarkeit müssen alle vier erforderlichen Demontierbarkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontierbarkeit.
+Für DGBC:
+Alle Rückbaubarkeits-Eigenschaften für DGBC können bereits in der Quelldatei hinterlegt werden, entweder über die Excel-Quelldatei oder über eine IFC-Datei.
 
-  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland wird die Masse der Elemente stattdessen genommen. Die Demontierbarkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontierbarkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
+**Per Element definieren - Quelldatei Excel:**
+In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen (sowohl für DGNB als auch DGBC).
+
+
+**Per Produkt definieren - Datenbank**
+Außerdem können alle Eigenschaften (sowohl für DGNB als auch DGBC) für Produkte in den Datenbanken auf Madaster eingepflegt werden, indem man das Produkt in der Datenbank bearbeitet und im Tab "Zirkularität" die Dropdown-Felder befüllt.
+
+**Anpassung im Enrichment**
+Alternativ können die Demontagefähigkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
+
+> Hinweis: Nur die Demontagefähigkeit und die Werkstoffliche Trennbarkeit können über das Enrichment angepasst werden.
+
+### Berechnung der Rückbaubarkeit 
+
+Die Berechnung der Rückbaubarkeit auf Madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Rückbaubarkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift Madaster auf die Rückbaubarkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Rückbaubarkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
+
+> Hinweis: Bei Bauteilen wird die Rückbaubarkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. 
+<a href="https://docs.madaster.com/de/de/knowledge-base/databases-products.html" target="_blank">Unterschied Produkte und Bauteile.</a>
+
+> Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt. 
+
+### Rückbaubarkeit laut DGNB
+
+Die Demontagefähigkeit, die werkstoffliche Trennbarkeit sowie die Materialverträglichkeit zählen zu den zentralen Zirkularitätskennwerten der DGNB (Deutschen Gesellschaft für Nachhaltiges Bauen).
+
+#### Demontagefähigkeit - DGNB
+
+Die "Demontagefähigkeit" bzw. "Detachability" dient der Angabe der Demontagefähigkeit des Produkts bzw. des Bauteils.
+
+Falls die Demontagefähigkeit in einer IFC-Datei festgehalten wird, heißt das Property "Demontagefähigkeit" bzw. "Detachability" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Demontagefähigkeit | Englische Werte Detachability |
+| --------------------------------- | ----------------------------- |
+| Optimiert | Optimised |
+| Verbessert | Improved |
+| Standard | Standard |
+| Eingeschränkt | Limited |
+| Problematisch | Problematic |
+| [leeres Feld] | [empty field] |
+
+#### Werkstoffliche Trennbarkeit - DGNB
+
+Die "WerkstofflicheTrennbarkeit" bzw. "MaterialSeparability" dient der Angabe der werkstofflichen Trennbarkeit innerhalb eines Produkts bzw. eines Bauteils.
+
+Falls die werkstoffliche Trennbarkeit in einer IFC-Datei festgehalten wird, heißt das Property "WerkstofflicheTrennbarkeit" bzw. "MaterialSeparability" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Demontagefähigkeit | Englische Werte Detachability |
+| --------------------------------- | ----------------------------- |
+| Optimiert | Optimised |
+| Verbessert | Improved |
+| Standard | Standard |
+| Eingeschränkt | Limited |
+| Problematisch | Problematic |
+| [leeres Feld] | [empty field] |
+
+#### Materialverträglichkeit - DGNB
+
+Die "Materialverträglichkeit" bzw. "Material Compatibility" dient der Angabe der Materialverträglichkeit innerhalb eines Produkts bzw. eines Bauteils.
+
+Falls die Materialverträglichkeit in einer IFC-Datei festgehalten wird, heißt das Property "Materialverträglichkeit" bzw. "Material Compatibility" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Materialverträglichkeit | Englische Werte Material Compatibility |
+| -------------------------------------- | -------------------------------------- |
+| Zielvorstellung | Objective / target |
+| Optimiert | Optimised |
+| Gehobener Standard | High standard |
+| Standard | Standard |
+| Kritisch | Critical |
+| Nicht bewertbar | Assessment not possible |
+| [leeres Feld] | [empty field] |
+
+### Rückbaubarkeit laut DGBC
+
+Der Demontagefähigkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebene Methode berechnet.
+
+Für die Auswertung der Demontagefähigkeit müssen alle vier erforderlichen Demontagefähigkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontagefähigkeit.
+
+  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland, Österreich und der Schweiz wird die Masse der Elemente stattdessen genommen. Die Demontagefähigkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontagefähigkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
 
 Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen.
-
-### Erforderliche Demontierbarkeits-Eigenschaften
-
-Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index und werden wie folgt in eine IFC-Quelldatei eingetragen:
 
 #### 1. Art der Verbindung (Connection Type) und Details zur Verbindung (Connection Type Detail )
 
@@ -249,7 +323,7 @@ Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property *
 
 Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityConnectionTypeDetail** bzw. **DetailsZurVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
 
-| Deutsche Werte DetailsZurVerbindung    | Englishe Werte ConnectionTypeDetail | Deutsche Werte ArtDerVerbindung              | Englishe Werte ConnectionType         |
+| Deutsche Werte DetailsZurVerbindung    | Englische Werte ConnectionTypeDetail | Deutsche Werte ArtDerVerbindung              | Englische Werte ConnectionType         |
 |----------------------------------------|------------------------------|-------------------------------------|--------------------------------|
 | Unbekannt                              | Unknown                      | TrockeneVerbindung                 | DryConnection                  |
 | Lose                                   | None                         | TrockeneVerbindung                 | DryConnection                  |
@@ -283,7 +357,6 @@ Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property *
 | PartialWithDamage | ZugänglichMitTeilweiseReparierbarenSchäden | *Zugänglich mit zusätzlichen Maßnahmen und mit teilweise reparierbaren Schäden* |
 | NotAccessible | NichtZugänglich | *Nicht zugänglich - irreparable Schäden am Produkt oder den umliegenden Produkten* |
 
-
 #### 3. Überschneidungen (Intersections)
 
 Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityIntersection** bzw. **Überschneidungen** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
@@ -293,7 +366,6 @@ Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property *
 | None                           | KeineÜberschneidungen          | *Keine Überschneidungen – modulare Zonierung von Produkten oder Elementen aus unterschiedlichen Schichten* |
 | Incidental                     | GelegentlicheÜberschneidungen  | *Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten* |
 | Complete                       | VollständigeIntegration        | *Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten* |
-
 
 #### 4. Produktkanten (Product Edges Inclusion)
 
@@ -305,7 +377,7 @@ Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property *
 | Overlapping     | Überlappung    | *Überlappung - teilweise Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
 | Closed          | Geschlossen    | *Geschlossen - vollständige Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
 
-Weitere Details zum Befüllen von Paramtern für Madaster, sind in unserem <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuch</a> zu finden.
+Weitere Details zum Befüllen von Parametern für Madaster sind in unserem <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuch</a> zu finden.
 
 ## Umwelt
 
