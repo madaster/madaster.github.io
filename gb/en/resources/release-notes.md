@@ -45,7 +45,7 @@ This page contains the release notes for 2026.
     * It is now possible to manage documents to a product in Madaster Match:
     <figure><img src="/assets/images/releasenotes/202608-13740-1.png" alt="The dossier tab on a product in Madaster Match, where documents can be managed."><figcaption>The dossier tab on a product in Madaster Match, where documents can be managed.</figcaption></figure>
 
-    * Authorizations have been changed: </br>A reader is now able to view products and matches. The transfer objects role can no longer interact with most of Madaster Match's features.
+    * Authorizations have been changed: <br>A reader is now able to view products and matches. The transfer objects role can no longer interact with most of Madaster Match's features.
     * After creating a Madaster Match project, the new project is now opened directly.
 
 ### Bugfixes ###
