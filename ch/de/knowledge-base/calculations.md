@@ -192,56 +192,182 @@ $$
 |-|-|
 |$E_C$ | Effizienz des Rezyklingprozess' (%) eines Produkts mit der Materialverwertung als Recycling. Der Standardwert 75% kann händisch überschrieben werden, da häufig diese Information nicht vorliegt.|
 
-## Demontierbarkeit (Detachability)
+## Rückbaubarkeit
 
-Der Demontierbarkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebenene Methode berechnet.
+Die Rückbaubarkeit bewertet die Art und Weise wie ein Produkt oder Bauteil im Objekt verbaut ist. Auf Madaster kann man die Rückbaubarkeit nach DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen) oder nach DGBC (Dutch Green Building Council) eintragen. Das Vorgehen bei beiden Methoden wird im Folgenden erläutert.
 
-Auf Madaster basiert die Berechnung auf allen verknüpften Elementen, wobei die vier Demontierbarkeits-Eigenschaften für jedes Element in der Quelldatei enthalten sein kann (z.B. mit dem Madaster_CPset und den Detachability-Eigenschaften, dessen Anwendung in der BIM-Handbuch beschrieben ist oder unter <a href="/ch/de/knowledge-base/madaster-property-set.html" target="_blank">Madaster Common Property Set</a>.) und wenn die Information nicht in der Quelldatei gefunden wird, greift Madaster auf die Demontierbarkeit zurück, die im verknüpften Produkt definiert wurde.
-Wenn kein Produkt verknüpft ist oder das verknüpfte Produkt keine Angaben zur Demontierbarkeit enthält, werden die Demontierbarkeits-Eigenschaften als "Unbekannt" markiert.
+### Rückbaubarkeit - DGNB vs. DGBC
 
-Eine Bearbeitung der Demontierbarkeit ist auf der Plattform möglich, indem im Erweitert-Tab ein Element ausgewählt wird und mit dem Stift-Icon in der Menüleiste bearbeitet wird. Auch die Auswahl und Bearbeitung mehrerer Elemente gleichzeitig ist möglich.
+Auf Madaster gibt es zwei Methoden zur Bewertung der Rückbaufähigkeit: die Methode nach DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen) mit den Indikatoren „Demontagefähigkeit“ und „Werkstoffliche Trennbarkeit“ und die Methode nach DGBC (Dutch Green Building Council) mit dem Indikator „Demontagefähigkeit“.
 
-Für die Angabe über IFC-Quelldateien müssen die englischen Begriffe genutzt werden, während die Demontierbarkeit über die Excel-Quelldatei oder über die Plattform (als Produktangabe oder Elementangabe im Erweitert-Tab), mit deutschen Begriffen angegeben wird.
+Die Auswahl erfolgt in der Plattform auf Projektebene unter „Objekt bearbeiten“ im Reiter „Allgemeines“.
 
-Die folgenden vier Eigenschaften bestimmen den Demontierbarkeits-Index:
+### Erfassung der Rückbaubarkeit
 
-#### Verbindungstypen (Connection type)
+Grundsätzlich kann man die Rückbaubarkeit in der Quelldatei eines spezifischen Projekts definieren, oder für Produkte der eigenen Account-/Ordner-/Projekt-Datenbank festlegen.
 
-||
-|-|
-|Trockene Verbindung (Dry connection)|
-|Verbindung mit Zusatzelementen (Connection with added elements)|
-|Direkte integrierte Verbindung (Direct integral connection)|
-|Weiche chemische Verbindung (Soft chemical compound)|
-|Harte chemische Verbindung (Hard chemical compound)|
+Sowohl bei der Nutzung von Excel- als auch von IFC-Quelldateien können englische oder deutsche Begriffe der Rückbaubarkeit genutzt werden.
 
-#### Zugänglichkeit (Accessibility of the connection)
+**Per Element definieren - Quelldatei IFC:**
+In der IFC-Datei müssen die Werte gemäß den Vorgaben des <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuchs</a> bzw. des Madaster Common Property Sets (madaster_CPset) eingetragen werden. Die Werte müssen genau wie angegeben, mit Leerzeichen sowie Groß- und Kleinschreibung übernommen werden.
 
-| |
-|-|
-| Frei zugänglich ohne zusätzliche Maßnahmen (Accessible) |
-| Zugänglich mit zusätzlichen Aktionen, die keinen Schaden verursachen (PartialNoDamage) |
-| Zugänglich mit zusätzlichen Maßnahmen und mit vollständig reparierbaren Schäden (PartialWithRepairableDamage) |
-| Zugänglich mit zusätzlichen Maßnahmen und mit teilweisereparierbaren Schäden (ParialWithDamage) |
-| Nicht zugänglich - irreparable Schäden am Produkt oder den umliegenden Produkten (NotAccessible) |
+Für DGNB:
+Die Rückbaubarkeits-Eigenschaften "Demontagefähigkeit" und "Werkstoffliche Trennbarkeit" können bereits in der Quelldatei hinterlegt werden, entweder über die Excel-Quelldatei oder über eine IFC-Datei.
 
-#### Überschneidungen (Intersections)
+Für DGBC:
+Alle Rückbaubarkeits-Eigenschaften für DGBC können bereits in der Quelldatei hinterlegt werden, entweder über die Excel-Quelldatei oder über eine IFC-Datei.
 
-| |
-|-|
-| Keine Überschneidungen – modulare Zonierung von Produkten oder Elementen aus unterschiedlichen Schichten (None) |
-| Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten (Incidental) |
-| Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten (Complete) |
+**Per Element definieren - Quelldatei Excel:**
+In der Excel-Quelldatei sind die Eigenschaften entsprechend den vorgegebenen Dropdown-Optionen auszufüllen (sowohl für DGNB als auch DGBC).
 
-#### Einschluss von Produktkanten (Product edges inclusion)
 
-| |
-|-|
-| Offen - kein Hindernis für die (Zwischen-)Entfernung von Produkten oder Elementen (Open) |
-| Überlappung - teilweise Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen (Overlapping)|
-| Geschlossen - vollständige Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen (Closed) |
+**Per Produkt definieren - Datenbank**
+Außerdem können alle Eigenschaften (sowohl für DGNB als auch DGBC) für Produkte in den Datenbanken auf Madaster eingepflegt werden, indem man das Produkt in der Datenbank bearbeitet und im Tab "Zirkularität" die Dropdown-Felder befüllt.
 
-Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen. 
+**Anpassung im Enrichment**
+Alternativ können die Demontagefähigkeits-Eigenschaften auch direkt auf der Plattform gepflegt werden. Hierzu können im Erweitert-Tab ein oder mehrere Elemente ausgewählt und über das Stift-Icon in der Menüleiste bearbeitet werden.
+
+> Hinweis: Für die DGNB können nur die Demontagefähigkeit und die Werkstoffliche Trennbarkeit können über eine Quelldatei angegeben oder das Enrichment angepasst werden, da die Materialverträglichkeit eine Eigenschaft der Produkte ist.
+
+### Berechnung der Rückbaubarkeit 
+
+Die Berechnung der Rückbaubarkeit auf Madaster basiert auf allen verknüpften Elementen. Für die Auswertung werden zunächst die Rückbaubarkeits-Eigenschaften auf Elementebene berücksichtigt, die entweder aus der Quelldatei oder aus den Einträgen im Erweitert-Tab stammen. Sind dort keine Informationen vorhanden, greift Madaster auf die Rückbaubarkeitsdaten des verknüpften Produkts in der Datenbank zurück. Ist kein Produkt verknüpft oder enthält das verknüpfte Produkt keine Angaben zur Rückbaubarkeit, werden die entsprechenden Elemente nicht in die Berechnung einbezogen.
+
+> Hinweis: Bei Bauteilen wird die Rückbaubarkeit von den Produkten übernommen, die in der Materialliste des Bauteils hinterlegt sind. 
+<a href="https://docs.madaster.com/de/de/knowledge-base/databases-products.html" target="_blank">Unterschied Produkte und Bauteile.</a>
+
+> Hinweis: Die Schichten **Unbekannt** und **Mobiliar** werden in der Bewertung nicht berücksichtigt. 
+
+
+### Rückbaubarkeit laut DGNB
+
+Die Demontagefähigkeit, die werkstoffliche Trennbarkeit sowie die Materialverträglichkeit zählen zu den zentralen Zirkularitätskennwerten der DGNB (Deutschen Gesellschaft für Nachhaltiges Bauen).
+
+#### Demontagefähigkeit - DGNB
+
+Die "Demontagefähigkeit" bzw. "Detachability" dient der Angabe der Demontagefähigkeit des Produkts bzw. des Bauteils.
+
+Falls die Demontagefähigkeit in einer IFC-Datei festgehalten wird, heißt das Property "Demontagefähigkeit" bzw. "Detachability" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Demontagefähigkeit | Englische Werte Detachability |
+| --------------------------------- | ----------------------------- |
+| Optimiert | Optimised |
+| Verbessert | Improved |
+| Standard | Standard |
+| Eingeschränkt | Limited |
+| Problematisch | Problematic |
+| [leeres Feld] | [empty field] |
+
+#### Werkstoffliche Trennbarkeit - DGNB
+
+Die "WerkstofflicheTrennbarkeit" bzw. "MaterialSeparability" dient der Angabe der werkstofflichen Trennbarkeit innerhalb eines Produkts bzw. eines Bauteils.
+
+Falls die werkstoffliche Trennbarkeit in einer IFC-Datei festgehalten wird, heißt das Property "WerkstofflicheTrennbarkeit" bzw. "MaterialSeparability" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Demontagefähigkeit | Englische Werte Detachability |
+| --------------------------------- | ----------------------------- |
+| Optimiert | Optimised |
+| Verbessert | Improved |
+| Standard | Standard |
+| Eingeschränkt | Limited |
+| Problematisch | Problematic |
+| [leeres Feld] | [empty field] |
+
+#### Materialverträglichkeit - DGNB
+
+Die "Materialverträglichkeit" bzw. "Material Compatibility" dient der Angabe der Materialverträglichkeit innerhalb eines Produkts bzw. eines Bauteils.
+
+Falls die Materialverträglichkeit in einer IFC-Datei festgehalten wird, heißt das Property "Materialverträglichkeit" bzw. "Material Compatibility" und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte Materialverträglichkeit | Englische Werte Material Compatibility |
+| -------------------------------------- | -------------------------------------- |
+| Zielvorstellung | Objective / target |
+| Optimiert | Optimised |
+| Gehobener Standard | High standard |
+| Standard | Standard |
+| Kritisch | Critical |
+| Nicht bewertbar | Assessment not possible |
+| [leeres Feld] | [empty field] |
+
+### Rückbaubarkeit laut DGBC
+
+Der Demontagefähigkeits-Index auf Gebäudeebene wird nach der vom <a href="/files/at/DGBC_Disassembly Potential Measurement Methodology_2022.pdf" target="_blank">Dutch Green Building Council (DGBC)</a> beschriebene Methode berechnet.
+
+Für die Auswertung der Demontagefähigkeit müssen alle vier erforderlichen Demontagefähigkeits-Eigenschaften ausgefüllt sein. Zusätzlich kann eine fünfte Eigenschaft angegeben werden, die **Details zur Verbindung** beschreibt. Diese Angabe ist jedoch optional und nicht erforderlich für die Berechnung der Demontagefähigkeit.
+
+  > Hinweis: Der Umweltkostenindikator (ECI) wird in den Niederlanden verwendet, in Deutschland, Österreich und der Schweiz wird die Masse der Elemente stattdessen genommen. Die Demontagefähigkeit des gesamten Gebäudes ergibt sich aus der gewichteten Summe der Demontagefähigkeiten der einzelnen Elemente, wobei jedes Element entsprechend seinem Masseanteil am Gesamtgebäude berücksichtigt wird.
+
+Für Details bzgl. der Berechnungsmethodik wird auf den oben verlinkten Bericht des Dutch Green Building Councils verwiesen.
+
+#### 1. Art der Verbindung (Connection Type) und Details zur Verbindung (Connection Type Detail )
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityConnectionType** bzw. **ArtDerVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte ArtDerVerbindung      | Englische Werte DetachabilityConnectionType |
+|----------------------------------------|-------------------------------------|
+| TrockeneVerbindung                     | DryConnection                       |
+| VerbindungMitZusatzelementen           | AddedConnectionConnection           |
+| DirekteIntegrierteVerbindung           | DirectConnection                    |
+| WeicheChemischeVerbindung              | SoftChemicalConnection              |
+| HarteChemischeVerbindung               | HardChemicalConnection              |
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityConnectionTypeDetail** bzw. **DetailsZurVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Deutsche Werte DetailsZurVerbindung    | Englische Werte ConnectionTypeDetail | Deutsche Werte ArtDerVerbindung              | Englische Werte ConnectionType         |
+|----------------------------------------|------------------------------|-------------------------------------|--------------------------------|
+| Unbekannt                              | Unknown                      | TrockeneVerbindung                 | DryConnection                  |
+| Lose                                   | None                         | TrockeneVerbindung                 | DryConnection                  |
+| Klickverbindung                        | Click                        | TrockeneVerbindung                 | DryConnection                  |
+| Klettverbindung                        | Velcro                       | TrockeneVerbindung                 | DryConnection                  |
+| MagnetischeVerbindung                  | Magnetic                     | TrockeneVerbindung                 | DryConnection                  |
+| Unbekannt                              | Unknown                      | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| BolzenMutterVerbindung                 | BoltAndNut                   | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Federverbindung                        | Spring                       | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Eckverbindung                          | Corner                       | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Schraubverbindung                      | Screw                        | VerbindungMitZusatzelementen      | AddedConnectionConnection      |
+| Unbekannt                              | Unknown                      | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Zapfenverbindung                       | Peg                          | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Genagelt                               | Nail                         | DirekteIntegrierteVerbindung      | DirectConnection               |
+| Unbekannt                              | Unknown                      | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Dichtungsmittel                        | Sealant                      | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Schaumstoffverbindung                  | Foam                         | WeicheChemischeVerbindung         | SoftChemicalConnection         |
+| Unbekannt                              | Unknown                      | HarteChemischeVerbindung          | HardChemicalConnection         |
+| Klebeverbindung                        | Glue                         | HarteChemischeVerbindung          | HardChemicalConnection         |
+| Gegossen                               | Dump                         | HarteChemischeVerbindung          | HardChemicalConnection         |
+
+#### 2. Zugänglichkeit der Verbindung (Accessibility)
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityAccessibility** bzw. **ZugänglichkeitDerVerbindung** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Englische Werte | Deutsche Werte | *Erklärung* |
+|-----------------|----------------|-----------|
+| Accessible | FreiZugänglich | *Frei zugänglich ohne zusätzliche Maßnahmen* |
+| PartialNoDamage | ZugänglichOhneSchaden | *Zugänglich mit zusätzlichen Aktionen, die keinen Schaden verursachen* |
+| PartialWithRepairableDamage | ZugänglichMitVollständigReparierbarenSchäden | *Zugänglich mit zusätzlichen Maßnahmen und mit vollständig reparierbaren Schäden* |
+| PartialWithDamage | ZugänglichMitTeilweiseReparierbarenSchäden | *Zugänglich mit zusätzlichen Maßnahmen und mit teilweise reparierbaren Schäden* |
+| NotAccessible | NichtZugänglich | *Nicht zugänglich - irreparable Schäden am Produkt oder den umliegenden Produkten* |
+
+#### 3. Überschneidungen (Intersections)
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityIntersection** bzw. **Überschneidungen** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Englische Werte                | Deutsche Werte                 | *Erklärung*                                 |
+|--------------------------------|--------------------------------|-------------------------------------------|
+| None                           | KeineÜberschneidungen          | *Keine Überschneidungen – modulare Zonierung von Produkten oder Elementen aus unterschiedlichen Schichten* |
+| Incidental                     | GelegentlicheÜberschneidungen  | *Gelegentliche Überschneidungen von Produkten oder Elementen aus verschiedenen Schichten* |
+| Complete                       | VollständigeIntegration        | *Vollständige Integration von Produkten oder Elementen aus verschiedenen Schichten* |
+
+#### 4. Produktkanten (Product Edges Inclusion)
+
+Falls die Verbindung in einer IFC-Datei festgehalten wird, heißt das Property **DetachabilityProductEdge** bzw. **Produktkanten** und die gültigen Werte sind in der folgenden Tabelle festgehalten.
+
+| Englische Werte | Deutsche Werte | *Erklärung* |
+|-----------------|----------------|-----------|
+| Open            | Offen          | *Offen - kein Hindernis für die (Zwischen-)Entfernung von Produkten oder Elementen* |
+| Overlapping     | Überlappung    | *Überlappung - teilweise Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
+| Closed          | Geschlossen    | *Geschlossen - vollständige Behinderung der (Zwischen-)Entnahme von Produkten oder Elementen* |
+
+Weitere Details zum Befüllen von Parametern für Madaster sind in unserem <a href= "/files/de/madaster%20GER_BIM%20Anleitung.pdf" target="">BIM-Handbuch</a> zu finden.
 
 ## Umwelt
 
