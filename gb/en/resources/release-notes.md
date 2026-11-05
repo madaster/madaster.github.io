@@ -8,6 +8,33 @@ menubar: resources-nav
 
 This page contains the release notes for 2026.
 
+## Release notes 2026.9
+ 
+* Build number: 42015
+* Release date: 4th of November 2026
+ 
+### Changes ###
+
+* It is possible now to create a backup of a source file to save the current state of work.
+
+<figure><img src="/assets/images/releasenotes/202609-135230.png" alt="Backup button for source files in the Dossier"><figcaption>Backup button for source files in the Dossier</figcaption></figure>
+
+* Now for each object the date of the last calculation is shown in button bar of the Perfomance, the Mass, the Circularity and the Environmental tab.
+
+<figure><img src="/assets/images/releasenotes/202609-140518.png" alt="Display of the 'Last calculation' date"><figcaption>Display of the 'Last calculation' date</figcaption></figure>
+
+* It is possible now to delete elements from virtual source files again.
+
+<figure><img src="/assets/images/releasenotes/202609-141410.png" alt="Button bar in the bottom of the enrichment screen for selected elements."><figcaption>Button bar in the bottom of the enrichment screen for selected elements.</figcaption></figure>
+
+* For the Ökobaudat a filter for generic products has been added. 
+
+### Country specific ###
+ 
+#### For Germany and DACH ####
+
+* In the Environmental tab D1 can now be selected with or without the Sockel for DGNB
+
 
 ## Release notes 2026.8 ##
 
