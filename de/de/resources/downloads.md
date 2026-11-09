@@ -48,9 +48,9 @@ menubar: resources-nav
 * MadasterPropertyMapping
 
 ### Revit
-<a href="/files/de/2026-04-30 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2026-04-30 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 30.04.2026) - enthält die im "Madaster BIM-Handbuch" beschriebenen Hilfsdateien für Revit
-* 2026-04-30 madaster GER_Revit_de
-* 2026-04-30 madaster GER_Revit_en
+<a href="/files/de/2026-11-09 madaster GER_Revit_en.zip" target="_blank">ZIP-Ordner Revit (englisch)</a> und <a href="/files/de/2026-11-09 madaster GER_Revit_de.zip" target="_blank">ZIP-Ordner Revit (deutsch)</a> (Stand 09.11.2026) - enthält die im "Madaster BIM-Handbuch" beschriebenen Hilfsdateien für Revit
+* 2026-11-09 madaster GER_Revit_de
+* 2026-11-09 madaster GER_Revit_en
 * IFC-Konfiguration Revit - Madaster Export
 * Revit_Baugruppenkennzeichen-nach-DIN276-V3
 
