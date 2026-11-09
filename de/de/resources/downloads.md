@@ -54,7 +54,7 @@ menubar: resources-nav
 * IFC-Konfiguration Revit - Madaster Export
 * Revit_Baugruppenkennzeichen-nach-DIN276-V3
 
-> **Hinweis:** Die Revit‑Madaster‑Hilfsdateien wurden aktualisiert; die bisherigen Versionen funktionieren weiterhin, dürfen jedoch nur untereinander kombiniert werden, ebenso wie die neuen Versionen, sodass alte (2025-09-22) und neue Dateien (2026-04-30) nicht miteinander gemischt werden sollten.
+> **Hinweis:** Die Revit‑Madaster‑Hilfsdateien wurden aktualisiert; die bisherigen Versionen funktionieren weiterhin, dürfen jedoch nur untereinander kombiniert werden, ebenso wie die neuen Versionen, sodass alte (2026-04-30) und neue Dateien (2026-11-09) nicht miteinander gemischt werden sollten.
 
 
 ### ArchiCAD
