@@ -73,6 +73,9 @@ menubar: resources-nav
 * 20250923_02_Archicad common propertyfile_madaster_en
 * 20250923_Archicad_Classification eBKP (2020)
 
+### Vectorworks
+Ausführliche Informationen finden Sie im "Madaster BIM-Handbuch".
+
 <div style="margin-top: 40px;"> </div>
 
 ## Excel
